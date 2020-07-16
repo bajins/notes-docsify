@@ -9,6 +9,7 @@
 
 * [https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China](https://github.com/HiddenStrawberry/Crawler_Illegal_Cases_In_China)
 * [xvfb可以将屏幕的图像输出给放到虚拟内存中](https://blog.csdn.net/wkb342814892/article/details/81591394)
+* 一个基于webkit的JavaScript API [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
 
 
 **[xpath和css选择器](/Web/README.md#xpath和css选择器)**
@@ -26,15 +27,24 @@ taskkill /f /im chromedriver.exe
 ```
 
 + [关于网页referer以及破解referer反爬虫的办法](https://blog.csdn.net/python_neophyte/article/details/82562330)
-
++ ReCaptcha验证码（常见为Google验证码） [https://github.com/topics/captcha-solving](https://github.com/topics/captcha-solving)
+    + [https://github.com/teal33t/captcha_bypass](https://github.com/teal33t/captcha_bypass)
+    + [https://github.com/NotHassan/Python-Google-Recaptcha-v2-Solver](https://github.com/NotHassan/Python-Google-Recaptcha-v2-Solver)
+    + [https://github.com/balanceofprobability/decaptcha](https://github.com/balanceofprobability/decaptcha)
+    + [https://github.com/IshanManchanda/pyreCAPTCHA](https://github.com/IshanManchanda/pyreCAPTCHA)
+    + [https://github.com/tafalk/recaptcha-token-resolver-function](https://github.com/tafalk/recaptcha-token-resolver-function)
++ 使用HTTP拦截器来实现cloudflare请求 [https://github.com/sayem314/hooman](https://github.com/sayem314/hooman)
 
 * [微信公众号爬取研究](https://github.com/DropsDevopsOrg/ECommerceCrawlers/wiki/%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E5%8F%96%E7%A0%94%E7%A9%B6)
 * [微信公众号爬虫](https://github.com/search?o=desc&q=%E5%BE%AE%E4%BF%A1%E5%85%AC%E4%BC%97%E5%8F%B7%E7%88%AC%E8%99%AB&s=updated&type=Repositories)
 * [https://github.com/wnma3mz/wechat_articles_spider](https://github.com/wnma3mz/wechat_articles_spider)
 * [WeChat Hook](https://github.com/search?o=desc&q=WeChat+Hook&s=updated&type=Repositories)
 * [https://github.com/redtips/wechathook](https://github.com/redtips/wechathook)
-* [https://github.com/codeByDog/pcWechat](https://github.com/codeByDog/pcWechat)
 * [https://github.com/wwg88888888/WeChatExt](https://github.com/wwg88888888/WeChatExt)
+* [https://github.com/TonyChen56/WeChatRobot](https://github.com/TonyChen56/WeChatRobot)
+* [https://github.com/KongKong20/WeChatPCHook](https://github.com/KongKong20/WeChatPCHook)
+* [WeChatDownload，批量微信公众号文章下载小工具](https://i.ijrou.com/p/story/WeChatDownload.html)
+* [https://github.com/LeLe86/vWeChatCrawl](https://github.com/LeLe86/vWeChatCrawl)
 
 
 
@@ -45,6 +55,7 @@ taskkill /f /im chromedriver.exe
 * [https://w3c.github.io/webdriver](https://w3c.github.io/webdriver)
 * [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)
 * [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
+* [https://github.com/topics/headless-browser](https://github.com/topics/headless-browser)
 
 
 

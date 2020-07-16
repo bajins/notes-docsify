@@ -38,27 +38,25 @@
 
 **WEB开发**
 
-* [https://github.com/facebook/react](https://github.com/facebook/react) [https://reactnative.cn](https://reactnative.cn)
-* [https://github.com/angular/angular](https://github.com/angular/angular) [https://angular.cn](https://angular.cn)
+* [https://github.com/facebook/react](https://github.com/facebook/react)
+    * [https://reactnative.cn](https://reactnative.cn)
+* [https://github.com/angular/angular](https://github.com/angular/angular)
+    * [https://angular.cn](https://angular.cn)
 * [https://github.com/zdhxiong/mdui](https://github.com/zdhxiong/mdui)
 * [https://github.com/baidu/amis](https://github.com/baidu/amis)
 * [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
 * [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
+* 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
 
 
 **原生应用开发**
 
 * [https://github.com/topics/electron](https://github.com/topics/electron)
-[https://github.com/electron/electron](https://github.com/electron/electron)
-
+    * [https://github.com/electron/electron](https://github.com/electron/electron)
 * [使用 node-ffi 构建 Electron 和 C++ Library 混合桌面应用](https://io.hancel.org/2018/05/02/building-an-electron-hybrid-application.html)
-
-
 * [https://github.com/topics/nwjs](https://github.com/topics/nwjs)
-[https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
-[https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
-
-
+    * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
+    * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
 * [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
 
 
@@ -117,12 +115,23 @@ nvm install <最新的版本号>
 
 ## 依赖管理
 
+* [https://github.com/Unitech/pm2](https://github.com/Unitech/pm2)
 
 
-### 安装yarn
+### 管理yarn
 
 ```bash
+# 安装
 npm install -g yarn
+```
+
+**卸载**
+
+```bash
+# 查找目录并删除
+yarn global bin
+# 卸载
+npm uninstall -g yarn
 ```
 
 
@@ -315,7 +324,8 @@ request({
 
 ## VueJS
 
-* [https://github.com/vuejs/vue](https://github.com/vuejs/vue) [https://cn.vuejs.org](https://cn.vuejs.org)
+* [https://github.com/vuejs/vue](https://github.com/vuejs/vue)
+    * [https://cn.vuejs.org](https://cn.vuejs.org)
 * [vue学习笔记](https://www.rumosky.wiki/docs/vue_learning_process)
 
 ![](/images/vue生命周期详解.png)

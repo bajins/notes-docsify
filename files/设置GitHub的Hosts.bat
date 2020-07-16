@@ -8,11 +8,21 @@
 
 @echo off
 
-md "%~dp0$testAdmin$" 2>nul
-if not exist "%~dp0$testAdmin$" (
-    echo 不具备所在目录的写入权限! >&2
-    exit /b 1
-) else rd "%~dp0$testAdmin$"
+:-------------------------------------------------------------------------------
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
+:UACPrompt
+    ::if not "%~1"=="" set file= ""%~1""
+    ::echo CreateObject("Shell.Application").ShellExecute "cmd.exe", "/c %~s0%file%", "", "runas", 1 > "%temp%\getadmin.vbs"
+    echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas", 1 > "%temp%\getadmin.vbs" 
+    "%temp%\getadmin.vbs"
+    exit /B
+:GetAdmin
+    if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
+    pushd "%CD%"
+    CD /D "%~dp0"
+:StartCommand
+:-------------------------------------------------------------------------------
 
 :: 开启延迟环境变量扩展
 :: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
@@ -178,7 +188,7 @@ hostsObject = fso.OpenTextFile(hostsPath, 2, true);
 hostsObject.Write(newHosts.join("\r\n"));
 
 var shell = new ActiveXObject("WScript.shell");
-shell.Run("ipconfig /flushdns");
+shell.Run("ipconfig /flushdns", 0, true);
 
 
 /**

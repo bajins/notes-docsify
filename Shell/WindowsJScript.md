@@ -9,21 +9,11 @@
 
 * [https://www.wanweibaike.com/wiki-JScript](https://www.wanweibaike.com/wiki-JScript)
 
-
 > `JScript`实现的`ECMAScript Edition 3`，也是`IE8`使用的引擎。然而，随着`V8`大放光彩，
 > 微软放弃了之前规划的托管`JavaScript`计划（同期规划的`VB`变身为`VB.NET`活了下来），
 > `JScript`开发组另起炉灶搞了`Chakra`与`Node.js`一争长短，这也是`IE9`之后使用的`JS`引擎。
 
 > 在`JScript`中，永远不需要去实例化根对象`WScript`，正如同浏览器中的直接全局对象一样。
-
-**`BAT`执行`JScript`原理**
-
-> 把`batch`命令用`JavaScript`注释`/**/`包裹住，然后用`batch`命令执行文件中的`JavaScript`代码时就不会编译`batch`命令了
->> `1>1/* ::` 表示文件和`batch`命令的开头
->>
->> `*/` 表示`batch`命令的结尾
-
-> 执行当前脚本中的JavaScript脚本：`cscript -nologo -e:jscript "%~f0"`，`%~f0`表示当前批处理的绝对路径,去掉引号的完整路径
 
 * [JScript (ECMAScript3)](https://docs.microsoft.com/zh-cn/previous-versions//hbxc2t98(v=vs.85))
 * [JScript参考手册](https://www.php.cn/manual/view/14969.html)
@@ -31,36 +21,92 @@
 * [http://caibaojian.com/jscript](http://caibaojian.com/jscript)
 
 
-## ActiveXObject
-
-* [ActiveXObject](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Microsoft_Extensions/ActiveXObject)
-* [ActiveXObject对象使用整理](https://blog.csdn.net/chen_zw/article/details/9336375)
-
-- `JScript`中`ActiveXObject`对象是启用并返回`Automation`对象的引用。
-
-> 使用方法：`var newObj = new ActiveXObject( servername.typename[, location])`
->> 其中`newObj`是必选项。要赋值为`ActiveXObject`的变量名。
->>
->> `servername`是必选项。提供该对象的应用程序的名称。
->>
->> `typename`是必选项。要创建的对象的类型或类。
->>
->> `location`是可选项。创建该对象的网络服务器的名称。
 
 
+## BAT和JS混合编程
 
-## 参数传递
+* `BAT`执行`JScript`原理 [js/bat脚本混编新方案](http://www.bathome.net/thread-33125-1-1.html)
+
+- 缺陷：修改了一个变量的值
+
+```batch
+@set @a=1/*
+@echo off
+start wscript -e:jscript "%~f0"
+pause
+goto :EOF
+*/
+
+// ****************************  JavaScript  *******************************
+
+```
+
+- 缺陷：会清屏
+
+```batch
+echo=1/*>nul&@cls
+@echo off
+start wscript -e:jscript "%~f0"
+pause
+goto :EOF
+*/
+
+// ****************************  JavaScript  *******************************
+
+```
+
+- 缺陷：暂时没有
+
+```batch
+@if (1==1) @end/*
+@echo off
+echo Hello World!
+start wscript -e:jscript "%~f0"
+pause
+goto :EOF
+*/
+
+// ****************************  JavaScript  *******************************
+
+```
+
+- 缺陷：暂时没有
+
+```batch
+@if (0)==(0) echo off
+cscript -nologo -e:jscript %~s0
+goto :EOF
+@end
+
+// ****************************  JavaScript  *******************************
+
+```
+
+- 缺陷：暂时没有
+
+> `1>1` 的运行结果是个 `Boolean` 值，而 js 允许这种无意义的语句（其实对 eval 来说是有意义的）
+
+```batch
+1>1/* :
+@echo off
+cscript -nologo -e:jscript %0
+pause&exit
+*/
+
+// ****************************  JavaScript  *******************************
+
+```
+
+
+### 参数传递
+
+> 执行当前脚本中的JavaScript脚本：`cscript -nologo -e:jscript "%~f0"`，`%~f0`表示当前批处理的绝对路径,去掉引号的完整路径
 
 ```batch
 1>1/* ::
 ::  by bajins https://www.bajins.com
 
 @echo off
-md "%~dp0$testAdmin$" 2>nul
-if not exist "%~dp0$testAdmin$" (
-    echo 不具备所在目录的写入权限! >&2
-    exit /b 1
-) else rd "%~dp0$testAdmin$"
 
 :: 开启延迟环境变量扩展
 :: 解决for或if中操作变量时提示ECHO OFF问题，用!!取变量
@@ -81,25 +127,38 @@ endlocal&exit /b %errorlevel%
 
 // ****************************  JavaScript  *******************************
 
-// 传参时指定键值，组成方式：/key:value
 var Argv = WScript.Arguments;
 for (i = 0; i < Argv.Length; i++) {
-    info("参数：" + Argv(i));
+    WScript.Echo("参数：" + Argv(i));
 }
+
+// 传参时指定键值，组成方式：/key:value
 var ArgvName = Argv.Named;
 var func = ArgvName.Item("func");
 var path = ArgvName.Item("path");
 
 // 无键，直接传入值
-var Argv = WScript.Arguments;
-for (i = 0; i < Argv.Length; i++) {
-    info("参数：" + Argv(i));
-}
 var func = Argv(0);
 var url = Argv(1);
 var path = Argv(2);
 
 ```
+
+
+## ActiveXObject
+
+* [ActiveXObject](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Microsoft_Extensions/ActiveXObject)
+* [ActiveXObject对象使用整理](https://blog.csdn.net/chen_zw/article/details/9336375)
+
+- `JScript`中`ActiveXObject`对象是启用并返回`Automation`对象的引用。
+    - 使用方法：`var newObj = new ActiveXObject( servername.typename[, location])`
+        - 其中`newObj`是必选项。要赋值为`ActiveXObject`的变量名。
+        - `servername`是必选项。提供该对象的应用程序的名称。
+        - `typename`是必选项。要创建的对象的类型或类。
+        - `location`是可选项。创建该对象的网络服务器的名称。
+
+
+
 
 
 ## js函数封装
@@ -404,16 +463,105 @@ function setWallpaper(imagesPath) {
     var shadowReg = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion";
     shell.RegWrite(shadowReg + "\\Explorer\\Advanced\\ListviewShadow", "1", "REG_DWORD");
     // 如果桌面图标未透明，需要刷新组策略
-    //shell.Run("gpupdate /force", 0);
+    //shell.Run("gpupdate /force", 0, true);
     // 上面已经通过注册表设置了壁纸的参数，调用Windows api SystemParametersInfo刷新配置
     var spi = "RunDll32 USER32,SystemParametersInfo SPI_SETDESKWALLPAPER 0 \"";
-    shell.Run(spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE");
-    for (var i = 0; i < 30; i++) {
-        // 实时刷新桌面
-        shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters");
+    shell.Run(spi + imagesPath + "\" SPIF_SENDWININICHANGE+SPIF_UPDATEINIFILE", 0, true);
+    // for (var i = 0; i < 30; i++) {
+    //     // 实时刷新桌面
+    //     shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters", 0, true);
+    // }
+    shell.Run("regsvr32.exe /s /n /i:/UserInstall %SystemRoot%\\system32\\themeui.dll", 0, true);
+}
+```
+
+- 这种方式更稳定
+
+> 使用API触发图片文件右键菜单上的 `设置为桌面背景(B)`
+
+```js
+/**
+ * 设置桌面壁纸
+ *
+ * @param imagesPath 图片全路径
+ */
+function setWallpaper(imagesPath) {
+    var shApp = new ActiveXObject("Shell.Application");
+    // 获取文件
+    var picFile = new ActiveXObject("Scripting.FileSystemObject").GetFile(imagesPath);
+    // 获取文件上的所有右键菜单项
+    //var items = shApp.NameSpace(picFile.ParentFolder.Path).ParseName(picFile.Name).Verbs();
+    var items = shApp.NameSpace(picFile.ParentFolder.Path).Items().Item(picFile.Name).Verbs();
+    // 遍历所有菜单项
+    for (var i = 0; i < items.Count; i++) {
+        var item = items.Item(i);
+        // 注意执行的脚本文件需要为简体中文编码
+        if (item.Name == "设置为桌面背景(&B)") {
+            item.DoIt();
+        }
     }
 }
 ```
+
+### 刷新桌面
+
+```js
+// 切换到桌面
+new ActiveXObject("Shell.Application").ToggleDesktop();
+// 刷新桌面
+new ActiveXObject("WScript.Shell").SendKeys("{F5}");
+
+var WSHShell = new ActiveXObject("WScript.Shell");
+// 切换到桌面
+//WSHShell.AppActivate("Program Manager")
+WSHShell.AppActivate(WSHShell.SpecialFolders("Desktop"));
+// 刷新桌面
+WSHShell.SendKeys("{F5}");
+
+// 刷新桌面、任务栏、OSD（相当于重启资源管理器）
+var shell=new ActiveXObject("WScript.Shell");
+shell.Run("regsvr32.exe /s /n /i:/UserInstall %SystemRoot%\\system32\\themeui.dll", 0, true);
+
+// 效果不太好，有时刷新成功，有时失败
+var shell=new ActiveXObject("WScript.Shell");
+shell.Run("RunDll32 USER32,UpdatePerUserSystemParameters", 0, true);
+
+// assoc文件关联时会自动刷新桌面，可能报错
+var shell=new ActiveXObject("WScript.Shell");
+shell.Run("assoc .=.", 0, true);
+
+
+// 重启资源管理器并恢复打开的目录，暂时不能使用
+function restartExplorer() {
+    var arrURL = [];
+    var shApp = new ActiveXObject("Shell.Application");
+    // 遍历所有打开的窗口
+    for (var i = 0; i < shApp.Windows().Count; i++) {
+        var oWin = shApp.Windows().Item(i);
+        // 如果打开的窗口为资源管理器
+        if (oWin != null && oWin.FullName.indexOf("explorer.exe") != -1) {
+            if (oWin.LocationURL != null) {
+                arrURL.push(oWin.LocationURL);
+            } else {
+                arrURL.push("");
+            }
+            //oWin.Document.folder.title;
+            // 关闭当前打开的文件夹
+            //oWin.quit();
+        }
+    }
+    // 结束资源管理器进程
+    var shell = new ActiveXObject("WScript.Shell");
+    shell.Run("taskkill /f /im explorer.exe >nul 2>nul&start explorer.exe", 0, true);
+    // 遍历并打开之前的窗口
+    for (var i = 0; i < arrURL.length; i++) {
+        shApp.Open(arrURL[i]);
+        shApp.Explore(arrURL[i]);
+    }
+}
+```
+
+
 
 ### 获取系统信息
 
@@ -461,8 +609,8 @@ function systemDigits() {
     } else if (digits.indexOf("64") != -1) {
         return "amd64";
     }
-    wscript.echo("不知道32位还是64位的");
-    wscript.quit(1);
+    WScript.Echo("不知道32位还是64位的");
+    WScript.Quit(1);
 }
 
 /**
@@ -536,7 +684,7 @@ function unZip(zipFile, unDirectory) {
     if (objSource == null) {
         throw new Error("无法解压文件！");
     }
-    objShell.NameSpace(unDirectory).CopyHere(objSource.Items(), 256);
+    objShell.NameSpace(unDirectory).CopyHere(objSource.Items());
 }
 ```
 
@@ -652,20 +800,20 @@ function autoStart(mode) {
         // 开机启动目录
         var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
         vbsFileName = runDir + fileName + ".vbs";
+        var fso = new ActiveXObject("Scripting.FileSystemObject");
+        // 创建文件
+        var vbsFile = fso.CreateTextFile(vbsFileName, true);
+        // 填写数据，并增加换行符
+        vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
+        vbsFile.WriteLine("shell.Run \"cmd /c " + WScript.ScriptFullName + "\", 0, false");
+        // 关闭文件
+        vbsFile.Close();
     } else {
         // 添加开机启动注册表
         var shell = new ActiveXObject("WScript.shell");
         var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
         shell.RegWrite(runRegBase + fileName, vbsFileName);
     }
-    var fso = new ActiveXObject("Scripting.FileSystemObject");
-    // 创建文件
-    var vbsFile = fso.CreateTextFile(vbsFileName, true);
-    // 填写数据，并增加换行符
-    vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
-    vbsFile.WriteLine("shell.Run \"cmd /c " + WScript.ScriptFullName + "\", 0, false");
-    // 关闭文件
-    vbsFile.Close();
 }
 ```
 
@@ -721,3 +869,189 @@ var fso = new ActiveXObject('Scripting.FileSystemObject');
 var ts = fso.CreateTextFile('本机可用的com组件.txt', true);
 ts.Write(listcom().join('\r\n'));
 ```
+
+
+### 创建任务计划
+
+**使用示例见[设置必应壁纸.bat](/files/设置必应壁纸.bat)文件**
+
+```javascript
+/**
+ * 创建任务计划的常用API展示，在实现中需结合实际使用
+ */
+function createSchedule() {
+    // 创建TaskService对象，提供对任务计划程序服务的访问权限，以管理已注册的任务
+    var service = new ActiveXObject("Schedule.Service");
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/taskservice-connect
+    service.Connect();
+
+    // 获取一个文件夹以在其中创建任务定义。
+    var rootFolder = service.GetFolder("\\");
+    // 返回一个空的任务定义对象，参数保留供将来使用，必须设置为0
+    var taskDefinition = service.NewTask(0);
+
+    // 创建RegistrationInfo对象，设置任务的注册信息
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/registrationinfo
+    var regInfo = taskDefinition.RegistrationInfo;
+    // 任务说明
+    regInfo.Description = "任务说明描述";
+    // 创建人
+    regInfo.Author = "创建人";
+
+    // 操作集合，运行程序/脚本等动作的集合，最多32个动作
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection
+    var actions = taskDefinition.Actions;
+    // 创建要执行的任务的动作：0运行脚本或程序，5触发处理程序，6发送邮件，7显示一个消息框
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection-create
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/action#remarks
+    
+    // 向任务添加操作 https://docs.microsoft.com/zh-cn/windows/win32/taskschd/execaction
+    var action = actions.Create(0);
+    action.Path = "wscript";
+    action.Arguments = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\设置必应壁纸.vbs";
+    var action1 = actions.Create(0);
+    action1.Path = "eventvwr";
+
+    // 提供主体安全证书的脚本对象。这些安全凭证为与委托人关联的任务定义了安全上下文。
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/principal
+    var principal = taskDefinition.Principal;
+    // 将登录类型设置为交互式登录
+    // principal.LogonType = 3;
+    // 获取或设置标识符，该标识符用于指定运行与主体相关联的任务所需的特权级别。
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/principal-runlevel
+    principal.RunLevel = 1;
+
+    // 创建一个TaskSettings对象，设置任务计划程序的任务设置信息
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/tasksettings
+    var settings = taskDefinition.Settings;
+    // 该值指示任务计划程序可以在计划时间过去之后的任何时间启动任务
+    settings.StartWhenAvailable = true;
+    settings.Enabled = true;
+    // 该值指示任务将在UI中不可见
+    settings.Hidden = false;
+    // 获取或设置任务的优先级。
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/tasksettings-priority
+    settings.Priority = 0;
+
+    // 获取或设置用于启动任务的触发器的集合。
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/trigger
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/triggercollection-create
+    var triggers = taskDefinition.Triggers;
+
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/trigger-types
+    var triggerTypes = 0;
+    switch (triggerTypes) {
+        case "0":
+            // 创建事件触发器
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger
+            var trigger = triggers.Create(0);
+            // 定义事件查询。触发器将启动任务，当收到事件时。
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger-subscription
+            // https://docs.microsoft.com/zh-cn/previous-versions//aa385231(v=vs.85)
+            trigger.Subscription = "<QueryList>" +
+                "<Query Id='0'><Select Path='System'>" +
+                "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]" +
+                "</Select></Query>" +
+                "<Query Id='1'><Select Path='System'>" +
+                "*[System/Level=2]" +
+                "</Select></Query>" +
+                "</QueryList>";
+            // 获取或设置命名XPath查询的集合
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger-valuequeries
+            var valueQueries = trigger.ValueQueries;
+            valueQueries.Create("eventID", "Event/System/EventRecordID");
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/showmessageaction
+            var action7 = actions.Create(7);
+            action7.Title = "标题";
+            // 需要配合trigger.ValueQueries
+            action7.MessageBody = "这是事件ID：$(eventID)";
+            break;
+        case "1":
+            // 创建时间触发器
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/timetrigger
+            var trigger = triggers.Create(1);
+            break;
+        case "2":
+            // 创建每日触发器
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/dailytrigger
+            var trigger = triggers.Create(2);
+            break;
+        case "3":
+            // 创建每周触发器
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/weeklytrigger
+            var trigger = triggers.Create(3);
+            trigger.DaysOfWeek = 1;
+            // 任务每周运行一次。
+            trigger.WeeksInterval = 1;
+            break;
+        case "4":
+            // 创建根据月度计划启动任务的触发器，在特定月份的特定日期开始
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/monthlytrigger
+            var trigger = triggers.Create(4);
+            break;
+        case "5":
+            // 创建每月DOWT触发器，按月星期几时间表启动任务的触发器
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/monthlydowtrigger
+            var trigger = triggers.Create(5);
+            break;
+        case "6":
+            // 创建闲置触发，在发生空闲情况时启动任务的触发器
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/idletrigger
+            var trigger = triggers.Create(6);
+            break;
+        case "7":
+            // 创建注册触发器
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/registrationtrigger
+            var trigger = triggers.Create(7);
+            break;
+        case "8":
+            // 创建启动触发器
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/boottrigger
+            var trigger = triggers.Create(8);
+            break;
+        case "9":
+            // 创建登录触发器
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/logontrigger
+            var trigger = triggers.Create(9);
+            // 登录指定用户时触发，必须是有效的用户帐户
+            trigger.UserId = "SYSTEM";
+            break;
+        case "11":
+            // 用于触发控制台连接或断开连接，远程连接或断开连接或工作站锁定或解锁通知的任务。
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/sessionstatechangetrigger
+            var trigger = triggers.Create(11);
+            // 获取或设置将触发任务启动的终端服务器会话更改的类型：7锁定；8解锁
+            // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/sessionstatechangetrigger-statechange
+            trigger.StateChange = 8;
+            // 继承自Trigger对象。获取触发器的类型。
+            trigger.Type;
+            break;
+        default:
+            return;
+    }
+    // 以下为每一个trigger都有的通用属性
+
+    // 获取或设置触发器的标识符
+    trigger.Id = "触发器ID";
+    // 获取或设置一个布尔值，该值指示是否启用了触发器
+    trigger.Enabled = true;
+    // 获取或设置激活触发器的日期和时间。触发器可以在激活触发器后启动任务。
+    trigger.StartBoundary = "2006-05-02T10:49:02";
+    // 获取或设置停用触发器的日期和时间。触发器在停用后无法启动任务。
+    trigger.EndBoundary = "2006-05-02T10:52:02";
+    // 获取或设置允许触发器启动的任务运行的最长时间，5分钟
+    trigger.ExecutionTimeLimit = "PT5M";
+    // 延迟30秒
+    trigger.Delay = "PT30S";
+
+    // 使用ITaskDefinition接口在指定位置注册（创建）任务以定义任务
+    // 用户ID有：Local Service ; SYSTEM ; null为当前登录的用户名
+    // 最后一位参数影响任务计划运行
+    // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/taskfolder-registertaskdefinition
+    rootFolder.RegisterTaskDefinition("任务计划名", taskDefinition, 6, "用户ID", null, 0);
+}
+```
+
+
+
+

@@ -8,6 +8,16 @@
 
 ## flag
 
++ 扫描任何32位或64位Windows模块（exe，dll，ocx，sys等）的函数：[http://www.dependencywalker.com](http://www.dependencywalker.com)
++ DLL导出查看器：[http://www.nirsoft.net/utils/dll_export_viewer.html](http://www.nirsoft.net/utils/dll_export_viewer.html)
++ RegDllView-查看系统上已注册的dll/ ocx/exe文件，从资源管理器注册dll文件：
+    + [http://www.nirsoft.net/utils/registered_dll_view.html](http://www.nirsoft.net/utils/registered_dll_view.html)
++ Windows 10的system32目录中的所有DLL文件信息：[http://windows10dll.nirsoft.net](http://windows10dll.nirsoft.net)
++ [https://github.com/jas502n/IDA_Pro_7.2](https://github.com/jas502n/IDA_Pro_7.2)
++ 下载– NTCore：[https://ntcore.com/?page_id=345](https://ntcore.com/?page_id=345)
++ 小型命令行实用程序：[http://www.ltr-data.se/opencode.html/#CmdUtils](http://www.ltr-data.se/opencode.html/#CmdUtils)
+
+
 * [Windows 命令-官方文档](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands)
 * [windows常用命令](https://www.cnblogs.com/kekec/p/3662125.html)
 * [windows批处理语法](https://www.cnblogs.com/kekec/p/3937530.html)
@@ -15,15 +25,13 @@
 * [windows bat脚本总结](https://segmentfault.com/a/1190000018614430)
 * [Windows 10/8/7的Rundll32命令列表](https://www.thewindowsclub.com/rundll32-shortcut-commands-windows)
 * [https://gitlab.com/jarv/cmdchallenge](https://gitlab.com/jarv/cmdchallenge)
-[https://cmdchallenge.com](https://cmdchallenge.com)
+    * [https://cmdchallenge.com](https://cmdchallenge.com)
 
 
 + [添加快捷方式](/files/添加快捷方式.bat)
 + [设置必应壁纸](/files/设置必应壁纸.bat)
 + [设置GitHub的Hosts](/files/设置github的hosts.bat)
-+ [frpc.bat](/files/frpc.bat)
-
-> 会自动检测本地`fprc`是否为最新版本，如果不是或者没有则下载最新版
++ [frpc.bat](/files/frpc.bat) 会自动检测本地`fprc`是否为最新版本，如果不是或者没有则下载最新版
 
 
 - `if`和`for`的条件与后面跟的`(`之间必须要有一个空格，否则会出现`命令语法不正确`的问题！
@@ -32,49 +40,38 @@
   - 示例:使用`curl`配合`jq`获取必应壁纸下载地址
   
 ```batch
-curl "http://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1" | jq-win64.exe ".images[0].url | """https://cn.bing.com""" + .[0:index("""^&""")]" >> bing.txt
+curl "http://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1" ^
+ | jq-win64.exe ".images[0].url | """https://cn.bing.com""" + .[0:index("""^&""")]" >> bing.txt
 ```
+
+```batch
+:: 解压MSI
+msiexec /a "MSI文件路径" /qn TARGETDIR="解压输出目录绝对路径"
+:: 弹窗
+msg %username% /time:60 "WARNING:a backdoor account is created"
+```
+
+
+- Windows10当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\CachedFiles\CachedImage_1920_1080_POS4.jpg`
+- Windows7当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\TranscodedWallpaper.jpg`
+- 事件日志目录：`%SystemRoot%\System32\Winevt\Logs`
+
 
 
 ## 文件操作
 
-### 列出文件
-
-> 类似于linux下的ls
-
 ```batch
+:: 列出文件，类似于linux下的ls
 dir
-```
-
-### 创建目录
-
-```batch
+:: 创建目录
 md 目录名（文件夹）
-```
-
-### 删除目录
-
-```batch
+:: 删除目录
 rd  目录名（文件夹）
-```
-
-### 拷贝文件
-
-```batch
+:: 拷贝文件
 copy 路径\文件名 路径\文件名
-```
-
-### 移动文件
-
-```batch
+:: 移动文件
 move 路径\文件名 路径\文件名
-```
-
-### 删除文件
-
-> 不能删除文件夹
-
-```batch
+:: 删除文件，不能删除文件夹
 del 文件名
 ```
 
@@ -192,22 +189,16 @@ endlocal&exit /b %errorlevel%
 
 
 
-### 解压MSI
-
-```batch
-msiexec /a "MSI文件路径" /qn TARGETDIR="解压输出目录绝对路径"
-```
-
 
 
 ## 环境变量
 
 * [set](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/set_1)
 * [setx](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/setx)
+
 **`SET`与`SETX`的区别**
 
 - `SET` 用于设置临时环境变量和查看环境变量
-
 - `SETX` 用于设置用户环境变量和系统环境变量
 
 > 变量值有空格或`%`等特殊字符时必须用`"`包括起来
@@ -255,15 +246,6 @@ set path=%path%;D:\test
 ```batch
 setx path "%path%;D:\test"
 setx /m path "%path%;D:\test"
-```
-
-
-## 清除屏幕
-
-> 类似于linux下的clear
-
-```batch
-cls
 ```
 
 
@@ -330,7 +312,7 @@ taskkill /f /im 程序名
 ```
 
 
-## 延时
+## 延时定时事件任务
 
 ```batch
 :: 延时等待10秒
@@ -342,6 +324,79 @@ timeout /T -1
 :: 持续等待，直到你按下CTRL+C按键
 timeout /T -1 /NOBREAK
 ```
+
+### 任务计划
+
+* [Schtasks命令详解](https://www.cnblogs.com/daimaxuejia/p/12957644.html)
+* [任务计划程序参考](https://docs.microsoft.com/zh-cn/windows/win32/taskschd/task-scheduler-reference)
+
++ [https://github.com/dahall/TaskScheduler](https://github.com/dahall/TaskScheduler)
++ [https://github.com/fireeye/SharPersist](https://github.com/fireeye/SharPersist)
+
+**更高级用法见[创建任务计划](/Shell/WindowsJScript.md#创建任务计划)**
+
+> 如果任务计划运行没反应，去掉`/RU SYSTEM`试试
+
+```batch
+taskschd
+SCHTASKS /? 查看帮助
+
+:: /sc 指定计划频率：MINUTE、 HOURLY、DAILY、WEEKLY、MONTHLY, ONCE, ONSTART, ONLOGON, ONIDLE, ONEVENT
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /tr "运行程序路径" /sc DAILY
+:: 开机自启动
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /tr "运行程序路径" /sc ONSTART
+:: 每天 12:30 运行
+schtasks /Create /RU SYSTEM /RL Highest /tn 定时任务名 /tr "运行程序路径" /sc DAILY /st 12:30
+:: 一分钟执行一次
+schtasks /Create /RU SYSTEM /RL Highest /tn 定时任务名 /tr "运行程序路径" /sc MINUTE /mo 1
+:: 在指定的开始日期和结束日期之间，每天 12:00 点开始到 14:00 点，每隔5分钟运行
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR "运行程序路径" /SD 开始日期 /ED 结束日期 ^
+ /ST 12:00 /ET 14:00 /SC MINUTE /MO 5
+:: 每天 12:00 点开始到 14:00 点自动结束
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR "运行程序路径" /ST 12:00 /ET 14:00 /K /SC DAILY
+:: 将任务附加到事件上：登录成功事件，运行事件查看器
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR eventvwr /SC ONEVENT /EC Security ^
+ /MO "*[System[Provider[@Name='Microsoft-Windows-Security-Auditing'] and EventID=4624]]"
+:: 将任务附加到事件上：系统已从低功耗状态中恢复，运行事件查看器
+SCHTASKS /Create /RU SYSTEM /RL Highest /tn 定时任务名 /TR eventvwr /SC ONEVENT /EC System ^
+ /MO "*[System[Provider[@Name='Microsoft-Windows-Power-Troubleshooter'] and EventID=1]]"
+
+:: 查询任务
+SCHTASKS /Query /fo LIST /v /TN 任务名称
+:: 强制删除任务
+SCHTASKS /Delete /F /TN 任务名称
+:: 手动运行任务
+SCHTASKS /run /TN 任务名称
+```
+
+
+### 事件
+
+* [Windows事件](https://docs.microsoft.com/zh-cn/windows/win32/events/windows-events)
+
+> 打开eventvwr -> Windows 日志 -> 系统 右键打开菜单 -> 将所有事件另存为(E) -> 选择保存类型
+
+- eventvwr 打开事件查看器
+- eventcreate 该命令行工具使管理员能够创建一个自定义事件 ID 和消息于某指定事件日志里。
+- wmic ntevent /?
+    - 查看所有事件日志 wmic ntevent list full
+- wmic nteventlog /?
+- wevtutil.exe qe Application /c:3 /rd:true /f:text
+
+| 事件源               	| 事件ID 	| 说明                                                	|
+|----------------------	|--------	|-----------------------------------------------------	|
+| Power-Troubleshooter 	| 1      	| 系统已从低功耗状态中恢复。                          	|
+| Kernel-Power         	| 42     	| 系统正在进入睡眠状态。                              	|
+| Kernel-Power         	| 105    	| 电源更改。                                          	|
+| Kernel-Power         	| 107    	| 系统已从睡眠状态恢复。（已进入睡眠状态）            	|
+| Kernel-Power         	| 130    	| 系统开机恢复                                        	|
+| Kernel-Power         	| 131    	| 系统开机恢复                                        	|
+| Kernel-General       	| 1      	| 更改系统时间                                        	|
+| Kernel-General       	| 24     	| 已刷新时区信息，退出原因为 0。当前时区偏差为 -480。 	|
+| EventLog             	| 6013   	| 系统启动时间为 178611 秒。                          	|
+
+
+
 
 ## 判断字符串
 
@@ -435,41 +490,23 @@ echo %十进制%
 
 
 
-## 获取管理员权限
+## 管理员权限
 
-- Windows10启用管理员
-
-> 快捷键<kbd>Win</kbd> + <kbd>r</kbd> 打开“运行”输入`gpedit.msc`并运行 -> `Windows 设置` -> `安全设置` -> `安全选项`
-
-> 禁用：`用户账户控制：以管理员批准模式运行所有管理员`
-
-> 禁用：`用户账户控制：用于内置管理员账户的管理员批准模式`
-
-> 启用：`账户：管理员账户状态`
+- Windows10启用管理员：快捷键<kbd>Win</kbd> + <kbd>r</kbd> 打开“运行”输入`gpedit.msc`并运行 -> `Windows 设置` -> `安全设置` -> `安全选项`
+    - 禁用：`用户账户控制：以管理员批准模式运行所有管理员`
+    - 禁用：`用户账户控制：用于内置管理员账户的管理员批准模式`
+    - 启用：`账户：管理员账户状态`
 
 
-- 方式一
+- 判断
 
 ```batch
-@echo off
-cacls.exe "%SystemDrive%\System Volume Information" >nul 2>nul
-if exist "%temp%\getadmin.vbs" del /f /q "%temp%\getadmin.vbs"
-
-:: 下面为执行命令
-
+md "%~dp0$testAdmin$" 2>nul
+if not exist "%~dp0$testAdmin$" (
+    echo 不具备所在目录的写入权限! >&2
+    exit /b 1
+) else rd "%~dp0$testAdmin$"
 ```
-
-- 方式二
-
-```batch
-fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
-
-:: 下面为执行命令
-
-```
-
-
-- 方式三
 
 ```batch
 @echo off
@@ -477,48 +514,74 @@ fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellE
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 :: 如果没有管理员权限，就请求管理权限
 if '%errorlevel%' NEQ '0' (
-    goto UACPrompt
-) else ( goto gotAdmin )
+    echo 不具备所在目录的写入权限! >&2
+    exit /b 1
+)
+```
 
+```batch
+@echo off
+:: 检查权限
+net session >nul 2>&1 
+if not "%errorLevel%" == "0" ( 
+    echo 不具备所在目录的写入权限! >&2
+    exit /b 1
+)
+```
+
+```batch
+reg query HKU\S-1-5-20>nul 2>nul
+if not "%errorLevel%" == "0" ( 
+    echo 不具备所在目录的写入权限! >&2
+    exit /b 1
+)
+```
+
+
+**获取管理员权限**
+
+```batch
+@echo off
+fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
+
+:: 下面为执行命令
+
+```
+
+```batch
+@echo off
+:-------------------------------------------------------------------------------
+>nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
+if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
 :UACPrompt
-    echo Set UAC = CreateObject^("Shell.Application"^) > "%temp%\getadmin.vbs"
-    echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"
+    ::if not "%~1"=="" set file= ""%~1""
+    ::echo CreateObject("Shell.Application").ShellExecute "cmd.exe", "/c %~s0%file%", "", "runas", 1 > "%temp%\getadmin.vbs"
+    echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas", 1 > "%temp%\getadmin.vbs" 
     "%temp%\getadmin.vbs"
     exit /B
-
-:gotAdmin
+:GetAdmin
     if exist "%temp%\getadmin.vbs" ( del "%temp%\getadmin.vbs" )
     pushd "%CD%"
     CD /D "%~dp0"
-
-:begin
-
-:: 下面为执行命令
-
-```
-
-- 方式四
-
-```batch
-%1 mshta vbscript:CreateObject("Shell.Application").ShellExecute("cmd.exe","/c %~s0 ::","","runas",1)(window.close)
-cd /d "%~dp0"
+:StartCommand
+:-------------------------------------------------------------------------------
 
 :: 下面为执行命令
 
 ```
+
 
 
 ## 隐藏窗口运行
 
+**此方式完全不会显示`CMD`窗口（包括闪现） [vbs脚本](/Shell/WindowsScript.md#vbs函数封装)**
 
-**[vbs脚本](/System/WindowsScript.md#vbs函数封装)**
+**此方式会闪现`CMD`窗口 bat脚本**
 
-> 此方式完全不会显示`CMD`窗口（包括闪现）
-
-
-**bat脚本**
-
-> 此方式会闪现`CMD`窗口
+> 如果运行的批处理名为`a.bat`，在`C:\`下，那`%~0`代表`C:\a.bat`，`%~nx0`代表`a.bat`。`h`极为参数`%1`，`0`表示隐藏运行。
+>
+> 由于你双击运行，故第一次批处理`%1`为空，`if`不成立，转而运行下一句。
+> 然后再次打开自己，并传递参数`h`，此时`if`成立，跳转至`begin`开始运行。
 
 ```batch
 @echo off
@@ -530,12 +593,6 @@ mshta vbscript:createobject("wscript.shell").run("%~0 h",0)(window.close)&&exit
 :: 下面为执行命令
 
 ```
-
-> 如果运行的批处理名为`a.bat`，在`C:\`下，那`%~0`代表`C:\a.bat`，`%~nx0`代表`a.bat`。`h`极为参数`%1`，`0`表示隐藏运行。
->
-> 由于你双击运行，故第一次批处理`%1`为空，`if`不成立，转而运行下一句。
-> 然后再次打开自己，并传递参数`h`，此时`if`成立，跳转至`begin`开始运行。
-
 
 ```batch
 :: 静默运行软件
@@ -554,6 +611,41 @@ start /wait /B "" "%~dp0软件名称" /ADD
 Pushd %~dp0
 start /wait /B "" "%~dp0软件名称" /DEL
 ````
+
+
+## 刷新桌面
+
+```batch
+REM taskkill 用户窗口被关闭
+taskkill /f /im explorer.exe >nul 2>nul&start explorer.exe
+
+REM regsvr32.exe 图标有白块
+regsvr32.exe /s /n /i:/UserInstall %SystemRoot%\system32\themeui.dll
+
+:: 效果不太好，有时刷新成功，有时失败
+RunDll32 USER32,UpdatePerUserSystemParameters
+
+:: assoc文件关联有多余添加，可能报错，exe 类型几乎不会被修改成其他类型
+assoc exe=exefile
+:: .=. 应该比较保险
+assoc .=.
+```
+
+- 刷新桌面图标
+
+```batch
+@echo off
+
+REM inf 代码太多
+>%tmp%\tmp.inf (
+    echo;[Version]
+    echo;Signature=$Chicago$
+    echo;[DefaultInstall]
+)
+rundll32 SETUPAPI.DLL,InstallHinfSection DefaultInstall 128 %tmp%\tmp.inf
+REM inf 需要%1是有效inf，win7报错：您选中INF文件不支持此安装方法
+REM %SystemRoot%\System32\InfDefaultInstall.exe "%1"
+```
 
 
 
@@ -735,7 +827,8 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 
 - 替换默认记事本
 
 ```batch
-REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /t REG_SZ /d "\"记事本程序路径\" -z" /f
+REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" ^
+ /v "Debugger" /t REG_SZ /d "\"记事本程序路径\" -z" /f
 ```
 
 
@@ -820,7 +913,8 @@ sc create 服务名称 binPath= 执行程序路径或者命令 start= auto displ
 ```batch
 sc create frp内网穿透 binPath= D:\frp\frps.bat start= auto displayname= "frp内网穿透"
 
-sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini" start= auto displayname= "frp内网穿透"
+sc create frp内网穿透 binPath= "cmd.exe /c D:\frp内网穿透工具\frpc.exe -c D:\frp内网穿透工具\frpc.ini" ^
+ start= auto displayname= "frp内网穿透"
 ```
 
 
@@ -835,10 +929,13 @@ sc delete 服务名称
 ## 第三方工具
 
 * [wget-网络请求工具](https://eternallybored.org/misc/wget)
-* [curl-网络请求工具](https://curl.haxx.se/dlwiz/?type=bin) [curl-GitHub](https://github.com/curl/curl)
+* [curl-网络请求工具](https://curl.haxx.se/dlwiz/?type=bin)
+    * [curl-GitHub](https://github.com/curl/curl)
 * [jq-解析json工具](https://github.com/stedolan/jq)
-* [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html) [bcn](http://bcn.bathome.net/s/tool/index.html)
+* [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html)
+    * [http://bcn.bathome.net/s/tool/index.html](http://bcn.bathome.net/s/tool/index.html)
 * [转换位图图像](https://imagemagick.org/index.php)
+* [https://github.com/ritchielawrence/cmdow](https://github.com/ritchielawrence/cmdow)
 
 
 ## 下载文件

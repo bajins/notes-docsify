@@ -8,26 +8,49 @@
 
 ## flag
 
-* [Web 技术教程-W3School](https://www.w3school.com.cn/index.html)
-* [Web 开发技术-MDN](https://developer.mozilla.org/zh-CN/docs/Web)
-* [Web API](https://developer.mozilla.org/zh-CN/docs/Web/API)
-* [W3C 网页标准教程](http://www.w3chtml.com)
+* Web 技术教程-W3School [https://www.w3school.com.cn/index.html](https://www.w3school.com.cn/index.html)
+* Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
+* Web API [https://developer.mozilla.org/zh-CN/docs/Web/API](https://developer.mozilla.org/zh-CN/docs/Web/API)
+* W3C 网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
 * [https://github.com/mathjax](https://github.com/mathjax)
 
-
 - [https://github.com/material-components](https://github.com/material-components)
-[https://md.maxoxo.design](https://md.maxoxo.design)
+  - [https://md.maxoxo.design](https://md.maxoxo.design)
 
 
 * 前端面试：[https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
 
+- [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
+
++ [https://jsbin.com](https://jsbin.com)
+
+
+**TypeScript**
+
+* [https://github.com/Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)
+
+
+**WebAssembly**
+
+* [https://github.com/WebAssembly](https://github.com/WebAssembly)
+* [https://developer.mozilla.org/zh-CN/docs/WebAssembly](https://developer.mozilla.org/zh-CN/docs/WebAssembly)
+* [https://webassembly.org](https://webassembly.org)
+* [https://www.wasm.com.cn](https://www.wasm.com.cn)
+
+- Mozilla：可以用 Rust + WebAssembly 作为 JavaScript 替代
+- Google：可以用 Dart + WebAssembly 作为 JavaScript 替代
+- Microsoft：可以用 TypeScript/AssemblyScript + WebAssembly 作为 JavaScript 替代
+
+* [https://github.com/ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP)
+
+
+
 
 ## 框架
 
-* [jquery](https://jquery.com)
-* [添加XHR2 responseType支持的jQuery插件](https://github.com/acigna/jquery-ajax-native)
-* [bootstrap](https://github.com/twbs/bootstrap) [https://www.bootcss.com](https://www.bootcss.com)
+* [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
+  * [https://www.bootcss.com](https://www.bootcss.com)
 * [neditor 基于ueditor的更现代化的富文本编辑器，支持HTTPS](https://github.com/notadd/neditor)
 * [WebUploader是一个简单的以HTML5为主，FLASH为辅的现代文件上传组件](https://github.com/fex-team/webuploader)
 * [f2ex.cn 各种前端资源](http://f2ex.cn)
@@ -41,20 +64,40 @@
 + [https://github.com/topics/blog-engine](https://github.com/topics/blog-engine)
 + [https://github.com/topics/static-blog](https://github.com/topics/static-blog)
 + [不蒜子文章统计](http://busuanzi.ibruce.info)
-[https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
-
+  + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
 
 
 * [静态编译VuePress](https://github.com/vuejs/vuepress)
+    * [https://github.com/vuepressjs/awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
 * [静态编译NuxtJs](https://github.com/nuxt/nuxt.js)
 * [静态编译Hexo](https://github.com/hexojs/hexo)
-* [运行时驱动Docsify](https://github.com/docsifyjs/docsify)
-[https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
+* [静态编译Hugo](https://github.com/gohugoio/hugo)
+* [静态编译Jekyll](https://github.com/jekyll/jekyll)
+    * [http://jekyllcn.com](http://jekyllcn.com)
+    * [https://www.jekyll.com.cn](https://www.jekyll.com.cn)
+    * [https://github.com/mattvh/jekyllthemes](https://github.com/mattvh/jekyllthemes)
 * [静态编译Docsite](https://github.com/txd-team/docsite)
+* [运行时驱动Docsify](https://github.com/docsifyjs/docsify)
+    * [https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
 * [https://github.com/docpress/docpress](https://github.com/docpress/docpress)
 * [运行时驱动Docute](https://github.com/egoist/docute)
 * [从仓库生成文档](https://github.com/readthedocs/readthedocs.org)
 * [https://github.com/getgridea/gridea](https://github.com/getgridea/gridea)
+
+
+**创建自己的免费网站**
+
+- [https://carrd.co](https://carrd.co)
+- [https://neocities.org](https://neocities.org)
+
+
+
+**免费域名**
+
+- [https://www.freenom.com](https://www.freenom.com)
+- [https://nic.eu.org](https://nic.eu.org)
+
+
 
 
 **VuePress主题**
@@ -82,6 +125,93 @@
 * [vuepress-theme-reco](https://github.com/recoluan/vuepress-theme-reco)
 * [https://github.com/zp961214/Blog](https://github.com/zp961214/Blog)
 
+
+
+### 静态部署
+
+* [https://www.netlify.com](https://www.netlify.com)
+  * 示例：[https://woytu.netlify.app](https://woytu.netlify.app)
+* [https://slack.com/get-started](https://slack.com/get-started)
+* [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
+* [https://github.com/zeit](https://github.com/zeit)
+  * 示例：[https://woytu.now.sh](https://woytu.now.sh)
+* [https://github.com/heroku](https://github.com/heroku)
+  * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
+  * 示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
+* [https://fast.io](https://fast.io)
+  * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
+* [https://www.appveyor.com](https://www.appveyor.com)
+* [https://kubesail.com](https://kubesail.com)
+* [https://azure.microsoft.com/zh-cn/services/devops/pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines)
+
+- 命令行：[https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
+  - [https://surge.sh](https://surge.sh)
+- 命令行：[https://github.com/firebase/firebase-tools](https://github.com/firebase/firebase-tools)
+
+
+
+
+
+## CDN
+
+* [https://cdnjs.com](https://cdnjs.com)
+* 知乎：[https://unpkg.zhimg.com](https://unpkg.zhimg.com)
+* 饿了么：[https://npm.elemecdn.com](https://npm.elemecdn.com)
+* [https://unpkg.com](https://unpkg.com)
+
+- 使用固定的版本号：
+    - `unpkg.com/react@16.0.0/umd/react.production.min.js`
+    - `unpkg.com/react-dom@16.0.0/umd/react-dom.production.min.js`
+
+- 也可使用语义化版本范围，或标签来代替固定版本号，亦可忽略版本和标签，直接使用最新的版本。
+    - `unpkg.com/react@^16/umd/react.production.min.js`
+    - `unpkg.com/react/umd/react.production.min.js`
+
+- 如果忽略了文件的路径（例如，使用裸网址 “bare” URL），unpkg 会提供 package.json 里指定的文件，或降级到 main。
+    - `unpkg.com/d3`
+    - `unpkg.com/jquery`
+    - `unpkg.com/three`
+
+> 注：这种方式会产生一次 302 到最新的文件 URL。好处是自动使用最新版，坏处是多一次性跳转，降低了性能。
+
+- 在网址最后添加斜线，可以查看一个包内的所有文件列表。
+    - `unpkg.com/react/`
+    - `unpkg.com/lodash/`
+
+
+* [https://github.com/jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
+* [https://www.bootcdn.cn](https://www.bootcdn.cn)
+* [http://staticfile.org](http://staticfile.org)
+* [https://cdn.baomitu.com](https://cdn.baomitu.com)
+
+```
+fonts.gstatic.com               fonts-gstatic.proxy.ustclug.org
+fonts.gstatic.com               gstatic.loli.net
+fonts.gstatic.com               gapis.geekzu.org/g-fonts
+fonts.googleapis.com            fonts.proxy.ustclug.org
+fonts.googleapis.com            fonts.loli.net
+fonts.googleapis.com            fonts.geekzu.org
+ajax.googleapis.com             ajax.proxy.ustclug.org
+ajax.googleapis.com             ajax.loli.net
+ajax.googleapis.com             gapis.geekzu.org/ajax
+registry-1.docker.io            docker.mirrors.ustc.edu.cn
+packages.elastic.co             elastic.proxy.ustclug.org
+ppa.launchpad.net               launchpad.proxy.ustclug.org
+archive.cloudera.com/cdh5/      cloudera.proxy.ustclug.org/cdh5/
+downloads.lede-project.org      lede.proxy.ustclug.org
+downloads.openwrt.org           openwrt.proxy.ustclug.org
+registry.npmjs.org              npmreg.proxy.ustclug.org
+www.npmjs.com                   npm.proxy.ustclug.org
+themes.googleusercontent.com    google-themes.proxy.ustclug.org
+themes.googleusercontent.com    themes.loli.net
+themes.googleusercontent.com    gapis.geekzu.org/g-themes
+secure.gravatar.com             gravatar.proxy.ustclug.org
+secure.gravatar.com             gravatar.loli.net
+secure.gravatar.com/avatar      sdn.geekzu.org/avatar
+www.gravatar.com/avatar         fdn.geekzu.org/avatar
+[0-2].gravatar.com/avatar       fdn.geekzu.org/avatar
+cdnjs.cloudflare.com            cdnjs.loli.net
+```
 
 
 
@@ -182,3 +312,26 @@
 | css=ul > p:odd                                                  	| [error] not found                    	|
 | css=ul > li:only-childcss=ul > :only-childcss=ul > *:only-child 	| [error] not found (ul没有only-child) 	|
 | css=div.subdiv > :only-child                                    	| `<ul id="recordlist">… … … …</ul>`     	|
+
+
+
+
+## 保存直聘简历
+
+> 执行以下JS然后保存页面，打开保存到本地的页面再打印即可
+
+```js
+document.querySelector("body").style.margin="0px";
+document.querySelector(".header").style.display="none";
+document.querySelector(".template-container").style.paddingTop="14px";
+document.querySelector(".template-container").style.paddingBottom="0px";
+document.querySelector(".preview-box").style.margin="0 auto";
+document.querySelector(".preview-box").style.borderRadius="0";
+document.querySelector(".preview-box").style.boxShadow="none";
+var certificateBox = document.querySelectorAll(".certificate-box .item");
+certificateBox[0].style.display="list-item";
+certificateBox[0].style.margin="0px";
+certificateBox[1].style.display="list-item";
+certificateBox[1].style.margin="0px";
+```
+

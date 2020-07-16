@@ -25,7 +25,6 @@
 - [什么是位运算](https://www.jianshu.com/p/d75b0a461380)
 - [java运算符](https://blog.csdn.net/shuaigexiaobo/article/details/88535745)
 - [数据库扩展性设计：使用二进制解决一条记录关联多个状态的问题](https://www.cnblogs.com/itfly8/p/6062757.html)
-- [必学十大经典排序算法](https://mp.weixin.qq.com/s/mq2NSG3xMqIs28nU354TjQ)
 
 
 
@@ -221,17 +220,12 @@ public static Date toDayEnd(Date date) {
 
 * [jdk8时间日期](https://codertang.com/2018/12/24/jdk8-datetime)
 
-> 可变性 : 像日期和时间这样的类应该是不可变的,返回一个值,原来的对象不变
->
-> 偏移性 : Date中的年份是从1900开始的,而月份是从0开始的
->
-> 日期表示需要减`new Date(2020-1900,9-1,8)` 这样才可以表示2020年9月8日
->
-> 格式化: 格式化日期只对Date有用,Calendar则不行
->
-> 线程不安全的,不能处理闰秒等
->
-> Java8吸收了`Joda-Time`精华,开启了新的API
+- 可变性 : 像日期和时间这样的类应该是不可变的,返回一个值,原来的对象不变
+- 偏移性 : Date中的年份是从1900开始的,而月份是从0开始的
+- 日期表示需要减`new Date(2020-1900,9-1,8)` 这样才可以表示2020年9月8日
+- 格式化: 格式化日期只对Date有用,Calendar则不行
+- 线程不安全的,不能处理闰秒等
+- Java8吸收了`Joda-Time`（该项目作者参与了Java8的time包开发）精华，开启了新的API
 
 
 **`java.time`的基础包**
@@ -246,36 +240,36 @@ public static Date toDayEnd(Date date) {
 
 **新的`java.time`包含了如下子类**
 
-| 类             |  作用                                       | 说明                                                                                      |
-|---------------|-------------------------------------------|-----------------------------------------------------------------------------------------|
-| Instant       |  表示时刻                                     |  对应jdk7之前的Date                                                                          |
-| LocalDateTime |  获取当前系统的日期时间(内部不记录时区)                     |  可以认为由LocalDate和LocalTime组成                                                             |
-| LocalDate     |  获取当前系统的日期                                |                                                                                         |
-| LocalTime     |  获取当前系统的时间                                |                                                                                         |
-| ZoneId        |  时区，"5:00"和"Europe/Paris"、"Asia/Shanghai" |  ZoneId除了处理与标准时间的时间差还处理地区时（夏令时，冬令时等）                                                    |
-| ZoneOffset    |  时区，只处理 "6:00"                            |  ZoneOffset是ZoneId的子类                                                                   |
-| ZoneDateTime  |  一个在ISO-8601日历系统时区的日期和时间                  | LocalDateTime内部不记录时区,ZoneDateTime记录，其中每个时区都有对应的Id,每个地区Id都有"{区域}/{城市}" 例如 Asia/Shanghai等 |
-| ZonedDateTime | 处理日期和时间与相应的时区                             |
-| Duration      | 持续时间,用于计算两个"时间"的间隔                        |
-| Period        | 日期间隔,用于计算两个"日期"的间隔                        |
-| Clock         | 使用时区提供对当前即时，日期和时间的访问                      |
+| 类            	| 作用                                          	| 说明                                                                        	|
+|---------------	|-----------------------------------------------	|-----------------------------------------------------------------------------	|
+| Instant       	| 表示时刻                                      	| 对应jdk7之前的Date                                                          	|
+| LocalDateTime 	| 获取当前系统的日期时间(内部不记录时区)        	| 可以认为由LocalDate和LocalTime组成                                          	|
+| LocalDate     	| 获取当前系统的日期                            	|                                                                             	|
+| LocalTime     	| 获取当前系统的时间                            	|                                                                             	|
+| ZoneId        	| 时区，"5:00"和"Europe/Paris"、"Asia/Shanghai" 	| 除了处理与标准时间的时间差还处理地区时（夏令时，冬令时等）                  	|
+| ZoneOffset    	| 时区，只处理 "6:00"                           	| ZoneOffset是ZoneId的子类                                                    	|
+| ZoneDateTime  	| 一个在ISO-8601日历系统特定时区的日期和时间    	| 其中每个时区都有对应的Id,每个地区Id都有"{区域}/{城市}" 例如 Asia/Shanghai等 	|
+| ZonedDateTime 	| 处理日期和时间与相应的时区                    	|                                                                             	|
+| Duration      	| 持续时间,用于计算两个"时间"的间隔             	|                                                                             	|
+| Period        	| 日期间隔,用于计算两个"日期"的间隔             	|                                                                             	|
+| Clock         	| 使用时区提供对当前即时，日期和时间的访问      	|                                                                             	|
 
 
 **方法前缀**
 
-| 前缀     | 含义                       | 示例                                                           |
-|--------|--------------------------|--------------------------------------------------------------|
-| now    | 静态工厂方法, 用当前时间创建实例        | LocalDate.now();                                             |
-| of     | 静态工厂方法                   | LocalDate.of(2018, 12, 20);                                  |
-| parse  | 静态工厂方法, 关注于解析            | LocalDate.parse("2018-12-20");                               |
-| get    | 获取某个字段的值                 | localDate.getYear();                                         |
-| is     | 比对判断                     | localDate.isAfter(LocalDate.now());                          |
-| with   | 基于当前实例创建新的实例, 但部分字段被更新   | localDate.withMonth(3);                                      |
-| plus   | 在当前实例基础上增加(值可负), 返回新实例   | localDate.plusDays(1);                                       |
-| minus  | 在当前实例基础上减小(值可负), 返回新实例   | localDate.minusDays(1);                                      |
-| to     | 基于当前实例转换出另一个类型的实例        | localDateTime.toLocalDate();                                 |
-| at     | 把当前对象和另一个对象结合, 生成新的类型的实例 | localDate.atTime(21, 30, 50)                                 |
-| format | 格式化                      | localDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")); |
+| 前缀   	| 含义                                           	| 示例                                                         	|
+|--------	|------------------------------------------------	|--------------------------------------------------------------	|
+| now    	| 静态工厂方法, 用当前时间创建实例               	| LocalDate.now();                                             	|
+| of     	| 静态工厂方法                                   	| LocalDate.of(2018, 12, 20);                                  	|
+| parse  	| 静态工厂方法, 关注于解析                       	| LocalDate.parse("2018-12-20");                               	|
+| get    	| 获取某个字段的值                               	| localDate.getYear();                                         	|
+| is     	| 比对判断                                       	| localDate.isAfter(LocalDate.now());                          	|
+| with   	| 基于当前实例创建新的实例, 但部分字段被更新     	| localDate.withMonth(3);                                      	|
+| plus   	| 在当前实例基础上增加(值可负), 返回新实例       	| localDate.plusDays(1);                                       	|
+| minus  	| 在当前实例基础上减小(值可负), 返回新实例       	| localDate.minusDays(1);                                      	|
+| to     	| 基于当前实例转换出另一个类型的实例             	| localDateTime.toLocalDate();                                 	|
+| at     	| 把当前对象和另一个对象结合, 生成新的类型的实例 	| localDate.atTime(21, 30, 50)                                 	|
+| format 	| 格式化                                         	| localDate.format(DateTimeFormatter.ofPattern("yyyy-MM-dd")); 	|
 
 
 
@@ -343,11 +337,9 @@ String format = dFormat.format(money);
 
 > `java.math.RoundingMode`是一个舍入枚举类
 
-[https://blog.csdn.net/alanzyy/article/details/8465098](https://blog.csdn.net/alanzyy/article/details/8465098)
-
-[https://my.oschina.net/sunchp/blog/670909](https://my.oschina.net/sunchp/blog/670909)
-
-[https://blog.csdn.net/chendaoqiu/article/details/45841283](https://blog.csdn.net/chendaoqiu/article/details/45841283)
+* [https://blog.csdn.net/alanzyy/article/details/8465098](https://blog.csdn.net/alanzyy/article/details/8465098)
+* [https://my.oschina.net/sunchp/blog/670909](https://my.oschina.net/sunchp/blog/670909)
+* [https://blog.csdn.net/chendaoqiu/article/details/45841283](https://blog.csdn.net/chendaoqiu/article/details/45841283)
 
 ### 几个参数详解
 
@@ -384,24 +376,63 @@ List newList = list.subList(start, end);
 
 #### List随机取值
 
-- 方法一
 
 ```java
 public static void main(String[] args) {
     List<String> list = Arrays.asList("a","b","c");
+    // 方法一
     int index = (int) (Math.random()* list.size());
     System.out.println(list.get(index));
+
+    // 方法二：shuffle 打乱顺序 
+    Collections.shuffle(list);
+    System.out.println(list.get(0));
 }
 ```
 
-- 方法二
+
+
+### Map
+
+**遍历**
 
 ```java
-public static void main(String[] args) {
-    List<String> list = Arrays.asList("a","b","c");
-    // shuffle 打乱顺序 
-    Collections.shuffle(list);
-    System.out.println(list.get(0));
+// entrySet迭代，不能移除元素
+for (Map.Entry<Integer, String> entry : map.entrySet()) {
+    System.out.println("方法一：key =" + entry.getKey() + "---value=" + entry.getValue());
+}
+
+// 遍历键
+for (Integer key : map.keySet()) {
+    System.out.println("方法二：key = " + key);
+}
+Iterator<Integer> keyIterator = map.keySet().iterator();
+while (keyIterator.hasNext()) {
+    Integer key = keyIterator.next();
+    System.out.println("方法二：key = " + key);
+}
+// 遍历值
+for (String value : map.values()) {
+    System.out.println("方法二：value = " + value);
+}
+
+// Iterator迭代，可调用entries.remove()移除元素：使用了泛型，如果不使用泛型键值则需要强转
+Iterator<Map.Entry<Integer, String>> entries = map.entrySet().iterator();
+while (entries.hasNext()) {
+    Map.Entry<Integer, String> entry = entries.next();
+    System.out.println("方法三：key = " + entry.getKey() + "--value=" + entry.getValue());
+}
+
+// 遍历键获取值：效率低，通过key得到value值更耗时
+for (Integer key : map.keySet()) {
+    String value = map.get(key);
+    System.out.println("方法四：Key = " + key + ", Value = " + value);
+}
+Iterator<Integer> keyIterator1 = map.keySet().iterator();
+while (keyIterator1.hasNext()) {
+    Integer key = keyIterator1.next();
+    String value = map.get(key);
+    System.out.println("方法四：Key = " + key + ", Value = " + value);
 }
 ```
 

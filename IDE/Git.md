@@ -7,20 +7,29 @@
 
 ## flag
 
++ [https://github.com/topics/git](https://github.com/topics/git)
+
 * [https://git-scm.com](https://git-scm.com)
-* [https://tortoisegit.org/download](https://tortoisegit.org/download)
-* [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
 * [https://www.syntevo.com](https://www.syntevo.com)
+* [https://github.com/github/gitignore](https://github.com/github/gitignore)
 * [为您的项目创建有用的.gitignore文件](https://github.com/toptal/gitignore.io)
 * [reposurgeon是一种工具,用于编辑版本控制存储库的历史](http://www.catb.org/esr/reposurgeon)
 * [https://github.com/gitextensions/gitextensions](https://github.com/gitextensions/gitextensions)
 
+- [https://github.com/apache/subversion](https://github.com/apache/subversion)
+- [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
+  - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
+  - [https://tortoisegit.org/download](https://tortoisegit.org/download)
+- [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
+- [https://github.com/subclipse](https://github.com/subclipse)
 
 + [常用命令 · git笔记 · 看云](https://www.kancloud.cn/leviio/git/330946)
 + [Git 常用命令及使用详解 - 喵斯基部落](https://www.moewah.com/archives/2292.html)
-+ [Pro Git 中文版（第二版）](https://progit.bootcss.com)
-+ [Git速查手册](https://www.rumosky.wiki/docs/learngit)
-
++ Pro Git 中文版（第二版）: [https://progit.bootcss.com](https://progit.bootcss.com)
++ Git速查手册: [https://www.rumosky.wiki/docs/learngit](https://www.rumosky.wiki/docs/learngit)
++ Git的奇技淫巧: [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
++ 猴子都能懂的GIT入门: [https://backlog.com/git-tutorial/cn/contents](https://backlog.com/git-tutorial/cn/contents)
++ [Git与Subversion的命令对比表](https://website-proxy.backlogtool.com/git-tutorial/cn/reference/git-svn.html)
 
 - [git-pull.bat](/files/git-pull.bat)
 - [git-pull.sh](/files/git-pull.sh)
@@ -483,14 +492,16 @@ git config --global --unset http.proxy
 
 **Gogs**
 
-* [https://github.com/gogs/gogs](https://github.com/gogs/gogs) [Gogs官方文档](https://gogs.io)
+* [https://github.com/gogs/gogs](https://github.com/gogs/gogs)
+  * [Gogs官方文档](https://gogs.io)
 * [Gogs-DockerHub](https://hub.docker.com/r/gogs/gogs)
 * [安装教程](https://www.jianshu.com/p/86c385682ac8)
 
 
 **Gitea**
 
-* [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea) [Gitea官方文档](https://gitea.io/zh-cn)
+* [https://github.com/go-gitea/gitea](https://github.com/go-gitea/gitea)
+  * [Gitea官方文档](https://gitea.io/zh-cn)
 * [Gitea-DockerHub](https://hub.docker.com/r/gitea/gitea)
 
 
@@ -551,6 +562,9 @@ volumes:
 * [https://github.com/probot/probot](https://github.com/probot/probot)
 * [https://help.github.com/cn](https://help.github.com/cn)
 * 发布成功之后`github pages`的`Custom domain`配置项就被清空：[github-pages-basics](http://wiki.jikexueyuan.com/project/github-pages-basics/cname-file.html)
+* [https://codecov.io](https://codecov.io)
+* [目录 - P3TERX ZONE](https://p3terx.com/archives.html)
+
 
 ### 访问速度过慢
 
@@ -594,8 +608,6 @@ sudo /etc/init.d/dns-clean start
 
 * [https://github.com/BaseMax/GitHubMirror](https://github.com/BaseMax/GitHubMirror)
 * [https://github.com/RC1844/FastGithub](https://github.com/RC1844/FastGithub)
-* [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，
-再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
 
 - 替换`github.com`为
   - `github.com.cnpmjs.org`
@@ -610,18 +622,12 @@ sudo /etc/init.d/dns-clean start
 
 
 
-### 部署
-
-* [https://www.netlify.com](https://www.netlify.com)
-* [https://slack.com/get-started](https://slack.com/get-started)
-* [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
-* [https://zeit.co](https://zeit.co)
-
 
 ### Actions
 
 * [GitHub Actions 入门教程](http://www.ruanyifeng.com/blog/2019/09/getting-started-with-github-actions.html)
 * [Github Actions 尝鲜](https://segmentfault.com/a/1190000020873860)
+* [持续集成](https://blog.lucien.ink/category/ci)
 
 
 > 生成公钥和私钥`ssh-keygen -t rsa -b 4096 -C "yourname@example.com" -f 文件名称 -N ""`（ACTION_DEPLOY_KEY），
@@ -629,8 +635,14 @@ sudo /etc/init.d/dns-clean start
 
 
 * [https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages](https://github.com/marketplace?utf8=%E2%9C%93&type=actions&query=deploy-to-github-pages)
+* [https://github.com/actions](https://github.com/actions)
 * [https://github.com/sdras/awesome-actions](https://github.com/sdras/awesome-actions)
 * [https://github.com/peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages)
 * [https://github.com/JamesIves/github-pages-deploy-action](https://github.com/JamesIves/github-pages-deploy-action)
-* [https://github.com/actions/create-release](https://github.com/actions/create-release)
-* [https://github.com/actions/upload-release-asset](https://github.com/actions/upload-release-asset)
+
++ [https://github.com/marketplace?type=actions&query=upload+release](https://github.com/marketplace?type=actions&query=upload+release)
++ [https://github.com/wangyoucao577/go-release-action](https://github.com/wangyoucao577/go-release-action)
++ [https://github.com/elgohr/Publish-Docker-Github-Action](https://github.com/elgohr/Publish-Docker-Github-Action)
++ [https://github.com/release-drafter/release-drafter](https://github.com/release-drafter/release-drafter)
++ [https://github.com/xresloader/upload-to-github-release](https://github.com/xresloader/upload-to-github-release)
++ [https://github.com/svenstaro/upload-release-action](https://github.com/svenstaro/upload-release-action)

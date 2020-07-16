@@ -19,13 +19,24 @@
 * [https://segmentfault.com/markdown](https://segmentfault.com/markdown)
 * [https://github.com/guodongxiaren/README](https://github.com/guodongxiaren/README)
 * [markdown语法大全](https://www.rumosky.wiki/docs/markdown)
+* Markdeep是Markdown的超集 [https://github.com/morgan3d/markdeep](https://github.com/morgan3d/markdeep)
 
-
+- [https://github.com/topics/emoji](https://github.com/topics/emoji)
 - GitHub角落图标 [https://github.com/tholman/github-corners](https://github.com/tholman/github-corners)
+- SVG徽章 [https://github.com/badges/shields](https://github.com/badges/shields)
+- [https://github.com/WebpageFX/emoji-cheat-sheet.com](https://github.com/WebpageFX/emoji-cheat-sheet.com)
+    - [http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
+- [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
+- [https://github.com/caiyongji/emoji-list](https://github.com/caiyongji/emoji-list)
+- [https://github.com/liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn)
+- [https://github.com/afeld/emoji-css](https://github.com/afeld/emoji-css)
+- [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
+
+> 表情（两个冒号包围的字符）,比如`:blush:`，可以显示 :blush:
 
 + 中文文案排版指北：[https://github.com/sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines)
 + 中英混排文档在线排版工具：[https://github.com/CyC2018/Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)
-[https://cyc2018.github.io/Text-Typesetting](https://cyc2018.github.io/Text-Typesetting)
+    + [https://cyc2018.github.io/Text-Typesetting](https://cyc2018.github.io/Text-Typesetting)
 
 
 
@@ -321,16 +332,6 @@ string &operator+(const string& A,const string& B) //cpp
 ```
 
 
-## 表情
-
-> Github的Markdown语法支持添加emoji表情，输入不同的符号码（两个冒号包围的字符）可以显示出不同的表情。
-
-> 比如`:blush:`，可以显示:blush:。
-
-* [http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)。
-* [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
-* [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
-
 
 ## diff语法
 
@@ -362,8 +363,7 @@ string &operator+(const string& A,const string& B) //cpp
 - `<sup></sup>`
 - `<sub></sub>`
 - `<br/>`
-- `<details><summary><b></b></summary></details>`
-
+- `<details><summary><strong style="font-size:160%;">点击查看</strong></summary></details>`
 
 
 ## 工具
@@ -398,12 +398,14 @@ string &operator+(const string& A,const string& B) //cpp
 ### 微信公众号排版
 
 * [https://github.com/aclickall/aclickall.github.io](https://github.com/aclickall/aclickall.github.io)
-[md.aclickall.com](https://md.aclickall.com)
+    * [md.aclickall.com](https://md.aclickall.com)
 * [https://github.com/doocs/md](https://github.com/doocs/md)
+    * [https://doocs.github.io/md](https://doocs.github.io/md)
 * [https://github.com/phodal/mifa](https://github.com/phodal/mifa)
-[http://relatos.top/md](http://relatos.top/md)
-[https://md.phodal.com](https://md.phodal.com)
-* [https://github.com/mdnice/markdown-nice](https://github.com/mdnice/markdown-nice)
+    * [http://relatos.top/md](http://relatos.top/md)
+    * [https://md.phodal.com](https://md.phodal.com)
+* [https://github.com/mdnice](https://github.com/mdnice)
+    * [https://mdnice.com](https://mdnice.com)
 * [https://github.com/lyricat/wechat-format](https://github.com/lyricat/wechat-format)
 * [https://github.com/zkqiang/wechat-mdeditor](https://github.com/zkqiang/wechat-mdeditor)
 * [https://github.com/dyc87112/online-markdown](https://github.com/dyc87112/online-markdown)
@@ -423,8 +425,13 @@ string &operator+(const string& A,const string& B) //cpp
 
 * [https://tableconvert.com](https://tableconvert.com)
 * [https://github.com/stevecat/table-magic](https://github.com/stevecat/table-magic)
-* [http://www.tablesgenerator.com/markdown_tables](http://www.tablesgenerator.com/markdown_tables)
+* [https://www.tablesgenerator.com/markdown_tables](https://www.tablesgenerator.com/markdown_tables)
+* [https://markdown-convert.com/zh](https://markdown-convert.com/zh)
+* [https://github.com/jakebathman/Markdown-Table-Generator](https://github.com/jakebathman/Markdown-Table-Generator)
 * [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)
+* [https://github.com/donatj/CsvToMarkdownTable](https://github.com/donatj/CsvToMarkdownTable)
+* [https://github.com/jonmagic/copy-excel-paste-markdown](https://github.com/jonmagic/copy-excel-paste-markdown)
+
 
 
 ### 生成标题目录树
@@ -432,9 +439,10 @@ string &operator+(const string& A,const string& B) //cpp
 > `TOC` [https://en.wikipedia.org/wiki/Table_of_contents](https://en.wikipedia.org/wiki/Table_of_contents)
 
 
-* [tocdown](https://dohliam.github.io/tocdown) [https://github.com/dohliam/tocdown](https://github.com/dohliam/tocdown)
+* [https://github.com/dohliam/tocdown](https://github.com/dohliam/tocdown)
+    * [https://dohliam.github.io/tocdown](https://dohliam.github.io/tocdown)
 * [markdown-toc-generate](https://magnetikonline.github.io/markdown-toc-generate)
-[源码](https://github.com/magnetikonline/markdown-toc-generate)
+    * [https://github.com/magnetikonline/markdown-toc-generate](https://github.com/magnetikonline/markdown-toc-generate)
 * [tocenize](https://github.com/nochso/tocenize)
 * [doctoc](https://github.com/thlorenz/doctoc)
 * [MDToc](https://github.com/dkyaorui/MDToc)
@@ -445,12 +453,15 @@ string &operator+(const string& A,const string& B) //cpp
 ### 转换器
 
 * [https://github.com/domchristie/turndown](https://github.com/domchristie/turndown)
-[https://domchristie.github.io/turndown](https://domchristie.github.io/turndown)
+    * [https://domchristie.github.io/turndown](https://domchristie.github.io/turndown)
 * [https://github.com/markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
+* [https://github.com/markedjs/marked](https://github.com/markedjs/marked)
+
 
 
 ### 在线版客户端
 
+* [https://dillinger.io](https://dillinger.io)
 * [https://github.com/mdnice/markdown-resume](https://github.com/mdnice/markdown-resume)
 * [xkeditor](https://github.com/syfxlin/xkeditor)
 
@@ -484,7 +495,7 @@ string &operator+(const string& A,const string& B) //cpp
 
 * [Haroopad](http://pad.haroopress.com/user.html)
 * [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
-
-
+* [https://github.com/Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
+* [https://github.com/rickstrahl/MarkdownMonster](https://github.com/rickstrahl/MarkdownMonster)
 
 

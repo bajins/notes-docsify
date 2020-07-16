@@ -7,11 +7,71 @@
 ## flag
 
 * [https://github.com/spring-projects](https://github.com/spring-projects)
+    * [https://spring.io/projects](https://spring.io/projects)
 * [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
+* [https://github.com/huaweicloud](https://github.com/huaweicloud)
+
 
 
 - [https://github.com/wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll)
-- [http://www.spring4all.com](http://www.spring4all.com)
+    - [http://www.spring4all.com](http://www.spring4all.com)
+- [https://github.com/mingyang66/spring-parent](https://github.com/mingyang66/spring-parent)
+- Spring源码阅读 [https://github.com/seaswalker/spring-analysis](https://github.com/seaswalker/spring-analysis)
+
++ [https://start.aliyun.com](https://start.aliyun.com)
+
+* [SpringCache自定义过期时间及自动刷新](https://www.cnblogs.com/top-housekeeper/p/11980973.html)
+
+
+
+**webmvc与webflux**
+
+<details>
+<summary><b>展开查看示例结构</b></summary>
+<img src="/images/spring-web-client.png" alt>
+</details>
+
+- webmvc是servlet stack based，基于同步阻塞的IO模型
+    - 在`org.springframework.web`包下
+    - `artifactId`：`spring-boot-starter-web`
+    - `RestTemplate` 阻塞式客户端，默认使用`HttpURLConnection`实现
+- webflux是reactive stack based，一个完全的reactive并且非阻塞的web框架，API公开了`Reactor Flux`和`Mono`类型
+    - 在`org.springframework.web.reactive`包下
+    - `artifactId`：`spring-boot-starter-webflux`
+    - `WebClient` 非阻塞式客户端，默认使用`Reactor Netty`实现
+
++ [Spring WebFlux快速上手](https://blog.csdn.net/get_set/article/details/79480233)
+
+* [Spring MVC or WebFlux?](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-framework-choice)
+
+
+**注解生成Bean默认命名规则**
+
+> 在使用`@Component`、`@Repository`、`@Service`、`@Controller`等注解创建bean时，如果不指定bean名称，默认类名的首字母小写
+
+> 如果类名前两个及以上字母都是大写，那么bean名称与类名一样，如： RBACAuthorityService - RBACAuthorityService
+
+* [修改Spring注解生成Bean时候的命名方式](https://github.com/cznno/doc/blob/master/doc/%E4%BF%AE%E6%94%B9Spring%E6%B3%A8%E8%A7%A3%E7%94%9F%E6%88%90Bean%E6%97%B6%E5%80%99%E7%9A%84%E5%91%BD%E5%90%8D%E6%96%B9%E5%BC%8F.md)
+
+
+
+**依赖注入的三种方式**
+
+> 使用@Autowired注解时： Field （属性变量）注入尽量避免使用，构造器注入适合强制性的注入旨在不变性，Setter 注入适合可变性的注入。
+
+> @Resource
+
+> @Inject
+
+* [这几个关于Spring 依赖注入的问题你清楚吗？](https://juejin.im/post/5e3811d26fb9a07ca24f3e55)
+* [Field injection is not recommended（Spring IOC不再推荐使用属性注入）](https://segmentfault.com/a/1190000021044999)
+* [IDEA 警告 Field injection is not recommended](https://boris1993.github.io/projects/java/coding-tips/idea-warninig-field-injection-is-not-recommended.html)
+* [Field injection is not recommended](https://www.jianshu.com/p/7f20176f2a40)
+* [@Autowired警告：Field injection is not recommended](https://www.jianshu.com/p/36db3e167958)
+* [使用@Autowired注解警告Field injection is not recommended](https://blog.csdn.net/zhangjingao/article/details/81094529)
+
+
+
 
 
 
@@ -19,8 +79,16 @@
 
 * [https://github.com/dyc87112/SpringBoot-Learning](https://github.com/dyc87112/SpringBoot-Learning)
 * [https://github.com/macrozheng/mall-learning](https://github.com/macrozheng/mall-learning)
-[https://macrozheng.github.io/mall-learning](https://macrozheng.github.io/mall-learning)
+    * [https://macrozheng.github.io/mall-learning](https://macrozheng.github.io/mall-learning)
 * [https://github.com/vector4wang/spring-boot-quick](https://github.com/vector4wang/spring-boot-quick)
+* [https://github.com/kanyways/learning-spring](https://github.com/kanyways/learning-spring)
+* [https://github.com/gf-huanchupk/SpringBootLearning](https://github.com/gf-huanchupk/SpringBootLearning)
+
++ [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
++ [SpringBoot系列: 如何优雅停止服务](https://www.cnblogs.com/exmyth/p/13098831.html)
++ [Spring Boot 2.3 新特性优雅停机详解](https://juejin.im/post/5ec1d89de51d454ddf2367ab)
+
+- [Spring Boot 监听 Redis Key 失效事件实现定时任务](https://antoniopeng.com/2020/01/03/springboot/Spring%20Boot%20%E7%9B%91%E5%90%AC%20Redis%20Key%20%E5%A4%B1%E6%95%88%E4%BA%8B%E4%BB%B6%E5%AE%9E%E7%8E%B0%E5%AE%9A%E6%97%B6%E4%BB%BB%E5%8A%A1)
 
 > 约定优于配置（convention over configuration），也称作按约定编程，是一种软件设计范式，
 > 旨在减少软件开发人员需做决定的数量，获得简单的好处，而又不失灵活性。
@@ -120,6 +188,10 @@
 
 - `@ConfigurationProperties(prefix="配置中的属性名")`用在类名上，获取默认配置文件中的属性值，用`@Resource`引入到其他类
 
+> 必须要让Spring 扫描到该类才能使用，有三种方法：加`@Component`；创建配置类加`@Configuration`，
+再加`@EnableConfigurationProperties(类名.class)`或者创建构造器加`@Bean`
+
+
 - `@PropertySource("classpath:配置文件路径")`用在类名上，获取默认自定义`properties`文件中的属性值，用`@Resource`引入到其他类
 
 
@@ -129,6 +201,7 @@
 
 + [https://github.com/macrozheng/springcloud-learning](https://github.com/macrozheng/springcloud-learning)
 + [https://github.com/dyc87112/SpringCloud-Learning](https://github.com/dyc87112/SpringCloud-Learning)
++ [https://github.com/gf-huanchupk/SpringCloudLearning](https://github.com/gf-huanchupk/SpringCloudLearning)
 + [https://github.com/SpringCloud](https://github.com/SpringCloud)
 + [https://github.com/venusteam](https://github.com/venusteam)
 
@@ -141,6 +214,7 @@
 * [https://www.springcloud.cc](https://www.springcloud.cc)
 * [聊聊分布式链路追踪](http://lidawn.github.io/2018/12/26/distribute-tracing)
 
+- [冒着挂科的风险也要给你们看的 Spring Cloud 入门总结](https://juejin.im/post/5de2553e5188256e885f4fa3)
 
 - `bootstrap.yml`（.properties）
 
@@ -188,4 +262,50 @@
 
 * [分布式日志框架ELK入门](https://blog.csdn.net/piantoutongyang/article/details/88811840)
 * [SpringCloud实践分享 日志收集Kafka ELK](https://juejin.im/post/5d84a83af265da03ee6a92af)
+
+
+
+
+
+
+## Spring Security
+
+* [认证成功与失败的处理器](https://docs.spring.io/spring-security/site/docs/4.2.7.RELEASE/reference/html/core-web-filters.html#form-login-flow-handling)
+* [过滤器列表](https://docs.spring.io/spring-security/site/docs/5.3.1.RELEASE/reference/html5/#servlet-security-filters)
+* [标准过滤器别名和顺序](https://docs.spring.io/spring-security/site/docs/5.3.1.RELEASE/reference/html5/#filter-stack)
+
+
+
+
+**拦截器和过滤器区别**
+
+- 拦截器（Interceptor）：依赖于web框架，在实现上,基于Java的反射机制，拦截的是action，说白了拦截的是访问路径
+- 过滤器（Filter）：依赖于servlet容器。在实现上，基于函数回调，可以几乎过滤掉所有的东西
+
+> 拦截器与过滤器的执行顺序：过滤前 -> 拦截前 -> action执行 -> 拦截后 -> 过滤后
+
+- 过滤器可以修改request，拦截器只能对action请求起作用
+- 过滤器需要在servlet容器中实现，拦截器可以适用于javaEE，javaSE等各种环境
+- 拦截器可以调用IOC容器中的各种依赖，而过滤器不能
+- 过滤器只能在请求的前后使用，而拦截器可以详细到每个方法
+
+
+
+## Spring TaskScheduler
+
+- `Spring Scheduling Tasks` Spring 3.0 版本之后自带的一个定时任务。其所属Spring的资源包为：`spring-context-support`
+
+> 可以将它看成一个轻量级的`Quartz`，而且使用起来比Quartz简单许多。默认单线程串行执行任务，多任务时若某个任务执行时间过长，
+> 后续任务会无法及时执行；抛出异常后，同一个任务后续不再触发
+
+- `Spring Quartz` Spring集成整合`Quartz`，主要Bean: `JobDetail`、`Trigger`以及`SchedulerFactory`，`JobDataMap`数据传递
+
+> 需要继承`org.springframework.scheduling.quartz.QuartzJobBean`或者实现`org.quartz.Job`。采用多线程，下一个调度时间到达时，
+> 会另起一个线程执行调度，不会发生阻塞问题，但调度过多时可能导致数据处理异常，抛出异常后，同一个任务后续仍然会触发
+
+- `TBSchedule`
+
+* [https://github.com/quartz-scheduler/quartz](https://github.com/quartz-scheduler/quartz)
+* [quartz-scheduler建表SQL](https://github.com/quartz-scheduler/quartz/tree/master/quartz-core/src/main/resources/org/quartz/impl/jdbcjobstore)
+
 

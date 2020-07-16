@@ -31,6 +31,31 @@ chrome://flags/#enable-parallel-downloading
 
 
 
+## DevTools
+
+* [https://github.com/googlechrome](https://github.com/googlechrome)
+* [https://github.com/GoogleChrome/devtools-docs](https://github.com/GoogleChrome/devtools-docs)
+    * [https://developer.chrome.com/devtools/index](https://developer.chrome.com/devtools/index)
+    * [https://devtools.chrome.com](https://devtools.chrome.com)
+    * [https://developers.google.com/web/tools/chrome-devtools](https://developers.google.com/web/tools/chrome-devtools)
+    * [https://github.com/leeon/chrome_devtool_book](https://github.com/leeon/chrome_devtool_book)
+        * [https://leeon.gitbooks.io/devtools](https://leeon.gitbooks.io/devtools)
+    * [https://github.com/dendoink/FrontendWingman](https://github.com/dendoink/FrontendWingman)
+        * [https://www.frontendwingman.com/Chrome](https://www.frontendwingman.com/Chrome)
+        * [https://juejin.im/book/5c526902e51d4543805ef35e](https://juejin.im/book/5c526902e51d4543805ef35e)
+
+- Firefox浏览器开发人员版 [https://www.mozilla.org/zh-CN/firefox/developer](https://www.mozilla.org/zh-CN/firefox/developer)
+
+
+**Network测量资源的加载时间隐藏**
+
+- 老版本，点击`View`后面的多级图（`Show overview`）
+- 新版本，点击最右侧⚙️(设置)去掉 `Show overview` 勾选
+- 勾选`Disable cache`
+
+
+
+
 ## 插件
 
 * [https://github.com/topics/chrome-extension?o=desc&s=stars](https://github.com/topics/chrome-extension?o=desc&s=stars)
@@ -78,7 +103,7 @@ chrome://flags/#enable-parallel-downloading
 * [https://chrome.google.com/webstore/search/谷歌访问?_category=extensions](https://chrome.google.com/webstore/search/%E8%B0%B7%E6%AD%8C%E8%AE%BF%E9%97%AE?_category=extensions)
 * [http://www.iwikipage.com](http://www.iwikipage.com)
 * [https://github.com/joue-quroi/cookie-editor](https://github.com/joue-quroi/cookie-editor)
-[https://add0n.com/cookie-editor.html](https://add0n.com/cookie-editor.html)
+    * [https://add0n.com/cookie-editor.html](https://add0n.com/cookie-editor.html)
 
 - [将完整的网页保存到单个HTML文件](https://github.com/gildas-lormeau/SingleFile)
 - [https://github.com/vsDizzy/SaveAsMHT](https://github.com/vsDizzy/SaveAsMHT)
@@ -99,15 +124,44 @@ chrome://flags/#enable-parallel-downloading
 * [屏幕录制GIF和截图工具：capture-to-a-gif](https://chrome.google.com/webstore/detail/capture-to-a-gif/eapecadlmfblmnfnojebefkbginhggeh)
 * [截取整个窗口添加一个macOS-ish标题栏：standardized-screenshot](https://chrome.google.com/webstore/detail/standardized-screenshot/pabdhaakclnechgfhmnhkcbmjobeoope)
 * [截取长图工具（整个网页）：full-page-screen-capture](https://gofullpage.com)
+* [一键视频下载器](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
+* [Video Downloader for Web](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
+* [终极视频下载器](https://chrome.google.com/webstore/detail/ultimate-video-downloader/ahbcaincngigokdjdlcjnfcdoonccngb)
+* [Video Downloader Plus](https://chrome.google.com/webstore/detail/web-video-downloader/adahebendgkgacfmpnmoddebbnfpfkcd)
+* [Video Downloader Pro](https://chrome.google.com/webstore/detail/video-downloader-pro/ccdikaeknpeokoejlpffihfmpfelakcg)
+* [Video Downloader professional](https://chrome.google.com/webstore/detail/video-downloader-professi/bacakpdjpomjaelpkpkabmedhkoongbi)
 
 
 
 
 ### 翻译
 
-* [Selection-Translator](https://github.com/Selection-Translator)
-* [翻译侠（Translate Man）](https://github.com/magic-FE/translate-man)
-* [EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
+* [https://github.com/lmk123/crx-selection-translate](https://github.com/lmk123/crx-selection-translate)
+* [https://github.com/Selection-Translator](https://github.com/Selection-Translator)
+* [https://github.com/magic-FE/translate-man](https://github.com/magic-FE/translate-man)
+* [https://github.com/EdgeTranslate/EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
+
+
+
+### 广告过滤
+
+* ABP [https://github.com/adblockplus](https://github.com/adblockplus)
+* ubo [https://github.com/gorhill/uBlock](https://github.com/gorhill/uBlock)
+* ADB [https://getadblock.com](https://getadblock.com)
+* [https://ublock.org](https://ublock.org)
+* [https://github.com/AdguardTeam](https://github.com/AdguardTeam)
+
+- AdGuard Android 解锁高级版 [https://www.lanzoux.com/b0f19420h](https://www.lanzoux.com/b0f19420h)
+
+**过滤规则**
+
+- [https://gitee.com/halflife/list](https://gitee.com/halflife/list)
+- [https://gitee.com/xinggsf/Adblock-Rule](https://gitee.com/xinggsf/Adblock-Rule)
+- [https://github.com/cjx82630/cjxlist](https://github.com/cjx82630/cjxlist)
+- 视频跳过广告和VIP视频解析脚本 ot mofiter（秒杀视频网站播放广告） https://greasyfork.org/scripts/373063
+- 【ChinaList+EasyList(修正)】http://sub.adtchrome.com/adt-chinalist-easylist.txt
+- 【Easylist China】https://easylist-downloads.adblockplus.org/easylistchina.txt
+
 
 
 
@@ -127,7 +181,8 @@ chrome://flags/#enable-parallel-downloading
 * [https://github.com/adam-p/markdown-here](https://github.com/adam-p/markdown-here)
 * [名称生成器扩展](https://github.com/kondratyev-nv/name-genarator-extension)
 * [https://github.com/privacypass/challenge-bypass-extension](https://github.com/privacypass/challenge-bypass-extension)
-
+* 人机验证码扩展程序 [https://github.com/dessant/buster](https://github.com/dessant/buster)
+* google-access-helper
 
 
 

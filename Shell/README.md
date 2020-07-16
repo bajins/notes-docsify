@@ -12,7 +12,7 @@
 
 * [https://en.wikipedia.org/wiki/Shell_(computing)](https://en.wikipedia.org/wiki/Shell_(computing))
 
-
+- 命令行参考大全（Linux、macOS、CMD、PowerShell、VB Script）[https://ss64.com](https://ss64.com)
 
 
 ## batch与shell同义操作符
@@ -34,6 +34,7 @@
 | >                      	| >                       	| 文件重定向(覆盖)                 	|
 | >>                     	| >>                      	| 文件重定向(附加)                 	|
 | <                      	| <                       	| 重定向stdin                      	|
+| ^                      	| \\                       	| 命令换行执行，PowerShell为`(反引号) |
 | %VAR%                  	| $VAR                    	| 环境变量                         	|
 | REM                    	| #                       	| 注释                             	|
 | NOT                    	| !                       	| 取反                             	|

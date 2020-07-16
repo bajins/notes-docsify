@@ -9,7 +9,10 @@
 * [http://github.lesschina.com/linux](http://github.lesschina.com/linux)
 * [speedtest](https://github.com/adolfintel/speedtest)
 * [acme.sh 实现了acme 协议, 可以从 letsencrypt 生成免费的证书.](https://github.com/Neilpang/acme.sh)
+* 像libevent，libev和libuv一样，libhv提供具有非阻塞IO和计时器的事件循环: [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv)
 
++ 带仪表盘的实时性能监控：[https://github.com/netdata/netdata](https://github.com/netdata/netdata)
++ 云探针、云监控、服务器云监控、多服务器探针 [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
 
 **管理面板**
 
@@ -21,6 +24,59 @@
 
 * [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
 * [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
+
+
+## win10 设置
+
+* [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
+
+
+**Wifi频繁断线**
+
+> 打开`设备管理器` ——> 点开`网络适配器` ——> 选中网卡 ——> 鼠标右键打开菜单 ——> 点击`属性` ——> 点击`电源管理` ——> 
+> 取消勾选`允许计算机关闭此设备以节约电源`
+
+> 点击`网络和共享中心` ——> `更改适配器设置` ——> 双击`WLAN` ——> 点击`无线属性` ——> 勾选`即使网络未广播其名称也连接` 
+
+
+
+
+## CloudFlare Workers
+
++ [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，
+再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
++ [用Cloudflare CDN 如何自定义节点（CF自选IP）/撸CloudFlare Pro](https://www.moeelf.com/archives/10.html)
+
+
+- [https://github.com/cloudflare/wrangler](https://github.com/cloudflare/wrangler)
+- [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
+- [https://github.com/topics/cloudflare-workers](https://github.com/topics/cloudflare-workers)
+- [Cloudflare Workers 创建自定义域名的项目](https://blog.16lab.io/workers-custom-domain)
+- Cloudflare CNAME接入 [https://github.com/ZE3kr/Cloudflare-CNAME-Setup](https://github.com/ZE3kr/Cloudflare-CNAME-Setup)
+
+
+* [https://github.com/netnr/workers](https://github.com/netnr/workers)
+* [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
+* 动态博客系统 [https://github.com/kasuganosoras/cloudflare-worker-blog](https://github.com/kasuganosoras/cloudflare-worker-blog)
+* 个人导航网站 [https://github.com/sleepwood/CF-Worker-Dir](https://github.com/sleepwood/CF-Worker-Dir)
+* 一个极简风格的短网址转换 [https://github.com/Closty/duanwangzhi](https://github.com/Closty/duanwangzhi)
+* [基于 Telegraf 框架的 Telegram Bot](https://moe.best/tutorial/cfworker-telegraf-tgbot.html)
+* [使用CloudFlare Workers搭建网站状态监控](https://www.raycoder.me/p/cloudflare-workers-website-monitoring)
+
+
+**代理**
+
+- [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
+- JS 实现的在线代理 [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
+- 轻量级Javascript反向代理 [https://github.com/Berkeley-Reject/workers-proxy](https://github.com/Berkeley-Reject/workers-proxy)
+    - [https://github.com/yenpou/Workers-Proxy](https://github.com/yenpou/Workers-Proxy)
+- github release、archive以及项目文件的加速项目 [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
+- [https://github.com/netnr/workers](https://github.com/netnr/workers)
+- [https://github.com/ryanking13/cors](https://github.com/ryanking13/cors)
+- [https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy](https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy)
+
+
+
 
 
 
@@ -58,17 +114,34 @@
 
 
 
-## 资源网站建立
+**Windows**
+
+* [https://github.com/topics/windows](https://github.com/topics/windows)
+* [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
+* [https://github.com/appget](https://github.com/appget)
+* [https://github.com/x64dbg](https://github.com/x64dbg)
+* [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
+* [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
+* [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
+* [https://github.com/Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
+* [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
+
+
+
+
+## 建站资源
 
 * [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
 [安装教程](https://www.moerats.com/archives/744)
 * [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501)
 * [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644)
 * [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
+* 冷曦博客 - 源码之家-草根站长的资源共享平台: [https://www.lengxi.net](https://www.lengxi.net)
+* [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
+* [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
 
 
-
-## 发卡系统
+**发卡系统**
 
 * [github search](https://github.com/search?q=%E5%8F%91%E5%8D%A1%E7%B3%BB%E7%BB%9F&type=Repositories)
 * [https://github.com/zlkbdotnet/zfaka](https://github.com/zlkbdotnet/zfaka)
@@ -94,7 +167,7 @@
 > 提示“mtr: unable to get raw sockets”
 
 * [tcpping- 禁止了ICMP协议（ping命令）也能用](http://www.vdberg.org/~richard/tcpping.html)
-[https://github.com/deajan/tcpping](https://github.com/deajan/tcpping)
+    * [https://github.com/deajan/tcpping](https://github.com/deajan/tcpping)
 
 > `tcpping`脚本依赖`tcptraceroute` 组件，所以必须先安装`yum install tcptraceroute`
 
@@ -169,7 +242,12 @@ tracert www.woytu.com
 
 **GIT**
 
-> git 会依据平台自动变更文件换行符，在项目根目录下`.editorconfig`中设置`end_of_line = lf`
+> git 默认会依据平台自动变更文件换行符，在项目根目录下`.editorconfig`中设置`end_of_line = lf`
+
+> 当你在签出文件时，将 UNIX 换行符（LF）替换为 Windows 的换行符（CRLF）；
+> 当你在提交文件时，将 CRLF 替换为 LF。
+> 如果提交的文件是一个 包含中文字符的UTF-8文件，那么这个“换行符自动转换”功能在提交时不是每次都生效，
+> 尤其是文件中出现中文字符后有换行符时（但签出时的转换处理没有问题）
 
 ```shell
 # windows 下是 autocrlf
@@ -194,6 +272,15 @@ git config --global core.safecrlf false
 
 # 提交包含混合换行符的文件时给出警告
 git config --global core.safecrlf warn
+
+#设置行结束符的类型为lf
+git config --global core.eol lf
+
+#设置行结束符的类型为crlf
+git config --global core.eol crlf
+
+#设置行结束符的类型为native, native是指平台默认的行结束符。默认的类型是native
+git config --global core.eol native
 ```
 
 
@@ -251,106 +338,4 @@ tmpfs            99M     0   99M   0% /run/user/500
 Mem:           985M         95M        355M        5.1M        533M        743M
 Swap:            0B          0B          0B
 ```
-
-
-
-## svp
-
-+ [https://github.com/search?o=desc&q=vmess&s=updated&type=Repositories](https://github.com/search?o=desc&q=vmess&s=updated&type=Repositories)
-+ [https://github.com/search?o=desc&q=v2ray&s=updated&type=Repositories](https://github.com/search?o=desc&q=v2ray&s=updated&type=Repositories)
-+ [https://github.com/topics/v2ray?o=desc&s=updated](https://github.com/topics/v2ray?o=desc&s=updated)
-+ [https://github.com/topics/gfw](https://github.com/topics/gfw)
-+ [https://github.com/Alvin9999/new-pac/wiki](https://github.com/Alvin9999/new-pac/wiki)
-+ [https://github.com/lasoychina/v2ray_booking](https://github.com/lasoychina/v2ray_booking)
-[https://ssr.lasoy.cn](https://ssr.lasoy.cn)
-+ [https://github.com/txthinking/brook](https://github.com/txthinking/brook)
-+ [https://github.com/atrandys/trojan](https://github.com/atrandys/trojan)
-+ [OpenVPN-转载](https://liuyehcf.github.io/2019/08/25/OpenVPN-%E8%BD%AC%E8%BD%BD)
-+ [https://github.com/NetchX/Netch](https://github.com/NetchX/Netch)
-
-
-* [https://github.com/91CL](https://github.com/91CL)
-* [https://github.com/ssrsub/ssr/tree/master](https://github.com/ssrsub/ssr/tree/master)
-* [https://viencoding.com/ss-ssr-share](https://viencoding.com/ss-ssr-share)
-* [https://github.com/t9080](https://github.com/t9080)
-* [https://github.com/satrom/V2SSR](https://github.com/satrom/V2SSR)
-* [https://www.ssrtool.com](https://www.ssrtool.com) [https://usky.ml/tool/free_ssr](https://usky.ml/tool/free_ssr)
-* [https://github.com/xiaotianwl/v2ray_vps](https://github.com/xiaotianwl/v2ray_vps)
-* [https://github.com/selierlin/Share-SSR-V2ray](https://github.com/selierlin/Share-SSR-V2ray)
-* [https://github.com/ThinkDevelop/Free-SS-SSR](https://github.com/ThinkDevelop/Free-SS-SSR)
-* [https://github.com/max2max/freess](https://github.com/max2max/freess)
-* [https://github.com/ntkernel/lantern](https://github.com/ntkernel/lantern)
-* [https://github.com/ugvf2009/Miles](https://github.com/ugvf2009/Miles)
-[https://jiang.netlify.com](https://jiang.netlify.com)
-* [https://github.com/EmilyEdna/SS-SSR-V2RAY](https://github.com/EmilyEdna/SS-SSR-V2RAY)
-* [https://lncn.org](https://lncn.org)
-* [https://github.com/imba-tjd/freess/tree/dev](https://github.com/imba-tjd/freess/tree/dev)
-* [https://github.com/fggfffgbg](https://github.com/fggfffgbg)
-* [https://github.com/fqshare/free-ssr-v2ray-vpn](https://github.com/fqshare/free-ssr-v2ray-vpn)
-[https://jichangdaquan.com/node/429.html](https://jichangdaquan.com/node/429.html)
-* [https://free-ss.site](https://free-ss.site)
-* [https://view.freev2ray.org](https://view.freev2ray.org)
-* [https://github.com/CSE2018-2019/VMESS](https://github.com/CSE2018-2019/VMESS)
-* [https://github.com/Sean-Snow/good-good-study-day-day-up](https://github.com/Sean-Snow/good-good-study-day-day-up)
-
-
-- [https://t.me/s/ssrshares](https://t.me/s/ssrshares)
-- [https://t.me/s/mtplinks](https://t.me/s/mtplinks)
-- [https://t.me/s/socks5list](https://t.me/s/socks5list)
-- [https://t.me/s/SSRSUB](https://t.me/s/SSRSUB)
-- [https://t.me/s/mtpclub](https://t.me/s/mtpclub)
-- [https://t.me/s/FQ_FREE](https://t.me/s/FQ_FREE)
-
-
-**WireGuard**
-
-* [https://github.com/WireGuard](https://github.com/WireGuard)
-* [https://github.com/teddysun/across](https://github.com/teddysun/across)
-* [WireGuard一键安装脚本](https://zhuanlan.zhihu.com/p/84615811)
-* [https://github.com/wgredlong/WireGuard](https://github.com/wgredlong/WireGuard)
-* [https://github.com/hongwenjun/vps_setup](https://github.com/hongwenjun/vps_setup)
-
-
-**shadowsocks**
-
-* [shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows/releases)
-* [shadowsocks-android](https://github.com/shadowsocks/shadowsocks-android/releases)
-* [https://github.com/ShadowsocksR-Live/shadowsocksr-native/wiki](https://github.com/ShadowsocksR-Live/shadowsocksr-native/wiki)
-* [https://github.com/zhaoweih/Shadowsocks-Tutorial](https://github.com/zhaoweih/Shadowsocks-Tutorial)
-
-
-
-**v2ray**
-
-+ [v2ray-tools](https://www.v2ray.com/awesome/tools.html)
-+ [v2ray教程](https://yuan.ga/v2ray-complete-tutorial)
-+ [https://github.com/233boy/v2ray/tree/master](https://github.com/233boy/v2ray/tree/master)
-
-
-- [v2ray-core](https://github.com/v2ray/v2ray-core/releases)
-- [v2rayNG-android](https://github.com/2dust/v2rayNG/releases)
-- [v2rayN-Windows](https://github.com/2dust/v2rayN/releases)
-- [https://github.com/Qv2ray/Qv2ray](https://github.com/Qv2ray/Qv2ray)
-- [https://github.com/vrnobody/V2RayGCon](https://github.com/vrnobody/V2RayGCon)
-
-
-* [multi-v2ray](https://github.com/Jrohy/multi-v2ray)
-* [https://github.com/wulabing/V2Ray_ws-tls_bash_onekey](https://github.com/wulabing/V2Ray_ws-tls_bash_onekey)
-* [https://github.com/FunctionClub/V2ray.Fun](https://github.com/FunctionClub/V2ray.Fun)
-* [https://github.com/sprov065/v2-ui](https://github.com/sprov065/v2-ui)
-* [https://github.com/pengchujin/v2rayDocker](https://github.com/pengchujin/v2rayDocker)
-* [https://github.com/leitbogioro/v2ray.fun](https://github.com/leitbogioro/v2ray.fun)
-* [https://tools.sprov.xyz](https://tools.sprov.xyz)
-
-
-### PAC
-
-* [https://github.com/JinnLynn/genpac](https://github.com/JinnLynn/genpac)
-* [https://github.com/lbp0200/mono_pac](https://github.com/lbp0200/mono_pac)
-* [https://github.com/gfwlist](https://github.com/gfwlist)
-* [https://github.com/Loyalsoldier/v2ray-rules-dat](https://github.com/Loyalsoldier/v2ray-rules-dat)
-* [https://github.com/Loukky/gfwlist-by-loukky](https://github.com/Loukky/gfwlist-by-loukky)
-* [https://github.com/cdlaimin/gfwlist2pac](https://github.com/cdlaimin/gfwlist2pac)
-* [https://github.com/petronny/gfwlist2pac](https://github.com/petronny/gfwlist2pac)
-* [https://github.com/ACL4SSR/ACL4SSR](https://github.com/ACL4SSR/ACL4SSR)
 

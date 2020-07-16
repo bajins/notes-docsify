@@ -22,25 +22,22 @@
 * [https://github.com/PowerShell](https://github.com/PowerShell)
 * [安装适用于 Linux 的 Windows 子系统](https://docs.microsoft.com/zh-cn/windows/wsl/install-win10)
 
+- WMIC 已弃用替代品 [Get-WmiObject](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.management/get-wmiobject)
+- WMIC 已弃用替代品 [Get-CimInstance](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/get-ciminstance)
 
-**包管理**
 
-* [https://github.com/oneget/oneget](https://github.com/oneget/oneget) [https://www.nuget.org](https://www.nuget.org)
+
+## 包管理
+
+* [https://github.com/microsoft/winget-cli](https://github.com/microsoft/winget-cli)
+* [https://github.com/oneget/oneget](https://github.com/oneget/oneget)
+    * [https://www.nuget.org](https://www.nuget.org)
+    * [https://www.powershellgallery.com](https://www.powershellgallery.com)
 * [https://github.com/chocolatey](https://github.com/chocolatey)
 * [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
+* [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
-
-
-**终端**
-
-* [https://github.com/topics/windows](https://github.com/topics/windows)
-* [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
-* [https://github.com/appget](https://github.com/appget)
-* [https://github.com/x64dbg](https://github.com/x64dbg)
-* [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
-* [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
-* [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
 
 
 
@@ -66,9 +63,87 @@
 ```
 
 
+## Windows10自带应用
+
+> 注意空格和英文标点
+
+- 查看已安装应用
+
+```powershell
+Get-AppxPackage | Select Name,PackageFullName
+```
+
+- 恢复应用程序
+
+```powershell
+# 应用商店
+add-appxpackage -register "C:\Program Files\WindowsApps\*Store*\AppxManifest.xml" -disabledevelopmentmode
+# 计算器
+Get-AppxPackage *calculator* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+# 日历、邮件
+Get-AppxPackage Microsoft.windowscommunicationsapps -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
+```
+
+- 卸载应用程序
+
+```powershell
+# 卸载所有账户中的应用
+Get-AppxPackage -AllUsers | Remove-AppxPackage
+# 从系统账户中卸载应用
+Get-AppXProvisionedPackage -online | Remove-AppxProvisionedPackage –online
+# 应用商店
+get-appxpackage *store* | remove-Appxpackage
+# 日历、邮件
+Get-AppxPackage Microsoft.windowscommunicationsapps | Remove-AppxPackage
+get-appxpackage *communicationsapps* | remove-appxpackage
+# 从系统账户中卸载日历、邮件应用
+Get-AppXProvisionedPackage –online where-object {$_.packagename –like "*windowsmunicationsapps*"} | remove-appxprovisionedpackage –online
+# 人脉
+get-appxpackage *people* | remove-appxpackage
+# Groove 音乐
+get-appxpackage *zunemusic* | remove-appxpackage
+# 电影和电视
+get-appxpackage *zunevideo* | remove-appxpackage
+# 财经
+get-appxpackage *bingfinance* | remove-appxpackage
+# 资讯
+get-appxpackage *bingnews* | remove-appxpackage
+# 体育
+get-appxpackage *bingsports* | remove-appxpackage
+# 天气
+get-appxpackage *bingweather* | remove-appxpackage
+# OneNote
+get-appxpackage *onenote* | remove-appxpackage
+# 闹钟和时钟
+get-appxpackage *alarms* | remove-appxpackage
+# 计算器
+get-appxpackage *calculator* | remove-appxpackage
+# 相机
+get-appxpackage *camera* | remove-appxpackage
+# 照片
+get-appxpackage *photos* | remove-appxpackage
+# 地图
+get-appxpackage *maps* | remove-appxpackage
+# 录音机
+get-appxpackage *soundrecorder* | remove-appxpackage
+# XBox
+get-appxpackage *xbox* | remove-appxpackage
+```
+
+
+
 ## 命令
 
-* [压缩解压文件](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.archive)
+```powershell
+# 查看输出的命令集
+Get-Command -verb out
+
+Export-Csv
+Export-CliXML
+Out-file
+Out-GridView
+ConvertTo-HTML | Out-file
+```
 
 - 查看版本
 
@@ -104,11 +179,7 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 (New-Object System.Net.WebClient).DownloadFile('https://git.io/JvYAg','d:\\7za.exe')
 ```
 
-- 恢复计算器
 
-```powershell
-Get-AppxPackage *calculator* -AllUsers| Foreach {Add-AppxPackage -DisableDevelopmentMode -Register "$($_.InstallLocation)\AppXManifest.xml"}
-```
 
 - 循环目录
 
@@ -161,6 +232,138 @@ Move-Item 7zip/Files/7-Zip/7z.dll 7z.dll -Force
 Remove-Item –path 7zip –Recurse
 Remove-Item –path 7zip.msi
 ```
+
+
+**调用DLL**
+
+```powershell
+[DllImport("kernel32.dll")]
+private static extern int GetPrivateProfileSection(string lpAppName, byte[] lpszReturnBuffer, int nSize, string lpFileName);
+
+Function Lock-WorkStation {
+    $signature = @"
+        [DllImport("user32.dll", SetLastError = true)]
+        public static extern bool LockWorkStation();
+    "@
+    
+    $LockWorkStation = Add-Type -memberDefinition $signature -name "Win32LockWorkStation" -namespace Win32Functions -passthru
+    $LockWorkStation::LockWorkStation() | Out-Null
+}
+```
+
+
+
+
+**解压zip**
+
+* [压缩解压文件](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.archive)
+
+- PowerShell 5.0或更高版本(已预安装Windows 10和Windows Server 2016)
+
+```powershell
+Compress-Archive -Path 解压到目录路径 -DestinationPath 压缩文件路径
+Expand-Archive -Path 解压到目录路径 -DestinationPath 压缩文件路径 -Force:$Overwrite
+```
+
+- 需要.net 4.5以上
+
+```powershell
+Add-Type -assembly "system.io.compression.filesystem"
+[io.compression.zipfile]::ExtractToDirectory(压缩文件路径, 解压到目录路径)
+```
+
+- PowerShell 2.0以上
+
+```powershell
+function UnzipFile([string]$sourceFile, [string]$targetFolder){
+    if(!(Test-Path $targetFolder)){
+        mkdir $targetFolder
+    }
+    $shellApp = New-Object -ComObject Shell.Application
+    $files = $shellApp.NameSpace($souceFile).Items()
+    # foreach ($item in $files) {
+    #     $shell.Namespace($targetFolder).CopyHere($item)
+    # }
+    $shellApp.NameSpace($targetFolder).CopyHere($files)
+}
+```
+
+
+### 事件计划任务
+
+* [Scheduled Tasks（计划任务）](https://www.holoem.com/?p=1974)
+
+
+**使用Get-WinEvent**
+
+* [Get-WinEvent](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.diagnostics/get-winevent)
+
+```powershell
+Get-Help Get-WinEvent
+
+Get-WinEvent @{logname='application','system'} -MaxEvents 1
+# 列出所有事件日志
+Get-WinEvent -ListLog *
+# powershell管理员权限下获取安全事件日志
+Get-WinEvent -FilterHashtable @{LogName='Security'}
+# 过滤安全事件ID 4624
+Get-WinEvent -FilterHashtable @{LogName='Security';ID='4624'}
+# 查询今天的应用和系统日志，显示前2条
+Get-WinEvent @{logname='application','system';starttime=[datetime]::today } -MaxEvents 2
+# 根据ID查询事件
+Get-WinEvent -LogName Microsoft-Windows-PowerShell/Operational | Where-Object {$_.ID -eq "4100" -or $_.ID -eq "4104"}
+# 查询指定时间内的事件
+$StartTime=Get-Date  -Year  2020  -Month  3  -Day  1  -Hour  15  -Minute  30
+$EndTime=Get-Date  -Year  2020  -Month  3  -Day  15  -Hour  20  -Minute  00
+Get-WinEvent -FilterHashtable @{LogName='System';StartTime=$StartTime;EndTime=$EndTime}
+```
+
+**使用Get-EventLog**
+
+* [Get-EventLog](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.management/get-eventlog)
+* [PowerShell 监听事件日志](https://www.pstips.net/monitoring-eventlog.html)
+* [Powershell获取睡眠时间](https://www.pstips.net/get-sleep-and-hibernation-times.html)
+
+```powershell
+Get-Help Get-EventLog
+
+Get-EventLog -LogName system -Source user32
+# 按 EventID 将事件进行分组
+Get-EventLog -LogName system -Source user32 | group EventID
+# fl 是 Format-List 的别名
+Get-EventLog -LogName system -Source user32 -Newest 1 | fl *
+Get-EventLog -LogName system -Source user32 | Select TimeGenerated, Message
+Get-EventLog -LogName system -Source user32 | Select TimeGenerated, Message | sort message
+Get-EventLog -LogName system -Source user32 | Select TimeGenerated, Message | sort message | ft -Wrap
+```
+
+**定时任务**
+
+- 查看支持的命令
+
+```powershell
+Get-Command -Module ScheduledTasks
+```
+
+```powershell
+# 此例子为每5分钟一次的定时任务，通过设置$step和$add可以实现延时执行任务。 
+function waitsec{
+    $step=300 #设置间隔
+    $add=0 #设置延时
+    $t=(get-date)
+    $step-(($t.Hour*3600+$t.Minute*60+$t.Second)%$step)+$add
+}
+ 
+write-host "running...... please wait" (waitsec)"S" 
+Start-Sleep -s (waitsec)
+while(1){
+    # 执行代码
+    get-date
+    Start-Sleep -s (waitsec)
+}
+```
+
+
 
 ### 系统环境变量
 

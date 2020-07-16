@@ -7,23 +7,27 @@
 
 ## flag
 
-* [https://ss.netnr.com](https://ss.netnr.com)
 * [130 余个相见恨晚的超实用网站](https://blog.csdn.net/qq_43901693/article/details/100606828)
+* 开源项目刊栏: [https://github.com/521xueweihan/HelloGitHub](https://github.com/521xueweihan/HelloGitHub)
+* [https://octoverse.github.com/#top-languages](https://octoverse.github.com/#top-languages)
 
 
 **开源组织**
 
+* [https://github.com/apache](https://github.com/apache)
 * [https://github.com/google](https://github.com/google)
+    * [https://github.com/googleapis](https://github.com/googleapis)
 * [https://github.com/alibaba](https://github.com/alibaba)
 * [https://github.com/tencent](https://github.com/tencent)
 * [https://github.com/huawei](https://github.com/huawei)
 * [https://github.com/ctripcorp](https://github.com/ctripcorp)
 * [https://github.com/vipshop](https://github.com/vipshop)
+* [https://github.com/mdn](https://github.com/mdn)
+* [https://github.com/Qihoo360](https://github.com/Qihoo360)
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
 - [https://github.com/lets-blade](https://github.com/lets-blade)
 - 各种非常棒的学习项目：[https://github.com/jobbole](https://github.com/jobbole)
-- 用于学习数据结构和算法：[https://github.com/TheAlgorithms](https://github.com/TheAlgorithms)
 - [https://github.com/doocs](https://github.com/doocs)
 
 
@@ -39,6 +43,14 @@
 * [https://github.com/michaelliao](https://github.com/michaelliao)
 * [https://github.com/Blankj](https://github.com/Blankj)
 * [https://github.com/ityouknow](https://github.com/ityouknow)
+* [https://github.com/eugenp](https://github.com/eugenp)
+    * [https://www.baeldung.com](https://www.baeldung.com)
+* [https://github.com/lltx](https://github.com/lltx)
+
+
+- [https://github.com/hoochanlon](https://github.com/hoochanlon)
+- [https://github.com/easychen](https://github.com/easychen)
+
 
 
 
@@ -55,7 +67,13 @@
 ## 学习
 
 * CSDN：[https://www.csdn.net](https://www.csdn.net)
+* 博客园：[https://www.cnblogs.com](https://www.cnblogs.com)
+    * [https://github.com/esofar/cnblogs-theme-silence](https://github.com/esofar/cnblogs-theme-silence)
+    * [https://github.com/BNDong/Cnblogs-Theme-SimpleMemory](https://github.com/BNDong/Cnblogs-Theme-SimpleMemory)
+    * [https://github.com/peret-dressing/cnblogs-theme-nice](https://github.com/peret-dressing/cnblogs-theme-nice)
 * 思否：[https://segmentfault.com](https://segmentfault.com)
+* 掘金：[https://juejin.im](https://juejin.im)
+* 简书：[https://www.jianshu.com](https://www.jianshu.com)
 * TED（最优质的演讲）：[https://www.ted.com](https://www.ted.com)
 * 谷粉学术：[https://gfsoso.99lb.net/scholar.html](https://gfsoso.99lb.net/scholar.html)
 * 大学资源网：[http://www.dxzy163.com](http://www.dxzy163.com)
@@ -93,6 +111,7 @@
 * 必看网（人生必看的书籍）：[https://www.biikan.com](https://www.biikan.com)
 * [极客学院Wiki - IT 技术图文教程库](http://wiki.jikexueyuan.com)
 * [C语言中文网：c语言程序设计门户网站(入门教程、编程软件)](http://c.biancheng.net)
+* [教程相关-蒲公英云](http://www.dandelioncloud.cn/classify)
 * [首页 - 廖雪峰的官方网站](https://www.liaoxuefeng.com)
 * [LearnKu 终身编程者的知识社区](https://learnku.com)
 * [wizardforcel (@wizardforcel) on GitBook · GitBook (Legacy)](https://legacy.gitbook.com/@wizardforcel)
@@ -113,7 +132,7 @@
 
 
 
-## Blogs
+## 技术博客
 
 * [有赞权限系统(SAM)](https://tech.youzan.com/sam)
 * [美团技术团队](https://tech.meituan.com)
@@ -143,6 +162,9 @@
 * [https://www.dazhuanlan.com](https://www.dazhuanlan.com)
 * [归档 - 憶の年](https://www.529i.com/archives.html)
 * [友链links - 倾心博客](https://www.qxwlmz.cn/links.html)
+* [归档 | MonkeyWie's Blog](https://monkeywie.github.io/archives)
+* python [归档 | 春江暮客](https://www.bobobk.com/archives)
+* [归档 – 云原生实验室 - Kubernetes|Docker|Istio|Envoy|Hugo|Golang|云原生](https://fuckcloudnative.io/archive)
 
 
 
@@ -175,7 +197,6 @@
 * [http://muggle.javaboy.org](http://muggle.javaboy.org)
 * [归档 · 弥枳](https://blog.coor.top/archives)
 * [文章归档 - 拧螺丝的博客](https://justlei.cn/archives)
-* [https://www.baeldung.com](https://www.baeldung.com)
 * [归档 | gentlezuo的博客](https://gentlezuo.github.io/archives)
 * [归档集 -  我爱吃土豆](https://itudo.cn/archives.html)
 * [https://lihhz.gitee.io/post/](https://lihhz.gitee.io/post/)
@@ -189,7 +210,23 @@
 * [所有文章 | 闷瓜蛋子的BLOG](https://fookwood.com/all-posts)
 * [archives - 匠心零度博客](http://www.jiangxinlingdu.com/archives.html)
 * [Lovnx_CSDN博客-J2SE,Spring Cloud,Spring Cloud领域博主](https://blog.csdn.net/rickiyeat)
-
+* [归档 | Keep Coding](https://liujiacai.net/archives)
+* [归档 | Code Life](https://boris1993.github.io/archives)
+* [大东Daniel - 博客园](https://www.cnblogs.com/psyco)
+* [归档栏 - 宋子宪博客](https://songzixian.com/archives.html)
+* [归档 | AI Developers Geeks](http://blog.ibyte.vip/archives)
+* [归档 | Stephanie Tang's Blog](https://stephanietang.github.io/archives)
+* [码农小胖哥](https://www.felord.cn)
+* [if年少有为](https://www.cnblogs.com/ifme)
+* [归档 | 程序员果果](http://blog.itwolfed.com/archives)
+* [归档 | 程序员果果的博客](https://gf-huanchupk.github.io/archives)
+* [归档 | HJW's Blog](https://hjwjw.github.io/archives)
+* [Mkyong.com-学习Java和Spring。](https://mkyong.com)
+* [归档 | Dinghui.Ye Online](https://dinghuiye.online/archives)
+* [Archives - 空夜's Blog](http://www.eknown.cn/index.php/archives.html)
+* [AlgerFan | Blog](https://algerfan.cn)
+* [Java技术栈,分享最新最主流的Java技术](http://javastack.cn)
+* [Archives - 彭超 | Blog](https://antoniopeng.com/archive)
 
 
 
@@ -212,6 +249,10 @@
 * [分类 | Akkuman Blog](http://hacktech.cn/categories)
 * [归档 | Konica 的自留地](https://www.iikira.com/archives)
 * [Xuanwo's Blog](https://xuanwo.io/posts)
+* [欢迎来到Flyingon的博客 | Flyinon的博客](https://flyingon.github.io)
+* [归档 | Go语言充电站](https://lessisbetter.site/archives)
+* [小袁取经 - 博客园](https://www.cnblogs.com/xiaoyuanqujing)
+* [Archives-阳明的博客|Kubernetes|Istio|Prometheus|Python|Golang|云原生](https://www.qikqiak.com/archives)
 
 
 
@@ -224,21 +265,24 @@
 * [w3school 在线教程](https://www.w3school.com.cn/index.html)
 * [阿西河前端教程丨一个助你成为全栈开发的公益网站](https://www.axihe.com)
 * [JS变量和数据类型及其转化 - Coding_Changes_LIfe - 博客园](https://www.cnblogs.com/luoxuw/p/11438437.html)
+* [https://github.com/justjavac/justjavac.github.com](https://github.com/justjavac/justjavac.github.com)
+* [https://github.com/SHERlocked93/blog](https://github.com/SHERlocked93/blog)
+* [时光机 - FuocaのBlog](https://www.fuocu.cn/archives)
 
 
 
+## 其他博客
 
-### Other
-
+* pumpkin.best [https://github.com/superdzj/navi.github.io](https://github.com/superdzj/navi.github.io)
 * [拿着 Api 去玩耍](http://gank.io/api)
-* [归档栏 - Rat&#39;s Blog](https://www.moerats.com/archive.html)
+* [归档栏 - Rats Blog](https://www.moerats.com/archive.html)
 * [萌咖 | MoeClub.org](https://moeclub.org)
 * [归档 - 喵斯基部落](https://www.moewah.com/archives.html)
 * [mzr.me](https://mzr.me)
 * [SaoDaye](https://saodaye.com)
 * [代码浏览 - 94imm - zxy_coding](https://coding.net/u/zxy_coding/p/94imm/git)
 * [归档 - P3TERX ZONE - Zhuangbility &amp; Technology](https://p3terx.com/archives.html)
-* [归档](https://www.emengweb.com/archives)
+* [https://www.emengweb.com/archives](https://www.emengweb.com/archives)
 * [第2页 - Lucien&#39;s Blog - 因为孤独是人之常态，所以陪伴才显得尤为珍贵。](https://blog.lucien.ink/page/2)
 * [时间归档 - R 酱小窝](https://blog.rhilip.info/archives.html)
 * [3款免费企业域名邮箱Mail.ru，Yandex，Zoho申请和使用教程](https://bawodu.com/zoho-mail-ru-yandex)
@@ -259,8 +303,14 @@
 * [G Suite items - 关于 G Suite 的一些探索](https://gsuitems.com)
 * [归档 - LOGI](https://logi.im/archives.html)
 * [567899.xyz](https://567899.xyz/archive.html)
-
-
+* 木子: [https://muzi502.github.io](https://muzi502.github.io)
+* [LocMJJ博客](https://www.locmjj.com)
+* [https://github.com/FFRaycoder/blog-built](https://github.com/FFRaycoder/blog-built)
+[归档](https://www.raycoder.me/archives)
+* [时间轴 | Coder_桜](http://coder-sakura.github.io/blog/archives)
+* [时光机 - Shu's Garden](https://www.sitstars.com/archives.html)
+* [归档 | 蓝蓝博客](https://lanlan2017.github.io/blog/archives)
+* [时光の轴 – 苍穹の下](https://www.bluesky.cf/%E6%97%B6%E5%85%89%E3%81%AE%E8%BD%B4)
 
 
 
@@ -399,17 +449,24 @@
 * 优品PPT（模板下载）：[http://www.ypppt.com](http://www.ypppt.com)
 * 第一PPT（模板下载）：[http://www.1ppt.com/xiazai](http://www.1ppt.com/xiazai)
 * 三顿PPT导航：[http://sandunppt.com](http://sandunppt.com)
-* Excel函数表：[https://support.office.com/zh-cn/article/excel-%E5%87%BD%E6%95%B0%EF%BC%88%E6%8C%89%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89-b3944572-255d-4efb-bb96-c6d90033e188](https://support.office.com/zh-cn/article/excel-%E5%87%BD%E6%95%B0%EF%BC%88%E6%8C%89%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89-b3944572-255d-4efb-bb96-c6d90033e188)
+* [Excel函数表](https://support.office.com/zh-cn/article/excel-%E5%87%BD%E6%95%B0%EF%BC%88%E6%8C%89%E5%AD%97%E6%AF%8D%E9%A1%BA%E5%BA%8F%EF%BC%89-b3944572-255d-4efb-bb96-c6d90033e188)
+* Word文档中的语法突出显示代码
+    * [http://www.planetb.ca/syntax-highlight-word](http://www.planetb.ca/syntax-highlight-word)
+    * [http://www.codeinword.com](http://www.codeinword.com)
+
+
+
+
 
 
 ## 图片
 
 * 电脑壁纸：[http://lcoc.top/bizhi](http://lcoc.top/bizhi)
-* ：[https://unsplash.com](https://unsplash.com)
-* ：[https://pixabay.com](https://pixabay.com)
-* ：[https://www.pexels.com](https://www.pexels.com)
-* ：[https://visualhunt.com](https://visualhunt.com)
-* ：[https://www.ssyer.com](https://www.ssyer.com)
+* [https://unsplash.com](https://unsplash.com)
+* [https://pixabay.com](https://pixabay.com)
+* [https://www.pexels.com](https://www.pexels.com)
+* [https://visualhunt.com](https://visualhunt.com)
+* [https://www.ssyer.com](https://www.ssyer.com)
 * 彼岸图网：[http://pic.netbian.com](http://pic.netbian.com)
 * 极像素（超高清大图）：[https://www.sigoo.com](https://www.sigoo.com)
 * 免费版权图片搜索：[https://www.logosc.cn/so](https://www.logosc.cn/so)

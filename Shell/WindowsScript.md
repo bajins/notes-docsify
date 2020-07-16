@@ -9,26 +9,25 @@
 ## flag
 
 * [Scripting](https://docs.microsoft.com/zh-cn/previous-versions/ms950396(v=msdn.10))
-* [Windows Script Host](https://docs.microsoft.com/zh-cn/previous-versions//9bbdkx3k%28v%3dvs.85%29)
-* [属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/x66z77t4(v=vs.84)#language-element-table)
+* [Windows脚本和Windows Script Host的属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/bstcxhf7(v=vs.84)#in-this-section)
 * [https://github.com/mrpapercut/wscript](https://github.com/mrpapercut/wscript)
 
++ [Visual Basic for Applications (VBA) 语言参考](https://docs.microsoft.com/zh-cn/office/vba/api/overview/language-reference)
++ [VBA学习笔记](https://www.zhihu.com/people/xia-xi-lan/posts)
++ [xcel之VBA简单宏编程](https://blog.csdn.net/wordsin/article/details/80575615)
++ 批处理之家 [http://www.bathome.net](http://www.bathome.net)
++ 中国DOS联盟 [DOS批处理 & 脚本技术（批处理室）](http://cndos.fam.cx/forum/forumdisplay.php?fid=23)
 
 - `JScript`、`VBScript`同属于官方支持的`Windows Script`，这俩脚本都需要依赖于特定的宿主(`Host`)才能执行，
 `JavaScript`浏览器环境之外，还可以运行在`Windows Script Host`中。
-
 - `Windows Script Host`是一个`language-independent`的脚本宿主环境，主要用于执行`Windows`管理任务
+- Windows脚本宿主有两个版本：
+    - 一个基于Windows的版本（[WScript.exe](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/wscript)）
+    ，它提供用于设置脚本属性的属性表；运行以`vbs`为后缀的文件
+    - 一个基于命令提示符的版本（[CScript.exe](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/cscript)
+    直接执行可查看帮助），它提供命令行。用于设置脚本属性的开关。
+        - `//E:engine` 使用执行脚本的引擎有：`VBScript`和`JScript`
 
-**脚本宿主**
-
-> Windows脚本宿主有两个版本：一个基于Windows的版本（`Wscript.exe`），它提供用于设置脚本属性的属性表；
-> 一个基于命令提示符的版本（`Cscript.exe`），它提供命令行。用于设置脚本属性的开关。
-
-- [CScript.exe](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/cscript)直接执行可查看帮助
-
-> `//E:engine` 使用执行脚本的引擎有：`VBScript`和`JScript`
-
-- [WScript.exe](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/wscript)
 
 
 ## `WScript`对象
@@ -84,6 +83,20 @@
 |------------------------------	|--------------------------------------	|
 | WScript.Shell                	| 脚本外壳                             	|
 | Wscript.NetWork              	| 提供网络连接和远程打印机管理的函数。 	|
+| AspSmartUpload.SmartUpload   	|                                      	|
+| CDO.Configuration            	|                                      	|
+| CDONTS.NewMail               	| 邮件发送的组件                       	|
+| Huang.UploadFile             	|                                      	|
+| InternetExplorer.application 	|                                      	|
+| JMail.message                	| 邮件发送的组件                       	|
+| MSWC.AdRotator               	|                                      	|
+| MSWC.BrowserType             	|                                      	|
+| MSWC.NextLink                	|                                      	|
+| Shell.Application            	| Windows外壳                          	|
+| SQLOLE.SQLServer             	|                                      	|
+| WSHController                	|                                      	|
+| System.IO.StringWriter        |                                       |
+| Registry                      | 注册表                                 |
 
 
 | ADODB对象        	| 说明                                             	|
@@ -137,22 +150,6 @@
 | Scripting.FileSystemObject 	| 提供一整套文件系统操作函数                                      	|
 | Scripting.Signer           	| 签名                                                            	|
 
-
-| 对象                         	| 说明                                 	|
-|------------------------------	|--------------------------------------	|
-| AspSmartUpload.SmartUpload   	|                                      	|
-| CDO.Configuration            	|                                      	|
-| CDONTS.NewMail               	| 邮件发送的组件                       	|
-| Huang.UploadFile             	|                                      	|
-| InternetExplorer.application 	|                                      	|
-| JMail.message                	| 邮件发送的组件                       	|
-| MSWC.AdRotator               	|                                      	|
-| MSWC.BrowserType             	|                                      	|
-| MSWC.NextLink                	|                                      	|
-| Shell.Application            	| Windows外壳                          	|
-| SQLOLE.SQLServer             	|                                      	|
-| WSHController                	|                                      	|
-| System.IO.StringWriter        |                                       |
 
 
 | Collections对象                   | 说明                                                                   	|
@@ -227,94 +224,32 @@
 
 > 注意:`TextStream`对文件只可以从上往下读取，指针无法任意定位，也无法往回走。
 
-
-**方法和属性**
-
-
-| 方法和属性                                        	| 说明                                                                                          	|
-|------------------------------------------------	|-----------------------------------------------------------------------------------------------	|
-| fso.BuildPath(path,name)                       	| 将名称附加到现有路径。                                                                        	|
-| fso.CopyFile(src,dst,[overwrite])              	| 复制文件，其中overwrite表示文件存在时是否替换，默认为true                                     	|
-| fso.CopyFolder                                 	| 用法同CopyFile                                                                                	|
-| fso.CreateFolder(path)                         	| 创建一个文件夹                                                                                	|
-| fso.CreateTextFile(path)                       	| 创建一个文件                                                                                  	|
-| fso.CreateTextFile(path,[overrwite,unicode])   	| 创建一个文本文件                                                                              	|
-| fso.DeleteFile(path,[force])                   	| 删除文件，其中force表示是否删除只读文件，默认为false                                          	|
-| fso.DeleteFolder(path,[force])                 	| 用法同DeleteFile                                                                              	|
-| fso.DriveExists(drivespec)                     	| 检查指定的驱动器是否存在。                                                                    	|
-| fso.FileExists(path)                           	| 判断文件是否存在,返回结果为真或假                                                             	|
-| fso.FolderExists(path)                         	| 判断文件夹是否存在,返回结果为真或假                                                           	|
-| fso.GetAbsolutePathname(path)                  	| 得到文件的绝对路径                                                                            	|
-| fso.GetBaseName(path)                          	| 得到文件的不带扩展名的那个文件名                                                              	|
-| fso.GetDrive(drivespec)                        	| 返回对应于指定路径中的驱动器的 Drive 对象。                                                   	|
-| fso.GetDriveName(path)                         	| 返回指定路径的驱动器名称。                                                                    	|
-| fso.GetExtensionName(path)                     	| 得到文件的扩展名                                                                              	|
-| fso.GetFile(path)                              	| 获得指定路径下文件的File对象                                                                  	|
-| fso.GetFileName(path)                          	| 得到文件的文件名                                                                              	|
-| fso.GetFolder(path)                            	| 获得指定路径下目录的Folder对象                                                                	|
-| fso.GetParentFolderName(path)                  	| 得到文件的父目录                                                                              	|
-| fso.GetSpecialFolder(folderspec)               	| 返回某些 Windows 特殊文件夹的路径。                                                           	|
-| fso.GetTempName()                              	| 返回随机生成的临时文件或文件夹。                                                              	|
-| fso.MoveFile(src,dst)                          	| 移动文件，如果目标有同名文件则会有报错提示文件已存在，可以通过该方法给文件改名                	|
-| fso.MoveFolder(src,dst)                        	| 用法同MoveFile                                                                                	|
-| fso.OpenTextFile(path,[mode,create,encoding])  	| 打开一个文本文件                                                                              	|
-| object.Attributes                              	| 表示文件的属性，用各个二制位置位组合表示。1标识只读，2标识隐藏，4标识系统。该属性部分位可读写 	|
-| object.Close                                   	| 关闭文件                                                                                      	|
-| object.Copy(dst,[overwrite])                   	| 复制文件，overwrite表示目标文件存在时是否覆盖，默认为true                                     	|
-| object.Count                                   	| 目录下的项目数，该属性只读                                                                    	|
-| object.DateCreated                             	| 文件创建时间，该属性只读                                                                      	|
-| object.DateLastAccessed                        	| 最近访问时间，该属性只读                                                                      	|
-| object.DateLastModified                        	| 最后修改时间，该属性只读                                                                      	|
-| object.Delete([force])                         	| 删除文件，force表示是否删除只读文件，默认为false                                              	|
-| object.Files                                   	| 得到目录下的所有文件对象集合                                                                  	|
-| object.Move(dst)                               	| 移动文件，如果目标有同名文件则会有报错提示文件已存在                                          	|
-| object.Name                                    	| 文件名称，该属性可读写                                                                        	|
-| object.OpenAsTextStream([ iomode, [ format ]]) 	| 打开指定文件并返回可用于从该文件读取、写入该文件或追加到该文件的 TextStream 对象。            	|
-| object.ParentFolder                            	| 父文件夹，该属性只读                                                                          	|
-| object.Path                                    	| 文件路径                                                                                      	|
-| object.Read(个数)                              	| 读取指定个数的字符                                                                            	|
-| object.ReadAll                                 	| 读取文件中所有内容                                                                            	|
-| object.ReadLine                                	| 读取一行内容                                                                                  	|
-| object.Size                                    	| 文件大小，以字节计                                                                            	|
-| object.Skip(个数)                              	| 跳过指定个数的字符SkipLine方法                                                                	|
-| object.SkipLine                                	| 跳过文件中一行                                                                                	|
-| object.SubFolders                              	| 得到目录下的所有文件夹对象集合                                                                	|
-| object.Write(文本内容)                         	| 写入指定的字符串                                                                              	|
-| object.WriteLine                               	| 写一行内容                                                                                    	|
-
-
 - `fso.OpenTextFile(path,[mode,create,encoding])`
-
-> `mode` 模式,缺省为只读方式打开
->> `ForReading=1` 以只读方式打开
->>
->> `ForWriting=2` 以读写方式打开
->>
->> `ForAppending=8` 以附加方式打开
-
-> `create` 不存在时是否创建缺省为否,即不创建文件
-
-> `encoding` 何种方式打开,缺省以`ASCII`方式
->> `TristateUseDefault=-2` 以系统默认方式打开
->>
->> `TristateTrue=-1` 以`Unicode`方式打开
->>
->> `TristateFalse=0` 以`ASCII`方式打开
-
+    - `mode` 模式,缺省为只读方式打开
+        - `ForReading=1` 以只读方式打开
+        - `ForWriting=2` 以读写方式打开
+        - `ForAppending=8` 以附加方式打开
+    -  `create` 不存在时是否创建缺省为否,即不创建文件
+    - `encoding` 何种方式打开,缺省以`ASCII`方式
+        - `TristateUseDefault=-2` 以系统默认方式打开
+        - `TristateTrue=-1` 以`Unicode`方式打开
+        - `TristateFalse=0` 以`ASCII`方式打开
 - `fso.CreateTextFile(path,[overrwite,unicode])`
-
-> `overrwite` 是否覆盖,缺省为是
->
-> `unicode` 是否以`Unicode`方式创建,缺省为`false`,即以`ASCII`方式创建
+    - `overrwite` 是否覆盖,缺省为是
+    - `unicode` 是否以`Unicode`方式创建,缺省为`false`,即以`ASCII`方式创建
 
 
 
 
 ## Shell
 
+* [https://docs.microsoft.com/zh-cn/windows/win32/shell/shell-entry](https://docs.microsoft.com/zh-cn/windows/win32/shell/shell-entry)
+* [https://docs.microsoft.com/zh-cn/windows/win32/shell/shell](https://docs.microsoft.com/zh-cn/windows/win32/shell/shell)
 * [Wscript.Shell 对象详细介绍](https://www.jb51.net/article/5683_all.htm)
+* [WshShell 对象](https://www.jb51.net/shouce/script56/script56_chs/html/wsobjwshshell.htm)
 
-> `Wscript.Shell`对象提供的功能：`New-Object -ComObject "Wscript.Shell" | Get-Member`
++ `Wscript.Shell`对象提供的功能：`New-Object -ComObject "Wscript.Shell" | Get-Member`
++ `Shell.Application`对象提供的功能：`New-Object -ComObject "Shell.Application" | Get-Member`
 
 - `Run` `Exec` 执行`cmd`命令
 - `CreateShortcut` 创建快捷方式
@@ -324,7 +259,10 @@
 - `RegWrite` 在注册表中设置指定的键或值
 - `RegDelete` 从注册表中删除指定的键或值
 - `SendKeys` 模拟按键
-- `Popup` 显示包含指定消息的消息窗口
+- `Popup` 显示包含指定消息的消息弹出窗口
+- `ExpandEnvironmentStrings` 返回环境变量的扩展值
+    - `ExpandEnvironmentStrings("%USERNAME%")` 获取用户名
+    - `ExpandEnvironmentStrings("%ComputerName%")` 获取计算机名
 
 | 变量名                     | 说明                                       |
 |-------------------------|------------------------------------------|
@@ -410,37 +348,35 @@
 
 ### 模拟按键
 
+* [https://docs.microsoft.com/zh-cn/windows/win32/inputdev/user-input](https://docs.microsoft.com/zh-cn/windows/win32/inputdev/user-input)
+
 - `SendKeys`键击参数说明
-
-> `Enter`回车建表示`{Enter}`、字母`A`表示`{A}`、数字`2`表示`{2}`等
->> 示例`Wshshell.SendKeys("{Enter}")`、`Wshshell.SendKeys("{A}")`、`Wshshell.SendKeys("{2}")`
-
-> 组合键`Shift`用`+`代替、`Ctrl`用`^`代替、`Alt`用`%`代替
->> 示例`Wshshell.SendKeys("+%{DELETE}")`、`Wshshell.SendKeys("^{C}")`、`Wshshell.SendKeys("^{V}")`
-
-> 模拟快捷键`Ctrl + S`保存内容：`Wshshell.SendKeys("^{s}")`
+    - `Enter`回车建表示`{Enter}`、字母`A`表示`{A}`、数字`2`表示`{2}`等
+        - 示例`Wshshell.SendKeys("{Enter}")`、`Wshshell.SendKeys("{A}")`、`Wshshell.SendKeys("{2}")`
+    - 组合键`Shift`用`+`代替、`Ctrl`用`^`代替、`Alt`用`%`代替
+        - 示例`Wshshell.SendKeys("+%{DELETE}")`、`Wshshell.SendKeys("^{C}")`、`Wshshell.SendKeys("^{V}")`
+    - 模拟快捷键`Ctrl + S`保存内容：`Wshshell.SendKeys("^{s}")`
+    - 使用`+{f10}`可以z有限制地方调用，如调用桌面菜单`{f5}+{f10}`
 
 
 
-## VMI
+## WMI和MI
+
+> Windows Management Instrumentation（WMI）的新版本是 Windows Management Infrastructure (MI)
 
 > `SWBEM`脚本是可以用来访问和控制WMI内部对象的一系列可用在脚本中的对象，
 > 脚本通过访问`wbemdisp.dll`这个`library`来访问`VMI`对象，这个仅被设计用来为脚本工作。
 
-> `WbemScripting.SWbemLocator`对象提供的功能：`New-Object -ComObject "WbemScripting.SWbemLocator" | Get-Member`
-
 > 查询方式类似sql语句（其实系统信息也是存储在计算中一个类似数据库的文件中）获取我们需要的对象的记录集
 
-| WbemScripting对象             	| 说明       	|
-|-------------------------------	|------------	|
-| WbemScripting                 	|            	|
-| WbemScripting.SWbemDateTime   	|            	|
-| WbemScripting.SWbemLastError  	|  	            |
-| WbemScripting.SWbemLocator    	| VMIAPI对象	|
-| WbemScripting.SWbemObjectPath 	|            	|
-| WbemScripting.SWbemRefresher  	|            	|
-| WebPlatStorage.WebPlatStorage 	|            	|
+* [WMI参考](https://docs.microsoft.com/zh-cn/windows/win32/wmisdk/wmi-reference)
+* [Windows Management Instrumentation（WMI）](https://docs.microsoft.com/zh-cn/windows/win32/wmisdk/wmi-start-page)
 
+- [为什么要使用Windows Management Infrastructure (MI)](https://docs.microsoft.com/zh-cn/previous-versions/windows/desktop/wmi_v2/why-use-mi-)
+
+* [WbemScripting脚本API对象](https://docs.microsoft.com/zh-cn/windows/win32/wmisdk/scripting-api-objects)
+* [系统注册表提供者](https://docs.microsoft.com/en-us/previous-versions/windows/desktop/regprov/system-registry-provider)
+* [Win32 Provider-可以看到表对应的字段有哪些](https://docs.microsoft.com/zh-cn/windows/win32/cimwin32prov/win32-provider)
 
 |           表名                    | 说明         |
 |-----------------------------------|------------|
@@ -487,7 +423,46 @@
 | Win32_UserAccount                 | 用户帐号       |
 | Win32_VideoController             | 显卡细节。      |
 | Win32_VideoSettings               | 显卡支持的显示模式。 |
+| Win32_ScheduledJob                | 创建一个作业AT命令（不是任务计划） |
+| Win32_NetworkLoginProfile         | 一个特定的用户运行Windows的计算机系统上的网络登录信息。 |
+| MSFT_NetAdapter                   | 逻辑网络适配器 |
+| Win32_NetworkConnection           | 一个基于Windows的环境中活动的网络连接 |
 
+
+**创建SWbemServices对象方式**
+
+* [SWbemServices object](https://docs.microsoft.com/zh-cn/windows/win32/wmisdk/swbemservices)
+
+```visual-basic
+Set objLocator = CreateObject("WbemScripting.SWbemLocator")
+Set objService = objLocator.ConnectServer(".", "root\cimv2")
+
+' 隐式使用本地计算机(.) 和默认名称空间("root\cimv2")
+Set objWMIService = GetObject("winmgmts:")
+
+Set objinst = GetObject("WinMgmts:Win32_LogicalDisk")
+
+Set objWMIService = GetObject("winmgmts:root\cimv2")
+
+Set objWMIService = GetObject("winmgmts://./root/cimv2")
+
+Set objWMIService = GetObject("winmgmts:\\.\root\cimv2")
+
+Set objWMIService = GetObject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
+
+' wmi与cimv2不同
+Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
+```
+
+```js
+// JScript.
+var LoginProfiles = GetObject("winmgmts:").InstancesOf ("Win32_NetworkLoginProfile");
+for(e = new Enumerator(LoginProfiles) ; !e.atEnd() ; e.moveNext()) {
+   var Profile = e.item();
+   WScript.Echo(Profile.Name);
+   WScript.Echo(Profile.LastLogon);
+}
+```
 
 
 
@@ -524,6 +499,8 @@
 
 
 ### vbs函数封装
+
+* [https://github.com/eklam/VbsJson](https://github.com/eklam/VbsJson)
 
 **数组转换为字符串**
 
@@ -587,14 +564,6 @@ End Function
 'Create Date    2019-10-22
 'Example        GetSystemBit()
 Public Function GetSystemBit()
-    ' 查找进程，方式一
-    'Set WMIService = GetObject("winmgmts:\\.\root\cimv2")
-    'Set ComputerSystem = WMIService.ExecQuery("select * from Win32_ComputerSystem")
-    ' 查找进程，方式二
-    'Set locator = CreateObject("WbemScripting.SWbemLocator")
-    'Set WMIService = locator.ConnectServer(, "root\cimv2")
-    'Set ComputerSystem = WMIService.ExecQuery("select * from Win32_ComputerSystem")
-    ' 查找进程，方式三
     Set WMIService = GetObject("winmgmts:{impersonationlevel=impersonate}!\\.\root\cimv2")
     Set ComputerSystem = WMIService.InstancesOf("Win32_ComputerSystem")
 
@@ -663,3 +632,141 @@ Next
 ```
 
 
+
+**Ping**
+
+```visual-basic
+Function Ping(strHostName) 
+  Dim colPingResults, objPingResult, strQuery 
+  ' 定义WMI查询
+  strQuery = "SELECT * FROM Win32_PingStatus WHERE Address = '" & strHostName & "'" 
+  ' 运行WMI查询
+  ' GetObject("winmgmts://./root/cimv2")
+  Set colPingResults = GetObject("winmgmts:root\cimv2").ExecQuery(strQuery) 
+  ' 将查询结果转换为True或False
+  For Each objPingResult In colPingResults 
+    If Not IsObject(objPingResult) Then 
+      Ping = False 
+    Else 
+      If objPingResult.StatusCode = 0 Then 
+        Ping = True 
+      Else 
+        Ping = False 
+      End If 
+      'WScript.Echo "Ping status code for " & strHostName & ": " & objPingResult.StatusCode 
+    End If 
+  Next 
+  Set colPingResults = Nothing 
+End Function
+```
+
+
+**监视网络连接**
+
+```visual-basic
+Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
+' 执行事件订阅查询以接收事件。事件订阅查询定义了要监视的托管环境的更改。发生更改时，WMI基础结构会将事件描述为调用脚本。
+Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaConnect") 
+Do While True 
+    Set strLatestEvent = colMonitoredEvents.NextEvent 
+    Wscript.Echo "已建立网络连接："
+    WScript.Echo strLatestEvent.InstanceName, Now
+    Wscript.Echo 
+Loop
+```
+
+**监视网络断开**
+
+```visual-basic
+Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
+' 执行事件订阅查询以接收事件。事件订阅查询定义了要监视的托管环境的更改。发生更改时，WMI基础结构会将事件描述为调用脚本。
+Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaDisconnect") 
+Do While True 
+    Set strLatestEvent = colMonitoredEvents.NextEvent 
+    Wscript.Echo "网络连接已丢失："
+    WScript.Echo strLatestEvent.InstanceName, Now
+Loop
+```
+
+
+**设置壁纸**
+
+> 使用API触发图片文件右键菜单上的 `设置为桌面背景(B)`
+
+```visual-basic
+Set shApp = CreateObject("Shell.Application")
+' 获取文件
+Set picFile = CreateObject("Scripting.FileSystemObject").GetFile("C:\Users\bajin\Desktop\CachedImage_1920_1080_POS4.jpg")
+' 获取文件上的所有右键菜单项
+' Set items = shApp.NameSpace(picFile.ParentFolder.Path).ParseName(picFile.Name).Verbs()
+Set items = shApp.NameSpace(picFile.ParentFolder.Path).Items().Item(picFile.Name).Verbs()
+' 遍历所有菜单项
+' For i=0 To items.Count - 1
+' Set item = items.Item(i)
+For Each item In items
+    ' 注意执行的脚本文件需要为简体中文编码
+    If item.Name = "设置为桌面背景(&B)" Then
+    ' If strcomp(item.Name,"设置为桌面背景(&B)") = 0 Then
+        item.DoIt
+    END IF
+Next
+```
+
+
+**刷新桌面**
+
+```visual-basic
+' 切换到桌面
+CreateObject("Shell.Application").ToggleDesktop()
+' 刷新桌面
+CreateObject("WScript.Shell").SendKeys("{F5}")
+
+Set WSHShell = CreateObject("WScript.Shell")
+' 切换到桌面
+'WSHShell.AppActivate("Program Manager")
+WSHShell.AppActivate(WSHShell.SpecialFolders("Desktop"))
+' 刷新桌面
+WSHShell.SendKeys("{F5}")
+
+' 下面这两种方式没看出效果
+CreateObject("shell.application").Namespace(0).Self.invokeVerb("R&efresh")
+CreateObject("shell.application").Namespace(&H10).Self.invokeVerb("Refresh")
+
+' 刷新桌面、任务栏、OSD（相当于重启资源管理器）
+Set WSHShell = CreateObject("WScript.Shell")
+WSHShell.Run "regsvr32.exe /s /n /i:/UserInstall %SystemRoot%\system32\themeui.dll", 0, True
+
+' 效果不太好，有时刷新成功，有时失败
+Set WSHShell = CreateObject("WScript.Shell")
+WSHShell.Run "RunDll32 USER32,UpdatePerUserSystemParameters", 0, True
+
+' assoc文件关联时会自动刷新桌面，可能报错
+Set WSHShell = CreateObject("WScript.Shell")
+WSHShell.Run "assoc .=.", 0, True
+
+' 重启资源管理器并恢复打开的目录，暂时不可用
+Function RestartExplorer()
+    Dim arrURL()
+    n = -1
+    Set shApp = CreateObject("Shell.Application")
+    ' 遍历所有打开的窗口
+    For Each oWin In shApp.Windows
+        ' 如果打开的窗口为资源管理器
+        If Instr(1, oWin.FullName, "\explorer.exe", vbTextCompare) Then
+            n = n + 1
+            ReDim Preserve arrURL(n)
+            arrURL(n) = oWin.LocationURL
+            'oWin.Document.folder.title
+            ' 关闭当前打开的文件夹
+            'oWin.quit
+        End If
+    Next
+    ' 结束资源管理器进程
+    CreateObject("WScript.Shell").Run "taskkill /f /im explorer.exe >nul 2>nul&start explorer.exe", 0, True
+    ' 遍历并打开之前的窗口
+    For Each strURL In arrURL
+        'shApp.Open strURL
+        shApp.Explore strURL
+    Next
+End Function
+```

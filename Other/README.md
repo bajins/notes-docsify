@@ -8,23 +8,14 @@
 
 ## flag
 
++ GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
++ GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
++ 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
 + [https://github.com/No-Github/Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
 + [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
 + [Photoshop快捷键大全](http://www.ip138.com/photoshop)
 + [最详细的PS快捷键大全](http://www.360doc.com/content/19/0507/02/9060464_833889392.shtml)
 + [python、java、c、go执行速度对比](https://www.jianshu.com/p/d60eff598aa0)
-
-
-* [https://github.com/cloudflare/wrangler](https://github.com/cloudflare/wrangler)
-* [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
-* [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
-* [https://github.com/topics/cloudflare-workers](https://github.com/topics/cloudflare-workers)
-* [https://github.com/Siujoeng-Lau/Workers-Proxy](https://github.com/Siujoeng-Lau/Workers-Proxy)
-* [Cloudflare Workers 创建自定义域名的项目](https://blog.16lab.io/workers-custom-domain)
-* [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
-* [https://github.com/netnr/workers](https://github.com/netnr/workers)
-* [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
-
 
 - [https://siguso.com](https://siguso.com)
 - [https://www.uedbox.com/share](https://www.uedbox.com/share)
@@ -33,6 +24,7 @@
 
 
 * [https://github.com/search?q=learning&type=Repositories](https://github.com/search?q=learning&type=Repositories)
+
 
 
 
@@ -107,10 +99,10 @@
 
 * [https://www.livere.com](https://www.livere.com)
 * [https://github.com/xCss/Valine](https://github.com/xCss/Valine)
-[https://github.com/DesertsP/Valine-Admin](https://github.com/DesertsP/Valine-Admin)
+    * [https://github.com/DesertsP/Valine-Admin](https://github.com/DesertsP/Valine-Admin)
 * [https://disqus.com](https://disqus.com)
 * [https://github.com/gitalk/gitalk](https://github.com/gitalk/gitalk)
-[Gitalk评论插件使用教程](https://segmentfault.com/a/1190000018072952)
+    * [Gitalk评论插件使用教程](https://segmentfault.com/a/1190000018072952)
 * [https://github.com/meteorlxy/vssue](https://github.com/meteorlxy/vssue)
 * [https://github.com/imsun/gitment](https://github.com/imsun/gitment)
 * [https://github.com/EZForever/gitment-mod](https://github.com/EZForever/gitment-mod)
@@ -140,6 +132,22 @@
 
 
 
+## 匿名分享
+
+**图床**
+
+* [http://img.wang](http://img.wang)
+
+
+**文件分享**
+
+* [https://www.file.io](https://www.file.io)
+* [https://uplovd.com](https://uplovd.com)
+* [https://anonfiles.com](https://anonfiles.com)
+
+
+
+
 ## 临时邮箱
 
 
@@ -160,6 +168,11 @@
 * [https://maildrop.cc](https://maildrop.cc)
 * [https://9em.org](https://9em.org)
 * [https://www.cs.email/zh](https://www.cs.email/zh)
+* [http://xkx.me](http://xkx.me)
+* [http://mail.hrka.net](http://mail.hrka.net)
+* [http://mail.binye.xyz](http://mail.binye.xyz)
+* [http://forsaken.somecolor.cc](http://forsaken.somecolor.cc)
+
 
 
 ## 在线接收短信
@@ -170,7 +183,7 @@
 * [https://www.cnwml.com](https://www.cnwml.com)
 * [https://www.zusms.com/phone/all](https://www.zusms.com/phone/all)
 * ReceivingSms：[https://www.receivingsms.com](https://www.receivingsms.com)
-[https://www.visitorsms.com](https://www.visitorsms.com)
+    * [https://www.visitorsms.com](https://www.visitorsms.com)
 * blacktel：[https://www.blacktel.io](https://www.blacktel.io)
 * spoofBox：[http://www.spoofbox.com](http://www.spoofbox.com)
 * SmsReceiver：[https://sms.ndtan.net](https://sms.ndtan.net)
@@ -194,22 +207,20 @@
 
 ## 身份和信用卡
 
-* [ruyo](https://51.ruyo.net/%E8%99%9A%E6%8B%9F%E8%BA%AB%E4%BB%BD%E4%BF%A1%E7%94%A8%E5%8D%A1%E7%94%9F%E6%88%90)
+* 国家代码，电话代码，拨号代码，电话代码，ISO国家代码: [https://countrycode.org](https://countrycode.org)
+* [https://github.com/philipperemy/name-dataset](https://github.com/philipperemy/name-dataset)
+
 
 **生成完整用户信息**
 
 > （有生成数量限制）支持美国、日本、德国、英国等多国身份
 
-中文站：[http://www.haoweichi.com](http://www.haoweichi.com)
-
-英文站：[https://www.fakenamegenerator.com](https://www.fakenamegenerator.com)
-
-英文站：[https://www.fakeaddressgenerator.com](https://www.fakeaddressgenerator.com)
-
-台湾/香港/韩国身份信息生成：[https://tw.51240.com](https://tw.51240.com)
-
-台湾身份证生成：[https://people.debian.org/~paulliu/ROCid.html](https://people.debian.org/~paulliu/ROCid.html)
-
+- 中文站：[http://www.haoweichi.com](http://www.haoweichi.com)
+- 英文站：[https://www.fakenamegenerator.com](https://www.fakenamegenerator.com)
+- 英文站：[https://www.fakeaddressgenerator.com](https://www.fakeaddressgenerator.com)
+- 台湾/香港/韩国身份信息生成：[https://tw.51240.com](https://tw.51240.com)
+- 台湾身份证生成：[https://people.debian.org/~paulliu/ROCid.html](https://people.debian.org/~paulliu/ROCid.html)
+    - [https://www.csie.ntu.edu.tw/~b90057/use/ROCid.html](https://www.csie.ntu.edu.tw/~b90057/use/ROCid.html)
 
 **生成虚拟信息**
 
@@ -247,11 +258,19 @@
 * [https://github.com/marak/Faker.js](https://github.com/marak/Faker.js)
 * [https://github.com/thm/uinames](https://github.com/thm/uinames)
 * [https://github.com/RandomAPI/Randomuser.me-Node](https://github.com/RandomAPI/Randomuser.me-Node)
-* [https://github.com/MrKinauJr/FakeNameGenerator](https://github.com/MrKinauJr/FakeNameGenerator)
-* [https://github.com/faker-ruby/faker](https://github.com/faker-ruby/faker)
 * [https://github.com/dmgk/faker](https://github.com/dmgk/faker)
 * [https://github.com/arakelian/faker](https://github.com/arakelian/faker)
 * [https://github.com/travishorn/fake-identity](https://github.com/travishorn/fake-identity)
+* [https://github.com/corbanworks](https://github.com/corbanworks)
+* [https://github.com/MrKinauJr/FakeNameGenerator](https://github.com/MrKinauJr/FakeNameGenerator)
+
++ [https://pypi.org/search/?q=Faker](https://pypi.org/search/?q=Faker)
+
+* [https://github.com/faker-ruby/faker](https://github.com/faker-ruby/faker)
+* [https://github.com/fzaninotto/Faker](https://github.com/fzaninotto/Faker)
+* [https://github.com/joke2k/faker](https://github.com/joke2k/faker)
+[faker_examples.py](/files/faker_examples.py)
+* [https://github.com/thiagofigueiro/faker_web](https://github.com/thiagofigueiro/faker_web)
 
 
 

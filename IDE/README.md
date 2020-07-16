@@ -11,6 +11,7 @@
 * [https://github.com/atom](https://github.com/atom)
 * [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
 * [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
+* [https://github.com/liyasthomas/postwoman](https://github.com/liyasthomas/postwoman)
 * [https://www.allroundautomations.com/bodyplsqldevreg.html]()
 * [https://www.mobatek.net](https://www.mobatek.net)
 * [https://github.com/neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
@@ -23,8 +24,15 @@
 * go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
 * [http://git.aakkc.com](http://git.aakkc.com)
 * [https://github.com/Kaggle](https://github.com/Kaggle)
-[https://www.kaggle.com](https://www.kaggle.com)
-[GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
+    * [https://www.kaggle.com](https://www.kaggle.com)
+    * [GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
+* [https://ssh.cloud.google.com](https://ssh.cloud.google.com)
+    * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
+* [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
+* [GitHub 下载加速](https://noshore.cn/github.html)
+* [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
+    * [GitHub加速](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/mfnkflidjnladnkldfonnaicljppahpg)
+* GitHub代下载服务 [http://g.widyun.com](http://g.widyun.com)
 
 
 
@@ -32,17 +40,16 @@
 
 * [https://ide.goorm.io](https://ide.goorm.io)
 * [https://codesandbox.io](https://codesandbox.io)
-* [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
-* [https://www.heroku.com](https://www.heroku.com)
 * [https://glitch.com](https://glitch.com)
+* [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
 
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io)
+[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io) 是一款在线IDE能即时修改GitHub代码，
+访问仓库：https://gitpod.io/#https://github.com/账户名/仓库名
 
-> Gitpod是一款在线IDE能即时修改GitHub代码
+> 示例：[https://gitpod.io/#github.com/woytu/notes-vuepress](https://gitpod.io/#github.com/woytu/notes-vuepress)
 
-> https://gitpod.io/#https://github.com/账户名/仓库名
 
-> 示例：[https://gitpod.io/#github.com/woytu/UseNotes-vuepress](https://gitpod.io/#github.com/woytu/UseNotes-vuepress)
+**[静态部署](/Web/README.md#静态部署)**
 
 
 **在线运行代码**
@@ -107,13 +114,16 @@
 * [http://www.pnotepad.org](http://www.pnotepad.org)
 
 
-- [https://www.sublimetext.com](https://www.sublimetext.com) [http://www.sublimetext.cn](http://www.sublimetext.cn)
+- [https://www.sublimetext.com](https://www.sublimetext.com)
+    - [http://www.sublimetext.cn](http://www.sublimetext.cn)
 - [sublimetext破解](https://www.abbeyok.com/archives/337)
 - [sublime-text-3-license-key](http://blog.jdk5.com/zh/sublime-text-3-license-key)
 - [Sublime Text3 注册码激活码](https://blog.csdn.net/qq_29819449/article/details/80130327)
 
 
 **Notepad++**
+
+* [https://github.com/notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)
 
 - 查看快捷键：`设置` –> `管理快捷键` -> `Scintilla命令`
 
@@ -128,6 +138,14 @@
 > 显示回车符，换行符，TAB键，行首，行尾等特殊字符
 
 > 视图(V) ⇒ 显示符号 ⇒ 显示空格与制表符
+
+
+- 删除未包含内容的行
+
+> <kbd>Ctrl</kbd> + <kbd>F</kbd> ⇒ 选择`标记`标签页（或者<kbd>Alt</kbd> + <kbd>S</kbd> 然后按<kbd>K</kbd>） ⇒ 
+> 查找目标输入正则表达式 ⇒ 勾选`正则表达式`、`标记所在行`、`清除上次标记` ⇒ 点击`全部标记`
+
+> 点击菜单栏 `搜索` ⇒ `书签` ⇒ `删除未标记行`
 
 
 
