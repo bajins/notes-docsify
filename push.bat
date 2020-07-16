@@ -1,7 +1,7 @@
 @echo off
 :: 解决把中文写入文件乱码问题（声明采用UTF-8编码），936为GBK，437为美国英语
 :: https://blog.csdn.net/python_class/article/details/81560470
-chcp 65001
+::chcp 65001
 :: 开启延迟环境变量扩展（解决for或if中操作变量时提示ECHO OFF问题，用!!取变量）
 setlocal EnableDelayedExpansion
 
