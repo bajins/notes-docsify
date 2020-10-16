@@ -32,14 +32,10 @@
 ## 使用
 
 
-> 先克隆本仓库 `git clone https://github.com/woytu/UseNotes-docsify.git`
-
-> 保留上面[目录结构](#目录结构)列出的文件和文件夹，其他的全部删除
-
-> 创建自己的md文件，开始写作
-
-> 编辑入口文件（`index.html`）：其中评论系统有多个例子，可自行修改
-
-> 使用`push 本次提交的备注信息`命令生成导航栏和文件列表，并且自动提交到仓库
-
-> 提交后到GitHub设置中开启`GitHub Pages`
+- 先克隆本仓库 `git clone https://github.com/woytu/notes-docsify.git`
+- 保留上面[目录结构](#目录结构)列出的文件和文件夹，其他的全部删除
+- 创建自己的md文件，开始写作
+- 编辑入口文件（`index.html`）：其中评论系统有多个例子，可自行修改
+- 在项目中执行`echo -e '#!/bin/bash\n\n./push.sh'>.git/hooks/pre-commit`
+    - 如果是Linux或mac需要执行`chmod +x .git/hooks/pre-commit`设置执行权限
+- 提交后到GitHub设置中开启`GitHub Pages`
