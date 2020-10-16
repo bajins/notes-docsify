@@ -1,10 +1,18 @@
-# ÎÄ¼ş
+# æ–‡ä»¶
+
+[Eclipseé…ç½®.zip](/files/Eclipseé…ç½®.zip ':ignore')
+
+[Get-COM-Objects.bat](/files/Get-COM-Objects.bat ':ignore')
+
+[Get-COM-Objects.ps1](/files/Get-COM-Objects.ps1 ':ignore')
+
+[IDEAè®¾ç½®.zip](/files/IDEAè®¾ç½®.zip ':ignore')
+
+[MediaQueriesExample.html](/files/MediaQueriesExample.html ':ignore')
 
 [circle-progress-bar.html](/files/circle-progress-bar.html ':ignore')
 
 [css-animation.html](/files/css-animation.html ':ignore')
-
-[EclipseÅäÖÃ.zip](/files/EclipseÅäÖÃ.zip ':ignore')
 
 [faker_examples.py](/files/faker_examples.py ':ignore')
 
@@ -22,10 +30,6 @@
 
 [frpc.bat](/files/frpc.bat ':ignore')
 
-[Get-COM-Objects.bat](/files/Get-COM-Objects.bat ':ignore')
-
-[Get-COM-Objects.ps1](/files/Get-COM-Objects.ps1 ':ignore')
-
 [git-pull.bat](/files/git-pull.bat ':ignore')
 
 [git-pull.sh](/files/git-pull.sh ':ignore')
@@ -42,10 +46,6 @@
 
 [horizontal-arrangement-inline-block.html](/files/horizontal-arrangement-inline-block.html ':ignore')
 
-[IDEAÉèÖÃ.zip](/files/IDEAÉèÖÃ.zip ':ignore')
-
-[MediaQueriesExample.html](/files/MediaQueriesExample.html ':ignore')
-
 [mountDataDisk.sh](/files/mountDataDisk.sh ':ignore')
 
 [rcloned](/files/rcloned ':ignore')
@@ -56,13 +56,13 @@
 
 [settings.xml](/files/settings.xml ':ignore')
 
-[Ìí¼Ó¿ì½İ·½Ê½.bat](/files/Ìí¼Ó¿ì½İ·½Ê½.bat ':ignore')
+[æ·»åŠ å¿«æ·æ–¹å¼.bat](/files/æ·»åŠ å¿«æ·æ–¹å¼.bat ':ignore')
 
-[½ûÓÃIntelÏÔ¿¨Çı¶¯ÉèÖÃ.igp](/files/½ûÓÃIntelÏÔ¿¨Çı¶¯ÉèÖÃ.igp ':ignore')
+[ç¦ç”¨Intelæ˜¾å¡é©±åŠ¨è®¾ç½®.igp](/files/ç¦ç”¨Intelæ˜¾å¡é©±åŠ¨è®¾ç½®.igp ':ignore')
 
-[ÉèÖÃGitHubµÄHosts.bat](/files/ÉèÖÃGitHubµÄHosts.bat ':ignore')
+[è®¾ç½®GitHubçš„Hosts.bat](/files/è®¾ç½®GitHubçš„Hosts.bat ':ignore')
 
-[ÉèÖÃ±ØÓ¦±ÚÖ½.bat](/files/ÉèÖÃ±ØÓ¦±ÚÖ½.bat ':ignore')
+[è®¾ç½®å¿…åº”å£çº¸.bat](/files/è®¾ç½®å¿…åº”å£çº¸.bat ':ignore')
 
-[ÉèÖÃ±ØÓ¦±ÚÖ½×ª»».bat](/files/ÉèÖÃ±ØÓ¦±ÚÖ½×ª»».bat ':ignore')
+[è®¾ç½®å¿…åº”å£çº¸è½¬æ¢.bat](/files/è®¾ç½®å¿…åº”å£çº¸è½¬æ¢.bat ':ignore')
 
