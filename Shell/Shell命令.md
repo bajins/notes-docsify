@@ -6,27 +6,26 @@
 
 
 
-## flag
+## Flag
 
-> `Shell`是一个用`C`语言编写的程序，它是用户使用`Linux`的桥梁。
+> `Shell`是一个用`C`语言编写的程序，它是用户使用`Linux`的桥梁。文字操作系统与外部最主要的接口就叫做`Shell`。`Shell`是操作系统最外面的一层。
 >
-> 文字操作系统与外部最主要的接口就叫做`Shell`。`Shell`是操作系统最外面的一层。
->
-> `Shell`管理你与操作系统之间的交互:等待你输入，向操作系统解释你的输入，并且处理各种各样的操作系统的输出结果。
+> `Shell`管理你与操作系统之间的交互：等待你输入，向操作系统解释你的输入，并且处理各种各样的操作系统的输出结果。
 
 
 * [https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md](https://github.com/jlevy/the-art-of-command-line/blob/master/README-zh.md)
 * [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
 
-
-* [https://github.com/jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command)
-* [https://man.linuxde.net](https://man.linuxde.net)
-* [https://www.linuxcool.com](https://www.linuxcool.com)
+- 包管理器 [https://github.com/Homebrew](https://github.com/Homebrew)
+- [https://github.com/jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command)
+- [https://man.linuxde.net](https://man.linuxde.net)
+- [https://www.linuxcool.com](https://www.linuxcool.com)
 
 
 * [精选的优秀命令行框架](https://github.com/alebcay/awesome-shell)
 * [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
 
+- [Linux下Shell脚本字符串单引号、双引号、反引号、反斜杠的作用和区别](https://www.cnblogs.com/EasonJim/p/8018545.html)
 
 
 
@@ -40,7 +39,9 @@ cat /var/spool/mail/root
 
 > `clear`命令、`reset`命令（可修正光标位置）或<kbd>Ctrl</kbd> + <kbd>L</kbd>组合快捷键，并不是真正的清空屏幕，当用鼠标向上滚时，你仍然能看到之前的命令操作留下来的输出
 
-> `printf "\033c"`或`printf "\ec"`真正的清空了终端屏幕，它的功能跟`DOS`里`CMD.EXE`提供的`CLS`效果很相似。`\033  == \x1B == 27 == ESC`，于是，这个命令变成了`<ESC>c`，它是VT-XXX中表示`Full Reset (RIS)`的转义码。现今我们使用的所有的终端都是VT兼容的，但如果你发现自己使用的是一个非常奇怪的终端，那这个命令你可能用不了。`printf`是`bash`里内置的命令，内置命令的优先级比其它可执行文件要高。
+> `printf "\033c"`或`printf "\ec"`真正的清空了终端屏幕，它的功能跟`DOS`里`CMD.EXE`提供的`CLS`效果很相似。
+> `\033  == \x1B == 27 == ESC`，于是，这个命令变成了`<ESC>c`，它是VT-XXX中表示`Full Reset (RIS)`的转义码。
+> 现今我们使用的所有的终端都是VT兼容的，但如果你发现自己使用的是一个非常奇怪的终端，那这个命令你可能用不了。`printf`是`bash`里内置的命令，内置命令的优先级比其它可执行文件要高。
 
 
 ## 过滤结果
@@ -139,7 +140,7 @@ ls -l | awk "/postfix|dovecot/"
 
 > `crontab`命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
 
-### 编辑`crontab`文件
+### 编辑crontab文件
 
 ```bash
 crontab -e

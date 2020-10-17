@@ -6,11 +6,8 @@
 
 
 
-## flag
+## Flag
 
-+ GitHub每周趋势 [https://github.com/SolaTyolo/gold_github_trending](https://github.com/SolaTyolo/gold_github_trending)
-+ GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
-+ 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
 + [https://github.com/No-Github/Digital-Privacy](https://github.com/No-Github/Digital-Privacy)
 + [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
 + [Photoshop快捷键大全](http://www.ip138.com/photoshop)
@@ -19,11 +16,14 @@
 
 - [https://siguso.com](https://siguso.com)
 - [https://www.uedbox.com/share](https://www.uedbox.com/share)
-- [showdoc](https://github.com/star7th/showdoc)
+- [https://github.com/star7th/showdoc](https://github.com/star7th/showdoc)
+- [https://github.com/apidoc/apidoc](https://github.com/apidoc/apidoc)
 - [https://github.com/asciidoctor](https://github.com/asciidoctor)
 
 
 * [https://github.com/search?q=learning&type=Repositories](https://github.com/search?q=learning&type=Repositories)
+
+- [https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay](https://stripe.com/zh-cn-us/payments/payment-methods-guide#wechat-pay)
 
 
 
@@ -49,6 +49,7 @@
 
 **华北地区：**
 * 清华大学（[IPv4 & IPv6](http://mirrors.tuna.tsinghua.edu.cn), [IPv4](http://mirrors.4.tuna.tsinghua.edu.cn), [IPv6](http://mirrors.6.tuna.tsinghua.edu.cn)）
+* 北京外国语大学（[IPv4](https://mirrors.bfsu.edu.cn)）
 * 北京理工大学（[IPv4](http://mirror.bit.edu.cn), [IPv6](http://mirror.bit6.edu.cn)）
 * 北京交通大学（[IPv4 & IPv6](http://mirror.bjtu.edu.cn)）
 * 天津大学（[IPv4](http://mirror.tju.edu.cn), [IPv6](http://mirror.tju6.edu.cn)）
@@ -137,6 +138,18 @@
 **图床**
 
 * [http://img.wang](http://img.wang)
+* 即刻图床 [http://jiketuchuang.com](http://jiketuchuang.com)
+* 图壳 [https://imgkr.com](https://imgkr.com)
+* 开源图床 [https://imgurl.org](https://imgurl.org)
+* 简单图床 [https://img.545141.com](https://img.545141.com)
+* SM.MS [https://sm.ms](https://sm.ms)
+* 牛图网 [https://www.niupic.com](https://www.niupic.com)
+* 路过图床 [https://imgchr.com](https://imgchr.com)
+* 零度图床 [http://pic.ibilibili.xyz](http://pic.ibilibili.xyz)
+* 无畏图床 [https://img.5vwan.com](https://img.5vwan.com)
+* 虫洞图床 [https://dj.ci](https://dj.ci)
+* [https://lookimg.com](https://lookimg.com)
+* [https://imgkr.com](https://imgkr.com)
 
 
 **文件分享**
@@ -150,6 +163,7 @@
 
 ## 临时邮箱
 
++ [https://smailpro.com](https://smailpro.com)
 
 * [https://shorttimemail.com/zh-Hans](https://shorttimemail.com/zh-Hans)
 * [http://mail.bccto.me](http://mail.bccto.me)
@@ -207,8 +221,23 @@
 
 ## 身份和信用卡
 
++ [申请虚拟信用卡的40个不同渠道](https://sm.link/2020/01/06/66.html)
++ [全球付虚拟信用卡申请教程](https://coderschool.cn/3228.html)
++ [虚拟信用卡](https://www.vpsdawanjia.com/category/virtual-card)
+
+<details><summary style="font-size:130%;">易购卡(easypayx)</summary>
+
+* [美国虚拟信用卡开卡平台：EasyPay易购卡(522490，428813)](https://www.vpsdawanjia.com/3377.html)
+
+![](/images/easypayx.png)
+
+![](/images/easypayx可以过的平台.png)
+
+</details>
+
+
+
 * 国家代码，电话代码，拨号代码，电话代码，ISO国家代码: [https://countrycode.org](https://countrycode.org)
-* [https://github.com/philipperemy/name-dataset](https://github.com/philipperemy/name-dataset)
 
 
 **生成完整用户信息**
@@ -228,6 +257,9 @@
 
 * [https://names.igopaygo.com](https://names.igopaygo.com)
 
+- [https://www.ssnregistry.org](https://www.ssnregistry.org)
+- [https://www.ssn-verify.com](https://www.ssn-verify.com)
+
 
 **可生成信用卡图片支持万事达/VISA/运通卡**
 
@@ -239,7 +271,7 @@
 * [https://cc.namsopro.com](https://cc.namsopro.com)
 * [https://www.bestcreditcardgenerator.com](https://www.bestcreditcardgenerator.com)
 * [https://www.bingenerator.net](https://www.bingenerator.net)
-
+* [信用卡卡号生成器及验证器](https://www.yeeach.com/post/1370)
 
 
 **随机生成**
@@ -252,25 +284,23 @@
 
 **GitHub**
 
-+ [https://github.com/search?o=desc&q=fake+name&s=updated&type=Repositories](https://github.com/search?o=desc&q=fake+name&s=updated&type=Repositories)
++ [https://github.com/search?q=faker](https://github.com/search?q=faker)
++ [https://pypi.org/search/?q=Faker](https://pypi.org/search/?q=Faker)
 
+- [https://github.com/philipperemy/name-dataset](https://github.com/philipperemy/name-dataset)
 
 * [https://github.com/marak/Faker.js](https://github.com/marak/Faker.js)
-* [https://github.com/thm/uinames](https://github.com/thm/uinames)
 * [https://github.com/RandomAPI/Randomuser.me-Node](https://github.com/RandomAPI/Randomuser.me-Node)
 * [https://github.com/dmgk/faker](https://github.com/dmgk/faker)
 * [https://github.com/arakelian/faker](https://github.com/arakelian/faker)
 * [https://github.com/travishorn/fake-identity](https://github.com/travishorn/fake-identity)
 * [https://github.com/corbanworks](https://github.com/corbanworks)
 * [https://github.com/MrKinauJr/FakeNameGenerator](https://github.com/MrKinauJr/FakeNameGenerator)
-
-+ [https://pypi.org/search/?q=Faker](https://pypi.org/search/?q=Faker)
-
 * [https://github.com/faker-ruby/faker](https://github.com/faker-ruby/faker)
 * [https://github.com/fzaninotto/Faker](https://github.com/fzaninotto/Faker)
 * [https://github.com/joke2k/faker](https://github.com/joke2k/faker)
-[faker_examples.py](/files/faker_examples.py)
-* [https://github.com/thiagofigueiro/faker_web](https://github.com/thiagofigueiro/faker_web)
+    * [faker - 测试数据生成 | Tonny's Blog](https://codertang.com/2020/09/05/python-faker)
+    * [faker_examples.py](https://github.com/woytu/scripts-python/blob/master/faker_examples.py)
 
 
 

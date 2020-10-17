@@ -6,9 +6,8 @@
 
 
 
-## flag
+## Flag
 
-* Web 技术教程-W3School [https://www.w3school.com.cn/index.html](https://www.w3school.com.cn/index.html)
 * Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
 * Web API [https://developer.mozilla.org/zh-CN/docs/Web/API](https://developer.mozilla.org/zh-CN/docs/Web/API)
 * W3C 网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
@@ -17,13 +16,15 @@
 
 - [https://github.com/material-components](https://github.com/material-components)
   - [https://md.maxoxo.design](https://md.maxoxo.design)
+- [https://github.com/webview](https://github.com/webview)
 
 
 * 前端面试：[https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
-
-- [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
+* [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
+* [Serverless——前端的3.0时代](https://zhuanlan.zhihu.com/p/84054729)
 
 + [https://jsbin.com](https://jsbin.com)
++ [f2ex.cn 各种前端资源](http://f2ex.cn)
 
 
 **TypeScript**
@@ -32,6 +33,8 @@
 
 
 **WebAssembly**
+
++ [https://github.com/topics/wasm](https://github.com/topics/wasm)
 
 * [https://github.com/WebAssembly](https://github.com/WebAssembly)
 * [https://developer.mozilla.org/zh-CN/docs/WebAssembly](https://developer.mozilla.org/zh-CN/docs/WebAssembly)
@@ -46,38 +49,47 @@
 
 
 
+## 免费域名
 
-## 框架
+- [https://www.freenom.com](https://www.freenom.com)
+- [https://nic.eu.org](https://nic.eu.org)
 
-* [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
-  * [https://www.bootcss.com](https://www.bootcss.com)
-* [neditor 基于ueditor的更现代化的富文本编辑器，支持HTTPS](https://github.com/notadd/neditor)
-* [WebUploader是一个简单的以HTML5为主，FLASH为辅的现代文件上传组件](https://github.com/fex-team/webuploader)
-* [f2ex.cn 各种前端资源](http://f2ex.cn)
-* [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
+
 
 
 
 ## 静态博客或文档
 
++ [https://github.com/topics/website](https://github.com/topics/website)
++ [https://github.com/topics/express](https://github.com/topics/express)
++ [https://github.com/search?q=导航](https://github.com/search?q=%E5%AF%BC%E8%88%AA)
++ [https://github.com/topics/bookmark](https://github.com/topics/bookmark)
++ [https://github.com/topics/site-navigation](https://github.com/topics/site-navigation)
++ [https://github.com/topics/nav](https://github.com/topics/nav)
+    + [https://github.com/WebStackPage/WebStackPage.github.io](https://github.com/WebStackPage/WebStackPage.github.io)
+    + [https://github.com/geekape/geek-navigation](https://github.com/geekape/geek-navigation)
+    + [https://github.com/xjh22222228/nav](https://github.com/xjh22222228/nav)
 + [https://github.com/topics/static-site](https://github.com/topics/static-site)
 + [https://github.com/topics/blog-engine](https://github.com/topics/blog-engine)
 + [https://github.com/topics/static-blog](https://github.com/topics/static-blog)
 + [不蒜子文章统计](http://busuanzi.ibruce.info)
-  + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
+    + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
++ [https://www.algolia.com/docsearch](https://www.algolia.com/docsearch)
 
 
-* [静态编译VuePress](https://github.com/vuejs/vuepress)
+* 静态编译VuePress [https://github.com/vuejs/vuepress](https://github.com/vuejs/vuepress)
     * [https://github.com/vuepressjs/awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
-* [静态编译NuxtJs](https://github.com/nuxt/nuxt.js)
-* [静态编译Hexo](https://github.com/hexojs/hexo)
-* [静态编译Hugo](https://github.com/gohugoio/hugo)
-* [静态编译Jekyll](https://github.com/jekyll/jekyll)
+    * [https://github.com/search?q=vuepress-theme](https://github.com/search?q=vuepress-theme)
+    * [https://github.com/topics/vuepress-theme](https://github.com/topics/vuepress-theme)
+* 静态编译NuxtJs [https://github.com/nuxt](https://github.com/nuxt)
+* 静态编译Hexo [https://github.com/hexojs/hexo](https://github.com/hexojs/hexo)
+* 静态编译Hugo [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
+* 静态编译Jekyll [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
     * [http://jekyllcn.com](http://jekyllcn.com)
     * [https://www.jekyll.com.cn](https://www.jekyll.com.cn)
     * [https://github.com/mattvh/jekyllthemes](https://github.com/mattvh/jekyllthemes)
-* [静态编译Docsite](https://github.com/txd-team/docsite)
-* [运行时驱动Docsify](https://github.com/docsifyjs/docsify)
+* 静态编译Docsite [https://github.com/txd-team/docsite](https://github.com/txd-team/docsite)
+* 运行时驱动Docsify [https://github.com/docsifyjs/docsify](https://github.com/docsifyjs/docsify)
     * [https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
 * [https://github.com/docpress/docpress](https://github.com/docpress/docpress)
 * [运行时驱动Docute](https://github.com/egoist/docute)
@@ -91,55 +103,29 @@
 - [https://neocities.org](https://neocities.org)
 
 
-
-**免费域名**
-
-- [https://www.freenom.com](https://www.freenom.com)
-- [https://nic.eu.org](https://nic.eu.org)
-
-
-
-
-**VuePress主题**
-
-* [GitHub搜索VuePress主题](https://github.com/search?l=Vue&o=desc&q=vuepress-theme&s=stars&type=Repositories)
-* [vuepress-theme-ktquez](https://github.com/ktquez/vuepress-theme-ktquez)
-* [vuepress-theme-indigo-material](https://github.com/zhhlwd/vuepress-theme-indigo-material)
-* [vuepress-theme-meteorlxy](https://github.com/meteorlxy/vuepress-theme-meteorlxy)
-* [vuepress-theme-cchao](https://github.com/2020807070/vuepress-theme-cchao)
-* [vuepress-theme-ououe](https://github.com/tolking/vuepress-theme-ououe)
-* [vuepress-theme-blogue](https://github.com/ocavue/vuepress-theme-blogue)
-* [vuepress-theme-reform](https://github.com/xuzhongpeng/vuepress-theme-reform)
-* [vuepress-theme-yuicer](https://github.com/yuicer/vuepress-theme-yuicer)
-* [vuepress-theme-eugeo](https://github.com/Coolyang1996/vuepress-theme-eugeo)
-* [vuepress-theme-concise](https://github.com/YoungsunLi/vuepress-theme-concise)
-* [vuepress-theme-tassel](https://github.com/hirCodd/vuepress-theme-tassel)
-* [vuepress-theme-cycle](https://github.com/leCapsimRy/vuepress-theme-cycle)
-* [vuepress-theme-hhh](https://github.com/a298003154/vuepress-theme-hhh)
-* [vuepress-theme-fluent](https://github.com/ms-design/vuepress-theme-fluent)
-* [vuepress-theme-lovely](https://github.com/zp961214/vuepress-theme-lovely)
-* [vuepress-theme-prettyPure](https://github.com/HKChen/vuepress-theme-prettyPure)
-* [vuepress-theme-neon](https://github.com/summer1874/vuepress-theme-neon)
-* [vuepress-theme-mufeng](https://github.com/zhangximufeng/vuepress-theme-mufeng)
-* [vuepress-theme-zjblog](https://github.com/ZjBlog/vuepress-theme-zjblog)
-* [vuepress-theme-reco](https://github.com/recoluan/vuepress-theme-reco)
-* [https://github.com/zp961214/Blog](https://github.com/zp961214/Blog)
-
-
-
 ### 静态部署
 
++ [具有免费许可证的所有平台的Heroku替代方案](https://alternativeto.net/software/heroku/?license=free)
+    + [https://github.com/caprover](https://github.com/caprover)
+    + [https://www.heliohost.org](https://www.heliohost.org)
+    + [https://github.com/hasura](https://github.com/hasura)
+    + [https://github.com/gatsbyjs](https://github.com/gatsbyjs)
+    + [https://www.onworks.net](https://www.onworks.net)
+
 * [https://www.netlify.com](https://www.netlify.com)
-  * 示例：[https://woytu.netlify.app](https://woytu.netlify.app)
+    * 示例：[https://woytu.netlify.app](https://woytu.netlify.app)
 * [https://slack.com/get-started](https://slack.com/get-started)
 * [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
 * [https://github.com/zeit](https://github.com/zeit)
-  * 示例：[https://woytu.now.sh](https://woytu.now.sh)
+    * 示例：[https://woytu.now.sh](https://woytu.now.sh)
+* [https://github.com/vercel](https://github.com/vercel)
+    * [https://vercel.com](https://vercel.com)
 * [https://github.com/heroku](https://github.com/heroku)
-  * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
-  * 示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
+    * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
+    * 示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
+* [https://www.bmob.cn](https://www.bmob.cn)
 * [https://fast.io](https://fast.io)
-  * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
+    * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
 * [https://www.appveyor.com](https://www.appveyor.com)
 * [https://kubesail.com](https://kubesail.com)
 * [https://azure.microsoft.com/zh-cn/services/devops/pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines)
@@ -315,6 +301,44 @@ cdnjs.cloudflare.com            cdnjs.loli.net
 
 
 
+**Xpath基本语法**
+
+- `/` 从根节点选取，下级节点
+- `//` 任意节点选取
+- `*` 任意标签选取
+- `@` 选取属性
+- `..` 选取当前节点的父节点
+- `text()` 匹配节点全部链接文字
+- `contains(a,b)` 匹配节点部分链接文字
+- `last()` 选取最后一个
+
+
+**Xpath定位和Selector定位的区别**
+
+| 定位方式                                          	| Xpath                                	| Css Selector      	|
+|---------------------------------------------------	|--------------------------------------	|-------------------	|
+| find_element_by_id("id值")                        	| //*[@id="id值"]                      	| #id值             	|
+| find_element_by_name("name值")                    	| //*[@name="name值"]                  	| [name="name值"]   	|
+| find_element_by_class_name("class name")    	        |  class name                     	    | .class name 	|
+| find_element_by_tag_name("标签名")                	| //标签名                             	| 标签名            	|
+| find_element_by_link_text("链接文字")             	| //a[text()="链接文字"]               	| 不支持            	|
+| find_element_by_partial_link_text("部分链接文字") 	| //a[contains(text(),"部分链接文字")] 	| 不支持            	|
+
+
+|  Target                  	|  CSS 3             	|  XPath                          	|
+|--------------------------	|--------------------	|---------------------------------	|
+|  所有元素                	|  *                 	|  //*                            	|
+|  所有的P元素             	|  p                 	|  //p                            	|
+|  所有的p元素的子元素     	|  p > *             	|  //p/*                          	|
+|  根据ID获取元素          	|  /转义/#id         	|  //*[@id= ‘id’]                 	|
+|  根据Class获取元素       	|  .class            	|  //*[contains(@class, ‘class’)] 	|
+|  拥有某个属性的元素      	|  *[title]          	|  //*[@title]                    	|
+|  所有P元素的第一个子元素 	|  p > *:first-child 	|  //p/*[0]                       	|
+|  所有拥有子元素a的P元素  	|  无法实现          	|  //p[a]                         	|
+|  下一个兄弟元素          	|  P + *             	|  //p/following-sibling::*[0]    	|
+
+
+
 
 ## 保存直聘简历
 
@@ -335,3 +359,39 @@ certificateBox[1].style.display="list-item";
 certificateBox[1].style.margin="0px";
 ```
 
+
+
+
+## CloudFlare Workers
+
++ [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，
+再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
++ [用Cloudflare CDN 如何自定义节点（CF自选IP）/撸CloudFlare Pro](https://www.moeelf.com/archives/10.html)
+
+
+- [https://github.com/cloudflare/wrangler](https://github.com/cloudflare/wrangler)
+- [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
+- [https://github.com/topics/cloudflare-workers](https://github.com/topics/cloudflare-workers)
+- [Cloudflare Workers 创建自定义域名的项目](https://blog.16lab.io/workers-custom-domain)
+- Cloudflare CNAME接入 [https://github.com/ZE3kr/Cloudflare-CNAME-Setup](https://github.com/ZE3kr/Cloudflare-CNAME-Setup)
+
+
+* [https://github.com/netnr/workers](https://github.com/netnr/workers)
+* [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
+* 动态博客系统 [https://github.com/kasuganosoras/cloudflare-worker-blog](https://github.com/kasuganosoras/cloudflare-worker-blog)
+* 个人导航网站 [https://github.com/sleepwood/CF-Worker-Dir](https://github.com/sleepwood/CF-Worker-Dir)
+* 一个极简风格的短网址转换 [https://github.com/Closty/duanwangzhi](https://github.com/Closty/duanwangzhi)
+* [基于 Telegraf 框架的 Telegram Bot](https://moe.best/tutorial/cfworker-telegraf-tgbot.html)
+* [使用CloudFlare Workers搭建网站状态监控](https://www.raycoder.me/p/cloudflare-workers-website-monitoring)
+
+
+**代理**
+
+- [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
+- JS 实现的在线代理 [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
+- 轻量级Javascript反向代理 [https://github.com/Berkeley-Reject/workers-proxy](https://github.com/Berkeley-Reject/workers-proxy)
+    - [https://github.com/yenpou/Workers-Proxy](https://github.com/yenpou/Workers-Proxy)
+- github release、archive以及项目文件的加速项目 [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
+- [https://github.com/netnr/workers](https://github.com/netnr/workers)
+- [https://github.com/ryanking13/cors](https://github.com/ryanking13/cors)
+- [https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy](https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy)

@@ -4,31 +4,88 @@
 [[toc]]
 
 
-## flag
+## Flag
 
-* [http://github.lesschina.com/linux](http://github.lesschina.com/linux)
++ [https://github.com/openbsd](https://github.com/openbsd)
+    + [https://www.openbsd.org](https://www.openbsd.org)
+
 * [speedtest](https://github.com/adolfintel/speedtest)
-* [acme.sh 实现了acme 协议, 可以从 letsencrypt 生成免费的证书.](https://github.com/Neilpang/acme.sh)
+* ssl免费的证书 [https://letsencrypt.org](https://letsencrypt.org)
+    * [https://github.com/acmesh-official](https://github.com/acmesh-official)
+        * [HTTPS之acme.sh申请证书](https://www.cnblogs.com/tu240302975/p/13370867.html)
+    * [https://github.com/win-acme](https://github.com/win-acme)
+    * [https://github.com/certbot](https://github.com/certbot)
+        * [https://certbot.eff.org](https://certbot.eff.org)
+        * [https 证书手动获取 windows版](https://blog.csdn.net/m0_45452817/article/details/107249677)
 * 像libevent，libev和libuv一样，libhv提供具有非阻塞IO和计时器的事件循环: [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv)
 
-+ 带仪表盘的实时性能监控：[https://github.com/netdata/netdata](https://github.com/netdata/netdata)
-+ 云探针、云监控、服务器云监控、多服务器探针 [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
+
+- [https://www.gnome.org](https://www.gnome.org)
+
+* [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)
+* [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
+
+
 
 **管理面板**
 
-* [https://www.bt.cn](https://www.bt.cn)
+* [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)
+    * [https://www.bt.cn](https://www.bt.cn)
 * [https://www.xp.cn](https://www.xp.cn)
 
 
-**发行版本**
-
-* [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
-* [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
 
 
-## win10 设置
+
+## 云平台
+
+* [虚拟化与云计算有什么区别？](https://www.zhihu.com/question/22793847)
+
+> 云服务器（VM，VIRTUAL MACHINE，IAAS）：是在一组集群物理服务器上虚拟出多个类似独立主机的部分，集群中每个主机上都有云主机的一个镜像，
+> 从而大大提高了虚拟主机的安全稳定性。
+
+> 虚拟专用服务器（VPS，VIRTUAL专用服务器，VDS）：采用虚拟软件，VZ或VM在一台物理服务器上虚拟出多个类似独立主机的部分，
+> 能够实现单机多用户，每个部分都可以做单独的操作系统，管理方法同主机一样。
+
+**[修改为root登录](/System/Linux配置.md#修改为root登录)**
+
+* GCP (Google Cloud Platform) [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
+    * [https://cloud.google.com/free](https://cloud.google.com/free)
+    * [谷歌云搭建免费服务器并翻墙 | Levon's Blog](https://www.liuvv.com/p/b7e5827a)
+* [https://www.oracle.com/cn/cloud/free](https://www.oracle.com/cn/cloud/free)
+    * [Always Free Resources](https://docs.cloud.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm#resources)
+    * [申请Oracle Cloud永久免费服务+300美元试用额度](https://51.ruyo.net/14138.html)
+    * 不建议使用用Oracle Linux镜像，无法设置root密码登录
+* Azure [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
+    * [https://portal.azure.com](https://portal.azure.com)
+    * [申请微软Azure服务免费12个月+$200 额度+永久免费(25+项服务)](https://www.daniao.org/7057.html)
+* AWS 免费套餐 [https://console.aws.amazon.com/billing/home#/freetier](https://console.aws.amazon.com/billing/home#/freetier)
+    * [https://www.cloudping.info](https://www.cloudping.info)
+    * [手把手教你撸12个月亚马逊（AWS）的云服务器](https://www.zhunaozi.com/411.html)
+    * [SSH 密钥对丢失时连接到 Amazon EC2 实例](https://aws.amazon.com/cn/premiumsupport/knowledge-center/user-data-replace-key-pair-ec2)
+    * [如果丢失私钥，连接到Linux实例](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/replacing-lost-key-pair.html)
+    * [对连接到实例进行故障排除](https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/TroubleshootingInstancesConnecting.html)
+    * [如何重试失败的付款？](https://aws.amazon.com/cn/premiumsupport/knowledge-center/retry-unsuccessful-payment)
+* Vultr
+* Digital Ocean
+
+
+
+
+
+## Windows
 
 * [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
+
+> 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
+
+> 当分区后应该设置主分区为活动分区（选中该主分区右键选择激活分区）
+
+* [比较 Windows 10 的不同版本](https://www.microsoft.com/zh-cn/windowsforbusiness/compare)
+* [Windows 10 版本的版本信息](https://docs.microsoft.com/zh-cn/windows/release-information)
+* [Windows 10 更新历史记录](https://support.microsoft.com/zh-cn/help/4555932)
+* [Windows 生命周期说明书](https://support.microsoft.com/zh-cn/help/13853/windows-lifecycle-fact-sheet)
+* [将 MBR 分区转换为 GPT](https://docs.microsoft.com/zh-cn/windows/deployment/mbr-to-gpt)
 
 
 **Wifi频繁断线**
@@ -39,48 +96,238 @@
 > 点击`网络和共享中心` ——> `更改适配器设置` ——> 双击`WLAN` ——> 点击`无线属性` ——> 勾选`即使网络未广播其名称也连接` 
 
 
+**MSTSC删除记录**
+
+- Windows键 + <kbd>R</kbd>打开`运行` 输入`regedit` 找到 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Terminal Server Client\Default`
+- 进入 `%USERPROFILE%\Documents` (或`%HOMEPATH%\Documents`) 删除`Default.rdp`文件（默认隐藏）
 
 
-## CloudFlare Workers
+**此电脑中的7个文件夹**
 
-+ [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，
-再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
-+ [用Cloudflare CDN 如何自定义节点（CF自选IP）/撸CloudFlare Pro](https://www.moeelf.com/archives/10.html)
+> win10删除此电脑中六个文件夹：按<kbd>Win</kbd> + <kbd>r</kbd>输入`regedit`进入注册表编辑器，输入并删除其中带`{}`的
+> `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace`
+
+```batch
+:: 删除我的电脑"视频"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /f
+:: 删除我的电脑"文档"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /f
+:: 删除我的电脑"桌面"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" /f
+:: 删除我的电脑"音乐"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /f
+:: 删除我的电脑"下载"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /f
+:: 删除我的电脑"图片"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /f
+:: 删除我的电脑"3D对象"文件夹
+REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
+```
 
 
-- [https://github.com/cloudflare/wrangler](https://github.com/cloudflare/wrangler)
-- [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
-- [https://github.com/topics/cloudflare-workers](https://github.com/topics/cloudflare-workers)
-- [Cloudflare Workers 创建自定义域名的项目](https://blog.16lab.io/workers-custom-domain)
-- Cloudflare CNAME接入 [https://github.com/ZE3kr/Cloudflare-CNAME-Setup](https://github.com/ZE3kr/Cloudflare-CNAME-Setup)
+**系统相关**
+
+* [在Windows 10 10586版本手动挂载WIM文件以修复DISM源的方法](https://answers.microsoft.com/zh-hans/windows/forum/windows_10-performance/windows-10/7d43c552-e005-40ac-bde7-9f1a9029573a)
+
+- 检查映像是否完整：`DISM.exe /Online /Cleanup-image /Scanhealth`
+- 完成后再修复映像：`DISM.exe /Online /Cleanup-image /Checkhealth`
+- 然后再修复系统：`DISM.exe /Online /Cleanup-image /Restorehealth `
+- 最后检查系统是否修复：`sfc /scannow`
+- `Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase`
 
 
-* [https://github.com/netnr/workers](https://github.com/netnr/workers)
-* [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
-* 动态博客系统 [https://github.com/kasuganosoras/cloudflare-worker-blog](https://github.com/kasuganosoras/cloudflare-worker-blog)
-* 个人导航网站 [https://github.com/sleepwood/CF-Worker-Dir](https://github.com/sleepwood/CF-Worker-Dir)
-* 一个极简风格的短网址转换 [https://github.com/Closty/duanwangzhi](https://github.com/Closty/duanwangzhi)
-* [基于 Telegraf 框架的 Telegram Bot](https://moe.best/tutorial/cfworker-telegraf-tgbot.html)
-* [使用CloudFlare Workers搭建网站状态监控](https://www.raycoder.me/p/cloudflare-workers-website-monitoring)
+### MSDN
+
+* [https://www.microsoft.com/zh-cn/software-download/windows10](https://www.microsoft.com/zh-cn/software-download/windows10)
+* [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
+* [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
+* [http://www.imsdn.cn](http://www.imsdn.cn)
+* [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
+* [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
+* [https://uupdump.ml](https://uupdump.ml)
+* [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
 
 
-**代理**
+### 绿色精简
 
-- [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
-- JS 实现的在线代理 [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
-- 轻量级Javascript反向代理 [https://github.com/Berkeley-Reject/workers-proxy](https://github.com/Berkeley-Reject/workers-proxy)
-    - [https://github.com/yenpou/Workers-Proxy](https://github.com/yenpou/Workers-Proxy)
-- github release、archive以及项目文件的加速项目 [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
-- [https://github.com/netnr/workers](https://github.com/netnr/workers)
-- [https://github.com/ryanking13/cors](https://github.com/ryanking13/cors)
-- [https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy](https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy)
++ MSMG Toolkit [https://msmgtoolkit.in](https://msmgtoolkit.in)
++ NTLite [https://www.ntlite.com](https://www.ntlite.com)
 
+* [WINOS ](https://www.winos.me)
+* [绿色系统](http://lvsexitong.com)
+* [网吧系统](http://down.lansedongli.com)
+* [twm000-导航页被定制可修改](http://twm000.top)
+* [Y-OS工作室-导航页被定制可修改](http://y-os.net)
+* [十二星座-导航页被定制可修改](http://www.12xzzx.com)
+* [https://icura.lofter.com](https://icura.lofter.com)
+    * [OneDrive](https://tpedutw-my.sharepoint.com/:f:/g/personal/icura_tp_edu_tw/Ek5lPsUrc_ZJqSDKi7oxsdoBNjbbncnvi8p-90jI0OqUVA)
+
+
+
+### WinPE
+
+* [http://rufus.ie](http://rufus.ie)
+* [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)
+* 微PE [http://www.wepe.com.cn](http://www.wepe.com.cn)
+* [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1)
+* [光卡自己的 PE 项目](https://hikaricalyx.com)
+* [优启时代](http://www.uqi.me/catalog.asp?cate=1)
+
+
+
+
+## MS相关激活
+
+> 在PowerShell（也可在CMD）中输入命令运行`slmgr.vbs /dti`，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，
+> 并粘贴到在线获取确认ID网站：[http://webact.185.hk](http://webact.185.hk)
+
+> 使用命令有两种方式：第一种：按<kbd>Win</kbd> + <kbd>x</kbd> + <kbd>a</kbd>进入PowerShell（也可在CMD中）输入命令运行；
+> 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
+
+* 小爱激活助手 [https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA](https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA) 提取码: gia8
+* 密钥检测的小工具 [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
+* https://api.jike.info/ms_pid/密钥
+
+
+**Windows命令**
+
+> 在CMD中输入`slmgr`或`slmgr.exe`即可查看所有命令
+
+- `systeminfo` 系统信息
+- `slui 4` 调出电话激活窗口
+- `slmgr.vbs /ipk 密钥` 安装产品密钥
+- `slmgr.vbs /upk` 卸载密钥
+- `slmgr.vbs /ato` 激活密钥
+- `slmgr.vbs /dti` 显示安装ID
+- `slmgr.vbs /atp 确认ID` 输入确认ID（注意这里的ID没有`-`符号）
+- `slmgr.vbs /dlv` 显示详细的许可证信息
+- `slmgr.vbs /xpr` 当前许可证状态的截止日期
+- `slmgr.vbs /dli [激活 ID | All]` 显示许可证信息（默认：当前许可证）
+- `slmgr.vbs /dlv [激活 ID | All]` 显示详细的许可证信息
+- `slmgr.vbs /cpky` 从注册表中清除产品密钥（阻止泄露引起的攻击）
+- `slmgr.vbs /ilc` 许可证文件 安装许可证
+- `slmgr.vbs /rilc` 重新安装系统许可证文件
+- `slmgr.vbs /rearm` 重置计算机的授权状态 （去除水印）
+- `slmgr.vbs /skms` 设置KMS服务器
+- `slmgr.vbs /ckms` 清除KMS服务器名和端口号并设为初始状态
+
+
+**Office命令**
+
+> 在PowerShell（也可在CMD）中输入命令运行并切换到office安装目录
+> `cd "C:\Program Files (x86)\Microsoft Office\Office16"`，如果安装的64位去掉` (x86)`
+
+- `cscript ospp.vbs /inpkey:密钥` 安装产品密钥
+- `cscript ospp.vbs /unpkey:密钥最后五位` 卸载密钥
+- `cscript ospp.vbs /dinstid` 显示安装ID
+- `cscript ospp.vbs /actcid:确认ID` 输入确认ID（注意这里的ID没有`-`符号）
+- `cscript ospp.vbs /act` 在线激活
+- `cscript ospp.vbs /dstatus` 验证激活
+
+
+**错误代码**
+
+- `0xC004C008` 是零售版可以电话激活、网页激活
+- `0xC004C020` 是批量版可以电话激活、运气好可以网页激活
+- `0xC004C060` 已失效
+- `0xC004C003` 已失效
+- `0x80072EE2` 因网络阻塞导致错误,稍等10分钟再重试
+
+
+**office key**
+
+```
+# OFFICE 2019 专业增强版激活码
+W8W6K-3N7KK-PXB9H-8TD8W-BWTH9
+
+# Office19_RTM19_ProPlus2019VL_MAK_AE
+GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
+N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
+6NCGF-GQQ2F-H83HF-9DWMY-92GTG
+```
+
+
+**Windows Key**
+
+* [https://cherishspring.cn/archives/active-win10-office.html](https://cherishspring.cn/archives/active-win10-office.html)
+* [https://notys.xyz](https://notys.xyz)
+* [https://jihuo.ma/tool](https://jihuo.ma/tool)
+* [http://www.aihao.cc](http://www.aihao.cc)
+* [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
+
+
+**KMS**
+
+* [https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
+
++ [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
++ [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
++ [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
++ [https://github.com/netnr/kms](https://github.com/netnr/kms)
+
+
+* [可用的 KMS 列表](https://www.coolhub.top/archives/14)
+* [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
+* [人人客-微软产品](https://rrkee.com/microsoft)
+* [03k.orgKMS服务](https://03k.org/kms.html)
+* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
+* [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition)
+* [零散坑KMS服务](https://03k.org/kms.html)
+* [kms.mogeko.me](https://mogeko.me/2019/054)
+* [https://kms.cangshui.net](https://kms.cangshui.net)
+* [https://kms.loli.beer](https://kms.loli.beer)
+* [https://www.moerats.com/kms](https://www.moerats.com/kms)
+* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
+* [https://kms.cangshui.net](https://kms.cangshui.net)
+* [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
+* [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
+
+
+
+**数字激活**
+
+> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
+> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
+
+> 避免在vpn状态下使用本软件。激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
+
+
+
+### 家庭升专业
+
+> 注意：Windows10家庭版升级Windows10专业版的密钥不是激活密钥
+
+1. 升级：设置 -> 更新和安全 -> 激活 -> 更改产品秘钥，断网后，填入 下方的升级密钥，重启
+
+```
+4N7JM-CV98F-WY9XX-9D8CF-369TT
+FMPND-XFTD4-67FJC-HDR8C-3YH26
+4N894-WMB2D-PRGHC-BVYW8-CPQGT
+VK7JG-NPHTM-C97JM-9MPGT-3V66T
+W269N-WFGWX-YVC9B-4J6C9-T83GX
+MH37W-N47XK-V7XM9-C7227-GCQG9
+NYW94-47Q7H-7X9TT-W7TXD-JTYPM
+NJ4MX-VQQ7Q-FP3DB-VDGHX-7XM87
+```
+
+2. 联网激活：以管理员打开CMD执行以下命令
+
+```batch
+slmgr.vbs /upk
+slmgr /ipk 激活密钥
+slmgr /skms zh.us.to
+slmgr /ato
+```
 
 
 
 
 
 ## SSH
+
+> Secure Shell（SSH）
+
+> OpenSSH 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
 
 * [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
 * [https://github.com/topics/terminal](https://github.com/topics/terminal)
@@ -94,8 +341,10 @@
 - [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
 - [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
 
-
+* [https://github.com/openssh](https://github.com/openssh)
+    * [https://www.openssh.com](https://www.openssh.com)
 * [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
+* [https://www.mobatek.net](https://www.mobatek.net)
 
 
 **WEB**
@@ -108,23 +357,34 @@
 
 **Android**
 
-* [https://github.com/termux](https://github.com/termux)
++ [SSH client for Android](https://github.com/search?o=desc&q=SSH+client+for+Android&s=updated&type=Repositories)
+
+* [https://github.com/topics/termux](https://github.com/topics/termux)
+    * [https://github.com/termux](https://github.com/termux)
 * [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
+* [https://www.juicessh.com](https://www.juicessh.com)
 * [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
 
 
 
 **Windows**
 
-* [https://github.com/topics/windows](https://github.com/topics/windows)
++ [https://github.com/topics/windows](https://github.com/topics/windows)
++ [https://github.com/topics/putty](https://github.com/topics/putty)
++ [https://github.com/topics/kitty](https://github.com/topics/kitty)
+
+* [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
+    * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
 * [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
 * [https://github.com/appget](https://github.com/appget)
 * [https://github.com/x64dbg](https://github.com/x64dbg)
 * [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
 * [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
 * [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
-* [https://github.com/Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
 * [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
+* PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
+* [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
+* [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
 
 
 
@@ -132,7 +392,7 @@
 ## 建站资源
 
 * [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
-[安装教程](https://www.moerats.com/archives/744)
+    * [安装教程](https://www.moerats.com/archives/744)
 * [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501)
 * [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644)
 * [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
@@ -194,6 +454,8 @@
 * [http://tool.chinaz.com/port](http://tool.chinaz.com/port)
 * [https://www.websitepulse.com/tools/china-firewall-test](https://www.websitepulse.com/tools/china-firewall-test)
 * [https://www.vps234.com/ipchecker](https://www.vps234.com/ipchecker)
+* [https://tools.ipip.net/traceroute.php](https://tools.ipip.net/traceroute.php)
+
 
 
 **tracert**
@@ -216,126 +478,6 @@ tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] [-R] [-S srcaddr] [-4
 **示例**
 
 ```bash
-tracert www.woytu.com
-```
-
-
-## 换行符格式
-
-* [https://zh.wikipedia.org/wiki/換行](https://zh.wikipedia.org/wiki/%E6%8F%9B%E8%A1%8C)
-* [https://zh.wikipedia.org/wiki/控制字符](https://zh.wikipedia.org/wiki/%E6%8E%A7%E5%88%B6%E5%AD%97%E7%AC%A6)
-
-- `CR`：Carriage Return，对应ASCII十进制是`13`, 十六进制`0x0D`，转义字符`\r`，表示回车，MacIntosh操作系统（Mac OSX 10.9之前）使用
-- `LF`：Linefeed，对应ASCII十进制是`10`, 十六进制`0x0A`，转义字符`\n`，表示换行，Unix/Linux/MacOSX使用
-- `CRLF`：Carriage Return & Linefeed，`\r\n`，表示回车并换行，Dos和Windows使用
-
-**Linux**
-
-```bash
-# 显示格式。
-:set ff
-# 设置为unix格式
-:set ff=unix
-# 保存
-:wq
-```
-
-**GIT**
-
-> git 默认会依据平台自动变更文件换行符，在项目根目录下`.editorconfig`中设置`end_of_line = lf`
-
-> 当你在签出文件时，将 UNIX 换行符（LF）替换为 Windows 的换行符（CRLF）；
-> 当你在提交文件时，将 CRLF 替换为 LF。
-> 如果提交的文件是一个 包含中文字符的UTF-8文件，那么这个“换行符自动转换”功能在提交时不是每次都生效，
-> 尤其是文件中出现中文字符后有换行符时（但签出时的转换处理没有问题）
-
-```shell
-# windows 下是 autocrlf
-
-# 提交时转换为LF，检出时转换为CRLF
-git config --global core.autocrlf true
-
-# 提交时转换为LF，检出时不转换
-git config --global core.autocrlf input
-
-# 推荐，项目中指定了换行，则在任何平台都只用一种换行 \n
-# 提交检出均不转换
-git config --global core.autocrlf false
-
-SafeCRLF
-
-# 推荐，拒绝提交包含混合换行符的文件
-git config --global core.safecrlf true
-
-# 允许提交包含混合换行符的文件
-git config --global core.safecrlf false
-
-# 提交包含混合换行符的文件时给出警告
-git config --global core.safecrlf warn
-
-#设置行结束符的类型为lf
-git config --global core.eol lf
-
-#设置行结束符的类型为crlf
-git config --global core.eol crlf
-
-#设置行结束符的类型为native, native是指平台默认的行结束符。默认的类型是native
-git config --global core.eol native
-```
-
-
-
-## 物理资源占用
-
-> 各Linux服务器主流发行版物理资源占用（磁盘和内存），`df -h && free -h`
-
-- CentOS 7.6 64位
-
-```bash
-Filesystem      Size  Used Avail Use% Mounted on
-devtmpfs        485M     0  485M   0% /dev
-tmpfs           496M     0  496M   0% /dev/shm
-tmpfs           496M  424K  496M   1% /run
-tmpfs           496M     0  496M   0% /sys/fs/cgroup
-/dev/vda1        50G  1.8G   46G   4% /
-tmpfs           100M     0  100M   0% /run/user/0
-
-              total        used        free      shared  buff/cache   available
-Mem:           991M         68M        631M        428K        290M        787M
-Swap:            0B          0B          0B
-```
-
-- Debian 9.0 64位
-
-```bash
-Filesystem      Size  Used Avail Use% Mounted on
-udev            424M     0  424M   0% /dev
-tmpfs            87M  1.8M   86M   3% /run
-/dev/vda1        50G  923M   46G   2% /
-tmpfs           435M     0  435M   0% /dev/shm
-tmpfs           5.0M     0  5.0M   0% /run/lock
-tmpfs           435M     0  435M   0% /sys/fs/cgroup
-tmpfs            87M     0   87M   0% /run/user/0
-
-              total        used        free      shared  buff/cache   available
-Mem:           868M         32M        734M        1.8M        101M        717M
-Swap:            0B          0B          0B
-```
-
-- Ubuntu Server 18.04.1 LTS 64位
-
-```bash
-Filesystem      Size  Used Avail Use% Mounted on
-udev            462M     0  462M   0% /dev
-tmpfs            99M  5.2M   94M   6% /run
-/dev/vda1        50G  2.3G   45G   5% /
-tmpfs           493M     0  493M   0% /dev/shm
-tmpfs           5.0M     0  5.0M   0% /run/lock
-tmpfs           493M     0  493M   0% /sys/fs/cgroup
-tmpfs            99M     0   99M   0% /run/user/500
-
-              total        used        free      shared  buff/cache   available
-Mem:           985M         95M        355M        5.1M        533M        743M
-Swap:            0B          0B          0B
+tracert www.bajins.com
 ```
 

@@ -5,7 +5,7 @@
 
 
 
-## flag
+## Flag
 
 > `PowerShell`的命令叫做`cmdlet`(`command-let`), 采用了“动词-名词”的命名方式，动词部分取自于一个制定的动词集合，
 > 名词部分则描述了命令要操作的对象。例如，`Get-Command`就是指获取`PowerShell`中所有`cmdlet`命令。
@@ -34,7 +34,9 @@
     * [https://www.nuget.org](https://www.nuget.org)
     * [https://www.powershellgallery.com](https://www.powershellgallery.com)
 * [https://github.com/chocolatey](https://github.com/chocolatey)
+    * [https://chocolatey.org](https://chocolatey.org)
 * [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
+    * [https://github.com/ScoopInstaller](https://github.com/ScoopInstaller)
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
 * [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
@@ -257,6 +259,7 @@ Function Lock-WorkStation {
 **解压zip**
 
 * [压缩解压文件](https://docs.microsoft.com/zh-cn/powershell/module/microsoft.powershell.archive)
+* [PowerShell-压缩解压缩文件](https://blog.csdn.net/ahxdyz/article/details/93534213)
 
 - PowerShell 5.0或更高版本(已预安装Windows 10和Windows Server 2016)
 

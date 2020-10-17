@@ -5,17 +5,7 @@
 
 
 
-
-## flag
-
-* [winreg --- Windows 注册表访问](https://docs.python.org/zh-cn/3/library/winreg.html)
-
-
-
-## `wxPython`
-
-* [示例项目tool-gui-python](https://github.com/woytu/tool-gui-python)
-
+## wxPython
 
 * [https://wxpython.org/pages/overview/](https://wxpython.org/pages/overview)
 
@@ -29,12 +19,10 @@
 * [http://www.17python.com/?c=9](http://www.17python.com/?c=9)
 * [WxPython教程](https://www.yiibai.com/wxpython)
 
-
-
-* [https://www.jianshu.com/p/a3803f130c99](https://www.jianshu.com/p/a3803f130c99)
-* [https://blog.csdn.net/mist99/article/details/80742548](https://blog.csdn.net/mist99/article/details/80742548)
-* [https://blog.csdn.net/xufive/article/details/82665460](https://blog.csdn.net/xufive/article/details/82665460)
-* [https://blog.csdn.net/u014647208/article/details/77895274](https://blog.csdn.net/u014647208/article/details/77895274)
+- [https://www.jianshu.com/p/a3803f130c99](https://www.jianshu.com/p/a3803f130c99)
+- [https://blog.csdn.net/mist99/article/details/80742548](https://blog.csdn.net/mist99/article/details/80742548)
+- [https://blog.csdn.net/xufive/article/details/82665460](https://blog.csdn.net/xufive/article/details/82665460)
+- [https://blog.csdn.net/u014647208/article/details/77895274](https://blog.csdn.net/u014647208/article/details/77895274)
 
 
 > `wx.Window` 是一个基类，许多构件从它继承。包括`wx.Frame`构件。可以在所有的子类中使用`wx.Window`的方法。
@@ -52,38 +40,21 @@
 * `Move( wx.Point pos )` 将窗口移动到指定位置
 * `SetCursor( wx.StockCursor id )` 设置窗口的鼠标指针样式
 * `Refresh` 刷新窗口
+* `wx.CallLater(millis, callableObj, *args, **kwargs)` 最抽象的线程安全函数
+* `wx.CallAfter(callable, *args, **kwargs)` 该函数是在当前和待处理事件处理程序完成后调用指定的函数。
 
-* `wx.CallLater(millis, callableObj, *args, **kwargs)`
-
-> 最抽象的线程安全函数
-
-
-* `wx.CallAfter(callable, *args, **kwargs)`
-
-> 该函数是在当前和待处理事件处理程序完成后调用指定的函数。
->
 > 这个方法是利用PostEvent()来实现的。执行这个方法后，将在主事件循环中加入一个事件，然后通过事件循环进行处理。
 > 这其实是一种异步的方法，适用于一个非GUI的处理过程要调用GUI的方法，或子线程调用主线程的方法，
 > 或在一个事件处理函数中异步调用另一个事件处理，还有就是上面的问题。这个方法使用很方便，不需要自定义事件，绑定事件，Post事件。
 
-> 示例：`wx.CallAfter(pub.sendMessage, "update", msg=text)`
->> 订阅update主题并发送消息
+> 示例：`wx.CallAfter(pub.sendMessage, "update", msg=text)` 订阅update主题并发送消息
+
+* `wx.FutureCall(milliseconds, callable, *args, **kwargs)` 从wx.Timer中派生出来的，它的作用是在指定时间之后执行一个方法。
+* `pub.subscribe(self.update_display, "update")` 发布一个叫update的主题，触发update_display函数
+* `pub.sendMessage("update", msg='测试', status=0)`给update主题发送消息，`msg`和`status`都是自定义键值对
 
 
-* `wx.FutureCall(milliseconds, callable, *args, **kwargs)`
-
-> 从wx.Timer中派生出来的，它的作用是在指定时间之后执行一个方法。
-
-* `pub.subscribe(self.update_display, "update")`
-
-> 发布一个叫update的主题，触发update_display函数
-
-* `pub.sendMessage("update", msg='测试', status=0)`
-
-> 给update主题发送消息，`msg`和`status`都是自定义键值对
-
-
-### `wx.Event`的子类
+### wx.Event的子类
 
 * `wx.CloseEvent`:框架关闭时触发，事件类型有普通框架关闭和系统关闭事件。
 * `wx.CommandEvent`：与窗口部件的简单的交互都会触发此事件，如按钮单击，菜单项选择等。
@@ -93,7 +64,7 @@
 * `wx.SizeEvent`:窗口大小或布局改变时触发。
 * `wx.TimerEvent`:由类wx.Timer创建，定期事件。
 
-### `style`样式常量
+### style样式常量
 
 - Frame
 
@@ -123,7 +94,6 @@
 | wx.ST_ELLIPSIZE_END    | 省略号(...)显示在结尾，如果文本的大小大于标签尺寸 |
 
 
-
 - Font
 
 | 参数                   | 描述              | 说明           |
@@ -134,7 +104,6 @@
 | Wx.FONTWEIGHT_NORMAL | 普通字体            | fontweight参数 |
 | wx.FONTWEIGHT_LIGHT  | 高亮字体            | fontweight参数 |
 | wx.FONTWEIGHT_BOLD   | 粗体              | fontweight参数 |
-
 
 
 - TextCtrl
@@ -156,7 +125,6 @@
 | wx.TE_WORDWRAP  | 对于太长的行，以单词为界换行。许多操作系统会忽略该样式。                                       |
 
 
-
 - CheckBox
 
 | 参数             | 描述              | 说明 |
@@ -164,7 +132,6 @@
 | wx.CHK_2STATE  | 创建两个状态复选框，默认    |
 | wx.CHK_3STATE  | 创建三态复选框         |
 | wx.ALIGN_RIGHT | 把一个盒子标签放在复选框的左侧 |
-
 
 
 - ComboBox
@@ -177,7 +144,6 @@
 | wx.CB_SORT     | 列表显示按字母顺序   |
 
 
-
 - Guage
 
 | 参数               | 描述                  | 说明 |
@@ -186,7 +152,6 @@
 | wx.GA_VERTICAL   | 进度条的垂直布局            |
 | wx.GA_SMOOTH     | 平滑的进度条使用一个像素宽度的更新步骤 |
 | wx.GA_TEXT       | 显示当前值在百分比形式         |
-
 
 
 - Slider
@@ -201,7 +166,6 @@
 | wx.SL_VALUE_LABEL    | 只显示当前值         |
 
 
-
 - ToolBar
 
 | 参数                  | 描述                            | 说明 |
@@ -214,8 +178,6 @@
 | wx.TB_NO_TOOLTIPS   | 当鼠标悬停在工具栏不显示简短帮助工具提示          |
 | wx.TB_NOICONS       | 指定工具栏按钮没有图标，默认显示              |
 | wx.TB_TEXT          | 显示在工具栏按钮上的文本，默认只有图标显示         |
-
-
 
 
 - Dialog
@@ -548,7 +510,7 @@ if __name__ == "__main__":
 
 
 
-## `PySide`
+## PySide
 
 > `Pyside`最初是为诺基亚开发的，而它是Qt技术的所有者。
 > 当诺基亚将Qt出售给`Digia`（现在是Qt公司）时，Qt4原始`Pyside`代码的所有版权也转移到了Qt公司。
@@ -567,7 +529,7 @@ if __name__ == "__main__":
 * [PyQt5基础教程](https://zmister.com/archives/category/guidevelop/pyqt5_basic)
 
 
-### 多线程防假死动态刷新界面的模板
+### 多线程防假死动态刷新界面
 
 ```python
 from PyQt5 import QtWidgets, QtCore
@@ -642,7 +604,7 @@ if __name__ == "__main__":
 
 
 
-## `PyGObject`
+## PyGObject
 
 * [https://pygobject.readthedocs.io/en/latest/](https://pygobject.readthedocs.io/en/latest)
 
@@ -654,7 +616,7 @@ if __name__ == "__main__":
 
 ## 打包
 
-### `PyInstalle`
+### PyInstalle
 
 > PyInstaller 是一个十分有用的第三方库，可以用来打包`Python`应用程序，
 > 打包完的程序就可以在没有安装`Python`解释器的机器上运行了。
@@ -847,7 +809,7 @@ if sys.platform.startswith('win'):
 ```
 
 
-### `py2exe`
+### py2exe
 
 * [http://www.py2exe.org/](http://www.py2exe.org)
 * [https://hoxis.github.io/python-py2exe.html](https://hoxis.github.io/python-py2exe.html)

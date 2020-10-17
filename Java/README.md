@@ -5,9 +5,14 @@
 
 
 
-## flag
+## Flag
 
 - [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
+- JVM 动态脚本语言 [https://github.com/apache/groovy](https://github.com/apache/groovy)
+    - [http://groovy-lang.org/syntax.html](http://groovy-lang.org/syntax.html)
+
+> [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
+> 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
 
 + [https://docs.oracle.com](https://docs.oracle.com)
     + [https://docs.oracle.com/javase/8/docs](https://docs.oracle.com/javase/8/docs)
@@ -24,6 +29,9 @@
 + [https://github.com/jersey](https://github.com/jersey)
 + [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
     + [下载地址镜像](/Other/README.md#通用镜像)
++ 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
+    + [http://vertx.io](http://vertx.io)
+    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
 
 - [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
 - [JAX-WS与JAX-RS区别是什么？](https://blog.csdn.net/dogiant/article/details/54907506)
@@ -34,6 +42,12 @@
 - [收集业务日志，提炼有效数据](https://mp.weixin.qq.com/s/mA8ZqShP0p_t1toTzqpW3Q)
 - [通过filebeat、logstash、rsyslog采集nginx日志的几种方式](https://www.cnblogs.com/xiejava/p/12452434.html)
 - [分布式系统唯一ID生成方案汇总](https://www.cnblogs.com/haoxinyue/p/5208136.html)
+- [设计一个全局异常处理器](https://crossoverjie.top/2019/07/15/wheel/cicada7-exception-handle)
+- [理解、学习与使用 JAVA 中的 OPTIONAL](https://www.cnblogs.com/zhangboyu/p/7580262.html)
+- [理解零拷贝（Zero-copy）](https://blog.csdn.net/qq_39615545/article/details/108116820)
+- [可代替 ASM，使用 AnnotationProcessor 做代码插桩](https://www.dazhuanlan.com/2019/10/16/5da5f67797300)
+- [动态代理和Lombok学习](https://blog.csdn.net/qq_41022073/article/details/105342238)
+- [Spring AOP和Lombok是什么原理？](https://www.cnblogs.com/woetu/p/13658575.html)
 
 + JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
 + [什么是JNDI？](https://blog.csdn.net/gybshen/article/details/82717578)
@@ -43,9 +57,17 @@
 > 这时候我们直接通过JNDI的使用规则取出来我们想要的数据（实例对象）即可。
 
 
+**Windows隐藏窗口后台运行jar包（推荐vbs可设置JVM参数）**
+
+* [hidden_run_jar.bat](/files/hidden_run_jar.bat)
+* [hidden_run_jar.vbs](/files/hidden_run_jar.vbs)
+
+
+
 ## 学习
 
 - [技术集合归档](https://blog.52itstyle.vip/architecture.html)
+- Java 全栈知识体系 [https://www.pdai.tech](https://www.pdai.tech)
 
 + [https://github.com/Snailclimb/awesome-java](https://github.com/Snailclimb/awesome-java)
 
@@ -53,6 +75,7 @@
 * [https://github.com/crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout)
 * [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
 * [https://github.com/doocs/advanced-java](https://github.com/doocs/advanced-java)
+    * [https://github.com/doocs/jvm](https://github.com/doocs/jvm)
 * [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
 * [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
@@ -63,7 +86,7 @@
 * [https://github.com/hansonwang99/JavaCollection](https://github.com/hansonwang99/JavaCollection)
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
 * [https://github.com/javagrowing/JGrowing](https://github.com/javagrowing/JGrowing)
-* [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)
+* Java服务端知识技能图谱 [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)
 * [https://github.com/qinxuewu/docs](https://github.com/qinxuewu/docs)
 * [https://github.com/scalad/Note](https://github.com/scalad/Note)
 * [https://github.com/stalary/Source-code-analysis](https://github.com/stalary/Source-code-analysis)
@@ -71,9 +94,15 @@
 * [https://github.com/Childe-Mu/java_notes](https://github.com/Childe-Mu/java_notes)
 * [https://github.com/Childe-Mu/bio-nio-aio-netty-notes](https://github.com/Childe-Mu/bio-nio-aio-netty-notes)
 * [https://github.com/whx123/JavaHome](https://github.com/whx123/JavaHome)
+* [https://developer.ibm.com/zh/technologies/java/gettingstarted](https://developer.ibm.com/zh/technologies/java/gettingstarted)
+* Java实现的算法 [https://github.com/TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
+* 深入理解Java函数式编程和Streams API [https://github.com/CarpenterLee/JavaLambdaInternals](https://github.com/CarpenterLee/JavaLambdaInternals)
+* Java源码分析 【源码笔记】 [https://github.com/yuanmabiji/Java-SourceCode-Blogs](https://github.com/yuanmabiji/Java-SourceCode-Blogs)
+    * [https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis](https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis)
+* [http://github.com/CarpenterLee/JavaLambdaInternals](http://github.com/CarpenterLee/JavaLambdaInternals)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
-
++ [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)
 
 
 **Mime-Type/Content-Type/Media-Type**
@@ -92,6 +121,9 @@
 - `okHttp` [https://github.com/square/okhttp](https://github.com/square/okhttp)
 - `Netty` 
 - `google-http-java-client` [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
+- [https://github.com/OpenFeign](https://github.com/OpenFeign)
+- [https://github.com/square/retrofit](https://github.com/square/retrofit)
+    - [https://github.com/LianjiaTech/retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)
 
 * [HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)
 
@@ -103,7 +135,6 @@
 + [Maven详细教程](https://segmentfault.com/a/1190000015077021)
 
 * [http://mvnrepository.com](http://mvnrepository.com)
-* [https://www.webjars.org](https://www.webjars.org)
 
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
@@ -191,46 +222,61 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 
 
-## 第三方依赖
-
-* [https://github.com/google/guava](https://github.com/google/guava)
-* [https://github.com/SpringForAll](https://github.com/SpringForAll)
-* [https://github.com/looly/hutool](https://github.com/looly/hutool)
-* [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
-* [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
-* 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
-* [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
-* [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
-* 对配置内容加密：[https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
-* 适用于Java8以下的时间替代项目`joda-time`：[https://github.com/JodaOrg](https://github.com/JodaOrg)
-* Google加密 [https://github.com/google/tink](https://github.com/google/tink)
-* bcprov-jdk15on [https://github.com/bcgit/bc-java](https://github.com/bcgit/bc-java)
-* Apache Commons编解码器 [https://github.com/apache/commons-codec](https://github.com/apache/commons-codec)
-* Headless Chrome For Java [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
-
-- Jakarta JSON处理规范，API和兼容的实现：[https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
-- [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
-- [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
-- [https://github.com/google/gson](https://github.com/google/gson)
+## 第三方库
 
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
 * [https://github.com/auth0/java-jwt](https://github.com/auth0/java-jwt)
 
 + [https://github.com/rabbitmq](https://github.com/rabbitmq)
 + [https://github.com/reactor](https://github.com/reactor)
+* [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
 
 
 - [https://github.com/xuxueli](https://github.com/xuxueli)
 
+* [https://github.com/netty/netty](https://github.com/netty/netty)
 * [https://github.com/luxiaoxun/NettyRpc](https://github.com/luxiaoxun/NettyRpc)
+* [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
 
 - [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
+- [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
+- [https://gitee.com/jd-platform-opensource/hotkey](https://gitee.com/jd-platform-opensource/hotkey)
 
-* [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
 
 + [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)
-+ [JSch-用java实现服务器远程操作](https://segmentfault.com/a/1190000019967309)
+    + [JSch-用java实现服务器远程操作](https://segmentfault.com/a/1190000019967309)
 + [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
+
+* [https://projects.eclipse.org/projects/technology.microprofile](https://projects.eclipse.org/projects/technology.microprofile)
+    * [https://github.com/eclipse/microprofile](https://github.com/eclipse/microprofile)
+
+
+- [https://github.com/webjars](https://github.com/webjars)
+    - [https://www.webjars.org](https://www.webjars.org)
+
+
+
+**LOG**
+
++ [https://github.com/topics/logging](https://github.com/topics/logging)
+
+* [https://github.com/apache/logging-log4j2](https://github.com/apache/logging-log4j2)
+* [https://github.com/qos-ch](https://github.com/qos-ch)
+    * [https://github.com/qos-ch/logback](https://github.com/qos-ch/logback)
+
+
+
+**JSON**
+
++ [https://github.com/json-schema-org](https://github.com/json-schema-org)
++ Jakarta JSON处理规范，API和兼容的实现：[https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
+
+- [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
+- [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
+- [https://github.com/google/gson](https://github.com/google/gson)
+- [https://github.com/everit-org/json-schema](https://github.com/everit-org/json-schema)
+- [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
+
 
 
 **Cache**
@@ -255,6 +301,9 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
 * [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
 
+- 数据库中间件 [https://github.com/apache/shardingsphere](https://github.com/apache/shardingsphere)
+- [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
+
 
 
 **延迟队列**
@@ -266,26 +315,61 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 **工具**
 
+* [https://github.com/google/guava](https://github.com/google/guava)
+* [https://github.com/SpringForAll](https://github.com/SpringForAll)
+* [https://github.com/looly/hutool](https://github.com/looly/hutool)
+* [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
+* [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
+* [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
+* 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
+* [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
+* [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
+* 对配置内容加密：[https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
+* 适用于Java8以下的时间替代项目`joda-time`：[https://github.com/JodaOrg](https://github.com/JodaOrg)
+* Google加密 [https://github.com/google/tink](https://github.com/google/tink)
+* bcprov-jdk15on [https://github.com/bcgit/bc-java](https://github.com/bcgit/bc-java)
+* Apache Commons编解码器 [https://github.com/apache/commons-codec](https://github.com/apache/commons-codec)
+* Headless Chrome For Java [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
 * [utf8+bom编码格式 java 文件 转换为 utf8 格式文件](https://github.com/andotorg/utf8bom-to-utf8)
 * [从GBK到UTF8的某些路径中的文件编码转换](https://github.com/downgoon/gbk2utf8)
+* 类路径扫描器和模块扫描器 [https://github.com/classgraph](https://github.com/classgraph)
+* Java 应用程序打包 [https://github.com/fvarrui/JavaPackager](https://github.com/fvarrui/JavaPackager)
+* [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
+
+
+- [https://github.com/topics/mapping](https://github.com/topics/mapping)
+- [https://github.com/topics/bean-mapping](https://github.com/topics/bean-mapping)
+- [https://github.com/topics/javabeans](https://github.com/topics/javabeans)
+- BeanUtils替代 [https://github.com/mapstruct](https://github.com/mapstruct)
+- [https://github.com/orika-mapper](https://github.com/orika-mapper)
+- [https://github.com/DozerMapper](https://github.com/DozerMapper)
+- cglib的BeanCopier
+
 
 
 **地区数据**
 
-* [https://github.com/topics/area](https://github.com/topics/area)
-* [Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)
-* [district](https://github.com/eduosi/district)
-* [china_regions](https://github.com/wecatch/china_regions)
++ [https://github.com/topics/area](https://github.com/topics/area)
+
+* [https://github.com/modood/Administrative-divisions-of-China](https://github.com/modood/Administrative-divisions-of-China)
+* [https://github.com/eduosi/district](https://github.com/eduosi/district)
+* [https://github.com/wecatch/china_regions](https://github.com/wecatch/china_regions)
+* [https://github.com/xiangyuecn/AreaCity-JsSpider-StatsGov](https://github.com/xiangyuecn/AreaCity-JsSpider-StatsGov)
+* [https://github.com/adyliu/china_area](https://github.com/adyliu/china_area)
 
 
 
 **文档**
 
-* [https://github.com/springfox/springfox](https://github.com/springfox/springfox)
-* [https://github.com/SpringForAll/spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)
-* [https://github.com/Swagger2Markup/swagger2markup](https://github.com/Swagger2Markup/swagger2markup)
-* [https://github.com/caspar-chen/swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
-* [https://github.com/xiaoymin/swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
++ [https://github.com/springfox/springfox](https://github.com/springfox/springfox)
+
+* [https://github.com/topics/swagger-ui](https://github.com/topics/swagger-ui)
+    * [https://github.com/swagger-api/swagger-ui](https://github.com/swagger-api/swagger-ui)
+    * [https://github.com/SpringForAll/spring-boot-starter-swagger](https://github.com/SpringForAll/spring-boot-starter-swagger)
+    * [https://github.com/Swagger2Markup/swagger2markup](https://github.com/Swagger2Markup/swagger2markup)
+    * [https://github.com/caspar-chen/swagger-ui-layer](https://github.com/caspar-chen/swagger-ui-layer)
+    * [https://github.com/xiaoymin/swagger-bootstrap-ui](https://github.com/xiaoymin/swagger-bootstrap-ui)
+    * [https://github.com/chfree/think-swagger-ui-vuele](https://github.com/chfree/think-swagger-ui-vuele)
 
 + [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
 + [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
@@ -321,9 +405,18 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [dubbo2.7.5整合spirngMVC入门demo（Apache）](https://blog.csdn.net/qq_45521013/article/details/103826507)
 
 
+## Service Mesh
+
+* [https://github.com/istio/istio](https://github.com/istio/istio)
+
 
 
 ## 各种好的项目
+
++ [https://gitee.com/renrenio](https://gitee.com/renrenio)
+    + [https://github.com/renrenio](https://github.com/renrenio)
++ [https://github.com/febsteam](https://github.com/febsteam)
++ [https://github.com/hs-web](https://github.com/hs-web)
 
 * [MyBatis-Plus整合项目](http://mp.baomidou.com/guide/#%E4%BC%98%E7%A7%80%E6%A1%88%E4%BE%8B)
 * [king-admin是一个基础权限管理后台，前端：angularJs+bootstrap+gulp，后端：spring-boot+mybatis-plus(分java版和kotlin版)](https://github.com/oukingtim/king-admin)
@@ -350,14 +443,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * [MSFM权限管理系统是基于springBoot开发的一套轻量级的系统脚手架](https://gitee.com/wanglingxiao/mysiteforme)
 * [https://github.com/watchdog-framework/watchdog-framework](https://github.com/watchdog-framework/watchdog-framework)
 * [iartisan-admin-template=spring-boot+shiro+sitemesh+mybatis-plus+layui+layuiCMS2.0](https://gitee.com/iartisan/iartisan-admin-template)
-* [renren-security=采用Spring、MyBatis、Shiro框架，开发的一套权限系统](https://github.com/claer-ding/renren-security)
-* [renren-fast-vue](https://github.com/daxiongYang/renren-fast-vue)
-* [hsweb3-demo](https://github.com/hs-web/hsweb3-demo)
 * [qiqiim=springmvc mybatis netty4在线IM，可用于公司内网、外网通讯，客服系统等](https://gitee.com/qiqiim/qiqiim-server)
-* [LayIM=基于HTML5 WebSocket的一款IM即时通讯软件](https://github.com/scalad/LayIM)
 * [https://github.com/Exrick/x-boot](https://github.com/Exrick/x-boot)
-* [https://github.com/wuyouzhuguli/FEBS-Shiro](https://github.com/wuyouzhuguli/FEBS-Shiro)
-* [https://github.com/wuyouzhuguli/FEBS-Cloud](https://github.com/wuyouzhuguli/FEBS-Cloud)
 * [https://gitee.com/stylefeng/guns](https://gitee.com/stylefeng/guns)
 * [mall-swarm是一套微服务商城系统](https://github.com/macrozheng/mall-swarm)
 * [mall项目是一套电商系统，包括前台商城系统及后台管理系统](https://github.com/macrozheng/mall)
@@ -367,7 +454,8 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 * EL-ADMIN 后台管理系统 [https://github.com/elunez/eladmin](https://github.com/elunez/eladmin)
 * SpringBlade SaaS多租户微服务开发平台 [https://github.com/chillzhuang/SpringBlade](https://github.com/chillzhuang/SpringBlade)
 * 基于springboot的一款纯净脚手架 [https://github.com/fuce1314/Springboot_v2](https://github.com/fuce1314/Springboot_v2)
-
+* [https://gitee.com/lovetime/WeAdmin](https://gitee.com/lovetime/WeAdmin)
+* [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
 
 
 

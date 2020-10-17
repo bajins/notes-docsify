@@ -1,10 +1,10 @@
-# Go使用
+# Go笔记
 
 
 [[toc]]
 
 
-## flag
+## Flag
 
 
 > go语言中的函数可以有多个返回值
@@ -17,6 +17,32 @@
 * [strconv包使用](https://my.oschina.net/byonds/blog/488492)
 * [runtime包](https://www.jianshu.com/p/84bac7932394)
 * [File操作](https://blog.csdn.net/TDCQZD/article/details/81835149)
+
+
+**日志**
+
+```go
+func (l *Logger) Log(level Level, format string, args ...interface{}) {
+	l.mu.Lock()
+	defer l.mu.Unlock()
+	// 设置日志初始化参数
+	// log.Lshortfile 简要文件路径，log.Llongfile 完整文件路径
+	//log.SetFlags(log.Lshortfile | log.LstdFlags)
+	dbgLogger := log.New(l.file, "", log.Llongfile|log.LstdFlags)
+	// 传入0为获取当前行数,文件名,函数名(方法名)
+	funcName, file, line, ok := runtime.Caller(2)
+	if !ok {
+		file = "???"
+		line = 0
+	}
+	info := []string{
+		"[" + string(level) + "]",
+		runtime.FuncForPC(funcName).Name(),
+		format,
+	}
+	dbgLogger.Output(3, strings.Join(info, ".")+"\n")
+}
+```
 
 
 **判断**
@@ -39,125 +65,38 @@ if a == (A{}) {
 **默认值**
 
 - 整型和浮点型变量的默认值为`0`。
-
 - 字符串变量的默认值为`""`。
-
 - 布尔型`bool`默认值为`false`。
-
 - 指针、切片、字典、通道、接口、错误`error`的默认为`nil`。
-
 - 复数类型如`complex64`、`complex128`默认值为`0+0i`。
-
-- 数组的默认值要根据其数据类型来确定。
-
-> 例如：`var a [4]int`，其默认值为`[0 0 0 0]`
-
-
-
-## Module
-
-| 命令     	| 说明                                                                  	|
-|----------	|-----------------------------------------------------------------------	|
-| init     	| initialize new module in current directory（在当前目录初始化mod）     	|
-| download 	| download modules to local cache(下载依赖包)                           	|
-| edit     	| edit go.mod from tools or scripts（编辑go.mod                         	|
-| graph    	| print module requirement graph (打印模块依赖图)                       	|
-| tidy     	| add missing and remove unused modules(拉取缺少的模块，移除不用的模块) 	|
-| vendor   	| make vendored copy of dependencies(将依赖复制到vendor下)              	|
-| verify   	| verify dependencies have expected content (验证依赖是否正确）         	|
-| why      	| explain why packages or modules are needed(解释为什么需要依赖)        	|
-
-
-- 添加依赖
-
-> 添加依赖: `go get github.com/xxx/xxx`
-
-> 添加指定版本: `go get github.com/xxx/xxx@v1.6.2`
-
-> 添加指定版本范围: `go get github.com/xxxx/xxx@'<v1.6.2'`
-
-> 添加指定`commit`的版本：`go get github.com/xxxx/xxx@q2516faf3`
-
-- 查看所有可升级依赖版本
-
-> `go list -u -m all`
-
-- 升级依赖
-
-> 升级`Major`: `go get -u github.com/xxx/xxx`
-
-> 升级全部依赖的`Minor`或`PATCH`版本: `go get -u`
-
-> 升级全部依赖的`PATCH`版本: `go get -u=patch`
-
-
-
-## 运行命令
-
-- 测试文件中单个函数
-
-```bash
-go test -v 文件名_test.go -test.run 函数名
-# 直接指定函数不指定文件运行
-go test -v -test.run 函数名
-```
-
-| 关键点             	| 说明                                                                                          	|
-|--------------------	|-----------------------------------------------------------------------------------------------	|
-| 导入需要的包       	| import testing (如果你是goland,那么可以忽略，因为ide就自动帮你加上)                           	|
-| 执行命令           	| go test file_test.go                                                                          	|
-| 测试文件命名       	| 必须以_test.go结尾                                                                            	|
-| 功能测试的用力函数 	| 必须以Test开头&&后头跟着的函数名不能以小写字母开头，比如：Testcbs 就是不行的，TestCbs就是ok的 	|
-| 功能测试参数       	| testing.T                                                                                     	|
-| 压力测试用例函数   	| 必须以Benchmark开头&&其后的函数名不能以小写字母开头(例子同上)                                 	|
-| 压力测试参数       	| testing.B                                                                                     	|
-| 测试信息           	| .Log方法，默认情况下是不会显示的，只有在go test -v的时候显示                                  	|
-| 测试控制           	| 通过Error/Errorf/FailNow/Fatal等来进行测试是否是失败，或者在失败的情况下的控制                	|
-| 压力测试命令       	| go test -test.bench file_test.go                                                              	|
-| 压力测试的循环体   	| 使用test.B.N                                                                                  	|
+- 数组的默认值要根据其数据类型来确定。 例如：`var a [4]int`，其默认值为`[0 0 0 0]`
 
 
 
 ## 字符串
 
 
-### `strings`包API
+### strings包API
 
 - `strings.HasPrefix(s string, prefix string) bool`：判断字符串s是否以prefix开头
-
 - `strings.HasSuffix(s string, suffix string) bool`：判断字符串s是否以suffix结尾。
-
 - `strings.Index(s string, str string) int`：判断str在s中首次出现的位置，如果没有出现，则返回-1
-
 - `strings.LastIndex(s string, str string) int`：判断str在s中最后出现的位置，如果没有出现，则返回-1
-
 - `strings.Replace(str string, old string, new string, n int)`：字符串替换
-
 - `strings.Count(str string, substr string)int`：字符串计数
-
 - `strings.Repeat(str string, count int)string`：重复count次str
-
 - `strings.ToLower(str string)string`：转为小写
-
 - `strings.ToUpper(str string)string`：转为大写
-
 - `strings.TrimSpace(str string)`：去掉字符串首尾空白字符
-
 - `strings.Trim(str string, cut string)`：去掉字符串首尾cut字符
-
 - `strings.TrimLeft(str string, cut string)`：去掉字符串首cut字符
-
 - `strings.TrimRight(str string, cut string)`：去掉字符串首cut字符
-
 - `strings.Field(str string)`：返回str空格分隔的所有子串的slice
-
 - `strings.Split(str string, split string)`：返回str split分隔的所有子串的slice
-
 - `strings.Join(s1 []string, sep string)`：用sep把s1中的所有元素链接起来
-
 - `strings.Itoa(i int)`：把一个整数i转成字符串
-
 - `strings.Atoi(str string)(int, error)`：把一个字符串转成整数
+
 
 ### 字符串拼接
 
@@ -214,7 +153,7 @@ func StringBuilder(p []string) string {
 
 
 
-### `path`包
+### path包
 
 
 | 函数                                                  	| 说明                                 	|
@@ -230,7 +169,7 @@ func StringBuilder(p []string) string {
 
 
 
-### `filepath`包
+### filepath包
 
 
 | 函数                                                  	| 说明                                    	|
@@ -281,9 +220,7 @@ func StringBuilder(p []string) string {
 > 也可以用来处理关闭文件句柄等收尾操作。
 
 1. 包裹`defer`的函数返回时
-
 2. 包裹`defer`的函数执行到末尾时
-
 3. 所在的`goroutine`发生`panic`时
 
 
@@ -449,9 +386,8 @@ func HttpClient(method, urlText, contentType string, params map[string]string) (
 
 ## 作业调度
 
-> `ticker`只要定义完成，从此刻开始计时，不需要任何其他的操作，每隔固定时间都会触发。
-
-> `timer`定时器，是到固定时间后会执行一次
+- `ticker`只要定义完成，从此刻开始计时，不需要任何其他的操作，每隔固定时间都会触发。
+- `timer`定时器，是到固定时间后会执行一次
 
 > 如果timer定时器要每隔间隔的时间执行，实现ticker的效果，使用 func (t *Timer) Reset(d Duration) bool
 
@@ -558,6 +494,7 @@ func SchedulerFixedTimer(f func(), duration time.Duration) {
 * [go 开多个goroutine，是在一个进程中完成，还是可能在多个进程中完成](https://segmentfault.com/q/1010000007372739)
 * [golang多进程并发](https://chierqj.github.io/golang-duo-jin-cheng-bing-fa)
 
+
 ### 进程
 
 > `exec`包执行外部命令，它将`os.StartProcess`进行包装使得它更容易映射到`stdin`和`stdout`，并且利用`pipe`连接`i/o`
@@ -633,7 +570,7 @@ func TestGorutine(t *testing.T) {
 
 > `Object-Relational Mapping`，把关系数据库的表结构映射到对象上。
 
-* [orm对比](https://segmentfault.com/a/1190000015606291)
++ [orm对比](https://segmentfault.com/a/1190000015606291)
 
 
 * [https://github.com/jmoiron/sqlx](https://github.com/jmoiron/sqlx)
@@ -642,3 +579,127 @@ func TestGorutine(t *testing.T) {
 * [https://github.com/gohouse/gorose](https://github.com/gohouse/gorose)
 * [https://github.com/go-gorp/gorp](https://github.com/go-gorp/gorp)
 
+
+## Daemon
+
++ [https://en.wikipedia.org/wiki/Daemon_(computing)](https://en.wikipedia.org/wiki/Daemon_(computing))
+
+> 在一个多任务的电脑操作系统中，Daemon（守护进程）是一种在后台执行的电脑程序。此类程序会被以进程的形式初始化
+
+> 通常，守护进程没有任何存在的父进程（即PPID=1），且在UNIX系统进程层级中直接位于init之下。
+> 守护进程程序通常通过如下方法使自己成为守护进程：对一个子进程运行fork，然后使其父进程立即终止，
+> 使得这个子进程能在init下运行。这种方法通常被称为“脱壳”。
+
+* [https://github.com/topics/daemon](https://github.com/topics/daemon)
+* [https://github.com/takama/daemon](https://github.com/takama/daemon)
+* [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
+
+
+
+- 几种实现方式
+
+1. nohup
+2. supervise
+3. Cgo deamon函数
+4. go通过syscall调用fork实现(这个和第3条原理一样)
+
+**Cgo实现**
+
+```go
+package main
+
+import (
+    "fmt"
+    "net"
+    "runtime"
+)
+
+/*
+#include <unistd.h>
+*/
+import "C"
+
+func main() {
+    // 守护进程
+    C.daemon(1, 1)
+    runtime.GOMAXPROCS(runtime.NumCPU())
+    fmt.Println("Starting the server ...")
+    listener, err := net.Listen("tcp", "localhost:8080")
+    if err != nil {
+        fmt.Println("Error listening", err.Error())
+        return
+    }
+
+    for {
+        conn, err := listener.Accept()
+        if err != nil {
+            fmt.Println("error accepting", err.Error())
+            return
+        }
+
+        go doServerStuff(conn)
+    }
+}
+
+func doServerStuff(conn net.Conn) {
+    for {
+        buf := make([]byte, 512)
+        _, err := conn.Read(buf)
+        if err != nil {
+            fmt.Println("Error reading", err.Error())
+            return
+        }
+        fmt.Printf("Received data: %v", string(buf))
+    }
+}
+```
+
+
+**支持goroutine和系统信号监听**
+
+```go
+package main
+ 
+import (
+    "os"
+    "fmt"
+    "os/signal"
+    "syscall"
+    "time"
+    "log"
+    "os/exec"
+)
+func init() {
+    if os.Getppid() != 1{
+        cmd := exec.Command(os.Args[0], os.Args[1:]...)
+        cmd.Start()
+        os.Exit(0)
+    }
+ 
+    // 监听系统信号
+    go func() {
+        _c := make(chan os.Signal, 1)
+        signal.Notify(_c, os.Interrupt, syscall.SIGHUP, syscall.SIGINT, syscall.SIGTERM, syscall.SIGQUIT, syscall.SIGKILL, syscall.SIGTSTP)
+        msg := <- _c
+        log.Println(msg)
+        os.Exit(0)
+    }()
+}
+ 
+func main()  {
+ 
+    go func(){
+        fp, _ := os.OpenFile("log", os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
+        log.SetOutput(fp)
+        for{
+            log.Println(fmt.Sprint("hello ", os.Getpid()))
+            time.Sleep(time.Second * 5)
+        }
+    }()
+ 
+    for{
+        time.Sleep(time.Second * 1000)
+    }
+ 
+}
+```

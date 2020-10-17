@@ -6,19 +6,20 @@
 
 
 
-## flag
+## Flag
 
 
 * [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
+* 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
 
 
 ## Chrome下载
-
 
 * [https://www.chromedownloads.net](https://www.chromedownloads.net)
 * [https://www.iplaysoft.com/tools/chrome](https://www.iplaysoft.com/tools/chrome)
 * [https://tools.shuax.com/chrome](https://tools.shuax.com/chrome)
 * [https://www.chrome64bit.com](https://www.chrome64bit.com)
+* [https://chrome.playes.net/chrome](https://chrome.playes.net/chrome)
 
 
 ## 设置
@@ -43,23 +44,31 @@ chrome://flags/#enable-parallel-downloading
     * [https://github.com/dendoink/FrontendWingman](https://github.com/dendoink/FrontendWingman)
         * [https://www.frontendwingman.com/Chrome](https://www.frontendwingman.com/Chrome)
         * [https://juejin.im/book/5c526902e51d4543805ef35e](https://juejin.im/book/5c526902e51d4543805ef35e)
+* [https://github.com/ChromeDevTools](https://github.com/ChromeDevTools)
 
+- Firefox 开发者工具 [https://developer.mozilla.org/zh-CN/docs/Tools](https://developer.mozilla.org/zh-CN/docs/Tools)
 - Firefox浏览器开发人员版 [https://www.mozilla.org/zh-CN/firefox/developer](https://www.mozilla.org/zh-CN/firefox/developer)
 
 
-**Network测量资源的加载时间隐藏**
+- Network测量资源的加载时间隐藏
+    - 老版本，点击`View`后面的多级图（`Show overview`）
+    - 新版本，点击最右侧⚙️(设置)去掉 `Show overview` 勾选
+- 勾选`Disable cache` 禁用缓存
+- `--auto-open-devtools-for-tabs` 打开新标签页时自动打开DevTools，修改 Chrome 的桌面快捷方式，增加启动参数
+    - 已经打开了Chrome，需要先关闭，或使用参数`–user-data-dir=./`
+- `Auto-open DevTools for popups` 自动打开DevTools弹出窗口
+    - 老版本， ┇ -> Settings -> Perference -> DevTools
+    - 新版本， ┇ -> More tools -> Settings -> Perference -> Global
 
-- 老版本，点击`View`后面的多级图（`Show overview`）
-- 新版本，点击最右侧⚙️(设置)去掉 `Show overview` 勾选
-- 勾选`Disable cache`
-
-
++ `Source` -> 在JS被调用的方法中打断点 -> `Watch`查看变量，`Call Stack` 查看调用堆栈（同`console.trace()`）
 
 
 ## 插件
 
-* [https://github.com/topics/chrome-extension?o=desc&s=stars](https://github.com/topics/chrome-extension?o=desc&s=stars)
-* [冻结暂时用不到的标签页](https://github.com/deanoemcke/thegreatsuspender)
+* [https://github.com/topics/crx]
+* [https://github.com/topics/chrome-extension](https://github.com/topics/chrome-extension)
+* 冻结暂时用不到的标签页 [https://github.com/deanoemcke/thegreatsuspender](https://github.com/deanoemcke/thegreatsuspender)
+
 
 
 ### 插件下载
@@ -112,32 +121,17 @@ chrome://flags/#enable-parallel-downloading
 - [https://github.com/danny0838/webscrapbook](https://github.com/danny0838/webscrapbook)
 - [https://github.com/mika-cn/maoxian-web-clipper](https://github.com/mika-cn/maoxian-web-clipper)
 
-
-
-### 视图
-
-* [视频转GIF：视频转gif](https://github.com/ColdDay/mp4ToGif)
-* [屏幕录制视频和截图工具：nimbus-screenshot-screen](https://nimbusweb.me/screenshot.php)
-* [屏幕录制视频：video-screen-recorder](https://chrome.google.com/webstore/detail/video-screen-recorder/ononjdlajdkflnocgjiihiipagglgpio)
-* [屏幕录制视频：screen-recorder](https://chrome.google.com/webstore/detail/screen-recorder/hniebljpgcogalllopnjokppmgbhaden)
-* [屏幕录制GIF和截图工具：chrome-capture](https://chrome.google.com/webstore/detail/chrome-capture/ggaabchcecdbomdcnbahdfddfikjmphe)
-* [屏幕录制GIF和截图工具：capture-to-a-gif](https://chrome.google.com/webstore/detail/capture-to-a-gif/eapecadlmfblmnfnojebefkbginhggeh)
-* [截取整个窗口添加一个macOS-ish标题栏：standardized-screenshot](https://chrome.google.com/webstore/detail/standardized-screenshot/pabdhaakclnechgfhmnhkcbmjobeoope)
-* [截取长图工具（整个网页）：full-page-screen-capture](https://gofullpage.com)
-* [一键视频下载器](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
-* [Video Downloader for Web](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
-* [终极视频下载器](https://chrome.google.com/webstore/detail/ultimate-video-downloader/ahbcaincngigokdjdlcjnfcdoonccngb)
-* [Video Downloader Plus](https://chrome.google.com/webstore/detail/web-video-downloader/adahebendgkgacfmpnmoddebbnfpfkcd)
-* [Video Downloader Pro](https://chrome.google.com/webstore/detail/video-downloader-pro/ccdikaeknpeokoejlpffihfmpfelakcg)
-* [Video Downloader professional](https://chrome.google.com/webstore/detail/video-downloader-professi/bacakpdjpomjaelpkpkabmedhkoongbi)
-
+* [GOOGLE 人机验证(RECAPTCHA)无法显示解决方案(可解决大多数 CSP 问题)](https://blog.azurezeng.com/recaptcha-use-in-china)
+    * [https://github.com/AzureZeng/azurezeng.github.io](https://github.com/AzureZeng/azurezeng.github.io)
+    * [https://github.azurezeng.com/static/HeaderEditor](https://github.azurezeng.com/static/HeaderEditor)
+    * [https://github.com/FirefoxBar/HeaderEditor](https://github.com/FirefoxBar/HeaderEditor)
+* [https://github.com/jiacai2050/gooreplacer](https://github.com/jiacai2050/gooreplacer)
 
 
 
 ### 翻译
 
 * [https://github.com/lmk123/crx-selection-translate](https://github.com/lmk123/crx-selection-translate)
-* [https://github.com/Selection-Translator](https://github.com/Selection-Translator)
 * [https://github.com/magic-FE/translate-man](https://github.com/magic-FE/translate-man)
 * [https://github.com/EdgeTranslate/EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
 
@@ -164,8 +158,26 @@ chrome://flags/#enable-parallel-downloading
 
 
 
+### 视图
 
-### other
+* 视频转GIF：视频转gif [https://github.com/ColdDay/mp4ToGif](https://github.com/ColdDay/mp4ToGif)
+* [屏幕录制视频和截图工具：nimbus-screenshot-screen](https://nimbusweb.me/screenshot.php)
+* [屏幕录制视频：video-screen-recorder](https://chrome.google.com/webstore/detail/video-screen-recorder/ononjdlajdkflnocgjiihiipagglgpio)
+* [屏幕录制视频：screen-recorder](https://chrome.google.com/webstore/detail/screen-recorder/hniebljpgcogalllopnjokppmgbhaden)
+* [屏幕录制GIF和截图工具：chrome-capture](https://chrome.google.com/webstore/detail/chrome-capture/ggaabchcecdbomdcnbahdfddfikjmphe)
+* [屏幕录制GIF和截图工具：capture-to-a-gif](https://chrome.google.com/webstore/detail/capture-to-a-gif/eapecadlmfblmnfnojebefkbginhggeh)
+* [截取整个窗口添加一个macOS-ish标题栏：standardized-screenshot](https://chrome.google.com/webstore/detail/standardized-screenshot/pabdhaakclnechgfhmnhkcbmjobeoope)
+* [截取长图工具（整个网页）：full-page-screen-capture](https://gofullpage.com)
+* [一键视频下载器](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
+* [Video Downloader for Web](https://chrome.google.com/webstore/detail/video-downloader-for-web/pgffceondpnmmmlbpmchkldadpclbcph)
+* [终极视频下载器](https://chrome.google.com/webstore/detail/ultimate-video-downloader/ahbcaincngigokdjdlcjnfcdoonccngb)
+* [Video Downloader Plus](https://chrome.google.com/webstore/detail/web-video-downloader/adahebendgkgacfmpnmoddebbnfpfkcd)
+* [Video Downloader Pro](https://chrome.google.com/webstore/detail/video-downloader-pro/ccdikaeknpeokoejlpffihfmpfelakcg)
+* [Video Downloader professional](https://chrome.google.com/webstore/detail/video-downloader-professi/bacakpdjpomjaelpkpkabmedhkoongbi)
+* [https://github.com/684102/HDS-HLS-Video-Downloader](https://github.com/684102/HDS-HLS-Video-Downloader)
+
+
+### Other
 
 * [脚本助手：tampermonkey](https://www.tampermonkey.net)
 * [脚本助手：violentmonkey](https://github.com/violentmonkey/violentmonkey)
@@ -182,7 +194,8 @@ chrome://flags/#enable-parallel-downloading
 * [名称生成器扩展](https://github.com/kondratyev-nv/name-genarator-extension)
 * [https://github.com/privacypass/challenge-bypass-extension](https://github.com/privacypass/challenge-bypass-extension)
 * 人机验证码扩展程序 [https://github.com/dessant/buster](https://github.com/dessant/buster)
-* google-access-helper
+* [google-access-helper](https://github.com/search?o=desc&q=google-access-helper&s=updated&type=Repositories)
+* [http://googlehelper.net](http://googlehelper.net)
 
 
 

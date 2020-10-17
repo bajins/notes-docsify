@@ -1,4 +1,4 @@
-# Shell脚本
+# ShellScript
 
 
 [[toc]]
@@ -6,7 +6,7 @@
 
 
 
-## flag
+## Flag
 
 > `Shell`脚本（`shell script`），是一种为`Shell`编写的脚本程序。
 > `Shell`脚本文件的名称可以任意，但为了避免被误以为是普通文件，建议将`.sh`后缀加上，以表示是一个脚本文件。
@@ -17,6 +17,15 @@
 * [Shell中if的使用详解_&&与||的使用详解](https://blog.csdn.net/setul/article/details/80114020)
 * [shell-if判断](https://www.jianshu.com/p/c71e85375e88)
 * [https://github.com/guodongxiaren/Bash](https://github.com/guodongxiaren/Bash)
+* [https://github.com/oldratlee/useful-scripts](https://github.com/oldratlee/useful-scripts)
+
+
+> 在shell脚本中，通常将`EOF`与 `<<` 结合使用，表示后续的输入作为子命令或子Shell的输入，直到遇到`EOF`为止，再返回到主Shell。
+> `EOF`只是一个分界符，当然也可以用`abcde`替换。当shell遇到`<<`时，它知道下一个词是一个分界符。在该分界符以后的内容都被当作输入，
+> 直到shell又看到该分界符(位于单独的一行)。此分界符可以是所定义的任何字符串，其实，不一定要用`EOF`，
+> 只要是“内容段”中没有出现的字符串，都可以用来替代`EOF`，完全可以换成abcde之类的字符串，只是一个起始和结束的标志罢了。
+
+
 
 
 
@@ -166,7 +175,7 @@ expect {
   \"*Username*\" {send \"${push_username}\r\"; exp_continue}
   \"*Password*\" {send \"${push_password}\r\";}
 }
-# 问题回答完毕等待`expect`进程结束
+# 问题回答完毕等待expect进程结束
 expect eof
 "
 ```
@@ -239,7 +248,7 @@ send -- "$push_password\n"
 
 # 允许用户交互
 interact
-# 问题回答完毕等待`expect`进程结束
+# 问题回答完毕等待expect进程结束
 expect eof
 ```
 
@@ -262,7 +271,7 @@ puts "\n secon = $secon"
 puts "\n yestoday_secon = $yestoday_secon"
 puts "\n yestoday = $yestoday"
 
-# 问题回答完毕等待`expect`进程结束
+# 问题回答完毕等待expect进程结束
 expect eof
 "
 ```
@@ -381,7 +390,7 @@ expect {
   \"*password*\" {send \"${des_pass}\r\";}
 }
 
-# 问题回答完毕等待`expect`进程结束
+# 问题回答完毕等待expect进程结束
 expect eof
 "
 exit

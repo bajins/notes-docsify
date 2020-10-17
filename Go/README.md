@@ -6,7 +6,7 @@
 
 
 
-## flag
+## Flag
 
 + [https://github.com/golang](https://github.com/golang)
 + [https://go.dev](https://go.dev)
@@ -32,9 +32,9 @@
 * 《[Go 编程基础](https://github.com/Unknwon/go-fundamental-programming)》是一套针对Go语言的视频语音教程，主要面向新手级别的学习者。
 * [第三方类库](https://golanglibs.com)
 * [Go 官方文档翻译](https://github.com/golang-china/golangdoc.translations)
-* [Go 指南](https://tour.go-zh.org/list) (《A Tour of Go》中文版)
+* [Go 指南](https://tour.go-zh.org/list)
 * [Go 简易教程](https://github.com/songleo/the-little-go-book_ZH_CN)
-(《 [The Little Go Book](https://github.com/karlseguin/the-little-go-book) 》中文版)
+    * 中文版 [https://github.com/karlseguin/the-little-go-book](https://github.com/karlseguin/the-little-go-book)
 * [Go 语言实战笔记](https://github.com/rujews/go-in-action-notes)
 * [Go 语言标准库](https://github.com/polaris1119/The-Golang-Standard-Library-by-Example)
 * [Go 语言高级编程（Advanced Go Programming）](https://github.com/chai2010/advanced-go-programming-book)
@@ -62,7 +62,7 @@
 
 
 
-## 开源项目
+## 第三方库
 
 * [https://github.com/avelino/awesome-go](https://github.com/avelino/awesome-go)
 * [https://github.com/yinggaozhen/awesome-go-cn](https://github.com/yinggaozhen/awesome-go-cn)
@@ -79,18 +79,15 @@
 | kit     	| https://github.com/go-kit/kit                                  	| https://gokit.io                           	|
 
 
-
-
-### other
-
 * [golang worker pool ,线程池 , 工作池](https://github.com/xxjwxc/gowp)
 * [模板功能](https://github.com/Masterminds/sprig)
-* [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
+* 分布式关系型数据库 [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
+    * [https://pingcap.com](https://pingcap.com)
 * [https://github.com/flike/kingshard](https://github.com/flike/kingshard)
 * [https://github.com/open-falcon](https://github.com/open-falcon)
 * [https://github.com/open-falcon/mail-provider](https://github.com/open-falcon/mail-provider)
 * [https://github.com/Yanjunhui/chat](https://github.com/Yanjunhui/chat)
-* [https://github.com/ouqiang/gocron](https://github.com/ouqiang/gocron)
+* 定时任务 [https://github.com/ouqiang/gocron](https://github.com/ouqiang/gocron)
 * [https://github.com/robfig/cron](https://github.com/robfig/cron)
 * [https://github.com/jasonlvhit/gocron](https://github.com/jasonlvhit/gocron)
 * [https://github.com/ouqiang/delay-queue](https://github.com/ouqiang/delay-queue)
@@ -105,12 +102,87 @@
 * 获取固定宽度的字符或字符串：[https://github.com/mattn/go-runewidth](https://github.com/mattn/go-runewidth)
 * Lane包提供队列，优先级队列，堆栈和双端队列：[https://github.com/oleiade/lane](https://github.com/oleiade/lane)
 * 具有历史记录的命令行编辑器：[https://github.com/peterh/liner](https://github.com/peterh/liner)
+* 自动控制基于终端或控制台 [https://github.com/Netflix/go-expect](https://github.com/Netflix/go-expect)
+* [https://github.com/google/goexpect](https://github.com/google/goexpect)
+* [https://github.com/google/goterm](https://github.com/google/goterm)
+* [https://github.com/ThomasRooney/gexpect](https://github.com/ThomasRooney/gexpect)
+* [https://github.com/mattn/go-sqlite3](https://github.com/mattn/go-sqlite3)
+* Swagger 2.0 for Go [https://github.com/swaggo](https://github.com/swaggo)
+* [https://github.com/owenliang/go-push](https://github.com/owenliang/go-push)
+* [https://github.com/rs/zerolog](https://github.com/rs/zerolog)
+* [https://github.com/uber-go/zap](https://github.com/uber-go/zap)
+* [https://github.com/apex/log](https://github.com/apex/log)
+* [https://xorm.io](https://xorm.io)
+* [https://github.com/chenhg5/collection](https://github.com/chenhg5/collection)
+
+- IP代理池 [https://github.com/henson/proxypool](https://github.com/henson/proxypool)
+
+
+
+## 工具链
+
+- 测试文件中单个函数
+
+```bash
+go test -v 文件名_test.go -test.run 函数名
+# 直接指定函数不指定文件运行
+go test -v -test.run 函数名
+```
+
+| 关键点             	| 说明                                                                                          	|
+|--------------------	|-----------------------------------------------------------------------------------------------	|
+| 导入需要的包       	| import testing (如果你是goland,那么可以忽略，因为ide就自动帮你加上)                           	|
+| 执行命令           	| go test file_test.go                                                                          	|
+| 测试文件命名       	| 必须以_test.go结尾                                                                            	|
+| 功能测试的用力函数 	| 必须以Test开头&&后头跟着的函数名不能以小写字母开头，比如：Testcbs 就是不行的，TestCbs就是ok的 	|
+| 功能测试参数       	| testing.T                                                                                     	|
+| 压力测试用例函数   	| 必须以Benchmark开头&&其后的函数名不能以小写字母开头(例子同上)                                 	|
+| 压力测试参数       	| testing.B                                                                                     	|
+| 测试信息           	| .Log方法，默认情况下是不会显示的，只有在go test -v的时候显示                                  	|
+| 测试控制           	| 通过Error/Errorf/FailNow/Fatal等来进行测试是否是失败，或者在失败的情况下的控制                	|
+| 压力测试命令       	| go test -test.bench file_test.go                                                              	|
+| 压力测试的循环体   	| 使用test.B.N                                                                                  	|
 
 
 
 
 
-## Modules代理
+## Modules
+
+* [Go Modules 终极入门](https://segmentfault.com/a/1190000021854441)
+
+
+| 命令     	| 说明                                                                  	|
+|----------	|-----------------------------------------------------------------------	|
+| go mod init     	| initialize new module in current directory（在当前目录初始化mod）     	|
+| go mod download 	| download modules to local cache(下载依赖包)                           	|
+| go mod edit     	| edit go.mod from tools or scripts（编辑go.mod                         	|
+| go mod graph    	| print module requirement graph (打印模块依赖图)                       	|
+| go mod tidy     	| add missing and remove unused modules(拉取缺少的模块，移除不用的模块) 	|
+| go mod vendor   	| make vendored copy of dependencies(将依赖复制到vendor下)              	|
+| go mod verify   	| verify dependencies have expected content (验证依赖是否正确）         	|
+| go mod why      	| explain why packages or modules are needed(解释为什么需要依赖)        	|
+
+
+- 查看所有可升级依赖版本 `go list -u -m all`
+
+**添加依赖**
+
+- 添加依赖: `go get github.com/xxx/xxx`
+- 添加指定版本: `go get github.com/xxx/xxx@v1.6.2`
+- 添加指定版本范围: `go get github.com/xxxx/xxx@'<v1.6.2'`
+- 添加指定`commit`的版本：`go get github.com/xxxx/xxx@q2516faf3`
+
+
+**升级依赖**
+
+- 升级`Major`: `go get -u github.com/xxx/xxx`
+- 升级全部依赖的`Minor`或`PATCH`版本: `go get -u`
+- 升级全部依赖的`PATCH`版本: `go get -u=patch`
+
+
+
+### Modules代理
 
 > 查看Go的环境信息`go env`
 
@@ -118,20 +190,22 @@
 
 > `GO 1.13`版本开始`GOPROXY`支持多代理设置，通过`,`隔开
 
+- 通用
+
+```bash
+go env -w GOPROXY=https://goproxy.io,https://goproxy.cn,direct
+```
+
 - Linux
 
 ```bash
 export GOPROXY=https://goproxy.io,https://goproxy.cn,direct
-# 或者
-go env -w GOPROXY=https://goproxy.io,https://goproxy.cn,direct
 ```
 
 - Windows
 
 ```batch
 setx /m GOPROXY "https://goproxy.io,https://goproxy.cn,direct"
-:: 或者
-go env -w GOPROXY=https://goproxy.io,https://goproxy.cn,direct
 ```
 
 > 当第一个`proxy`在处理`ge get`所发出的`HTTP`请求时，返回`HTTP`状态码为`404`或`410`时，就会查找下一个`proxy`

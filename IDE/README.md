@@ -6,28 +6,47 @@
 
 
 
-## flag
+## Flag
+
+- [https://github.com/topics/ide](https://github.com/topics/ide)
+- [https://github.com/topics/devtools](https://github.com/topics/devtools)
+
++ [https://github.com/postmanlabs](https://github.com/postmanlabs)
+    + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
++ [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
+    + [https://hoppscotch.io](https://hoppscotch.io)
++ IDEA 的`Tools`菜单下有`HTTP Client`可替代postman
 
 * [https://github.com/atom](https://github.com/atom)
-* [IntelliJ IDEA 辅助工具](https://github.com/mrshawnho/ideaagent)
-* [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
-* [https://github.com/liyasthomas/postwoman](https://github.com/liyasthomas/postwoman)
-* [https://www.allroundautomations.com/bodyplsqldevreg.html]()
-* [https://www.mobatek.net](https://www.mobatek.net)
-* [https://github.com/neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
+* [https://github.com/geany](https://github.com/geany)
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
+    * [https://theia-ide.org](https://theia-ide.org)
+
+- [https://sonarcloud.io](https://sonarcloud.io)
+- [https://semmle.com](https://semmle.com)
+    - [https://lgtm.com](https://lgtm.com)
+- [https://www.openhub.net](https://www.openhub.net)
+- [https://bestpractices.coreinfrastructure.org](https://bestpractices.coreinfrastructure.org)
+
+
+**SVN**
+
+- [https://github.com/apache/subversion](https://github.com/apache/subversion)
+- [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
+  - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
+  - [https://tortoisegit.org/download](https://tortoisegit.org/download)
+- [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
+- [https://github.com/subclipse](https://github.com/subclipse)
+
 
 
 ## 加速下载文件
 
++ [Jupyter Notebook](/Shell/Python.md#jupyter-notebook)
+
 * php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)
 * go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
 * [http://git.aakkc.com](http://git.aakkc.com)
-* [https://github.com/Kaggle](https://github.com/Kaggle)
-    * [https://www.kaggle.com](https://www.kaggle.com)
-    * [GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
-* [https://ssh.cloud.google.com](https://ssh.cloud.google.com)
-    * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
 * [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
 * [GitHub 下载加速](https://noshore.cn/github.html)
 * [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
@@ -36,17 +55,27 @@
 
 
 
+
 ## Online IDE
 
++ [https://github.com/topics/cloud-ide](https://github.com/topics/cloud-ide)
++ [https://github.com/styfle/awesome-online-ide](https://github.com/styfle/awesome-online-ide)
+
 * [https://ide.goorm.io](https://ide.goorm.io)
-* [https://codesandbox.io](https://codesandbox.io)
+* [https://github.com/codesandbox](https://github.com/codesandbox)
+    * [https://codesandbox.io](https://codesandbox.io)
 * [https://glitch.com](https://glitch.com)
 * [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
-
-[![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io) 是一款在线IDE能即时修改GitHub代码，
-访问仓库：https://gitpod.io/#https://github.com/账户名/仓库名
-
-> 示例：[https://gitpod.io/#github.com/woytu/notes-vuepress](https://gitpod.io/#github.com/woytu/notes-vuepress)
+* [https://github.com/eclipse/che](https://github.com/eclipse/che)
+    * [https://github.com/openshift](https://github.com/openshift)
+    * [https://github.com/fabric8-launcher](https://github.com/fabric8-launcher)
+    * [https://www.eclipse.org/che/getting-started/cloud](https://www.eclipse.org/che/getting-started/cloud)
+    * `https://che.openshift.io/dashboard/#/load-factory/?url=https://github.com/账户名/仓库名`
+    * [https://che.openshift.io](https://che.openshift.io)
+    * [https://manage.openshift.com](https://manage.openshift.com)
+* [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
+    * `https://gitpod.io/#https://github.com/账户名/仓库名`
+    * [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/woytu/notes-vuepress)
 
 
 **[静态部署](/Web/README.md#静态部署)**
@@ -57,8 +86,69 @@
 * [https://www.onlinegdb.com](https://www.onlinegdb.com)
 * [https://wandbox.org](https://wandbox.org)
 * [https://github.com/mattgodbolt/compiler-explorer](https://github.com/mattgodbolt/compiler-explorer)
+* [http://pythontutor.com](http://pythontutor.com)
+* [https://codepen.io](https://codepen.io)
 
 
+
+
+## 数据库
+
+- [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
+- [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
+- [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
+
++ [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
++ [https://www.heidisql.com](https://www.heidisql.com)
++ [https://www.dbvis.com](https://www.dbvis.com)
++ [https://sourceforge.net/projects/squirrel-sql](https://sourceforge.net/projects/squirrel-sql)
+    + [http://www.squirrelsql.org](http://www.squirrelsql.org)
++ [https://www.activedbsoft.com](https://www.activedbsoft.com)
++ [https://www.razorsql.com](https://www.razorsql.com)
++ [https://www.aquafold.com](https://www.aquafold.com)
++ [https://sourceforge.net/projects/squirrel-sql](https://sourceforge.net/projects/squirrel-sql)
+    + [http://www.squirrelsql.org](http://www.squirrelsql.org)
+
+- [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
+- Sqlyog增加试用期：<kbd>win</kbd>+<kbd>r</kbd> -> 输入`regedit` -> 进入注册表
+    - 旧版：在`计算机\HKEY_CURRENT_USER\Software\{906D6D9F-AB51-429F……}`删除`InD110`即可
+    - 新版：在`计算机\HKEY_CURRENT_USER\SOFTWARE\{d58cb4b1-47f3-45cb-a209-f298d0c3f756}`删除`InD110`即可
+
+```
+姓 名（Name）：ttrar
+序 列 号（Code）：8d8120df-a5c3-4989-8f47-5afc79c56e7c
+
+姓 名（Name）：ttrar
+序 列 号（Code）：59adfdfe-bcb0-4762-8267-d7fccf16beda
+
+姓 名（Name）：ttrar
+序 列 号（Code）：ec38d297-0543-4679-b098-4baadf91f983
+
+姓 名（Name）：ttrar
+序 列 号（Code）：8d8120df-a5c3-4989-8f47-5afc79c56e7c
+
+
+ccbfc13e-c31d-42ce-8939-3c7e63ed5417
+a56ea5da-f30b-4fb1-8a05-95f346a9b20b
+a0fe8645-3916-45d4-9976-cb6b88fecc6c
+b70d7f66-dac2-4462-bf51-c4e9347da76
+
+Professional: 8e053a86-cdd3-48ed-b5fe-94c51b3d343c
+Enterprise:   a46683b0-d3ec-4c16-8e3c-198d25a7fb52
+Ultimate:     60c1b896-7c22-4405-9f46-a6bce776ab36
+
+Professional 版本:
+注册名：luoye2562
+注册码：ec38d297-0543-4679-b098-4baadf91f983
+
+Enterprise 版本:
+注册名：luoye2562
+注册码: 59adfdfe-bcb0-4762-8267-d7fccf16beda
+
+Ultimate 版本:
+注册名：luoye2562
+注册码: 8d8120df-a5c3-4989-8f47-5afc79c56e7c
+```
 
 
 
@@ -104,60 +194,32 @@
 
 
 
-## 文本编辑器
-
-* [C#写的记事本](https://github.com/topics/notepad?l=c%23)
-* [C++写的记事本](https://github.com/topics/notepad?l=c%2B%2B)
-* [Notepad3](https://github.com/rizonesoft/Notepad3)
-* [notepad2](https://github.com/zufuliu/notepad2)
-* [https://www.scintilla.org](https://www.scintilla.org)
-* [http://www.pnotepad.org](http://www.pnotepad.org)
-
-
-- [https://www.sublimetext.com](https://www.sublimetext.com)
-    - [http://www.sublimetext.cn](http://www.sublimetext.cn)
-- [sublimetext破解](https://www.abbeyok.com/archives/337)
-- [sublime-text-3-license-key](http://blog.jdk5.com/zh/sublime-text-3-license-key)
-- [Sublime Text3 注册码激活码](https://blog.csdn.net/qq_29819449/article/details/80130327)
-
-
-**Notepad++**
-
-* [https://github.com/notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)
-
-- 查看快捷键：`设置` –> `管理快捷键` -> `Scintilla命令`
-
-* [替换默认记事本](https://npp-user-manual.org/docs/other-resources/#notepad-replacement)
-
-- `Tab`替换为空格
-
-> 设置->首选项->语言->制表符设置->(勾选上)替换为空格
-
-- 显示特殊字符
-
-> 显示回车符，换行符，TAB键，行首，行尾等特殊字符
-
-> 视图(V) ⇒ 显示符号 ⇒ 显示空格与制表符
-
-
-- 删除未包含内容的行
-
-> <kbd>Ctrl</kbd> + <kbd>F</kbd> ⇒ 选择`标记`标签页（或者<kbd>Alt</kbd> + <kbd>S</kbd> 然后按<kbd>K</kbd>） ⇒ 
-> 查找目标输入正则表达式 ⇒ 勾选`正则表达式`、`标记所在行`、`清除上次标记` ⇒ 点击`全部标记`
-
-> 点击菜单栏 `搜索` ⇒ `书签` ⇒ `删除未标记行`
-
-
-
 ## 抓包工具
 
-* [Telerik Fiddler](https://www.telerik.com/download/fiddler)
+* Fiddler [https://www.telerik.com/download/fiddler](https://www.telerik.com/download/fiddler)
+    * [https://github.com/gabrielxvx/zh-fiddler](https://github.com/gabrielxvx/zh-fiddler)
+    * [Fiddler抓包工具总结](https://www.cnblogs.com/yyhh/p/5140852.html)
+    * [Windows抓包指南①：Proxifier+Fiddler对第三方程序强制抓包](https://www.52pojie.cn/thread-976016-1-1.html)
 * [https://github.com/BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager)
 * [https://github.com/microsoft/ethr](https://github.com/microsoft/ethr)
 * [https://www.tcpdump.org](https://www.tcpdump.org)
 * [https://www.wireshark.org](https://www.wireshark.org)
-[BurpSuiteV2.1.06破解版](https://www.waitalone.cn/tools/burpsuite.html)
-* [BurpSuite](https://portswigger.net/burp/communitydownload)
+    * [BurpSuiteV2.1.06破解版](https://www.waitalone.cn/tools/burpsuite.html)
+* BurpSuite [https://portswigger.net/burp/communitydownload](https://portswigger.net/burp/communitydownload)
+* Charles [https://www.charlesproxy.com](https://www.charlesproxy.com)
+* [https://github.com/youzan/zan-proxy](https://github.com/youzan/zan-proxy)
+* [https://github.com/alibaba/lightproxy](https://github.com/alibaba/lightproxy)
+* [https://www.httpwatch.com](https://www.httpwatch.com)
+* [http://www.httpdebugger.com](http://www.httpdebugger.com)
+* [https://github.com/avwo/whistle](https://github.com/avwo/whistle)
+
+- 跨平台的设置代理客户端 [https://www.proxifier.com](https://www.proxifier.com)
+- [https://github.com/mellow-io/mellow](https://github.com/mellow-io/mellow)
+- [https://github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)
+    - [https://github.com/Fndroid/clash_for_windows_pkg](https://github.com/Fndroid/clash_for_windows_pkg)
+    - [Clash for Windows 配置教程](https://bluedoc.io/agentneo/docs/mmee)
+- [https://github.com/snail007/goproxy](https://github.com/snail007/goproxy)
+- SocksCap64 HOOK了Windows Sockets API [https://www.sockscap64.com/sockscap64-official-homepage-chinese](https://www.sockscap64.com/sockscap64-official-homepage-chinese)
 
 
 
@@ -219,9 +281,11 @@
 | 移动上一个光标所在处                             	| Ctrl + Alt + ←                            	| Alt + ←                                     	|
 | 移动下一个光标所在处                             	| Ctrl + Alt + →                            	| Alt + →                                     	|
 | 展开所有代码                                     	| Ctrl + Shift + +                          	| Ctrl + Shift + * （小键盘）                 	|
-| 折詡斤有代码                                     	| Ctrl + Shift + -                          	| Ctrl + Shift + / （小键盘）                 	|
+| 折叠所有代码                                     	| Ctrl + Shift + -                          	| Ctrl + Shift + / （小键盘）                 	|
 | 选择常用代码块                                   	| Ctrl + Alt + T                            	| Shift + Alt + Z                             	|
 | 可以生成构造器/Getter/Setter等                   	| Alt + Insert                              	| Shift + Alt + S                             	|
+| 将选中字符串的字母转为大写                       	| Ctrl + Shift + U                          	| Ctrl + Shift + X                            	|
+| 将选中字符串的字母转为小写                       	| Ctrl + Shift + U                           	| Ctrl + Shift + Y                            	|
 | 编辑源                                           	| F4                                        	|                                             	|
 | 移动                                             	| F6                                        	|                                             	|
 | 复制                                             	| F5                                        	|                                             	|
@@ -272,7 +336,6 @@
 | 批量替换                                         	| Ctrl + Shift + R                          	|                                             	|
 | translation插件翻译选中的字符串                  	| Ctrl + Shift + Y                          	|                                             	|
 | 智能代码提示                                     	| Ctrl + Shift + Space                      	|                                             	|
-| 将选中字符串的字母转为大写/小写                  	| Ctrl + Shift + U                          	|                                             	|
 | 删除到行末                                       	| Ctrl + Shift + Delete                     	|                                             	|
 | 标记标签                                         	| Ctrl + Shift + 1,2,3...9                  	|                                             	|
 | 隐藏恢复所有窗口                                 	| Ctrl + Shift + F12                        	|                                             	|
@@ -297,8 +360,6 @@
 | 在workspace中搜索选中元素的引用                  	|                                           	| Ctrl + Shift + G                            	|
 | 关闭所有窗口                                     	|                                           	| Ctrl + Shift + F4    Ctrl + Shift + W       	|
 | 快速搜索选中字符串                               	|                                           	| Ctrl + Shift + L                            	|
-| 将选中字符串的字母转为大写                       	|                                           	| Ctrl + Shift + X                            	|
-| 将选中字符串的字母转为小写                       	|                                           	| Ctrl + Shift + Y                            	|
 | 下一个视图                                       	|                                           	| Ctrl + F7                                   	|
 | 上一个视图                                       	|                                           	| Ctrl + Shift + F7                           	|
 | 下一个编辑器                                     	|                                           	| Ctrl + F6                                   	|

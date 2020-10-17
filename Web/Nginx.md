@@ -6,12 +6,11 @@
 
 
 
-## flag
+## Flag
 
 + [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
+    + [http://nginx.org/en/docs](http://nginx.org/en/docs)
 + [https://github.com/h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
-
-
 
 * [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
 * [nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
@@ -19,7 +18,9 @@
 * [nginxconfig配置生成](https://github.com/0xB4LINT/nginxconfig.io)
 * [nginx 变量使用](https://blog.csdn.net/u014296316/article/details/80973530)
 * [Nginx 从入门到实践，万字详解](https://juejin.im/post/5ea931866fb9a043815146fb)
+* Nginx 入门指南 [https://github.com/xuexb/learn-nginx](https://github.com/xuexb/learn-nginx)
 
++ [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
 
 - [HAProxy 入门](https://jaminzhang.github.io/lb/HAProxy-Get-Started)
 
@@ -31,13 +32,15 @@
 
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
 
+- 在`nginx.conf`中配置`log_format`（可以配置在`server`中），含义是配置了一个名为`main`的日志格式化的规则，应用在了`access_log`的日志上
+
 
 
 ## location
 
 ### 语法规则
 
-```nginx
+```conf
 location [=|~|~*|^~] /uri/ {
         ····· 
 }
@@ -45,16 +48,16 @@ location [=|~|~*|^~] /uri/ {
 
 - 修饰符含义
 
-| 规则  	| 说明                                                                                                                                                 	|
-|-------	|------------------------------------------------------------------------------------------------------------------------------------------------------	|
-| `!~*` 	| 不区分大小写，但不匹配的正则                                                                                                                             	|
-| `!~`  	| 区分大小写，但不匹配的正则                                                                                                                               	|
-| `/`   	| 通用匹配，任何请求都会匹配到                                                                                                                         	|
-| `@`   	| 定义一个内部命名的匹配（[等阶于`internal`](https://blog.sometimesnaive.org/article/72)），适用于`error_page`,`try_files`                             	|
+| 规则  	| 说明                                                                                                            	|
+|-------	|------------------------------------------------------------------------------------------------------------------	|
+| `!~*` 	| 不区分大小写，但不匹配的正则                                                                          	|
+| `!~`  	| 区分大小写，但不匹配的正则                                                                                          	|
+| `/`   	| 通用匹配，任何请求都会匹配到                                                                                          	|
+| `@`   	| 定义一个内部命名的匹配（[等阶于`internal`](https://blog.sometimesnaive.org/article/72)），适用于`error_page`,`try_files` 	|
 | `^~`  	| uri以某个常规字符串开头，如请求为`/static/20%/aa`，匹配规则`^~ /static/ /aa`                                      |
-| `~*`  	| 不区分大小写的正则匹配                                                                                                                       	|
-| `~`   	| 区分大小写的正则匹配                                                                                                                         	|
-| `=`   	| 精确匹配                                                                                                                                     	|
+| `~*`  	| 不区分大小写的正则匹配                                                                                  	|
+| `~`   	| 区分大小写的正则匹配                                                                                  	|
+| `=`   	| 精确匹配                                                                                                       	|
 
 
 - 当我们有多个`location`配置的情况下，其匹配顺序为
@@ -109,7 +112,7 @@ location / {
 
 > `internal` 指令用于指定只允许来自本地 `Nginx` 的内部调用，来自外部的访问会直接返回 `404 not found` 状态。
 
-```nginx
+```conf
 # 定义一个内部调用location
 location /internal/ {
     internal;
@@ -137,7 +140,7 @@ location / {
 
 > 命名location中不能再嵌套其它的命名location。
 
-```nginx
+```conf
 # 匹配静态文件
 location ~ .*\.(htm|html|js|css|jpg|png|gif|eot|svg|ttf|woff|woff2)$ {
     # 如果文件不存在
@@ -173,7 +176,7 @@ location @pass {
 
 ### 以后缀设置过期时间
 
-```nginx
+```conf
 location ~* \.(js|css|jpg|jpeg|gif|png|swf)$ {
     if (-f $request_filename) {
         expires 1h;
@@ -184,13 +187,12 @@ location ~* \.(js|css|jpg|jpeg|gif|png|swf)$ {
 
 ### 禁止访问某个目录
 
-```nginx
+```conf
 location ~* \.(txt|doc)${
     root /data/www/wwwroot/linuxtone/test;
     deny all;
 }
 ```
-
 
 
 
@@ -203,27 +205,22 @@ location ~* \.(txt|doc)${
 > 该指令可以在`server`块或者`location`块中配置
 
 - 语法：`rewrite regex replacement [flag];`
+    - `rewrite`是实现URL重定向的重要指令。
+    - `regex`用来匹配URI的正则表达式；
+    -  `replacement`匹配成功后用来替换URI中被截取内容的字符串，默认情况如果该字符串包含“http://”、"https://"开头，则不会继续向下对URI进行其他处理。直接返回重写的URI给客户端
+    - `flag`用来设置rewrite对URI的处理行为,包含如下数据：
 
-> `rewrite`是实现URL重定向的重要指令。
->
-> `regex`用来匹配URI的正则表达式；
->
-> `replacement`匹配成功后用来替换URI中被截取内容的字符串，默认情况如果该字符串包含“http://”、"https://"开头，
-> 则不会继续向下对URI进行其他处理。直接返回重写的URI给客户端
->
-> `flag`用来设置rewrite对URI的处理行为,包含如下数据：
+| 标记符号  	| 说明                                                                                                                           	|
+|-----------	|--------------------------------------------------------------------------------------------------------------------------------	|
+| last      	| 终止在本location块中处理接收到的URI，并将此处重写的URI作为新的URI使用其他location进行处理。（只是终止当前location的处理）      	|
+| break     	| 将此处重写的URI作为一个新的URI在当前location中继续执行，并不会将新的URI转向其他location。                                      	|
+| redirect  	| 将重写后的URI返回个客户端，状态码是302，表明临时重定向，主要用在replacement字符串不以“http://”，“ https://”或“ $scheme” 开头； 	|
+| permanent 	| 将重写的URI返回客户端，状态码为301,指明是永久重定向；                                                                          	|
 
-
-| 标记符号      | 说明                                                                                      |
-|-----------|-----------------------------------------------------------------------------------------|
-| last      | 终止在本location块中处理接收到的URI，并将此处重写的URI作为新的URI使用其他location进行处理。（只是终止当前location的处理）           |
-| break     | 将此处重写的URI作为一个新的URI在当前location中继续执行，并不会将新的URI转向其他location。                               |
-| redirect  | 将重写后的URI返回个客户端，状态码是302，表明临时重定向，主要用在replacement字符串不以“http://”，“ https://”或“ $scheme” 开头； |
-| permanent | 将重写的URI返回客户端，状态码为301,指明是永久重定向；                                                          |
 
 **Redirect**
 
-```nginx
+```conf
 rewrite ^(.*) http://example.com$1 redirect;
 ```
 
@@ -294,8 +291,6 @@ location ~* \.(gif|jpg|swf)$ {
 | `$uri`                         	| 请求的URI，不包含主机名，不包含?后的参数                                                                                                           	|
 
 
-
-
 > `$request_body_file` 将客户端请求主体保存在临时文件中。文件处理结束后，此文件需删除。如果需要执意开启此功能，
 > 需要设置`client_body_in_file_only`。如果将次文件传递给后端的代理服务器，需要禁用`request body`，
 > 即设置`proxy_pass_request_body off`，`fastcgi_pass_request_body off`，
@@ -344,11 +339,9 @@ location ~* \.(gif|jpg|swf)$ {
 
 
 
+## 判断user_agent
 
-
-## 判断`user_agent`
-
-```nginx
+```conf
 # 设置变量
 set $mobile_user_agent "(MIDP)|(WAP)|(UP.Browser)|(Smartphone)
 |(Obigo)|(Mobile)|(AU.Browser)|(wxd.Mms)|(WxdB.Browser)|(CLDC)
@@ -375,28 +368,49 @@ if ( $http_user_agent ~ "$mobile_user_agent" ) {
 }
 ```
 
+```conf
+# cloudflare 默认会在header里面加上’HTTP_CF_IPCOUNTRY’
+# 禁止某些国家, user agent 的访问，配置在http（全局）
+map $http_cf_ipcountry $allow {
+    default yes;
+    US no;
+    CA no;
+    UK no;
+    AU no;
+}
+# 在server或location中配置
+if ($allow = no) {
+    return 403;
+}
+```
 
 
 
-## `proxy_pass`指令
+
+## proxy_pass指令
 
 > nginx无法在`proxy_pass`指令中处理所需的URI部分，因为位于指定的位置（因此是错误消息）。
 > 这是因为nginx是以模块化的方式构建的，每个配置块都是由各个模块在各个阶段读取的。
 
-> `proxy_pass`在以下情况下，指令中不能有URI ：
->> 正则表达式位置
->>
->> 命名的地点
->>
->> if 块
+- `proxy_pass`在以下情况下，指令中不能有URI ：
+    - 正则表达式位置
+    - 命名的地点
+    - if 块
 
 > 解决方案可见[判断`user_agent`](#判断user-agent)
+
+- `proxy_set_header` 设置请求头信息给上游服务器
+- `add_header` 设置响应头信息给浏览器
+
 
 
 
 ## 主配置
 
-```nginx
+* [Nginx配置文件解析](https://blog.csdn.net/DeliaPu/article/details/108647180)
+* [nginx - HowOldAreYou - 博客园](https://www.cnblogs.com/wxxjianchi/p/13582252.html)
+
+```conf
 
 user www www;
 worker_processes auto;
@@ -457,8 +471,9 @@ http {
 
 ## 动静分离配置
 
+**静态文件在本地**
 
-```nginx
+```conf
 server {
     listen 80;
     listen 443 ssl http2;
@@ -522,4 +537,50 @@ server {
     access_log /logs/wwwlog;
     error_log /logs/wwwlog;
 }
+```
+
+
+**静态文件在镜像存储**
+
+```conf
+#PROXY-START/
+location = / {
+    #rewrite (.*) $1index.html;
+    index /index.html;
+}
+# 拦截静态文件后缀
+location ~ .*\.(htm|html|js|css|jpg|png|gif|eot|svg|ttf|woff|woff2)$|/static/ {
+    # 配置静态资源地址
+    #root ./vhost/html;
+	root "/index";
+	# 将此处重写的URI作为一个新的URI在当前location中继续执行，并不会将新的URI转向其他location
+	rewrite ^(.*)$ /index/$1 break;
+	
+	proxy_pass https://test.cos.ap-hongkong.myqcloud.com;
+    #proxy_set_header Host $host;
+	proxy_set_header Host test.cos.ap-hongkong.myqcloud.com;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+    
+    add_header X-Cache $upstream_cache_status;
+    
+    #Set Nginx Cache
+    add_header Cache-Control no-cache;
+}
+location / {
+    proxy_pass http://127.0.0.1:8081;
+    proxy_set_header Host $host;
+    proxy_set_header X-Real-IP $remote_addr;
+    proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+    proxy_set_header REMOTE-HOST $remote_addr;
+    
+    add_header X-Cache $upstream_cache_status;
+    
+    #Set Nginx Cache
+    add_header Cache-Control no-cache;
+    #expires 12h;
+}
+
+#PROXY-END/
 ```

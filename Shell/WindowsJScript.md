@@ -5,7 +5,7 @@
 
 
 
-## flag
+## Flag
 
 * [https://www.wanweibaike.com/wiki-JScript](https://www.wanweibaike.com/wiki-JScript)
 
@@ -97,6 +97,43 @@ pause&exit
 
 ```
 
+- 缺陷：需要包裹html标签
+
+
+```batch
+<!-- :
+@echo off
+::for /f "delims=" %%a in ('mshta "%~f0"') do echo;%%a
+for /f "delims=" %%a in ('mshta "%~f0"') do ( set filePath=%%a)
+echo %filePath%
+pause&exit /b
+-->
+
+<input type=file id=f>
+<script>
+
+f.click();
+
+alert(f.value);
+
+var sfo = new ActiveXObject('Scripting.FileSystemObject');
+// 获取TextStream对象.参数：0输入流,1输出流,2错误流.
+sfo.GetStandardStream(1).Write(f.value);
+
+var Shell = new ActiveXObject("Shell.Application");
+// 起始目录为：桌面
+var Folder = Shell.BrowseForFolder(0, "请选择文件夹", 0);
+if (Folder != null) {
+    Folder = Folder.items();
+    Folder = Folder.item();
+    Folder = Folder.Path;
+    sfo.GetStandardStream(1).Write(Folder);
+}
+close();
+
+</script>
+```
+
 
 ### 参数传递
 
@@ -151,11 +188,11 @@ var path = Argv(2);
 * [ActiveXObject对象使用整理](https://blog.csdn.net/chen_zw/article/details/9336375)
 
 - `JScript`中`ActiveXObject`对象是启用并返回`Automation`对象的引用。
-    - 使用方法：`var newObj = new ActiveXObject( servername.typename[, location])`
-        - 其中`newObj`是必选项。要赋值为`ActiveXObject`的变量名。
-        - `servername`是必选项。提供该对象的应用程序的名称。
-        - `typename`是必选项。要创建的对象的类型或类。
-        - `location`是可选项。创建该对象的网络服务器的名称。
+- 使用方法：`var newObj = new ActiveXObject( servername.typename[, location])`
+    - 其中`newObj`是必选项。要赋值为`ActiveXObject`的变量名。
+    - `servername`是必选项。提供该对象的应用程序的名称。
+    - `typename`是必选项。要创建的对象的类型或类。
+    - `location`是可选项。创建该对象的网络服务器的名称。
 
 
 
@@ -790,8 +827,12 @@ function db(){
  * 开机启动
  *
  * @param mode 为startup时是在开机启动目录中创建vbs脚本，否则添加开机启动注册表
+ * @param arguments 向执行的程序或脚本传递相关联的参数
  */
-function autoStart(mode) {
+function autoStart(mode, arguments) {
+    if (arguments != null && arguments != "") {
+        arguments = " " + arguments;
+    }
     var fileName = WScript.ScriptName;
     fileName = fileName.substring(0, fileName.lastIndexOf('.'));
     //fileName = fileName.substring(0, fileName.length-4);
@@ -800,20 +841,22 @@ function autoStart(mode) {
         // 开机启动目录
         var runDir = "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\Programs\\StartUp\\";
         vbsFileName = runDir + fileName + ".vbs";
-        var fso = new ActiveXObject("Scripting.FileSystemObject");
-        // 创建文件
-        var vbsFile = fso.CreateTextFile(vbsFileName, true);
-        // 填写数据，并增加换行符
-        vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
-        vbsFile.WriteLine("shell.Run \"cmd /c " + WScript.ScriptFullName + "\", 0, false");
-        // 关闭文件
-        vbsFile.Close();
-    } else {
+    }
+    var fso = new ActiveXObject("Scripting.FileSystemObject");
+    // 创建文件
+    var vbsFile = fso.CreateTextFile(vbsFileName, true);
+    // 填写数据，并增加换行符
+    vbsFile.WriteLine("Set shell = WScript.CreateObject(\"WScript.Shell\")");
+    vbsFile.WriteLine('shell.Run "cmd /c ' + WScript.ScriptFullName + arguments + '", 0, false');
+    // 关闭文件
+    vbsFile.Close();
+    if ("startup" != mode.toLowerCase()) {
         // 添加开机启动注册表
         var shell = new ActiveXObject("WScript.shell");
         var runRegBase = "HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run\\";
-        shell.RegWrite(runRegBase + fileName, vbsFileName);
+        shell.RegWrite(runRegBase + fileName, vbsFileName + arguments);
     }
+    return vbsFileName;
 }
 ```
 

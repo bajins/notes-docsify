@@ -1,19 +1,16 @@
-# JDK
+# JDK安装配置
 
 
 [[toc]]
 
 
 
-## flag
+## Flag
 
 * [https://www.ej-technologies.com](https://www.ej-technologies.com)
 * [https://github.com/oracle/graal](https://github.com/oracle/graal)
-* [http://jdk.java.net/zgc/](http://jdk.java.net/zgc/)
-* [https://wiki.openjdk.java.net/display/zgc/Main](https://wiki.openjdk.java.net/display/zgc/Main)
 * [http://openjdk.java.net/jeps/333](http://openjdk.java.net/jeps/333)
 
-![](/images/jvm参数统计.png)
 
 
 
@@ -27,13 +24,22 @@
 * [https://github.com/corretto](https://github.com/corretto)
     * [https://aws.amazon.com/cn/corretto](https://aws.amazon.com/cn/corretto)
 * [https://github.com/zulu-openjdk](https://github.com/zulu-openjdk)
-    * [https://cn.azul.com/downloads/zulu](https://cn.azul.com/downloads/zulu)
+    * [https://www.azul.com/downloads/zulu](https://cn.azul.com/downloads/zulu)
     * [https://cdn.azul.com/zulu/bin](https://cdn.azul.com/zulu/bin)
+* [https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
 * [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
 * [https://github.com/SAP/SapMachine](https://github.com/SAP/SapMachine)
+    * [https://sap.github.io/SapMachine](https://sap.github.io/SapMachine)
+* [https://github.com/bell-sw](https://github.com/bell-sw)
+    * [https://bell-sw.com/java](https://bell-sw.com/java)
+* [https://github.com/sdkman](https://github.com/sdkman)
+    * [https://sdkman.io](https://sdkman.io)
+* [https://github.com/ScoopInstaller/Java](https://github.com/ScoopInstaller/Java)
 * [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
+* [https://developer.ibm.com/javasdk/downloads](https://developer.ibm.com/javasdk/downloads)
 
-
++ [https://github.com/oracle/graal](https://github.com/oracle/graal)
+    + [https://www.graalvm.org](https://www.graalvm.org)
 
 
 
@@ -111,6 +117,25 @@
 
 ## JVM
 
++ [https://github.com/topics/jvm](https://github.com/topics/jvm)
++ [有关Java HotSpot VM的常见问题](https://www.oracle.com/java/technologies/hotspotfaq.html)
++ [JVM的那些常用参数以及命令](https://segmentfault.com/a/1190000020656202)
+
+* [http://jdk.java.net/zgc/](http://jdk.java.net/zgc/)
+* [https://wiki.openjdk.java.net/display/zgc/Main](https://wiki.openjdk.java.net/display/zgc/Main)
+* [G1垃圾收集器入门](https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html)
+* [Java平台，标准版HotSpot虚拟机垃圾收集调优指南](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/introduction.html)
+* [Java HotSpot VM选项 - 仅适用于JDK 7和早期版本](https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html)
+* [Java SE 6 HotSpot 虚拟机垃圾收集优化](https://www.oracle.com/java/technologies/javase/gc-tuning-6.html)
+
+- JVM配置工具 [https://render.alipay.com/p/s/jvm-generate/JvmGenerate](https://render.alipay.com/p/s/jvm-generate/JvmGenerate)
+- [http://jvmmemory.com](http://jvmmemory.com)
+- [https://console.perfma.com](https://console.perfma.com)
+
+
+![](/images/jvm参数统计.png)
+
+
 > 因为Tomcat运行在JAVA虚拟机之上,适当调整运行JVM参数可以提升整体性能。
 
 - Windows：修改`bin/catalina.bat`文件，文件中有注释说明
@@ -186,6 +211,68 @@ JAVA_OPTS="
 -XX:+PrintTenuringDistribution
 -XX:+PrintHeapAtGC
 "
+```
+
+
+
+## CentOS安装JDK
+
+**查看已安装**
+
+```bash
+rpm -qa | grep java
+```
+
+**卸载JDK**
+
+```bash
+rpm -e --nodeps 查出来的名称
+```
+
+**查看JDK软件包列表**
+
+```bash
+yum -y list java*
+# 或者
+yum search java | grep -i --color JDK
+```
+
+**yum安装JDK**
+
+```bash
+yum -y install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
+```
+
+> 通过yum默认安装的路径为`/usr/lib/jvm`
+
+**配置环境变量**
+
+- 在`/etc/profile`文件中加入
+
+```bash
+########## jdk  environment ######################
+export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.8.el7_5.x86_64
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin
+########## jdk  environment ######################
+```
+
+- 刷新环境变量文件
+
+```bash
+source /etc/profile
+```
+
+- 查看变量是否生效
+
+```bash
+echo $JAVA_HOME && echo $CLASSPATH
+```
+
+**查看Java版本信息**
+
+```bash
+java -version
 ```
 
 

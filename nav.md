@@ -2,11 +2,11 @@
 
 * [Go](/Go/README.md)
 
-  * [Go使用](/Go/Go使用.md)
-
   * [Go操作Windows](/Go/Go操作Windows.md)
 
   * [Go爬虫](/Go/Go爬虫.md)
+
+  * [Go笔记](/Go/Go笔记.md)
 
   * [Go编译打包](/Go/Go编译打包.md)
 
@@ -18,15 +18,19 @@
 
   * [Eclipse](/IDE/Eclipse.md)
 
-  * [Git](/IDE/Git.md)
+  * [Git使用](/IDE/Git使用.md)
 
-  * [GitWebHook](/IDE/GitWebHook.md)
+  * [Git安装与问题](/IDE/Git安装与问题.md)
 
-  * [IDEA使用和插件](/IDE/IDEA使用和插件.md)
+  * [Git服务](/IDE/Git服务.md)
+
+  * [IDEA使用](/IDE/IDEA使用.md)
+
+  * [IDEA插件](/IDE/IDEA插件.md)
 
   * [IDEA设置](/IDE/IDEA设置.md)
 
-  * [SublimeText](/IDE/SublimeText.md)
+  * [TextEditor](/IDE/TextEditor.md)
 
   * [VisualStudioCode](/IDE/VisualStudioCode.md)
 
@@ -34,7 +38,7 @@
 
   * [Annotation](/Java/Annotation.md)
 
-  * [JDK](/Java/JDK.md)
+  * [JDK安装配置](/Java/JDK安装配置.md)
 
   * [JDK工具](/Java/JDK工具.md)
 
@@ -50,21 +54,23 @@
 
 * [Other](/Other/README.md)
 
-  * [API](/Other/API.md)
-
   * [Bookmarks](/Other/Bookmarks.md)
 
   * [Markdown](/Other/Markdown.md)
 
-  * [Mobile技术](/Other/Mobile技术.md)
+  * [MobileNative](/Other/MobileNative.md)
 
   * [Windows软件](/Other/Windows软件.md)
 
+  * [各个网站API](/Other/各个网站API.md)
+
   * [小说项目](/Other/小说项目.md)
 
-  * [技术概念规范](/Other/技术概念规范.md)
+  * [技术概念](/Other/技术概念.md)
 
-  * [正则表达式](/Other/正则表达式.md)
+  * [编程规范](/Other/编程规范.md)
+
+  * [表达式和编码](/Other/表达式和编码.md)
 
 * [SQL](/SQL/README.md)
 
@@ -76,11 +82,11 @@
 
   * [MySQL存储过程](/SQL/MySQL存储过程.md)
 
+  * [MySQL安装配置](/SQL/MySQL安装配置.md)
+
   * [MySQL常见问题](/SQL/MySQL常见问题.md)
 
   * [MySQL笔记](/SQL/MySQL笔记.md)
-
-  * [MySQL配置](/SQL/MySQL配置.md)
 
   * [mysql-udf安装](/SQL/mysql-udf安装.md)
 
@@ -92,13 +98,13 @@
 
   * [PythonGUI](/Shell/PythonGUI.md)
 
-  * [PythonIO](/Shell/PythonIO.md)
-
   * [Python爬虫](/Shell/Python爬虫.md)
 
-  * [Shell命令](/Shell/Shell命令.md)
+  * [Python笔记](/Shell/Python笔记.md)
 
-  * [Shell脚本](/Shell/Shell脚本.md)
+  * [ShellScript](/Shell/ShellScript.md)
+
+  * [Shell命令](/Shell/Shell命令.md)
 
   * [WindowsBatch](/Shell/WindowsBatch.md)
 
@@ -106,15 +112,17 @@
 
   * [WindowsScript](/Shell/WindowsScript.md)
 
+  * [WindowsVBScript](/Shell/WindowsVBScript.md)
+
 * [System](/System/README.md)
 
   * [CentOS](/System/CentOS.md)
 
-  * [CentOS安装软件](/System/CentOS安装软件.md)
-
   * [Docker](/System/Docker.md)
 
   * [Linux操作](/System/Linux操作.md)
+
+  * [Linux配置](/System/Linux配置.md)
 
   * [内网穿透](/System/内网穿透.md)
 
@@ -132,8 +140,8 @@
 
   * [JavaScript](/Web/JavaScript.md)
 
+  * [JavaScript笔记](/Web/JavaScript笔记.md)
+
   * [Nginx](/Web/Nginx.md)
 
   * [NodeJS](/Web/NodeJS.md)
-
-  * [小程序](/Web/小程序.md)

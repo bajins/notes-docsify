@@ -6,15 +6,31 @@
 
 
 
-## flag
+## Flag
 
 **更多软件见：[https://gd.bajins.com](https://gd.bajins.com)**
 
++ [Windows 10 有哪些值得推荐的必装软件？](https://www.zhihu.com/question/35088093)
 
 * [https://git.io](https://git.io)
 * [http://potato.manre.me](http://potato.manre.me)
 * [https://signal.org](https://signal.org)
 * [https://trello.com](https://trello.com)
+* [https://discord.com](https://discord.com)
+
+- [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
+
+
+**[Windows系统相关](/System/README.md#windows)**
+
+**浏览器**
+
++ [https://browsehappy.com](https://browsehappy.com)
+
+* [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
+    * [Chrome下载/插件/DevTools/账号迁移](/IDE/Chrome.md)
+* [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
+* [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
 
 
 **博客**
@@ -51,6 +67,8 @@
 * [http://luxiaoneng.com](http://luxiaoneng.com/category/%e5%b7%a5%e5%85%b7%e5%8c%85)
 * [https://www.zrbk.xyz](https://www.zrbk.xyz)
 * [http://yx.bsh.me](http://yx.bsh.me)
+* [耗子爱吃草](http://www.haozi666.com)
+* [苦瓜甘甜](http://www.kuguagantian.com)
 
 
 **论坛**
@@ -98,37 +116,8 @@
 * [http://lao4g.com](http://lao4g.com)
 * [https://www.haorenka.org](https://www.haorenka.org)
 
-
-**Android**
-
-+ [http://www.sharerw.com](http://www.sharerw.com)
-+ [https://htcui.com](https://htcui.com)
-+ [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
-+ [Balatan](https://forum.release-apk.com/search.php?author_id=49&sr=topics&sf=firstpost)
-+ [https://patch.chelpus.com](https://patch.chelpus.com)
-+ [手机软件下载-智友邦原智友论坛](http://bbs.zhiyoo.net/forum.php?mod=forumdisplay&fid=42&filter=lastpost&orderby=lastpost)
-+ 各大网站的脚本 [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
-+ [酷我音乐精品破解版本集合地](https://www.lanzoux.com/b05aammje)
-    + [酷我音乐_for_Android](https://www.lanzoux.com/b0f1956fc)
-+ [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
-
-
-
-## 浏览器
-
-* [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
-* [https://www.microsoft.com/en-us/edge](https://www.microsoft.com/en-us/edge)
-
-> 以管理员身份运行Microsoft Edge时不支持登录。请以非管理员身份重新启动Microsoft Edge的解决办法：
-> <kbd>Win</kbd> + <kbd>R</kbd>输入并运行`regedit` -> 地址栏输入
-> `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System` -> 
-> 找到`EnableLUA` 这一项，修改数值为`1`，保存并重启
-                                                                                        
-> 如果`EnableLUA`这项的数值本来就是`1`，改了无效的解决方法：<kbd>Win</kbd> + <kbd>R</kbd> 输入并运行 `gpedit.msc` –> 
-> `计算机配置` –> `windows设置` –> `安全设置` –> `本地策略` –> `安全选项` –> `用户帐户控制：用于内置管理员帐户的管理员批准模式` –> 
-> `启用` –> `重启电脑`
-
-* [https://www.firefox.com.cn](https://www.firefox.com.cn)
+- [https://feem.io](https://feem.io)
+- ShareMe
 
 
 ## 下载器
@@ -143,6 +132,7 @@
     * [https://xdown.org](https://xdown.org)
 * [https://github.com/subhra74/xdm](https://github.com/subhra74/xdm)
 * [http://www.neatdownloadmanager.com](http://www.neatdownloadmanager.com)
+    * [Neat Download Manager v1.1 汉化版单文件](https://www.lanzoux.com/ic7ky6j)
 * Internet Download Manager [http://www.internetdownloadmanager.com](http://www.internetdownloadmanager.com)
     * [https://eyun.baidu.com/s/3miwISp6](https://eyun.baidu.com/s/3miwISp6)密码：3131
     * [https://www.lanzous.com/b134572](https://www.lanzous.com/b134572)
@@ -214,6 +204,7 @@
     * [https://www.lanzous.com/b073c7g4f](https://www.lanzous.com/b073c7g4f)
 * [uTorrent／qBittorrent／BitComet](https://www.lanzous.com/b0f1awgqb)
 * [https://github.com/webtorrent](https://github.com/webtorrent)
+* [https://github.com/arvidn/libtorrent](https://github.com/arvidn/libtorrent)
 
 
 **BT-Trackers**
@@ -243,6 +234,7 @@
 * [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
 * [https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
 * [https://github.com/boypt/simple-torrent](https://github.com/boypt/simple-torrent)
+* [http://lightzhan.xyz/index.php/qdown](http://lightzhan.xyz/index.php/qdown)
 
 
 ### 迅雷
@@ -271,6 +263,7 @@
 * [https://yixun.writeas.com/yi-xun](https://yixun.writeas.com/yi-xun)
 * [https://github.com/VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP)
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
+* http://pan.naifei.cc/?
 
 
 ### 蓝奏云
@@ -284,14 +277,25 @@
 
 ## 播放器
 
++ [https://github.com/topics/playlist](https://github.com/topics/playlist)
++ [https://github.com/topics/iptv](https://github.com/topics/iptv)
++ [https://github.com/topics/m3u](https://github.com/topics/m3u)
++ [https://github.com/iptv-org](https://github.com/iptv-org)
+
+- [https://github.com/FFmpeg/FFmpeg](https://github.com/FFmpeg/FFmpeg)
+
 * [foobar2000](http://blog.sina.com.cn/go2spa)
 * [https://github.com/lyswhut/lx-music-desktop](https://github.com/lyswhut/lx-music-desktop)
 * [https://github.com/mpv-player/mpv](https://github.com/mpv-player/mpv)
+* [https://github.com/xbmc](https://github.com/xbmc)
 * powerDVD
 * MPC-BE
-* MPC-HC
+* [https://github.com/clsid2/mpc-hc](https://github.com/clsid2/mpc-hc)
 * Kmplayer
-* VLC
+* VLC [https://www.videolan.org](https://www.videolan.org)
+* [https://www.getmusicbee.com](https://www.getmusicbee.com)
+
+- [https://github.com/soimort/you-get](https://github.com/soimort/you-get)
 
 
 **Potplayer**
@@ -301,15 +305,19 @@
 * [Public Version 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Version/Latest/PotPlayerSetup64.exe)
 * [Developer Version 32-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup.exe)
 * [Developer Version 64-bit](http://t1.daumcdn.net/potplayer/beta/PotPlayerSetup64.exe)
-* [OpenCodec(额外解码包)32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe)
-* [OpenCodec(额外解码包)64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe)
-* [FFmpegMininum.dll 32-bit](https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll)
-* [FFmpegMininum.dll 64-bit](https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll)
+* [解码组件包（Open Codec）只要提取HEVC(H265)解码器(FFmpeg.dll) 32-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup.exe)
+* [解码组件包（Open Codec）只要提取HEVC(H265)解码器(FFmpeg.dll) 64-bit](https://t1.daumcdn.net/potplayer/PotPlayer/Codec/OpenCodecSetup64.exe)
+* [DTS音频解码器（FFmpegMininum.dll） 32-bit](https://get.daum.net/PotPlayer/v4/Module/FFmpeg/FFmpegMininum.dll)
+* [DTS音频解码器（FFmpegMininum.dll） 64-bit](https://get.daum.net/PotPlayer64/v4/Module/FFmpeg/FFmpegMininum64.dll)
 
 > 以上是官网下载地址，将`DNS`改为`8.8.8.8`就可以顺利下载了，若为默认的自动模式（国内DNS）则无法下载。或者使用迅雷下载
 
 * [http://daumpotplayer.com/download](http://daumpotplayer.com/download)
 * [https://www.lanzous.com/b112173](https://www.lanzous.com/b112173)
+* [https://www.lanzoux.com/b0i38vsd](https://www.lanzoux.com/b0i38vsd)
+* [https://www.lanzoux.com/b0f1k59qh](https://www.lanzoux.com/b0f1k59qh)
+* [https://cloud.189.cn/t/AZnUVj3iMjUr](https://cloud.189.cn/t/AZnUVj3iMjUr)
+
 
 
 
@@ -318,6 +326,16 @@
 * [Google开发的图片压缩工具](https://github.com/GoogleChromeLabs/squoosh)
 * [https://github.com/netnr/squoosh](https://github.com/netnr/squoosh)
 * 一个用于快速上传图片并获取图片URL链接的工具 [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
+* [https://www.polaxiong.com](https://www.polaxiong.com)
+* [https://icons8.cn/lunacy](https://icons8.cn/lunacy)
+* [https://www.microsoft.com/design/fluent](https://www.microsoft.com/design/fluent)
+* [https://www.xnview.com](https://www.xnview.com)
+* [https://www.getpaint.net](https://www.getpaint.net)
+* [https://www.gimp.org](https://www.gimp.org)
+
+- [https://affinity.serif.com](https://affinity.serif.com)
+- [https://eagle.cool](https://eagle.cool)
+- [https://www.hellofont.cn](https://www.hellofont.cn)
 
 
 ### Gif软件
@@ -344,9 +362,12 @@
 
 ### 截图
 
-* [https://github.com/ShareX/ShareX](https://github.com/ShareX/ShareX)
++ [https://github.com/topics/screen-capture](https://github.com/topics/screen-capture)
+
+* [https://github.com/ShareX](https://github.com/ShareX)
 * Lightshot [https://app.prntscr.com](https://app.prntscr.com)
-* [https://www.snipaste.com](https://www.snipaste.com)
+* [https://github.com/Snipaste](https://github.com/Snipaste)
+    * [https://www.snipaste.com](https://www.snipaste.com)
 * [https://picpick.app/zh/download](https://picpick.app/zh/download)
 
 
@@ -391,7 +412,7 @@
 
 * [https://sourceforge.net/projects/sevenzip](https://sourceforge.net/projects/sevenzip)
     * [https://www.7-zip.org/download.html](https://www.7-zip.org/download.html)
-    * 打开7zip ——> 点击菜单栏上的`工具` ——> `选项` ——> 点击两个`+`号关联所有默认解压方式到当前账户和所有账户
+    * 打开7zip -> 点击菜单栏上的`工具` -> `选项` -> 点击两个`+`号关联所有默认解压方式到当前账户和所有账户
 * [https://github.com/giorgiotani/PeaZip](https://github.com/giorgiotani/PeaZip)
     * [https://sourceforge.net/projects/peazip](https://sourceforge.net/projects/peazip)
 * [https://github.com/nmoinvaz/minizip](https://github.com/nmoinvaz/minizip)
@@ -399,6 +420,11 @@
 
 
 ## 程序打包
+
++ [https://github.com/topics/installer](https://github.com/topics/installer)
+* [https://github.com/topics/packager](https://github.com/topics/packager)
++ [https://github.com/topics/msi](https://github.com/topics/msi)
++ [https://github.com/topics/exe](https://github.com/topics/exe)
 
 * [单文件制作程序byJexChan](http://blog.sina.com.cn/s/blog_6fd804fe0102wwwf.html)
     * JexChan工具 [https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g](https://pan.baidu.com/s/1hLxaoZWsYyB6RSjgjciT1g) 提取码s1dk
@@ -411,6 +437,7 @@
     * [UPXShell汉化版](http://blog.sina.com.cn/s/blog_89a729a40102wjwo.html)
 * [https://jrsoftware.org](https://jrsoftware.org)
     * [InnoSetup中文定制版](http://blog.sina.com.cn/s/blog_89a729a40102xuy4.html)
+    * [https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation)
 
 
 ### AutoIt
@@ -422,12 +449,18 @@
 
 ### NSIS
 
++ [https://github.com/topics/nsis](https://github.com/topics/nsis)
+
 * [https://sourceforge.net/projects/nsis](https://sourceforge.net/projects/nsis)
-* [https://nsis.sourceforge.io/Category:Plugins](https://nsis.sourceforge.io/Category:Plugins)
-* [NSIS中文论坛](http://www.nsisfans.com)
+    * [https://nsis.sourceforge.io/Category:Plugins](https://nsis.sourceforge.io/Category:Plugins)
+    * [https://github.com/NSIS-Dev](https://github.com/NSIS-Dev)
+    * NSIS中文论坛 [http://www.nsisfans.com](http://www.nsisfans.com)
 * [https://sourceforge.net/projects/hmne](https://sourceforge.net/projects/hmne)
-* [http://hmne.sourceforge.net](http://hmne.sourceforge.net)
-* 基于NSIS工具自定义XML漂亮UI打包工具：[https://github.com/woytu/NSIS_SetupSkin](https://github.com/woytu/NSIS_SetupSkin)
+    * [http://hmne.sourceforge.net](http://hmne.sourceforge.net)
+* 基于NSIS工具自定义XML漂亮UI打包工具 [https://github.com/woytu/NSIS_SetupSkin](https://github.com/woytu/NSIS_SetupSkin)
+
+- 内置NSIS命令自动完成 [https://github.com/idleberg/sublime-nsis](https://github.com/idleberg/sublime-nsis)
+
 
 
 ### 自解压
@@ -445,13 +478,12 @@
 * [https://github.com/apache/openoffice](https://github.com/apache/openoffice)
 * [https://zh-cn.libreoffice.org](https://zh-cn.libreoffice.org)
 * [https://github.com/YerongAI/Office-Tool](https://github.com/YerongAI/Office-Tool)
-
-- [https://office.live.com/start/onedrive.aspx](https://office.live.com/start/onedrive.aspx)
-- [https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download](https://www.microsoft.com/zh-cn/microsoft-365/onedrive/download)
+    * [https://otp.landian.vip](https://otp.landian.vip)
 
 + Office 卸载支持工具 [https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe](https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe)
 + [手动卸载 Office](https://support.microsoft.com/zh-cn/office/%E6%89%8B%E5%8A%A8%E5%8D%B8%E8%BD%BD-office-4e2904ea-25c8-4544-99ee-17696bb3027b)
 
+* PDF阅览器 [https://fsfe.org/pdfreaders/pdfreaders.zh.html](https://fsfe.org/pdfreaders/pdfreaders.zh.html)
 
 
 ### wps
@@ -484,183 +516,8 @@ R7AKQ-KLBXV-RNX3F-BPACQ-NQDGE （该序列号来自石家庄人社局）
 THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 ```
 
-<details><summary><strong style="font-size:160%;">点击查看</strong></summary>
 
-- 匹配单元格左边英文及其他字符=RegexString(A1,"[^\u4e00-\u9fa5]+")
-- 匹配单元格右边中文及其他字符=RegexString(A1,"[\u4e00-\u9fa5].*")
-
-```visual-basic
-Function RegexString(rng As Range, str As String)
-'第一个参数rng为区域保持不变， 添加第二个参数str（作为正则表达式）
-  With CreateObject("VBscript.regexp")
-    .Global = True
-    .Pattern = str '表达式,直接从用户函数的第二个参数中调用
-    If .Execute(rng).Count = 0 Then
-    RegexString = ""
-    Else
-    RegexString = .Execute(rng)(0)
-    End If
-  End With
-End Function
-```
-
-
-```visual-basic
-'https://blog.csdn.net/wordsin/article/details/80575615
-'自定义函数用于工作表时，必须是被动式的，只是返回一个值，不能处理单元格或在工作表上修改，批注是个例外，不能调用range的方法，如：Find，Range.Replace例外
-Function ReSplit(rng As Range)
-    Dim newStr As String
-    Dim countNum As Integer
-    
-    old = Strings.Split(rng, " ")
-    For Each e In old
-        If e <> "" Then
-            'MsgBox TypeName(e)
-            'Replace(, "/", "")
-            With CreateObject("VBSCRIPT.REGEXP")
-                .Global = True
-                .IgnoreCase = True
-                .Pattern = "([a-zA-Z]+)([0-9]+)-([0-9]+)"
-                If .test(e) Then
-                    '执行正则表达式，获取子匹配列表
-                    Set da = .Execute(e)(0).SubMatches
-                    last = da(0)
-                    st = da(1)
-                    en = da(2)
-                    'Debug.Print last, st, en
-                    For i = st To en
-                        newStr = newStr & "," & last & i
-                        countNum = countNum + 1
-                    Next
-                Else
-                    newStr = newStr & "," & e
-                    countNum = countNum + 1
-                End If
-            End With
-        End If
-    Next
-    If InStr(newStr, ",") Then
-        newStr = Right(newStr, Len(newStr) - 1)
-    End If
-    Debug.Print newStr
-    Debug.Print countNum
-    
-    ReSplit = newStr
-    
-    'ActiveCell.Address '这是当前单元格地址
-    'Selection.Offset(1, 0).Select '这是向下跳1格
-    'Selection.Offset(-1, 0).Select '这是向上跳1格
-    'Selection.Offset(0, -1).Select '这是向左跳1格
-    'Selection.Offset(0, 1).Select '这是向右跳1格
-
-End Function
-
-
-Function SplitCount(rng As Range, delimiter As String)
-   SplitCount = Len(Strings.Split(rng, delimiter))
-End Function
-
-Sub SetValue(offset As Range, value)
-    offset = value
-End Sub
-
-
-Sub run()
-    Set rng = Application.InputBox(prompt:="请选择区域", Type:=8)
-    If rng.Count = 0 Then
-        MsgBox "请至少选择一个单元格！", , "提示":
-        Exit Sub
-    End If
-    'If rng.Count <> 1 Then
-        'MsgBox "只能选择一个单元格！", , "提示":
-        'Exit Sub
-    'End If
-    Debug.Print "当前选择：", rng.Address(1, 1)
-    
-    rngs = Strings.Split(rng.Address(1, 1), ":")
-    st = Strings.Split(rngs(0), "$")(1)
-    sta = Replace(rngs(0), "$", "")
-    'Debug.Print rngs(0), st, sta
-    
-    of1Content = "整理后的数据"
-    of2Content = "整理后的统计"
-    If Range(st & "1").offset(0, 1) <> of1Content Then
-        '插入空列
-        Range(sta).offset(0, 1).EntireColumn.Insert
-        Range(st & "1").offset(0, 1) = of1Content
-    End If
-    If Range(st & "1").offset(0, 2) <> of2Content Then
-        Range(sta).offset(0, 2).EntireColumn.Insert
-        Range(st & "1").offset(0, 2) = of2Content
-    End If
-    
-    For Each im In rng
-        
-        If im <> "" Then
-            'Debug.Print TypeName(im), im.Address
-            
-            str1 = ReSplit(Range(Replace(im.Address, "$", "")))
-            im.offset(0, 1) = str1
-            im.offset(0, 2) = Application.CountA(Strings.Split(str1, ","))
-        End If
-    Next
-End Sub
-```
-
-</details>
-
-
-
-## 系统相关
-
-> 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
-
-> 当分区后应该设置主分区为活动分区（选中该主分区右键选择激活分区）
-
-> win10删除此电脑中六个文件夹：按<kbd>Win</kbd> + <kbd>r</kbd>输入`regedit`进入注册表编辑器，输入并删除其中带`{}`的
-> `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace`
-
-
-* [比较 Windows 10 的不同版本](https://www.microsoft.com/zh-cn/windowsforbusiness/compare)
-* [Windows 10 版本的版本信息](https://docs.microsoft.com/zh-cn/windows/release-information)
-
-
-### MSDN
-
-* [https://www.microsoft.com/zh-cn/software-download/windows10](https://www.microsoft.com/zh-cn/software-download/windows10)
-* [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
-* [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
-* [http://www.imsdn.cn](http://www.imsdn.cn)
-* [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
-* [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
-* [https://uupdump.ml](https://uupdump.ml)
-* [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
-
-
-### 绿色精简
-
-* [WINOS ](https://www.winos.me)
-* [绿色系统](http://lvsexitong.com)
-* [网吧系统](http://down.lansedongli.com)
-* [twm000-导航页被定制可修改](http://twm000.top)
-* [Y-OS工作室-导航页被定制可修改](http://y-os.net)
-* [十二星座-导航页被定制可修改](http://www.12xzzx.com)
-* [https://icura.lofter.com](https://icura.lofter.com)
-    * [OneDrive](https://tpedutw-my.sharepoint.com/:f:/g/personal/icura_tp_edu_tw/Ek5lPsUrc_ZJqSDKi7oxsdoBNjbbncnvi8p-90jI0OqUVA)
-
-
-
-### WinPE
-
-* [微PE](http://www.wepe.com.cn)
-* [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1)
-* [光卡自己的 PE 项目](https://hikaricalyx.com)
-* [优启时代](http://www.uqi.me/catalog.asp?cate=1)
-
-
-
-
-### 开始菜单
+## 开始菜单
 
 * [https://github.com/coddec/Classic-Shell](https://github.com/coddec/Classic-Shell)
 * [https://github.com/microsoft/PowerToys](https://github.com/microsoft/PowerToys)
@@ -671,14 +528,13 @@ End Sub
 1. [https://www.lanzous.com/b279570](https://www.lanzous.com/b279570)
 
 
-### 清理工具
+## 清理工具
 
-* [Win10Clean](https://github.com/ElPumpo/Win10Clean)
+* Win10Clean [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
 * Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
-* 卸载Windows10自带应用 [10AppsManager](https://www.thewindowsclub.com/10appsmanager-windows-10)
-* [W10Privacy](https://www.winprivacy.de/deutsch-start/download)
-* [PCHunter](http://www.xuetr.com)
-* [Windows 10 Manager](https://www.yamicsoft.com/cn)
+* W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)
+* PCHunter [http://www.xuetr.com](http://www.xuetr.com)
+* Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
     * `WMXD7-RG8FP-OYKS3-KHTN6`
 * [https://www.crystalidea.com/uninstall-tool](https://www.crystalidea.com/uninstall-tool)
 * [UninstallTool／Geek／IObitUninstaller／RevoUninstalle](https://lanzous.com/b0f19v03a)
@@ -687,6 +543,27 @@ End Sub
 * Registry Finder
 * [http://www.hibitsoft.ir](http://www.hibitsoft.ir)
 * Windows Install Clean Up  安装后在安装目录找到`msicuu.exe`运行，然后选中程序点击`remove`
+* 卸载残余清理 [https://github.com/geekuninstaller/translations](https://github.com/geekuninstaller/translations)
+    * [https://geekuninstaller.com](https://geekuninstaller.com)
+* [https://www.ccleaner.com](https://www.ccleaner.com)
+
+
+**卸载自带应用**
+
++ [Search · install_wim_tweak](https://github.com/search?o=desc&q=install_wim_tweak&s=indexed&type=Code)
+
+* 卸载Windows10自带应用10AppsManager [https://www.thewindowsclub.com/10appsmanager-windows-10](https://www.thewindowsclub.com/10appsmanager-windows-10)
+* [https://github.com/DiChaoWu/Optimize-Windows-10](https://github.com/DiChaoWu/Optimize-Windows-10)
+* [https://github.com/L33Tech/Windows10Tools](https://github.com/L33Tech/Windows10Tools)
+* [https://github.com/myrtus0x0/Pastebin-Scraping-Results](https://github.com/myrtus0x0/Pastebin-Scraping-Results)
+* [https://github.com/simeononsecurity/SAPS](https://github.com/simeononsecurity/SAPS)
+* [https://github.com/kyau/win10tweak](https://github.com/kyau/win10tweak)
+* [https://github.com/wangzy12306/win10](https://github.com/wangzy12306/win10)
+* [https://github.com/Daksh777/windows10-debloat](https://github.com/Daksh777/windows10-debloat)
+* [https://github.com/DirtCaps/CapsTweakerSystem](https://github.com/DirtCaps/CapsTweakerSystem)
+* [https://github.com/kampusbiner/windefenderremoval](https://github.com/kampusbiner/windefenderremoval)
+* [https://github.com/pluswait/workPCT](https://github.com/pluswait/workPCT)
+* [https://github.com/builtbybel/debotnet](https://github.com/builtbybel/debotnet)
 
 
 
@@ -697,7 +574,7 @@ End Sub
 * [https://www.clipboardfusion.com](https://www.clipboardfusion.com)
 * [https://clipber.com](https://clipber.com)
 * [https://ditto-cp.sourceforge.io](https://ditto-cp.sourceforge.io)
-* [http://ditto-cp.sourceforge.net](http://ditto-cp.sourceforge.net)
+    * [http://ditto-cp.sourceforge.net](http://ditto-cp.sourceforge.net)
 * [https://www.nakka.com/soft/clcl/index_eng.html](https://www.nakka.com/soft/clcl/index_eng.html)
 * [https://github.com/Carson-Shook/Winclipper](https://github.com/Carson-Shook/Winclipper)
 * [https://ccyixia.com](https://ccyixia.com)
@@ -721,177 +598,73 @@ End Sub
 
 
 
-## MS相关激活
-
-> 在PowerShell（也可在CMD）中输入命令运行`slmgr.vbs /dti`，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，
-> 并粘贴到在线获取确认ID网站：[http://webact.185.hk](http://webact.185.hk)
-
-> 使用命令有两种方式：第一种：按<kbd>Win</kbd> + <kbd>x</kbd> + <kbd>a</kbd>进入PowerShell（也可在CMD中）输入命令运行；
-> 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
-
-* 小爱激活助手 [https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA](https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA) 提取码: gia8
-* 密钥检测的小工具 [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
-* https://api.jike.info/ms_pid/密钥
-
-
-**Windows命令**
-
-> 在CMD中输入`slmgr`或`slmgr.exe`即可查看所有命令
-
-- `systeminfo` 系统信息
-- `slui 4` 调出电话激活窗口
-- `slmgr.vbs /ipk 密钥` 安装产品密钥
-- `slmgr.vbs /upk` 卸载密钥
-- `slmgr.vbs /ato` 激活密钥
-- `slmgr.vbs /dti` 显示安装ID
-- `slmgr.vbs /atp 确认ID` 输入确认ID（注意这里的ID没有`-`符号）
-- `slmgr.vbs /dlv` 显示详细的许可证信息
-- `slmgr.vbs /xpr` 当前许可证状态的截止日期
-- `slmgr.vbs /dli [激活 ID | All]` 显示许可证信息（默认：当前许可证）
-- `slmgr.vbs /dlv [激活 ID | All]` 显示详细的许可证信息
-- `slmgr.vbs /cpky` 从注册表中清除产品密钥（阻止泄露引起的攻击）
-- `slmgr.vbs /ilc` 许可证文件 安装许可证
-- `slmgr.vbs /rilc` 重新安装系统许可证文件
-- `slmgr.vbs /rearm` 重置计算机的授权状态 （去除水印）
-- `slmgr.vbs /skms` 设置KMS服务器
-- `slmgr.vbs /ckms` 清除KMS服务器名和端口号并设为初始状态
-
-
-**Office命令**
-
-> 在PowerShell（也可在CMD）中输入命令运行并切换到office安装目录
-> `cd "C:\Program Files (x86)\Microsoft Office\Office16"`，如果安装的64位去掉` (x86)`
-
-- `cscript ospp.vbs /inpkey:密钥` 安装产品密钥
-- `cscript ospp.vbs /unpkey:密钥最后五位` 卸载密钥
-- `cscript ospp.vbs /dinstid` 显示安装ID
-- `cscript ospp.vbs /actcid:确认ID` 输入确认ID（注意这里的ID没有`-`符号）
-- `cscript ospp.vbs /act` 在线激活
-- `cscript ospp.vbs /dstatus` 验证激活
-
-
-**错误代码**
-
-- `0xC004C008` 是零售版可以电话激活、网页激活
-- `0xC004C020` 是批量版可以电话激活、运气好可以网页激活
-- `0xC004C060` 已失效
-- `0xC004C003` 已失效
-- `0x80072EE2` 因网络阻塞导致错误,稍等10分钟再重试
-
-
-**office key**
-
-```
-# OFFICE 2019 专业增强版激活码
-W8W6K-3N7KK-PXB9H-8TD8W-BWTH9
-
-# Office19_RTM19_ProPlus2019VL_MAK_AE
-GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
-N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
-6NCGF-GQQ2F-H83HF-9DWMY-92GTG
-```
-
-
-**Windows Key**
-
-* [https://cherishspring.cn/archives/active-win10-office.html](https://cherishspring.cn/archives/active-win10-office.html)
-* [https://notys.xyz](https://notys.xyz)
-* [https://jihuo.ma/tool](https://jihuo.ma/tool)
-* [http://www.aihao.cc](http://www.aihao.cc)
-* [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
-
-
-**KMS**
-
-* [https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
-
-+ [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
-+ [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
-+ [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
-+ [https://github.com/netnr/kms](https://github.com/netnr/kms)
-
-
-* [可用的 KMS 列表](https://www.coolhub.top/archives/14)
-* [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
-* [人人客-微软产品](https://rrkee.com/microsoft)
-* [03k.orgKMS服务](https://03k.org/kms.html)
-* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
-* [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition)
-* [零散坑KMS服务](https://03k.org/kms.html)
-* [kms.mogeko.me](https://mogeko.me/2019/054)
-* [https://kms.cangshui.net](https://kms.cangshui.net)
-* [https://kms.loli.beer](https://kms.loli.beer)
-* [https://www.moerats.com/kms](https://www.moerats.com/kms)
-* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
-* [https://kms.cangshui.net](https://kms.cangshui.net)
-* [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
-* [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
-
-
-
-**数字激活**
-
-> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
-> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
-
-> 避免在vpn状态下使用本软件。激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
-
-
-
-### Win10家庭升专业
-
-> 注意：Windows10家庭版升级Windows10专业版的密钥不是激活密钥
-
-1. 升级：设置 -> 更新和安全 -> 激活 -> 更改产品秘钥，断网后，填入 下方的升级密钥，重启
-
-```
-4N7JM-CV98F-WY9XX-9D8CF-369TT
-FMPND-XFTD4-67FJC-HDR8C-3YH26
-4N894-WMB2D-PRGHC-BVYW8-CPQGT
-VK7JG-NPHTM-C97JM-9MPGT-3V66T
-W269N-WFGWX-YVC9B-4J6C9-T83GX
-MH37W-N47XK-V7XM9-C7227-GCQG9
-NYW94-47Q7H-7X9TT-W7TXD-JTYPM
-NJ4MX-VQQ7Q-FP3DB-VDGHX-7XM87
-```
-
-2. 联网激活：以管理员打开CMD执行以下命令
-
-```batch
-slmgr.vbs /upk
-slmgr /ipk 激活密钥
-slmgr /skms zh.us.to
-slmgr /ato
-```
-
-
-
-
 ## 邮箱客户端
 
-* Mozilla Thunderbird [https://www.thunderbird.net](https://www.thunderbird.net)
-    - 点击<kbd>附加组件</kbd>搜索扩展`minimize`添加`Minimize on Close`、`Keep in Taskbar`
-    - 托盘图标 [https://github.com/sagamusix/TBTray](https://github.com/sagamusix/TBTray)
-    - 系统托盘新邮件通知 [https://github.com/gyunaev/birdtray](https://github.com/gyunaev/birdtray)
+* [https://github.com/topics/smtp-client](https://github.com/topics/smtp-client)
+* [https://github.com/topics/imap-client](https://github.com/topics/imap-client)
+* [https://github.com/topics/e-mail](https://github.com/topics/e-mail)
+* [https://github.com/topics/mail](https://github.com/topics/e-mail)
+* Mozilla Thunderbird [https://github.com/mozilla-comm](https://github.com/mozilla-comm)
+    * [https://github.com/thundernest](https://github.com/thundernest)
+    * [https://www.thunderbird.net](https://www.thunderbird.net)
 * [https://www.foxmail.com](https://www.foxmail.com)
-* Outlook
-    * 邮箱配置：`控制面板` --> 搜索`邮件`(或者`mail`)
-* Windows 10 自带邮箱
+* [https://mail.163.com/dashi](https://mail.163.com/dashi)
+* [https://sparkmailapp.com](https://sparkmailapp.com)
+* [http://help.cy-email.com](http://help.cy-email.com)
 * The Bat [https://www.ritlabs.com](https://www.ritlabs.com)
+* Outlook 使用时有自动删除邮件的BUG
 
 
 ## other
 
 * [https://www.sandboxie.com](https://www.sandboxie.com)
-* [FFmpeg-视频编辑](https://github.com/FFmpeg/FFmpeg)
+* [傲梅分区助手PartAssist](https://www.lanzoux.com/b0f1etedc)
 * [显示当前网速、CPU及内存利用率的桌面悬浮窗软件](https://github.com/zhongyang219/TrafficMonitor)
 * [http://wenlei.ys168.com](http://wenlei.ys168.com)
-* [简化快捷键](https://szzhiyang.github.io)
-* [火绒安全](https://www.huorong.cn)
+* 简化快捷键 [https://github.com/szzhiyang](https://github.com/szzhiyang)
+    * [https://github.com/PowerKeys](https://github.com/PowerKeys)
+* 火绒安全 [https://www.huorong.cn](https://www.huorong.cn)
+* 监控 [https://www.glasswire.com](https://www.glasswire.com)
+* [https://entropy6.com/xmeters](https://entropy6.com/xmeters)
+* 进程级的系统优化 [https://bitsum.com](https://bitsum.com)
 * [Windows File Recovery](https://www.microsoft.com/zh-cn/p/windows-file-recovery/9n26s50ln705)
+* 启动器 [https://github.com/Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
 * 可视化创建符号链接的小工具 [https://github.com/imDema/FreeMove](https://github.com/imDema/FreeMove)
+* ReNamer 批量重命名 [http://www.den4b.com](http://www.den4b.com)
 * 文件搜索 [https://www.listary.com/pro](https://www.listary.com/pro)
 * 文件搜索 [Everything](https://www.voidtools.com)
 * 文件对比 [https://www.beyondcomparepro.com](https://www.beyondcomparepro.com)
+* 文件资源管理器 [https://www.ghisler.com](https://www.ghisler.com)
+* [https://www.xyplorer.com](https://www.xyplorer.com)
+* [http://www.uderzo.it/main_products/space_sniffer](http://www.uderzo.it/main_products/space_sniffer)
+* [https://www.softwareok.com/?seite=Freeware/Q-Dir](https://www.softwareok.com/?seite=Freeware/Q-Dir)
+* 鼠标手势 [https://github.com/yingDev/WGestures](https://github.com/yingDev/WGestures)
+* 效率工具 [https://github.com/cuiliang/Quicker](https://github.com/cuiliang/Quicker)
+* 加强 Capslock 键 [https://github.com/wo52616111/capslock-plus](https://github.com/wo52616111/capslock-plus)
+* 快速查看 [https://github.com/QL-Win/QuickLook](https://github.com/QL-Win/QuickLook)
+* 黑暗模式 [https://github.com/Armin2208/Windows-Auto-Night-Mode](https://github.com/Armin2208/Windows-Auto-Night-Mode)
+* [EarTrumpet 为每个软件单独设置音量](https://www.microsoft.com/zh-cn/p/eartrumpet/9nblggh516xp)
+* 任务栏透明化 [https://github.com/TranslucentTB](https://github.com/TranslucentTB)
 * 福昕PDF阅读器 [https://eyun.baidu.com/s/3bozPGmV](https://eyun.baidu.com/s/3bozPGmV)密码：3131
-* 微软常用运行库 [https://www.lanzous.com/b143614](https://www.lanzous.com/b143614)
+* 微软常用运行库 [https://github.com/abbodi1406/vcredist](https://github.com/abbodi1406/vcredist)
+    * [https://hub.fastgit.org/abbodi1406/vcredist](https://hub.fastgit.org/abbodi1406/vcredist)
+    * [https://github.wuyanzheshui.workers.dev/abbodi1406/vcredist](https://github.wuyanzheshui.workers.dev/abbodi1406/vcredist)
+    * [https://www.lanzoux.com/b0f1dfasd](https://www.lanzoux.com/b0f1dfasd)
+    * [https://www.lanzous.com/b143614](https://www.lanzous.com/b143614)
+* [https://www.diskinternals.com/download](https://www.diskinternals.com/download)
+    * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
+* [https://github.com/thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
+* 远程控制 [https://www.todesk.com](https://www.todesk.com)
+
+- 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
+    - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
+
+
++ [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)
++ [https://www.0daydown.com](https://www.0daydown.com)
++ [https://downloadly.ir](https://downloadly.ir)
++ [https://repack.me](https://repack.me)
++ [https://lrepacks.ru](https://lrepacks.ru)
++ [https://mac-torrents.io](https://mac-torrents.io)
++ [https://4howcrack.com](https://4howcrack.com)
++ [https://free4pc.org](https://free4pc.org)

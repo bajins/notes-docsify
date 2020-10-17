@@ -6,19 +6,35 @@
 
 
 
-## flag
+## Flag
 
-* [css](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
-* [CSS3/CSS2/CSS 教程](http://www.w3chtml.com/css3)
-* [HTML系列教程](https://www.w3school.com.cn/h.asp)
+* [https://drafts.csswg.org/css-cascade](https://drafts.csswg.org/css-cascade)
+* [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
+* CSS3/CSS2/CSS 教程 [http://www.w3chtml.com/css3](http://www.w3chtml.com/css3)
+* HTML系列教程 [https://www.w3school.com.cn/h.asp](https://www.w3school.com.cn/h.asp)
 * [http://css.doyoe.com/](http://css.doyoe.com)
+* CSS/CSS3 中文参考文档手册 [http://css.cuishifeng.cn](http://css.cuishifeng.cn)
 
-- 官网: [http://sass-lang.com](http://sass-lang.com)
-- Sass教程 Sass中文文档: [https://www.sass.hk/docs](https://www.sass.hk/docs)
-- [SASS用法指南(阮一峰)](http://www.ruanyifeng.com/blog/2012/06/sass.html)
+- [https://github.com/sass](https://github.com/sass)
+    - Sass教程 Sass中文文档: [https://www.sass.hk/docs](https://www.sass.hk/docs)
+    - [SASS用法指南(阮一峰)](http://www.ruanyifeng.com/blog/2012/06/sass.html)
+- [https://github.com/less](https://github.com/less)
+    - [https://less.bootcss.com](https://less.bootcss.com)
 
 
-## 第三方依赖
+## 第三方依赖库
+
+- [https://github.com/topics/css-framework](https://github.com/topics/css-framework)
+
++ [https://github.com/topics/bootstrap](https://github.com/topics/bootstrap)
++ [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
+    + [https://www.bootcss.com](https://www.bootcss.com)
+    + [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)
+        + [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
+    + [https://github.com/eonasdan/bootstrap-datetimepicker](https://github.com/eonasdan/bootstrap-datetimepicker)
+    + [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)
++ [https://github.com/jquery/jquery-ui](https://github.com/jquery/jquery-ui)
+
 
 * [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)
 * [https://github.com/pure-css/pure](https://github.com/pure-css/pure)
@@ -41,18 +57,23 @@
 
 
 
-## css3新单位
+## CSS3新单位和计算
 
+| 单位 	| 说明                                                                          	|
+|------	|-------------------------------------------------------------------------------	|
+| em   	| 相对于应用在当前元素的字体尺寸。一般浏览器字体大小默认为16px，则2em == 32px； 	|
+| ex   	| 依赖于英文字母小 x 的高度                                                     	|
+| ch   	| 数字 0 的宽度                                                                 	|
+| rem  	| 根元素（html）的 font-size                                                    	|
+| vw   	| viewpoint width，视窗宽度，1vw=视窗宽度的1%                                   	|
+| vh   	| viewpoint height，视窗高度，1vh=视窗高度的1%                                  	|
+| vmin 	| vw和vh中较小的那个。                                                          	|
+| vmax 	| vw和vh中较大的那个。                                                          	|
 
-- `vw`：视窗宽度的百分比（`1vw`代表视窗的宽度为`1%`）
-- `vh`：视窗高度的百分比（`1vh`代表视窗的宽度为`1%`）
-- `vmin`：当前`vw`和`vh`中较小的一个值
-- `vmax`：当前`vw`和`vh`中较大的一个值
 
 > `vw`、`vh`、`vmin`、`vmax` 是一种由视窗（`Viewport`）大小来决定的视窗单位，也是相对单位。它相对的不是父节点或者页面的根节点。
 
-> 视窗(`Viewport`)是你的浏览器实际显示内容的区域—，换句话说是你的不包括工具栏和按钮的网页浏览器。
-
+> 视窗(`Viewport`)是你的浏览器实际显示内容的区域，换句话说是你的不包括工具栏和按钮的网页浏览器。
 
 > 做移动页面开发时，如果使用`vw`、`wh`设置字体大小，在竖屏和横屏状态下显示的字体大小是不一样的。
 > 这里就可以用到`vmin`和`vmax`使得文字大小在横竖屏下保持一致。
@@ -65,12 +86,10 @@
 > 当元素没有内容时候，设置`height:100%`，该元素不会被撑开，此时高度为`0`，但是设置`height:100vh`，该元素会被撑开屏幕高度一致。
 
 
-## calc
 
-> `calc()` 函数用于动态计算长度值。
+**`calc()`动态计算长度值**
 
 * [https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc](https://developer.mozilla.org/zh-CN/docs/Web/CSS/calc)
-
 
 - 使用`+`、`-`、`*` 和 `/`四则运算
 - 可以使用`%`、`px`、`em`、`rem`等单位
@@ -80,31 +99,44 @@
 
 
 
-## `Media Queries`
+## Media Queries
 
 > `Media Queries`能在不同的条件下使用不同的样式，使页面在不同在终端设备下达到不同的渲染效果。
 
++ [https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries](https://developer.mozilla.org/zh-CN/docs/Web/Guide/CSS/Media_queries)
+
+* [HTML页面适应移动端](https://www.jianshu.com/p/d95579d721a1)
+* [到底什么是像素](https://segmentfault.com/a/1190000017526874)
+* [使用meta标签设置viewport](https://segmentfault.com/a/1190000020218602)
+* [visual viewport、layout viewport和ideal viewport介绍](https://segmentfault.com/a/1190000017542232)
+* [viewport 深入理解](https://www.runoob.com/w3cnote/viewport-deep-understanding.html)
+
+
+```html
+<!-- 使用 Media Queries 必须先在页面中声明，移动设备上的`viewport`就是其屏幕上能用来显示我们的网页的那一块区域。
+    该标签最大的作用是让当前viewport的宽度等于设备的宽度，即将viewport由默认变为ideal viewport，
+    同时不允许用户缩放网页（缩放是相对于 ideal viewport来进行缩放的） -->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+```
+
+- `width = device-width`：宽度等于当前设备的宽度
+- `initial-scale`：初始的缩放比例（默认设置为1.0）
+- `minimum-scale`：允许用户缩放到的最小比例（默认设置为1.0）
+- `maximum-scale`：允许用户缩放到的最大比例（默认设置为1.0）
+- `user-scalable`：用户是否可以手动缩放（默认设置为no，因为我们不希望用户放大缩小页面）
+
+* [完整示例 MediaQueriesExample.html](/files/MediaQueriesExample.html)
+
+
 > 使用`Media Queries`必须要使用`@media`开头，然后指定媒体类型（也可以称为设备类型），随后是指定媒体特性（也可以称之为设备特性）。
-> 媒体特性的书写方式和样式的书写方式非常相似，主要分为两个部分，而且这两个部分之间使用冒号分隔：
->> 第一个部分指的是媒体特性
->>
->> 第二部分为媒体特性所指定的值
 
 
-- 语法
-
-> @media 设备类型 and|not|only （设备特性）{样式代码}
-
-> `Media Queries`可以使用关键词`and`将多个媒体特性结合在一起。
-> 一个`Media Query`中可以包含0到多个表达式，表达式又可以包含0到多个关键字，以及一种媒体类型。
-
-> `only`的作用是，让那些不支持`Media Query`但是能够读取`Media Type`的设备的浏览器将表达式中的样式隐藏起来。
->> 示例：`@media only screen and (min-width: 768px) {body {background: blue;}}`
->
-> 对于支持`Media Query`的设备来说，正确应用该样式；对于不支持`Media Query`但能够读取`Media Type`的设备，
-> 由于先读取到的是`only`而不是`screen`，将忽略该样式。
->
-> `not`是用来排除某种制定的媒体类型，也就是用来排除符合表达式的设备。换句话说，not关键词表示对后面的表达式执行取反操作。
+- 语法： `@media 设备类型 and|not|only （设备特性）{样式代码}`
+    - `and`将多个媒体特性结合在一起。可以包含0到多个表达式，表达式又可以包含0到多个关键字，以及一种媒体类型。
+    - `only`的作用是，让那些不支持`Media Query`但是能够读取`Media Type`的设备的浏览器将表达式中的样式隐藏起来。
+        - 示例：`@media only screen and (min-width: 768px) {body {background: blue;}}`
+    - 对于不支持`Media Query`但能够读取`Media Type`的设备，由于先读取到的是`only`而不是`screen`，将忽略该样式。
+    - `not`是用来排除某种制定的媒体类型，也就是用来排除符合表达式的设备。换句话说，`not`关键词表示对后面的表达式执行取反操作。
 
 
 
@@ -119,6 +151,10 @@
 
 
 ### 设备特性
+
+- 媒体特性的书写方式和样式的书写方式非常相似，主要分为两个部分，而且这两个部分之间使用冒号分隔：
+    - 第一个部分指的是媒体特性
+    - 第二部分为媒体特性所指定的值
 
 | 值                       | 描述                                         |
 |-------------------------|--------------------------------------------|
@@ -157,35 +193,15 @@
 | width                   | 定义输出设备中的页面可见区域宽度。                          |
 
 
-### 兼容移动设备
-
-* [HTML页面适应移动端](https://www.jianshu.com/p/d95579d721a1)
-* [到底什么是像素](https://segmentfault.com/a/1190000017526874)
-* [使用meta标签设置viewport](https://segmentfault.com/a/1190000020218602)
-* [visual viewport、layout viewport和ideal viewport介绍](https://segmentfault.com/a/1190000017542232)
-* [viewport 深入理解](https://www.runoob.com/w3cnote/viewport-deep-understanding.html)
-
-
-```html
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-```
-
-> 移动设备上的`viewport`就是其屏幕上能用来显示我们的网页的那一块区域。
-
-- `width = device-width`：宽度等于当前设备的宽度
-- `initial-scale`：初始的缩放比例（默认设置为1.0）
-- `minimum-scale`：允许用户缩放到的最小比例（默认设置为1.0）
-- `maximum-scale`：允许用户缩放到的最大比例（默认设置为1.0）
-- `user-scalable`：用户是否可以手动缩放（默认设置为no，因为我们不希望用户放大缩小页面）
-
-* [完整示例](/files/MediaQueriesExample.html)
-
 
 ### 外联和内嵌样式
 
-```html
+```css
 /* 外联 */
 @import url(style.css) screen and (min-width:1000px);
+```
+
+```html
 <!-- 外联 -->
 <link rel="stylesheet" href="style.css" media="only screen and (max-width:640px)">
 
@@ -200,8 +216,34 @@
 ```
 
 
+### 混合应用
 
-### `bootstrap css`
+```css
+@media all and (orientation : portrait) {
+/*竖屏*/
+}
+@media all and (orientation : landscape) {
+/*横屏*/
+}
+@media screen and (min-width: 1200px) {
+    /*>=1200的设备*/
+}
+@media screen and (min-width: 960px) and (max-width: 1199px) {
+    /*>=960,<=1200的设备*/
+}
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    /*>=768,<=960的设备*/
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    /*>=480,<=768的设备*/
+}
+@media only screen and (max-width: 479px) {
+    /*<=480的设备*/
+}
+```
+
+
+**Bootstrap**
 
 
 > 先看下面的代码,这是从`bootstrap`中遍历出来的，`min-width`来确认分别是`768`、`992`、`1200`。
@@ -238,32 +280,6 @@
 }
 @media (max-width: 767px){
 /*<=768的设备*/
-}
-```
-
-### 混合应用
-
-```css
-@media all and (orientation : portrait) {
-/*竖屏*/
-}
-@media all and (orientation : landscape) {
-/*横屏*/
-}
-@media screen and (min-width: 1200px) {
-    /*>=1200的设备*/
-}
-@media screen and (min-width: 960px) and (max-width: 1199px) {
-    /*>=960,<=1200的设备*/
-}
-@media screen and (min-width: 768px) and (max-width: 959px) {
-    /*>=768,<=960的设备*/
-}
-@media only screen and (min-width: 480px) and (max-width: 767px) {
-    /*>=480,<=768的设备*/
-}
-@media only screen and (max-width: 479px) {
-    /*<=480的设备*/
 }
 ```
 
@@ -321,7 +337,7 @@ div:hover{
 ```
 
 
-## `Footer`固定在页面底部
+## Footer固定在页面底部
 
 - `Sticky Footer` 并不是什么新的前端概念和技术，它指的就是一种网页效果： 
     - 如果页面内容不足够长时，页脚固定在浏览器窗口的底部；
@@ -362,7 +378,7 @@ div:hover{
 * [fix-footer-page-bottom-flex.html](/files/fix-footer-page-bottom-flex.html)
 
 
-## `Footer`固定在窗口底部
+## Footer固定在窗口底部
 
 * [fix-footer-window-bottom-fixed.html](/files/fix-footer-window-bottom-fixed.html)
 * [fix-footer-window-bottom-sticky.html](/files/fix-footer-window-bottom-sticky.html)
@@ -443,7 +459,7 @@ div:hover{
 
 
 
-## 优先级和权重
+## 优先级权重恢复
 
 > 权重决定了你css规则怎样被浏览器解析直到生效。css权重关系到你的css规则是怎样显示的
 
@@ -464,3 +480,8 @@ div:hover{
 | 同胞选择器               	| -                      	| 0     	|
 
 * [css的优先级 和 权重](https://www.cnblogs.com/cnblogs-jcy/p/8574177.html)
+
+- [inherit](https://developer.mozilla.org/zh-CN/docs/Web/CSS/inherit) 该值使得属性能够继承祖先设置
+- [initial](https://developer.mozilla.org/zh-CN/docs/Web/CSS/initial) 属于CSS-wide关键字，属性初始值
+- [unset](https://developer.mozilla.org/zh-CN/docs/Web/CSS/unset) 擦除属性申明，如果属性是默认继承属性，等同于inherit，如果属性是非继承属性，等同于initial，unset属于CSS-wide关键字
+- [revert](https://developer.mozilla.org/zh-CN/docs/Web/CSS/revert) 重置当前样式来源（style origin）的样式

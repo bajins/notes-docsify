@@ -5,12 +5,12 @@
 
 
 
-## flag
+## Flag
 
 * [第三方针对各种不同系统制作的GCC安装包](http://gcc.gnu.org/install/binaries.html)
 * [http://www.cygwin.com](http://www.cygwin.com)
 * [https://sourceware.org](https://sourceware.org)
-* [https://github.com/abbodi1406/vcredist](https://github.com/abbodi1406/vcredist)
+
 
 **C语言的编译器有很多种，不同的平台下有不同的编译器**
 
@@ -68,36 +68,26 @@
 
 **环境说明**
 
+* [X86和X86_64和AMD64的由来](https://blog.csdn.net/wf19930209/article/details/79536506)
+
 - 系统架构
-
-> `x86_64`为`64位`操作系统
->
-> `i686`为`32位`操作系统
-
+    - `x86_64`为`64位`操作系统
+    - `i686`为`32位`操作系统
 - 操作系统接口协议（为哪种操作系统开发程序）
-
-> `posix`为`Linux`、`Unix`、`Mac OS`等其他操作系统
-> 
-> `win32`为`Windows`操作系统
-
+    - `posix`为`Linux`、`Unix`、`Mac OS`等其他操作系统
+    - `win32`为`Windows`操作系统
 - 异常处理模型（64位）
-
-> `seh`是新发明的，性能比较好，但不支持`32位`操作系统
-> 
-> `sjlj`是古老的，稳定性好，支持`32位`操作系统
-
+    - `seh`是新发明的，性能比较好，但不支持`32位`操作系统
+    - `sjlj`是古老的，稳定性好，支持`32位`操作系统
 - 异常处理模型（32位）
-
-> `dwarf`性能要优于`sjlj`，不支持`64位`操作系统
-> 
-> `sjlj`稳定性好，支持`32位`操作系统
+    - `dwarf`性能要优于`sjlj`，不支持`64位`操作系统
+    - `sjlj`稳定性好，支持`32位`操作系统
 
 
 
 ### MinGW-w64安装
 
 1. 如操作系统是`Windows10-X64`并为`posix`接口协议开发程序，则选择：`x86_64-posix-seh`
-
 2. 下载后把压缩包解压到指定盘符下，再添加到系统环境变量`path`
 
 - 如解压目录`C:\Program Files\mingw64`，则在CMD执行
@@ -153,9 +143,7 @@ gcc -v && g++ -v
 ### MSYS2命令
 
 - `pacman -S <packge-name>` 安装软件
-
-> `pacman -S mingw-w64-x86_64-make mingw-w64-x86_64-gcc`
-
+    - `pacman -S mingw-w64-x86_64-make mingw-w64-x86_64-gcc`
 - `pacman -U <gz-file>` 安装本地包，其扩展名为`pkg.tar.gz`  
 - `pacman -Syu` 同步`Msys2`源，并更新
 - `pacman -Sy` 仅同步源

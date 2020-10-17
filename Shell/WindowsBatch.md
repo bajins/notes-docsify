@@ -6,17 +6,7 @@
 
 
 
-## flag
-
-+ 扫描任何32位或64位Windows模块（exe，dll，ocx，sys等）的函数：[http://www.dependencywalker.com](http://www.dependencywalker.com)
-+ DLL导出查看器：[http://www.nirsoft.net/utils/dll_export_viewer.html](http://www.nirsoft.net/utils/dll_export_viewer.html)
-+ RegDllView-查看系统上已注册的dll/ ocx/exe文件，从资源管理器注册dll文件：
-    + [http://www.nirsoft.net/utils/registered_dll_view.html](http://www.nirsoft.net/utils/registered_dll_view.html)
-+ Windows 10的system32目录中的所有DLL文件信息：[http://windows10dll.nirsoft.net](http://windows10dll.nirsoft.net)
-+ [https://github.com/jas502n/IDA_Pro_7.2](https://github.com/jas502n/IDA_Pro_7.2)
-+ 下载– NTCore：[https://ntcore.com/?page_id=345](https://ntcore.com/?page_id=345)
-+ 小型命令行实用程序：[http://www.ltr-data.se/opencode.html/#CmdUtils](http://www.ltr-data.se/opencode.html/#CmdUtils)
-
+## Flag
 
 * [Windows 命令-官方文档](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/windows-commands)
 * [windows常用命令](https://www.cnblogs.com/kekec/p/3662125.html)
@@ -50,7 +40,6 @@ msiexec /a "MSI文件路径" /qn TARGETDIR="解压输出目录绝对路径"
 :: 弹窗
 msg %username% /time:60 "WARNING:a backdoor account is created"
 ```
-
 
 - Windows10当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\CachedFiles\CachedImage_1920_1080_POS4.jpg`
 - Windows7当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\TranscodedWallpaper.jpg`
@@ -188,9 +177,6 @@ endlocal&exit /b %errorlevel%
 ```
 
 
-
-
-
 ## 环境变量
 
 * [set](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/set_1)
@@ -279,7 +265,7 @@ ipconfig /flushdns
 netstat -an | find "0.0.0.0:80"
 ```
 
-### 查看占用的`pid`
+### 查看占用的pid
 
 > 在`windows`系统下，不能直接使用反引号执行命令，要使用`for`循环变通下，在`for`循环中使用单`'`括起来执行命令
 
@@ -542,7 +528,7 @@ if not "%errorLevel%" == "0" (
 
 ```batch
 @echo off
-fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",1)(window.close)
+fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellExecute("%~nx0","%1","","runas",0)(window.close)
 
 :: 下面为执行命令
 
@@ -550,13 +536,13 @@ fltmc>nul||cd/d %~dp0 && mshta vbscript:CreateObject("Shell.Application").ShellE
 
 ```batch
 @echo off
-:-------------------------------------------------------------------------------
+::-------------------------------------------------------------------------------
 >nul 2>&1 "%SYSTEMROOT%\system32\cacls.exe" "%SYSTEMROOT%\system32\config\system"
 if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
 :UACPrompt
     ::if not "%~1"=="" set file= ""%~1""
-    ::echo CreateObject("Shell.Application").ShellExecute "cmd.exe", "/c %~s0%file%", "", "runas", 1 > "%temp%\getadmin.vbs"
-    echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas", 1 > "%temp%\getadmin.vbs" 
+    ::echo CreateObject("Shell.Application").ShellExecute "cmd.exe", "/c %~s0%file%", "", "runas", 0 > "%temp%\getadmin.vbs"
+    echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas", 0 > "%temp%\getadmin.vbs" 
     "%temp%\getadmin.vbs"
     exit /B
 :GetAdmin
@@ -564,7 +550,7 @@ if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
     pushd "%CD%"
     CD /D "%~dp0"
 :StartCommand
-:-------------------------------------------------------------------------------
+::-------------------------------------------------------------------------------
 
 :: 下面为执行命令
 
@@ -687,9 +673,7 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 > 按`win+r`打开运行窗口，输入`shell:startup`打开启动文件夹，把快捷方式或者软件放入
 
-
 - Win7及以上（当前用户）: `%AppData%\Microsoft\Windows\Start Menu\Programs\Startup`
-
 - 启动目录（所有用户）: `%ProgramData%\Microsoft\Windows\Start Menu\Programs\StartUp`
 
 
@@ -733,11 +717,8 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 **系统默认注册表位置**
 
-
 - 为所有用户安装的程序：`HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall`
-
 - 为当前用户安装的程序：`HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Uninstall`
-
 - 64位系统中的32位程序：`HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall`
 
 > 这3个注册表总有一个包含你要找的程序，不包括UWP应用。
@@ -748,8 +729,6 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 > 如果注册表项下面有"SystemComponent"字段并且值等于`1`时，表示这是个系统组件，而不是应用软件。
 
 > 如果注册表项下面有"ParentKeyName"字段则表示该项是某个分类下的子项，一般情况补丁才会有"ParentKeyName"字段。
-
-
 
 
 
@@ -788,21 +767,18 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 ### 修改
 
-> `/v` 设置键名(value)
+- `/v` 设置键名(value)
+- `/t` 设置数据类型(type)
+- `/d` 设置添加的值(data)
+- `/f` 表示强制(forbidden)
 
-> `/t` 设置数据类型(type)
-
-> `/d` 设置添加的值(data)
-
-> `/f` 表示强制(forbidden)
-
-- 删除桌面IE图标
+* 删除桌面IE图标
 
 ```batch
 REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\Desktop\NameSpace\{B416D21B-3B22-B6D4-BBD3-BBD452DB3D5B}" /f
 ```
 
-- 修改开机时小数字键盘不开启的问题
++ 修改开机时小数字键盘不开启的问题
 
 ```batch
 REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t REG_SZ /d 2 /f
@@ -821,7 +797,6 @@ RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
 
 ```batch
 REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 自定义命名 /d %0 /f
-
 ```
 
 - 替换默认记事本
@@ -831,7 +806,6 @@ REG ADD "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution 
  /v "Debugger" /t REG_SZ /d "\"记事本程序路径\" -z" /f
 ```
 
-
 - 恢复系统默认记事本
 
 ```batch
@@ -839,9 +813,6 @@ REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Executi
 REG DELETE "HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
 REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /f
 ```
-
-
-
 
 - Windows Defender
 
@@ -854,10 +825,7 @@ REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "Di
 
 :: 启用Windows Defender
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 0 /t REG_DWORD /f   
-   
 ```
-
-
 
 
 ### 窗口设置
@@ -897,6 +865,7 @@ REG ADD "HKEY_CURRENT_USER\Console" /t REG_DWORD /v ScreenBufferSize /d 0x03e800
 FOR /F "usebackq delims==" %i IN (`REG QUERY HKCU /v onedrive /s`) DO @echo %i
 ```
 
+
 ## 注册服务
 
 * [https://www.cnblogs.com/pingming/p/5108947.html](https://www.cnblogs.com/pingming/p/5108947.html)
@@ -925,31 +894,11 @@ sc delete 服务名称
 ```
 
 
-
-## 第三方工具
-
-* [wget-网络请求工具](https://eternallybored.org/misc/wget)
-* [curl-网络请求工具](https://curl.haxx.se/dlwiz/?type=bin)
-    * [curl-GitHub](https://github.com/curl/curl)
-* [jq-解析json工具](https://github.com/stedolan/jq)
-* [Batch-CN-在线第三方管理](http://www.bathome.net/thread-32322-1-1.html)
-    * [http://bcn.bathome.net/s/tool/index.html](http://bcn.bathome.net/s/tool/index.html)
-* [转换位图图像](https://imagemagick.org/index.php)
-* [https://github.com/ritchielawrence/cmdow](https://github.com/ritchielawrence/cmdow)
-
-
 ## 下载文件
-
-- 推荐使用`bat`脚本执行`JavaScript`脚本下载文件
-
-* [从github下载文件的多种方法](https://3gstudent.github.io/3gstudent.github.io/%E6%B8%97%E9%80%8F%E6%8A%80%E5%B7%A7-%E4%BB%8Egithub%E4%B8%8B%E8%BD%BD%E6%96%87%E4%BB%B6%E7%9A%84%E5%A4%9A%E7%A7%8D%E6%96%B9%E6%B3%95)
-
 
 - `certutil`
 
-> 用户备份证书服务管理，每次下载都会有缓存
->
-> 缓存目录：`%USERPROFILE%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content`
+> 用户备份证书服务管理，每次下载都会有缓存，缓存目录：`%USERPROFILE%\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content`
 
 ```batch
 certutil -urlcache -split -f https://blog-static.cnblogs.com/files/gayhub/bcn.js C:\Windows\bcn.bat
@@ -957,12 +906,10 @@ certutil -urlcache -split -f https://blog-static.cnblogs.com/files/gayhub/bcn.js
 
 - `bitsadmin`
 
-> `bitsadmin.exe` `bitsadmin`是`windows`后台智能传输服务的一个工具，`windows`的自动更新，补丁之类的下载就是用这个工具来实现的。
+> `bitsadmin.exe` 是`windows`后台智能传输服务的一个工具，`windows`的自动更新，补丁之类的下载就是用这个工具来实现的。
 
 ```batch
-:: 无进度条等信息
-bitsadmin /rawreturn /transfer 任务名 https://blog-static.cnblogs.com/files/gayhub/bcn.js C:\Windows\bcn.bat
-:: 有进度条等信息
+:: /priority normal进度条等信息
 bitsadmin /transfer 任务名 /download /priority normal https://blog-static.cnblogs.com/files/gayhub/bcn.js C:\Windows\bcn.bat
 ```
 

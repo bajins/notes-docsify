@@ -5,73 +5,23 @@
 
 
 
-## flag
+## Flag
+
++ [https://github.com/denoland/deno](https://github.com/denoland/deno)
 
 * [NodeJs小册](https://nodejs.fasionchan.com/zh_CN/latest/index.html)
 * [https://github.com/nodejs](https://github.com/nodejs)
 * [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
+* [https://developer.ibm.com/zh/technologies/node-js](https://developer.ibm.com/zh/technologies/node-js)
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，
 > 所以真正的参数从下标`2`开始`process.argv.splice(2)`
 
+* [https://github.com/stylus](https://github.com/stylus)
 
-## 第三方依赖
-
-* [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
-* [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
-* [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
-
-**HTTP**
-
-* [https://github.com/wendux/fly](https://github.com/wendux/fly)
-* [https://github.com/github/fetch](https://github.com/github/fetch)
-* [https://github.com/axios/axios](https://github.com/axios/axios)
-
-
-**导出**
-
-* [TableExport](https://github.com/clarketm/TableExport)
-* [tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
-* [excellentexport](https://github.com/jmaister/excellentexport)
-
-
-
-**WEB开发**
-
-* [https://github.com/facebook/react](https://github.com/facebook/react)
-    * [https://reactnative.cn](https://reactnative.cn)
-* [https://github.com/angular/angular](https://github.com/angular/angular)
-    * [https://angular.cn](https://angular.cn)
-* [https://github.com/zdhxiong/mdui](https://github.com/zdhxiong/mdui)
-* [https://github.com/baidu/amis](https://github.com/baidu/amis)
-* [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
-* [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
-* 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
-
-
-**原生应用开发**
-
-* [https://github.com/topics/electron](https://github.com/topics/electron)
-    * [https://github.com/electron/electron](https://github.com/electron/electron)
-* [使用 node-ffi 构建 Electron 和 C++ Library 混合桌面应用](https://io.hancel.org/2018/05/02/building-an-electron-hybrid-application.html)
-* [https://github.com/topics/nwjs](https://github.com/topics/nwjs)
-    * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
-    * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
-* [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
-
-
-**Player**
-
-* [萌豚技术组织 | 播放器、音视频、弹幕相关开源开发](https://github.com/MoePlayer)
-* [Plyr–一个轻量级的HTML5播放器](https://github.com/sampotts/plyr)
-
-
-
-**反爬虫**
-
-* [https://github.com/antoinevastel/fpscanner](https://github.com/antoinevastel/fpscanner)
-* [https://github.com/ta7sudan/secan](https://github.com/ta7sudan/secan)
-* [前端如何检测Chrome-Headless不被爬虫虐](https://mlln.cn/2019/07/05/%E5%89%8D%E7%AB%AF%E5%A6%82%E4%BD%95%E6%A3%80%E6%B5%8BChrome-Headless%E4%B8%8D%E8%A2%AB%E7%88%AC%E8%99%AB%E8%99%90)
+- [https://github.com/webpack/webpack](https://github.com/webpack/webpack)
+    - [https://webpack.js.org](https://webpack.js.org)
+    - [https://www.webpackjs.com](https://www.webpackjs.com)
 
 
 
@@ -116,6 +66,8 @@ nvm install <最新的版本号>
 ## 依赖管理
 
 * [https://github.com/Unitech/pm2](https://github.com/Unitech/pm2)
+* [https://github.com/npm](https://github.com/npm)
+* [https://github.com/yarnpkg](https://github.com/yarnpkg)
 
 
 ### 管理yarn
@@ -308,11 +260,46 @@ request({
 
 
 
+
+## 原生应用开发
+
+> 在3大主流渲染引擎里，webview、react native/weex、flutter，复杂度依次降低，渲染性能依次上升。
+
++ [https://github.com/apache/cordova](https://github.com/apache/cordova)
+
+* [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
+    * [https://reactnative.cn](https://reactnative.cn)
+* [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
+* [https://github.com/angular/angular](https://github.com/angular/angular)
+    * [https://angular.io](https://angular.io)
+* [https://github.com/kuaifan/eeui](https://github.com/kuaifan/eeui)
+* [https://github.com/hminghe/weex-amui](https://github.com/hminghe/weex-amui)
+* [https://github.com/bingo-oss/bui-weex](https://github.com/bingo-oss/bui-weex)
+* [https://github.com/apache/incubator-weex](https://github.com/apache/incubator-weex)
+    * [https://github.com/apache/incubator-weex-ui](https://github.com/apache/incubator-weex-ui)
+    * [https://github.com/apache/incubator-weex-site](https://github.com/apache/incubator-weex-site)
+    * [https://segmentfault.com/t/weex](https://segmentfault.com/t/weex)
+* [https://github.com/NativeScript](https://github.com/NativeScript)
+* [https://github.com/topics/electron](https://github.com/topics/electron)
+    * [https://github.com/electron/electron](https://github.com/electron/electron)
+* [使用 node-ffi 构建 Electron 和 C++ Library 混合桌面应用](https://io.hancel.org/2018/05/02/building-an-electron-hybrid-application.html)
+* [https://github.com/topics/nwjs](https://github.com/topics/nwjs)
+    * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
+    * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
+* [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
+* 将 Node.js 项目打包到可执行文件中 [https://github.com/vercel/pkg](https://github.com/vercel/pkg)
+
+
+
+
 ## 爬虫
 
-* [https://github.com/GoogleChrome/puppeteer](https://github.com/GoogleChrome/puppeteer)
+* [https://github.com/webdriverio](https://github.com/webdriverio)
+* [https://github.com/puppeteer](https://github.com/puppeteer)
 * [Puppeteer配置小记](https://www.itfanr.cc/2019/04/10/configuration-development-of-puppeteer)
 * [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright)
+* 一个基于webkit的JavaScript API [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
+    * [PhantomJS -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/phantomjs.html)
 
 **[xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)**
 **[`chromedriver`](/Python/Python爬虫.md#chromedriver)**
@@ -322,62 +309,78 @@ request({
 
 
 
-## VueJS
 
-* [https://github.com/vuejs/vue](https://github.com/vuejs/vue)
-    * [https://cn.vuejs.org](https://cn.vuejs.org)
-* [vue学习笔记](https://www.rumosky.wiki/docs/vue_learning_process)
+## 小程序
 
-![](/images/vue生命周期详解.png)
++ [https://github.com/search?q=weapp](https://github.com/search?q=weapp)
++ [https://github.com/topics/wxapp](https://github.com/topics/wxapp)
++ [https://github.com/topics/weapp](https://github.com/topics/weapp)
++ [https://github.com/topics/wechat](https://github.com/topics/wechat)
++ [https://github.com/topics/minapp](https://github.com/topics/minapp)
++ [https://github.com/topics/wechat-app](https://github.com/topics/wechat-app)
++ [https://github.com/topics/wechat-mini-program](https://github.com/topics/wechat-mini-program)
++ [https://github.com/topics/weixin](https://github.com/topics/weixin)
 
+- [https://github.com/Wechat-Group](https://github.com/Wechat-Group)
 
-* [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
+* [https://github.com/justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)
+* [https://github.com/qiushi123/xiaochengxu_demos](https://github.com/qiushi123/xiaochengxu_demos)
 
-
-### VueJS框架
-
-* [https://madewithvuejs.com](https://madewithvuejs.com)
-* [https://github.com/vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify)
-* [https://github.com/buefy/buefy](https://github.com/buefy/buefy)
-* [https://github.com/bootstrap-vue/bootstrap-vue](https://github.com/bootstrap-vue/bootstrap-vue)
-* [https://github.com/vuematerial/vue-material](https://github.com/vuematerial/vue-material)
-* [https://github.com/quasarframework/quasar](https://github.com/quasarframework/quasar)
-* [https://github.com/uikit/uikit](https://github.com/uikit/uikit)
-* [https://github.com/sdc-alibaba/sui](https://github.com/sdc-alibaba/sui)
-* [https://github.com/FE-Driver/vue-beauty](https://github.com/FE-Driver/vue-beauty)
-* [https://github.com/chenz24/vue-blu](https://github.com/chenz24/vue-blu)
-* [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
-* [https://github.com/heyui/heyui](https://github.com/heyui/heyui)
-* [https://github.com/at-ui/at-ui](https://github.com/at-ui/at-ui)
-* [https://github.com/view-design/ViewUI](https://github.com/view-design/ViewUI)
-* [https://github.com/ElemeFE/element](https://github.com/ElemeFE/element)
+- 使用Golang开发的微信SDK: [https://github.com/silenceper/wechat](https://github.com/silenceper/wechat)
 
 
+**框架**
 
-**Mobile**
+* [https://github.com/dcloudio/uni-app](https://github.com/dcloudio/uni-app)
+* [https://github.com/NervJS/taro](https://github.com/NervJS/taro)
+    * [https://taro.aotu.io](https://taro.aotu.io)
+* [https://github.com/tinajs/tina](https://github.com/tinajs/tina)
+* [https://github.com/didi/chameleon](https://github.com/didi/chameleon)
+* [https://github.com/didi/mpx](https://github.com/didi/mpx)
+* [https://github.com/kaola-fed/megalo](https://github.com/kaola-fed/megalo)
+* [https://github.com/Tencent/wepy](https://github.com/Tencent/wepy)
+* [https://github.com/Meituan-Dianping/mpvue](https://github.com/Meituan-Dianping/mpvue)
 
-* [https://github.com/airyland/vux](https://github.com/airyland/vux)
-* [https://github.com/sdc-alibaba/SUI-Mobile](https://github.com/sdc-alibaba/SUI-Mobile)
-* [https://github.com/ElemeFE/mint-ui](https://github.com/ElemeFE/mint-ui)
-* [https://github.com/didi/cube-ui](https://github.com/didi/cube-ui)
+
+**Other**
+
+* [https://gitee.com/laeser/demo-weapp](https://gitee.com/laeser/demo-weapp)
+* [小程序海报组件-生成朋友圈分享海报并生成图片](https://github.com/jasondu/wxa-plugin-canvas)
+* [微信小程序Markdown渲染库](https://github.com/TooBug/wemark)
+* [手持弹幕微信小程序版](https://github.com/redblue9771/minibarrage)
+* [https://github.com/super456/weapp_expressTime](https://github.com/super456/weapp_expressTime)
 
 
-### 动态导入组件
 
-```js
-() => import(`@${_this.files.path}.vue`)
+### 自定义组件
 
-//component(resolve) {require([`@${_this.files.path}.vue`], resolve)}
-resolve => require([`@${_this.files.path}.vue`], resolve)
+* [https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component](https://developers.weixin.qq.com/miniprogram/dev/framework/custom-component)
 
-resolve => require.ensure([], () => resolve(require(`@${_this.files.path}.vue`)))
 
-const resolveRequire = (path) => {
-    return resolve => {
-        require.ensure([], (require) => {
-            resolve(require(`@${path}.vue`));
-        });
-    }
-}
-```
 
+**组件库**
+
+* [https://github.com/youzan/vant-weapp](https://github.com/youzan/vant-weapp)
+* [https://github.com/jisida/VtuWeapp](https://github.com/jisida/VtuWeapp)
+* [https://github.com/wux-weapp/wux-weapp](https://github.com/wux-weapp/wux-weapp)
+* [https://github.com/Tencent/weui](https://github.com/Tencent/weui)
+* [https://github.com/weilanwl/ColorUI](https://github.com/weilanwl/ColorUI)
+
+
+**日历**
+
+* [https://github.com/treadpit/wx_calendar](https://github.com/treadpit/wx_calendar)
+
+
+**授权**
+
+* [https://github.com/misterxu1567/wxMiniProgram-components](https://github.com/misterxu1567/wxMiniProgram-components)
+* [https://github.com/GRW999/auth-component](https://github.com/GRW999/auth-component)
+* [https://github.com/yeyi361936738/mini-login-component](https://github.com/yeyi361936738/mini-login-component)
+* [https://github.com/Skura23/authModal](https://github.com/Skura23/authModal)
+
+
+**搜索**
+
+* [https://github.com/fancaixia/SearchBar](https://github.com/fancaixia/SearchBar)
+* [https://github.com/mindawei/wsSearchView](https://github.com/mindawei/wsSearchView)

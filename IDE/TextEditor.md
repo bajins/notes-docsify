@@ -1,37 +1,72 @@
-# SublimeText
+# TextTditor
 
 
 [[toc]]
 
 
 
-## flag
+## Flag
+
+
+* [http://www.gnu.org/software/emacs](http://www.gnu.org/software/emacs)
+* [https://www.nano-editor.org](https://www.nano-editor.org)
+* [https://vim.org](https://vim.org)
+    * [https://github.com/neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
+* [C#写的记事本](https://github.com/topics/notepad?l=c%23)
+* [C++写的记事本](https://github.com/topics/notepad?l=c%2B%2B)
+* [Notepad3](https://github.com/rizonesoft/Notepad3)
+* [notepad2](https://github.com/zufuliu/notepad2)
+* [https://www.scintilla.org](https://www.scintilla.org)
+* [http://www.pnotepad.org](http://www.pnotepad.org)
+* [https://github.com/adobe/brackets](https://github.com/adobe/brackets)
+* [https://github.com/bobbylight](https://github.com/bobbylight)
+
+
+
+
+## Notepad++
+
+* [https://github.com/notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)
+* [替换默认记事本](https://npp-user-manual.org/docs/other-resources/#notepad-replacement)
+
+- 查看快捷键：`设置` –> `管理快捷键` -> `Scintilla命令`
+- `Tab`替换为空格：设置->首选项->语言->制表符设置->(勾选上)替换为空格
+- 显示特殊字符
+    - 显示回车符，换行符，TAB键，行首，行尾等特殊字符
+    - 视图(V) -> 显示符号 -> 显示空格与制表符
+- 删除未包含内容的行： <kbd>Ctrl</kbd> + <kbd>F</kbd> -> 选择`标记`标签页（或者<kbd>Alt</kbd> + <kbd>S</kbd> 然后按
+<kbd>K</kbd>） -> 查找目标输入正则表达式 -> 勾选`正则表达式`、`标记所在行`、`清除上次标记` -> 点击`全部标记` ->
+ 点击菜单栏 `搜索` -> `书签` -> `删除未标记行`
+
+
+
+
+## SublimeText
+
+- [https://www.sublimetext.com](https://www.sublimetext.com)
+    - [http://www.sublimetext.cn](http://www.sublimetext.cn)
+- [sublimetext破解](https://www.abbeyok.com/archives/337)
+- [sublime-text-3-license-key](http://blog.jdk5.com/zh/sublime-text-3-license-key)
+- [Sublime Text3 注册码激活码](https://blog.csdn.net/qq_29819449/article/details/80130327)
 
 * [解决 Sublime Text 3 拓展包源无法访问问题](https://github.com/HBLong/channel_v3_daily)
 
 
 
-## 插件
+### 插件
 
 > 按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>输入`install`选择`Package Control: Install Package`再输入插件名称
-
 
 - ChineseLocalizations
 
 > 很简单的一个插件，现在支持汉化Sublime Text2，Sublime Text3。
 
-
 ![](https://i.rexdf.org/images/sublime_chinese.gif)
 
 - SublimeAStyleFormatter
-
 - EclipseJavaFormatter
-
 - uroboroSQLFormatter
-
 - MarkdownTableFormatter
-
-
 - AllAutocomplete
 
 > Sublime Text 默认的 Autocomplete 功能只考虑当前的文件，而 AllAutocomplete 插件会搜索所有打开的文件来寻找匹配的提示词。
@@ -63,7 +98,6 @@
 ![](https://images2015.cnblogs.com/blog/296669/201512/296669-20151211153759808-1673568045.gif)
 
 - CSSFormat
-
 - DocBlockr
 
 > DocBlocker 是在Sublime平台上开发一款自动补全注释插件，支持JavaScript (including ES6), PHP, ActionScript,
@@ -151,11 +185,7 @@
 > sublime可以下载很多风格样式，用这个插件可以管理所有的风格
 
 - GBKToUTF8
-
 - SublimeREPL
-
 - jQuery
-
 - Anoconda
-
 - AutoPep8

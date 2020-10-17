@@ -6,22 +6,13 @@
 
 
 
-## flag
+## Flag
 
-* [Linux手册](https://learn-linux.readthedocs.io/zh_CN/latest)
-* [http://www.linuxbaike.com](http://www.linuxbaike.com)
-* [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
-* [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest)
-* [https://github.com/guodongxiaren/LinuxTool](https://github.com/guodongxiaren/LinuxTool)
-
-
-- [https://lamp.sh](https://lamp.sh)
-- [https://oneinstack.com](https://oneinstack.com)
-- [https://lnmp.org](https://lnmp.org)
-- [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
-
-
-**编辑器**
++ [Linux手册](https://learn-linux.readthedocs.io/zh_CN/latest)
++ [http://www.linuxbaike.com](http://www.linuxbaike.com)
++ [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
++ [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest)
++ [https://github.com/guodongxiaren/LinuxTool](https://github.com/guodongxiaren/LinuxTool)
 
 * [vi命令（vi编辑器）](http://c.biancheng.net/vi)
 * [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)
@@ -29,17 +20,19 @@
 * [https://vimjc.com/archives](https://vimjc.com/archives)
 
 
-**监控工具**
+- [https://lamp.sh](https://lamp.sh)
+- [https://oneinstack.com](https://oneinstack.com)
+- [https://lnmp.org](https://lnmp.org)
+- [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
 
-* [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
+* [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
+* 提供状态线和提示 [https://github.com/powerline/powerline](https://github.com/powerline/powerline)
 
-- `nethogs`: 按进程查看流量占用
-- `ethtool`: 诊断工具
-- `tcpdump`: 抓包工具
-- 监控总体带宽使用：`nload`、`bmon`、`slurm`、`bwm-ng`、`cbm`、`speedometer`、`netload`
-- 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
-- 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
-- `ntopng`
+
+**发行版本**
+
+* [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
+* [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
 
 
 
@@ -72,9 +65,8 @@ wget --no-check-certificate -qO ~/Network-Reinstall-System-Modify.sh 'https://ww
 chmod a+x ~/Network-Reinstall-System-Modify.sh
 ```
 
-
-
 - 安装Linux系统
+
 ```bash
 # ①. 一键网络重装纯净CentOS 7（推荐）
 bash ~/Network-Reinstall-System-Modify.sh -CentOS_7
@@ -153,7 +145,10 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 
 
-## 后台运行
+## 后台运行Daemon
+
+* [Python版Daemon](/Shell/Python笔记.md#daemon)
+* [Golang版Daemon更加简易可用](/Go/Go笔记.md#daemon)
 
 
 ### Tmux
@@ -274,19 +269,14 @@ tmux new -s 会话名 -d "命令"
 
 
 
-### `nohup`
+### nohup
 
 > 如果程序在其他目录下则在命令前加入`cd 目录路径 &&`
 
-**只输出错误日志**
-
 ```bash
+# 只输出错误日志
 nohup python3 ./index.py >/dev/null 2>index.log &
-```
-
-**不输出日志**
-
-```bash
+# 不输出日志
 nohup python3 ./index.py >/dev/null 2>&1 &
 ```
 
@@ -296,13 +286,11 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 2. `1`标准输出,在一般使用时，默认的是标准输出
 3. `2`标准错误信息输出
 
-> 可以用来指定需要重定向的标准输入或输出。
->
-> 将某个程序的错误信息输出到log文件中：`./index 2>index.log`。
->
-> 这样标准输出还是在屏幕上，但是错误信息会输出到log文件中。
->
-> 另外，也可以实现0，1，2之间的重定向。`2>&1`：将错误信息重定向到标准输出。
+- 可以用来指定需要重定向的标准输入或输出。
+- 将某个程序的错误信息输出到log文件中：`./index 2>index.log`。
+- 这样标准输出还是在屏幕上，但是错误信息会输出到log文件中。
+- 也可以实现0，1，2之间的重定向。`2>&1`：将错误信息重定向到标准输出。
+
 
 **关于`/dev/null`文件**
 
@@ -312,8 +300,7 @@ nohup python3 ./index.py >/dev/null 2>&1 &
 
 
 
-
-### `setsid`
+### setsid
 
 > `setsid`就是`set session id`的意思。表示该命令运行的进程是一个新的`session`。因此其父进程不属于当前终端。
 > 实际上`setsid`运行的进程，其父进程id(ppid)为1(init进程的id)。
@@ -328,38 +315,6 @@ setsid python3 ./index.py >/dev/null 2>&1 &
     1. `-c`, `--ctty` 将控制终端设置为当前控制终端
     2. `-f`, `--fork` 总是`fork`
     3. `-w`, `--wait` 等待程序退出，并使用相同的返回
-
-
-
-
-### `supervisor`
-
-> `supervisor`是用`Python`开发的一套通用的进程管理程序，能将一个普通的命令行进程变为后台`daemon`，并监控进程状态，异常退出时能自动重启。
-
-* [http://supervisord.org](http://supervisord.org)
-
-
-**常见配置如下**
-
-```vim
-[program:程序名称]
-user=root
-command=/var/www/main
-stdout_logfile=/var/log/gf-app-stdout.log
-stderr_logfile=/var/log/gf-app-stderr.log
-autostart=true
-autorestart=true
-```
-
-**使用步骤**
-
-1. 使用`sudo service supervisor start`启动`supervisor`服务；
-2. 创建应用配置文件`/etc/supervisor/conf.d/程序名称.conf`, 内容如上;
-3. 使用`sudo supervisorctl`进入`supervisor`管理终端；
-4. 使用`reload`重新读取配置文件并重启当前`supoervisor`管理的所有进程；
-5. 也可以使用`update`重新加载配置(默认不重启)，随后使用`start 程序名称`启动指定的应用程序；
-6. 随后可以使用`status`指令查看当前`supervisor`管理的进程状态；
-
 
 
 
@@ -386,30 +341,15 @@ wget host:port/file 就可以下载了
 
 ### scp
 
-> 【优点】简单方便，安全可靠；支持限速参数，不占资源，不会提高多少系统负荷
->
-> 【缺点】不支持排除目录 
->
-> 【用法】scp就是secure copy，是用来进行远程文件拷贝的。数据传输使用 ssh，并且和ssh 使用相同的认证方式，提供相同的安全保证 。 
+> scp（Secure Copy Protocol）基于SSH，是用来进行远程文件拷贝的，不支持排除目录，不支持断点续传
 
-
-- 示例
-
-> 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
 
 ```bash
+# 把本地的source.txt文件拷贝到192.168.0.10机器上的/home/work目录下
 scp -P 22 -p /home/work/source.txt work@192.168.0.10:/home/work/
-```
-
-> 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
-
-```bash
+# 把192.168.0.10机器上的source.txt文件拷贝到本地的/home/work目录下
 scp -P 22 -p work@192.168.0.10:/home/work/source.txt /home/work/
-```
-
-> 把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
-
-```bash
+# 把192.168.0.10机器上的source.txt文件拷贝到192.168.0.11机器的/home/work目录下
 scp -P 22 -p work@192.168.0.10:/home/work/source.txt work@192.168.0.11:/home/work/
 # 拷贝文件夹，加-r参数
 scp -P 22 -p -r /home/work/sourcedir work@192.168.0.10:/home/work/
@@ -417,36 +357,32 @@ scp -P 22 -p -r /home/work/sourcedir work@192.168.0.10:/home/work/
 scp -P 22 -p -r /home/work/sourcedir work@www.myhost.com:/home/work/
 # 显示详情，加-v参数
 scp -P 22 -p -r -v /home/work/sourcedir work@www.myhost.com:/home/work/  
-```
 
-> 将远程主机复制到本地
-
-```bash
+# 将远程主机复制到本地
 scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 ```
 
-**遇到的问题**
 
-> 输入密码时提示：`Permission denied, please try again.`
+### sftp
 
-- 先修改远程文件夹或文件的权限`chmod -R 777 路径`
-- 修改`PermitRootLogin`允许Root登录
+> sftp（SSH File Transfer Protocol）基于SSH，sftp允许对远程文件（查看目录，删除文件和目录等）进行一系列操作，支持断点续传
 
-```bash
-# 编辑sshd_config文件
-vi /etc/ssh/sshd_config
-# 搜索PermitRootLogin并修改为yes
-/PermitRootLogin
-# 重启ssh
-/etc/init.d/sshd restart
-```
+- `sftp -oPort=端口 用户名@IP` 登录，和ssh一样
+- put 把本地传递到远端（上传）
+- get 把远程传递到本地（下载）
+- ls和lls:ls是看sftp服务器下当前目录下文件， lls是看linux当前目录下的文件。
+- pwd和lpwd:pwd是看远端服务器的目录， 即sftp服务器默认的当前目录。 lpwd是看linux本地目录
+- `mget *.*` 从远端主机接收一批文件至本地主机
+- !command 这个是指在linux上执行command这个命令，比如`!ls`、`!rm a.txt`
+- exit、quit、bye: 退出。
+- help：再强调一下help，登录以后，一个help，基本可以搞定所有命令
 
 
 
 
 ### rsync
 
->【优点】功能强大，操作类似scp，支持排除目录，支持限速参数；还支持本地复制。 
+> 【优点】功能强大，操作类似scp，支持排除目录，支持限速参数；还支持本地复制。 
 >  
 > 【缺点】会耗系统资源，占用I/O
 >  
@@ -479,8 +415,6 @@ rsync -r -v /home/work/sourcedir work@www.myhost.com:/home/work/
 # 排除子目录，注意：--exclude后面的路径不能为绝对路径，必须为相对路径才可以，否则匹配不上，就不会被排除掉。
 rsync -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.com:/home/work/
 ```
-
-
 
 
 
@@ -574,3 +508,22 @@ IPV6_MTU="1280"
 service network restart
 ```
 
+
+## 监控探针
+
+* [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
+
+- `nethogs`: 按进程查看流量占用
+- `ethtool`: 诊断工具
+- `tcpdump`: 抓包工具
+- 监控总体带宽使用：`nload`、`bmon`、`slurm`、`bwm-ng`、`cbm`、`speedometer`、`netload`
+- 监控总体带宽使用（批量式输出）：`vnstat`、`ifstat`、`dstat`、`collectl`
+- 每个套接字连接的带宽使用：`iftop`、`iptraf`、`tcptrack`、`pktstat`、`netwatch`、`trafshow`、`jnettop`
+- `ntopng`
+- [https://github.com/aristocratos/bashtop](https://github.com/aristocratos/bashtop)
+- [https://github.com/aristocratos/bpytop](https://github.com/aristocratos/bpytop)
+
++ 带仪表盘的实时性能监控：[https://github.com/netdata/netdata](https://github.com/netdata/netdata)
++ 云探针、云监控、服务器云监控、多服务器探针 [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
++ [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
++ [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)

@@ -1,15 +1,15 @@
 # ORM
 
-> 对象关系映射（Object Relational Mapping，简称ORM）是通过使用描述对象和数据库之间映射的元数据，
-> 将面向对象语言程序中的对象自动持久化到关系数据库中。
-
 
 [[toc]]
 
 
 
 
-## flag
+## Flag
+
+> 对象关系映射（Object Relational Mapping，简称ORM）是通过使用描述对象和数据库之间映射的元数据，
+> 将面向对象语言程序中的对象自动持久化到关系数据库中。
 
 * [Java，JDBC和MySQL对应数据类型](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-type-conversions.html)
 * [http://www.squirrelsql.org](http://www.squirrelsql.org)
@@ -22,7 +22,6 @@
 **注意使用的JDBC驱动**
 
 - `com.mysql.jdbc.Driver`是`mysql-connector-java 5`中的，不再推荐使用
-
 - `com.mysql.cj.jdbc.Driver`是`mysql-connector-java 6`中的
 
 > 如果`mysql-connector-java`用的`6.0`以上的，但是你的`driver`用的还是`com.mysql.jdbc.Driver`，就会报错
@@ -30,6 +29,9 @@
 
 
 **URL及参数**
+
+* [(https://mysql-net.github.io/MySqlConnector/connection-options]((https://mysql-net.github.io/MySqlConnector/connection-options)
+    * [https://mysqlconnector.net/connection-options](https://mysqlconnector.net/connection-options)
 
 > `jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8`
 > `&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai`
@@ -49,7 +51,7 @@
 | socketTimeout         	| socket操作（读写）超时，单位：毫秒。 0表示永不超时                              	| 0      	| 3.0.1        	|
 | useSSL                	| 是否进行ssl连接                                                                 	|        	|              	|
 | zeroDateTimeBehavior  	| 把零值日期转换为`null`                                                          	|        	|              	|
-| serverTimezone        	| `GMT%2B8` `%2B`是`+`的转义字符,其实就是`GMT+8`,代表东八区。`Asia/Shanghai` 上海 	|        	|              	|
+| serverTimezone        	| `GMT%2B8` `%2B`是`+`的转义字符,其实就是`GMT+8`（'+8:00'）,代表东八区`Asia/Shanghai` 	|        	|              	|
 
 
 
@@ -58,6 +60,8 @@
 * [https://github.com/mybatis](https://github.com/mybatis)
 * [https://mybatis.org/mybatis-3/zh/dynamic-sql.html](https://mybatis.org/mybatis-3/zh/dynamic-sql.html)
 * [https://github.com/pagehelper/Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
+* [https://github.com/baomidou/mybatis-plus](https://github.com/baomidou/mybatis-plus)
+
 
 
 **trim标签**
@@ -164,7 +168,7 @@ List<Invest> is = session.createQuery(sql)
 
 >  spring 的框架提供了getHibernateTemplate().findByCriteria(detachedCriteria) 方法可以很方便地根据DetachedCriteria 来返回查询结果。
 
-- hibernate5.2版本之前createCriteria()查询的方式
+**hibernate5.2版本之前createCriteria()查询的方式**
 
 ```java
 // Restrictions.in传值为数组或list集合
@@ -189,7 +193,7 @@ criteria.add(Restrictions.like("time","%" + "2018-11-13" + "%"));
 criteria.add(Restrictions.sqlRestriction("time like '%2018-11-13%'"));
 ```
 
-- hibernate5.2及之后版本createCriteria()查询的方式
+**hibernate5.2及之后版本createCriteria()查询的方式**
 
 > 原有的session.createCriteria()方法已经过时，替代的方式是使用JPA Criteria。
 

@@ -5,7 +5,7 @@
 
 
 
-## flag
+## Flag
 
 > Shell俗称壳（用来区别于核），是指“为使用者提供操作界面”的软件（命令解析器），
 > Shell也用于泛指所有为用户提供操作界面的程序，也就是程序和用户交互的层面
@@ -13,6 +13,35 @@
 * [https://en.wikipedia.org/wiki/Shell_(computing)](https://en.wikipedia.org/wiki/Shell_(computing))
 
 - 命令行参考大全（Linux、macOS、CMD、PowerShell、VB Script）[https://ss64.com](https://ss64.com)
+- [https://www.robvanderwoude.com](https://www.robvanderwoude.com)
+
+
+
+## 行尾序列
+
+> 又叫行尾符、换行符
+
+* [https://zh.wikipedia.org/wiki/換行](https://zh.wikipedia.org/wiki/%E6%8F%9B%E8%A1%8C)
+* [https://zh.wikipedia.org/wiki/控制字符](https://zh.wikipedia.org/wiki/%E6%8E%A7%E5%88%B6%E5%AD%97%E7%AC%A6)
+
+- `CR`：Carriage Return，对应ASCII十进制是`13`, 十六进制`0x0D`，转义字符`\r`，表示回车，MacIntosh操作系统（Mac OSX 10.9之前）使用
+- `LF`：Linefeed，对应ASCII十进制是`10`, 十六进制`0x0A`，转义字符`\n`，表示换行，Unix/Linux/MacOSX使用
+- `CRLF`：Carriage Return & Linefeed，`\r\n`，表示回车并换行，Dos和Windows使用
+
+**Linux**
+
+```vim
+# 显示格式。
+:set ff
+# 设置为unix格式
+:set ff=unix
+# 保存
+:wq
+```
+
+**[GIT处理换行符](/IDE/Git安装使用.md#换行符处理)**
+
+
 
 
 ## batch与shell同义操作符
@@ -97,3 +126,21 @@
 | TYPE    | cat             | 将文件输出到stdout |
 | XCOPY   | cp              | (扩展的)文件拷贝    |
 
+
+
+
+## Windows第三方工具
+
++ 扫描任何32位或64位Windows模块（exe，dll，ocx，sys等）的函数：[http://www.dependencywalker.com](http://www.dependencywalker.com)
++ DLL导出查看器：[http://www.nirsoft.net/utils/dll_export_viewer.html](http://www.nirsoft.net/utils/dll_export_viewer.html)
++ RegDllView-查看系统上已注册的dll/ ocx/exe文件，从资源管理器注册dll文件：
+    + [http://www.nirsoft.net/utils/registered_dll_view.html](http://www.nirsoft.net/utils/registered_dll_view.html)
++ Windows 10的system32目录中的所有DLL文件信息：[http://windows10dll.nirsoft.net](http://windows10dll.nirsoft.net)
++ [https://github.com/jas502n/IDA_Pro_7.2](https://github.com/jas502n/IDA_Pro_7.2)
++ 下载– NTCore：[https://ntcore.com/?page_id=345](https://ntcore.com/?page_id=345)
++ 小型命令行实用程序：[http://www.ltr-data.se/opencode.html/#CmdUtils](http://www.ltr-data.se/opencode.html/#CmdUtils)
+* wget-网络请求工具 [https://eternallybored.org/misc/wget](https://eternallybored.org/misc/wget)
+* curl-网络请求工具 [https://github.com/curl/curl](https://github.com/curl/curl)
+* jq-解析json工具 [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
+* 转换位图图像 [https://github.com/ImageMagick](https://github.com/ImageMagick)
+* [https://github.com/ritchielawrence/cmdow](https://github.com/ritchielawrence/cmdow)

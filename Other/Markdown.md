@@ -6,7 +6,7 @@
 
 
 
-## flag
+## Flag
 
 > 该文件用来测试和展示书写README的各种markdown语法。
 >
@@ -19,6 +19,7 @@
 * [https://segmentfault.com/markdown](https://segmentfault.com/markdown)
 * [https://github.com/guodongxiaren/README](https://github.com/guodongxiaren/README)
 * [markdown语法大全](https://www.rumosky.wiki/docs/markdown)
+* [https://guides.github.com/features/mastering-markdown](https://guides.github.com/features/mastering-markdown)
 * Markdeep是Markdown的超集 [https://github.com/morgan3d/markdeep](https://github.com/morgan3d/markdeep)
 
 - [https://github.com/topics/emoji](https://github.com/topics/emoji)
@@ -28,6 +29,7 @@
     - [http://www.emoji-cheat-sheet.com](http://www.emoji-cheat-sheet.com)
 - [https://github.com/carloscuesta/gitmoji](https://github.com/carloscuesta/gitmoji)
 - [https://github.com/caiyongji/emoji-list](https://github.com/caiyongji/emoji-list)
+- [https://github.com/12313kaihuang/GitHub-Emoji](https://github.com/12313kaihuang/GitHub-Emoji)
 - [https://github.com/liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn)
 - [https://github.com/afeld/emoji-css](https://github.com/afeld/emoji-css)
 - [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
@@ -43,15 +45,15 @@
 
 ## 横线
 
-```vim
+```
 ***
 ```
 
-```vim
+```
 ---
 ```
 
-```vim
+```
 ___
 ```
 
@@ -222,7 +224,7 @@ ___
 ```diff
 * [获得当前日期+时间`date+time`函数](#获得当前日期时间datetime函数)
 
-## 获得当前日期+时间`date+time`函数
+## 获得当前日期+时间date+time函数
 ```
 ```diff
 * [获得当前日期+时间（date+time）函数](#获得当前日期时间datetime函数)
@@ -309,7 +311,11 @@ ___
 
 ## 代码高亮
 
-> 在三个反引号后面加上编程语言的名字，另起一行开始写代码，最后一行再加上三个反引号。
+> 在三个反引号后面加上编程语言的名字(如果是配置则为`ini`、`conf`、`properties`)，另起一行开始写代码，最后一行再加上三个反引号。
+
+* [https://en.wikipedia.org/wiki/Configuration_file](https://en.wikipedia.org/wiki/Configuration_file)
+* [https://prismjs.com/#supported-languages](https://prismjs.com/#supported-languages)
+
 
 ```Java
 public static void main(String[]args){} //Java
@@ -363,7 +369,7 @@ string &operator+(const string& A,const string& B) //cpp
 - `<sup></sup>`
 - `<sub></sub>`
 - `<br/>`
-- `<details><summary><strong style="font-size:160%;">点击查看</strong></summary></details>`
+- `<details><summary style="font-size:160%;">点击查看</summary></details>`
 
 
 ## 工具
@@ -443,11 +449,11 @@ string &operator+(const string& A,const string& B) //cpp
     * [https://dohliam.github.io/tocdown](https://dohliam.github.io/tocdown)
 * [markdown-toc-generate](https://magnetikonline.github.io/markdown-toc-generate)
     * [https://github.com/magnetikonline/markdown-toc-generate](https://github.com/magnetikonline/markdown-toc-generate)
-* [tocenize](https://github.com/nochso/tocenize)
-* [doctoc](https://github.com/thlorenz/doctoc)
-* [MDToc](https://github.com/dkyaorui/MDToc)
-* [markdown-it-toc-and-anchor](https://github.com/medfreeman/markdown-it-toc-and-anchor)
-* [gulp-format-md](https://github.com/jonschlinkert/gulp-format-md)
+* [https://github.com/nochso/tocenize](https://github.com/nochso/tocenize)
+* [https://github.com/thlorenz/doctoc](https://github.com/thlorenz/doctoc)
+* [https://github.com/dkyaorui/MDToc](https://github.com/dkyaorui/MDToc)
+* [https://github.com/medfreeman/markdown-it-toc-and-anchor](https://github.com/medfreeman/markdown-it-toc-and-anchor)
+* [https://github.com/jonschlinkert/gulp-format-md](https://github.com/jonschlinkert/gulp-format-md)
 
 
 ### 转换器
@@ -456,38 +462,30 @@ string &operator+(const string& A,const string& B) //cpp
     * [https://domchristie.github.io/turndown](https://domchristie.github.io/turndown)
 * [https://github.com/markdown-it/markdown-it](https://github.com/markdown-it/markdown-it)
 * [https://github.com/markedjs/marked](https://github.com/markedjs/marked)
+* [https://github.com/mdnice/markdown-resume](https://github.com/mdnice/markdown-resume)
+* [https://github.com/syfxlin/xkeditor](https://github.com/syfxlin/xkeditor)
+* [https://github.com/pandao/editor.md](https://github.com/pandao/editor.md)
+* [https://github.com/jonschlinkert/remarkable](https://github.com/jonschlinkert/remarkable)
+* [https://github.com/benweet/stackedit](https://github.com/benweet/stackedit)
 
 
 
 ### 在线版客户端
 
 * [https://dillinger.io](https://dillinger.io)
-* [https://github.com/mdnice/markdown-resume](https://github.com/mdnice/markdown-resume)
-* [xkeditor](https://github.com/syfxlin/xkeditor)
-
-> XK-Editor | 一个支持富文本和Markdown的编辑器
-
-* [editor.md](https://github.com/pandao/editor.md)
-
-> Editor.md 是一款开源的、可嵌入的 Markdown 在线编辑器（组件），基于 CodeMirror、jQuery 和 Marked 构建。
-
-* [remarkable](https://github.com/jonschlinkert/remarkable)
-* [markdown](https://tool.lu/markdown)
-* [dillinger](http://dillinger.io)
-
-> 漂亮强大，支持md, html, pdf 文件导出。支持dropbox, onedrive，google drive, github. 来自国外，可能不够稳定。
-
-* [StackEdit](https://stackedit.io)
-* [MaHua](http://mahua.jser.me)
-* [马克飞象](https://maxiang.io)
-* [Markdown Plus](http://mdp.tylingsoft.com)
-* [小书匠](http://markdown.xiaoshujiang.com)
-* [Cmd Markdown](https://www.zybuluo.com/mdeditor)
+* [https://tool.lu/markdown](https://tool.lu/markdown)
+* [https://github.com/jserme/mahua](https://github.com/jserme/mahua)
+    * [http://mahua.jser.me](http://mahua.jser.me)
+* 马克飞象 [https://maxiang.io](https://maxiang.io)
+* Markdown Plus [http://mdp.tylingsoft.com](http://mdp.tylingsoft.com)
+* 小书匠 [http://markdown.xiaoshujiang.com](http://markdown.xiaoshujiang.com)
+* Cmd Markdown [https://www.zybuluo.com/mdeditor](https://www.zybuluo.com/mdeditor)
 
 
 ### 本地版客户端
 
-* [typora](https://www.typora.io)
+* [https://github.com/typora](https://github.com/typora)
+    * [typora](https://www.typora.io)
 * [MarkPad](https://github.com/Code52/DownmarkerWPF)
 
 > MarkPad 是款开源的 Markdown 编辑器，与 Window 8 风格和谐友好的界面，可以直接在你的博客或者 GitHub 中打开、保存文档，

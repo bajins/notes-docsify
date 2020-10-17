@@ -6,10 +6,9 @@
 
 
 
-## flag
+## Flag
 
-* [https://www.jetbrains.com/products.html#type=ide](https://www.jetbrains.com/products.html#type=ide)
-* [JetBrains 系列软件汉化包](https://github.com/pingfangx/TranslatorX)
+* [IDEA设置.zip](/files/IDEA设置.zip)
 
 **Export Settings**
 
@@ -25,59 +24,56 @@
 
 
 
-## 每次启动进入欢迎界面
+## 启动进入欢迎界面
 
 - 打开`File` -> `Settings` -> `Appearance & Behavior` -> `System Settings`
-
-- 勾选`Startup/Shutdown`下的`Reopen last project on startup`选项
-
-
-## 格式化代码自动换行
-
-- 打开`File` -> `Settings` -> `Editor` -> `Code Style` -> `Java` -> `Wrapping and Braces`
-
-- 勾选`Keep when reformatting`下的`Line breaks`去除每次格式化时自动添加`+`符号
-
-- 勾选`Keep when reformatting`下的`Ensure right margin is not exceeded`自动换行
+     - 勾选`Startup/Shutdown`下的`Reopen last project on startup`选项
 
 
-## 代码最大行宽和自动换行
+## 格式化代码
 
 - 打开`File` -> `Settings` -> `Editor` -> `Code Style`
+     - 设置`General`下的`Hard wrap at`行宽；
+     - 勾选`General`下的`Wrap on typing`在编码时，超出最大行宽，则自动换行
 
-- 设置`General`下的`Hard wrap at`行宽；
+* 打开`File` -> `Settings` -> `Editor` -> `Code Style` -> `Java` -> `Wrapping and Braces`
+     * 勾选`Keep when reformatting`下的`Line breaks`去除每次格式化时自动添加`+`符号
+     * 勾选`Keep when reformatting`下的`Ensure right margin is not exceeded`自动换行
 
-- 勾选`General`下的`Wrap on typing`在编码时，超出最大行宽，则自动换行
+
++ 缩进参考线： `File` -> `Settings` -> `Appearance & Behavior` -> `Appearance` -> 右边勾选 `Show indent guides`
++ 垂直标尺： `File` -> `Settings` -> `Editor` -> `General` -> `Appearance`
+     + 2018之前版本，右边勾选 `Show right margin`
+     + 2018之后版本，右边勾选 `Show hard wrap guide` 或 `Show hard wrap and visual guides (configured in Code Style options)`
++ `File` -> `Settings` -> `Editor` -> `Code Style`
+     + `Hard wrap at` 会在格式化的时候强制插入换行符，形成显示效果上的换行
+     + `Wrap on typing` 输入字符会动态监测是否插入换行符
++  `File` -> `Settings` -> `Editor` -> `General` -> 右边`Soft wrap` （只会在 IDEA 的显示效果上有换行的效果，实际上并没有换行符）
 
 
-## 格式化代码注释处理
+**格式化代码注释处理**
 
 - 打开`File` -> `Settings` -> `Editor` -> `Code Style` -> `Java` -> 右边选择`JavaDoc`
 
 1. `Enable JavaDoc Formatting`启用JavaDoc格式化
-
 2. `Wrap at right margin`右边缘换行，当最后一个单词会超出边界时，自动换行
-
 3. `Do not wrap one line comments`同一行注释不要换行
-
 4. `Preserve line feeds`保留换行
 
 - 右边选择`Wrapping and Braces`
 
-1. `Comment at first column	false`代码格式化的时候保证`commet`符号在代码块附近
+1. `Comment at first column false`代码格式化的时候保证`commet`符号在代码块附近
 
 
 ## 去掉提示重复代码
 
 - 打开`File` -> `Settings` -> `Editor` -> `Inspections` -> `General`
-
 - 取消勾选`Duplincated File Template Usage`选项
 
 
 ## 去掉大小写敏感提示
 
 - 打开`File` -> `Settings` -> `Editor` -> `General` -> `Code Completion`
-
 - 取消勾选`Match case`，或者`Case sensitive completion`选择`None`
 
 
@@ -86,30 +82,21 @@
 - 打开 `File` -> `Settings` -> `Editor` -> `File Encodings`
 
 1. `Global Encoding` 全局编码
-
 2. `Project Encoding` 项目编码
-
 3. `Default encoding for properties files` 属性文件的默认编码
-
 4. 勾选`Transparent native-to-ascii conversion` 从本地转换ASCII
 
 
 ## 设置序列化ID
 
 - 打开 `File` -> `Settings` -> `Editor` -> `Inspections` -> `Java` -> `Serialization issues`
-
-1. 勾选`Serializable class without 'serialVersionUID'`
-
-2. 勾选`'serialVersionUID' field not declared 'private static final long'`
+     - 勾选`Serializable class without 'serialVersionUID'`
+     - 勾选`'serialVersionUID' field not declared 'private static final long'`
 
 
-## 自定义头部注释和模板
+## 自定义头部注释
 
-### 自定义头部注释
-
-- 打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes`
-
-> 在`File Header`中添加
+- 打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Includes` -> 在`File Header`中添加
 
 ```java
 /**
@@ -126,16 +113,35 @@
 ```
 
 - 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
+     - 在`Class`、`Interface`、`Enum`三个模板中的`public class ${NAME} {`上一行添加
 
-- 在`Class`、`Interface`、`Enum`三个模板中的`public class ${NAME} {`上一行添加
-
-```java
+```groovy
 #parse("File Header.java")
 ```
 
+* [JavaScript头部注释](#webStorm)
 
-* [JavaScript头部注释](#javascript-file自定义头注释)
 
+## 自定义模板
+
+- 打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files` -> 在`Class`模板中粘贴
+
+```groovy
+#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
+
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+#parse("File Header.java")
+
+public class ${NAME} {
+
+     //private static final Logger logger = LoggerFactory.getLogger(${NAME}.class);
+     private Logger log = LoggerFactory.getLogger(this.getClass());
+     
+}
+```
 
 
 ### 预定义模板变量
@@ -159,38 +165,12 @@
 
 
 
-### 自定义模板
-
-- 打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
-
-- 在`Class`模板中粘贴
-
-```java
-#if (${PACKAGE_NAME} && ${PACKAGE_NAME} != "")package ${PACKAGE_NAME};#end
-
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-#parse("File Header.java")
-
-public class ${NAME} {
-
-     //private static final Logger logger = LoggerFactory.getLogger(${NAME}.class);
-     private Logger log = LoggerFactory.getLogger(this.getClass());
-     
-}
-```
-
-
-
-## 自定义方法注释模板
+## 自定义方法注释
 
 - 默认方法注释快捷键：<kbd>/**</kbd> + <kbd>Enter</kbd>
-
 - Template text
 
-```java
+```groovy
 **
  * 
  * 
@@ -231,9 +211,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ## 鼠标悬停查看注释
 
 - 打开`File` -> `Settings` -> `Editor` -> `General`
-
 - 勾选`Other`下的`Show quick documentation on mouse move`选项
-
 - 在`Other`下的`Tooltip delay`输入鼠标悬停时间单位`milliseconds(毫秒)`
 
 
@@ -242,16 +220,13 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 > 注释默认靠左，可能代码前会有很大一段空格
 
 - 打开`File` -> `Settings` -> `Editor` -> `Code Style` -> `JAVA`、`HTML`、`JavaScript`、`XML`、`TypeScript`、`Groovy`、`Kotlin`
-
 - 右边选择`Code Generation` -> 取消勾选`Comment Code`下的`Line comment at first column`和`Block comment at first column`
 
 
 ## 自动优化导包
 
 - 打开`File` -> `Settings` -> `Editor` -> `General` -> `Auto Import`
-
 - 勾选`Add unambiguous imports on the fly`和`Optimize imports on the fly(for current project)`两个选项
-
 
 > `Add unambiguous imports on the fly` 自动帮我们优化导入的包，比如自动去掉一些没有用到的包。 
 
@@ -264,7 +239,6 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 * [Updating Applications on Application Servers](https://www.jetbrains.com/help/idea/updating-applications-on-application-servers.html)
 
 - 打开顶部菜单`Run` -> `Edit Configurations` -> 应用名称如`SpringBoot` -> `目标项目` -> `Configuration`
-
 - 选择`Spring Boot` -> `Update classes and resources`下的`On 'Update' action`和`On frame deactivation`两个选项
 
 > `On 'Update' action`当代码改变的时候做什么
@@ -291,9 +265,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 **静态**
 
 - 打开`File` -> `Settings` -> `Build, Execution, Deployment` -> `Compiler`
-
 - 勾选`Build project automatically`自动构建项目，仅在未运行/调试时有效，静态
-
 - 勾选`Complie independent modules in parallel`并行编译独立模块，可能需要更大的堆大小
 
 
@@ -302,9 +274,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 **去掉SQL检测**
 
 - 打开`File` -> `Settings` -> `Editor` -> `Inspections` -> `SQL`
-
 - 取消勾选`No data sources configured`如果没有，则提示创建一个数据源。
-
 - 取消勾选`SQL dialect detection`为`<Generic>`方言中的文件检测最匹配的SQL方言。
 
 
@@ -312,7 +282,6 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 **去掉背景**
 
 - 打开`File` -> `Settings` -> `Editor` -> `Color Scheme` -> `General` -> `Code`
-
 - 点击`Injected language fragment`，去掉最右边的`Background`选项。
 
 
@@ -329,7 +298,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ## PyCharm
 
 
-### `Python Script`自定义头注释
+**Python Script自定义头注释**
 
 * [预定义模板变量](#预定义模板变量)
 
@@ -351,19 +320,13 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ```
 
 - 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
+     - 在`Python Script`模板中第一行引用：`#parse("File Header")`
 
-- 在`Python Script`模板中第一行引用：`#parse("File Header")`
-
-> 默认函数注释快捷键：<kbd>"""</kbd> + <kbd>Enter</kbd>
-
-> 注意：如果使用函数注释时无法映射函数参数，在函数名中键入数遍光标，左上角亮起小灯泡，
-> 点击小灯泡（或者使用快捷键<kbd>Alt</kbd> + <kbd>Enter</kbd>），再点击`Insert documentation string stub`选择注释格式
 
 ### 自动导包
 
 - 打开`File` -> `Settings` -> `Editor` -> `General` -> `Auto Import`
-
-- 勾选`Python` -> `Show import popup`
+     - 勾选`Python` -> `Show import popup`
 
 
 
@@ -372,15 +335,18 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 - 打开 `File` -> `Settings` -> `Tools` -> `Python Integrated Tools`
 
 1. `Docstring format` 选择格式：默认`Plain`（空的）、`Epytext`（Python2）、`reStructuredText`、`NumPy`、`Google`
-
 2. `Docstrings` -> `Analyze Python code in docstrings` 分析文档字符串中的python代码
-
 3. `Render external documentation for stdlib` 渲染stdlib的外部文档
+
+- 默认函数注释快捷键：<kbd>"""</kbd> + <kbd>Enter</kbd>
+
+> 注意：如果使用函数注释时无法映射函数参数，在函数名中键入数遍光标，左上角亮起小灯泡，
+> 点击小灯泡（或者使用快捷键<kbd>Alt</kbd> + <kbd>Enter</kbd>），再点击`Insert documentation string stub`选择注释格式
 
 
 ## GoLand
 
-### `Go File`自定义头注释
+**Go File自定义头注释**
 
 * [预定义模板变量](#预定义模板变量)
 
@@ -401,13 +367,12 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 ```
 
 - 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
-
 - 在`Go File`模板中第一行引用：`#parse("File Header")`
 
 
 ## WebStorm
 
-### `JavaScript File`自定义头注释
+**JavaScript File自定义头注释**
 
 * [预定义模板变量](#预定义模板变量)
 
@@ -429,39 +394,9 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 
 - 引用：打开`File` -> `Settings` -> `Editor` -> `File and Code Templates` -> `Files`
-
-- 在`JavaScript File`模板中第一行引用：`#parse("File Header.js")`
-
+     - 在`JavaScript File`模板中第一行引用：`#parse("File Header.js")`
 - 默认函数注释快捷键：<kbd>/**</kbd> + <kbd>Enter</kbd>
 
-
-
-
-
-## 错误解决
-
-### idea无限indexing解决方法
-
-* [IntelliJ IDEA 缓存和索引介绍和清理方法](https://github.com/tengj/IntelliJ-IDEA-Tutorial/blob/newMaster/IntelliJ-IDEA-cache.md)
-
-![](https://github.com/tengj/IntelliJ-IDEA-Tutorial/raw/newMaster/images/xii-a-invalidate-cache-1.jpg)
-
-### OutOfMemoryError
-
-> `idea Exception in thread "http-apr-8080-exec-2" java.lang.OutOfMemoryError: PermGen space`
-
-- 打开顶部菜单`Run` -> `Edit Configurations` -> 应用名称如`SpringBoot` -> `目标项目` -> `Configuration`
-
-- 在`Vm options`中输入
-
-```
--Xms2048m
--Xmx2048m
--XX:MaxPermSize=4096m
--Drebel.spring_plugin=true
--Drebel.spring_mvc_plugin=true
--Drebel.hibernate_plugin=true
-```
 
 
 

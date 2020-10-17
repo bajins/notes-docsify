@@ -5,14 +5,14 @@
 
 
 
-## flag
+## Flag
 
 > 解释注解的方式：反射！反射是jdk中提供的一种机制，通过读取编译后的运行文件，反向获取类信息的一种手段！可以通过反射获取类、方法、成员变量上的运行时注解内容！
 
 > 元注解: 能注解到注解上的注解，能用在其他注解上的注解
 
 * [Java 注解（Annotation）](https://www.runoob.com/w3cnote/java-annotation.html)
-
+* [Javadoc标签和Javadoc注释规范](https://blog.csdn.net/linton1/article/details/93733508)
 
 
 ## JDK
@@ -201,11 +201,15 @@
 
 > `JSR-303`是`JAVA EE 6`中的一项子规范，叫做`Bean Validation`，但是这只是一个接口，没有具体实现。
 
++ [https://github.com/topics/validation](https://github.com/topics/validation)
++ [https://github.com/topics/validator](https://github.com/topics/validator)
+
 > `javax.validation.Validation`、`hibernate-validator`和`Spring validtor`
 > 提供了`JSR 303`规范中所有内置constraint 的实现，除此之外还有一些附加的 constraint
 
 * [https://beanvalidation.org](https://beanvalidation.org)
 * [这么写参数校验(validator)就不会被劝退了](https://juejin.im/post/5d3fbeb46fb9a06b317b3c48)
+* [四款数据校验的类(Validate)](https://blog.csdn.net/king101125s/article/details/104356059)
 
 | 注解                               	| 支持Java类型                                          	| 备注                                                         	|
 |------------------------------------	|-------------------------------------------------------	|--------------------------------------------------------------	|

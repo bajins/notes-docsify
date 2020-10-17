@@ -4,11 +4,23 @@
 
 
 
-## flag
+## Flag
+
++ [https://docs.oracle.com/javase/8/docs/technotes/tools](https://docs.oracle.com/javase/8/docs/technotes/tools)
 
 * 无侵入式的jvm监控工具MyPerf4J：[https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
 * Alibaba Java诊断利器Arthas：[https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
 * Java和Android堆转储分析器 [https://heaphero.io](https://heaphero.io)
+* GC 日志分析器 [https://gceasy.io](https://gceasy.io)
+* [https://github.com/chewiebug/GCViewer](https://github.com/chewiebug/GCViewer)
+* java程序跟踪工具 [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
+* [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
+
+
++ [逆向工具](/Other/MobileNative.md#逆向工具)
++ `javap -verbose 文件` 查看class文件内容
++ [https://github.com/ClassViewer](https://github.com/ClassViewer)
++ [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
 
 
 **其他命令**
@@ -527,7 +539,7 @@ jcmd <pid> GC.heap_dump /home/heap.hprof
 
 
 
-## 远程监控配置`JMX`
+## 远程监控参数
 
 > 在jvm启动参数中加入或在Tomcat的`/bin/catalina.sh`文件中加入
 
@@ -542,23 +554,20 @@ jcmd <pid> GC.heap_dump /home/heap.hprof
 
 
 
-## 远程Debug
-
-### 启动参数
+## 远程Debug参数
 
 > 注意参数一定要放在`-jar`命令之前，方可运行成功
 
-```shell
+```bash
 java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 -Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
 ```
 
-```shell
+```bash
 -agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
 ```
 
-
-### 参数说明
+**参数说明**
 
 - `-Djavax.net.debug` 查看调试信息，`all` 代表所有，其他有`SSL`,`handshake`,`date`,`trust manager`
 - `-Xdebug` 是通知JVM工作在DEBUG模式下
@@ -573,12 +582,3 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
    - `onthrow=java.io.IOException` 指明，当产生该类型的Exception时，JVM就会中断下来，进行调式。可选参数
    - `launch=/sbin/echo` 指明，当JVM被中断下来时，执行的可执行程序。可选参数
    - `onuncaught=y/n` 指明，出现uncaught exception 后，是否中断JVM的执行.
-
-### 客户端使用
-
-- 在IDEA中，点击顶部菜单`Run`点击`Edit Configuration`按钮-->出现弹窗，点击`+`按钮，找到`Remote`选项。
-- 在`Name`中填入Remote项目名称，在`Host`中填IP地址，在`Port`中填端口号，在`Use Module classpath`选择远程调试的项目module，配置完成后点击OK即可
-
-> 启动项目时选择刚刚填的Remote项目名称
-
-![](/images/IDEA远程debug调试.png)
