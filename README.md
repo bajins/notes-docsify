@@ -13,7 +13,8 @@
 │  nav.md           导航栏
 │  README.md        首页
 │  sidebar.md       侧边栏
-│  push.bat         列出导航栏、侧边栏、files、提交到仓库脚本
+│  push.bat         列出导航栏、侧边栏、files、提交到仓库Windows脚本
+│  push.sh          列出导航栏、侧边栏、files、提交到仓库Linux或Mac脚本
 │      
 ├─files             存放所有提供下载文件的文件夹
 │      
@@ -35,10 +36,10 @@
 - 保留上面[目录结构](#目录结构)列出的文件和文件夹，其他的全部删除
 - 创建自己的md文件，开始写作
 - 编辑入口文件（`index.html`）：其中评论系统有多个例子，可自行修改
-- Windows添加hook（注意添加后的文件编码格式（UTF-8）和换行符是否与系统对应）
+- Windows添加hook
     - 在项目中打开CMD执行`(echo #!/bin/bash& echo.& echo ./push.sh)>.git/hooks/pre-commit`
     - 或者`(for %i in ("#!/bin/bash" "./push.sh") do @echo %~i&@echo.)>.git/hooks/pre-commit`
-    - 在PowerShell中执行<code>echo "#!/bin/bash`n./push.sh">.git/hooks/pre-commit</code>
+    - 在PowerShell中执行<code>echo "#!/bin/bash`n./push.sh"| Out-File .git/hooks/pre-commit -encoding ASCII</code>
 - Linux或Mac添加hook
     - 在项目中执行`echo -e '#!/bin/bash\n\n./push.sh'>.git/hooks/pre-commit`
     - 如果提示`-bash: !": event not found`执行`chmod +x .git/hooks/pre-commit`设置权限
