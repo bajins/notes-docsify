@@ -35,7 +35,7 @@
 - 保留上面[目录结构](#目录结构)列出的文件和文件夹，其他的全部删除
 - 创建自己的md文件，开始写作
 - 编辑入口文件（`index.html`）：其中评论系统有多个例子，可自行修改
-- Windows添加hook
+- Windows添加hook（注意添加后的文件编码格式（UTF-8）和换行符是否与系统对应）
     - 在项目中打开CMD执行`(echo #!/bin/bash& echo.& echo ./push.sh)>.git/hooks/pre-commit`
     - 或者`(for %i in ("#!/bin/bash" "./push.sh") do @echo %~i&@echo.)>.git/hooks/pre-commit`
     - 在PowerShell中执行<code>echo "#!/bin/bash`n./push.sh">.git/hooks/pre-commit</code>
