@@ -8,10 +8,10 @@
 ## Flag
 
 + [https://github.com/denoland/deno](https://github.com/denoland/deno)
++ [https://github.com/nodejs](https://github.com/nodejs)
+    + [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
 
 * [NodeJs小册](https://nodejs.fasionchan.com/zh_CN/latest/index.html)
-* [https://github.com/nodejs](https://github.com/nodejs)
-* [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
 * [https://developer.ibm.com/zh/technologies/node-js](https://developer.ibm.com/zh/technologies/node-js)
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，
@@ -25,9 +25,9 @@
 
 
 
-
 ## 管理NodeJS
 
+* [https://github.com/tj/n](https://github.com/tj/n)
 
 **rpm**
 
@@ -49,6 +49,8 @@ node -v && npm -v
 **NVM**
 
 > nodeJs版本管理工具,管理nodejs版本和npm版本
+
+* [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
@@ -91,7 +93,10 @@ npm uninstall -g yarn
 
 - `npm i -g nrm` 安装`nrm`，`nrm ls` 查看下载镜像源，`nrm use taobao` 切换镜像源
 
-- 手动配置
+**[更多镜像源](/Other/#通用镜像)**
+
+
+**手动配置**
 
 > 如果使用`yarn`，就把命令开头的`npm`替换为`yarn`
 
@@ -261,25 +266,8 @@ request({
 
 
 
-## 原生应用开发
+## 原生桌面应用
 
-> 在3大主流渲染引擎里，webview、react native/weex、flutter，复杂度依次降低，渲染性能依次上升。
-
-+ [https://github.com/apache/cordova](https://github.com/apache/cordova)
-
-* [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
-    * [https://reactnative.cn](https://reactnative.cn)
-* [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
-* [https://github.com/angular/angular](https://github.com/angular/angular)
-    * [https://angular.io](https://angular.io)
-* [https://github.com/kuaifan/eeui](https://github.com/kuaifan/eeui)
-* [https://github.com/hminghe/weex-amui](https://github.com/hminghe/weex-amui)
-* [https://github.com/bingo-oss/bui-weex](https://github.com/bingo-oss/bui-weex)
-* [https://github.com/apache/incubator-weex](https://github.com/apache/incubator-weex)
-    * [https://github.com/apache/incubator-weex-ui](https://github.com/apache/incubator-weex-ui)
-    * [https://github.com/apache/incubator-weex-site](https://github.com/apache/incubator-weex-site)
-    * [https://segmentfault.com/t/weex](https://segmentfault.com/t/weex)
-* [https://github.com/NativeScript](https://github.com/NativeScript)
 * [https://github.com/topics/electron](https://github.com/topics/electron)
     * [https://github.com/electron/electron](https://github.com/electron/electron)
 * [使用 node-ffi 构建 Electron 和 C++ Library 混合桌面应用](https://io.hancel.org/2018/05/02/building-an-electron-hybrid-application.html)
@@ -302,11 +290,15 @@ request({
     * [PhantomJS -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/phantomjs.html)
 
 **[xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)**
+
 **[`chromedriver`](/Python/Python爬虫.md#chromedriver)**
 
 * [https://github.com/ebidel/try-puppeteer](https://github.com/ebidel/try-puppeteer)
 * [https://github.com/berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra)
 
+- Expect交互 [https://github.com/facebook/jest](https://github.com/facebook/jest)
+- [https://github.com/sinonjs](https://github.com/sinonjs)
+- [https://github.com/chaijs](https://github.com/chaijs)
 
 
 
@@ -349,6 +341,7 @@ request({
 * [微信小程序Markdown渲染库](https://github.com/TooBug/wemark)
 * [手持弹幕微信小程序版](https://github.com/redblue9771/minibarrage)
 * [https://github.com/super456/weapp_expressTime](https://github.com/super456/weapp_expressTime)
+* [https://github.com/ecomfe/echarts-for-weixin](https://github.com/ecomfe/echarts-for-weixin)
 
 
 

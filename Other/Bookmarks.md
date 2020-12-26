@@ -23,6 +23,7 @@
 
 * 免费学习编码 [https://github.com/freeCodeCamp](https://github.com/freeCodeCamp)
 * [https://github.com/apache](https://github.com/apache)
+    * [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
 * [https://github.com/google](https://github.com/google)
     * [https://github.com/googleapis](https://github.com/googleapis)
 * [https://github.com/Netflix](https://github.com/Netflix)
@@ -47,8 +48,14 @@
 * [https://www.fsf.org/resources](https://www.fsf.org/resources)
 * [https://projects.ow2.org](https://projects.ow2.org)
 * [https://www.openstack.org/software](https://www.openstack.org/software)
+* [https://openinfra.dev/projects](https://openinfra.dev/projects)
 * [https://github.com/yahoo](https://github.com/yahoo)
 * [https://github.com/adobe](https://github.com/adobe)
+* [https://github.com/eclipse](https://github.com/eclipse)
+    * [https://projects.eclipse.org](https://projects.eclipse.org)
+* OpenJS基金会 [https://github.com/openjs-foundation](https://github.com/openjs-foundation)
+    * [https://openjsf.org/projects](https://openjsf.org/projects)
+* [https://github.com/openeuler-mirror](https://github.com/openeuler-mirror)
 
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
@@ -56,6 +63,7 @@
 - 各种非常棒的学习项目 [https://github.com/jobbole](https://github.com/jobbole)
 - [https://github.com/doocs](https://github.com/doocs)
 - [https://github.com/apachecn](https://github.com/apachecn)
+- [https://github.com/PacktPublishing](https://github.com/PacktPublishing)
 
 
 
@@ -76,11 +84,14 @@
     * [Archive | waylau.com](https://waylau.com/archive)
     * [Books | waylau.com](https://waylau.com/books)
     * [https://legacy.gitbook.com/@waylau](https://legacy.gitbook.com/@waylau)
+* 后端开发常用框架文档及中文翻译 [https://github.com/docs4dev](https://github.com/docs4dev)
+    * [https://www.docs4dev.com](https://www.docs4dev.com)
 
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
 - [https://github.com/easychen](https://github.com/easychen)
-
+- 免费服务工具列表 [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
+- [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
 
 
 
@@ -89,6 +100,7 @@
 * [https://github.com/search?q=awesome](https://github.com/search?q=awesome)
 * [https://github.com/topics/awesome](https://github.com/topics/awesome)
 * [https://github.com/topics/awesome-list](https://github.com/topics/awesome-list)
+* 初学者友好项目列表[https://github.com/MunGell/awesome-for-beginners](https://github.com/MunGell/awesome-for-beginners)
 * [思维导图](https://github.com/search?o=desc&q=%E6%80%9D%E7%BB%B4%E5%AF%BC%E5%9B%BE&s=updated&type=Repositories)
 
 
@@ -120,6 +132,7 @@
 * 猫咪论文 [https://lunwen.im](https://lunwen.im)
 * iData（论文搜索） [http://www.cn-ki.net](http://www.cn-ki.net)
 * 文泉考试 [https://www.wqkaoshi.com](https://www.wqkaoshi.com)
+* 通过实践学习 [https://scrimba.com](https://scrimba.com)
 
 
 
@@ -127,6 +140,7 @@
 
 + [https://github.com/royeo/awesome-programming-books](https://github.com/royeo/awesome-programming-books)
 + [https://github.com/justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
++ [https://github.com/EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
 * 书栈网（极力推荐） [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
     * [https://www.bookstack.cn](https://www.bookstack.cn)
@@ -166,6 +180,9 @@
 * 云海天教程，超详细的免费教程网站！ [https://www.yht7.com](https://www.yht7.com)
 * 广场· 看云 [https://www.kancloud.cn/explore](https://www.kancloud.cn/explore)
 * 印记中文 -前端开发文档 [https://docschina.org](https://docschina.org)
+* [https://exploringjs.com](https://exploringjs.com)
+* [https://github.com/MrAlex6204/Books](https://github.com/MrAlex6204/Books)
+* [https://github.com/ameizi/DevArticles](https://github.com/ameizi/DevArticles)
 
 
 
@@ -204,7 +221,7 @@
 * [归档 – 云原生实验室 - Kubernetes|Docker|Istio|Envoy|Hugo|Golang|云原生](https://fuckcloudnative.io/archive)
 * [https://magiclen.org](https://magiclen.org)
 * [tianyunperfect/田云的博客](https://www.yuque.com/tianyunperfect/ygzsw4/gd0wdt)
-
+* [文章列表 | LFhacks.com](https://www.lfhacks.com/archive)
 
 
 ### Java
@@ -266,6 +283,8 @@
 * [AlgerFan | Blog](https://algerfan.cn)
 * [Java技术栈,分享最新最主流的Java技术](http://javastack.cn)
 * [Archives - 彭超 | Blog](https://antoniopeng.com/archive)
+* [archives - 沉默王二博客](http://www.itwanger.com/archives.html)
+* [archives - bugstack虫洞栈](https://bugstack.cn/archives.html)
 
 
 
@@ -310,6 +329,8 @@
 * [时光机 - FuocaのBlog](https://www.fuocu.cn/archives)
 * [https://www.lanmper.cn](https://www.lanmper.cn)
 * [https://github.com/woai3c/Front-end-articles](https://github.com/woai3c/Front-end-articles)
+* [归档 | EVE | 暴风雨前夕](https://evestorm.github.io/archives)
+* 英文 [2ality – JavaScript and more](https://2ality.com/archive.html)
 
 
 
@@ -354,6 +375,7 @@
 * [时光の轴 – 苍穹の下](https://www.bluesky.cf/%E6%97%B6%E5%85%89%E3%81%AE%E8%BD%B4)
 * [Qiantigers](https://www.qiantigers.top/archives)
 * [归档 | Eicky Blog](https://eicky.com/archives)
+* [趣乐子 – 快乐源于分享](https://www.7lez.com)
 
 
 

@@ -85,6 +85,7 @@ taskkill /f /im chromedriver.exe
 
 * [http://chromedriver.storage.googleapis.com/index.html](http://chromedriver.storage.googleapis.com/index.html)
 * [http://npm.taobao.org/mirrors/chromedriver](http://npm.taobao.org/mirrors/chromedriver)
+* [https://npm.taobao.org/mirrors/chromium-browser-snapshots](https://npm.taobao.org/mirrors/chromium-browser-snapshots)
 * [headless-chrome官方文档](https://developers.google.com/web/updates/2017/04/headless-chrome)
 * [功能和ChromeOptions官方网站参考](https://sites.google.com/a/chromium.org/chromedriver/capabilities)
 
@@ -283,7 +284,7 @@ driver.switch_to.window(main_window)
 
 > `OSX`操作系统通过组合键<kbd>COMMAND</kbd> + <kbd>T</kbd>或<kbd>COMMAND</kbd> + <kbd>W</kbd>来实现选项卡的打开/关闭
 
-> 在其他操作系统上，可以使用<kbd>CONTROL</kbd> + <kbd>T</kbd> / <kbd>CONTROL<kbd> + <kbd>W</kbd>
+> 在其他操作系统上，可以使用<kbd>CONTROL</kbd> + <kbd>T</kbd> / <kbd>CONTROL</kbd> + <kbd>W</kbd>
 
 ```python
 # windows 用Keys.CONTROL 如同ctrl+t打开新标签页
@@ -321,111 +322,6 @@ driver.execute_script( "return document.documentElement.outerHTML" )
 * [关于m3u8格式的视频文件ts转mp4下载和key加密问题](https://www.cnblogs.com/String-Lee/p/11391893.html)
 * [将TS转换为MP4](https://gist.github.com/larvata/95df619df7109d8b74d2b965a3266354)
 
-
-
-```python
-import os
-import time
-from urllib.parse import urljoin
-
-import m3u8
-import requests
-from glob import iglob
-
-from natsort import natsorted
-from dataclasses import dataclass
-from concurrent.futures import ThreadPoolExecutor
-# pip3 install pycryptodome
-# 进入python安装目录，如C:\python37
-# 在\Lib\site-packages目录下找到：
-# crypto这个目录重命名为: Crypto
-from Crypto.Cipher import AES
-
-UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.117 " \
-            "Safari/537.36"
-
-
-@dataclass
-class DownLoadM3U8(object):
-    m3u8_url: str
-    file_name: str
-
-    def __post_init__(self):
-        self.thread_pool = ThreadPoolExecutor(max_workers=10)
-        if not self.file_name:
-            self.file_name = 'new.mp4'
-        self.m3u8_obj = m3u8.load(self.m3u8_url)
-        self.cryptor = self.get_key()
-
-    def get_key(self):
-        """
-        获取key进行解密，这里可以获取method加密方式进行解密
-        """
-        if self.m3u8_obj.keys and self.m3u8_obj.keys[0]:
-            res = requests.get(self.m3u8_obj.keys[0].absolute_uri, headers={'User-Agent': UserAgent})
-            # AES 解密
-            return AES.new(res.content, AES.MODE_CBC, res.content)
-        else:
-            return None
-
-    def get_ts_url(self):
-        for seg in self.m3u8_obj.segments:
-            yield urljoin(self.m3u8_obj.base_uri, seg.uri)
-
-    def download_ts(self, url_info):
-        """
-        下载ts文件，写入时如果有加密需要解密
-        """
-        url, ts_name = url_info
-        res = requests.get(url, headers={'User-Agent': UserAgent})
-        with open(ts_name, 'wb') as fp:
-            if self.cryptor is not None:
-                fp.write(self.cryptor.decrypt(res.content))
-            else:
-                fp.write(res.content)
-
-    def download_all_ts(self):
-        ts_urls = self.get_ts_url()
-        for index, ts_url in enumerate(ts_urls):
-            self.thread_pool.submit(self.download_ts, [ts_url, f'{index}.ts'])
-        # 此方式可能使视频合并时顺序错乱
-        # for file in self.m3u8_obj.files:
-        #     url = urljoin(self.m3u8_obj.base_uri, file)
-        #     self.thread_pool.submit(self.download_ts, [url, url[url.rfind("/") + 1:]])
-        self.thread_pool.shutdown()
-
-    def run(self):
-        # 如果是第一层M3U8文件，那么就获取第二层的url
-        if self.m3u8_obj.playlists and self.m3u8_obj.data.get("playlists"):
-            self.m3u8_url = urljoin(self.m3u8_obj.base_uri, self.m3u8_obj.data.get("playlists")[0]["uri"])
-            self.__post_init__()
-        if not self.m3u8_obj.segments or not self.m3u8_obj.files:
-            raise ValueError("m3u8数据不正确，请检查")
-        self.download_all_ts()
-        ts_path = '*.ts'
-        with open(self.file_name, 'wb') as fn:
-            for ts in natsorted(iglob(ts_path)):
-                with open(ts, 'rb') as ft:
-                    sc_line = ft.read()
-                    fn.write(sc_line)
-        [os.remove(ts) for ts in iglob(ts_path)]
-        if os.path.exists("key.key"):
-            os.remove("key.key")
-
-
-if __name__ == '__main__':
-    # aHR0cHM6Ly93d3cuMTAyNHV1LmNjL3ZvZC9saXN0aW5nLTQtMC0wLTAtMC0wLTAtMC0wLTEuaHRtbA==
-    m3u8_url = 'https://zk.wb699.com/2019/03/06/aLdpUIBeHC48HGTk/playlist.m3u8'
-    file_name = ''
-
-    start = time.time()
-
-    M3U8 = DownLoadM3U8(m3u8_url, file_name)
-    M3U8.run()
-
-    end = time.time()
-    print('耗时:', end - start)
-```
 
 
 

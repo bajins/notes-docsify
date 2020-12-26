@@ -13,13 +13,29 @@
 * 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
 
 
-## Chrome下载
 
+
+## 浏览器下载
+
+
+* [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
+    * [Chrome下载/插件/DevTools/账号迁移](/IDE/Chrome.md)
+    * [有更新组件及服务的最新官方稳定版，离线安装包 x64](https://redirector.gvt1.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi)
+    * [无更新组件及服务的最新官方稳定版，离线安装包 x64](https://redirector.gvt1.com/edgedl/release2/chrome/CUtGVpXHPGLv_SbZcTshgQ_87.0.4280.88/87.0.4280.88_chrome_installer.exe)
 * [https://www.chromedownloads.net](https://www.chromedownloads.net)
 * [https://www.iplaysoft.com/tools/chrome](https://www.iplaysoft.com/tools/chrome)
 * [https://tools.shuax.com/chrome](https://tools.shuax.com/chrome)
 * [https://www.chrome64bit.com](https://www.chrome64bit.com)
 * [https://chrome.playes.net/chrome](https://chrome.playes.net/chrome)
+
+
++ [https://browsehappy.com](https://browsehappy.com)
++ [https://shuax.com](https://shuax.com)
+
+* [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
+    *  [最新官方稳定版离线安装包 x64](https://go.microsoft.com/fwlink/?LinkID=2093437)
+* [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
+
 
 
 ## 设置
@@ -34,6 +50,8 @@ chrome://flags/#enable-parallel-downloading
 
 ## DevTools
 
++ [https://github.com/search?q=chrome-dev-tools](https://github.com/search?q=chrome-dev-tools)
+
 * [https://github.com/googlechrome](https://github.com/googlechrome)
 * [https://github.com/GoogleChrome/devtools-docs](https://github.com/GoogleChrome/devtools-docs)
     * [https://developer.chrome.com/devtools/index](https://developer.chrome.com/devtools/index)
@@ -45,27 +63,45 @@ chrome://flags/#enable-parallel-downloading
         * [https://www.frontendwingman.com/Chrome](https://www.frontendwingman.com/Chrome)
         * [https://juejin.im/book/5c526902e51d4543805ef35e](https://juejin.im/book/5c526902e51d4543805ef35e)
 * [https://github.com/ChromeDevTools](https://github.com/ChromeDevTools)
+* [https://github.com/blittle/chrome-dev-tools](https://github.com/blittle/chrome-dev-tools)
+* Chrome开发者工具中文手册 [https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
 
 - Firefox 开发者工具 [https://developer.mozilla.org/zh-CN/docs/Tools](https://developer.mozilla.org/zh-CN/docs/Tools)
 - Firefox浏览器开发人员版 [https://www.mozilla.org/zh-CN/firefox/developer](https://www.mozilla.org/zh-CN/firefox/developer)
 
 
+**其他设置**
+
 - Network测量资源的加载时间隐藏
     - 老版本，点击`View`后面的多级图（`Show overview`）
-    - 新版本，点击最右侧⚙️(设置)去掉 `Show overview` 勾选
+    - 新版本，点击最右侧⚙️(Settings)去掉 `Show overview` 勾选
 - 勾选`Disable cache` 禁用缓存
 - `--auto-open-devtools-for-tabs` 打开新标签页时自动打开DevTools，修改 Chrome 的桌面快捷方式，增加启动参数
     - 已经打开了Chrome，需要先关闭，或使用参数`–user-data-dir=./`
 - `Auto-open DevTools for popups` 自动打开DevTools弹出窗口
-    - 老版本， ┇ -> Settings -> Perference -> DevTools
+    - 新版本， 点击最右侧⚙️(Settings) -> Perference -> DevTools
     - 新版本， ┇ -> More tools -> Settings -> Perference -> Global
 
 + `Source` -> 在JS被调用的方法中打断点 -> `Watch`查看变量，`Call Stack` 查看调用堆栈（同`console.trace()`）
 
 
+**Source中的JS无法实时修改**
+
+> 很有可能是开启了`Pretty Print`（JS编辑框左下角的`{}`）导致
+
+- `Source` -> JS编辑框左下角的`{}`如果有则点击一下再看JS是否可编辑
+- 新版本， 点击最右侧⚙️(Settings) -> Perference -> Restore defaults and reload
+- 老版本， ┇ -> More tools -> Settings -> Perference -> Restore defaults and reload
+- 关闭Chrome -> `%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\` -> 编辑 `Preferences.json` -> `prettyPrintInfobarDisabled: false`
+
++ `Source` -> Snippet（Page旁边） -> `+ New snippet` -> 右侧编辑器写要执行的代码 -> 左侧文件名上右键选择`Run`运行
+
+
+
+
 ## 插件
 
-* [https://github.com/topics/crx]
+* [https://github.com/topics/crx](https://github.com/topics/crx)
 * [https://github.com/topics/chrome-extension](https://github.com/topics/chrome-extension)
 * 冻结暂时用不到的标签页 [https://github.com/deanoemcke/thegreatsuspender](https://github.com/deanoemcke/thegreatsuspender)
 

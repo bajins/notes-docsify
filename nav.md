@@ -74,8 +74,6 @@
 
 * [SQL](/SQL/README.md)
 
-  * [MySQL主从同步](/SQL/MySQL主从同步.md)
-
   * [MySQL事件](/SQL/MySQL事件.md)
 
   * [MySQL备份恢复数据](/SQL/MySQL备份恢复数据.md)

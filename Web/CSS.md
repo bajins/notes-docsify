@@ -22,18 +22,9 @@
     - [https://less.bootcss.com](https://less.bootcss.com)
 
 
-## 第三方依赖库
+## 第三方库
 
 - [https://github.com/topics/css-framework](https://github.com/topics/css-framework)
-
-+ [https://github.com/topics/bootstrap](https://github.com/topics/bootstrap)
-+ [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
-    + [https://www.bootcss.com](https://www.bootcss.com)
-    + [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)
-        + [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
-    + [https://github.com/eonasdan/bootstrap-datetimepicker](https://github.com/eonasdan/bootstrap-datetimepicker)
-    + [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)
-+ [https://github.com/jquery/jquery-ui](https://github.com/jquery/jquery-ui)
 
 
 * [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)
@@ -389,6 +380,8 @@ div:hover{
 
 > 字体居中需使元素与父级元素等宽
 
++ [CSS Flex弹性布局，多个div自动换行，源码](https://www.cnblogs.com/orzzt/p/9713037.html)
+
 * [horizontal-arrangement-flex.html](/files/horizontal-arrangement-flex.html)
 * [horizontal-arrangement-float-left.html](/files/horizontal-arrangement-float-left.html)
 * [horizontal-arrangement-inline-block.html](/files/horizontal-arrangement-inline-block.html)
@@ -442,8 +435,8 @@ div:hover{
 
 ## 伪类和伪元素
 
-* [伪类](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)
-* [伪元素](https://developer.mozilla.org/zh-CN/docs/Web/CSS/pseudo-elements)
+* [伪类 - CSS（层叠样式表） | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)
+* [伪元素 - CSS（层叠样式表） | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/pseudo-elements)
 * [伪元素组成的时间线](https://github.com/woytu/notes-vuepress/commits/master)
 
 

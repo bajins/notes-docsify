@@ -49,6 +49,16 @@ msg %username% /time:60 "WARNING:a backdoor account is created"
 
 ## 文件操作
 
+* [robocopy复制文件及目录结构](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/robocopy)
+
+```batch
+:: 路径都为文件所在顶级文件夹
+robocopy /ndl /njh /njs /s 源路径 目的路径 复制的文件多个以空格分隔
+```
+
+* [xcopy复制文件及目录结构](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/xcopy)
+* [forfiles遍历文件夹](https://docs.microsoft.com/zh-cn/windows-server/administration/windows-commands/forfiles)
+
 ```batch
 :: 列出文件，类似于linux下的ls
 dir
@@ -358,16 +368,20 @@ SCHTASKS /run /TN 任务名称
 
 ### 事件
 
-* [Windows事件](https://docs.microsoft.com/zh-cn/windows/win32/events/windows-events)
+* [https://docs.microsoft.com/zh-cn/windows/win32/events/windows-events](https://docs.microsoft.com/zh-cn/windows/win32/events/windows-events)
+* [https://docs.microsoft.com/zh-cn/previous-versions//aa385231(v=vs.85)]( https://docs.microsoft.com/zh-cn/previous-versions//aa385231(v=vs.85))
+* [https://docs.microsoft.com/zh-cn/windows/win32/wes/windows-event-log](https://docs.microsoft.com/zh-cn/windows/win32/wes/windows-event-log)
 
-> 打开eventvwr -> Windows 日志 -> 系统 右键打开菜单 -> 将所有事件另存为(E) -> 选择保存类型
+- `eventvwr` 打开事件查看器
+    - 打开eventvwr -> Windows 日志 -> 系统 右键打开菜单 -> 将所有事件另存为(E) -> 选择保存类型为xml
+- `eventcreate` 该命令行工具使管理员能够创建一个自定义事件 ID 和消息于某指定事件日志里。
+- `wmic ntevent /?`
+    - `wmic ntevent list full` 查看所有事件日志
+- `wmic nteventlog /?`
+- `wevtutil.exe qe Application /c:3 /rd:true /f:text`
+- `(get-winevent -listlog Application).providernames` 或者 `wevtutil el` 查看所有事件名
+- `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers` 注册表中所有事件
 
-- eventvwr 打开事件查看器
-- eventcreate 该命令行工具使管理员能够创建一个自定义事件 ID 和消息于某指定事件日志里。
-- wmic ntevent /?
-    - 查看所有事件日志 wmic ntevent list full
-- wmic nteventlog /?
-- wevtutil.exe qe Application /c:3 /rd:true /f:text
 
 | 事件源               	| 事件ID 	| 说明                                                	|
 |----------------------	|--------	|-----------------------------------------------------	|

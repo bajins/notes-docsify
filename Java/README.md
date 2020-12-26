@@ -22,16 +22,10 @@
     * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
     * [https://www.oracle.com/java/technologies/java-ee-glance.html](https://www.oracle.com/java/technologies/java-ee-glance.html)
 
-
-+ [https://github.com/javaee](https://github.com/javaee)
 + [https://github.com/eclipse-ee4j](https://github.com/eclipse-ee4j)
     + [https://projects.eclipse.org/jakartaee/releases/8](https://projects.eclipse.org/jakartaee/releases/8)
-+ [https://github.com/jersey](https://github.com/jersey)
-+ [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
-    + [下载地址镜像](/Other/README.md#通用镜像)
-+ 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
-    + [http://vertx.io](http://vertx.io)
-    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
+    + [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
+
 
 - [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
 - [JAX-WS与JAX-RS区别是什么？](https://blog.csdn.net/dogiant/article/details/54907506)
@@ -48,6 +42,11 @@
 - [可代替 ASM，使用 AnnotationProcessor 做代码插桩](https://www.dazhuanlan.com/2019/10/16/5da5f67797300)
 - [动态代理和Lombok学习](https://blog.csdn.net/qq_41022073/article/details/105342238)
 - [Spring AOP和Lombok是什么原理？](https://www.cnblogs.com/woetu/p/13658575.html)
+- [这四种对象属性拷贝方式，你都知道吗？](https://www.cnblogs.com/vandusty/p/12757992.html)
+- [领域模型转换那些事儿](https://zhuanlan.zhihu.com/p/86282401)
+
++ [https://gitlab.ow2.org/asm/asm](https://gitlab.ow2.org/asm/asm)
++ [https://asm.ow2.io](https://asm.ow2.io)
 
 + JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
 + [什么是JNDI？](https://blog.csdn.net/gybshen/article/details/82717578)
@@ -71,61 +70,42 @@
 
 + [https://github.com/Snailclimb/awesome-java](https://github.com/Snailclimb/awesome-java)
 
+* 多个学习项目组织 [https://github.com/doocs](https://github.com/doocs)
 * [https://github.com/Snailclimb/JavaGuide](https://github.com/Snailclimb/JavaGuide)
 * [https://github.com/crossoverJie/JCSprout](https://github.com/crossoverJie/JCSprout)
 * [https://github.com/kdn251/interviews](https://github.com/kdn251/interviews)
-* [https://github.com/doocs/advanced-java](https://github.com/doocs/advanced-java)
-    * [https://github.com/doocs/jvm](https://github.com/doocs/jvm)
-* [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
+* 《Java编程思想》 第5版  [https://github.com/LingCoder/OnJava8](https://github.com/LingCoder/OnJava8)
 * [https://github.com/CyC2018/CS-Notes](https://github.com/CyC2018/CS-Notes)
 * [https://github.com/hollischuang/toBeTopJavaer](https://github.com/hollischuang/toBeTopJavaer)
-* [https://github.com/topics/effective-java](https://github.com/topics/effective-java)
+* [https://github.com/search?q=effective-java](https://github.com/search?q=effective-java)
+    * [https://github.com/sjsdfg/effective-java-3rd-chinese](https://github.com/sjsdfg/effective-java-3rd-chinese)
     * [https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual](https://github.com/clxering/Effective-Java-3rd-edition-Chinese-English-bilingual)
-    * [Effective Java 第三版](https://www.jianshu.com/p/fc7b69608954)
     * [https://gitee.com/liuzidong/effctive-java-3rd-chinese](https://gitee.com/liuzidong/effctive-java-3rd-chinese)
+    * [https://gitee.com/lin-mt/effective-java-third-edition](https://gitee.com/lin-mt/effective-java-third-edition)
 * [https://github.com/hansonwang99/JavaCollection](https://github.com/hansonwang99/JavaCollection)
 * [https://github.com/RedSpider1/concurrent](https://github.com/RedSpider1/concurrent)
 * [https://github.com/javagrowing/JGrowing](https://github.com/javagrowing/JGrowing)
 * Java服务端知识技能图谱 [https://github.com/caison/java-knowledge-mind-map](https://github.com/caison/java-knowledge-mind-map)
 * [https://github.com/qinxuewu/docs](https://github.com/qinxuewu/docs)
 * [https://github.com/scalad/Note](https://github.com/scalad/Note)
+* [https://github.com/fuzhengwei/CodeGuide](https://github.com/fuzhengwei/CodeGuide)
 * [https://github.com/stalary/Source-code-analysis](https://github.com/stalary/Source-code-analysis)
 * [https://github.com/nibnait/algorithms](https://github.com/nibnait/algorithms)
 * [https://github.com/Childe-Mu/java_notes](https://github.com/Childe-Mu/java_notes)
 * [https://github.com/Childe-Mu/bio-nio-aio-netty-notes](https://github.com/Childe-Mu/bio-nio-aio-netty-notes)
 * [https://github.com/whx123/JavaHome](https://github.com/whx123/JavaHome)
 * [https://developer.ibm.com/zh/technologies/java/gettingstarted](https://developer.ibm.com/zh/technologies/java/gettingstarted)
-* Java实现的算法 [https://github.com/TheAlgorithms/Java](https://github.com/TheAlgorithms/Java)
 * 深入理解Java函数式编程和Streams API [https://github.com/CarpenterLee/JavaLambdaInternals](https://github.com/CarpenterLee/JavaLambdaInternals)
 * Java源码分析 【源码笔记】 [https://github.com/yuanmabiji/Java-SourceCode-Blogs](https://github.com/yuanmabiji/Java-SourceCode-Blogs)
     * [https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis](https://github.com/yuanmabiji/jdk1.8-sourcecode-analysis)
 * [http://github.com/CarpenterLee/JavaLambdaInternals](http://github.com/CarpenterLee/JavaLambdaInternals)
+* [https://github.com/itwanger/javabooks](https://github.com/itwanger/javabooks)
+* [https://github.com/donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
+* [https://github.com/crisxuan/bestJavaer](https://github.com/crisxuan/bestJavaer)
+* [https://github.com/fenixsoft/awesome-fenix](https://github.com/fenixsoft/awesome-fenix)
 
 + [https://github.com/sanshengshui/netty-learning-example](https://github.com/sanshengshui/netty-learning-example)
 + [https://github.com/Wizzercn/MqttWk](https://github.com/Wizzercn/MqttWk)
-
-
-**Mime-Type/Content-Type/Media-Type**
-
-- `com.google.common.net.MediaType` guava
-- `javax.ws.rs.core.MediaType` Jersey框架
-- `org.springframework.http.MediaType` spring框架
-
-
-**HTTP**
-
-- `HttpURLConnection` Java自带API
-- `RestTemplate` 默认实现是`HttpURLConnection`，`ForEntity`返回响应码、响应消息体等，`ForObject`只返回消息体
-- `WebClient`是`Spring 5.0`开始提供的非阻塞响应式编程的Http工具。
-- `Apache HttpComponents` [http://hc.apache.org](http://hc.apache.org)
-- `okHttp` [https://github.com/square/okhttp](https://github.com/square/okhttp)
-- `Netty` 
-- `google-http-java-client` [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
-- [https://github.com/OpenFeign](https://github.com/OpenFeign)
-- [https://github.com/square/retrofit](https://github.com/square/retrofit)
-    - [https://github.com/LianjiaTech/retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)
-
-* [HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)
 
 
 
@@ -135,6 +115,11 @@
 + [Maven详细教程](https://segmentfault.com/a/1190000015077021)
 
 * [http://mvnrepository.com](http://mvnrepository.com)
+* [https://search.maven.org](https://search.maven.org)
+* [https://nexus.pentaho.org](https://nexus.pentaho.org)
+* [https://public.nexus.pentaho.org](https://public.nexus.pentaho.org)
+* JFrog Bintray [https://github.com/bintray](https://github.com/bintray)
+    * [https://bintray.com](https://bintray.com)
 
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
@@ -146,11 +131,14 @@
 * [maven镜像配置文件](/files/settings.xml)
 * [https://maven.aliyun.com/mvn/view](https://maven.aliyun.com/mvn/view)
 
+**[更多镜像源](/Other/#通用镜像)**
+
 
 
 ### Maven私服搭建
 
 * [https://github.com/sonatype](https://github.com/sonatype)
+    * [https://github.com/sonatype-nexus-community](https://github.com/sonatype-nexus-community)
     * [https://help.sonatype.com/repomanager3/download](https://help.sonatype.com/repomanager3/download)
     * [docker 快速搭建maven私服并上传jar包](https://www.cnblogs.com/yscec/p/12898226.html)
     * [Maven部署jar包到远程仓库](https://blog.csdn.net/ThinkWon/article/details/101483769)
@@ -224,35 +212,38 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 ## 第三方库
 
++ [https://github.com/typetools](https://github.com/typetools)
++ [http://www.apache.org/index.html#projects-list](http://www.apache.org/index.html#projects-list)
+    + [下载地址镜像](/Other/README.md#通用镜像)
++ 响应式 [https://github.com/eclipse-vertx/vert.x](https://github.com/eclipse-vertx/vert.x)
+    + [http://vertx.io](http://vertx.io)
+    + [https://appdev.openshift.io/docs/vertx-runtime.html](https://appdev.openshift.io/docs/vertx-runtime.html)
++ WebFlux采用的默认反应式框架 [https://github.com/reactor](https://github.com/reactor)
++ 完全实现了Reactive Streams规范 [https://github.com/akka/akka](https://github.com/akka/akka)
++ 响应流框架 [https://github.com/Atmosphere](https://github.com/Atmosphere)
++ [https://github.com/netty/netty](https://github.com/netty/netty)
++ [https://github.com/luxiaoxun/NettyRpc](https://github.com/luxiaoxun/NettyRpc)
++ [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
++ [https://github.com/TooTallNate/Java-WebSocket](https://github.com/TooTallNate/Java-WebSocket)
+
+
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
 * [https://github.com/auth0/java-jwt](https://github.com/auth0/java-jwt)
-
-+ [https://github.com/rabbitmq](https://github.com/rabbitmq)
-+ [https://github.com/reactor](https://github.com/reactor)
-* [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
-
-
-- [https://github.com/xuxueli](https://github.com/xuxueli)
-
-* [https://github.com/netty/netty](https://github.com/netty/netty)
-* [https://github.com/luxiaoxun/NettyRpc](https://github.com/luxiaoxun/NettyRpc)
-* [https://github.com/tywo45/t-io](https://github.com/tywo45/t-io)
-
-- [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
-- [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
-- [https://gitee.com/jd-platform-opensource/hotkey](https://gitee.com/jd-platform-opensource/hotkey)
-
-
-+ [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)
-    + [JSch-用java实现服务器远程操作](https://segmentfault.com/a/1190000019967309)
-+ [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
-
+* [https://github.com/rabbitmq](https://github.com/rabbitmq)
+* [https://github.com/apache/kafka](https://github.com/apache/kafka)
+    * [Kafka安装及入门](http://jaychang.cn/2020/03/15/afka%E5%AE%89%E8%A3%85%E5%8F%8A%E5%85%A5%E9%97%A8)
+    * [https://github.com/spring-projects](https://github.com/spring-projects)
+* [https://github.com/xuxueli](https://github.com/xuxueli)
+* [https://github.com/elastic/elasticsearch](https://github.com/elastic/elasticsearch)
+* [https://github.com/apache/lucene-solr](https://github.com/apache/lucene-solr)
+* [https://gitee.com/jd-platform-opensource/hotkey](https://gitee.com/jd-platform-opensource/hotkey)
+* [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)
+    * [JSch-用java实现服务器远程操作](https://segmentfault.com/a/1190000019967309)
+* [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
 * [https://projects.eclipse.org/projects/technology.microprofile](https://projects.eclipse.org/projects/technology.microprofile)
     * [https://github.com/eclipse/microprofile](https://github.com/eclipse/microprofile)
-
-
-- [https://github.com/webjars](https://github.com/webjars)
-    - [https://www.webjars.org](https://www.webjars.org)
+* [https://github.com/webjars](https://github.com/webjars)
+    * [https://www.webjars.org](https://www.webjars.org)
 
 
 
@@ -269,7 +260,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 **JSON**
 
 + [https://github.com/json-schema-org](https://github.com/json-schema-org)
-+ Jakarta JSON处理规范，API和兼容的实现：[https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
++ Jakarta JSON处理规范 [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
 
 - [https://github.com/FasterXML/jackson](https://github.com/FasterXML/jackson)
 - [https://github.com/stleary/JSON-java](https://github.com/stleary/JSON-java)
@@ -315,35 +306,55 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 **工具**
 
-* [https://github.com/google/guava](https://github.com/google/guava)
-* [https://github.com/SpringForAll](https://github.com/SpringForAll)
-* [https://github.com/looly/hutool](https://github.com/looly/hutool)
-* [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
-* [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
-* [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
-* 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
++ [https://github.com/google/guava](https://github.com/google/guava)
++ [https://github.com/SpringForAll](https://github.com/SpringForAll)
++ [https://github.com/looly/hutool](https://github.com/looly/hutool)
++ [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
++ [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
++ [https://github.com/apache/commons-lang](https://github.com/apache/commons-lang)
++ 流式断言器 [https://github.com/assertj](https://github.com/assertj)
+    + [https://assertj.github.io/doc](https://assertj.github.io/doc)
++ [https://github.com/hamcrest/JavaHamcrest](https://github.com/hamcrest/JavaHamcrest)
+
 * [https://github.com/HtmlUnit/htmlunit](https://github.com/HtmlUnit/htmlunit)
 * [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
-* 对配置内容加密：[https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
-* 适用于Java8以下的时间替代项目`joda-time`：[https://github.com/JodaOrg](https://github.com/JodaOrg)
+* 对配置内容加密 [https://github.com/ulisesbocchio/jasypt-spring-boot](https://github.com/ulisesbocchio/jasypt-spring-boot)
+* Java8以下的时间替代项目`joda-time` [https://github.com/JodaOrg](https://github.com/JodaOrg)
 * Google加密 [https://github.com/google/tink](https://github.com/google/tink)
 * bcprov-jdk15on [https://github.com/bcgit/bc-java](https://github.com/bcgit/bc-java)
 * Apache Commons编解码器 [https://github.com/apache/commons-codec](https://github.com/apache/commons-codec)
 * Headless Chrome For Java [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
-* [utf8+bom编码格式 java 文件 转换为 utf8 格式文件](https://github.com/andotorg/utf8bom-to-utf8)
-* [从GBK到UTF8的某些路径中的文件编码转换](https://github.com/downgoon/gbk2utf8)
+* [https://github.com/andotorg/utf8bom-to-utf8](https://github.com/andotorg/utf8bom-to-utf8)
+* [https://github.com/downgoon/gbk2utf8](https://github.com/downgoon/gbk2utf8)
 * 类路径扫描器和模块扫描器 [https://github.com/classgraph](https://github.com/classgraph)
 * Java 应用程序打包 [https://github.com/fvarrui/JavaPackager](https://github.com/fvarrui/JavaPackager)
 * [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)
 
 
-- [https://github.com/topics/mapping](https://github.com/topics/mapping)
-- [https://github.com/topics/bean-mapping](https://github.com/topics/bean-mapping)
-- [https://github.com/topics/javabeans](https://github.com/topics/javabeans)
-- BeanUtils替代 [https://github.com/mapstruct](https://github.com/mapstruct)
-- [https://github.com/orika-mapper](https://github.com/orika-mapper)
+
+**数据拷贝**
+
++ [https://github.com/topics/mapping](https://github.com/topics/mapping)
++ [https://github.com/topics/bean-mapping](https://github.com/topics/bean-mapping)
++ [https://github.com/topics/javabeans](https://github.com/topics/javabeans)
+
+* JMH基准测试 [https://github.com/arey/java-object-mapper-benchmark](https://github.com/arey/java-object-mapper-benchmark)
+
+- [https://github.com/apache/commons-beanutils](https://github.com/apache/commons-beanutils)
+- 替代BeanUtils [https://github.com/mapstruct](https://github.com/mapstruct)
+- [https://github.com/orika-mapper/orika](https://github.com/orika-mapper/orika)
 - [https://github.com/DozerMapper](https://github.com/DozerMapper)
-- cglib的BeanCopier
+- [https://github.com/lets-mica/mica](https://github.com/lets-mica/mica)
+    - [https://github.com/yangtu222/BeanUtils](https://github.com/yangtu222/BeanUtils)
+- [cglib的BeanCopier](https://github.com/cglib/cglib/blob/master/cglib/src/main/java/net/sf/cglib/beans/BeanCopier.java)
+- [https://github.com/kordamp/ezmorph](https://github.com/kordamp/ezmorph)
+- [https://github.com/DozerMapper/dozer](https://github.com/DozerMapper/dozer)
+- [https://github.com/modelmapper/modelmapper](https://github.com/modelmapper/modelmapper)
+- [https://github.com/HotelsDotCom/bull](https://github.com/HotelsDotCom/bull)
+- [https://github.com/remondis-it/remap](https://github.com/remondis-it/remap)
+- [https://github.com/roookeee/datus](https://github.com/roookeee/datus)
+- [https://github.com/xebia-france/selma](https://github.com/xebia-france/selma)
+- [https://github.com/jmapper-framework/jmapper-core](https://github.com/jmapper-framework/jmapper-core)
 
 
 
@@ -373,6 +384,23 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 + [https://github.com/spring-projects/spring-restdocs](https://github.com/spring-projects/spring-restdocs)
 + [https://github.com/YeDaxia/JApiDocs](https://github.com/YeDaxia/JApiDocs)
+
+* [https://github.com/alibaba/easyexcel](https://github.com/alibaba/easyexcel)
+* 输出word [https://github.com/Sayi/poi-tl](https://github.com/Sayi/poi-tl)
+* [https://github.com/apache/poi](https://github.com/apache/poi)
+    * [http://poi.apache.org/components/spreadsheet](http://poi.apache.org/components/spreadsheet)
+    * [导出百万级数据到Excel 文件](https://blog.csdn.net/gd6321374/article/details/90417202)
+    * [https://github.com/550690513/large-amount-data-export](https://github.com/550690513/large-amount-data-export)
+
+> XML文件的解析技术有DOM和SAX方式，JAXB（Java Architecture for XML Binding) 是一个业界的标准，是一项根据`XML Schema`产生Java类的技术
+
+* jaxp sun公司开发，直接存在于JDK中
+* [https://github.com/sparklemotion/nokogiri](https://github.com/sparklemotion/nokogiri)
+* [https://github.com/dom4j/dom4j](https://github.com/dom4j/dom4j)
+* [https://github.com/jhy/jsoup](https://github.com/jhy/jsoup)
+* [https://github.com/openjax](https://github.com/openjax)
+* [https://github.com/hunterhacker/jdom](https://github.com/hunterhacker/jdom)
+
 
 
 **测试**
@@ -461,16 +489,31 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JAVA_HOME%\jre\bin;%MAVEN_HOME%\bin;%CATAL
 
 ## JavaFX
 
++ [https://github.com/topics/javafx](https://github.com/topics/javafx)
++ [https://github.com/topics/openjfx](https://github.com/topics/openjfx)
++ [https://github.com/topics/javafx-desktop-apps](https://github.com/topics/javafx-desktop-apps)
++ [https://github.com/openjdk/jfx](https://github.com/openjdk/jfx)
++ [https://github.com/javafxports/openjdk-jfx](https://github.com/javafxports/openjdk-jfx)
++ [https://github.com/openjdk/jfx11](https://github.com/openjdk/jfx11)
++ [https://github.com/openjfx](https://github.com/openjfx)
+    + [https://openjfx.io](https://openjfx.io)
+
+- [https://github.com/topics/fontawesomefx](https://github.com/topics/fontawesomefx)
+    - [https://bitbucket.org/Jerady/fontawesomefx](https://bitbucket.org/Jerady/fontawesomefx)
+    - [https://bintray.com/jerady/maven/FontAwesomeFX](https://bintray.com/jerady/maven/FontAwesomeFX)
+    - [https://github.com/Jerady/fontawesomefx-jigsaw-modules](https://github.com/Jerady/fontawesomefx-jigsaw-modules)
+- [https://github.com/mhrimaz/AwesomeJavaFX](https://github.com/mhrimaz/AwesomeJavaFX)
+- Google Material Design [https://github.com/jfoenixadmin/JFoenix](https://github.com/jfoenixadmin/JFoenix)
+- [https://github.com/gluonhq/connect](https://github.com/gluonhq/connect)
+- 仪表板 [https://github.com/HanSolo/tilesfx](https://github.com/HanSolo/tilesfx)
 
 * [JavaFX最新消息](http://fxexperience.com)
 * [使用Java 9的模块化来构建零依赖的原生应用](https://www.tuicool.com/articles/eiu2EnR)
 * [JavaFX、OSGi、Eclipse开源资料](http://www.javafxchina.net/main)
 * [SceneBuilder](http://gluonhq.com/products/scene-builder)
 * [SceneBuilder例子](http://gluonhq.com/developers/samples)
-* [JavaFX 8 教程 - 第七部分：部署](http://code.makery.ch/library/javafx-8-tutorial/zh-cn/part7)
-* [Gluon已经支持在IntelliJ IDEA中跨平台开发JavaFX](http://www.wingmei.cn/2018/04/18/gluon%E5%B7%B2%E7%BB%8F%E6%94%AF%E6%8C%81%E5%9C%A8intellij-idea%E4%B8%AD%E8%B7%A8%E5%B9%B3%E5%8F%B0%E5%BC%80%E5%8F%91javafx%E4%BA%86)
-* [IntelliJ IDEA 中配置 SceneBuilder](https://yangfangs.github.io/2017/07/28/JavaFx-SceneBuilder/#intellij-idea-%E4%B8%AD%E9%85%8D%E7%BD%AE-scenebuilder)
 * [JavaFx+Springboot+Maven 开发打包教程](https://segmentfault.com/a/1190000014037443)
 * [JavaFX 实现截图](http://www.private-blog.com/2018/01/29/javafx-%E5%AE%9E%E7%8E%B0webview%E6%88%AA%E5%9B%BE)
 * Java多线程下载GUI [https://github.com/fengxiaocan/Downloader](https://github.com/fengxiaocan/Downloader)
 * [https://github.com/proxyee-down-org/proxyee-down](https://github.com/proxyee-down-org/proxyee-down)
+* [IDEA通过Maven打包JavaFX工程（OpenJFX11）](https://www.cnblogs.com/6b7b5fc3/p/12990161.html)

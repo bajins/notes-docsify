@@ -7,14 +7,46 @@
 
 ## Flag
 
-+ [https://github.com/flutter](https://github.com/flutter)
-    + [https://flutter.cn](https://flutter.cn)
-    + [https://flutterchina.club](https://flutterchina.club)
+* [移动开发技术简介-三种跨平台技术从框架角度对比](https://github.com/flutterchina/flutter-in-action/blob/master/docs/chapter1/mobile_development_intro.md#116-%E5%B0%8F%E7%BB%93)
+* [从 React Native 到 Flutter，移动跨平台方案的真相](https://leancloudblog.com/cong-react-native-dao-flutter-yi-dong-kua-ping-tai-fang-an-de-zhen-xiang)
 
-* [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
-* [https://github.com/dingputongxi/flutter_gank](https://github.com/dingputongxi/flutter_gank)
+> 在3大主流渲染引擎里，webview、weex/react native、flutter，复杂度依次降低，渲染性能依次上升。
+
++ [https://github.com/apache/cordova](https://github.com/apache/cordova)
+
+* [https://github.com/facebook/react-native](https://github.com/facebook/react-native)
+    * [https://github.com/reactnativecn](https://github.com/reactnativecn)
+        * [https://reactnative.cn](https://reactnative.cn)
+    * [https://github.com/necolas/react-native-web](https://github.com/necolas/react-native-web)
+    * [https://github.com/microsoft/react-native-windows](https://github.com/microsoft/react-native-windows)
+    * [https://snack.expo.io](https://snack.expo.io)
+* Vue.js [https://github.com/kuaifan/eeui](https://github.com/kuaifan/eeui)
+* [https://github.com/apache/incubator-weex](https://github.com/apache/incubator-weex)
+    * [https://github.com/apache/incubator-weex-ui](https://github.com/apache/incubator-weex-ui)
+    * [https://github.com/apache/incubator-weex-site](https://github.com/apache/incubator-weex-site)
+    * [https://segmentfault.com/t/weex](https://segmentfault.com/t/weex)
+* [https://github.com/NativeScript](https://github.com/NativeScript)
+
+
+
+**Flutter**
 
 - [https://github.com/AweiLoveAndroid/Flutter-learning](https://github.com/AweiLoveAndroid/Flutter-learning)
+
+* [https://github.com/googlecodelabs](https://github.com/googlecodelabs)
+* [https://github.com/flutter](https://github.com/flutter)
+    * [https://flutter.cn](https://flutter.cn)
+    * [https://github.com/flutterchina/flutter-in-action](https://github.com/flutterchina/flutter-in-action)
+        * [https://flutterchina.club](https://flutterchina.club)
+    * [https://codelabs.flutter-io.cn](https://codelabs.flutter-io.cn)
+    * PUB_HOSTED_URL [https://pub.flutter-io.cn](https://pub.flutter-io.cn)
+    * FLUTTER_STORAGE_BASE_URL [https://storage.flutter-io.cn](https://storage.flutter-io.cn)
+
++ [https://dartpad.dartlang.org](https://dartpad.dartlang.org)
++ [https://dartpad.cn](https://dartpad.cn)
+
+- 干货 [https://github.com/fujianlian/GankFlutter](https://github.com/fujianlian/GankFlutter)
+
 
 
 
@@ -42,6 +74,8 @@
 * [https://github.com/lihangleo2/Imgdots](https://github.com/lihangleo2/Imgdots)
 * [https://github.com/yangchong211/YCVideoPlayer](https://github.com/yangchong211/YCVideoPlayer)
 * [https://github.com/guofudong/KotlinAndroid](https://github.com/guofudong/KotlinAndroid)
+* [https://github.com/Justson/Downloader](https://github.com/Justson/Downloader)
+* [https://github.com/Justson/AgentWeb](https://github.com/Justson/AgentWeb)
 * [Android运行时权限申请库](https://github.com/ysbing/YPermission)
 * 秒级编译方案：[https://github.com/alibaba/freeline](https://github.com/alibaba/freeline)
 * [Android-FFmpeg开源库使用及图片压缩开源工具使用](https://www.jianshu.com/p/e960854d3705)
@@ -59,6 +93,12 @@
 - [https://github.com/huangruiLearn/flutter_hrlweibo](https://github.com/huangruiLearn/flutter_hrlweibo)
 - [https://github.com/sabernwj/cookiej](https://github.com/sabernwj/cookiej)
 - [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
+
++ 在linux下运行安卓应用工具xDroid [https://www.linzhuotech.com](https://www.linzhuotech.com)
++ [https://github.com/anbox/anbox](https://github.com/anbox/anbox)
+    + [Linux上运行安卓应用:安装使用Anbox](https://www.cnblogs.com/syisyuan/p/12811595.html)
+
+
 
 
 **Hooking**
@@ -166,6 +206,14 @@
 - [https://github.com/yeriomin/YalpStore](https://github.com/yeriomin/YalpStore)
 
 
+* [https://www.coolapk.com/apk/tag/微博](https://www.coolapk.com/apk/tag/%E5%BE%AE%E5%8D%9A)
+* [https://www.coolapk.com/apk/com.caij.see](https://www.coolapk.com/apk/com.caij.see)
+* [https://www.coolapk.com/apk/com.hengye.share](https://www.coolapk.com/apk/com.hengye.share)
+
+
+
+**下载Google Play Store上的应用**
+
 * [https://android-apk.org](https://android-apk.org)
 * [https://androidapksfree.com](https://androidapksfree.com)
 * [https://androidappsapk.co](https://androidappsapk.co)
@@ -182,20 +230,37 @@
 * [https://www.apkmirror.com](https://www.apkmirror.com)
 * [https://www.apkmonk.com](https://www.apkmonk.com)
 * [https://www.apkturbo.com](https://www.apkturbo.com)
+* [https://downloadapk.online](https://downloadapk.online)
+* [https://dlandroid.com](https://dlandroid.com)
 
 
+**破解软件下载**
 
 + [http://www.sharerw.com](http://www.sharerw.com)
 + [https://htcui.com](https://htcui.com)
 + [https://www.lanzous.com/b05f9wyf](https://www.lanzous.com/b05f9wyf)
-+ [Balatan](https://forum.release-apk.com/search.php?author_id=49&sr=topics&sf=firstpost)
++ [https://forum.release-apk.com/viewforum.php?f=5](https://forum.release-apk.com/viewforum.php?f=5)
+    + [https://forum.release-apk.com/tag/downloader](https://forum.release-apk.com/tag/downloader)
 + [https://patch.chelpus.com](https://patch.chelpus.com)
 + [手机软件下载-智友邦原智友论坛](http://bbs.zhiyoo.net/forum.php?mod=forumdisplay&fid=42&filter=lastpost&orderby=lastpost)
 + 各大网站的脚本 [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
-+ [酷我音乐精品破解版本集合地](https://www.lanzoux.com/b05aammje)
-    + [酷我音乐_for_Android](https://www.lanzoux.com/b0f1956fc)
-    + [https://yaweimao.lanzous.com/b00z96sod](https://yaweimao.lanzous.com/b00z96sod)
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 
 * 文件传输 [http://www.xender.com](http://www.xender.com)
 * [https://github.com/interfect/fenix](https://github.com/interfect/fenix)
+* [https://feem.io](https://feem.io)
+* ShareMe [https://rawapk.com/mi-drop-apk-download](https://rawapk.com/mi-drop-apk-download)
+
+
+**音乐下载**
+
++ [酷我音乐精品破解版本集合地](https://www.lanzoux.com/b05aammje)
++ [酷我音乐_for_Android](https://www.lanzoux.com/b0f1956fc)
++ [https://yaweimao.lanzous.com/b00z96sod](https://yaweimao.lanzous.com/b00z96sod)
+
+* [音乐下载工具⠀for⠀Windows](https://pan.lanzous.com/b0f1c1t5e)
+* [音乐下载应用](https://pan.lanzous.com/b0f1kkdlg)
+* [听下音乐](https://bgg.lanzoui.com/b02bjj8pa)
+* [静听音乐](http://pan.lanzous.com/b04aslz3c)
+
+

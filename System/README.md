@@ -16,7 +16,9 @@
     * [https://github.com/win-acme](https://github.com/win-acme)
     * [https://github.com/certbot](https://github.com/certbot)
         * [https://certbot.eff.org](https://certbot.eff.org)
-        * [https 证书手动获取 windows版](https://blog.csdn.net/m0_45452817/article/details/107249677)
+        * [获取证书（并选择插件）-官方文档](https://certbot.eff.org/docs/using.html#getting-certificates-and-choosing-plugins)
+    * [临时处理OCSP域名无法访问的问题](https://holmesian.org/letsencrypt-ocsp-fix)
+    * [「Certbot」- ocsp.int-x3.letsencrypt.org Read timed out](http://blog.k4nz.com/%E3%80%8Ccertbot%E3%80%8D-ocsp-int-x3-letsencrypt-org-read-timed-out)
 * 像libevent，libev和libuv一样，libhv提供具有非阻塞IO和计时器的事件循环: [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv)
 
 
@@ -26,13 +28,15 @@
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
 
 
+- [https://github.com/rocky-linux](https://github.com/rocky-linux)
+
 
 **管理面板**
 
 * [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)
     * [https://www.bt.cn](https://www.bt.cn)
 * [https://www.xp.cn](https://www.xp.cn)
-
+* [https://cockpit-project.org](https://cockpit-project.org)
 
 
 
@@ -56,6 +60,21 @@
     * [Always Free Resources](https://docs.cloud.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm#resources)
     * [申请Oracle Cloud永久免费服务+300美元试用额度](https://51.ruyo.net/14138.html)
     * 不建议使用用Oracle Linux镜像，无法设置root密码登录
+    ```bash
+    # 移除或禁用后台监控
+    yum remove oracle-cloud-agent
+    snap remove oracle-cloud-agent
+
+    systemctl stop oracle-cloud-agent
+    systemctl disable oracle-cloud-agent
+    systemctl stop oracle-cloud-agent-updater
+    systemctl disable oracle-cloud-agent-updater
+
+    systemctl stop snap.oracle-cloud-agent.oracle-cloud-agent-updater.service
+    systemctl disable snap.oracle-cloud-agent.oracle-cloud-agent-updater.service
+    systemctl stop snap.oracle-cloud-agent.oracle-cloud-agent.service
+    systemctl disable snap.oracle-cloud-agent.oracle-cloud-agent.service
+    ```
 * Azure [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
     * [https://portal.azure.com](https://portal.azure.com)
     * [申请微软Azure服务免费12个月+$200 额度+永久免费(25+项服务)](https://www.daniao.org/7057.html)
@@ -75,6 +94,7 @@
 
 ## Windows
 
+* 搜索更新补丁下载 [http://www.catalog.update.microsoft.com](http://www.catalog.update.microsoft.com)
 * [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
 
 > 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
@@ -414,12 +434,15 @@ slmgr /ato
 
 ## 路由跟踪
 
+- 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
+
 **`ping`、`tcptraceroute`、`traceroute`、`mtr`**
 
 * [https://www.cnblogs.com/xzkzzz/p/7413177.html](https://www.cnblogs.com/xzkzzz/p/7413177.html)
 * [https://www.jianshu.com/p/802010d54849](https://www.jianshu.com/p/802010d54849)
 * [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)
 * [http://winmtr.net/download-winmtr](http://winmtr.net/download-winmtr)
+* [Netcat详解](https://www.cnblogs.com/dalianpai/p/12505678.html)
 
 > 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
 
@@ -455,7 +478,12 @@ slmgr /ato
 * [https://www.websitepulse.com/tools/china-firewall-test](https://www.websitepulse.com/tools/china-firewall-test)
 * [https://www.vps234.com/ipchecker](https://www.vps234.com/ipchecker)
 * [https://tools.ipip.net/traceroute.php](https://tools.ipip.net/traceroute.php)
-
+* IP范围转换CIDR [https://ip2cidr.com](https://ip2cidr.com)
+* [http://apps.neu.edu.cn/netaggr](http://apps.neu.edu.cn/netaggr)
+* [无类别域间路由（CIDR）网络地址计算器](https://www.sioe.cn/xinqing/CIDR.php)
+* [IPv4 / IPv6 CIDR计算器 | RAKKOTOOLS🔧](https://zh.rakko.tools/tools/27)
+* [http://ip.chacuo.net/ipconvert](http://ip.chacuo.net/ipconvert)
+* [https://github.com/3th1nk/cidr](https://github.com/3th1nk/cidr)
 
 
 **tracert**

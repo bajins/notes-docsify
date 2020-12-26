@@ -10,6 +10,12 @@
 
 **更多软件见：[https://gd.bajins.com](https://gd.bajins.com)**
 
+**[Windows系统相关](/System/README.md#windows)**
+
+**[浏览器下载](/IDE/Chrome.md#浏览器下载)**
+
+**[Android软件](/Other/MobileNative.md#软件)**
+
 + [Windows 10 有哪些值得推荐的必装软件？](https://www.zhihu.com/question/35088093)
 
 * [https://git.io](https://git.io)
@@ -21,31 +27,18 @@
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
 
 
-**[Windows系统相关](/System/README.md#windows)**
-
-**浏览器**
-
-+ [https://browsehappy.com](https://browsehappy.com)
-
-* [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
-    * [Chrome下载/插件/DevTools/账号迁移](/IDE/Chrome.md)
-* [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
-* [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
 
 
 **博客**
 
-* [CRACKSurl](http://cracksurl.com)
+* [http://cracksurl.com](http://cracksurl.com)
 * [QiuQuan's Blog](http://www.qiuquan.cc)
-* [mefcl - 学习▪分享](http://mefcl.com)
 * [th_sjy](http://www.th-sjy.com)
-* [v5pc](http://www.v5pc.com/category/syrj)
 * [大眼仔旭](http://www.dayanzai.me)
 * [反斗软件](http://www.apprcn.com)
 * [果核剥壳](https://www.ghpym.com)
 * [zdBryan](https://www.423down.com)
 * [落尘之木](https://www.luochenzhimu.com)
-* [胡萝卜周](http://www.carrotchou.com)
 * [懒得勤快](https://masuit.com/misc/5)
 * [绿软博客](http://liujin-greensoft.lofter.com)
 * [殁漂遥](http://www.laomo.me)
@@ -105,19 +98,15 @@
 
 **other**
 
-* [https://www.naodai.org](https://www.naodai.org)
+* Mac [https://www.naodai.org](https://www.naodai.org)
     * [https://yun.naodai.org/Software](https://yun.naodai.org/Software)
     * [https://go.naodai.org/Software](https://go.naodai.org/Software)
-* [https://delivery.yuntu.com.tw](https://delivery.yuntu.com.tw)
-* [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
+* Mac [https://www.macbl.com](https://www.macbl.com)
+* [http://xclient.info](http://xclient.info)
+* [https://github.com/xyjoey/fxxkmakeding](https://github.com/xyjoey/fxxkmakeding)
+    * [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
 * [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
-* [http://go.wumings.com](http://go.wumings.com)
-* [https://www.macbl.com](https://www.macbl.com)
-* [http://lao4g.com](http://lao4g.com)
-* [https://www.haorenka.org](https://www.haorenka.org)
 
-- [https://feem.io](https://feem.io)
-- ShareMe
 
 
 ## 下载器
@@ -251,27 +240,11 @@
 
 ### 百度网盘
 
-* [BaiduPCS](https://github.com/search?o=desc&p=1&q=BaiduPCS&s=updated&type=Repositories)
-* [https://github.com/topics/baiduyun?o=desc&s=updated](https://github.com/topics/baiduyun?o=desc&s=updated)
-* [https://github.com/iikira/BaiduPCS-Go](https://github.com/iikira/BaiduPCS-Go)
-* [https://github.com/liuzhuoling2011/baidupcs-web](https://github.com/liuzhuoling2011/baidupcs-web)
-* [https://github.com/loliconer/baidupcs-mobile](https://github.com/loliconer/baidupcs-mobile)
-* [https://github.com/search?q=pdown](https://github.com/search?q=pdown)
-* [https://github.com/lz233/FuckBaiduPCS](https://github.com/lz233/FuckBaiduPCS)
-* [https://github.com/pdown2020/pdown](https://github.com/pdown2020/pdown)
-* [https://github.com/forpdown/pdown](https://github.com/forpdown/pdown)
+* [https://github.com/search?q=BaiduPCS](https://github.com/search?q=BaiduPCS)
+* [https://github.com/topics/baiduyun](https://github.com/topics/baiduyun)
 * [https://yixun.writeas.com/yi-xun](https://yixun.writeas.com/yi-xun)
-* [https://github.com/VIP-Share/Baidu-XunleiVIP](https://github.com/VIP-Share/Baidu-XunleiVIP)
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
-* http://pan.naifei.cc/?
-
-
-### 蓝奏云
-
-* [https://github.com/zaxtyson/LanZouCloud-API](https://github.com/zaxtyson/LanZouCloud-API)
-* [https://github.com/zaxtyson/LanZouCloud-CMD](https://github.com/zaxtyson/LanZouCloud-CMD)
-* [https://github.com/rachpt/lanzou-gui](https://github.com/rachpt/lanzou-gui)
-* [https://github.com/vcheckzen/LanzouCloudAPI](https://github.com/vcheckzen/LanzouCloudAPI)
+* DuPan [https://www.lanzoux.com/b09r8jmhi](https://www.lanzoux.com/b09r8jmhi) 密码：b8ua
 
 
 
@@ -373,11 +346,13 @@
 
 **FastStone Capture**
 
-* [FastStone Capture官网](https://www.faststone.org/download.htm)
-* 官网被屏蔽，官方下载地址：`http://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
-* [下载最新版本](http://www.faststonesoft.net/DN/FSCaptureSetup.exe)
+* 官网 [https://www.faststone.org](https://www.faststone.org)
+* 官网被屏蔽，没有被屏蔽的下载地址（最新版本去掉版本号）：
+    * `http://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
+    * `https://www.faststonesoft.net/DN/FSCapture版本号.zip`
+    * `https://www.faststonesoft.net/DN/FSCaptureSetup版本号.zip`
 
-- 使用说明: 先安装`FSCaptureSetup`程序，安装完成后先不要运行，把下载的汉化文件覆盖到安装目录然后再运行
+> 使用说明: 先安装`FSCaptureSetup`程序，安装完成后先不要运行，把下载的汉化文件覆盖到安装目录然后再运行
 
 - 注册码
 
@@ -483,7 +458,53 @@
 + Office 卸载支持工具 [https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe](https://outlookdiagnostics.azureedge.net/sarasetup/SetupProd_OffScrub.exe)
 + [手动卸载 Office](https://support.microsoft.com/zh-cn/office/%E6%89%8B%E5%8A%A8%E5%8D%B8%E8%BD%BD-office-4e2904ea-25c8-4544-99ee-17696bb3027b)
 
+* 在线文档 [https://personal.onlyoffice.com](https://personal.onlyoffice.com)
 * PDF阅览器 [https://fsfe.org/pdfreaders/pdfreaders.zh.html](https://fsfe.org/pdfreaders/pdfreaders.zh.html)
+
+- [https://shoppy.gg/@mantastyle](https://shoppy.gg/@mantastyle)
+- [https://ip.ci](https://ip.ci)
+- [https://jimschool.org](https://jimschool.org)
+- [https://free365.ltd](https://free365.ltd)
+    - [https://a1_free365.a1od.workers.dev](https://a1_free365.a1od.workers.dev)
+    - [https://e3_free365.a1od.workers.dev](https://e3_free365.a1od.workers.dev)
+    - [https://a1p.zha.bi](https://a1p.zha.bi)
+    - [https://a1_sc.a1od.workers.dev](https://a1_sc.a1od.workers.dev)
+- [https://25t.zxd.workers.dev](https://25t.zxd.workers.dev)
+- [http://xyxywan.gitee.io/web/index.html](http://xyxywan.gitee.io/web/index.html)
+- [https://onedrive.2o.workers.dev](https://onedrive.2o.workers.dev)
+- [http://office.mystrk.gq](http://office.mystrk.gq)
+- [https://ceo.qiantigers.workers.dev](https://ceo.qiantigers.workers.dev)
+- [https://mail365.xyz](https://mail365.xyz)
+- [https://azzzzzz.lx.workers.dev](https://azzzzzz.lx.workers.dev)
+- [https://a1.lx.workers.dev](https://a1.lx.workers.dev)
+- [http://office.zx.al](http://office.zx.al)
+- [https://od.wulel.cn](https://od.wulel.cn)
+- [http://my.ehsrr.com](http://my.ehsrr.com)
+- [https://zcnp.azurewebsites.net](https://zcnp.azurewebsites.net)
+- [https://od.kbbldh.workers.dev](https://od.kbbldh.workers.dev)
+- [http://zcmail.azurewebsites.net](http://zcmail.azurewebsites.net)
+- [https://www.1tb.fun](https://www.1tb.fun)
+- [https://od.malahu.tk](https://od.malahu.tk)
+- [https://malahu.n5.myws.ca](https://malahu.n5.myws.ca)
+- [https://od.wulel.cn](https://od.wulel.cn)
+- [https://tb.mygindex.workers.dev](https://tb.mygindex.workers.dev)
+- [https://a1p.huiju.in](https://a1p.huiju.in)
+- [https://a1.zxd.workers.dev](https://a1.zxd.workers.dev)
+- [https://freea1p.art](https://freea1p.art)
+
+
+**发卡商店**
+
+- [https://shop.luck6.org](https://shop.luck6.org)
+- [https://shop.v2ex.ltd](https://shop.v2ex.ltd)
+- [https://hpg.ac.cn](https://hpg.ac.cn)
+- [https://ip.ci](https://ip.ci)
+- [https://edu.laji.shop](https://edu.laji.shop)
+- [https://21g.in](https://21g.in)
+- [https://shop.15t.in](https://shop.15t.in)
+- [https://shop.xjisme.com](https://shop.xjisme.com)
+- [https://schoolbus.store](https://schoolbus.store)
+
 
 
 ### wps
@@ -655,6 +676,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
     * 读取EXT 类型数据盘 [http://www.diskinternals.com/download/Linux_Reader.exe](http://www.diskinternals.com/download/Linux_Reader.exe)
 * [https://github.com/thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
 * 远程控制 [https://www.todesk.com](https://www.todesk.com)
+* 向日葵 [https://sunlogin.oray.com/download](https://sunlogin.oray.com/download)
 
 - 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
     - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)

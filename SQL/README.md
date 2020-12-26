@@ -9,24 +9,11 @@
 
 * [http://www.h2database.com](http://www.h2database.com)
 * [http://hsqldb.org](http://hsqldb.org)
+* [https://github.com/FirebirdSQL/firebird](https://github.com/FirebirdSQL/firebird)
 
 - [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
 
 * [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
-
-
-- [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
-- [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
-- [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
-
-+ [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
-+ [https://www.heidisql.com](https://www.heidisql.com)
-+ [https://www.dbvis.com](https://www.dbvis.com)
-+ [https://sourceforge.net/projects/squirrel-sql](https://sourceforge.net/projects/squirrel-sql)
-    + [http://www.squirrelsql.org](http://www.squirrelsql.org)
-+ [https://www.activedbsoft.com](https://www.activedbsoft.com)
-+ [https://www.razorsql.com](https://www.razorsql.com)
-+ [https://www.aquafold.com](https://www.aquafold.com)
 
 
 
@@ -184,6 +171,46 @@ OPTIMIZE TABLE 表名;
 
 
 
+## ORACLE
+
+* [Oracle with as + /*+ materialize*/ 优化](https://blog.csdn.net/qq_34745941/article/details/106897099)
+
+
+**分组获取最新一条数据（查询各组最新的一条记录）**
+
+- over partition by 分析函数
+
+```sql
+SELECT * FROM (
+    SELECT ROW_NUMBER() OVER(PARTITION BY 分组字段名 ORDER BY 排序字段名 DESC) rn,t.* FROM test1 t
+    ) WHERE rn = 1;
+
+SELECT * FROM (
+    select eb_vipcode,eb_time,MAX(eb_time) over(partition by eb_vipcode) as "atime" from eb_daskexpdateinfo
+    ) x where eb_time = "atime";
+
+SELECT * FROM (
+    select ID_,COMPANY_NAME,USAGE_RATE,CREATE_TIME
+    ,MAX(CREATE_TIME) over(partition by COMPANY_NAME) as "atime" from SPEC_RATE_ORIGIN
+    ) x where CREATE_TIME = "atime";
+```
+
+- group by
+
+```sql
+SELECT eb_vipcode,MAX(eb_time) AS "atime" FROM eb_daskexpdateinfo group by eb_vipcode
+```
+
+- inner join
+
+```sql
+SELECT A.* FROM SPEC_RATE_ORIGIN A INNER JOIN (
+    SELECT COMPANY_NAME,MAX(CREATE_TIME) AS "atime" FROM SPEC_RATE_ORIGIN group by COMPANY_NAME
+    ) B ON A.COMPANY_NAME = B.COMPANY_NAME AND A.CREATE_TIME = B."atime";
+```
+
+
+
 
 
 ## SQLite3
@@ -193,6 +220,7 @@ OPTIMIZE TABLE 表名;
 * [SQLite 教程](https://www.runoob.com/sqlite/sqlite-tutorial.html)
 * [SQLite3 数据类型与亲和类型](https://blog.csdn.net/feiyihexin/article/details/99728504)
 
+- [https://github.com/utelle/wxsqlite3](https://github.com/utelle/wxsqlite3)
 
 
 **连接符**
@@ -246,6 +274,7 @@ OPTIMIZE TABLE 表名;
 
 ## MongoDB
 
+* 客户端 [https://github.com/Studio3T/robomongo](https://github.com/Studio3T/robomongo)
 
 
 ## 免费数据库

@@ -18,6 +18,24 @@
 - GitHub每天趋势 [https://github.com/yangwenmai/github-trending-backup](https://github.com/yangwenmai/github-trending-backup)
 - 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
 - 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)
+- 获取动态生成的GitHub统计信息 [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+
+
+* [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
+* [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
+* 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
+
+**代码跟踪分析**
+
+- [https://sonarcloud.io](https://sonarcloud.io)
+- [https://semmle.com](https://semmle.com)
+    - [https://lgtm.com](https://lgtm.com)
+- [https://www.openhub.net](https://www.openhub.net)
+- [https://bestpractices.coreinfrastructure.org](https://bestpractices.coreinfrastructure.org)
+- Gerrit [https://www.gerritcodereview.com](https://www.gerritcodereview.com)
+  - [https://gerrit.asterisk.org/Documentation/index.html](https://gerrit.asterisk.org/Documentation/index.html)
+
+
 
 
 **Gogs**

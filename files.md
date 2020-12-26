@@ -10,6 +10,10 @@
 
 [MediaQueriesExample.html](/files/MediaQueriesExample.html ':ignore')
 
+[MySQL同步远程数据库到本地.sh](/files/MySQL同步远程数据库到本地.sh ':ignore')
+
+[MySQL备份并删除历史.sh](/files/MySQL备份并删除历史.sh ':ignore')
+
 [circle-progress-bar.html](/files/circle-progress-bar.html ':ignore')
 
 [css-animation.html](/files/css-animation.html ':ignore')
@@ -73,4 +77,6 @@
 [设置GitHub的Hosts.bat](/files/设置GitHub的Hosts.bat ':ignore')
 
 [设置必应壁纸.bat](/files/设置必应壁纸.bat ':ignore')
+
+[设置必应壁纸转换.bat](/files/设置必应壁纸转换.bat ':ignore')
 

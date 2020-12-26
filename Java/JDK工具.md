@@ -15,12 +15,15 @@
 * [https://github.com/chewiebug/GCViewer](https://github.com/chewiebug/GCViewer)
 * java程序跟踪工具 [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
 * [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
+* [https://github.com/aragozin/jvm-tools](https://github.com/aragozin/jvm-tools)
 
 
 + [逆向工具](/Other/MobileNative.md#逆向工具)
 + `javap -verbose 文件` 查看class文件内容
 + [https://github.com/ClassViewer](https://github.com/ClassViewer)
 + [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
++ 打包 [https://github.com/shevek/jarjar](https://github.com/shevek/jarjar)
++ [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
 
 
 **其他命令**

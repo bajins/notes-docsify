@@ -21,22 +21,8 @@
 * [https://github.com/geany](https://github.com/geany)
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
     * [https://theia-ide.org](https://theia-ide.org)
+* [https://github.com/VSCodium/vscodium](https://github.com/VSCodium/vscodium)
 
-- [https://sonarcloud.io](https://sonarcloud.io)
-- [https://semmle.com](https://semmle.com)
-    - [https://lgtm.com](https://lgtm.com)
-- [https://www.openhub.net](https://www.openhub.net)
-- [https://bestpractices.coreinfrastructure.org](https://bestpractices.coreinfrastructure.org)
-
-
-**SVN**
-
-- [https://github.com/apache/subversion](https://github.com/apache/subversion)
-- [https://github.com/TortoiseGit](https://github.com/TortoiseGit)
-  - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
-  - [https://tortoisegit.org/download](https://tortoisegit.org/download)
-- [https://github.com/jenkinsci/subversion-plugin](https://github.com/jenkinsci/subversion-plugin)
-- [https://github.com/subclipse](https://github.com/subclipse)
 
 
 
@@ -94,26 +80,29 @@
 
 ## 数据库
 
-- [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
-- [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
-- [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
++ [https://github.com/search?q=database+tool](https://github.com/search?q=database+tool)
++ [https://github.com/search?q=SQL+client](https://github.com/search?q=SQL+client)
 
-+ [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
-+ [https://www.heidisql.com](https://www.heidisql.com)
-+ [https://www.dbvis.com](https://www.dbvis.com)
-+ [https://sourceforge.net/projects/squirrel-sql](https://sourceforge.net/projects/squirrel-sql)
-    + [http://www.squirrelsql.org](http://www.squirrelsql.org)
-+ [https://www.activedbsoft.com](https://www.activedbsoft.com)
-+ [https://www.razorsql.com](https://www.razorsql.com)
-+ [https://www.aquafold.com](https://www.aquafold.com)
-+ [https://sourceforge.net/projects/squirrel-sql](https://sourceforge.net/projects/squirrel-sql)
-    + [http://www.squirrelsql.org](http://www.squirrelsql.org)
+* [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
+* [https://www.navicat.com](https://www.navicat.com)
+    * [https://github.com/search?q=navicat](https://github.com/search?q=navicat)
+* [https://www.heidisql.com](https://www.heidisql.com)
+* [https://www.dbvis.com](https://www.dbvis.com)
+* [https://sourceforge.net/projects/squirrel-sql](https://sourceforge.net/projects/squirrel-sql)
+    * [http://www.squirrelsql.org](http://www.squirrelsql.org)
+* [https://www.activedbsoft.com](https://www.activedbsoft.com)
+* [https://www.razorsql.com](https://www.razorsql.com)
+* [https://www.aquafold.com](https://www.aquafold.com)
+* [https://github.com/sqlectron/sqlectron-gui](https://github.com/sqlectron/sqlectron-gui)
+* [https://github.com/dbkangaroo/kangaroo](https://github.com/dbkangaroo/kangaroo)
+* [https://github.com/Fabio286/antares](https://github.com/Fabio286/antares)
+* [https://www.devart.com/products.html#ide](https://www.devart.com/products.html#ide)
+    * [Devart dbForge 系列数据库管理工具无限试用补丁](https://blog.fishlee.net/2019/06/13/devart-dbforge-%e7%b3%bb%e5%88%97%e6%95%b0%e6%8d%ae%e5%ba%93%e7%ae%a1%e7%90%86%e5%b7%a5%e5%85%b7%e6%97%a0%e9%99%90%e8%af%95%e7%94%a8%e8%a1%a5%e4%b8%81/)
 
 - [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
 - Sqlyog增加试用期：<kbd>win</kbd>+<kbd>r</kbd> -> 输入`regedit` -> 进入注册表
     - 旧版：在`计算机\HKEY_CURRENT_USER\Software\{906D6D9F-AB51-429F……}`删除`InD110`即可
     - 新版：在`计算机\HKEY_CURRENT_USER\SOFTWARE\{d58cb4b1-47f3-45cb-a209-f298d0c3f756}`删除`InD110`即可
-
 ```
 姓 名（Name）：ttrar
 序 列 号（Code）：8d8120df-a5c3-4989-8f47-5afc79c56e7c
@@ -149,6 +138,17 @@ Ultimate 版本:
 注册名：luoye2562
 注册码: 8d8120df-a5c3-4989-8f47-5afc79c56e7c
 ```
+
+
+**Redis**
+
++ [https://github.com/topics/redis-client](https://github.com/topics/redis-client)
+
+- [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
+- [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
+- [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
+
+
 
 
 

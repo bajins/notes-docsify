@@ -16,7 +16,7 @@
 * [PowerShell 与 cmd 有什么不同？](https://www.zhihu.com/question/22611859/answers/updated)
 * [PowerShell为什么强大](https://www.pstips.net/why-is-powershell-powerful.html)
 
-- [如何使用 PowerShell 文档](https://docs.microsoft.com/zh-cn/powershell/scripting/how-to-use-docs)
+- [PowerShell参考文档](https://docs.microsoft.com/zh-cn/powershell/module/cimcmdlets/?view=powershell-7.1)
 - [PowerShell 在线教程](https://www.pstips.net/powershell-online-tutorials)
 
 * [https://github.com/PowerShell](https://github.com/PowerShell)
@@ -37,6 +37,7 @@
     * [https://chocolatey.org](https://chocolatey.org)
 * [https://github.com/lukesampson/scoop](https://github.com/lukesampson/scoop)
     * [https://github.com/ScoopInstaller](https://github.com/ScoopInstaller)
+    * [https://github.com/lukesampson/scoop-extras](https://github.com/lukesampson/scoop-extras)
 * [https://github.com/cmderdev/cmder](https://github.com/cmderdev/cmder)
 * [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
 
@@ -136,6 +137,8 @@ get-appxpackage *xbox* | remove-appxpackage
 
 ## 命令
 
+> `ASCII` 为无BOM`UTF-8`编码
+
 ```powershell
 # 查看输出的命令集
 Get-Command -verb out
@@ -181,6 +184,25 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 (New-Object System.Net.WebClient).DownloadFile('https://git.io/JvYAg','d:\\7za.exe')
 ```
 
+- 选择文件夹弹窗
+
+```powershell
+function Select-FolderDialog{
+    param([string]$Directory,[string]$Description,[boolean]$ShowNewFolderButton)
+    [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms") | Out-Null
+    $objForm = New-Object System.Windows.Forms.FolderBrowserDialog
+    $objForm.RootFolder = $Directory
+    $objForm.Description = $Description
+    $objForm.ShowNewFolderButton = $ShowNewFolderButton
+    $Show = $objForm.ShowDialog()
+    If ($Show -eq "OK") {
+        Return $objForm.SelectedPath
+    } Else {
+        # 输出错误信息
+        Write-Error "error information here"
+    }
+}
+```
 
 
 - 循环目录
@@ -208,6 +230,52 @@ Get-ChildItem . | ForEach-Object -Process {
 
 ```powershell
 New-Item -ItemType directory -Path 目录的路径
+```
+
+- 复制文件及目录结构
+
+```powershell
+# 源路径最后一个文件夹名为需要复制的目录结构的顶级文件夹名
+Copy-Item -Force -Recurse 源路径 目标路径 -Filter 文件名
+```
+
+- 删除空目录
+
+```powershell
+Get-ChildItem -Path 路径 -Recurse -Force `
+| Where-Object { $_.PSIsContainer -and `
+    (Get-ChildItem -Path $_.FullName -Recurse -Force `
+    | Where-Object { !$_.PSIsContainer }) -eq $null } `
+| Remove-Item -Force -Recurse
+
+Get-ChildItem -recurse | Where {$_.PSIsContainer -and `
+@(Get-ChildItem -Lit $_.Fullname -r | Where {!$_.PSIsContainer}).Length -eq 0} `
+| Remove-Item -recurse -whatif
+
+get-childitem -recurse | ? {$_.GetType() -match"DirectoryInfo"} `
+| ?{ $_.GetFiles().Count -eq 0 -and $_.GetDirectories().Count -eq 0 } | rm -whatif
+
+ls -recurse | where {!@(ls -force $_.fullname)} | rm -whatif -Force
+```
+
+- 递归删除排除之外的文件
+
+```powershell
+dir -Path 源路径 -Include *.* -Exclude @('test.js','test.css','a*') -Recurse | del -Recurse
+```
+
+- 删除旧文件（指定日期之前的）
+
+```powershell
+Get-ChildItem -recurse | Where {!$_.PSIsContainer -and `
+$_.LastWriteTime -lt (get-date).AddDays(-31)} | Remove-Item -whatif
+
+Get-ChildItem -Path 路径 -Recurse -Force `
+| Where-Object { !$_.PSIsContainer -and $_.CreationTime -lt (Get-Date).AddDays(-15) } `
+| Remove-Item -Force
+
+get-childitem -recurse | ? {$_.GetType() -match"FileInfo"} `
+| ?{ $_.LastWriteTime -lt [datetime]::now.adddays(-30) } | rm -whatif -Force
 ```
 
 - 格式化时间
@@ -376,3 +444,41 @@ while(1){
 - 获取环境变量的值：`$env:变量名`
 
 
+## 随机字符串
+
+> `48..57`是数字0-9，powershell的范围操作符是`..`，`65..90`是大写字符A到Z，`97..122`是小写字母。
+> 如果需要获取多有的可打印字符（包括空格）的话，范围是`32..127`。
+
+> `[char]`把对应数字转换成字符，例如 `[char](66)`就是B(大写字母B)，C语言使用的小括号来进行类型强制转换。
+
+```powershell
+# 如果不指定-count参数，则前面的list有多少个字符
+# get-random就会获取多少个字符，只是顺序打乱了
+-join((48..57 + 65..90 + 97..122) | get-random -count 6 | %{[char]$_})
+
+# 输出19位数字字符串并在开头拼接x
+(0..13|Get-Random -count 19) -join $null | %{-join ("X",$_)}
+
+# 这里的0..1024相当于循环控制，每循环一次|后面的代码执行一次，
+# 其中在数字字母中随机选一个字符 0..1024, like Perl, loop controller
+-join(0..1024|%{[char][int]((48..57 + 65..90 + 97..122)| Get-Random)})
+
+-join ([char[]](65..90+97..122) | Get-Random -Count 6)
+
+Add-Type -AssemblyName System.Web;[System.Web.Security.Membership]::GeneratePassword(20, 0)
+
+function Get-RandomString() {
+    param(
+    [int]$length=10,
+    # 这里的[int]是类型指定
+    [char[]]$sourcedata
+    )
+
+    for($loop=1; $loop –le $length; $loop++) {
+            $TempPassword+=($sourcedata | GET-RANDOM | %{[char]$_})
+    }
+    return $TempPassword
+}
+
+Get-RandomString -length 14 -sourcedata (48..127)
+```

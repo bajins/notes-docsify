@@ -7,8 +7,6 @@
 
 ## Flag
 
-+ [https://github.com/opencontainers](https://github.com/opencontainers)
-
 + [https://github.com/docker](https://github.com/docker)
     + [https://www.docker.com](https://www.docker.com)
     + [https://docs.docker.com](https://docs.docker.com)
@@ -16,7 +14,6 @@
 + [https://github.com/boot2docker](https://github.com/boot2docker)
 + [Docker及图形化管理UI Portainer的搭建](https://juejin.im/post/5da3de28518825651b1e0633)
 + [利用Docker实现后台项目模板化配置部署](https://juejin.im/post/5da81a7d6fb9a04def4e6d6b)
-+ Docker的完整PHP开发环境 [https://github.com/laradock/laradock](https://github.com/laradock/laradock)
 
 * [Docker进阶实用命令](https://sleele.com/2018/09/27/docker%e8%bf%9b%e9%98%b6%e5%ae%9e%e7%94%a8%e5%91%bd%e4%bb%a4/)
 * [https://sleele.com/category/docker/](https://sleele.com/category/docker/)
@@ -25,15 +22,20 @@
 * [随笔分类 - Docker](https://www.cnblogs.com/itoak/category/1769634.html)
 * [https://kany.me/tags/docker](https://kany.me/tags/docker)
 
-+ podman [https://github.com/containers](https://github.com/containers)
-    + [再见 Docker，是时候拥抱下一代容器工具了](https://mp.weixin.qq.com/s/MDi4RB5V60EGl3ii9usD0Q)
-    + [podman初试-和docker对比](https://blog.51cto.com/13447608/2448072)
+
+**其他容器技术**
+
++ OCI开放容器标准 [https://github.com/opencontainers](https://github.com/opencontainers)
+    + [https://opencontainers.org](https://opencontainers.org)
++ 云原生技术图谱 [https://github.com/cncf/landscape](https://github.com/cncf/landscape)
++ [OCI,CRI,CRI-O,Containerd 名词解释](https://blog.csdn.net/weixin_40864891/article/details/86655846)
 
 * [从开发者的角度比较Kubernetes和Cloud Foundry](http://dockone.io/article/5679)
 * [https://github.com/kubernetes](https://github.com/kubernetes)
     * [https://github.com/kubernetes-incubator](https://github.com/kubernetes-incubator)
     * [https://kubernetes.io](https://kubernetes.io)
 * Kubernetes的软件包管理器 [https://github.com/helm](https://github.com/helm)
+* [https://github.com/kinvolk](https://github.com/kinvolk)
 * [https://github.com/dapr](https://github.com/dapr)
 * [https://github.com/dokku](https://github.com/dokku)
 * [https://github.com/cloudfoundry](https://github.com/cloudfoundry)
@@ -41,16 +43,42 @@
     * [https://www.cloudfoundry.org](https://www.cloudfoundry.org)
 * [cloud-foundry 的动态 - SegmentFault 思否](https://segmentfault.com/t/cloud-foundry)
 * [https://www.terraform.io](https://www.terraform.io)
+* [https://github.com/rancher/rancher](https://github.com/rancher/rancher)
+* [https://github.com/mesosphere/marathon](https://github.com/mesosphere/marathon)
 * Ansible
 * Packer
 * 谷歌、IBM、微软、Pivotal、SAP、SUSE、Swisscom、GE
 * DevOps
-* [https://github.com/kata-containers](https://github.com/kata-containers)
-    * [https://www.katacoda.com](https://www.katacoda.com)
-    * [https://github.com/hyperhq](https://github.com/hyperhq)
-        * [https://www.hyperhq.com](https://www.hyperhq.com)
-    * [https://github.com/clearcontainers](https://github.com/clearcontainers)
-* [https://github.com/chaosblade-io/chaosblade](https://github.com/chaosblade-io/chaosblade)
+* [https://github.com/openzfs/zfs](https://github.com/openzfs/zfs)
+* [https://github.com/wekan/wekan](https://github.com/wekan/wekan)
+
+
+- [https://github.com/systemd](https://github.com/systemd)
+    - [systemd-nspawn以及container的学习](https://www.cnblogs.com/godcrying1202/archive/2004/01/13/14122532.html)
+- [https://github.com/coreos](https://github.com/coreos)
+- Linux Container [https://github.com/lxc/lxc](https://github.com/lxc/lxc)
+    - [https://linuxcontainers.org](https://linuxcontainers.org)
+    - [https://github.com/tailhook/unshare](https://github.com/tailhook/unshare)
+- podman [https://github.com/containers](https://github.com/containers)
+    - [再见 Docker，是时候拥抱下一代容器工具了](https://mp.weixin.qq.com/s/MDi4RB5V60EGl3ii9usD0Q)
+    - [podman初试-和docker对比](https://blog.51cto.com/13447608/2448072)
+- [https://github.com/containerd/containerd](https://github.com/containerd/containerd)
+- [https://github.com/moby/moby](https://github.com/moby/moby)
+- [https://github.com/coreos](https://github.com/coreos)
+- [https://github.com/cri-o/cri-o](https://github.com/cri-o/cri-o)
+- [https://github.com/kata-containers](https://github.com/kata-containers)
+    - [https://www.katacoda.com](https://www.katacoda.com)
+    - [https://github.com/hyperhq](https://github.com/hyperhq)
+        - [https://www.hyperhq.com](https://www.hyperhq.com)
+    - [https://github.com/clearcontainers](https://github.com/clearcontainers)
+- [https://github.com/chaosblade-io/chaosblade](https://github.com/chaosblade-io/chaosblade)
+- [https://github.com/alibaba/pouch](https://github.com/alibaba/pouch)
+- [https://github.com/singularity/singularity](https://github.com/singularity/singularity)
+- [https://github.com/apache/mesos](https://github.com/apache/mesos)
+    - [https://github.com/mesos](https://github.com/mesos)
+- [https://github.com/OpenVZ](https://github.com/OpenVZ)
+
+
 
 **Docker搭建私有仓库**
 
@@ -96,7 +124,7 @@
     * [https://cloud.ibm.com/shell](https://cloud.ibm.com/shell)
     * [http://cli.cloudfoundry.org/zh-Hans/cf](http://cli.cloudfoundry.org/zh-Hans/cf)
     - 使用ssh部署代码是错误的。正确做法是先进入 `ibmcloud target --cf` 使用 `ibmcloud cf push`命令
-        - `ibmcloud cf push 容器名 -b php_buildpack -m 256M -c "wget https://downloads.rclone.org/v1.52.2/rclone-v1.52.2-linux-amd64.zip && unzip rclone-v1.52.2-linux-amd64.zip && cd rclone-v1.52.2-linux-amd64"`
+        - `ibmcloud cf push 容器名 -b php_buildpack -m 256M -c "ls && ce /home"`
     - 在push的代码目录里创建.bp-config配置文件，可以修改app的启动行为、可以修改`php.ini`等。否则你的container和其他服务做链接时就会被刷回原始状态。
     - 10天是指开发行为，必须是类似于`ibm cloud cf restart`或者`cf push`这样的行为，可以用纯shell脚本实现。
     * [https://github.com/CCChieh/IBMYes](https://github.com/CCChieh/IBMYes)
