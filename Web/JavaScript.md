@@ -29,6 +29,10 @@
 > ，用来为旧浏览器提供它没有原生支持的较新的功能 [https://github.com/financial-times/polyfill-service](https://github.com/financial-times/polyfill-service)
 
 
+- 恶意软件分析 [https://github.com/HynekPetrak/malware-jail](https://github.com/HynekPetrak/malware-jail)
+
+
+
 
 ## 手册
 
@@ -167,6 +171,12 @@ var express = require('express');
 * [https://github.com/jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp)
 
 
+- 测试 [https://github.com/karma-runner/karma](https://github.com/karma-runner/karma)
+- [https://github.com/qunitjs](https://github.com/qunitjs)
+- [https://github.com/mochajs/mocha](https://github.com/mochajs/mocha)
+- [https://github.com/jasmine/jasmine](https://github.com/jasmine/jasmine)
+
+
 
 ## 第三方库
 
@@ -206,13 +216,26 @@ var express = require('express');
 * SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
 * [https://github.com/dankogai/js-base64](https://github.com/dankogai/js-base64)
 * 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
-* 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
-* alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
 * 选色器 [https://github.com/bgrins/spectrum](https://github.com/bgrins/spectrum)
-
+* [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
+* 手势交互 [https://github.com/hammerjs/hammer.js](https://github.com/hammerjs/hammer.js)
+* [https://github.com/material-motion/material-motion-js](https://github.com/material-motion/material-motion-js)
+* 自动执行 [https://github.com/gruntjs](https://github.com/gruntjs)
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
-- [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
+
+
+
+**弹窗/提示框**
+
++ [https://github.com/topics/dialog](https://github.com/topics/dialog)
++ [https://github.com/topics/popup](https://github.com/topics/popup)
+
+* [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
+* [https://github.com/sentsin/layer](https://github.com/sentsin/layer)
+* [https://github.com/sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2)
+* 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
+* alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
 
 
 
@@ -247,6 +270,7 @@ var express = require('express');
 
 **工具**
 
+* [http://github.com/mootools](http://github.com/mootools)
 * [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
 * [https://github.com/lodash/lodash](https://github.com/lodash/lodash)
 * [[https://github.com/jashkenas]([https://github.com/jashkenas)
@@ -377,6 +401,7 @@ var express = require('express');
 * [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
 * [https://github.com/Chimeejs/chimee](https://github.com/Chimeejs/chimee)
 * [https://github.com/bilibili/flv.js](https://github.com/bilibili/flv.js)
+* [https://github.com/google/shaka-player](https://github.com/google/shaka-player)
 * [https://gitee.com/niandeng/ckplayer](https://gitee.com/niandeng/ckplayer)
 * [https://github.com/Aaaaaaaty/Blog/tree/master/html5player](https://github.com/Aaaaaaaty/Blog/tree/master/html5player)
 * [https://github.com/chiruom/DanmuPlayer](https://github.com/chiruom/DanmuPlayer)

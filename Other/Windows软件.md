@@ -39,28 +39,21 @@
 * [果核剥壳](https://www.ghpym.com)
 * [zdBryan](https://www.423down.com)
 * [落尘之木](https://www.luochenzhimu.com)
-* [懒得勤快](https://masuit.com/misc/5)
-* [绿软博客](http://liujin-greensoft.lofter.com)
-* [殁漂遥](http://www.laomo.me)
-* [奇客小栈](http://www.geekotg.com)
+* [懒得勤快](https://masuit.com)
+* [殁漂遥](https://www.mpyit.com)
 * [轻狂志](http://www.flighty.cn)
 * [伤逝的安详](https://www.ssdax.com)
-* [释怀](https://shiove.com/c/9tk)
+* [释怀](https://shiove.com/download.html)
 * [宋永志博客](http://www.songyongzhi.com/SystemTool)
 * [我天哪鸡哥](https://www.wotianna.com)
 * [星空软件共享绿化园地](http://www.xingkbjm.com)
 * [飞扬时空作品](http://blog.sina.com.cn/s/blog_89a729a40102wjwp.html)
 * [翠竹成林](http://msbuild.cn)
-* [http://itjcc.com](http://itjcc.com)
 * [https://myqqjd.com](https://myqqjd.com)
 * [http://www.ypojie.com](http://www.ypojie.com)
 * [https://www.ccava.net](https://www.ccava.net)
-* [https://ymso.net](https://ymso.net)
-* [https://www.wsf1234.com](https://www.wsf1234.com)
-* [http://luxiaoneng.com](http://luxiaoneng.com/category/%e5%b7%a5%e5%85%b7%e5%8c%85)
 * [https://www.zrbk.xyz](https://www.zrbk.xyz)
 * [http://yx.bsh.me](http://yx.bsh.me)
-* [耗子爱吃草](http://www.haozi666.com)
 * [苦瓜甘甜](http://www.kuguagantian.com)
 
 
@@ -107,6 +100,7 @@
     * [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
 * [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
 
+- 万能命令 [https://wanneng.run](https://wanneng.run)
 
 
 ## 下载器
@@ -245,6 +239,8 @@
 * [https://yixun.writeas.com/yi-xun](https://yixun.writeas.com/yi-xun)
 * [https://github.com/lpg-it/BaiduYunVIP](https://github.com/lpg-it/BaiduYunVIP)
 * DuPan [https://www.lanzoux.com/b09r8jmhi](https://www.lanzoux.com/b09r8jmhi) 密码：b8ua
+* [https://cloud189.1t.workers.dev/web](https://cloud189.1t.workers.dev/web)
+
 
 
 
@@ -414,6 +410,11 @@
     * [InnoSetup中文定制版](http://blog.sina.com.cn/s/blog_89a729a40102xuy4.html)
     * [https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation)
 
+- [https://github.com/wixtoolset/wix3](https://github.com/wixtoolset/wix3)
+- [https://www.ej-technologies.com/download/install4j/files](https://www.ej-technologies.com/download/install4j/files)
+- [https://www.ej-technologies.com/download/exe4j/files](https://www.ej-technologies.com/download/exe4j/files)
+
+
 
 ### AutoIt
 
@@ -461,36 +462,6 @@
 * 在线文档 [https://personal.onlyoffice.com](https://personal.onlyoffice.com)
 * PDF阅览器 [https://fsfe.org/pdfreaders/pdfreaders.zh.html](https://fsfe.org/pdfreaders/pdfreaders.zh.html)
 
-- [https://shoppy.gg/@mantastyle](https://shoppy.gg/@mantastyle)
-- [https://ip.ci](https://ip.ci)
-- [https://jimschool.org](https://jimschool.org)
-- [https://free365.ltd](https://free365.ltd)
-    - [https://a1_free365.a1od.workers.dev](https://a1_free365.a1od.workers.dev)
-    - [https://e3_free365.a1od.workers.dev](https://e3_free365.a1od.workers.dev)
-    - [https://a1p.zha.bi](https://a1p.zha.bi)
-    - [https://a1_sc.a1od.workers.dev](https://a1_sc.a1od.workers.dev)
-- [https://25t.zxd.workers.dev](https://25t.zxd.workers.dev)
-- [http://xyxywan.gitee.io/web/index.html](http://xyxywan.gitee.io/web/index.html)
-- [https://onedrive.2o.workers.dev](https://onedrive.2o.workers.dev)
-- [http://office.mystrk.gq](http://office.mystrk.gq)
-- [https://ceo.qiantigers.workers.dev](https://ceo.qiantigers.workers.dev)
-- [https://mail365.xyz](https://mail365.xyz)
-- [https://azzzzzz.lx.workers.dev](https://azzzzzz.lx.workers.dev)
-- [https://a1.lx.workers.dev](https://a1.lx.workers.dev)
-- [http://office.zx.al](http://office.zx.al)
-- [https://od.wulel.cn](https://od.wulel.cn)
-- [http://my.ehsrr.com](http://my.ehsrr.com)
-- [https://zcnp.azurewebsites.net](https://zcnp.azurewebsites.net)
-- [https://od.kbbldh.workers.dev](https://od.kbbldh.workers.dev)
-- [http://zcmail.azurewebsites.net](http://zcmail.azurewebsites.net)
-- [https://www.1tb.fun](https://www.1tb.fun)
-- [https://od.malahu.tk](https://od.malahu.tk)
-- [https://malahu.n5.myws.ca](https://malahu.n5.myws.ca)
-- [https://od.wulel.cn](https://od.wulel.cn)
-- [https://tb.mygindex.workers.dev](https://tb.mygindex.workers.dev)
-- [https://a1p.huiju.in](https://a1p.huiju.in)
-- [https://a1.zxd.workers.dev](https://a1.zxd.workers.dev)
-- [https://freea1p.art](https://freea1p.art)
 
 
 **发卡商店**
@@ -677,6 +648,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/thebookisclosed/ViVe](https://github.com/thebookisclosed/ViVe)
 * 远程控制 [https://www.todesk.com](https://www.todesk.com)
 * 向日葵 [https://sunlogin.oray.com/download](https://sunlogin.oray.com/download)
+* [https://anydesk.com](https://anydesk.com)
 
 - 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
     - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)

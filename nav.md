@@ -42,6 +42,8 @@
 
   * [JDK工具](/Java/JDK工具.md)
 
+  * [Java构建管理](/Java/Java构建管理.md)
+
   * [Java笔记](/Java/Java笔记.md)
 
   * [ORM](/Java/ORM.md)

@@ -142,8 +142,9 @@
 + [https://github.com/justjavac/free-programming-books-zh_CN](https://github.com/justjavac/free-programming-books-zh_CN)
 + [https://github.com/EbookFoundation/free-programming-books](https://github.com/EbookFoundation/free-programming-books)
 
-* 书栈网（极力推荐） [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
+* 书栈网 [https://github.com/TruthHun/BookStack](https://github.com/TruthHun/BookStack)
     * [https://www.bookstack.cn](https://www.bookstack.cn)
+* 天赋好书 [https://cntofu.com](https://cntofu.com)
 * 码农之家（计算机电子书下载） [http://www.xz577.com](http://www.xz577.com)
 * 鸠摩搜书 [http://www.jiumodiary.com](http://www.jiumodiary.com)
 * 云海电子图书馆 [http://www.pdfbook.cn](http://www.pdfbook.cn)
@@ -285,6 +286,7 @@
 * [Archives - 彭超 | Blog](https://antoniopeng.com/archive)
 * [archives - 沉默王二博客](http://www.itwanger.com/archives.html)
 * [archives - bugstack虫洞栈](https://bugstack.cn/archives.html)
+* [归档 | IT宅-arthinking's blog](https://www.itzhai.com/archives)
 
 
 
@@ -376,6 +378,7 @@
 * [Qiantigers](https://www.qiantigers.top/archives)
 * [归档 | Eicky Blog](https://eicky.com/archives)
 * [趣乐子 – 快乐源于分享](https://www.7lez.com)
+* 线工具秘籍 [https://github.com/zhaoolee/OnlineToolsBook](https://github.com/zhaoolee/OnlineToolsBook)
 
 
 

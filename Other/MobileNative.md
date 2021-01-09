@@ -84,12 +84,6 @@
 
 - [https://github.com/Vove7/retrofit-rest-client](https://github.com/Vove7/retrofit-rest-client)
 - [https://github.com/LiushuiXiaoxia](https://github.com/LiushuiXiaoxia)
-
-* JavaScript自动化工具 [https://github.com/hyb1996/Auto.js](https://github.com/hyb1996/Auto.js)
-* 微信僵尸好友脚本 [https://github.com/L8426936/auto.js-script](https://github.com/L8426936/auto.js-script)
-* [https://github.com/huxx16/AutoApiSecret](https://github.com/huxx16/AutoApiSecret)
-
-
 - [https://github.com/huangruiLearn/flutter_hrlweibo](https://github.com/huangruiLearn/flutter_hrlweibo)
 - [https://github.com/sabernwj/cookiej](https://github.com/sabernwj/cookiej)
 - [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
@@ -98,6 +92,28 @@
 + [https://github.com/anbox/anbox](https://github.com/anbox/anbox)
     + [Linux上运行安卓应用:安装使用Anbox](https://www.cnblogs.com/syisyuan/p/12811595.html)
 
+
+
+
+### 自动化
+
+* [https://tasker.joaoapps.com](https://tasker.joaoapps.com)
+
+**Auto.js**
+
+> JavaScript自动化工具
+
++ [https://github.com/topics/autojs](https://github.com/topics/autojs)
++ [https://github.com/TonyJiangWJ/AutoScriptBase](https://github.com/TonyJiangWJ/AutoScriptBase)
++ [https://github.com/hyb1996/Auto.js](https://github.com/hyb1996/Auto.js)
+    + [https://github.com/SuperMonster002/Hello_Sockpuppet](https://github.com/SuperMonster002/Hello_Sockpuppet)
++ [https://github.com/easy-click/easyclick-libs](https://github.com/easy-click/easyclick-libs)
+
+
+* 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
+* [https://github.com/huxx16/AutoApiSecret](https://github.com/huxx16/AutoApiSecret)
+* [https://github.com/topics/accessibilityservice](https://github.com/topics/accessibilityservice)
+* [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
 
 
 
@@ -122,48 +138,29 @@
 
 ### 逆向工具
 
-+ [https://github.com/topics/reverse-engineering](https://github.com/topics/reverse-engineering)
-+ [https://github.com/topics/decompiler](https://github.com/topics/decompiler)
-+ [https://github.com/topics/disassembler](https://github.com/topics/disassembler)
++ [Java反编译工具](/Java/JDK工具.md#反编译工具)
 
-- [https://github.com/TheCjw/scoop-retools](https://github.com/TheCjw/scoop-retools)
-- [https://github.com/venshine/decompile-apk](https://github.com/venshine/decompile-apk)
-
-* 在线反编译器 [http://www.javadecompilers.com](http://www.javadecompilers.com)
-* [https://github.com/java-decompiler](https://github.com/java-decompiler)
-    * [https://github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui)
-* [https://github.com/leibnitz27/cfr](https://github.com/leibnitz27/cfr)
-* [https://github.com/mstrobel/procyon](https://github.com/mstrobel/procyon)
-    * Gui for Procyon [https://github.com/deathmarine/Luyten](https://github.com/deathmarine/Luyten)
-* [https://github.com/fesh0r/fernflower](https://github.com/fesh0r/fernflower)
-   * [https://github.com/MinecraftForge/ForgeFlower](https://github.com/MinecraftForge/ForgeFlower)
-   * [http://the.bytecode.club/fernflower.jar](http://the.bytecode.club/fernflower.jar)
-* [https://github.com/MaxPixelStudios/MinecraftDecompiler](https://github.com/MaxPixelStudios/MinecraftDecompiler)
 * [https://github.com/iBotPeaches/Apktool](https://github.com/iBotPeaches/Apktool)
-* [https://github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio)
-* [https://github.com/rednaga/axmlprinter](https://github.com/rednaga/axmlprinter)
-* baksmali [https://github.com/JesusFreke/smali](https://github.com/JesusFreke/smali)
-* bytecode-viewer [https://github.com/Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer)
-* cff-explorer [http://www.ntcore.com/exsuite.php](http://www.ntcore.com/exsuite.php)
+    * [https://github.com/TheCjw/scoop-retools](https://github.com/TheCjw/scoop-retools)
+* [https://github.com/venshine/decompile-apk](https://github.com/venshine/decompile-apk)
+* smali/baksmali [https://github.com/JesusFreke/smali](https://github.com/JesusFreke/smali)
+* 解析和打印Android Manifest文件 [https://github.com/rednaga/axmlprinter](https://github.com/rednaga/axmlprinter)
 * [https://github.com/google/android-classyshark](https://github.com/google/android-classyshark)
-* dex2jar [https://github.com/pxb1988/dex2jar](https://github.com/pxb1988/dex2jar)
-* [https://github.com/horsicq/DIE-engine](https://github.com/horsicq/DIE-engine)
-* dynamorio [https://github.com/DynamoRIO/dynamorio](https://github.com/DynamoRIO/dynamorio)
-* [http://www.gda.wiki:9090/index.php](http://www.gda.wiki:9090/index.php)
-* [https://ghidra-sre.org](https://ghidra-sre.org)
-* [https://github.com/Perfare/Il2CppDumper](https://github.com/Perfare/Il2CppDumper)
-* [https://github.com/skylot/jadx](https://github.com/skylot/jadx)
-* [https://github.com/kwart/jd-cmd](https://github.com/kwart/jd-cmd)
-* [https://github.com/libimobiledevice-win32/imobiledevice-net](https://github.com/libimobiledevice-win32/imobiledevice-net)
-* [https://software.intel.com/articles/pin-a-dynamic-binary-instrumentation-tool](https://software.intel.com/articles/pin-a-dynamic-binary-instrumentation-tool)
-* [https://github.com/Col-E/Recaf](https://github.com/Col-E/Recaf)
-* [https://github.com/uxmal/reko](https://github.com/uxmal/reko)
-* [https://github.com/CalebFenton/simplify](https://github.com/CalebFenton/simplify)
-* [https://github.com/JesusFreke/smali](https://github.com/JesusFreke/smali)
-* snowman [https://derevenets.com](https://derevenets.com)
+* 反混淆 [https://github.com/CalebFenton/simplify](https://github.com/CalebFenton/simplify)
 
 
+- unity il2cpp逆向工程 [https://github.com/Perfare/Il2CppDumper](https://github.com/Perfare/Il2CppDumper)
+- CFF Explorer进程PE查看 [http://www.ntcore.com/exsuite.php](http://www.ntcore.com/exsuite.php)
+    - [https://github.com/bfosterjr/CFFExtensions](https://github.com/bfosterjr/CFFExtensions)
+    - [https://github.com/Steve1920/courseManage](https://github.com/Steve1920/courseManage)
+        - [https://pan.baidu.com/s/1_wma1SuhGBC6Aku6X4iRXQ](https://pan.baidu.com/s/1_wma1SuhGBC6Aku6X4iRXQ)
+* 二进制反编译 [https://github.com/uxmal/reko](https://github.com/uxmal/reko)
+- 提取/解压缩 [https://github.com/Perfare/AssetStudio](https://github.com/Perfare/AssetStudio)
 - [手机抓包神器HttpCanary](https://www.lanzoux.com/b0f1b9v6j)
+- C-S架构渗透测试 [https://github.com/theLSA/CS-checklist](https://github.com/theLSA/CS-checklist)
+- [https://github.com/fireeye/flare-vm](https://github.com/fireeye/flare-vm)
+- [https://github.com/DynamoRIO/dynamorio](https://github.com/DynamoRIO/dynamorio)
+- [https://github.com/libimobiledevice-win32/imobiledevice-net](https://github.com/libimobiledevice-win32/imobiledevice-net)
 
 
 
@@ -243,7 +240,6 @@
     + [https://forum.release-apk.com/tag/downloader](https://forum.release-apk.com/tag/downloader)
 + [https://patch.chelpus.com](https://patch.chelpus.com)
 + [手机软件下载-智友邦原智友论坛](http://bbs.zhiyoo.net/forum.php?mod=forumdisplay&fid=42&filter=lastpost&orderby=lastpost)
-+ 各大网站的脚本 [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
 + [https://github.com/butzist/ActivityLauncher](https://github.com/butzist/ActivityLauncher)
 
 * 文件传输 [http://www.xender.com](http://www.xender.com)

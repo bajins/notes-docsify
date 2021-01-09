@@ -7,8 +7,6 @@
 
 ## Flag
 
-+ [https://github.com/jenkinsci](https://github.com/jenkinsci)
-  + [https://www.jenkins.io](https://www.jenkins.io)
 + [https://github.com/semantic-release](https://github.com/semantic-release)
 
 * [https://github.com/gitblit/gitblit](https://github.com/gitblit/gitblit)
@@ -19,11 +17,13 @@
 - 记录GitHub趋势 [https://github.com/xiaobaiha/github-trending-history](https://github.com/xiaobaiha/github-trending-history)
 - 获取统计信息 [https://github.com/shroudedcode/devstats](https://github.com/shroudedcode/devstats)
 - 获取动态生成的GitHub统计信息 [https://github.com/anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats)
+- [你在 GitHub 上看到过的最有意思的项目是什么？ - 知乎](https://www.zhihu.com/question/23498424)
 
 
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 * [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
 * 代码语法突出 [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat)
+* GitHub的Java API [https://github.com/hub4j/github-api](https://github.com/hub4j/github-api)
 
 **代码跟踪分析**
 

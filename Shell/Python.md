@@ -55,7 +55,9 @@ with Test() as t: # 触发__exit__
 ```
 
 - 纯真IP数据库 [https://github.com/animalize/qqwry-python3](https://github.com/animalize/qqwry-python3)
-
+- 反编译 [https://github.com/countercept/python-exe-unpacker](https://github.com/countercept/python-exe-unpacker)
+- 解密MS Office [https://github.com/nolze/msoffcrypto-tool](https://github.com/nolze/msoffcrypto-tool)
+- 网站脱机下载 [https://github.com/xroche/httrack](https://github.com/xroche/httrack)
 
 
 ## 第三方库
@@ -191,6 +193,7 @@ with Test() as t: # 触发__exit__
 - [https://github.com/ainize-team](https://github.com/ainize-team)
     - [![Run on Ainize](https://ainize.ai/images/run_on_ainize_button.svg)](https://ainize.web.app/redirect?git_repo=https://github.com/alisen39/TrWebOCR)
 - [https://github.com/d2l-ai](https://github.com/d2l-ai)
+- 视频感知 [https://github.com/open-mmlab/mmtracking](https://github.com/open-mmlab/mmtracking)
 
 
 
@@ -212,7 +215,7 @@ with Test() as t: # 触发__exit__
     * `pip3 install tornado numpy opencv_python onnxruntime Shapely pyclipper Pillow`
 * [https://github.com/tesseract-ocr/tesseract](https://github.com/tesseract-ocr/tesseract)
 * [https://github.com/PaddlePaddle/PaddleOCR](https://github.com/PaddlePaddle/PaddleOCR)
-
+* [https://github.com/miaomiaosoft/PandaOCR](https://github.com/miaomiaosoft/PandaOCR)
 
 
 
