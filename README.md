@@ -35,11 +35,15 @@
 - 先克隆本仓库 `git clone https://github.com/woytu/notes-docsify.git`
 - 保留上面[目录结构](#目录结构)列出的文件和文件夹，其他的全部删除
 - 创建自己的md文件，开始写作
-- 编辑入口文件（`index.html`）：其中评论系统有多个例子，可自行修改
+- 编辑入口文件（`index.html`）
+    > 其中评论系统有多个例子，可自行修改
+    >
+    > 注意`basePath`配置项，如果repo不是githu.io访问根目录，则不能使用`/`
 - Windows添加hook
     - 在项目中打开CMD执行`(echo #!/bin/bash& echo.& echo ./push.sh)>.git/hooks/pre-commit`
     - 或者`(for %i in ("#!/bin/bash" "./push.sh") do @echo %~i&@echo.)>.git/hooks/pre-commit`
     - 在PowerShell中执行<code>echo "#!/bin/bash`n./push.sh"| Out-File .git/hooks/pre-commit -encoding ASCII</code>
+    > Windows下脚本没有写权限：在`git-bash.exe`文件或快捷方式上鼠标`右键` -> `属性` -> `兼容性` -> 勾选`以管理员身份运行此程序` -> `确定`
 - Linux或Mac添加hook
     - 在项目中执行`echo -e '#!/bin/bash\n\n./push.sh'>.git/hooks/pre-commit`
     - 如果提示`-bash: !": event not found`执行`chmod +x .git/hooks/pre-commit`设置权限
