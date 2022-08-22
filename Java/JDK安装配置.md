@@ -7,40 +7,55 @@
 
 ## Flag
 
-* [https://www.ej-technologies.com](https://www.ej-technologies.com)
-* [https://github.com/oracle/graal](https://github.com/oracle/graal)
-* [http://openjdk.java.net/jeps/333](http://openjdk.java.net/jeps/333)
++ [https://github.com/topics/jvm](https://github.com/topics/jvm)
 
-- 通用VM [https://github.com/graalvm](https://github.com/graalvm)
-- [https://github.com/oracle/graal](https://github.com/oracle/graal)
+
+* [http://openjdk.java.net/jeps/333](http://openjdk.java.net/jeps/333)
+* [https://www.oracle.com/cn/downloads](https://www.oracle.com/cn/downloads)
+* [https://www.oracle.com/java](https://www.oracle.com/java)
+    * [https://www.oracle.com/java/technologies/javase-downloads.html](https://www.oracle.com/java/technologies/javase-downloads.html)
+    * [https://www.oracle.com/java/technologies/java-ee-glance.html](https://www.oracle.com/java/technologies/java-ee-glance.html)
 
 
 
 ## OpenJDK
 
++ [https://github.com/topics/openjdk](https://github.com/topics/openjdk)
++ [https://github.com/topics/jdk](https://github.com/topics/jdk)
+
+
 * [https://github.com/openjdk](https://github.com/openjdk)
     * [http://hg.openjdk.java.net](http://hg.openjdk.java.net)
-    * [https://github.com/unofficial-openjdk/openjdk](https://github.com/unofficial-openjdk/openjdk)
-* [https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)
+    * [https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
+    * [https://dev.java](https://dev.java)
+    * [https://www.oracle.com/java/technologies/downloads](https://www.oracle.com/java/technologies/downloads)
+* ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
+    * ~~[https://adoptopenjdk.net](https://adoptopenjdk.net)~~
+* [https://github.com/adoptium](https://github.com/adoptium)
+    * [https://adoptium.net](https://adoptium.net)
 * [https://github.com/corretto](https://github.com/corretto)
     * [https://aws.amazon.com/cn/corretto](https://aws.amazon.com/cn/corretto)
 * [https://github.com/zulu-openjdk](https://github.com/zulu-openjdk)
     * [https://www.azul.com/downloads/zulu](https://cn.azul.com/downloads/zulu)
     * [https://cdn.azul.com/zulu/bin](https://cdn.azul.com/zulu/bin)
-* [https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)
-* [Red Hat OpenJDK](https://developers.redhat.com/products/openjdk/download)
+* [https://github.com/bell-sw](https://github.com/bell-sw)
+    * [https://bell-sw.com/pages/downloads](https://bell-sw.com/pages/downloads)
 * [https://github.com/SAP/SapMachine](https://github.com/SAP/SapMachine)
     * [https://sap.github.io/SapMachine](https://sap.github.io/SapMachine)
-* [https://github.com/bell-sw](https://github.com/bell-sw)
-    * [https://bell-sw.com/java](https://bell-sw.com/java)
-* [https://github.com/sdkman](https://github.com/sdkman)
-    * [https://sdkman.io](https://sdkman.io)
-* [https://github.com/ScoopInstaller/Java](https://github.com/ScoopInstaller/Java)
+* [https://developer.ibm.com/languages/java](https://developer.ibm.com/languages/java)
+    * [https://developer.ibm.com/javasdk](https://developer.ibm.com/javasdk)
+* [https://developers.redhat.com/products/openjdk](https://developers.redhat.com/products/openjdk)
+* [https://github.com/microsoft/openjdk](https://github.com/microsoft/openjdk)
+    * [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
+    * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
+* [https://github.com/eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9)
 * [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
-* [https://developer.ibm.com/javasdk/downloads](https://developer.ibm.com/javasdk/downloads)
+* [https://github.com/Tencent/TencentKona-8](https://github.com/Tencent/TencentKona-8)
 
-+ [https://github.com/oracle/graal](https://github.com/oracle/graal)
-    + [https://www.graalvm.org](https://www.graalvm.org)
+
+
+![](/images/JDK版本生命周期.jpg)
+
 
 
 
@@ -116,9 +131,30 @@
 
 
 
+## 通用VM
+
+- [https://github.com/topics/native-image](https://github.com/topics/native-image)
+    - [GraalVM Native Image介绍](https://aijishu.com/a/1060000000090571)
+    - [下一代JVM：GraalVM的十大特性](http://it.deepinmind.com/jvm/2019/08/27/graalvm-ten-things.html)
+- 通用VM [https://github.com/graalvm](https://github.com/graalvm)
+    - [https://www.graalvm.org/reference-manual/native-image](https://www.graalvm.org/reference-manual/native-image)
+- [https://github.com/oracle/graal](https://github.com/oracle/graal)
+- SubstrateVM [https://github.com/oracle/graal](https://github.com/oracle/graal)
+    - [https://github.com/westinyang/java-graalvm-start](https://github.com/westinyang/java-graalvm-start)
+- [https://github.com/spring-projects-experimental/spring-native](https://github.com/spring-projects-experimental/spring-native)
+- [https://docs.spring.io/spring-native/docs/current/reference/htmlsingle](https://docs.spring.io/spring-native/docs/current/reference/htmlsingle)
+- [https://openval.eu/jdk](https://openval.eu/jdk)
+- [https://github.com/spaceflint7/bluebonnet](https://github.com/spaceflint7/bluebonnet)
+- iOS [https://github.com/ibinti/bugvm](https://github.com/ibinti/bugvm)
+- [https://github.com/robovm/robovm](https://github.com/robovm/robovm)
+    - [https://github.com/MobiVM/robovm](https://github.com/MobiVM/robovm)
+- [https://sourceforge.net/projects/xmlvm](https://sourceforge.net/projects/xmlvm)
+
+
+
+
 ## JVM
 
-+ [https://github.com/topics/jvm](https://github.com/topics/jvm)
 + [有关Java HotSpot VM的常见问题](https://www.oracle.com/java/technologies/hotspotfaq.html)
 + [JVM的那些常用参数以及命令](https://segmentfault.com/a/1190000020656202)
 
@@ -126,7 +162,6 @@
 * [https://wiki.openjdk.java.net/display/zgc/Main](https://wiki.openjdk.java.net/display/zgc/Main)
 * [G1垃圾收集器入门](https://www.oracle.com/technetwork/tutorials/tutorials-1876574.html)
 * [Java平台，标准版HotSpot虚拟机垃圾收集调优指南](https://docs.oracle.com/javase/8/docs/technotes/guides/vm/gctuning/introduction.html)
-* [Java HotSpot VM选项 - 仅适用于JDK 7和早期版本](https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html)
 * [Java SE 6 HotSpot 虚拟机垃圾收集优化](https://www.oracle.com/java/technologies/javase/gc-tuning-6.html)
 
 - JVM配置工具 [https://render.alipay.com/p/s/jvm-generate/JvmGenerate](https://render.alipay.com/p/s/jvm-generate/JvmGenerate)
@@ -144,6 +179,13 @@
 
 
 ### 常用参数
+
+* [Java HotSpot 虚拟机选项](https://www.oracle.com/java/technologies/javase/vmoptions-jsp.html)
+* [JVM参数配置说明](https://help.aliyun.com/document_detail/148851.html)
+* [JVM内存配置最佳实践](https://help.aliyun.com/document_detail/383255.html)
+* [JVM核心参数图解](https://zhuanlan.zhihu.com/p/372417251)
+* [JVM优化之 -Xss -Xms -Xmx -Xmn 参数设置](https://blog.csdn.net/yrwan95/article/details/82826519)
+
 
 | 参数                                  	| 说明                                                                                                                                                                                                                                                                    	|
 |---------------------------------------	|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	|
@@ -216,7 +258,7 @@ JAVA_OPTS="
 
 
 
-## CentOS安装JDK
+## Linux安装JDK
 
 **查看已安装**
 
@@ -233,49 +275,68 @@ rpm -e --nodeps 查出来的名称
 **查看JDK软件包列表**
 
 ```bash
+# 安装之前最好先更新一下源
+yum update -y
+# 列出可用安装包
 yum -y list java*
 # 或者
 yum search java | grep -i --color JDK
 ```
 
-**yum安装JDK**
+> `jdk-headless`为最小安装包，Java Runtime Environment (JRE) 主要包含了 Java 虚拟机（JVM），类和允许运行 Java 程序的二进制包。
+> Java Development Kit (JDK) 包含 JRE 和用于构建 Java 应用的开发/调试工具和库文件
 
-```bash
-yum -y install java-1.7.0-openjdk java-1.7.0-openjdk-devel.x86_64
-```
+
+**yum安装JDK**
 
 > 通过yum默认安装的路径为`/usr/lib/jvm`
 
+```bash
+yum -y install java-1.8-openjdk java-1.8.0-openjdk-devel.x86_64
+```
+
+
 **配置环境变量**
 
-- 在`/etc/profile`文件中加入
+- 在`/etc/profile`或`/etc/environment`文件中使用`gedit`或者`vim`或者`nano`加入以下几行内容
 
 ```bash
 ########## jdk  environment ######################
-export JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.181-2.6.14.8.el7_5.x86_64
-export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
-export PATH=$PATH:$JAVA_HOME/bin
+export JAVA_HOME=/usr/lib/jvm/java-1.8-openjdk
+# jdk8需要配置jre的环境
+export JRE_HOME=$JAVA_HOME/jre
+export CLASSPATH=.:$JAVA_HOME/lib:$JRE_HOME/lib
+export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 ########## jdk  environment ######################
 ```
 
-- 刷新环境变量文件
 
 ```bash
+# 刷新环境变量文件
 source /etc/profile
-```
-
-- 查看变量是否生效
-
-```bash
+# 查看变量是否生效
 echo $JAVA_HOME && echo $CLASSPATH
-```
-
-**查看Java版本信息**
-
-```bash
+# 源码安装时系统注册此jdk
+update-alternatives --install /usr/bin/java java /usr/lib/jvm/jdk1.8.0_191/bin/java 300
+# 安装了多个版本jdk，通过以下命令在这些版本之间切换
+update-alternatives –config java
+# 查看Java版本信息
 java -version
 ```
 
 
 
+## Windows环境变量
+
+```batch
+setx /m JAVA_HOME "C:\Program Files\Java\jre1.8.0_171"
+
+setx /m CATALINA_HOME "D:\apache-tomcat-8.5.30"
+
+setx /m JRE_HOME "%JAVA_HOME%\jre;"
+
+setx /m CLASSPATH ".;%JAVA_HOME%\lib;%JRE_HOME%\lib;"
+
+setx /m Path "%PATH%;%JAVA_HOME%\bin;%JRE_HOME%\bin;%MAVEN_HOME%\bin;%CATALINA_HOME%\bin;"
+```
 

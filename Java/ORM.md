@@ -15,8 +15,35 @@
 * [http://www.squirrelsql.org](http://www.squirrelsql.org)
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
 * 链式SQL框架 [https://github.com/jOOQ](https://github.com/jOOQ)
+* [https://github.com/querydsl/querydsl](https://github.com/querydsl/querydsl)
+* [https://github.com/BatooOrg/BatooJPA](https://github.com/BatooOrg/BatooJPA)
+* [https://github.com/eclipse-ee4j/eclipselink](https://github.com/eclipse-ee4j/eclipselink)
+* [https://github.com/apache/openjpa](https://github.com/apache/openjpa)
+* [https://github.com/spring-projects/spring-data-jdbc](https://github.com/spring-projects/spring-data-jdbc)
+* [https://github.com/apache/commons-dbutils](https://github.com/apache/commons-dbutils)
+* 只读查询 [https://github.com/ejlchina/bean-searcher](https://github.com/ejlchina/bean-searcher)
+* [https://github.com/speedment](https://github.com/speedment)
+
 
 - [https://github.com/itfsw/mybatis-generator-plugin](https://github.com/itfsw/mybatis-generator-plugin)
+- CRUD生成器 [https://github.com/SanjinKurelic/MVCGenerator](https://github.com/SanjinKurelic/MVCGenerator)
+- 数据库中间件 [https://github.com/apache/shardingsphere](https://github.com/apache/shardingsphere)
+- 连接池 [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
+
+
+
+**Transaction**
+
+* [https://github.com/codingapi/tx-lcn](https://github.com/codingapi/tx-lcn)
+* [https://github.com/seata/seata](https://github.com/seata/seata)
+* [https://github.com/changmingxie/tcc-transaction](https://github.com/changmingxie/tcc-transaction)
+* [https://github.com/QNJR-GROUP/EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)
+* [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
+* [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
+* [https://github.com/atomikos/transactions-essentials](https://github.com/atomikos/transactions-essentials)
+
+
+
 
 
 ## JDBC驱动
@@ -35,8 +62,8 @@
 * [(https://mysql-net.github.io/MySqlConnector/connection-options]((https://mysql-net.github.io/MySqlConnector/connection-options)
     * [https://mysqlconnector.net/connection-options](https://mysqlconnector.net/connection-options)
 
-> `jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8`
-> `&autoReconnect=true&useSSL=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai`
+> `jdbc:mysql://127.0.0.1:3306/test?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false`
+> `&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&zeroDateTimeBehavior=convertToNull&serverTimezone=Asia/Shanghai`
 
 | 参数名称              	| 参数说明                                                                        	| 缺省值 	| 最低版本要求 	|
 |-----------------------	|---------------------------------------------------------------------------------	|--------	|--------------	|
@@ -55,6 +82,10 @@
 | zeroDateTimeBehavior  	| 把零值日期转换为`null`                                                          	|        	|              	|
 | serverTimezone        	| `GMT%2B8` `%2B`是`+`的转义字符,其实就是`GMT+8`（'+8:00'）,代表东八区`Asia/Shanghai` 	|        	|              	|
 
+- `useTimeZone` 为true时，会开启服务器和客户端之间的时区转换，只有`useLegacyDatetimeCode = true`时才回生效
+- `useLegacyDatetimeCode` 默认为true，为false时: `useTimezone`, `useJDBCCompliantTimezoneShift`, `useGmtMillisForDatetimes`, `useFastDateParsing` 这几个参数都会无效
+
+
 
 
 ## Mybatis
@@ -63,7 +94,14 @@
 * [https://mybatis.org/mybatis-3/zh/dynamic-sql.html](https://mybatis.org/mybatis-3/zh/dynamic-sql.html)
 * [https://github.com/pagehelper/Mybatis-PageHelper](https://github.com/pagehelper/Mybatis-PageHelper)
 * [https://github.com/baomidou/mybatis-plus](https://github.com/baomidou/mybatis-plus)
+* [https://github.com/davidfantasy/mybatis-plus-generator-ui](https://github.com/davidfantasy/mybatis-plus-generator-ui)
 
+- [https://github.com/alexdyysp/MybatisHandBook](https://github.com/alexdyysp/MybatisHandBook)
+
+* [干掉mapper.xml！MyBatis新特性动态SQL](https://cloud.tencent.com/developer/article/1769767)
+* [Mybatis 源码分析 (一) Mapper扫描及代理](https://cofcool.github.io/tech/2018/06/20/mybatis-sourcecode-1)
+* [一条sql查出树形结构数据](https://my.oschina.net/u/2326864/blog/1622990)
+* [Sql中对于树形结构的处理](https://blog.csdn.net/weixin_43794897/article/details/88534992)
 
 
 **trim标签**
@@ -105,9 +143,63 @@
 ```
 
 
+**Oracle 的in query list 的大小要不大于1000**
+
+```java
+List<String> taskLists = new ArrayList<>();
+taskLists.addAll(tasksToArchive);
+int times = tasksToArchive.size() % 1000 == 0 ? tasksToArchive.size() / 1000 : (tasksToArchive.size() / 1000 + 1);
+List<IAccountingTask> tasksToArchiveList = new ArrayList<IAccountingTask>();
+if (taskLists != null && !taskLists.isEmpty()) {
+    for (int i = 0; i < times; i++) {
+        List<? extends IAccountingTask> tempList;
+        if ((i + 1) * 1000 <= taskLists.size()) {
+            tempList = persistenceManager.getSession().getAll(AccountingTask.class,
+                    taskLists.subList(i * 1000, (i + 1) * 1000));
+        } else {
+            tempList = persistenceManager.getSession().getAll(AccountingTask.class,
+                    taskLists.subList(i * 1000, taskLists.size()));
+        }
+        tasksToArchiveList.addAll(tempList);
+    }
+}
+
+List<TransactRepViewModel> result = new ArrayList<TransactRepViewModel>();
+final List<List<String>> partitions = ListUtils.partition(clientIdList, 999);
+for (List<String> partition : partitions) {
+    result.addAll(yourRepo.findByClientIdList(partition, startDate, endDate);)
+}
+```
+
+
+```xml
+<foreach collection="sessionIds" item="session_id" open="(" close=")" separator="," index="index">
+    <if test="index == 0">
+      session_id in (
+    </if>
+    <!-- 多个if判断原因：
+           sql in 最大只有1000个参数。
+           foreach 只去掉了最后一个‘,’
+           数据库表中sessionId是非空设置
+    -->
+    <if test="index != 0 and index % 500 == 0">
+      '' ) or session_id in (
+    </if>
+    #{session_id}
+    <if test="index == sessionIds.size - 1">
+      )
+    </if>
+</foreach>
+```
+
+
 
 
 ## Hibernate
+
+* [https://github.com/hibernate](https://github.com/hibernate)
+* [https://github.com/vladmihalcea/hypersistence-optimizer](https://github.com/vladmihalcea/hypersistence-optimizer)
+
 
 ### 返回结果接收方式
 
@@ -178,7 +270,7 @@ List<String> status = Arrays.asList(InvestConstants.InvestStatus.REPAYING,Invest
 DetachedCriteria criteria = DetachedCriteria.forClass(InvestExtensionPlan.class);
 criteria.createAlias("invest", "i");// 当查询关联第三张表时，第二张表需要取别名
 criteria.add(Restrictions.eq("i.loan.id", loanExtensionPlan.getLoan().getId()));
-criteria.add(Restrictions.in("status", status));
+criteria.add(Restrictions.in("status", status)); // 可解决ORACLE in 大于1000问题
 criteria.addOrder(Order.desc("period"));// 添加排序
 
 // 查询一范围内的的数据,需借助Criteria来查询
@@ -186,6 +278,21 @@ Criteria cri = criteria.getExecutableCriteria(ht.getSessionFactory().getCurrentS
 cri.setFirstResult(firstResult);// 从第几条开始
 cri.setMaxResults(maxResults);// 查询多少条
 List<InvestExtensionPlan> investExtensionPlans = ht.findByCriteria(criteria);
+
+
+// 可解决ORACLE in 大于1000问题
+private void addCriteriaIn(String propertyName, List<?> list, Criteria criteria) {
+    Disjunction or = Restrictions.disjunction();
+    if (list.size() > 1000) {
+        while (list.size() > 1000) {
+            List<?> subList = list.subList(0, 1000);
+            or.add(Restrictions.in(propertyName, subList));
+            list.subList(0, 1000).clear();
+        }
+    }
+    or.add(Restrictions.in(propertyName, list));
+    criteria.add(or);
+}
 ```
 
 > 模糊查询和自定义查询
@@ -265,7 +372,7 @@ try {
 
 ### 关闭session
 
-```
+```java
 if (session != null) {
 	session.flush();
 	session.clear();

@@ -8,66 +8,51 @@
 
 ## Flag
 
-- [https://github.com/topics/ide](https://github.com/topics/ide)
-- [https://github.com/topics/devtools](https://github.com/topics/devtools)
++ [https://github.com/topics/ide](https://github.com/topics/ide)
 
-+ [https://github.com/postmanlabs](https://github.com/postmanlabs)
-    + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
-+ [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
-    + [https://hoppscotch.io](https://hoppscotch.io)
-+ IDEA 的`Tools`菜单下有`HTTP Client`可替代postman
 
-* [https://github.com/atom](https://github.com/atom)
-* [https://github.com/geany](https://github.com/geany)
+* [https://github.com/apache/netbeans](https://github.com/apache/netbeans)
+* ~~[https://github.com/atom](https://github.com/atom)~~
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
     * [https://theia-ide.org](https://theia-ide.org)
 * [https://github.com/VSCodium/vscodium](https://github.com/VSCodium/vscodium)
+* GoIDE [https://github.com/visualfc/liteide](https://github.com/visualfc/liteide)
+* [https://sourceforge.net/projects/liteide](https://sourceforge.net/projects/liteide)
+* [https://github.com/lapce](https://github.com/lapce)
+* [https://github.com/zed-industries](https://github.com/zed-industries)
 
 
-
-
-## 加速下载文件
-
-+ [Jupyter Notebook](/Shell/Python.md#jupyter-notebook)
-
-* php源码 [https://github.com/ilanyu/offline-download](https://github.com/ilanyu/offline-download)
-* go源码 [https://github.com/ilanyu/offLineDownloader](https://github.com/ilanyu/offLineDownloader)
-* [http://git.aakkc.com](http://git.aakkc.com)
-* [https://github.com/churuxu/xdownload](https://github.com/churuxu/xdownload)
-* [GitHub 下载加速](https://noshore.cn/github.html)
-* [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
-    * [GitHub加速](https://chrome.google.com/webstore/detail/github%E5%8A%A0%E9%80%9F/mfnkflidjnladnkldfonnaicljppahpg)
-* GitHub代下载服务 [http://g.widyun.com](http://g.widyun.com)
-
+- 代码搜索和替换 [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby)
+- [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)
+- 工具 [https://github.com/864381832/xJavaFxTool](https://github.com/864381832/xJavaFxTool)
+- [https://github.com/baiy/Ctool](https://github.com/baiy/Ctool)
+- WakaTime [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
+- 代码补全AI [https://github.com/codota/tabnine](https://github.com/codota/tabnine)
+    - [https://www.tabnine.com](https://www.tabnine.com)
+- [https://github.com/veler/DevToys](https://github.com/veler/DevToys)
+- [https://github.com/VUEngine](https://github.com/VUEngine)
 
 
 
 ## Online IDE
 
+> Web(Cloud)IDE
+
 + [https://github.com/topics/cloud-ide](https://github.com/topics/cloud-ide)
 + [https://github.com/styfle/awesome-online-ide](https://github.com/styfle/awesome-online-ide)
-
-* [https://ide.goorm.io](https://ide.goorm.io)
-* [https://github.com/codesandbox](https://github.com/codesandbox)
-    * [https://codesandbox.io](https://codesandbox.io)
-* [https://glitch.com](https://glitch.com)
-* [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
-* [https://github.com/eclipse/che](https://github.com/eclipse/che)
-    * [https://github.com/openshift](https://github.com/openshift)
-    * [https://github.com/fabric8-launcher](https://github.com/fabric8-launcher)
-    * [https://www.eclipse.org/che/getting-started/cloud](https://www.eclipse.org/che/getting-started/cloud)
-    * `https://che.openshift.io/dashboard/#/load-factory/?url=https://github.com/账户名/仓库名`
-    * [https://che.openshift.io](https://che.openshift.io)
-    * [https://manage.openshift.com](https://manage.openshift.com)
-* [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
-    * `https://gitpod.io/#https://github.com/账户名/仓库名`
-    * [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/woytu/notes-vuepress)
++ [https://github.com/cdr/code-server](https://github.com/cdr/code-server)
++ [https://github.com/Microsoft/monaco-editor](https://github.com/Microsoft/monaco-editor)
++ [https://github.com/DTStack/molecule](https://github.com/DTStack/molecule)
 
 
-**[静态部署](/Web/README.md#静态部署)**
+- [https://github.com/WebIDEorg/WebIDE-OS](https://github.com/WebIDEorg/WebIDE-OS)
+- [https://github.com/os-js](https://github.com/os-js)
+
 
 
 **在线运行代码**
+
++ [https://github.com/codemirror/codemirror](https://github.com/codemirror/codemirror)
 
 * [https://www.onlinegdb.com](https://www.onlinegdb.com)
 * [https://wandbox.org](https://wandbox.org)
@@ -75,6 +60,58 @@
 * [http://pythontutor.com](http://pythontutor.com)
 * [https://codepen.io](https://codepen.io)
 * [https://github.com/Mohamed99ayman/Online-Compiler](https://github.com/Mohamed99ayman/Online-Compiler)
+* [https://code.xueersi.com/ide/code/1](https://code.xueersi.com/ide/code/1)
+
+- 数学计算器 [https://www.desmos.com](https://www.desmos.com)
+
+
+
+
+## 测试
+
+* [https://github.com/topics/testing](https://github.com/topics/testing)
+* [https://github.com/topics/test-automation](https://github.com/topics/test-automation)
+
+
++ [https://github.com/apache/jmeter](https://github.com/apache/jmeter)
+    + [https://github.com/Blazemeter](https://github.com/Blazemeter)
+    + Apache Benchmark `apt-get install apache2-utils` / `yum install httpd-tools`
+    + [https://www.apachehaus.com](https://www.apachehaus.com)
+    + [https://www.apachelounge.com](https://www.apachelounge.com)
+    + BitNami WAMP Stack
+    + WampServer
+    + XAMPP
++ [https://github.com/postmanlabs](https://github.com/postmanlabs)
+    + [https://www.getpostman.com/apps](https://www.getpostman.com/apps)
+    + [https://github.com/topics/postman](https://github.com/topics/postman)
+    + [https://github.com/hlmd/Postman-cn](https://github.com/hlmd/Postman-cn)
+    + [使用Postman调试SpringBoot程序发现返回值格式是xml](https://blog.csdn.net/clapAlong/article/details/106541926)
+    + [postman 可以做接口并发测试么？](https://www.zhihu.com/question/280155125/answer/475789464)
++ [https://github.com/Kong/insomnia](https://github.com/Kong/insomnia)
++ [https://github.com/SmartBear/soapui](https://github.com/SmartBear/soapui)
+    + [https://www.soapui.org](https://www.soapui.org)
+    + [SoapUI 入门指南](https://blog.csdn.net/duleilewuhen/article/details/125127161)
+    + [SoapUI接口测试工具最全实用教程](https://zhuanlan.zhihu.com/p/517806567)
++ [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
+    + [https://hoppscotch.io](https://hoppscotch.io)
++ [https://github.com/katalon-studio](https://github.com/katalon-studio)
++ [https://github.com/wisdom-projects/rest-client](https://github.com/wisdom-projects/rest-client)
++ [https://gitee.com/itestwork/itest](https://gitee.com/itestwork/itest)
++ [https://github.com/seagull1985/LuckyFrameClient](https://github.com/seagull1985/LuckyFrameClient)
++ [https://github.com/zyanycall/stressTestPlatform](https://github.com/zyanycall/stressTestPlatform)
++ [https://www.apipost.cn](https://www.apipost.cn)
++ [https://github.com/apifox](https://github.com/apifox)
+    + [https://gitee.com/apifox](https://gitee.com/apifox)
+    + [https://www.apifox.cn](https://www.apifox.cn)
++ LoadRunner [https://www.microfocus.com/zh-cn/products#all-L](https://www.microfocus.com/zh-cn/products#all-L)
+    + [https://liushilive.github.io/github_exercise_performance_testing](https://liushilive.github.io/github_exercise_performance_testing)
+    + [性能测试入门——LoadRunner使用初探](https://zhuanlan.zhihu.com/p/24812449)
++ QTP [https://www.microfocus.com/zh-cn/products#all-U](https://www.microfocus.com/zh-cn/products#all-U)
++ IDEA 的`Tools`菜单下有`HTTP Client`可替代postman
+
+
+- mac paw [https://github.com/luckymarmot](https://github.com/luckymarmot)
+
 
 
 
@@ -82,73 +119,77 @@
 
 + [https://github.com/search?q=database+tool](https://github.com/search?q=database+tool)
 + [https://github.com/search?q=SQL+client](https://github.com/search?q=SQL+client)
++ [https://github.com/topics/database-gui](https://github.com/topics/database-gui)
++ [https://gitee.com/explore/dbmanager](https://gitee.com/explore/dbmanager)
+
 
 * [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
+    * [https://dbeaver.io](https://dbeaver.io)
+    * [https://dbeaver.com/download/enterprise](https://dbeaver.com/download/enterprise)
+    * [DBeaver Enterprise 21.0 企业版激活方法](https://zhile.io/2019/05/08/dbeaver-license-crack.html)
+    ```ini
+    # 删除jre目录，安装jdk11或以上版本，把以下两行添加到`-vmargs`之前
+    -vm
+    C:\Program Files\Java\jdk-17.0.2\bin
+    # 解压dbeaver-agent-latest.zip到dbeaver目录，添以下行到最后
+    -javaagent:./dbeaver-agent.jar
+    -Dlm.debug.mode=true
+    ```
+* [https://www.jetbrains.com/zh-cn/datagrip](https://www.jetbrains.com/zh-cn/datagrip)
 * [https://www.navicat.com](https://www.navicat.com)
     * [https://github.com/search?q=navicat](https://github.com/search?q=navicat)
+    * [https://github.com/HyperSine](https://github.com/HyperSine)
+    * [https://github.com/Abeautifulsnow/navicat-premium-crack](https://github.com/Abeautifulsnow/navicat-premium-crack)
+* [https://codeberg.org/sql-workbench/workbench](https://codeberg.org/sql-workbench/workbench)
+    * [https://www.sql-workbench.eu](https://www.sql-workbench.eu)
 * [https://www.heidisql.com](https://www.heidisql.com)
-* [https://www.dbvis.com](https://www.dbvis.com)
+* DbVisualizer [https://www.dbvis.com](https://www.dbvis.com)
 * [https://sourceforge.net/projects/squirrel-sql](https://sourceforge.net/projects/squirrel-sql)
     * [http://www.squirrelsql.org](http://www.squirrelsql.org)
 * [https://www.activedbsoft.com](https://www.activedbsoft.com)
 * [https://www.razorsql.com](https://www.razorsql.com)
 * [https://www.aquafold.com](https://www.aquafold.com)
+* [https://github.com/TablePlus](https://github.com/TablePlus)
+* [https://github.com/trinodb/trino](https://github.com/trinodb/trino)
+* [https://github.com/ocelot-inc/ocelotgui](https://github.com/ocelot-inc/ocelotgui)
+* [https://github.com/beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
+* Python 自动提示[https://github.com/dbcli](https://github.com/dbcli)
+    * [https://github.com/okbob/pspg](https://github.com/okbob/pspg)
 * [https://github.com/sqlectron/sqlectron-gui](https://github.com/sqlectron/sqlectron-gui)
 * [https://github.com/dbkangaroo/kangaroo](https://github.com/dbkangaroo/kangaroo)
 * [https://github.com/Fabio286/antares](https://github.com/Fabio286/antares)
 * [https://www.devart.com/products.html#ide](https://www.devart.com/products.html#ide)
-    * [Devart dbForge 系列数据库管理工具无限试用补丁](https://blog.fishlee.net/2019/06/13/devart-dbforge-%e7%b3%bb%e5%88%97%e6%95%b0%e6%8d%ae%e5%ba%93%e7%ae%a1%e7%90%86%e5%b7%a5%e5%85%b7%e6%97%a0%e9%99%90%e8%af%95%e7%94%a8%e8%a1%a5%e4%b8%81/)
+* Web的SQL编辑器 [https://github.com/sqlpad/sqlpad](https://github.com/sqlpad/sqlpad)
+* [https://github.com/OmniDB/OmniDB](https://github.com/OmniDB/OmniDB)
+* [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
 
-- [https://github.com/webyog/sqlyog-community](https://github.com/webyog/sqlyog-community)
-- Sqlyog增加试用期：<kbd>win</kbd>+<kbd>r</kbd> -> 输入`regedit` -> 进入注册表
-    - 旧版：在`计算机\HKEY_CURRENT_USER\Software\{906D6D9F-AB51-429F……}`删除`InD110`即可
-    - 新版：在`计算机\HKEY_CURRENT_USER\SOFTWARE\{d58cb4b1-47f3-45cb-a209-f298d0c3f756}`删除`InD110`即可
-```
-姓 名（Name）：ttrar
-序 列 号（Code）：8d8120df-a5c3-4989-8f47-5afc79c56e7c
+- 数据库转excel [https://github.com/nocodb/nocodb](https://github.com/nocodb/nocodb)
 
-姓 名（Name）：ttrar
-序 列 号（Code）：59adfdfe-bcb0-4762-8267-d7fccf16beda
-
-姓 名（Name）：ttrar
-序 列 号（Code）：ec38d297-0543-4679-b098-4baadf91f983
-
-姓 名（Name）：ttrar
-序 列 号（Code）：8d8120df-a5c3-4989-8f47-5afc79c56e7c
-
-
-ccbfc13e-c31d-42ce-8939-3c7e63ed5417
-a56ea5da-f30b-4fb1-8a05-95f346a9b20b
-a0fe8645-3916-45d4-9976-cb6b88fecc6c
-b70d7f66-dac2-4462-bf51-c4e9347da76
-
-Professional: 8e053a86-cdd3-48ed-b5fe-94c51b3d343c
-Enterprise:   a46683b0-d3ec-4c16-8e3c-198d25a7fb52
-Ultimate:     60c1b896-7c22-4405-9f46-a6bce776ab36
-
-Professional 版本:
-注册名：luoye2562
-注册码：ec38d297-0543-4679-b098-4baadf91f983
-
-Enterprise 版本:
-注册名：luoye2562
-注册码: 59adfdfe-bcb0-4762-8267-d7fccf16beda
-
-Ultimate 版本:
-注册名：luoye2562
-注册码: 8d8120df-a5c3-4989-8f47-5afc79c56e7c
-```
 
 
 **Redis**
 
 + [https://github.com/topics/redis-client](https://github.com/topics/redis-client)
-
-- [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
-- [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
-- [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
++ [https://github.com/search?q=redis-manager](https://github.com/search?q=redis-manager)
 
 
+* [https://github.com/uglide/RedisDesktopManager](https://github.com/uglide/RedisDesktopManager)
+    * [https://github.com/kanyways/rdm](https://github.com/kanyways/rdm)
+    * [https://github.com/lework/RedisDesktopManager-Windows](https://github.com/lework/RedisDesktopManager-Windows)
+    * [https://github.com/FuckDoctors/rdm-builder](https://github.com/FuckDoctors/rdm-builder)
+    * [https://github.com/nitzzzu/RedisDesktopManager](https://github.com/nitzzzu/RedisDesktopManager)
+* [https://github.com/qishibo/AnotherRedisDesktopManager](https://github.com/qishibo/AnotherRedisDesktopManager)
+* [https://github.com/fastogt/fastonosql](https://github.com/fastogt/fastonosql)
+* [https://github.com/fuyoo/bs-redis-desktop-client](https://github.com/fuyoo/bs-redis-desktop-client)
+* [https://github.com/patrikx3/redis-ui](https://github.com/patrikx3/redis-ui)
+* [https://github.com/ekvedaras/redis-gui](https://github.com/ekvedaras/redis-gui)
+
+
+
+**数据建模**
+
+* PDMan [https://gitee.com/robergroup/chiner](https://gitee.com/robergroup/chiner)
+* PowerDesigner [https://www.sap.com/products/powerdesigner-data-modeling-tools.html](https://www.sap.com/products/powerdesigner-data-modeling-tools.html)
 
 
 
@@ -175,8 +216,11 @@ Ultimate 版本:
 
 ## 思维导图
 
+* [https://github.com/jgraph/drawio](https://github.com/jgraph/drawio)
+    * [https://app.diagrams.net](https://app.diagrams.net)
 * [https://www.processon.com](https://www.processon.com)
 * [https://gitmind.cn](https://gitmind.cn)
+
 
 **本地客户端**
 
@@ -190,37 +234,48 @@ Ultimate 版本:
 * [MindGenius](https://www.mindgenius.com)
 * [iMindQ](https://www.imindq.com)
 * [SimpleMind](https://simplemind.eu)
+* [https://www.microsoft.com/zh-cn/microsoft-365/visio](https://www.microsoft.com/zh-cn/microsoft-365/visio)
 
 
 
 
 ## 抓包工具
 
-* Fiddler [https://www.telerik.com/download/fiddler](https://www.telerik.com/download/fiddler)
++ [https://github.com/topics/packets](https://github.com/topics/packets)
++ [https://github.com/topics/proxy-server](https://github.com/topics/proxy-server)
++ [https://github.com/topics/web-scraping](https://github.com/topics/web-scraping)
++ [https://github.com/lorien/awesome-web-scraping](https://github.com/lorien/awesome-web-scraping)
+
+* [https://github.com/telerik](https://github.com/telerik)
+    * Fiddler [https://www.telerik.com/download/fiddler](https://www.telerik.com/download/fiddler)
+    * [https://www.telerik.com/fiddlercore](https://www.telerik.com/fiddlercore)
     * [https://github.com/gabrielxvx/zh-fiddler](https://github.com/gabrielxvx/zh-fiddler)
     * [Fiddler抓包工具总结](https://www.cnblogs.com/yyhh/p/5140852.html)
     * [Windows抓包指南①：Proxifier+Fiddler对第三方程序强制抓包](https://www.52pojie.cn/thread-976016-1-1.html)
+* [https://github.com/justcoding121/Titanium-Web-Proxy](https://github.com/justcoding121/Titanium-Web-Proxy)
 * [https://github.com/BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager)
 * [https://github.com/microsoft/ethr](https://github.com/microsoft/ethr)
 * [https://www.tcpdump.org](https://www.tcpdump.org)
-* [https://www.wireshark.org](https://www.wireshark.org)
+* [https://gitlab.com/wireshark/wireshark](https://gitlab.com/wireshark/wireshark)
+    * [https://www.wireshark.org](https://www.wireshark.org)
+* BurpSuite [https://portswigger.net/burp/releases](https://portswigger.net/burp/releases)
     * [BurpSuiteV2.1.06破解版](https://www.waitalone.cn/tools/burpsuite.html)
-* BurpSuite [https://portswigger.net/burp/communitydownload](https://portswigger.net/burp/communitydownload)
+    * [BurpSuite_Pro v2020.4 Loader_Keygen](https://www.uedbox.com/post/65547)
 * Charles [https://www.charlesproxy.com](https://www.charlesproxy.com)
+    * [https://github.com/malaohu/CharlesLicense](https://github.com/malaohu/CharlesLicense)
+    * [https://gitee.com/thom/charles-keygen](https://gitee.com/thom/charles-keygen)
+    * [https://github.com/inused/pages/tree/master/file/tool](https://github.com/inused/pages/tree/master/file/tool)
+        * [https://inused.github.io/pages/file/tool/CharlesKeygen.html](https://inused.github.io/pages/file/tool/CharlesKeygen.html)
 * [https://github.com/youzan/zan-proxy](https://github.com/youzan/zan-proxy)
 * [https://github.com/alibaba/lightproxy](https://github.com/alibaba/lightproxy)
 * [https://www.httpwatch.com](https://www.httpwatch.com)
 * [http://www.httpdebugger.com](http://www.httpdebugger.com)
 * [https://github.com/avwo/whistle](https://github.com/avwo/whistle)
+* QPA [https://github.com/l7dpi/openQPA](https://github.com/l7dpi/openQPA)
+* [Microsoft Network Monitor](https://www.microsoft.com/en-us/download/details.aspx?id=4865)
 
-- 跨平台的设置代理客户端 [https://www.proxifier.com](https://www.proxifier.com)
-- [https://github.com/mellow-io/mellow](https://github.com/mellow-io/mellow)
-- [https://github.com/Dreamacro/clash](https://github.com/Dreamacro/clash)
-    - [https://github.com/Fndroid/clash_for_windows_pkg](https://github.com/Fndroid/clash_for_windows_pkg)
-    - [Clash for Windows 配置教程](https://bluedoc.io/agentneo/docs/mmee)
-- [https://github.com/snail007/goproxy](https://github.com/snail007/goproxy)
-- SocksCap64 HOOK了Windows Sockets API [https://www.sockscap64.com/sockscap64-official-homepage-chinese](https://www.sockscap64.com/sockscap64-official-homepage-chinese)
 
+- [Windows抓包与网络分析工具总结](https://blog.csdn.net/a82514921/article/details/104609924)
 
 
 
@@ -247,7 +302,7 @@ Ultimate 版本:
 | 递进式向左选择代码（一样）                       	| Shift + Alt + ←                           	| Shift + Alt + ←                             	|
 | 跳到指定行                                       	| Ctrl + G                                  	| Ctrl + L                                    	|
 | 光标处往上添加空行                               	| Ctrl + Alt + Enter                        	| Ctrl + Shift + Enter                        	|
-| 代码提示                                         	| Ctrl + Alt + 空格                         	| Alt + /                                     	|
+| 代码提示(Basic)                                  | Ctrl + 空格                         	        | Alt + /                                     	|
 | 取消撤销                                         	| Ctrl + Shift + Z                          	| Ctrl + Y                                    	|
 | 选中区域取消注释                                 	| Ctrl + Shift + /                          	| Ctrl + Shift + \                            	|
 | 添加或取消注释                                   	| Ctrl + /                                  	| Ctrl + /     Ctrl + Shift + C               	|
@@ -256,8 +311,8 @@ Ultimate 版本:
 | 打开文件结构图                                   	| Ctrl + F12   Alt + 7                      	| Ctrl + F3    Ctrl + O                       	|
 | 编译项目                                         	| Ctrl + F9                                 	| Ctrl + B（编译所有项目）                    	|
 | 全局查找class                                    	| Ctrl + N                                  	| Project-BuiId Project      Ctrl + Shift + T 	|
-| 全局搜索                                          	| Ctrl + Shift + F                          	| Ctrl + H                                    	|
-| 根据文件名当前工作空间查找文件                   	| Ctrl + Shift + N                          	| Ctrl + Shift + R                            	|
+| 全局搜索                                          | Ctrl + Shift + F                          	| Ctrl + H                                    	|
+| 根据文件名当前工作空间查找文件                   	  | Ctrl + Shift + N                          	  | Ctrl + Shift + R                            |
 | 删除整行                                         	| Shift + Delete    Ctrl + Y                	| Ctrl + D                                    	|
 | 向下复制一行                                     	| Ctrl + D                                  	| Ctrl + Alt + ↓                              	|
 | 向上移动整行                                     	| Shift + Alt + ↑                           	| Alt + ↑                                     	|
@@ -286,6 +341,7 @@ Ultimate 版本:
 | 可以生成构造器/Getter/Setter等                   	| Alt + Insert                              	| Shift + Alt + S                             	|
 | 将选中字符串的字母转为大写                       	| Ctrl + Shift + U                          	| Ctrl + Shift + X                            	|
 | 将选中字符串的字母转为小写                       	| Ctrl + Shift + U                           	| Ctrl + Shift + Y                            	|
+| 多行同时编辑                                     	| Ctrl + Shift + Alt  Alt + 鼠标左键           | Shift + Alt + A                              	|
 | 编辑源                                           	| F4                                        	|                                             	|
 | 移动                                             	| F6                                        	|                                             	|
 | 复制                                             	| F5                                        	|                                             	|
@@ -302,7 +358,7 @@ Ultimate 版本:
 | 快速抽取方法                                     	| Ctrl + Alt + M                            	|                                             	|
 | 对选中的代码弹出环绕选确出层                     	| Ctrl + Alt + T                            	|                                             	|
 | 快速引进变量                                     	| Ctrl + Alt + V                            	|                                             	|
-| 寻找类或是变量被调用的地方，以弹出框的方式显示   	| Ctrl + Alt + F7                           	|                                             	|
+| 寻找类或是变量被调用的地方，以弹出框的方式显示   	  | Ctrl + Alt + F7                           	  |                                             	|
 | 动态模板环绕                                     	| Ctrl + Alt + J                            	|                                             	|
 | 内联                                             	| Ctrl + Alt + N                            	|                                             	|
 | 安去删除字段或方法                               	| Alt + Delete                              	|                                             	|
@@ -348,9 +404,9 @@ Ultimate 版本:
 | 运行（Run）选择的项目                            	| Shift + Alt + F10                         	|                                             	|
 | 调试（Debug）选择的项目                          	| Shift + Alt + F9                          	|                                             	|
 | 最近修改记录                                     	| Shift + Alt + C                           	|                                             	|
-| 把焦点从编辑器移到最近使用的工具窗口             	| F12                                       	|                                             	|
+| 把焦点从编辑器移到最近使用的工具窗口             	  | F12                                       	  |                                             	|
 | 实现方法                                         	| Ctrl + I                                  	|                                             	|
-| 查找整个工程中使用的某一个类、方法或者变量的位置 	| Alt + F7                                  	|                                             	|
+| 查找整个工程中使用的某一个类、方法或者变量的位置 	   | Alt + F7                                  	   |                                             	|
 | 跳转到导航栏                                     	| Alt + Home                                	|                                             	|
 | 快速修正                                         	|                                           	| Ctrl + 1                                    	|
 | 打开外部Java文档                                 	|                                           	| Shift + F2                                  	|

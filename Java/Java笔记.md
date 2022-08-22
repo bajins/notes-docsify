@@ -27,6 +27,12 @@
 - [数据库扩展性设计：使用二进制解决一条记录关联多个状态的问题](https://www.cnblogs.com/itfly8/p/6062757.html)
 
 
+* 有状态就是有数据存储功能。有状态对象(Stateful Bean)，就是有实例变量的对象，可以保存数据，是非线程安全的。在不同方法调用间不保留任何状态。
+* 无状态就是一次操作，不能保存数据。无状态对象(Stateless Bean)，就是没有实例变量的对象 .不能保存数据，是不变类，是线程安全的。
+
+
+
+
 ## 多行字符串
 
 - Multiline String 多行字符串
@@ -41,6 +47,64 @@
 - 方法名相同,方法参数的个数和类型不同,通过个数和类型的不同来区分不同的函数;
 - 方法的重载跟返回值类型和修饰符无关,Java的重载是发生在本类中的,重载的条件是在本类中有多个方法名相同;
 - 参数列表不同(参数个数不同、参数类型不同)跟返回值无关;
+
+
+
+## 关键保留字
+
+* [https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/_keywords.html)
+
+
+| 名称         	| 说明                                                                                         	|
+|--------------	|----------------------------------------------------------------------------------------------	|
+| private      	| 一种访问控制方式：私用模式                                                                   	|
+| protected    	| 一种访问控制方式：保护模式                                                                   	|
+| public       	| 一种访问控制方式：共用模式                                                                   	|
+| abstract     	| 表明类或者成员方法具有抽象属性                                                               	|
+| class        	| 类                                                                                           	|
+| extends      	| 表明一个类型是另一个类型的子类型，这里常见的类型有类和接口                                   	|
+| final        	| 用来说明最终属性，表明一个类不能派生出子类，或者成员方法不能被覆盖，或者成员域的值不能被改变 	|
+| implements   	| 表明一个类实现了给定的接口                                                                   	|
+| interface    	| 接口                                                                                         	|
+| native       	| 用来声明一个方法是由与计算机相关的语言（如C/C++/FORTRAN语言）实现的                          	|
+| new          	| 用来创建新实例对象                                                                           	|
+| static       	| 表明具有静态属性                                                                             	|
+| strictfp     	| 用来声明FP_strict（单精度或双精度浮点数）表达式遵循IEEE 754算术规范                          	|
+| synchronized 	| 表明一段代码需要同步执行                                                                     	|
+| transient    	| 声明不用序列化的成员域                                                                       	|
+| volatile     	| 表明两个或者多个变量必须同步地发生变化                                                       	|
+| break        	| 提前跳出一个块                                                                               	|
+| continue     	| 回到一个块的开始处                                                                           	|
+| return       	| 从成员方法中返回数据                                                                         	|
+| do           	| 用在do-while循环结构中                                                                       	|
+| while        	| 用在循环结构中                                                                               	|
+| if           	| 条件语句的引导词                                                                             	|
+| else         	| 用在条件语句中，表明当条件不成立时的分支                                                     	|
+| for          	| 一种循环结构的引导词                                                                         	|
+| instanceof   	| 用来测试一个对象是否是指定类型的实例对象                                                     	|
+| switch       	| 分支语句结构的引导词                                                                         	|
+| case         	| 用在switch语句之中，表示其中的一个分支                                                       	|
+| default      	| 默认，例如，用在switch语句中，表明一个默认的分支                                             	|
+| try          	| 尝试一个可能抛出异常的程序块                                                                 	|
+| catch        	| 用在异常处理中，用来捕捉异常                                                                 	|
+| throw        	| 抛出一个异常                                                                                 	|
+| throws       	| 声明在当前定义的成员方法中所有需要抛出的异常                                                 	|
+| import       	| 表明要访问指定的类或包                                                                       	|
+| package      	| 包                                                                                           	|
+| boolean      	| 基本数据类型之一，布尔类型                                                                   	|
+| byte         	| 基本数据类型之一，字节类型                                                                   	|
+| char         	| 基本数据类型之一，字符类型                                                                   	|
+| double       	| 基本数据类型之一，双精度浮点数类型                                                           	|
+| float        	| 基本数据类型之一，单精度浮点数类型                                                           	|
+| int          	| 基本数据类型之一，整数类型                                                                   	|
+| long         	| 基本数据类型之一，长整数类型                                                                 	|
+| short        	| 基本数据类型之一,短整数类型                                                                  	|
+| super        	| 表明当前对象的父类型的引用或者父类型的构造方法                                               	|
+| this         	| 指向当前实例对象的引用                                                                       	|
+| void         	| 声明当前成员方法没有返回值                                                                   	|
+| goto         	| 保留关键字，没有具体含义                                                                     	|
+| const        	| 保留关键字，没有具体含义                                                                     	|
+
 
 
 ## 访问控制修饰符
@@ -65,24 +129,26 @@
 
 * [java项目中的classpath到底是什么](https://segmentfault.com/a/1190000015802324)
 * [spring classpath:和classpath*:区别和实际应用](https://blog.csdn.net/qq_30038111/article/details/82116559)
-
-- `src`不是`classpath`，`WEB-INF/classes`和`lib`才是`classpath`，`WEB-INF/`是资源目录, 客户端不能直接访问
-- `WEB-INF/classes`目录存放`src`目录`java`文件编译之后的`class`文件、`xml`、`properties`等资源配置文件，这是一个定位资源的入口
-- `lib`和`classes`同属`classpath`，两者的访问优先级为: `lib` > `classes`
+* [java项目中的classpath到底指向的哪里](https://blog.csdn.net/qq_33393542/article/details/80322141)
+* [eclipse项目中.classpath文件详解](https://blog.csdn.net/pengmm1990/article/details/68951389)
 
 
-+ `classpath`：只会到你的`class`路径中查找文件
-
-> `classpath:`和`classpath:/`是等价的，都是相对于类的根路径。资源文件库标准的在文件系统中，也可以在`JAR`或`WAR`的类包中。
-
++ `classpath`：只会到你的`class`路径中查找文件，和`classpath:/`是等价的，都是相对于类的根路径
+    + `src`不是`classpath`，`WEB-INF/classes`和`lib`才是`classpath`，`WEB-INF/`是资源目录, 客户端不能直接访问
+    + `WEB-INF/classes`目录存放`src`目录`java`文件编译之后的`class`文件、`xml`、`properties`等资源配置文件
+    + `lib`和`classes`同属`classpath`，两者的访问优先级为: `lib` > `classes`
 + `classpath*`：不仅包含`class`路径，还包括`jar`文件中（`class`路径）进行查找
 
-> 注意：用`classpath*`需要遍历所有的`classpath`，所以加载速度是很慢，尽量避免使用
+> 注意：用`classpath*`需要遍历所有的`classpath`，所以加载速度是很慢，尽量避免使用。
+> `**`表示在任意目录下，也就是说在`WEB-INF/classes/`下任意层的目录
 
-> 项目模块依赖深度：A –> B –> C，在B中没有配置文件的情况下，A中的`classpath*`加载到B的配置文件，
-> C加载自己配置文件要用`classpath*`，否则A加载配置文件无法加载到C的配置文件
 
-+ `**`表示在任意目录下，也就是说在`WEB-INF/classes/`下任意层的目录
+| 前缀         | 例子                             | 说明                          |
+|------------|--------------------------------|-----------------------------|
+| classpath: | classpath:com/myapp/config.xml | 从classpath中加载。              |
+| file:      | file:/data/config.xml          | 作为 URL 从文件系统中加载。            |
+| http:      | http://myserver/logo.png       | 作为 URL 加载。                  |
+| (none)     | /data/config.xml               | 根据 ApplicationContext 进行判断。 |
 
 
 
@@ -107,6 +173,38 @@ public static native long currentTimeMillis();
 // 返回正在运行的Java虚拟机的当前值,高分辨率时间源，以纳秒为单位
 public static native long nanoTime();
 ```
+
+| 变量名                        	| 说明                        	|
+|-------------------------------	|-----------------------------	|
+| java.version                  	| Java运行时环境版本          	|
+| java.vendor                   	| Java运行时环境供应商        	|
+| java.vendor.url               	| Java供应商的 URL            	|
+| java.home                     	| Java安装目录                	|
+| java.vm.specification.version 	| Java虚拟机规范版本          	|
+| java.vm.specification.vendor  	| Java虚拟机规范供应商        	|
+| java.vm.specification.name    	| Java虚拟机规范名称          	|
+| java.vm.version               	| Java虚拟机实现版本          	|
+| java.vm.vendor                	| Java虚拟机实现供应商        	|
+| java.vm.name                  	| Java虚拟机实现名称          	|
+| java.specification.version    	| Java运行时环境规范版本      	|
+| java.specification.vendor     	| Java运行时环境规范供应商    	|
+| java.specification.name       	| Java运行时环境规范名称      	|
+| java.class.version            	| Java类格式版本号            	|
+| java.class.path               	| Java类路径                  	|
+| java.library.path             	| 加载库时搜索的路径列表      	|
+| java.io.tmpdir                	| 默认的临时文件路径          	|
+| java.compiler                 	| 要使用的JIT编译器的名称     	|
+| java.ext.dirs                 	| 一个或多个扩展目录的路径    	|
+| os.name                       	| 操作系统的名称              	|
+| os.arch                       	| 操作系统的架构              	|
+| os.version                    	| 操作系统的版本              	|
+| file.separator                	| 文件分隔符（在UNIX中是“/”） 	|
+| path.separator                	| 路径分隔符（在UNIX中是“:”） 	|
+| line.separator                	| 行分隔符（在UNIX中是“/n”）  	|
+| user.name                     	| 用户的账户名称              	|
+| user.home                     	| 用户的主目录                	|
+| user.dir                      	| 用户的当前工作目录          	|
+
 
 
 **java.util.Date类**
@@ -224,43 +322,92 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 
 ## Java异常
 
-### Java内置异常
+* [Java中的异常处理](https://blog.csdn.net/weixin_52566131/article/details/117132098)
 
 ![](/images/Java内置异常.png)
 
-|未经检查的RuntimeException异常| 说明 |
-|-----------|----------|
-|ArithmeticException | 算术错误，如被0除 |
-| ArrayIndexOutOfBoundsException | 数组下标出界 |
-| ArrayStoreException | 数组元素赋值类型不兼容 |
-| ClassCastException | 非法强制转换类型 |
-| IllegalArgumentException | 调用方法的参数非法 |
-| IllegalMonitorStateException | 非法监控操作，如等待一个未锁定线程 |
-| IllegalStateException | 环境或应用状态不正确 |
-| IllegalThreadStateException | 请求操作与当前线程状态不兼容 |
-| IndexOutOfBoundsException | 某些类型索引越界 |
-| NullPointerException | 非法使用空引用 |
-| NumberFormatException | 字符串到数字格式非法转换 |
-| SecurityException | 试图违反安全性 |
-| StringIndexOutOfBounds | 试图在字符串边界之外索引 |
-| UnsupportedOperationException | 遇到不支持的操作 |
 
-|Java定义在java.lang中的检查的异常| 说明 |
-|-----------|----------|
-| ClassNotFoundException | 找不到类 |
-| CloneNotSupportedException | 试图克隆一个不能实现Cloneable接口的对象 |
-| IllegalAccessException | 对一个类的访问被拒绝 |
-| InstantiationException | 试图创建一个抽象类或者抽象接口的对象 |
-| InterruptedException | 一个线程被另一个线程中断 |
-| NoSuchFieldException | 请求的字段不存在 |
-| NoSuchMethodException | 请求的方法不存在 |
 
+| 未经检查的异常                  	| 说明                                                             	|
+|---------------------------------	|------------------------------------------------------------------	|
+| ArithmeticException             	| 算术错误，如被0除                                                	|
+| ArrayIndexOutOfBoundsException  	| 数组下标出界                                                     	|
+| ArrayStoreException             	| 数组元素赋值类型不兼容                                           	|
+| ClassCastException              	| 非法强制转换类型                                                 	|
+| EnumConstantNotPresentException 	| 枚举常量不存在异常。                                             	|
+| EOFException                    	| 文件已结束异常                                                   	|
+| Exception                       	| 根异常。用以描述应用程序希望捕获的情况。                         	|
+| FileNotFoundException           	| 文件未找到异常                                                   	|
+| IllegalArgumentException        	| 调用方法的参数非法                                               	|
+| IllegalMonitorStateException    	| 非法监控操作，如等待一个未锁定线程                               	|
+| IllegalStateException           	| 环境或应用状态不正确                                             	|
+| IllegalThreadStateException     	| 请求操作与当前线程状态不兼容                                     	|
+| IndexOutOfBoundsException       	| 某些类型索引越界                                                 	|
+| IOException                     	| 输入输出异常                                                     	|
+| NegativeArrayException          	| 数组负下标异常                                                   	|
+| NegativeArraySizeException      	| 数组大小为负值异常。当使用负数大小值创建数组时抛出该异常。       	|
+| NullPointerException            	| 非法使用空引用                                                   	|
+| NumberFormatException           	| 字符串到数字格式非法转换                                         	|
+| RuntimeException                	| 运行时异常。是所有Java虚拟机正常操作期间可以被抛出的异常的父类。 	|
+| SecurityException               	| 试图违反安全性                                                   	|
+| SQLException                    	| 操作数据库异常                                                   	|
+| StringIndexOutOfBoundsException 	| 试图在字符串边界之外索引                                         	|
+| TypeNotPresentException         	| 类型不存在异常。                                                 	|
+| UnsupportedOperationException   	| 遇到不支持的操作                                                 	|
+
+
+
+| 检查的异常                 	| 说明                                    	|
+|----------------------------	|-----------------------------------------	|
+| ClassNotFoundException     	| 找不到类                                	|
+| CloneNotSupportedException 	| 试图克隆一个不能实现Cloneable接口的对象 	|
+| IllegalAccessException     	| 对一个类的访问被拒绝                    	|
+| InstantiationException     	| 试图创建一个抽象类或者抽象接口的对象    	|
+| InterruptedException       	| 一个线程被另一个线程中断                	|
+| NoSuchFieldException       	| 请求的字段不存在                        	|
+| NoSuchMethodException      	| 请求的方法不存在                        	|
+
+
+| 错误                                   	| 说明               	|
+|----------------------------------------	|--------------------	|
+| java.lang.AbstractMethodError          	| 抽象方法错误       	|
+| java.lang.AssertionError               	| 断言错             	|
+| java.lang.ClassCircularityError        	| 类循环依赖错误     	|
+| java.lang.ClassFormatError             	| 类格式错误         	|
+| java.lang.Error                        	| 错误               	|
+| java.lang.ExceptionInInitializerError  	| 初始化程序错误     	|
+| java.lang.IllegalAccessError           	| 违法访问错误       	|
+| java.lang.IncompatibleClassChangeError 	| 不兼容的类变化错误 	|
+| java.lang.InstantiationError           	| 实例化错误         	|
+| java.lang.InternalError                	| 内部错误           	|
+| java.lang.LinkageError                 	| 链接错误           	|
+| java.lang.NoClassDefFoundError         	| 未找到类定义错误   	|
+| java.lang.NoSuchFieldError             	| 域不存在错误       	|
+| java.lang.NoSuchMethodError            	| 方法不存在错误     	|
+| java.lang.OutOfMemoryError             	| 内存不足错误       	|
+| java.lang.StackOverflowError           	| 堆栈溢出错误       	|
+| java.lang.UnknownError                 	| 未知错误           	|
+| java.lang.UnsatisfiedLinkError         	| 未满足的链接错误   	|
+| java.lang.UnsupportedClassVersionError 	| 不支持的类版本错误 	|
+| java.lang.VerifyError                  	| 验证错误           	|
+| java.lang.VirtualMachineError          	| 虚拟机错误         	|
+| java.lang.ThreadDeath                     | 线程结束           	|
 
 
 
 ## 协程
 
-> Java语言并没有对协程的原生支持，但是某些开源框架模拟出了协程的功能
+> Java语言并没有对协程的原生支持，但是某些开源框架模拟出了协程的功能，`Project Loom` `AJDK-Wisp`
+
+- coroutine解决的是"协作式多任务"
+- visitor（访问者）模式解决的是"对修改关闭，对扩展开放", "它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作"
+
+
++ [https://github.com/topics/coroutines](https://github.com/topics/coroutines)
++ [https://github.com/topics/coroutine](https://github.com/topics/coroutine)
++ [https://github.com/topics/async](https://github.com/topics/async)
++ [https://github.com/topics/async-await](https://github.com/topics/async-await)
++ [https://github.com/topics/asynchronous](https://github.com/topics/asynchronous)
 
 
 * [异步时代-java的协程路在何方](https://www.cnblogs.com/tohxyblog/p/10712798.html)
@@ -270,27 +417,54 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
     * [Kilim工作原理](http://chen-tao.github.io/2015/10/02/kilim-work-way/)
 * [https://github.com/puniverse/quasar](https://github.com/puniverse/quasar)
     * [quasar从原理到代码应用](https://blog.csdn.net/guzhangyu12345/article/details/84666423)
+* [https://github.com/esoco/coroutines](https://github.com/esoco/coroutines)
+* [https://github.com/offbynull/coroutines](https://github.com/offbynull/coroutines)
+* [https://github.com/electronicarts/ea-async](https://github.com/electronicarts/ea-async)
+
 
 
 
 ## HTTP
 
 
-**Mime-Type/Content-Type/Media-Type**
+**常量**
+
+- `java.net.HttpURLConnection`
+- `io.netty.handler.codec.http.HttpResponseStatus`
+- `org.springframework.http.HttpStatus`
+- `org.apache.http.HttpStatus`
+- `org.asynchttpclient.util.HttpConstants`
+- `org.apache.http.protocol.HTTP`
+- `org.springframework.http.HttpHeaders`
+- `javax.ws.rs.HttpMethod`
+- `org.springframework.http.HttpMethod`
+
+
+**Mime/Content-Type/Media-Type**
+
++ [https://github.com/topics/mime](https://github.com/topics/mime)
++ [https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions](https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions)
 
 - `com.google.common.net.MediaType` guava
 - `javax.ws.rs.core.MediaType` Jersey框架
-- `org.springframework.http.MediaType` spring框架
+- `org.springframework.http.MediaType`和`org.springframework.util.MimeTypeUtils` spring框架
+- 在Tomcat配置文件`conf/web.xml`中的`Default MIME Type Mappings`部分定义
+- nginx配置文件`conf/mime.types`中定义
 
 
-**HTTP**
+
+**HTTP实现依赖库**
 
 - `HttpURLConnection` Java自带API
 - `HttpClient` JDK11的API [Java11 HttpClient小试牛刀](https://segmentfault.com/a/1190000016555671)
-- `RestTemplate` 默认实现是`HttpURLConnection`，`ForEntity`返回响应码、响应消息体等，`ForObject`只返回消息体
-- `WebClient`是`Spring 5.0`开始提供的非阻塞响应式编程的Http工具。
+- `RestTemplate` 默认实现是`HttpURLConnection`，默认使用HttpMessageConverter将Http消息转换成POJO 或POJO转化成Http消息
+    - `ForEntity`返回`ResponseEntity`响应码、响应消息体等
+    - `ForObject`只返回消息体
+    - `exchange` 配合`HttpEntity`或`RequestEntity`使用，返回`ResponseEntity`
+- `WebClient` 是`Spring 5.0`开始提供的非阻塞响应式编程的Http工具。
 - `Apache HttpComponents` [http://hc.apache.org](http://hc.apache.org)
 - `okHttp` [https://github.com/square/okhttp](https://github.com/square/okhttp)
+- `Unirest` [https://github.com/Kong/unirest-java](https://github.com/Kong/unirest-java)
 - `Netty` 
 - `google-http-java-client` [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
 - `WebSocket` [https://github.com/eclipse-ee4j/websocket-api](https://github.com/eclipse-ee4j/websocket-api)
@@ -298,6 +472,7 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 - [https://github.com/square/retrofit](https://github.com/square/retrofit)
     - [https://github.com/LianjiaTech/retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)
 - 使用Java 8,Netty和Reactive原则 [https://github.com/ratpack/ratpack](https://github.com/ratpack/ratpack)
+
 
 * [HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)
 
@@ -361,6 +536,14 @@ String str = EntityUtils.toString(new UrlEncodedFormEntity(params, Consts.UTF_8)
 - 不变(`T`)
 
 
+**泛型的通配符**
+
+- ? 表示不确定的类型
+- T (type) 表示具体的类型
+- K V (key value) 分别代表键值中的Key Value
+- E (element) 代表Element
+
+
 **泛型三种常用的使用方式：**
 
 * [java 泛型详解-绝对是对泛型方法讲解最详细的，没有之一](https://www.cnblogs.com/coprince/p/8603492.html)
@@ -370,3 +553,4 @@ String str = EntityUtils.toString(new UrlEncodedFormEntity(params, Consts.UTF_8)
 - 泛型类：在类名后指定类型变量，如：`public class Pair<T, U> {`
 - 泛型接口：在接口名后指定类型变量，如：`public interface Generator<T, U> {`
 - 泛型方法：在修饰符后，返回类型前指定类型变量，如：`public static <T extends Object, E> T test(Class<T> a, Class<E> b) {`
+

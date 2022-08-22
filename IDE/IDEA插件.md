@@ -8,9 +8,29 @@
 
 * [实用IDEA工具](https://blog.csdn.net/weixin_37645838/article/details/85953193)
 
-- [https://www.jrebel.com/products/jrebel/download](https://www.jrebel.com/products/jrebel/download)
-- Eclipse代码格式化样式 [https://github.com/krasa/EclipseCodeFormatter](https://github.com/krasa/EclipseCodeFormatter)
 
+- Eclipse代码格式化风格 [https://github.com/krasa/EclipseCodeFormatter](https://github.com/krasa/EclipseCodeFormatter)
+- 主题 [http://soft-hub.cn](http://soft-hub.cn)
+
+
+* [https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
+* [https://zhile.io/archives](https://zhile.io/archives)
+    * `jetbrains-agent`(v3.2.0为2020.1.4及以下版本)/`FineAgent`/`plugin-fineagent`/`BetterIntelliJ`
+    * `jetbrains-eval-reset`（[IDE Eval Reset](https://gitee.com/pengzhile/ide-eval-resetter)）v2.3.5为2021.2.4(2021.2.3起需要登录)及以下版本重置试用插件
+        * [https://repo.idechajian.com](https://repo.idechajian.com)
+        * [https://plugins.zhile.io](https://plugins.zhile.io)
+    * [https://github.com/ja-netfilter](https://github.com/ja-netfilter) 2021.3(2022.1起弃用`mymap`插件)
+        * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter)
+    * [https://jetbra.in/s](https://jetbra.in/s)
+* [利用授权服务器(License Server)激活Jetbrains全家桶](https://51.ruyo.net/17780.html)
+    * [https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth](https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth)
+* [如何批量挖掘Jetbrains系列产品激活服务器](https://t.me/s/Ru05hui/123)
+    * [https://fofa.info](https://fofa.info)
+* [如何找Jetbrains激活服务器](https://hostloc.com/thread-999341-1-1.html)
+    * [https://search.censys.io](https://search.censys.io)
+
+
+> `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`
 
 
 ## Free Mybatis plugin
@@ -33,7 +53,7 @@
 * [https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-](https://plugins.jetbrains.com/plugin/14522-mybatiscodehelperpro-marketplace-edition-)
 * [https://github.com/gejun123456/MyBatisCodeHelper-Pro](https://github.com/gejun123456/MyBatisCodeHelper-Pro)
 * [MybatisCodeHelperPro试用key获取](http://brucege.com/pay/getfreetrial?)
-* [https://zhile.io/categories/software-debug](https://zhile.io/categories/software-debug)
+
 
 ![](https://upload-images.jianshu.io/upload_images/11962894-7690faea398dd0c6.gif)
 
@@ -48,6 +68,7 @@
 ## .ignore
 
 * [https://github.com/JetBrains/idea-gitignore](https://github.com/JetBrains/idea-gitignore)
+* [https://github.com/hsz/intellij-foldable-projectview](https://github.com/hsz/intellij-foldable-projectview)
 
 > 生成各种ignore文件，一键创建git ignore文件的模板，免得自己去写
 
@@ -71,6 +92,12 @@
 * [使用Maven Helper解决Maven依赖冲突](https://segmentfault.com/a/1190000017542396)
 
 ![](https://plugins.jetbrains.com/files/7179/screenshot_19711.png)
+
+
+
+
+---
+
 
 
 
@@ -166,6 +193,7 @@
 > 一键调用一个对象的所有set方法并且赋予默认值 在对象字段多的时候非常方便
 
 * [https://github.com/gejun123456/intellij-generateAllSetMethod](https://github.com/gejun123456/intellij-generateAllSetMethod)
+* [https://github.com/Adrninistrator/GenSetterCalls](https://github.com/Adrninistrator/GenSetterCalls)
 
 ![](https://upload-images.jianshu.io/upload_images/11962894-bd972369154914fa.gif)
 
@@ -192,6 +220,21 @@
 * [https://plugins.jetbrains.com/plugin/13562-googleprotobuftool](https://plugins.jetbrains.com/plugin/13562-googleprotobuftool)
 
 
+## CodeMaker
+
+> 一个用于Java / Scala生成代码的插件，支持自定义代码模板
+
+* [https://github.com/x-hansong/CodeMaker](https://github.com/x-hansong/CodeMaker)
+
+
+## Jackson Generator Plugin
+
+> 快速在 class 和 json 间相互生成
+
+* [https://plugins.jetbrains.com/plugin/7678-jackson-generator-plugin](https://plugins.jetbrains.com/plugin/7678-jackson-generator-plugin)
+* [https://github.com/klamborowski/JacksonGenerator](https://github.com/klamborowski/JacksonGenerator)
+
+
 
 ## Lombok plugin
 
@@ -202,20 +245,10 @@
 ![](https://upload-images.jianshu.io/upload_images/11962894-59615f71a052e3b4.gif)
 
 
-## Translation
-
-* [https://plugins.jetbrains.com/plugin/8579-translation](https://plugins.jetbrains.com/plugin/8579-translation)
-
-> 最好用的翻译插件，功能很强大，界面很漂亮
-
-![](https://upload-images.jianshu.io/upload_images/11962894-1f7936b32d920801.gif)
 
 
-## probie
 
-* [https://plugins.jetbrains.com/plugin/13397-probie](https://plugins.jetbrains.com/plugin/13397-probie)
-
-> 这款插件可以让英语没那么好的开发者在定义类、方法、参数的时候更为合理，增加代码可读性。同时，也可以帮助我们快速的翻译英文注释来理解源码内容！
+---
 
 
 
@@ -234,6 +267,27 @@
 
 * [https://plugins.jetbrains.com/plugin/2162](https://plugins.jetbrains.com/plugin/2162)
 
+
+
+---
+
+
+
+
+## Translation
+
+* [https://plugins.jetbrains.com/plugin/8579-translation](https://plugins.jetbrains.com/plugin/8579-translation)
+
+> 最好用的翻译插件，功能很强大，界面很漂亮
+
+![](https://upload-images.jianshu.io/upload_images/11962894-1f7936b32d920801.gif)
+
+
+## probie
+
+* [https://plugins.jetbrains.com/plugin/13397-probie](https://plugins.jetbrains.com/plugin/13397-probie)
+
+> 这款插件可以让英语没那么好的开发者在定义类、方法、参数的时候更为合理，增加代码可读性。同时，也可以帮助我们快速的翻译英文注释来理解源码内容！
 
 
 
@@ -284,13 +338,27 @@
 
 
 
-## VisualVM Launcher
+---
 
-* [https://github.com/krasa/VisualVMLauncher](https://github.com/krasa/VisualVMLauncher)
+
+* [https://github.com/dubreuia/intellij-plugin-save-actions](https://github.com/dubreuia/intellij-plugin-save-actions)
+
+## Arthas
+
+* [https://github.com/WangJi92/arthas-idea-plugin](https://github.com/WangJi92/arthas-idea-plugin)
+
+> [支持热更新 mybatis mapper.xml](https://wangji.blog.csdn.net/article/details/116615427)
+
+
+
+## VisualVM Launcher
 
 > 运行java程序的时候启动visualvm，方便查看jvm的情况 比如堆内存大小的分配，某个对象占用了多大的内存，jvm调优必备工具
 
+* [https://github.com/krasa/VisualVMLauncher](https://github.com/krasa/VisualVMLauncher)
+
 ![](/images/VisualVM-Launcher.gif)
+
 
 
 
@@ -327,17 +395,23 @@
 
 ## ASM Bytecode Outline
 
-* [https://github.com/melix/asm-bytecode-intellij](https://github.com/melix/asm-bytecode-intellij)
-
 > 查看 Class 类的字节码
+
+* [https://github.com/melix/asm-bytecode-intellij](https://github.com/melix/asm-bytecode-intellij)
 
 
 ## stackoverflow
 
-* [https://github.com/gejun123456/IntellijGoToStackOverFlow](https://github.com/gejun123456/IntellijGoToStackOverFlow)
-
 > 这个插件对于查找问题特别方便，定位异常，点击右键快速跳转到`stackoverflow`网站，每次至少为你节约了`10`秒。
 
+* [https://github.com/gejun123456/IntellijGoToStackOverFlow](https://github.com/gejun123456/IntellijGoToStackOverFlow)
+
+
+## AceJump
+
+> 快速将光标导航到编辑器中可见的任何位置，快速定位突出显示代码中所有指定的字符
+
+* [https://github.com/acejump/AceJump](https://github.com/acejump/AceJump)
 
 
 ## Codota
@@ -393,6 +467,18 @@
 - 要为当前 java 文件中的所有元素生成 javadocs，请按 shift + ctrl + alt + G。
 - 删除当前/选定元素上的 javadocs 请按 shift + alt + Z。
 - 删除当前类所有元素上的 javadocs：请按 shift + ctrl + alt + Z。
+
+
+## easy_javadoc
+
+* [https://github.com/starcwang/easy_javadoc](https://github.com/starcwang/easy_javadoc)
+
+
+## Grep Console
+
+> 让 Console 日志有颜色，可以对 trace，debug，info，warn，error 配置不同的颜色
+
+* [https://github.com/krasa/GrepConsole](https://github.com/krasa/GrepConsole)
 
 
 ## Git Commit Template

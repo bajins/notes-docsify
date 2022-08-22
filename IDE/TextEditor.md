@@ -7,29 +7,52 @@
 
 ## Flag
 
-
-* [http://www.gnu.org/software/emacs](http://www.gnu.org/software/emacs)
+* [https://github.com/GNOME/gedit](https://github.com/GNOME/gedit)
+* [https://github.com/emacs-tw/awesome-emacs](https://github.com/emacs-tw/awesome-emacs)
+    * [http://www.gnu.org/software/emacs](http://www.gnu.org/software/emacs)
+* [https://github.com/geany/geany](https://github.com/geany/geany)
 * [https://www.nano-editor.org](https://www.nano-editor.org)
+* [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 * [https://vim.org](https://vim.org)
     * [https://github.com/neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
+    * [https://github.com/thaerkh/vim-workspace](https://github.com/thaerkh/vim-workspace)
+    * [https://github.com/neovim/neovim](https://github.com/neovim/neovim)
+    * [https://github.com/NvChad/NvChad](https://github.com/NvChad/NvChad)
+    * [https://github.com/ms-jpq/coq_nvim](https://github.com/ms-jpq/coq_nvim)
+    * [https://github.com/nvim-treesitter](https://github.com/nvim-treesitter)
+    * [https://github.com/KillTheMule/nvim-rs](https://github.com/KillTheMule/nvim-rs)
+    * [https://github.com/neovide/neovide](https://github.com/neovide/neovide)
+* [https://github.com/helix-editor/helix](https://github.com/helix-editor/helix)
+* [https://github.com/file-acomplaint/kyun](https://github.com/file-acomplaint/kyun)
 * [C#写的记事本](https://github.com/topics/notepad?l=c%23)
 * [C++写的记事本](https://github.com/topics/notepad?l=c%2B%2B)
 * [Notepad3](https://github.com/rizonesoft/Notepad3)
 * [notepad2](https://github.com/zufuliu/notepad2)
 * [https://www.scintilla.org](https://www.scintilla.org)
 * [http://www.pnotepad.org](http://www.pnotepad.org)
-* [https://github.com/adobe/brackets](https://github.com/adobe/brackets)
+* [https://github.com/brackets-cont/brackets](https://github.com/brackets-cont/brackets)
+    * [https://github.com/adobe/brackets](https://github.com/adobe/brackets)
 * [https://github.com/bobbylight](https://github.com/bobbylight)
+* [https://github.com/textmate](https://github.com/textmate)
+* [https://github.com/Komodo/KomodoEdit](https://github.com/Komodo/KomodoEdit)
+* [https://github.com/lite-xl/lite-xl](https://github.com/lite-xl/lite-xl)
 
+
+- [https://www.texmacs.org](https://www.texmacs.org)
+- [https://github.com/XmacsLabs/Xmacs](https://github.com/XmacsLabs/Xmacs)
 
 
 
 ## Notepad++
 
 * [https://github.com/notepad-plus-plus/notepad-plus-plus](https://github.com/notepad-plus-plus/notepad-plus-plus)
+* 插件 [https://github.com/notepad-plus-plus/nppPluginList](https://github.com/notepad-plus-plus/nppPluginList)
 * [替换默认记事本](https://npp-user-manual.org/docs/other-resources/#notepad-replacement)
+* 比较 [https://github.com/pnedev/compare-plugin](https://github.com/pnedev/compare-plugin)
 
 - 查看快捷键：`设置` –> `管理快捷键` -> `Scintilla命令`
+    - `SCI_SELECTIONDUPLICATE` 复制当前行
+    - `SCI_LINEDELETE` 删除当前行
 - `Tab`替换为空格：设置->首选项->语言->制表符设置->(勾选上)替换为空格
 - 显示特殊字符
     - 显示回车符，换行符，TAB键，行首，行尾等特殊字符
@@ -38,11 +61,38 @@
 <kbd>K</kbd>） -> 查找目标输入正则表达式 -> 勾选`正则表达式`、`标记所在行`、`清除上次标记` -> 点击`全部标记` ->
  点击菜单栏 `搜索` -> `书签` -> `删除未标记行`
 
+- 下划线转驼峰：查找目标:`([a-z])_([a-z])` 查找“小写_小写”，括号用来分组
+    - 替换为：`\1\u\2`替换为第一组和第二组的大写
+- 驼峰转下划线：查找目标：`([a-z])([A-Z])` 查找“小写大写”的组合，括号用来分组，需勾选`配匹大小写`和`循环查找`
+    - 替换为：`\1_\l\2`替换为第一组加下滑线加第二组，第二组小写`\l`是小写的`L`
+
+1. `\U` 将匹配项转为大写(Upper)
+2. `\L` 将匹配项转为小写(Lower)
+3. `\E` 终止转换(End)
+
+
+* 在UTF-8下使用`[\x{4e00}-\x{9fa5}]`匹配中文 [http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/htmls/npp_func_regex_replace.html](http://www.crifan.com/files/doc/docbook/rec_soft_npp/release/htmls/npp_func_regex_replace.html)
+
+
+> notepad++未保存的文件的缓存文件地址：`%AppData%\Notepad++\backup`
+
+
+
+**匹配多个相同字符中的某一个**
+
+> 利用`非贪婪`限定符`?`,分组限定符`()`,分组保留用法`\1`/`$1`
+
+- 查找第一个逗号：`(^.*?),`或`(,)(.*?$)`
+- 查找第二个逗号：`(^.*?,.*?),`
+- 查找最后一个（包含不在行末的）逗号：`(,)([^,]*$)`
+
+
 
 
 
 ## SublimeText
 
+- [https://github.com/SublimeText](https://github.com/SublimeTexts)
 - [https://www.sublimetext.com](https://www.sublimetext.com)
     - [http://www.sublimetext.cn](http://www.sublimetext.cn)
 - [sublimetext破解](https://www.abbeyok.com/archives/337)
@@ -56,6 +106,11 @@
 ### 插件
 
 > 按<kbd>Ctrl</kbd> + <kbd>Shift</kbd> + <kbd>p</kbd>输入`install`选择`Package Control: Install Package`再输入插件名称
+
+* [https://github.com/facelessuser/MarkdownPreview](https://github.com/facelessuser/MarkdownPreview)
+* 本地化菜单 [https://github.com/zam1024t/LocalizedMenu](https://github.com/zam1024t/LocalizedMenu)
+* 侧边栏右键增强 [https://github.com/52fisher/SideBarEnhancements](https://github.com/52fisher/SideBarEnhancements)
+* 插件管理器 [https://github.com/wbond/package_control](https://github.com/wbond/package_control)
 
 - ChineseLocalizations
 

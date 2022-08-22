@@ -19,8 +19,14 @@
 * [https://segmentfault.com/markdown](https://segmentfault.com/markdown)
 * [https://github.com/guodongxiaren/README](https://github.com/guodongxiaren/README)
 * [markdown语法大全](https://www.rumosky.wiki/docs/markdown)
+* [https://github.com/mattcone/markdown-guide](https://github.com/mattcone/markdown-guide)
 * [https://guides.github.com/features/mastering-markdown](https://guides.github.com/features/mastering-markdown)
 * Markdeep是Markdown的超集 [https://github.com/morgan3d/markdeep](https://github.com/morgan3d/markdeep)
+* CommonMark [https://github.com/commonmark](https://github.com/commonmark)
+* MultiMarkdown [https://github.com/fletcher/MultiMarkdown-6](https://github.com/fletcher/MultiMarkdown-6)
+* Kramdown [https://github.com/gettalong/kramdown](https://github.com/gettalong/kramdown)
+
+
 
 - [https://github.com/topics/emoji](https://github.com/topics/emoji)
 - GitHub角落图标 [https://github.com/tholman/github-corners](https://github.com/tholman/github-corners)
@@ -33,6 +39,10 @@
 - [https://github.com/liuchengxu/git-commit-emoji-cn](https://github.com/liuchengxu/git-commit-emoji-cn)
 - [https://github.com/afeld/emoji-css](https://github.com/afeld/emoji-css)
 - [Github 上 emoji 表情的含义及使用规范](https://mkblog.cn/872)
+- [https://github.com/mkdocs/mkdocs](https://github.com/mkdocs/mkdocs)
+- 转PDF [https://github.com/realdennis/md2pdf](https://github.com/realdennis/md2pdf)
+- [https://github.com/BlueHatbRit/mdpdf](https://github.com/BlueHatbRit/mdpdf)
+
 
 > 表情（两个冒号包围的字符）,比如`:blush:`，可以显示 :blush:
 
@@ -484,6 +494,8 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/benweet/stackedit](https://github.com/benweet/stackedit)
 * [https://github.com/commonmark/commonmark.js](https://github.com/commonmark/commonmark.js)
 * [https://github.com/showdownjs/showdown](https://github.com/showdownjs/showdown)
+* [https://github.com/github/markup](https://github.com/github/markup)
+* [https://github.com/mermaid-js/mermaid](https://github.com/mermaid-js/mermaid)
 
 
 
@@ -505,14 +517,24 @@ string &operator+(const string& A,const string& B) //cpp
 
 ### 本地版客户端
 
-* [https://github.com/typora](https://github.com/typora)
-    * [typora](https://www.typora.io)
-* [MarkPad](https://github.com/Code52/DownmarkerWPF)
+* ~~[https://github.com/typora](https://github.com/typora)~~
+    * ~~[https://www.typora.io](https://www.typora.io)~~
+* [https://github.com/Saul-Mirone/milkdown](https://github.com/Saul-Mirone/milkdown)
+* [https://github.com/laurent22/joplin](https://github.com/laurent22/joplin)
+* MarkPad [https://github.com/Code52/DownmarkerWPF](https://github.com/Code52/DownmarkerWPF)
 * [Haroopad](http://pad.haroopress.com/user.html)
 * [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
 * [https://github.com/Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
 * [https://github.com/rickstrahl/MarkdownMonster](https://github.com/rickstrahl/MarkdownMonster)
 * [https://github.com/marktext/marktext](https://github.com/marktext/marktext)
+    * [https://marktext.app](https://marktext.app)
+* [https://obsidian.md](https://obsidian.md)
 * [https://github.com/notable/notable](https://github.com/notable/notable)
 * [https://github.com/nhn/tui.editor](https://github.com/nhn/tui.editor)
 * [https://github.com/aguang-xyz/aurora-editor](https://github.com/aguang-xyz/aurora-editor)
+* 笔记 [https://github.com/laurent22/joplin](https://github.com/laurent22/joplin)
+* [https://github.com/evernote](https://github.com/evernote)
+* [https://github.com/zadam/trilium](https://github.com/zadam/trilium)
+* [https://github.com/flxzt/rnote](https://github.com/flxzt/rnote)
+* [https://github.com/pbek/QOwnNotes](https://github.com/pbek/QOwnNotes)
+

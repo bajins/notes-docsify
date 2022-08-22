@@ -13,10 +13,20 @@
     * [https://developer.hitokoto.cn](https://developer.hitokoto.cn)
     * [https://api.imjad.cn](https://api.imjad.cn)
 
+- [https://api.apiopen.top/api.html](https://api.apiopen.top/api.html)
 - [https://github.com/huanghui0906/API](https://github.com/huanghui0906/API)
 - [https://github.com/wangpinpin/devtools-server](https://github.com/wangpinpin/devtools-server)
 - 狗屁不通文章 [https://github.com/menzi11/BullshitGenerator](https://github.com/menzi11/BullshitGenerator)
     - [https://github.com/suulnnka/BullshitGenerator](https://github.com/suulnnka/BullshitGenerator)
+- [https://github.com/egotong/nows](https://github.com/egotong/nows)
+- [https://github.com/zhaoolee/ChineseBQB](https://github.com/zhaoolee/ChineseBQB)
+- [https://github.com/wangpinpin/devtools-server](https://github.com/wangpinpin/devtools-server)
+- 最全中华古诗词 [https://github.com/chinese-poetry](https://github.com/chinese-poetry)
+- [https://github.com/public-apis/public-apis](https://github.com/public-apis/public-apis)
+- [https://github.com/NiuTrans/Classical-Modern](https://github.com/NiuTrans/Classical-Modern)
+- 做饭 [https://github.com/Anduin2017/HowToCook](https://github.com/Anduin2017/HowToCook)
+- [https://github.com/YunYouJun/cook](https://github.com/YunYouJun/cook)
+- 中文歌词 [https://github.com/dengxiuqi/ChineseLyrics](https://github.com/dengxiuqi/ChineseLyrics)
 
 
 
@@ -41,6 +51,8 @@
 * [https://gratisography.com](https://gratisography.com)
 * [https://shotstash.com](https://shotstash.com)
 * [https://picography.co](https://picography.co)
+* [https://wallpaperhub.app](https://wallpaperhub.app)
+* [http://www.netbian.com](http://www.netbian.com)
 
 
 

@@ -8,20 +8,23 @@
 
 + [https://docs.oracle.com/javase/8/docs/technotes/tools](https://docs.oracle.com/javase/8/docs/technotes/tools)
 + [http://openjdk.java.net/projects/code-tools](http://openjdk.java.net/projects/code-tools)
++ [https://github.com/openjdk/jmc](https://github.com/openjdk/jmc)
 
-* 无侵入式的jvm监控工具MyPerf4J [https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
-* Alibaba Java诊断利器Arthas [https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
-* Java和Android堆转储分析器 [https://heaphero.io](https://heaphero.io)
-* GC 日志分析器 [https://gceasy.io](https://gceasy.io)
-* [https://github.com/chewiebug/GCViewer](https://github.com/chewiebug/GCViewer)
-* java程序跟踪工具 [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
-* 故障排除，监视和性能分析 [https://github.com/aragozin/jvm-tools](https://github.com/aragozin/jvm-tools)
-
+- [https://github.com/topics/diagnosis](https://github.com/topics/diagnosis)
+- [https://github.com/topics/trace](https://github.com/topics/trace)
+- [https://github.com/topics/agent](https://github.com/topics/agent)
 
 
 **其他命令**
 
+- [抛开IDE，了解一下javac如何编译](https://imshuai.com/using-javac)
+- [使用javac编译工程](https://www.cnblogs.com/ZiYangZhou/p/8536828.html)
+
+
 ```bash
+javac -encoding utf-8 -cp ".;webapp\WEB-INF\lib\*" -d target src\com\bajins\utils\*.java
+java -cf bajins.war .
+
 # 获取当前JVM默认参数
 java -XX:+PrintFlagsFinal -version | grep MaxHeapSize
 
@@ -37,18 +40,97 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 
 # nid：对应的linux操作系统下的TID，就是前面转化的16进制数字
 # tid：这个应该是jvm的jmm内存规范中的唯一地址定位
+
+jmap -dump:live,format=b,file=/tmp/heapdump.hprof PID
+/usr/lib/jvm/jdk-YOUR-VERSION/bin/jcmd PID GC.heap_dump /tmp/heapdump.hprof
 ```
+
+
+**远程监控参数**
+
+> 在jvm启动参数中加入或在Tomcat的`/bin/catalina.sh`文件中加入
+
+```bash
+-Djava.rmi.server.hostname=主机的IP
+-Dcom.sun.management.jmxremote.port=端口号
+-Dcom.sun.management.jmxremote.ssl=false
+-Dcom.sun.management.jmxremote.authenticate=false
+```
+
+
+**远程Debug参数**
+
+> 附加调试器到进程：注意参数一定要放在`-jar`命令之前，方可运行成功
+
+```bash
+java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
+-Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
+```
+
+```bash
+-agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
+```
+
+**参数说明**
+
+- `-Djavax.net.debug` 查看调试信息，`all` 代表所有，其他有`SSL`,`handshake`,`date`,`trust manager`
+- `-Xdebug` 是通知JVM工作在DEBUG模式下
+- `-Xnoagent` 禁用默认sun.tools.debug调试器。
+- `-Djava.compiler=NONE` 为了加快debug的速度，禁止JIT编译器的加载，[详细说明](https://www.iteye.com/problems/89141)
+- `-Xrunjdwp` 是通知JVM使用(Java debug wire protocol)来运行调试环境。
+   - `transport=dt_socket` 是指调试数据用SOCKET模式传送
+   - `transport=dt_shmem` 指用共享内存方式
+   - `transport=dt_shmem` 只适用于Windows平台。
+   - `server=y/n` VM是否需要作为调试服务器执行。
+   - `suspend=y/n` 是否在调试客户端建立连接之后启动 VM 。(设置为y时启动不了)
+   - `onthrow=java.io.IOException` 指明，当产生该类型的Exception时，JVM就会中断下来，进行调式。可选参数
+   - `launch=/sbin/echo` 指明，当JVM被中断下来时，执行的可执行程序。可选参数
+   - `onuncaught=y/n` 指明，出现uncaught exception 后，是否中断JVM的执行.
+
+
+
+
+## 监控分析
+
+* Java诊断利器Arthas [https://github.com/alibaba/arthas](https://github.com/alibaba/arthas)
+    * [https://arthas.aliyun.com/doc/quick-start.html](https://arthas.aliyun.com/doc/quick-start.html)
+    * [https://github.com/dromara/cubic](https://github.com/dromara/cubic)
+* [https://github.com/vipshop/vjtools](https://github.com/vipshop/vjtools)
+* [https://github.com/qunarcorp/bistoury](https://github.com/qunarcorp/bistoury)
+* [https://github.com/oldmanpushcart/greys-anatomy](https://github.com/oldmanpushcart/greys-anatomy)
+* 无侵入式的jvm监控 [https://github.com/ThinkpadNC5/MyPerf4J](https://github.com/ThinkpadNC5/MyPerf4J)
+* Java和Android堆转储分析器 [https://heaphero.io](https://heaphero.io)
+* GC 日志分析器 [https://gceasy.io](https://gceasy.io)
+* [https://github.com/microsoft/gctoolkit](https://github.com/microsoft/gctoolkit)
+* [https://github.com/chewiebug/GCViewer](https://github.com/chewiebug/GCViewer)
+* java程序跟踪工具 [https://github.com/btraceio/btrace](https://github.com/btraceio/btrace)
+* 故障排除，监视和性能分析 [https://github.com/aragozin/jvm-tools](https://github.com/aragozin/jvm-tools)
+* [https://github.com/ajermakovics/jvm-mon](https://github.com/ajermakovics/jvm-mon)
+* [https://github.com/saleson/fm-dynamic-compiler](https://github.com/saleson/fm-dynamic-compiler)
+* [https://github.com/gperftools/gperftools](https://github.com/gperftools/gperftools)
+* [https://www.yourkit.com/java/profiler](https://www.yourkit.com/java/profiler)
+* 内存分析 [https://projects.eclipse.org/projects/tools.mat](https://projects.eclipse.org/projects/tools.mat)
+   * [https://github.com/vlsi/mat-calcite-plugin](https://github.com/vlsi/mat-calcite-plugin)
+* 监控统计 [https://github.com/worstcase/gumshoe](https://github.com/worstcase/gumshoe)
+* [https://github.com/stevensouza/automon](https://github.com/stevensouza/automon)
+* [https://github.com/zrbcool/pepper-metrics](https://github.com/zrbcool/pepper-metrics)
+* 流分析 [https://github.com/wavefrontHQ/wavefront-proxy](https://github.com/wavefrontHQ/wavefront-proxy)
+* JProfiler [https://www.ej-technologies.com](https://www.ej-technologies.com)
+
 
 
 ## 反编译工具
 
++ `java instrumentation` Java探针技术
 + [https://github.com/topics/reverse-engineering](https://github.com/topics/reverse-engineering)
 + [https://github.com/topics/decompiler](https://github.com/topics/decompiler)
 + [https://github.com/topics/disassembler](https://github.com/topics/disassembler)
 
+
 * 在线反编译器 [http://www.javadecompilers.com](http://www.javadecompilers.com)
 * [https://github.com/java-decompiler](https://github.com/java-decompiler)
     * [https://github.com/java-decompiler/jd-gui](https://github.com/java-decompiler/jd-gui)
+    * [https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler](https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler)
 * [https://github.com/leibnitz27/cfr](https://github.com/leibnitz27/cfr)
 * [https://github.com/mstrobel/procyon](https://github.com/mstrobel/procyon)
     * Gui for Procyon [https://github.com/deathmarine/Luyten](https://github.com/deathmarine/Luyten)
@@ -65,13 +147,18 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 * [https://github.com/kwart/jd-cmd](https://github.com/kwart/jd-cmd)
 * [https://software.intel.com/articles/pin-a-dynamic-binary-instrumentation-tool](https://software.intel.com/articles/pin-a-dynamic-binary-instrumentation-tool)
 * [https://github.com/Col-E/Recaf](https://github.com/Col-E/Recaf)
-* [https://github.com/JesusFreke/smali](https://github.com/JesusFreke/smali)
+* smali/baksmali [https://github.com/JesusFreke/smali](https://github.com/JesusFreke/smali)
 * snowman [https://derevenets.com](https://derevenets.com)
-* `javap -verbose 文件` 查看class文件内容
+* `javap -verbose 文件` 查看class文件内容 [https://github.com/topics/bytecode](https://github.com/topics/bytecode)
+* 字节码查看器 [https://github.com/ingokegel/jclasslib](https://github.com/ingokegel/jclasslib)
 * [https://github.com/ClassViewer](https://github.com/ClassViewer)
 * [https://github.com/zxh0/classpy](https://github.com/zxh0/classpy)
 
+
 - 反混淆 [https://github.com/java-deobfuscator/deobfuscator](https://github.com/java-deobfuscator/deobfuscator)
+- [jlink - 将一组模块及其依赖项组装并优化为自定义运行时映像](https://docs.oracle.com/en/java/javase/13/docs/specs/man/jlink.html)
+- [JDK14之jpackage命令](https://zhuanlan.zhihu.com/p/110087548)
+- [大家都是怎么发布Java客户端程序的？难道让用户自己装JRE？](https://www.zhihu.com/question/48990017)
 
 
 
@@ -103,6 +190,8 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 | javap.exe        | class文件反编译工具                                             |
 | extcheck.exe     | 用于检测jar包中的问题                                             |
 | jcmd.exe         | Java命令行(Java Command)，用于向正在运行的JVM发送诊断命令请求。               |
+
+
 
 ### 安全工具
 
@@ -173,7 +262,7 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 
 | 工具名称          | 用途                                                             |
 |---------------|----------------------------------------------------------------|
-| [jvisualvm.exe](https://github.com/oracle/visualvm/releases) | 一个图形化的Java虚拟机。从OracleJDK9开始，不再包含。 |
+| jvisualvm.exe | 一个图形化的Java虚拟机。从OracleJDK9开始，不再包含。 |
 | jconsole.exe  | java监视台和管理控制台                                                  |
 | jps.exe       | JVM Process Status进程状态工具。列出目标系统的HotSpot JVM                   |
 | jstat.exe     | 按照命令行的具体要求记录和收集一个JVM的性能数据                                      |
@@ -183,6 +272,8 @@ jstack PID | grep -A 10 $(printf "%x\n" PID)
 
 
 #### VisualVM
+
+* [https://github.com/visualvm/visualvm.github.io](https://github.com/visualvm/visualvm.github.io)
 
 > 从`Oracle JDK 9`开始，不再包含。需到GitHub下载[https://github.com/oracle/visualvm/releases](https://github.com/oracle/visualvm/releases)
 
@@ -568,47 +659,3 @@ jcmd <pid> GC.heap_dump /home/heap.hprof
 
 
 
-
-## 远程监控参数
-
-> 在jvm启动参数中加入或在Tomcat的`/bin/catalina.sh`文件中加入
-
-```bash
--Djava.rmi.server.hostname=主机的IP
--Dcom.sun.management.jmxremote.port=端口号
--Dcom.sun.management.jmxremote.ssl=false
--Dcom.sun.management.jmxremote.authenticate=false
-```
-
-
-
-
-
-## 远程Debug参数
-
-> 注意参数一定要放在`-jar`命令之前，方可运行成功
-
-```bash
-java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
--Xrunjdwp:transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
-```
-
-```bash
--agentlib:jdwp=transport=dt_socket,server=y,suspend=n,address=端口 -jar jar包
-```
-
-**参数说明**
-
-- `-Djavax.net.debug` 查看调试信息，`all` 代表所有，其他有`SSL`,`handshake`,`date`,`trust manager`
-- `-Xdebug` 是通知JVM工作在DEBUG模式下
-- `-Xnoagent` 禁用默认sun.tools.debug调试器。
-- `-Djava.compiler=NONE` 为了加快debug的速度，禁止JIT编译器的加载，[详细说明](https://www.iteye.com/problems/89141)
-- `-Xrunjdwp` 是通知JVM使用(Java debug wire protocol)来运行调试环境。
-   - `transport=dt_socket` 是指调试数据用SOCKET模式传送
-   - `transport=dt_shmem` 指用共享内存方式
-   - `transport=dt_shmem` 只适用于Windows平台。
-   - `server=y/n` VM是否需要作为调试服务器执行。
-   - `suspend=y/n` 是否在调试客户端建立连接之后启动 VM 。(设置为y时启动不了)
-   - `onthrow=java.io.IOException` 指明，当产生该类型的Exception时，JVM就会中断下来，进行调式。可选参数
-   - `launch=/sbin/echo` 指明，当JVM被中断下来时，执行的可执行程序。可选参数
-   - `onuncaught=y/n` 指明，出现uncaught exception 后，是否中断JVM的执行.

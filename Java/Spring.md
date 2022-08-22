@@ -6,19 +6,28 @@
 
 ## Flag
 
+> [是时候给大家介绍 Spring Boot/Cloud 背后豪华的研发团队了](https://github.com/ityouknow/ityouknow.github.io/blob/master/_posts/2019/releases/2019-01-03-spring-pivotal.md)
+
++ [https://github.com/topics/spring](https://github.com/topics/spring)
++ [https://github.com/topics/spring-boot](https://github.com/topics/spring-boot)
++ [https://github.com/topics/spring-cloud](https://github.com/topics/spring-cloud)
+
+
 * [https://github.com/spring-projects](https://github.com/spring-projects)
     * [https://spring.io/projects](https://spring.io/projects)
-    * Spring Tools 4 [https://github.com/spring-projects/sts4](https://github.com/spring-projects/sts4)
-* [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
-* [https://github.com/huaweicloud](https://github.com/huaweicloud)
+* [https://github.com/spring-guides](https://github.com/spring-guides)
+* [https://github.com/fmarchioni/masterspringboot](https://github.com/fmarchioni/masterspringboot)
+
 
 - [https://github.com/wuyouzhuguli/SpringAll](https://github.com/wuyouzhuguli/SpringAll)
     - [http://www.spring4all.com](http://www.spring4all.com)
 - [https://github.com/mingyang66/spring-parent](https://github.com/mingyang66/spring-parent)
 - Spring源码阅读 [https://github.com/seaswalker/spring-analysis](https://github.com/seaswalker/spring-analysis)
+- Spring 实战第五版中文翻译 [https://github.com/PotoYang/spring-in-action-v5-translate](https://github.com/PotoYang/spring-in-action-v5-translate)
+- [https://github.com/dunwu/spring-tutorial](https://github.com/dunwu/spring-tutorial)
 
-+ [https://start.aliyun.com](https://start.aliyun.com)
 
+* [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
 * [SpringCache自定义过期时间及自动刷新](https://www.cnblogs.com/top-housekeeper/p/11980973.html)
 
 
@@ -54,9 +63,81 @@
 
 
 
-**依赖注入的三种方式**
+**启动错误**
 
-- 使用@Autowired注解时： Field （属性变量）注入尽量避免使用，构造器注入适合强制性的注入旨在不变性，Setter 注入适合可变性的注入。
+> `NoClassDefFoundError: Could not initialize class org.springframework.beans.factory.BeanCreationException`
+>
+> 可能是内存大小不够，加参数：`-Xms1024M -Xmx2048M -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=2048m -Xss5120k`
+
+
+## 事务
+
++ [org.springframework.transaction.annotation.Propagation](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/annotation/Propagation.html)
+
+* [Spring事务嵌套导致的异常,Transaction rolled back because it has been marked as rollback-only](https://blog.csdn.net/qq_42216791/article/details/105684663)
+* [Spring事务嵌套引发的血案---Transaction rolled back because it has been marked as rollback-only](https://blog.csdn.net/f641385712/article/details/80445912)
+* [Spring事务方法嵌套引发的异常与问题分析](https://zhuanlan.zhihu.com/p/69215235)
+* [Spring事务管理嵌套事务详解 : 同一个类中，一个方法调用另外一个有事务的方法](https://blog.csdn.net/levae1024/article/details/82998386)
+* [Spring 事务嵌套无效](https://blog.csdn.net/m0_37701381/article/details/85066711)
+* [spring嵌套事务问题](https://blog.csdn.net/qq_32300143/article/details/116162515)
+
+
+```java
+/*
+Propagation.REQUIRED	如果当前存在事务，则加入该事务；如果当前没有事务，则创建一个新的事务。这是默认值。
+Propagation.REQUIRES_NEW	创建一个新的事务，如果当前存在事务，则把当前事务挂起。
+Propagation.SUPPORTS	如果当前存在事务，则加入该事务；如果当前没有事务，则以非事务的方式继续运行。
+Propagation.NOT_SUPPORTED	以非事务方式运行，如果当前存在事务，则把当前事务挂起。
+Propagation.NEVER	以非事务方式运行，如果当前存在事务，则抛出异常。
+Propagation.MANDATORY	如果当前存在事务，则加入该事务；如果当前没有事务，则抛出异常。
+Propagation.NESTED	如果当前存在事务，则创建一个事务作为当前事务的嵌套事务来运行；如果当前没有事务，则该取值等价于Propagation.REQUIRED
+*/
+// REQUIRES_NEW 与 NESTED 前者是内层异常影响外层，外层不影响内层；后者正好相反，内层加try catch后 异常不影响外层，外层会影响内层
+@Transactional(rollbackFor = Exception.class, propagation = Propagation.REQUIRES_NEW)
+
+
+// 手动管理事务
+@Autowired
+private DataSourceTransactionManager transactionManager;
+/*@Autowired
+private TransactionDefinition transactionDefinition;*/
+
+// 设置事务隔离级别，开启新事务
+DefaultTransactionDefinition def = new DefaultTransactionDefinition(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
+//def.setPropagationBehavior(TransactionDefinition.PROPAGATION_REQUIRES_NEW);
+
+// foreach start
+
+// 获得事务状态
+TransactionStatus status = transactionManager.getTransaction(def);
+try {
+    
+} catch (Exception e) {
+    if(!TransactionAspectSupport.currentTransactionStatus().isRollbackOnly()){ // 获取当前最大事务
+        TransactionAspectSupport.currentTransactionStatus().setRollbackOnly(); // 标记事务回滚
+    }
+    if(!status.isRollbackOnly()){
+        status.setRollbackOnly(); // 标记事务回滚
+    }
+    // https://www.cnblogs.com/yaohuiqin/p/9486975.html
+    transactionManager.rollback(status); // 回滚事务，设置completed为完成状态，清理事务资源
+} finally {
+    if (status !=null && status.isNewTransaction() && !status.isCompleted() && !status.isRollbackOnly()){
+        transactionManager.commit(status); // 如果rollBackOnly状态被设置将回滚，否则执行正常的事务提交操作
+    }
+}
+// foreach end
+```
+
+
+
+
+## 依赖注入
+
+- @Autowired
+    - Field （属性变量）[Field injection is not recommended（不再推荐使用字段注入）](https://zhuanlan.zhihu.com/p/92395282)
+    - 构造器注入适合强制性的注入旨在不变性
+    - Setter 注入适合可变性的注入。
 - @Resource
 - @Inject
 
@@ -67,7 +148,7 @@
 * [@Autowired警告：Field injection is not recommended](https://www.jianshu.com/p/36db3e167958)
 * [使用@Autowired注解警告Field injection is not recommended](https://blog.csdn.net/zhangjingao/article/details/81094529)
 
-
+- [Spring中获取request的几种方法，及其线程安全性分析](https://www.cnblogs.com/kismetv/p/8757260.html)
 
 
 
@@ -80,7 +161,13 @@
 * [https://github.com/vector4wang/spring-boot-quick](https://github.com/vector4wang/spring-boot-quick)
 * [https://github.com/kanyways/learning-spring](https://github.com/kanyways/learning-spring)
 * [https://github.com/gf-huanchupk/SpringBootLearning](https://github.com/gf-huanchupk/SpringBootLearning)
+* [https://github.com/lyb-geek/springboot-learning](https://github.com/lyb-geek/springboot-learning)
 * [https://github.com/xkcoding/spring-boot-demo](https://github.com/xkcoding/spring-boot-demo)
+* [https://github.com/xuwujing/springBoot-study](https://github.com/xuwujing/springBoot-study)
+* [https://github.com/houko/SpringBootUnity](https://github.com/houko/SpringBootUnity)
+* [https://github.com/hemin1003/spring-boot-study](https://github.com/hemin1003/spring-boot-study)
+* [https://github.com/smltq/spring-boot-demo](https://github.com/smltq/spring-boot-demo)
+
 
 + [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
 + [SpringBoot系列: 如何优雅停止服务](https://www.cnblogs.com/exmyth/p/13098831.html)
@@ -191,6 +278,9 @@
 
 ## Starters
 
++ [https://start.aliyun.com](https://start.aliyun.com)
+
+
 **application starters**
 
 > Spring Boot 所有应用程序级的 Starters
@@ -275,11 +365,17 @@
 
 ## Spring Cloud
 
++ [https://github.com/spring-cloud](https://github.com/spring-cloud)
 + [https://github.com/macrozheng/springcloud-learning](https://github.com/macrozheng/springcloud-learning)
 + [https://github.com/dyc87112/SpringCloud-Learning](https://github.com/dyc87112/SpringCloud-Learning)
 + [https://github.com/gf-huanchupk/SpringCloudLearning](https://github.com/gf-huanchupk/SpringCloudLearning)
++ [https://github.com/2227324689/Spring-Cloud-Alibaba-](https://github.com/2227324689/Spring-Cloud-Alibaba-)
 + [https://github.com/SpringCloud](https://github.com/SpringCloud)
 + [https://github.com/venusteam](https://github.com/venusteam)
++ [https://github.com/forezp/SpringCloudLearning](https://github.com/forezp/SpringCloudLearning)
++ [https://github.com/sqshq/piggymetrics](https://github.com/sqshq/piggymetrics)
++ [https://github.com/huaweicloud](https://github.com/huaweicloud)
++ [https://github.com/sofastack](https://github.com/sofastack)
 
 
 * [SpringCloud组件和概念介绍](https://zhuanlan.zhihu.com/p/72721025)
@@ -329,8 +425,14 @@
 
 
 
-
++ [https://github.com/nutzam/nutzboot](https://github.com/nutzam/nutzboot)
 + [https://github.com/ctripcorp/apollo](https://github.com/ctripcorp/apollo)
++ API网关 [https://github.com/apache/incubator-shenyu](https://github.com/apache/incubator-shenyu)
++ [https://github.com/siaorg/sia-gateway](https://github.com/siaorg/sia-gateway)
++ 日志收集 [https://github.com/apache/flume](https://github.com/apache/flume)
+    + [https://flume.liyifeng.org](https://flume.liyifeng.org)
++ [https://github.com/fayechenlong/plumelog](https://github.com/fayechenlong/plumelog)
+
 
 
 * [分布式日志框架ELK入门](https://blog.csdn.net/piantoutongyang/article/details/88811840)
@@ -347,7 +449,8 @@
 * [过滤器列表](https://docs.spring.io/spring-security/site/docs/5.3.1.RELEASE/reference/html5/#servlet-security-filters)
 * [标准过滤器别名和顺序](https://docs.spring.io/spring-security/site/docs/5.3.1.RELEASE/reference/html5/#filter-stack)
 
-
+- [https://github.com/topics/spring-security](https://github.com/topics/spring-security)
+- [https://github.com/Snailclimb/spring-security-jwt-guide](https://github.com/Snailclimb/spring-security-jwt-guide)
 
 
 **拦截器和过滤器区别**
@@ -361,6 +464,7 @@
 - 过滤器需要在servlet容器中实现，拦截器可以适用于javaEE，javaSE等各种环境
 - 拦截器可以调用IOC容器中的各种依赖，而过滤器不能
 - 过滤器只能在请求的前后使用，而拦截器可以详细到每个方法
+
 
 
 
@@ -378,7 +482,64 @@
 
 - `TBSchedule`
 
-* [https://github.com/quartz-scheduler/quartz](https://github.com/quartz-scheduler/quartz)
-* [quartz-scheduler建表SQL](https://github.com/quartz-scheduler/quartz/tree/master/quartz-core/src/main/resources/org/quartz/impl/jdbcjobstore)
 
+
+
+## Spring MVC
+
+**redirect重定向**
+
+> redirect重定向可以跳转到任意服务器地址，传递时要对中文编码进行处理
+
+```java
+@RequestMapping(value="/test", method = { RequestMethod.POST, RequestMethod.GET })
+public ModelAndView testredirect(HttpServletResponse response){
+    response.sendRedirect("/index");// 参数可以直接拼接在url上
+    return null;
+}
+@RequestMapping("/testredirect")
+public String testredirect(Model model, RedirectAttributes attr) {
+	attr.addAttribute("test", "51gjie");// 跳转地址带参数
+    attr.addFlashAttribute("u2", "51gjie");// 跳转地址不带参数，只存在body中
+	return "redirect:/user/users";// 参数可以直接拼接在url上
+}
+@RequestMapping(value="/toredirect",method = { RequestMethod.POST, RequestMethod.GET })
+public  ModelAndView toredirect(String userName){
+    ModelAndView  model = new ModelAndView("/main/index");// 参数可以直接拼接在url上
+    // 把userName参数带入到controller的RedirectAttributes中
+    model.addObject("userName", userName);
+    return model;
+}
+```
+
+
+## Spring AOP原理
+
+1. AOP: 其实现的关键就在于 AOP 框架自动创建的 AOP 代理，AOP 代理则可分为静态代理和动态代理两大类
+    1. 其中静态代理是指使用 AOP 框架提供的命令进行编译，从而在编译阶段就可生成 AOP 代理类，因此也称为编译时增强；静态代理分为：编译时织入（特殊编译器实现）、类加载时织入（特殊的类加载器实现）。静态代理的代表为AspectJ；
+    2. 而动态代理则在运行时借助于 JDK 动态代理、CGLIB 等在内存中“临时”生成 AOP 动态代理类，因此也被称为运行时增强。动态代理分为：JDK动态代理（基于接口来实现）、CGLib（基于类实现）。而动态代理则以Spring AOP为代表。
+2. Spring AOP：只支持动态代理，通过两种方式进行实现：
+    1. JDK动态代理，通过反射实现，只支持对实现接口的类进行代理
+    2. CGLib动态字节码注入方式实现代理。
+
+
+## JDK动态代理:
+
+JDK中的动态代理是通过反射类Proxy反射机制生成一个实现代理接口的匿名类，在调用具体方法前调用InvocationHandler回调接口实现的，但是JDK中所有要进行动态代理的类必须要实现一个接口，也就是说只能对该类所实现接口中定义的方法进行代理，这在实际编程中有一定的局限性，而且使用反射的效率也不高
+
+## Cglib
+
+cglib动态代理是利用asm开源包，对代理对象类的class文件加载进来，通过修改其字节码生成子类来处理。
+
+动态生成一个要代理的子类，子类重写要代理的类的所有不是final的方法。在子类中采用方法拦截技术拦截所有的父类方法的调用，顺势织入横切逻辑
+
+ASM是一个java字节码操纵框架，它能被用来动态生成类或者增强既有类的功能。ASM 可以直接产生二进制 class 文件，也可以在类被加载入 Java 虚拟机之前动态改变类行为
+
+ 
+
+## Lombok原理
+
+1. 定义编译期的注解 `@Retention(RetentionPolicy.SOURCE)`
+2. 利用`JSR269 api(Pluggable Annotation Processing API )`编译期的注解处理器 （AbstractProcessor在编译时指定一个processor类来对编译阶段的注解进行干预，Lombok的注解处理器：AnnotationProcessor）
+3. 利用`tools.jar`的`javac` api处理`AST`(抽象语法树)，将功能注册进jar包
 

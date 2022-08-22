@@ -10,25 +10,167 @@
     + [https://www.openbsd.org](https://www.openbsd.org)
 
 * [speedtest](https://github.com/adolfintel/speedtest)
-* ssl免费的证书 [https://letsencrypt.org](https://letsencrypt.org)
-    * [https://github.com/acmesh-official](https://github.com/acmesh-official)
-        * [HTTPS之acme.sh申请证书](https://www.cnblogs.com/tu240302975/p/13370867.html)
-    * [https://github.com/win-acme](https://github.com/win-acme)
-    * [https://github.com/certbot](https://github.com/certbot)
-        * [https://certbot.eff.org](https://certbot.eff.org)
-        * [获取证书（并选择插件）-官方文档](https://certbot.eff.org/docs/using.html#getting-certificates-and-choosing-plugins)
-    * [临时处理OCSP域名无法访问的问题](https://holmesian.org/letsencrypt-ocsp-fix)
-    * [「Certbot」- ocsp.int-x3.letsencrypt.org Read timed out](http://blog.k4nz.com/%E3%80%8Ccertbot%E3%80%8D-ocsp-int-x3-letsencrypt-org-read-timed-out)
-* 像libevent，libev和libuv一样，libhv提供具有非阻塞IO和计时器的事件循环: [https://github.com/ithewei/libhv](https://github.com/ithewei/libhv)
+* Linux中国 翻译组 [https://github.com/LCTT](https://github.com/LCTT)
+* DPDK工程师手册 [https://github.com/0voice/dpdk_engineer_manual](https://github.com/0voice/dpdk_engineer_manual)
 
 
 - [https://www.gnome.org](https://www.gnome.org)
+- 加密覆盖文件系统 [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
+- 天气卫星 [https://github.com/sam210723/xrit-rx](https://github.com/sam210723/xrit-rx)
+- CCProxy [http://www.ccproxy.com](http://www.ccproxy.com)
+    * [局域内网的服务器利用跳板机访问互联网](https://51.ruyo.net/17717.html)
+    ```
+    序列号：JHEHIHCDDAHC
+    注册码：15f7f78febfaee55afeafefff7cb7fdfb3
+    ```
+- MAC取证 [https://github.com/jipegit/OSXAuditor](https://github.com/jipegit/OSXAuditor)
+
 
 * [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)
 * [如何看待Linus Torvalds对AVX512的评价？](https://www.zhihu.com/question/406517759)
 
 
+
+
+## SSL证书
+
+* [https://github.com/zerossl](https://github.com/zerossl)
+* [https://letsencrypt.org](https://letsencrypt.org)
+* [https://github.com/zenhack/simp_le](https://github.com/zenhack/simp_le)
+* [https://github.com/acmesh-official](https://github.com/acmesh-official)
+    * [HTTPS之acme.sh申请证书](https://www.cnblogs.com/tu240302975/p/13370867.html)
+    * [使用GCP公共CA签发Google Trust Services证书](https://hostloc.com/thread-993780-1-1.html)
+* [https://github.com/win-acme](https://github.com/win-acme)
+* [https://github.com/certbot](https://github.com/certbot)
+    * [https://certbot.eff.org](https://certbot.eff.org)
+    * [获取证书（并选择插件）-官方文档](https://certbot.eff.org/docs/using.html#getting-certificates-and-choosing-plugins)
+* 管理 [https://github.com/SSLMate](https://github.com/SSLMate)
+* [临时处理OCSP域名无法访问的问题](https://holmesian.org/letsencrypt-ocsp-fix)
+* [「Certbot」- ocsp.int-x3.letsencrypt.org Read timed out](http://blog.k4nz.com/%E3%80%8Ccertbot%E3%80%8D-ocsp-int-x3-letsencrypt-org-read-timed-out)
+
+
+
+
+## USB启动盘
+
+- [https://github.com/pbatard/rufus](https://github.com/pbatard/rufus)
+- [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)
+- [https://github.com/unetbootin/unetbootin](https://github.com/unetbootin/unetbootin)
+- [https://www.pendrivelinux.com](https://www.pendrivelinux.com)
+
+* 克隆部署 [https://github.com/canonical/cloud-init](https://github.com/canonical/cloud-init)
+* BIOS [https://github.com/coreboot](https://github.com/coreboot)
+
+
+
+## 开源操作系统
+
+* [https://github.com/topics/operating-system](https://github.com/topics/operating-system)
+* [Linux发行版本排行](https://distrowatch.com/dwres.php?resource=popularity)
+* [Linux主流发行版本](https://distrowatch.com/dwres.php?resource=major)
+
+
+- [https://github.com/torvalds/linux](https://github.com/torvalds/linux)
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
+- [https://github.com/AlmaLinux](https://github.com/AlmaLinux)
+- [https://github.com/microsoft/CBL-Mariner](https://github.com/microsoft/CBL-Mariner)
+- [https://www.oracle.com/linux](https://www.oracle.com/linux)
+- 将CentOS切换到Oracle脚本 [https://github.com/oracle/centos2ol](https://github.com/oracle/centos2ol)
+- [https://github.com/clearos](https://github.com/clearos)
+- [http://springdale.math.ias.edu](http://springdale.math.ias.edu/)
+- [https://github.com/cloudlinux](https://github.com/cloudlinux)
+- [https://www.debian.org](https://www.debian.org)
+    - [https://github.com/atzlinux/debian-cn](https://github.com/atzlinux/debian-cn)
+- [https://antixlinux.com](https://antixlinux.com)
+- [https://mxlinux.org](https://mxlinux.org)
+- [https://github.com/canonical-web-and-design](https://github.com/canonical-web-and-design)
+- [https://github.com/BlackArch](https://github.com/BlackArch)
+- [https://gitlab.com/kalilinux](https://gitlab.com/kalilinux)
+    - [https://www.kali.org](https://www.kali.org)
+    - 黑客工具 [https://github.com/Z4nzu/hackingtool](https://github.com/Z4nzu/hackingtool)
+    - [https://github.com/LandGrey/SpringBootVulExploit](https://github.com/LandGrey/SpringBootVulExploit)
+- [https://github.com/SerenityOS](https://github.com/SerenityOS)
+- [https://www.haiku-os.org](https://www.haiku-os.org)
+- [https://github.com/linuxmint](https://github.com/linuxmint)
+- [https://github.com/cutefishos-ubuntu](https://github.com/cutefishos-ubuntu)
+- [https://gitlab.archlinux.org/archlinux](https://gitlab.archlinux.org/archlinux)
+    - [https://github.com/NakanoMikuOrg/arch-guide](https://github.com/NakanoMikuOrg/arch-guide)
+    - 安装 [https://github.com/ChrisTitusTech/ArchTitus](https://github.com/ChrisTitusTech/ArchTitus)
+- [https://github.com/NetBSD](https://github.com/NetBSD)
+- [https://github.com/freebsd](https://github.com/freebsd)
+- [https://github.com/linuxdeepin](https://github.com/linuxdeepin)
+    - [https://github.com/martyr-deepin](https://github.com/martyr-deepin)
+- Solus [https://getsol.us](https://getsol.us)
+- Windows兼容操作系统 [https://github.com/reactos](https://github.com/reactos)
+- 支持Linux和安卓应用 [https://github.com/JingOS-team/JingOS](https://github.com/JingOS-team/JingOS)
+- 编译嵌入式Linux [https://github.com/buildroot/buildroot](https://github.com/buildroot/buildroot)
+- [https://github.com/littlekernel/lk](https://github.com/littlekernel/lk)
+    - [Little Kernel 代码走读（一） – 易也技术](http://yiiyee.cn/blog/2019/08/28/lk1)
+    - [https://github.com/dahliaOS/fimage](https://github.com/dahliaOS/fimage)
+    - [https://fuchsia.fsf.org.cn](https://fuchsia.fsf.org.cn)
+
+
+
+* [https://github.com/topics/openwrt](https://github.com/topics/openwrt)
+    * [https://github.com/openwrt/openwrt](https://github.com/openwrt/openwrt)
+    * [https://github.com/coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
+* [https://github.com/open-power](https://github.com/open-power)
+* [https://github.com/Entware](https://github.com/Entware)
+* [https://github.com/tock/tock](https://github.com/tock/tock)
+    * [https://github.com/google/OpenSK](https://github.com/google/OpenSK)
+* [https://makecode.microbit.org](https://makecode.microbit.org)
+* [https://github.com/droogmic/microrust](https://github.com/droogmic/microrust)
+* [https://github.com/ARMmbed](https://github.com/ARMmbed)
+* [https://github.com/thepowersgang/rust_os](https://github.com/thepowersgang/rust_os)
+* 物联网 [https://github.com/RT-Thread/rt-thread](https://github.com/RT-Thread/rt-thread)
+* 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
+* [https://github.com/pftf](https://github.com/pftf)
+
+
+- 交换机操作系统 [https://github.com/stratum/stratum](https://github.com/stratum/stratum)
+- [https://github.com/myspaghetti/macos-virtualbox](https://github.com/myspaghetti/macos-virtualbox)
+- [https://github.com/osresearch/heads](https://github.com/osresearch/heads)
+- [https://github.com/hardenedvault/vaultboot](https://github.com/hardenedvault/vaultboot)
+- [https://github.com/pld-linux](https://github.com/pld-linux)
+
+
+
+## 软件
+
+
+* 服务器音频播放器 [https://github.com/badaix/snapcast](https://github.com/badaix/snapcast)
+* 桌面 [https://github.com/kernelslacker/trinity](https://github.com/kernelslacker/trinity)
+* [https://github.com/wine-mirror/wine](https://github.com/wine-mirror/wine)
+* [https://github.com/ValveSoftware](https://github.com/ValveSoftware)
+* [https://kde.org/zh-cn/plasma-desktop](https://kde.org/zh-cn/plasma-desktop)
+* [https://www.enlightenment.org](https://www.enlightenment.org)
+* [https://github.com/muesli/duf](https://github.com/muesli/duf)
+
+
+
+### 监控探针
+
++ [https://github.com/topics/apm](https://github.com/topics/apm)
++ [https://github.com/topics/system-information](https://github.com/topics/system-information)
+
+
+* 带仪表盘的实时性能监控 [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
+* [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
+* [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
+* [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
+* [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
+* [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
+* [https://github.com/newrelic](https://github.com/newrelic)
+    * [https://opensource.newrelic.com](https://opensource.newrelic.com)
+* [https://github.com/pinpoint-apm/pinpoint](https://github.com/pinpoint-apm/pinpoint)
+* [https://github.com/apache/skywalking](https://github.com/apache/skywalking)
+
+
+- [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)
+    - [https://bigbully.github.io/Dapper-translation](https://bigbully.github.io/Dapper-translation)
+- [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
+
+
 
 
 **管理面板**
@@ -37,6 +179,150 @@
     * [https://www.bt.cn](https://www.bt.cn)
 * [https://www.xp.cn](https://www.xp.cn)
 * [https://cockpit-project.org](https://cockpit-project.org)
+* 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
+* [https://github.com/GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)
+* [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
+* [http://amh.sh](http://amh.sh)
+* [http://www.batchshell.cn](http://www.batchshell.cn)
+
+
+
+**Dashboard**
+
+* [https://github.com/keen/dashboards](https://github.com/keen/dashboards)
+* [https://github.com/Smashing/smashing](https://github.com/Smashing/smashing)
+    * [https://github.com/Shopify/dashing](https://github.com/Shopify/dashing)
+* [https://github.com/Hygieia/Hygieia](https://github.com/Hygieia/Hygieia)
+* [https://github.com/Reportr/dashboard](https://github.com/Reportr/dashboard)
+* [https://github.com/elastic/kibana](https://github.com/elastic/kibana)
+* [https://github.com/getredash/redash](https://github.com/getredash/redash)
+* [https://github.com/apache/superset](https://github.com/apache/superset)
+* [https://github.com/metabase/metabase](https://github.com/metabase/metabase)
+* [https://github.com/cube-js/cube.js](https://github.com/cube-js/cube.js)
+* [https://github.com/Freeboard/freeboard](https://github.com/Freeboard/freeboard)
+* [https://github.com/bokeh/bokeh](https://github.com/bokeh/bokeh)
+* [https://github.com/streamlit/streamlit](https://github.com/streamlit/streamlit)
+* [https://github.com/altair-viz/altair](https://github.com/altair-viz/altair)
+* [https://github.com/zabbix](https://github.com/zabbix)
+    * [https://github.com/alexanderzobnin/grafana-zabbix](https://github.com/alexanderzobnin/grafana-zabbix)
+    * [https://github.com/zhausong/zabbix-book](https://github.com/zhausong/zabbix-book)
+* [https://github.com/NagiosEnterprises](https://github.com/NagiosEnterprises)
+    * [https://github.com/nagios-plugins](https://github.com/nagios-plugins)
+    * [https://www.nagios.org](https://www.nagios.org)
+    * [https://www.nagios.com](https://www.nagios.com)
+
+
+
+**VNC**
+
++ [https://github.com/topics/vnc](https://github.com/topics/vnc)
++ [https://github.com/topics/vnc-client](https://github.com/topics/vnc-client)
+
+* [https://github.com/novnc/noVNC](https://github.com/novnc/noVNC)
+* [https://github.com/balena-io-playground/xserver-web-vnc](https://github.com/balena-io-playground/xserver-web-vnc)
+
+- Xen [https://xenbits.xensource.com](https://xenbits.xensource.com)
+- QEMU [https://github.com/qemu/qemu](https://github.com/qemu/qemu)
+- KVM [https://www.linux-kvm.org](https://www.linux-kvm.org)
+- [https://gitlab.com/libvirt](https://gitlab.com/libvirt)
+    - [https://github.com/virt-manager](https://github.com/virt-manager)
+- [https://github.com/libguestfs](https://github.com/libguestfs)
+- [https://github.com/proxmoxer](https://github.com/proxmoxer)
+    - [https://www.proxmox.com](https://www.proxmox.com)
+- [https://github.com/oVirt](https://github.com/oVirt)
+    - [https://github.com/cnovirt](https://github.com/cnovirt)
+
+
+
+
+### 建站资源
+
+* [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
+    * [安装教程](https://www.moerats.com/archives/744)
+* [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501)
+* [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644)
+* [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
+* 冷曦博客 - 源码之家-草根站长的资源共享平台: [https://www.lengxi.net](https://www.lengxi.net)
+* [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
+* [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
+* 媒体服务器 [https://github.com/MediaBrowser/Emby.Releases](https://github.com/MediaBrowser/Emby.Releases)
+
+
+
+**协作/在线/协同**
+
++ [https://github.com/microsoft/FluidFramework](https://github.com/microsoft/FluidFramework)
+
+* 协作在线办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
+* [https://github.com/ether/etherpad-lite](https://github.com/ether/etherpad-lite)
+* [https://github.com/anytypeio](https://github.com/anytypeio)
+* 团队协作和文档 [https://www.notion.so](https://www.notion.so)
+* [https://github.com/mattermost/focalboard](https://github.com/mattermost/focalboard)
+* [https://github.com/AppFlowy-IO/appflowy](https://github.com/AppFlowy-IO/appflowy)
+* 腾讯文档 [http://docs.qq.com](http://docs.qq.com)
+* [https://github.com/seatable](https://github.com/seatable)
+* [https://slack.com](https://slack.com)
+    * [https://slack.com/get-started](https://slack.com/get-started)
+* [https://www.twilio.com](https://www.twilio.com)
+* [https://trello.com](https://trello.com)
+* [https://airtable.com](https://airtable.com)
+* [https://www.teambition.com](https://www.teambition.com)
+* [https://bitable.feishu.cn](https://bitable.feishu.cn)
+* [https://worktile.com](https://worktile.com)
+* [https://tower.im](https://tower.im)
+* [https://www.mingdao.com](https://www.mingdao.com)
+* [http://github.com/vikadata](http://github.com/vikadata)
+* [https://www.treelab.com.cn](https://www.treelab.com.cn)
+* [https://www.wolai.com](https://www.wolai.com)
+* [https://www.qingque.cn](https://www.qingque.cn)
+* [https://hipacloud.com](https://hipacloud.com)
+* [https://www.microsoft.com/zh-cn/microsoft-365/microsoft-lists](https://www.microsoft.com/zh-cn/microsoft-365/microsoft-lists)
+* [https://clickup.com](https://clickup.com)
+* [https://coda.io](https://coda.io)
+* [https://github.com/kuaifan/dootask](https://github.com/kuaifan/dootask)
+* [https://www.cornerstone365.cn](https://www.cornerstone365.cn)
+
+
+
+**发卡系统**
+
+* [github search](https://github.com/search?q=%E5%8F%91%E5%8D%A1%E7%B3%BB%E7%BB%9F&type=Repositories)
+* [https://github.com/zlkbdotnet/zfaka](https://github.com/zlkbdotnet/zfaka)
+* [https://github.com/Tai7sy/card-system](https://github.com/Tai7sy/card-system)
+* [https://github.com/assimon/shanhufaka](https://github.com/assimon/shanhufaka)
+* [https://github.com/maddog888/kmxts](https://github.com/maddog888/kmxts)
+
+
+
+**企业建站**
+
++ [https://github.com/topics/cms](https://github.com/topics/cms)
++ [https://github.com/topics/headless-cms](https://github.com/topics/headless-cms)
++ [https://github.com/topics/customizable](https://github.com/topics/customizable)
+
+
+* [https://github.com/WordPress/WordPress](https://github.com/WordPress/WordPress)
+    * [https://github.com/topics/wordpress-theme](https://github.com/topics/wordpress-theme)
+    * [https://github.com/syfxlin/origami](https://github.com/syfxlin/origami)
+    * [https://github.com/solstice23/argon-theme](https://github.com/solstice23/argon-theme)
+    * [https://github.com/owen0o0/WebStack](https://github.com/owen0o0/WebStack)
+    * [https://github.com/visualmodo/Pollen](https://github.com/visualmodo/Pollen)
+    * [https://github.com/elementor](https://github.com/elementor)
+    * [https://github.com/ThemeFuse/Brizy](https://github.com/ThemeFuse/Brizy)
+    * [https://github.com/topics/divi](https://github.com/topics/divi)
+    * [https://flatsome3.uxthemes.com/features/ux-page-builder](https://flatsome3.uxthemes.com/features/ux-page-builder)
+    * [https://www.dukeyin.com/product/wordpress-multipurpose-theme-dukeyin](https://www.dukeyin.com/product/wordpress-multipurpose-theme-dukeyin)
+* [https://github.com/joomla/joomla-cms](https://github.com/joomla/joomla-cms)
+* [https://github.com/drupal/drupal](https://github.com/drupal/drupal)
+* 织梦CMS [https://github.com/dedecms/DedeCMS](https://github.com/dedecms/DedeCMS)
+* [https://gitee.com/Discuz/DiscuzX](https://gitee.com/Discuz/DiscuzX)
+* [http://www.pageadmin.net](http://www.pageadmin.net)
+* [https://www.jtbc.cn](https://www.jtbc.cn)
+* [https://github.com/mlogclub/bbs-go](https://github.com/mlogclub/bbs-go)
+* [https://github.com/wejectchen/Ginblog](https://github.com/wejectchen/Ginblog)
+* [https://github.com/BuilderIO/builder](https://github.com/BuilderIO/builder)
+* [https://github.com/plone](https://github.com/plone)
+* Java [https://github.com/halo-dev](https://github.com/halo-dev)
 
 
 
@@ -53,12 +339,21 @@
 
 **[修改为root登录](/System/Linux配置.md#修改为root登录)**
 
+- 在线浏览器 [https://hyperbeam.com](https://hyperbeam.com)
+- SaaS、PaaS和IaaS [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
+- Faas [https://opendev.org/x/picasso](https://opendev.org/x/picasso)
+
+
+
 * GCP (Google Cloud Platform) [https://github.com/GoogleCloudPlatform](https://github.com/GoogleCloudPlatform)
     * [https://cloud.google.com/free](https://cloud.google.com/free)
     * [谷歌云搭建免费服务器并翻墙 | Levon's Blog](https://www.liuvv.com/p/b7e5827a)
 * [https://www.oracle.com/cn/cloud/free](https://www.oracle.com/cn/cloud/free)
     * [Always Free Resources](https://docs.cloud.oracle.com/en-us/iaas/Content/FreeTier/freetier.htm#resources)
-    * [申请Oracle Cloud永久免费服务+300美元试用额度](https://51.ruyo.net/14138.html)
+    * [https://cloud.oracle.com/usage/reports](https://cloud.oracle.com/usage/reports)
+    * [https://cloud.oracle.com/limits](https://cloud.oracle.com/limits)
+    * [https://51.ruyo.net/tag/oracle-cloud](https://51.ruyo.net/tag/oracle-cloud)
+    * [Oracle Cloud 甲骨文云中给 VPS 添加新的块存储（CentOS 8.3.2011 磁盘分区和扩容）过程记录](https://blog.csdn.net/weixin_59409704/article/details/118461147)
     * 不建议使用用Oracle Linux镜像，无法设置root密码登录
     ```bash
     # 移除或禁用后台监控
@@ -78,6 +373,7 @@
 * Azure [https://azure.microsoft.com/free](https://azure.microsoft.com/free)
     * [https://portal.azure.com](https://portal.azure.com)
     * [申请微软Azure服务免费12个月+$200 额度+永久免费(25+项服务)](https://www.daniao.org/7057.html)
+    * [免费试用微软2个月Windows 365云桌面，4核心+16G内存+128SSD](https://51.ruyo.net/17291.html)
 * AWS 免费套餐 [https://console.aws.amazon.com/billing/home#/freetier](https://console.aws.amazon.com/billing/home#/freetier)
     * [https://www.cloudping.info](https://www.cloudping.info)
     * [手把手教你撸12个月亚马逊（AWS）的云服务器](https://www.zhunaozi.com/411.html)
@@ -87,428 +383,182 @@
     * [如何重试失败的付款？](https://aws.amazon.com/cn/premiumsupport/knowledge-center/retry-unsuccessful-payment)
 * Vultr
 * Digital Ocean
+* 网易云电脑 [http://cg.163.com](http://cg.163.com)
+* [https://rs1.es](https://rs1.es)
+    * [RS1.ES 免费Linux云服务器，单次使用3小时](https://51.ruyo.net/17314.html)
+    * [使用hyperbeam.com来白嫖rs1.es](https://www.misakano.eu.org/2021/08/15/%E4%BD%BF%E7%94%A8hyperbeam-com%E6%9D%A5%E7%99%BD%E5%AB%96rs1-es)
+* [https://vps.apponfly.com](https://vps.apponfly.com)
+    * [无限免费试用30分钟的Windows Server服务器](https://51.ruyo.net/17365.html)
+* [https://www.onworks.net](https://www.onworks.net)
+* [https://hax.co.id](https://hax.co.id)
+    * [白嫖hax的1C512M免费VPS，让您实现白嫖VPS之梦](https://blog.misaka.sbs/202110/12.html)
+* 无影云桌面 [https://eds.aliyun.com](https://eds.aliyun.com)
+* [https://windows365.microsoft.com](https://windows365.microsoft.com)
+
+
+
+### Cloud Shell
+
+* [http://ide.cloud.google.com](http://ide.cloud.google.com)
+    * [https://ssh.cloud.google.com](https://ssh.cloud.google.com)
+    * [https://shell.cloud.google.com](https://shell.cloud.google.com)
+    * [https://cloud.google.com/shell/docs](https://cloud.google.com/shell/docs)
+* [https://cloud.ibm.com/shell](https://cloud.ibm.com/shell)
+* [https://cloud.oracle.com/?cloudshell=true](https://cloud.oracle.com/?cloudshell=true)
+    * `https://console.us-<region>-1.oraclecloud.com/a/<tenancy>?cloudshell=true`
+* [https://github.com/Azure/CloudShell](https://github.com/Azure/CloudShell)
+    * [http://shell.azure.com](http://shell.azure.com)
+* [https://console.aws.amazon.com/cloudshell](https://console.aws.amazon.com/cloudshell)
+* [https://shell.aliyun.com](https://shell.aliyun.com)
+* [https://www.katacoda.com](https://www.katacoda.com)
+    * [https://www.katacoda.com/courses/ubuntu/playground](https://www.katacoda.com/courses/ubuntu/playground)
+    * [https://www.katacoda.com/courses/ubuntu/playground1804](https://www.katacoda.com/courses/ubuntu/playground1804)
+    * [https://www.katacoda.com/courses/ubuntu/playground1904](https://www.katacoda.com/courses/ubuntu/playground1904)
+    * [https://www.katacoda.com/courses/ubuntu/playground2004](https://www.katacoda.com/courses/ubuntu/playground2004)
+
+
+
+### 容器服务器
+
+* [https://console.cloud.google.com/appengine](https://console.cloud.google.com/appengine)
+* [https://cloud.google.com/container-registry](https://cloud.google.com/container-registry)
+    * [https://github.com/GoogleContainerTools](https://github.com/GoogleContainerTools)
+* [https://cloud.ibm.com/cloudfoundry/overview](https://cloud.ibm.com/cloudfoundry/overview)
+    * [http://cli.cloudfoundry.org/zh-Hans/cf](http://cli.cloudfoundry.org/zh-Hans/cf)
+    - 使用ssh部署代码是错误的。正确做法是先进入 `ibmcloud target --cf` 使用 `ibmcloud cf push`命令
+        - `ibmcloud cf push 容器名 -b php_buildpack -m 256M -c "ls && ce /home"`
+    - 在push的代码目录里创建.bp-config配置文件，可以修改app的启动行为、可以修改`php.ini`等。否则你的container和其他服务做链接时就会被刷回原始状态。
+    - 10天是指开发行为，必须是类似于`ibm cloud cf restart`或者`cf push`这样的行为，可以用纯shell脚本实现。
+    * [https://github.com/CCChieh/IBMYes](https://github.com/CCChieh/IBMYes)
+* [https://github.com/codefresh-io](https://github.com/codefresh-io)
+    * [https://codefresh.io](https://codefresh.io)
+* [https://github.com/kubesail](https://github.com/kubesail)
+    * [https://kubesail.com](https://kubesail.com)
+* [https://azure.microsoft.com/zh-cn/services/devops/pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines)
+* [https://github.com/containerum](https://github.com/containerum)
+* 樱花 [https://arukas.io](https://arukas.io)
+* Oracle [https://app.wercker.com](https://app.wercker.com)
+
+
+
+**Functions**
+
+
+
+
+**可部署博客**
+
++ [具有免费许可证的所有平台的Heroku替代方案](https://alternativeto.net/software/heroku/?license=free)
+    + [https://github.com/caprover](https://github.com/caprover)
+    + [https://www.heliohost.org](https://www.heliohost.org)
+    + [https://github.com/hasura](https://github.com/hasura)
+    + [https://github.com/gatsbyjs](https://github.com/gatsbyjs)
+    + [<img src="https://aka.ms/deploytoazurebutton" height="30px">](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fheartexlabs%2Flabel-studio%2Fmaster%2Fazuredeploy.json)
+    + [<img src="https://deploy.cloud.run/button.svg" height="30px">](https://deploy.cloud.run)
+
+* [https://www.netlify.com](https://www.netlify.com)
+    * 示例：[https://bajins.netlify.app](https://bajins.netlify.app)
+* [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
+* [https://github.com/zeit](https://github.com/zeit)
+    * 示例：[https://bajins.now.sh](https://bajins.now.sh)
+* [https://github.com/vercel](https://github.com/vercel)
+    * [https://vercel.com](https://vercel.com)
+* [<img src="https://www.herokucdn.com/deploy/button.svg" height="30px">](https://github.com/topics/heroku)
+    * [https://github.com/heroku](https://github.com/heroku)
+    * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
+    * 在 [https://t.me/nf_share](https://t.me/nf_share) 搜索`验证卡`或`heroku`
+    * 示例：[https://woetu.herokuapp.com](https://woetu.herokuapp.com)
+* [https://github.com/elestio](https://github.com/elestio)
+* [https://github.com/ripienaar/free-for-dev](https://github.com/ripienaar/free-for-dev)
+    * [https://www.deta.sh](https://www.deta.sh)
+* [https://www.bmob.cn](https://www.bmob.cn)
+* [https://fast.io](https://fast.io)
+    * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
+* [https://www.appveyor.com](https://www.appveyor.com)
+* [https://kubesail.com](https://kubesail.com)
+* [https://azure.microsoft.com/zh-cn/services/devops/pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines)
+* [https://app.buddy.works](https://app.buddy.works)
+* [https://render.com](https://render.com)
+* [https://cloudbase.net](https://cloudbase.net)
+
+
+- 命令行 [https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
+  - [https://surge.sh](https://surge.sh)
+
+
+
+
+### Jupyter Notebook
+
+* [https://github.com/Kaggle](https://github.com/Kaggle)
+    * [https://www.kaggle.com](https://www.kaggle.com)
+    * [https://github.com/Kaggle/kaggle-api#installation](https://github.com/Kaggle/kaggle-api#installation)
+    * [https://github.com/Kaggle/kaggle-api#kernels](https://github.com/Kaggle/kaggle-api#kernels)
+    * [资源默认分配](https://www.kaggle.com/docs/notebooks#technical-specifications)
+    * [GitHub等海外大文件快速中转下载](https://mp.weixin.qq.com/s/DH8jXalZiBcX3KhrPdDw8w)
+* [https://github.com/googlecolab](https://github.com/googlecolab)
+    * [https://colab.research.google.com](https://colab.research.google.com)
+    * [https://github.com/PradyumnaKrishna/Colab-Hacks](https://github.com/PradyumnaKrishna/Colab-Hacks)
+* [https://devcloud.intel.com/zh/edge](https://devcloud.intel.com/zh/edge)
+    * [https://devcloud.intel.com/zh/edge/advanced/connect_and_create](https://devcloud.intel.com/zh/edge/advanced/connect_and_create)
+    * [https://academic.edge.devcloud.intel.com](https://academic.edge.devcloud.intel.com)
+    * [https://notebooks.edge.devcloud.intel.com](https://notebooks.edge.devcloud.intel.com)
+    * [申请英特尔(Intel DevCloud) 80核心 256G内存 免费云服务器](https://51.ruyo.net/17346.html)
+* CoCalc [https://cocalc.com](https://cocalc.com)
+* Azure Notebooks [https://notebooks.azure.com](https://notebooks.azure.com)
+    * [Azure Notebooks 预览版概述](https://docs.microsoft.com/zh-cn/azure/notebooks/azure-notebooks-overview)
+* [https://deepnote.com](https://deepnote.com)
+* [https://datalore.jetbrains.com](https://datalore.jetbrains.com)
+* [https://www.floydhub.com](https://www.floydhub.com)
+* [https://github.com/rstudio](https://github.com/rstudio)
+    * [https://rstudio.cloud/plans/free](https://rstudio.cloud/plans/free)
+* 阿里天池大数据 [https://tianchi.aliyun.com](https://tianchi.aliyun.com)
+* 科赛和鲸 K-lab [https://www.kesci.com](https://www.kesci.com)
+* [https://aistudio.baidu.com](https://aistudio.baidu.com)
+* [https://momodel.cn](https://momodel.cn)
+* [https://www.huaweicloud.com/product/modelarts.html](https://www.huaweicloud.com/product/modelarts.html)
+
+
+
+### WebIDE
+
+* [https://github.dev](https://github.dev) 在仓库按点<kbd>.</kbd>键
+* [https://vscode.dev](https://vscode.dev)
+* [https://github.com/codespaces](https://github.com/codespaces)
+* [https://gitlab.com/-/ide/project](https://gitlab.com/-/ide/project)
+* [https://github.com/conwnet/github1s](https://github.com/conwnet/github1s)
+    * [https://github1s.com](https://github1s.com)
+    * [https://github.com/surfcodes/surf](https://github.com/surfcodes/surf)
+* [https://github.com/replit](https://github.com/replit)
+    * [https://github.com/ReplAPI-it](https://github.com/ReplAPI-it)
+    * [https://replit.com](https://replit.com)
+* [https://github.com/stackblitz](https://github.com/stackblitz)
+    * [https://stackblitz.com](https://stackblitz.com)
+* [https://github.com/sourcegraph/sourcegraph](https://github.com/sourcegraph/sourcegraph)
+* [https://ide.goorm.io](https://ide.goorm.io)
+* [https://github.com/codesandbox](https://github.com/codesandbox)
+    * [https://codesandbox.io](https://codesandbox.io)
+* [https://glitch.com](https://glitch.com)
+* [https://aws.amazon.com/cn/cloud9](https://aws.amazon.com/cn/cloud9)
+* [https://github.com/eclipse/dirigible](https://github.com/eclipse/dirigible)
+* [https://github.com/eclipse/che](https://github.com/eclipse/che)
+    * [https://github.com/fabric8-launcher](https://github.com/fabric8-launcher)
+    * [https://www.eclipse.org/che/getting-started/cloud](https://www.eclipse.org/che/getting-started/cloud)
+    * `https://che.openshift.io/dashboard/#/load-factory/?url=https://github.com/账户名/仓库名`
+    * [https://che.openshift.io](https://che.openshift.io)
+    * [https://manage.openshift.com](https://manage.openshift.com)
+* [https://github.com/eclipse/orion.server](https://github.com/eclipse/orion.server)
+* [https://github.com/eclipse/orion.client](https://github.com/eclipse/orion.client)
+* [https://github.com/gitpod-io/gitpod](https://github.com/gitpod-io/gitpod)
+    * `https://gitpod.io/#https://github.com/账户名/仓库名`
+    * [![](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#github.com/bajins/notes-vuepress)
+* [https://github.com/features/codespaces](https://github.com/features/codespaces)
+* [https://github.com/ekzhang/rustpad](https://github.com/ekzhang/rustpad)
+* coding [https://github.com/Coding/WebIDE](https://github.com/Coding/WebIDE)
+    * [https://cloudstudio.net](https://cloudstudio.net)
+* [https://codeup.aliyun.com](https://codeup.aliyun.com)
+    * [https://ide.aliyun.com](https://ide.aliyun.com)
 
 
 
-
-
-## Windows
-
-* 搜索更新补丁下载 [http://www.catalog.update.microsoft.com](http://www.catalog.update.microsoft.com)
-* [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
-
-> 打开后，随便点一个进程右键，查看-查看进程热键-再右键-显示所有进程热键
-
-> 当分区后应该设置主分区为活动分区（选中该主分区右键选择激活分区）
-
-* [比较 Windows 10 的不同版本](https://www.microsoft.com/zh-cn/windowsforbusiness/compare)
-* [Windows 10 版本的版本信息](https://docs.microsoft.com/zh-cn/windows/release-information)
-* [Windows 10 更新历史记录](https://support.microsoft.com/zh-cn/help/4555932)
-* [Windows 生命周期说明书](https://support.microsoft.com/zh-cn/help/13853/windows-lifecycle-fact-sheet)
-* [将 MBR 分区转换为 GPT](https://docs.microsoft.com/zh-cn/windows/deployment/mbr-to-gpt)
-
-
-**Wifi频繁断线**
-
-> 打开`设备管理器` ——> 点开`网络适配器` ——> 选中网卡 ——> 鼠标右键打开菜单 ——> 点击`属性` ——> 点击`电源管理` ——> 
-> 取消勾选`允许计算机关闭此设备以节约电源`
-
-> 点击`网络和共享中心` ——> `更改适配器设置` ——> 双击`WLAN` ——> 点击`无线属性` ——> 勾选`即使网络未广播其名称也连接` 
-
-
-**MSTSC删除记录**
-
-- Windows键 + <kbd>R</kbd>打开`运行` 输入`regedit` 找到 `HKEY_CURRENT_USER\SOFTWARE\Microsoft\Terminal Server Client\Default`
-- 进入 `%USERPROFILE%\Documents` (或`%HOMEPATH%\Documents`) 删除`Default.rdp`文件（默认隐藏）
-
-
-**此电脑中的7个文件夹**
-
-> win10删除此电脑中六个文件夹：按<kbd>Win</kbd> + <kbd>r</kbd>输入`regedit`进入注册表编辑器，输入并删除其中带`{}`的
-> `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace`
-
-```batch
-:: 删除我的电脑"视频"文件夹
-REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{f86fa3ab-70d2-4fc7-9c99-fcbf05467f3a}" /f
-:: 删除我的电脑"文档"文件夹
-REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{d3162b92-9365-467a-956b-92703aca08af}" /f
-:: 删除我的电脑"桌面"文件夹
-REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{B4BFCC3A-DB2C-424C-B029-7FE99A87C641}" /f
-:: 删除我的电脑"音乐"文件夹
-REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{3dfdf296-dbec-4fb4-81d1-6a3438bcf4de}" /f
-:: 删除我的电脑"下载"文件夹
-REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{088e3905-0323-4b02-9826-5d99428e115f}" /f
-:: 删除我的电脑"图片"文件夹
-REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{24ad3ad4-a569-4530-98e1-ab02f9417aa8}" /f
-:: 删除我的电脑"3D对象"文件夹
-REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\NameSpace\{0DB7E03F-FC29-4DC6-9020-FF41B59E513A}" /f
-```
-
-
-**系统相关**
-
-* [在Windows 10 10586版本手动挂载WIM文件以修复DISM源的方法](https://answers.microsoft.com/zh-hans/windows/forum/windows_10-performance/windows-10/7d43c552-e005-40ac-bde7-9f1a9029573a)
-
-- 检查映像是否完整：`DISM.exe /Online /Cleanup-image /Scanhealth`
-- 完成后再修复映像：`DISM.exe /Online /Cleanup-image /Checkhealth`
-- 然后再修复系统：`DISM.exe /Online /Cleanup-image /Restorehealth `
-- 最后检查系统是否修复：`sfc /scannow`
-- `Dism.exe /online /Cleanup-Image /StartComponentCleanup /ResetBase`
-
-
-### MSDN
-
-* [https://www.microsoft.com/zh-cn/software-download/windows10](https://www.microsoft.com/zh-cn/software-download/windows10)
-* [http://msdn.itellyou.cn](http://msdn.itellyou.cn)
-* [https://www.iruanmi.com/msdn](https://www.iruanmi.com/msdn)
-* [http://www.imsdn.cn](http://www.imsdn.cn)
-* [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
-* [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
-* [https://uupdump.ml](https://uupdump.ml)
-* [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
-
-
-### 绿色精简
-
-+ MSMG Toolkit [https://msmgtoolkit.in](https://msmgtoolkit.in)
-+ NTLite [https://www.ntlite.com](https://www.ntlite.com)
-
-* [WINOS ](https://www.winos.me)
-* [绿色系统](http://lvsexitong.com)
-* [网吧系统](http://down.lansedongli.com)
-* [twm000-导航页被定制可修改](http://twm000.top)
-* [Y-OS工作室-导航页被定制可修改](http://y-os.net)
-* [十二星座-导航页被定制可修改](http://www.12xzzx.com)
-* [https://icura.lofter.com](https://icura.lofter.com)
-    * [OneDrive](https://tpedutw-my.sharepoint.com/:f:/g/personal/icura_tp_edu_tw/Ek5lPsUrc_ZJqSDKi7oxsdoBNjbbncnvi8p-90jI0OqUVA)
-
-
-
-### WinPE
-
-* [http://rufus.ie](http://rufus.ie)
-* [https://github.com/balena-io/etcher](https://github.com/balena-io/etcher)
-* 微PE [http://www.wepe.com.cn](http://www.wepe.com.cn)
-* [USBOS](http://bbs.wuyou.net/forum.php?mod=viewthread&tid=349965&extra=page%3D1)
-* [光卡自己的 PE 项目](https://hikaricalyx.com)
-* [优启时代](http://www.uqi.me/catalog.asp?cate=1)
-
-
-
-
-## MS相关激活
-
-> 在PowerShell（也可在CMD）中输入命令运行`slmgr.vbs /dti`，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，
-> 并粘贴到在线获取确认ID网站：[http://webact.185.hk](http://webact.185.hk)
-
-> 使用命令有两种方式：第一种：按<kbd>Win</kbd> + <kbd>x</kbd> + <kbd>a</kbd>进入PowerShell（也可在CMD中）输入命令运行；
-> 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
-
-* 小爱激活助手 [https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA](https://pan.baidu.com/s/1tOEa-uMGTKsTFDzJihFkVA) 提取码: gia8
-* 密钥检测的小工具 [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
-* https://api.jike.info/ms_pid/密钥
-
-
-**Windows命令**
-
-> 在CMD中输入`slmgr`或`slmgr.exe`即可查看所有命令
-
-- `systeminfo` 系统信息
-- `slui 4` 调出电话激活窗口
-- `slmgr.vbs /ipk 密钥` 安装产品密钥
-- `slmgr.vbs /upk` 卸载密钥
-- `slmgr.vbs /ato` 激活密钥
-- `slmgr.vbs /dti` 显示安装ID
-- `slmgr.vbs /atp 确认ID` 输入确认ID（注意这里的ID没有`-`符号）
-- `slmgr.vbs /dlv` 显示详细的许可证信息
-- `slmgr.vbs /xpr` 当前许可证状态的截止日期
-- `slmgr.vbs /dli [激活 ID | All]` 显示许可证信息（默认：当前许可证）
-- `slmgr.vbs /dlv [激活 ID | All]` 显示详细的许可证信息
-- `slmgr.vbs /cpky` 从注册表中清除产品密钥（阻止泄露引起的攻击）
-- `slmgr.vbs /ilc` 许可证文件 安装许可证
-- `slmgr.vbs /rilc` 重新安装系统许可证文件
-- `slmgr.vbs /rearm` 重置计算机的授权状态 （去除水印）
-- `slmgr.vbs /skms` 设置KMS服务器
-- `slmgr.vbs /ckms` 清除KMS服务器名和端口号并设为初始状态
-
-
-**Office命令**
-
-> 在PowerShell（也可在CMD）中输入命令运行并切换到office安装目录
-> `cd "C:\Program Files (x86)\Microsoft Office\Office16"`，如果安装的64位去掉` (x86)`
-
-- `cscript ospp.vbs /inpkey:密钥` 安装产品密钥
-- `cscript ospp.vbs /unpkey:密钥最后五位` 卸载密钥
-- `cscript ospp.vbs /dinstid` 显示安装ID
-- `cscript ospp.vbs /actcid:确认ID` 输入确认ID（注意这里的ID没有`-`符号）
-- `cscript ospp.vbs /act` 在线激活
-- `cscript ospp.vbs /dstatus` 验证激活
-
-
-**错误代码**
-
-- `0xC004C008` 是零售版可以电话激活、网页激活
-- `0xC004C020` 是批量版可以电话激活、运气好可以网页激活
-- `0xC004C060` 已失效
-- `0xC004C003` 已失效
-- `0x80072EE2` 因网络阻塞导致错误,稍等10分钟再重试
-
-
-**office key**
-
-```
-# OFFICE 2019 专业增强版激活码
-W8W6K-3N7KK-PXB9H-8TD8W-BWTH9
-
-# Office19_RTM19_ProPlus2019VL_MAK_AE
-GP3YN-RPX2T-FVYT8-4TPFY-7MKG3
-N9J9Q-Q7MMP-XDDM6-63KKP-76FPM
-6NCGF-GQQ2F-H83HF-9DWMY-92GTG
-```
-
-
-**Windows Key**
-
-* [https://cherishspring.cn/archives/active-win10-office.html](https://cherishspring.cn/archives/active-win10-office.html)
-* [https://notys.xyz](https://notys.xyz)
-* [https://jihuo.ma/tool](https://jihuo.ma/tool)
-* [http://www.aihao.cc](http://www.aihao.cc)
-* [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
-
-- [https://github.com/massgravel/Microsoft-Activation-Scripts](https://github.com/massgravel/Microsoft-Activation-Scripts)
-
-
-**KMS**
-
-* [https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
-
-+ [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
-+ [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
-+ [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
-+ [https://github.com/netnr/kms](https://github.com/netnr/kms)
-
-
-* [可用的 KMS 列表](https://www.coolhub.top/archives/14)
-* [MicroKMS 神龙版](http://www.yishimei.cn/network/319.html)
-* [人人客-微软产品](https://rrkee.com/microsoft)
-* [03k.orgKMS服务](https://03k.org/kms.html)
-* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4)
-* [云萌 Windows 10 激活工具](https://tgsan.github.io/CMWTAT_Digital_Edition)
-* [零散坑KMS服务](https://03k.org/kms.html)
-* [kms.mogeko.me](https://mogeko.me/2019/054)
-* [https://kms.cangshui.net](https://kms.cangshui.net)
-* [https://kms.loli.beer](https://kms.loli.beer)
-* [https://www.moerats.com/kms](https://www.moerats.com/kms)
-* [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
-* [https://kms.cangshui.net](https://kms.cangshui.net)
-* [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
-* [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
-
-
-
-**数字激活**
-
-> 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
-> 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
-
-> 避免在vpn状态下使用本软件。激活前电脑必须联网，而且必须开启`Windows Update`服务，否则无法激活。
-
-
-
-### 家庭升专业
-
-> 注意：Windows10家庭版升级Windows10专业版的密钥不是激活密钥
-
-1. 升级：设置 -> 更新和安全 -> 激活 -> 更改产品秘钥，断网后，填入 下方的升级密钥，重启
-
-```
-4N7JM-CV98F-WY9XX-9D8CF-369TT
-FMPND-XFTD4-67FJC-HDR8C-3YH26
-4N894-WMB2D-PRGHC-BVYW8-CPQGT
-VK7JG-NPHTM-C97JM-9MPGT-3V66T
-W269N-WFGWX-YVC9B-4J6C9-T83GX
-MH37W-N47XK-V7XM9-C7227-GCQG9
-NYW94-47Q7H-7X9TT-W7TXD-JTYPM
-NJ4MX-VQQ7Q-FP3DB-VDGHX-7XM87
-```
-
-2. 联网激活：以管理员打开CMD执行以下命令
-
-```batch
-slmgr.vbs /upk
-slmgr /ipk 激活密钥
-slmgr /skms zh.us.to
-slmgr /ato
-```
-
-
-
-
-
-## SSH
-
-> Secure Shell（SSH）
-
-> OpenSSH 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
-
-* [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
-* [https://github.com/topics/terminal](https://github.com/topics/terminal)
-* [https://github.com/topics/ssh](https://github.com/topics/ssh)
-* [https://github.com/topics/ssh-client](https://github.com/topics/ssh-client)
-* [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
-* [https://github.com/topics/ssh](https://github.com/topics/ssh)
-
-
-- [https://github.com/topics/sftp](https://github.com/topics/sftp)
-- [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
-- [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
-
-* [https://github.com/openssh](https://github.com/openssh)
-    * [https://www.openssh.com](https://www.openssh.com)
-* [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
-* [https://www.mobatek.net](https://www.mobatek.net)
-
-
-**WEB**
-
-* [xterm.js](https://github.com/xtermjs/xterm.js)
-* [webssh](https://github.com/huashengdun/webssh)
-* [WebSSH2](https://github.com/billchurch/WebSSH2)
-* [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
-
-
-**Android**
-
-+ [SSH client for Android](https://github.com/search?o=desc&q=SSH+client+for+Android&s=updated&type=Repositories)
-
-* [https://github.com/topics/termux](https://github.com/topics/termux)
-    * [https://github.com/termux](https://github.com/termux)
-* [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
-* [https://www.juicessh.com](https://www.juicessh.com)
-* [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
-
-
-
-**Windows**
-
-+ [https://github.com/topics/windows](https://github.com/topics/windows)
-+ [https://github.com/topics/putty](https://github.com/topics/putty)
-+ [https://github.com/topics/kitty](https://github.com/topics/kitty)
-
-* [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
-    * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
-* [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
-* [https://github.com/appget](https://github.com/appget)
-* [https://github.com/x64dbg](https://github.com/x64dbg)
-* [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
-* [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
-* [https://github.com/Sycnex/Windows10Debloater](https://github.com/Sycnex/Windows10Debloater)
-* [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
-* PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
-* [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
-* [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
-
-
-
-
-## 建站资源
-
-* [萌音影视 - 在线影视应用](https://github.com/178146582/moeins)
-    * [安装教程](https://www.moerats.com/archives/744)
-* [使用FileManager+基于Python3的爬虫程序建立影音图片库](https://www.moerats.com/archives/501)
-* [使用PlayTube搭建私人的视频网站](https://www.moerats.com/archives/644)
-* [开源有态度的漫画CMS](https://github.com/hiliqi/xiaohuanxiong)
-* 冷曦博客 - 源码之家-草根站长的资源共享平台: [https://www.lengxi.net](https://www.lengxi.net)
-* [https://github.com/Youngxj/YoungxjTools](https://github.com/Youngxj/YoungxjTools)
-* [https://github.com/netnr/scriptservices](https://github.com/netnr/scriptservices)
-* 协作在线办公套件 [https://github.com/ONLYOFFICE](https://github.com/ONLYOFFICE)
-
-
-**发卡系统**
-
-* [github search](https://github.com/search?q=%E5%8F%91%E5%8D%A1%E7%B3%BB%E7%BB%9F&type=Repositories)
-* [https://github.com/zlkbdotnet/zfaka](https://github.com/zlkbdotnet/zfaka)
-* [https://github.com/Tai7sy/card-system](https://github.com/Tai7sy/card-system)
-* [https://github.com/assimon/shanhufaka](https://github.com/assimon/shanhufaka)
-* [https://github.com/maddog888/kmxts](https://github.com/maddog888/kmxts)
-
-
-
-
-## 路由跟踪
-
-- 查询IP地理信息 [https://github.com/zu1k/nali](https://github.com/zu1k/nali)
-
-**`ping`、`tcptraceroute`、`traceroute`、`mtr`**
-
-* [https://www.cnblogs.com/xzkzzz/p/7413177.html](https://www.cnblogs.com/xzkzzz/p/7413177.html)
-* [https://www.jianshu.com/p/802010d54849](https://www.jianshu.com/p/802010d54849)
-* [https://cloud.tencent.com/developer/article/1332118](https://cloud.tencent.com/developer/article/1332118)
-* [http://winmtr.net/download-winmtr](http://winmtr.net/download-winmtr)
-* [Netcat详解](https://www.cnblogs.com/dalianpai/p/12505678.html)
-
-> 在Linux中有一个更好的网络连通性判断工具，它可以结合ping | nslookup | tracert 来判断网络的相关特性，这个命令就是mtr。
-
-> 注意：MTR使用的raw sockets是绕过TCP/IP协议，需要ROOT权限来执行，因此如果以普通用户身份来执行mtr会出错，
-> 提示“mtr: unable to get raw sockets”
-
-* [tcpping- 禁止了ICMP协议（ping命令）也能用](http://www.vdberg.org/~richard/tcpping.html)
-    * [https://github.com/deajan/tcpping](https://github.com/deajan/tcpping)
-
-> `tcpping`脚本依赖`tcptraceroute` 组件，所以必须先安装`yum install tcptraceroute`
-
-
-* [https://elifulkerson.com/projects/](https://elifulkerson.com/projects/)
-
-> 注意`tcpping`与`tcping` 是不同的两款工具
-
-* [https://docs.microsoft.com/zh-cn/sysinternals/downloads/psping](https://docs.microsoft.com/zh-cn/sysinternals/downloads/psping)
-* [https://code.google.com/archive/p/paping/downloads](https://code.google.com/archive/p/paping/downloads)
-
-> `PsPing` 是微软 `PSTools` 工具套件中的其中一个命令。除了 `ICMP` ping 测试，主要用来测试 TCP 端口的连通性，
-> 还可以测试 `TCP/UDP` 网络时延和带宽。不过， `PsPing` 只能在 Windows 中运行。Linux 可以使用 `PaPing` （跨平台的开源工具）。
-
-* [https://github.com/antirez/hping](https://github.com/antirez/hping)
-
-
-**常用网站**
-
-* [http://ipcheck.need.sh](http://ipcheck.need.sh)
-* [https://torch.njs.app](https://torch.njs.app)
-* 瓦工的全球ping工具 [http://ping.pe](http://ping.pe)
-* [https://www.yougetsignal.com/tools/open-ports](https://www.yougetsignal.com/tools/open-ports)
-* [http://tool.chinaz.com/port](http://tool.chinaz.com/port)
-* [https://www.websitepulse.com/tools/china-firewall-test](https://www.websitepulse.com/tools/china-firewall-test)
-* [https://www.vps234.com/ipchecker](https://www.vps234.com/ipchecker)
-* [https://tools.ipip.net/traceroute.php](https://tools.ipip.net/traceroute.php)
-* IP范围转换CIDR [https://ip2cidr.com](https://ip2cidr.com)
-* [http://apps.neu.edu.cn/netaggr](http://apps.neu.edu.cn/netaggr)
-* [无类别域间路由（CIDR）网络地址计算器](https://www.sioe.cn/xinqing/CIDR.php)
-* [IPv4 / IPv6 CIDR计算器 | RAKKOTOOLS🔧](https://zh.rakko.tools/tools/27)
-* [http://ip.chacuo.net/ipconvert](http://ip.chacuo.net/ipconvert)
-* [https://github.com/3th1nk/cidr](https://github.com/3th1nk/cidr)
-
-
-**tracert**
-
-> `Tracert` 列出分组经过的路由节点，以及它在IP 网络中每一跳的延迟（这里的延迟是指：分组从信息源发送到目的地所需的时间，
-> 延迟也分为许多的种类——传播延迟、传输延迟、处理延迟、排队延迟等，是大多数网站性能的瓶颈之一）.
-
-```batch
-tracert [-d] [-h maximum_hops] [-j host-list] [-w timeout] [-R] [-S srcaddr] [-4] [-6] target_name
-```
-
-**选项**
-
-- `-d` 指定不将 IP 地址解析到主机名称。
-- `-h maximum_hops` 指定跃点数以跟踪到称为 target_name 的主机的路由。
-- `-j host-list` 指定 Tracert 实用程序数据包所采用路径中的路由器接口列表。
-- `-w timeout` 等待 timeout 为每次回复所指定的毫秒数。
-- `target_name` 目标主机的名称或 IP 地址。
-
-**示例**
-
-```bash
-tracert www.bajins.com
-```
 

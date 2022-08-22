@@ -7,13 +7,78 @@
 
 ## Flag
 
-> Shell俗称壳（用来区别于核），是指“为使用者提供操作界面”的软件（命令解析器），
-> Shell也用于泛指所有为用户提供操作界面的程序，也就是程序和用户交互的层面
-
 * [https://en.wikipedia.org/wiki/Shell_(computing)](https://en.wikipedia.org/wiki/Shell_(computing))
 
 - 命令行参考大全（Linux、macOS、CMD、PowerShell、VB Script）[https://ss64.com](https://ss64.com)
 - [https://www.robvanderwoude.com](https://www.robvanderwoude.com)
+- GUI [什么是X11-Forwarding](https://blog.csdn.net/weixin_41668084/article/details/113361765)
+
+
+
+
+**命令助手**
+
+- 命令补全 [https://github.com/scop/bash-completion](https://github.com/scop/bash-completion)
+* [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
+* [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
+- [https://sourceforge.net/projects/zsh](https://sourceforge.net/projects/zsh)
+- [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- [https://github.com/zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
+- [https://github.com/Bash-it/bash-it](https://github.com/Bash-it/bash-it)
+- [https://github.com/0dayCTF/reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)
+- 命令执行演示 [https://github.com/maaslalani/slides](https://github.com/maaslalani/slides)
+- [https://github.com/d0c-s4vage/lookatme](https://github.com/d0c-s4vage/lookatme)
+- [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
+
+
+* [https://github.com/google/zx](https://github.com/google/zx)
+
+
+
+**`terminal`、`shell`、`tty`、`console` 之间的区别**
+
++ [`terminal`、`shell`、`tty`、`console` 之间的确切区别是什么？](https://unix.stackexchange.com/questions/4126/what-is-the-exact-difference-between-a-terminal-a-shell-a-tty-and-a-con)
+
+- Kernel：任何现代操作系统的最内部，它直接与实际硬件交互
+- terminal：真实用户坐在它后面的东西。 可能是物理终端（罕见）或伪终端（xterm、ssh）或虚拟终端（Linux 中的 vty）
+- shell：俗称壳（用来区别于核），是指“为使用者提供操作界面”的软件（命令解析器），帮助用户与系统交互的应用程序（bash、tcsh 等）。
+- tty：支持终端的终端或内核子系统。
+- console：报告状态和错误的东西 (/dev/console) 或连接到计算机的物理键盘和视频显示器。
+
+* terminal = tty = text input/output environment
+* console = physical terminal
+* shell = command line interpreter
+
+
+> 终端（Terminal）是控制台（Console）设备内的软件程序。shell是终端向用户发送输入的程序。shell生成输出并将其传回终端进行显示。
+
+
+
+**sh、dash、bash、tcsh、csh、ash、bsh、ksh的区别**
+
+> 文件头定义为`#!/bin/bash`, 且使用`bash xx.sh`执行； 文件头定义为`#!/bin/sh`, 且使用`sh xx.sh`执行遵照 POSIX 规范
+
+- Bourne shell (sh)
+
+> UNIX 最初使用，且在每种 UNIX 上都可以使用。在 shell 编程方面相当优秀，但在处理与用户的交互方面做得不如其他几种shell
+
+- C shell (csh) 一个语法上接近于C语言的shell
+- Korn shell (ksh) 完全向上兼容 Bourne shell 并包含了 C shell 的很多特性
+- Bourne Again shell (bash)
+
+> Linux默认缺省shell。即 bash 是 Bourne shell 的扩展，与 Bourne shell 完全向后兼容，包含了很多 C shell 和 Korn shell 中的优点
+
+- Debian Almquist Shell(dash)
+
+> GNU/Linux 操作系统中的 /bin/sh 本是 bash (Bourne-Again Shell) 的符号链接，但鉴于 bash 过于复杂
+> ，有人把 bash 从 NetBSD 移植到 Linux 并更名为 dash (Debian Almquist Shell)，并建议将 /bin/sh 指向它
+> ，以获得更快的脚本执行速度。Dash Shell 比 Bash Shell 小的多，符合POSIX标准
+
+
+
+
+**推荐所有shell脚本都使用sh实现，[Windows可安装Git（集成MinGW-w64）、MinGW-w64、MSYS2、Cygwin](/Shell/ShellWindows.md)**
+**Windows10下推荐使用WSL**
 
 
 
@@ -33,13 +98,143 @@
 ```vim
 # 显示格式。
 :set ff
-# 设置为unix格式
+# 设置为unix格式，dos为windows
 :set ff=unix
 # 保存
 :wq
 ```
 
-**[GIT处理换行符](/IDE/Git安装使用.md#换行符处理)**
+**[GIT处理换行符](/IDE/Git使用.md#换行符与大文件处理)**
+
+
+
+## 文件编码转换
+
+- [如何在 Linux 中将文件编码转换为 UTF-8](https://linux.cn/article-7959-1.html)
+- [https://www.gnu.org/software/libiconv](https://www.gnu.org/software/libiconv)
+    - [https://github.com/winlibs/libiconv](https://github.com/winlibs/libiconv)
+    - [https://github.com/processone/iconv](https://github.com/processone/iconv)
+- [https://github.com/qiniu/iconv](https://github.com/qiniu/iconv)
+- [https://github.com/ashtuchkin/iconv-lite](https://github.com/ashtuchkin/iconv-lite)
+
+
+**跨平台**
+
+| 工具                  | 描述                 |
+|---------------------|--------------------|
+| iconv               | 提供标准的程序和API来进行编码转换 |
+| convert_encoding.py | 基于Python的文本文件转换工具  |
+| decodeh.py          | 提供算法和模块来谈测字符的编码    |
+
+
+**Linux**
+
+| 工具     | 描述               | 使用                      |
+|--------|------------------|-------------------------|
+| vim    | 转换文件编码      | `:set fileencoding=utf-8` |
+| recode | 转换文件编码           |                         |
+| Utrac  | 转换文件编码           |                         |
+| cstocs | 转换文件编码           |                         |
+| convmv | 转换文件名编码          | `convmv -f GBK -t UTF-8 --notest * -r` |
+| enca   | 分析给定文件的编码        |                         |
+
+
+
+**Windows**
+
+| 工具    | 描述      |
+|-------|---------|
+| cscvt | 字符集转换工具 |
+
+
+
+
+## 第三方SSH
+
+> Secure Shell（SSH）/bourne shell(sh或bsh)/KornShell(ksh)
+
+> OpenSSH 私钥后缀是`pem`，PuTTY 私钥后缀是`ppk`
+
+* [https://github.com/alebcay/awesome-shell](https://github.com/alebcay/awesome-shell)
+* [https://github.com/topics/fish](https://github.com/topics/fish)
+* [https://github.com/topics/terminal](https://github.com/topics/terminal)
+* [https://github.com/topics/ssh](https://github.com/topics/ssh)
+* [https://github.com/topics/ssh-client](https://github.com/topics/ssh-client)
+* [https://github.com/topics/ssh2](https://github.com/topics/ssh2)
+* [https://github.com/topics/ssh](https://github.com/topics/ssh)
+* [https://github.com/mskyaxl/wsl-terminal](https://github.com/mskyaxl/wsl-terminal)
+
+
+- [https://github.com/topics/sftp](https://github.com/topics/sftp)
+- [https://github.com/topics/sftp-client](https://github.com/topics/sftp-client)
+- [https://github.com/topics/ftp-client](https://github.com/topics/ftp-client)
+
+
+* [https://github.com/janmojzis/tinyssh](https://github.com/janmojzis/tinyssh)
+* [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
+* [https://github.com/HaleyWang/SpringRemote](https://github.com/HaleyWang/SpringRemote)
+* OpenSSH [https://github.com/openssl](https://github.com/openssl)
+* [https://github.com/sfackler/rust-openssl](https://github.com/sfackler/rust-openssl)
+* [https://github.com/openssh](https://github.com/openssh)
+    * [https://www.openssh.com](https://www.openssh.com)
+
+
+- [https://www.termius.com](https://www.termius.com)
+
+
+**WEB**
+
+* [https://github.com/xtermjs/xterm.js](https://github.com/xtermjs/xterm.js)
+* [https://github.com/huashengdun/webssh](https://github.com/huashengdun/webssh)
+* [https://github.com/billchurch/WebSSH2](https://github.com/billchurch/WebSSH2)
+* [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
+
+
+**Android**
+
++ [SSH client for Android](https://github.com/search?q=SSH+client+for+Android)
+
+* [https://github.com/topics/termux](https://github.com/topics/termux)
+    * [https://github.com/termux](https://github.com/termux)
+* [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
+* [https://www.juicessh.com](https://www.juicessh.com)
+* [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
+
+
+
+### 终端复用器
+
++ [https://github.com/topics/windows](https://github.com/topics/windows)
++ [https://github.com/topics/putty](https://github.com/topics/putty)
++ [https://github.com/topics/kitty](https://github.com/topics/kitty)
+
+
+* [https://github.com/kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm)
+* [https://github.com/nxshell](https://github.com/nxshell)
+    * [https://sourceforge.net/projects/nxshell](https://sourceforge.net/projects/nxshell)
+* [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
+    * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
+* [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
+    * [https://docs.microsoft.com/zh-cn/windows/terminal](https://docs.microsoft.com/zh-cn/windows/terminal)
+* [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
+* [https://github.com/FarGroup/FarManager](https://github.com/FarGroup/FarManager)
+* [https://github.com/alacritty/alacritty](https://github.com/alacritty/alacritty)
+* [https://github.com/Eugeny/terminus](https://github.com/Eugeny/terminus)
+* [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
+* [https://github.com/electerm/electerm](https://github.com/electerm/electerm)
+* [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
+* [https://github.com/Eugeny/tabby](https://github.com/Eugeny/tabby)
+* PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
+* [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
+* [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
+* MobaXterm [https://www.mobatek.net](https://www.mobatek.net)
+* Xshell [https://www.netsarang.com](https://www.netsarang.com)
+* SecureCRT [https://www.vandyke.com](https://www.vandyke.com)
+* Cygwin终端 [https://github.com/mintty/mintty](https://github.com/mintty/mintty)
+* WSL终端 [https://github.com/mintty/wsltty](https://github.com/mintty/wsltty)
+* MacOS [https://github.com/gnachman/iTerm2](https://github.com/gnachman/iTerm2)
+    * [https://sourceforge.net/projects/iterm](https://sourceforge.net/projects/iterm)
+    * 主题配色 [https://github.com/mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
 
 
 
@@ -127,20 +322,3 @@
 | XCOPY   | cp              | (扩展的)文件拷贝    |
 
 
-
-
-## Windows第三方工具
-
-+ 扫描任何32位或64位Windows模块（exe，dll，ocx，sys等）的函数：[http://www.dependencywalker.com](http://www.dependencywalker.com)
-+ DLL导出查看器：[http://www.nirsoft.net/utils/dll_export_viewer.html](http://www.nirsoft.net/utils/dll_export_viewer.html)
-+ RegDllView-查看系统上已注册的dll/ ocx/exe文件，从资源管理器注册dll文件：
-    + [http://www.nirsoft.net/utils/registered_dll_view.html](http://www.nirsoft.net/utils/registered_dll_view.html)
-+ Windows 10的system32目录中的所有DLL文件信息：[http://windows10dll.nirsoft.net](http://windows10dll.nirsoft.net)
-+ [https://github.com/jas502n/IDA_Pro_7.2](https://github.com/jas502n/IDA_Pro_7.2)
-+ 下载– NTCore：[https://ntcore.com/?page_id=345](https://ntcore.com/?page_id=345)
-+ 小型命令行实用程序：[http://www.ltr-data.se/opencode.html/#CmdUtils](http://www.ltr-data.se/opencode.html/#CmdUtils)
-* wget-网络请求工具 [https://eternallybored.org/misc/wget](https://eternallybored.org/misc/wget)
-* curl-网络请求工具 [https://github.com/curl/curl](https://github.com/curl/curl)
-* jq-解析json工具 [https://github.com/stedolan/jq](https://github.com/stedolan/jq)
-* 转换位图图像 [https://github.com/ImageMagick](https://github.com/ImageMagick)
-* [https://github.com/ritchielawrence/cmdow](https://github.com/ritchielawrence/cmdow)

@@ -7,9 +7,15 @@
 
 ## Flag
 
-> Vanilla JS 就是指JavaScript
+> 对网页行为进行编程，Vanilla JS 就是指JavaScript（ECMAscript）
 
++ [https://www.w3.org](https://www.w3.org)
++ [https://www.ecma-international.org](https://www.ecma-international.org)
 + Ecma 国际，技术委员会 [https://github.com/tc39](https://github.com/tc39)
++ [https://github.com/75team/tc39](https://github.com/75team/tc39)
++ [https://github.com/JSCIG](https://github.com/JSCIG)
++ WHATWG技术的标准 [https://github.com/whatwg](https://github.com/whatwg)
+    + [https://spec.whatwg.org](https://spec.whatwg.org)
 + ECMAScript支持度检测 [https://github.com/ruanyf/es-checker](https://github.com/ruanyf/es-checker)
 + 检查JS文件中的ES版本 [https://github.com/dollarshaveclub/es-check](https://github.com/dollarshaveclub/es-check)
 + ES6支持情况 [https://kangax.github.io/compat-table/es6](https://kangax.github.io/compat-table/es6)
@@ -21,38 +27,70 @@
 * [前端三大框架与 YUI 以及 EXT.js 这类组件化框架最大的区别是什么？](https://www.zhihu.com/question/336968422/answer/762705515)
 * [ECMAscript和Javascript的区别](https://www.jianshu.com/p/10cfcb536d4a)
 * [KeyboardEvent.keyCode已弃用，MDN已经提供了一个解决方案](https://developer.mozilla.org/zh-CN/docs/Web/API/KeyboardEvent/keyCode)
+* [JS 获取内网 IP 地址（兼容谷歌浏览器）](https://jueee.github.io/2021/03/2021-03-01-JS%E8%8E%B7%E5%8F%96%E5%86%85%E7%BD%91IP%E5%9C%B0%E5%9D%80%EF%BC%88%E5%85%BC%E5%AE%B9%E8%B0%B7%E6%AD%8C%E6%B5%8F%E8%A7%88%E5%99%A8%EF%BC%89)
 
-- [https://github.com/jsdoc](https://github.com/jsdoc)
-- [https://github.com/apidoc](https://github.com/apidoc)
+
 
 > [Polyfill](https://developer.mozilla.org/zh-CN/docs/Glossary/Polyfill) 是一块代码（通常是 Web 上的 JavaScript）
 > ，用来为旧浏览器提供它没有原生支持的较新的功能 [https://github.com/financial-times/polyfill-service](https://github.com/financial-times/polyfill-service)
+> [https://github.com/taylorhakes/promise-polyfill](https://github.com/taylorhakes/promise-polyfill)
 
+
+
+**js运行时/js引擎/JavaScript运行时/JavaScript引擎**
 
 - 恶意软件分析 [https://github.com/HynekPetrak/malware-jail](https://github.com/HynekPetrak/malware-jail)
+- 物联网的超轻量级JavaScript引擎 [https://github.com/jerryscript-project/jerryscript](https://github.com/jerryscript-project/jerryscript)
+- 嵌入式系统的微型JS引擎 [https://github.com/cesanta/elk](https://github.com/cesanta/elk)
+- [https://github.com/boa-dev/boa](https://github.com/boa-dev/boa)
+- [https://github.com/denoland/deno](https://github.com/denoland/deno)
+- [https://github.com/servo/servo](https://github.com/servo/servo)
+- [https://github.com/bellard/quickjs](https://github.com/bellard/quickjs)
+- [https://github.com/saghul/txiki.js](https://github.com/saghul/txiki.js)
 
 
 
+## 学习
 
-## 手册
++ [https://github.com/topics/es6](https://github.com/topics/es6)
++ [https://github.com/topics/es2016](https://github.com/topics/es2016)
++ [https://github.com/topics/linting](https://github.com/topics/linting)
 
-* [https://github.com/wangdoc/javascript-tutorial](https://github.com/wangdoc/javascript-tutorial)
-    * [https://wangdoc.com/javascript](https://wangdoc.com/javascript)
+
 * [https://github.com/ruanyf/jstutorial](https://github.com/ruanyf/jstutorial)
     * [http://javascript.ruanyifeng.com](http://javascript.ruanyifeng.com)
-+ ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
-    + [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
+* [https://github.com/revolunet/JSbooks](https://github.com/revolunet/JSbooks)
+* 面向程序员的JavaScript书籍 [https://exploringjs.com](https://exploringjs.com)
+* ECMAScript 6入门 [https://github.com/ruanyf/es6tutorial](https://github.com/ruanyf/es6tutorial)
+    * [https://es6.ruanyifeng.com](https://es6.ruanyifeng.com)
+* [https://github.com/30-seconds](https://github.com/30-seconds)
+* [https://github.com/rse/es6-features](https://github.com/rse/es6-features)
+* [https://www.javascript.com](https://www.javascript.com)
 * 现代JavaScript教程 [https://github.com/javascript-tutorial/zh.javascript.info](https://github.com/javascript-tutorial/zh.javascript.info)
 * 浏览器脚本教程 [https://www.w3school.com.cn/b.asp](https://www.w3school.com.cn/b.asp)
 * 参考手册 [https://www.w3school.com.cn/r.asp](https://www.w3school.com.cn/r.asp)
 * 文档对象模型 (DOM) [https://developer.mozilla.org/zh-CN/docs/Glossary/DOM](https://developer.mozilla.org/zh-CN/docs/Glossary/DOM)
-* [JavaScript HTML DOM](https://www.w3school.com.cn/js/js_htmldom_document.asp)
-* JavaScript算法和数据结构 [https://github.com/trekhleb/javascript-algorithms](https://github.com/trekhleb/javascript-algorithms)
+* [https://github.com/Asabeneh/30-Days-Of-JavaScript](https://github.com/Asabeneh/30-Days-Of-JavaScript)
+* [https://github.com/wesbos/JavaScript30](https://github.com/wesbos/JavaScript30)
 * 答题 [https://github.com/lydiahallie/javascript-questions](https://github.com/lydiahallie/javascript-questions)
-* 可读性的代码写法 [https://github.com/ryanmcdermott/clean-code-javascript](https://github.com/ryanmcdermott/clean-code-javascript)
+* [https://github.com/felipefialho/frontend-challenges](https://github.com/felipefialho/frontend-challenges)
+* [https://github.com/coffe1891/frontend-hard-mode-interview](https://github.com/coffe1891/frontend-hard-mode-interview)
+* [https://github.com/icepy/Front-End-Develop-Guide](https://github.com/icepy/Front-End-Develop-Guide)
+* [https://github.com/you-dont-need](https://github.com/you-dont-need)
+* [https://github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
+* [https://github.com/Asabeneh/JavaScript-for-Everyone](https://github.com/Asabeneh/JavaScript-for-Everyone)
+* 学习代码总结 [https://github.com/csxiaoyaojianxian/JavaScriptStudy](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
+* 前端面试手册 [https://github.com/yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
+* [https://github.com/loverajoel/jstips](https://github.com/loverajoel/jstips)
+* [https://www.javascriptcn.com](https://www.javascriptcn.com) 1212/1024
+* [https://github.com/superherojs/superherojs](https://github.com/superherojs/superherojs)
+* 单行代码 [https://github.com/1milligram/1loc](https://github.com/1milligram/1loc)
 
+
+- [ES6、ES7、ES8特性一锅炖(ES6、ES7、ES8学习指南)](https://juejin.cn/post/6844903679976275976)
+- [ES6、ES7、ES8、ES9、ES10新特性一览](https://juejin.cn/post/6844903811622912014)
 - [页面生命周期：DOMContentLoaded，load，beforeunload，unload](https://zh.javascript.info/onload-ondomcontentloaded)
-
+- 压缩 [https://github.com/evanw/esbuild](https://github.com/evanw/esbuild)
 
 
 **模块规范**
@@ -143,86 +181,76 @@ var express = require('express');
 
 
 
-## 框架
-
-* [https://github.com/facebook/react](https://github.com/facebook/react)
-    * [https://zh-hans.reactjs.org](https://zh-hans.reactjs.org)
-    * [https://github.com/vercel/next.js](https://github.com/vercel/next.js)
-        * [https://www.nextjs.cn](https://www.nextjs.cn)
-    * [https://github.com/gajus/babel-plugin-react-css-modules](https://github.com/gajus/babel-plugin-react-css-modules)
-    * [https://github.com/styled-components/styled-components](https://github.com/styled-components/styled-components)
-    * [https://github.com/emotion-js/emotion](https://github.com/emotion-js/emotion)
-* [https://github.com/angular/angular](https://github.com/angular/angular)
-* [https://github.com/angular/angular.js](https://github.com/angular/angular.js)
-    * [https://angularjs.org](https://angularjs.org)
-    * [https://angular.cn](https://angular.cn)
-* [https://github.com/emberjs](https://github.com/emberjs)
-* [https://github.com/Polymer](https://github.com/Polymer)
-* [https://github.com/riot](https://github.com/riot)
-* [https://github.com/h5bp/html5-boilerplate](https://github.com/h5bp/html5-boilerplate)
-* [https://github.com/zdhxiong/mdui](https://github.com/zdhxiong/mdui)
-* [https://github.com/baidu/amis](https://github.com/baidu/amis)
-* [https://github.com/alienzhou/web-highlighter](https://github.com/alienzhou/web-highlighter)
-* [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
-* 单页网站 [https://github.com/alvarotrigo/fullPage.js](https://github.com/alvarotrigo/fullPage.js)
-* [https://github.com/ionic-team](https://github.com/ionic-team)
-* [http://www.jeasyui.com](http://www.jeasyui.com)
-* 响应式框架 [https://github.com/foundation](https://github.com/foundation)
-* [https://github.com/jorgebucaran/hyperapp](https://github.com/jorgebucaran/hyperapp)
-
-
-- 测试 [https://github.com/karma-runner/karma](https://github.com/karma-runner/karma)
-- [https://github.com/qunitjs](https://github.com/qunitjs)
-- [https://github.com/mochajs/mocha](https://github.com/mochajs/mocha)
-- [https://github.com/jasmine/jasmine](https://github.com/jasmine/jasmine)
-
-
-
 ## 第三方库
 
++ [https://github.com/topics/front-end](https://github.com/topics/front-end)
++ [https://github.com/topics/component](https://github.com/topics/component)
 + [NPM依赖：类库工具](https://www.jianshu.com/p/2a127cfba1cf)
 + [前端开发中用到的npm工具](https://segmentfault.com/a/1190000021865006)
++ [https://github.com/component](https://github.com/component)
++ [https://github.com/mobxjs](https://github.com/mobxjs)
++ [https://github.com/CreateJS](https://github.com/CreateJS)
++ [https://github.com/kangax](https://github.com/kangax)
++ [https://github.com/alyssaxuu](https://github.com/alyssaxuu)
++ [https://github.com/tomayac](https://github.com/tomayac)
 
-* [https://github.com/CreateJS](https://github.com/CreateJS)
+
+- 转换编译器 [https://github.com/babel](https://github.com/babel)
+    - [https://babeljs.io](https://babeljs.io)
+    - [https://www.babeljs.cn](https://www.babeljs.cn)
+- 使浏览器支持require [https://github.com/browserify](https://github.com/browserify)
+- [https://github.com/babel/babelify](https://github.com/babel/babelify)
+- 标准库 [https://github.com/zloirock/core-js](https://github.com/zloirock/core-js)
+
+
 * [https://github.com/ReactiveX/rxjs](https://github.com/ReactiveX/rxjs)
 * [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)
+    * [编译成 JS 的语言列表](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
 * [https://github.com/observablehq](https://github.com/observablehq)
 * [https://github.com/documentcloud](https://github.com/documentcloud)
-* 模板语言 [https://github.com/handlebars-lang/handlebars.js](https://github.com/handlebars-lang/handlebars.js)
+* 模板引擎 [https://github.com/handlebars-lang](https://github.com/handlebars-lang)
+* [https://github.com/mustache](https://github.com/mustache)
+    * [https://github.com/janl/mustache.js](https://github.com/janl/mustache.js)
 * 当前设备 [https://github.com/matthewhudson/current-device](https://github.com/matthewhudson/current-device)
-* 转换编译器 [https://github.com/babel](https://github.com/babel)
-    * [https://babeljs.io](https://babeljs.io)
-    * [https://www.babeljs.cn](https://www.babeljs.cn)
-* 使浏览器支持require [https://github.com/browserify](https://github.com/browserify)
 * 拷贝文字 [https://github.com/zenorocha/clipboard.js](https://github.com/zenorocha/clipboard.js)
     * [http://www.clipboardjs.cn](http://www.clipboardjs.cn)
 * [https://github.com/zeroclipboard/zeroclipboard](https://github.com/zeroclipboard/zeroclipboard)
 * 绑定按键 [https://github.com/jamiebuilds/tinykeys](https://github.com/jamiebuilds/tinykeys)
 * 语法高亮 [https://github.com/PrismJS](https://github.com/PrismJS)
+* [https://github.com/shikijs/shiki](https://github.com/shikijs/shiki)
 * [https://github.com/validatorjs/validator.js](https://github.com/validatorjs/validator.js)
 * [https://github.com/zTree/zTree_v3](https://github.com/zTree/zTree_v3)
-* 图片懒加载 [https://github.com/tuupola/lazyload](https://github.com/tuupola/lazyload)
-* Metro风兼瀑布流布局 [https://github.com/desandro/masonry](https://github.com/desandro/masonry)
-* 图片查看 [https://github.com/fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs)
-* [https://github.com/dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
-* 响应式导航 [https://github.com/VPenkov/okayNav](https://github.com/VPenkov/okayNav)
-* 拖曳 [https://github.com/desandro/draggabilly](https://github.com/desandro/draggabilly)
-* 拖放 [https://github.com/bevacqua/dragula](https://github.com/bevacqua/dragula)
-* 图像缩放 [https://github.com/kingdido999/zooming](https://github.com/kingdido999/zooming)
-* 文件上传 [https://github.com/fex-team/webuploader](https://github.com/fex-team/webuploader)
 * 国际化 [https://github.com/i18next/i18next](https://github.com/i18next/i18next)
-* 图像中提取颜色 [https://github.com/briangonzalez/rgbaster.js](https://github.com/briangonzalez/rgbaster.js)
 * 模拟数据生成 [https://github.com/nuysoft/Mock](https://github.com/nuysoft/Mock)
-* SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
+* [https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
+* [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
+* [https://github.com/easy-mock](https://github.com/easy-mock)
 * [https://github.com/dankogai/js-base64](https://github.com/dankogai/js-base64)
-* 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
 * 选色器 [https://github.com/bgrins/spectrum](https://github.com/bgrins/spectrum)
-* [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
 * 手势交互 [https://github.com/hammerjs/hammer.js](https://github.com/hammerjs/hammer.js)
 * [https://github.com/material-motion/material-motion-js](https://github.com/material-motion/material-motion-js)
 * 自动执行 [https://github.com/gruntjs](https://github.com/gruntjs)
+* velocity模板语法的JS实现 [https://github.com/shepherdwind/velocity.js](https://github.com/shepherdwind/velocity.js)
+* banner [https://github.com/kenwheeler/slick](https://github.com/kenwheeler/slick)
+* 范围滑块 [https://github.com/leongersen/noUiSlider](https://github.com/leongersen/noUiSlider)
+* 动画加载指示器 [https://github.com/tobiasahlin/SpinKit](https://github.com/tobiasahlin/SpinKit)
+* 级联网格布局库 [https://github.com/desandro/masonry](https://github.com/desandro/masonry)
+* 数字和货币格式 [https://github.com/leongersen/wnumb](https://github.com/leongersen/wnumb)
+* CSS的编码样式格式化 [https://github.com/csscomb/csscomb.js](https://github.com/csscomb/csscomb.js)
+* 清理HTML并防止XSS攻击 [https://github.com/cure53/DOMPurify](https://github.com/cure53/DOMPurify)
+* 识别手写 [https://github.com/jadeocr/jadeocr](https://github.com/jadeocr/jadeocr)
+* 全文搜索 [https://github.com/nextapps-de/flexsearch](https://github.com/nextapps-de/flexsearch)
+* 类型检查 [https://github.com/facebook/flow](https://github.com/facebook/flow)
+* 树视图/树网格插件 [https://github.com/mar10/fancytree](https://github.com/mar10/fancytree)
+* 交互式地图 [https://github.com/openlayers/openlayers](https://github.com/openlayers/openlayers)
+    * [https://github.com/ghettovoice/ol-mapscale](https://github.com/ghettovoice/ol-mapscale)
+* book阅读 [https://github.com/johnfactotum/foliate](https://github.com/johnfactotum/foliate)
+* 并发 [https://github.com/rxaviers/async-pool](https://github.com/rxaviers/async-pool)
+* 控制导入行为 [https://github.com/WICG/import-maps](https://github.com/WICG/import-maps)
+
 
 - [https://github.com/Rob--W/cors-anywhere](https://github.com/Rob--W/cors-anywhere)
+- [https://github.com/HTMLElements](https://github.com/HTMLElements)
 
 
 
@@ -230,10 +258,13 @@ var express = require('express');
 
 + [https://github.com/topics/dialog](https://github.com/topics/dialog)
 + [https://github.com/topics/popup](https://github.com/topics/popup)
++ [https://github.com/topics/confirm](https://github.com/topics/confirm)
++ [https://github.com/topics/alert](https://github.com/topics/alert)
++ [https://github.com/topics/ajax](https://github.com/topics/ajax)
 
-* [https://github.com/sentsin/layui](https://github.com/sentsin/layui)
-* [https://github.com/sentsin/layer](https://github.com/sentsin/layer)
+
 * [https://github.com/sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2)
+    * [https://www.sweetalert2.cn](https://www.sweetalert2.cn)
 * 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
 * alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
 
@@ -248,8 +279,18 @@ var express = require('express');
 * [https://github.com/ustbhuangyi/storage](https://github.com/ustbhuangyi/storage)
 * [https://github.com/jaywcjlove/store.js](https://github.com/jaywcjlove/store.js)
 * [https://github.com/localForage/localForage](https://github.com/localForage/localForage)
+    * [https://github.com/xmoyking/localForage-cn](https://github.com/xmoyking/localForage-cn)
+        * [https://localforage.docschina.org](https://localforage.docschina.org)
 * [https://github.com/typicode/lowdb](https://github.com/typicode/lowdb)
 * [https://github.com/marcuswestin/store.js](https://github.com/marcuswestin/store.js)
+* [https://github.com/adiwajshing/keyed-db](https://github.com/adiwajshing/keyed-db)
+* [https://github.com/gruns/ImmortalDB](https://github.com/gruns/ImmortalDB)
+* [https://github.com/dfahlander/Dexie.js](https://github.com/dfahlander/Dexie.js)
+* [https://github.com/pouchdb/pouchdb](https://github.com/pouchdb/pouchdb)
+* [https://github.com/jakearchibald/idb](https://github.com/jakearchibald/idb)
+* [https://github.com/jakearchibald/idb-keyval](https://github.com/jakearchibald/idb-keyval)
+* [https://github.com/ujjwalguptaofficial/JsStore](https://github.com/ujjwalguptaofficial/JsStore)
+* [https://github.com/google/lovefield](https://github.com/google/lovefield)
 
 
 
@@ -265,10 +306,15 @@ var express = require('express');
 - [https://github.com/ianstormtaylor/slate](https://github.com/ianstormtaylor/slate)
 - [https://github.com/quilljs/quill](https://github.com/quilljs/quill)
 - [https://github.com/alibaba/GGEditor](https://github.com/alibaba/GGEditor)
+- [https://github.com/facebook/lexical](https://github.com/facebook/lexical)
+- [https://github.com/AykutSarac/jsonvisio.com](https://github.com/AykutSarac/jsonvisio.com)
 
 
 
 **工具**
+
++ [https://github.com/topics/workers](https://github.com/topics/workers)
++ [https://github.com/topics/web-worker](https://github.com/topics/web-worker)
 
 * [http://github.com/mootools](http://github.com/mootools)
 * [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
@@ -278,31 +324,42 @@ var express = require('express');
     * [https://underscorejs.net](https://underscorejs.net)
 * [https://github.com/ramda/ramda](https://github.com/ramda/ramda)
 * [https://github.com/proYang/outils](https://github.com/proYang/outils)
-* [https://github.com/30-seconds/30-seconds-of-code](https://github.com/30-seconds/30-seconds-of-code)
 * 工具库 [https://github.com/tnfe/bbo](https://github.com/tnfe/bbo)
 * 代码格式化 [https://github.com/prettier/prettier](https://github.com/prettier/prettier)
-* [https://github.com/standard/standard](https://github.com/standard/standard)
+* [https://github.com/beautify-web/js-beautify](https://github.com/beautify-web/js-beautify)
+* [https://github.com/brodybits/prettierx](https://github.com/brodybits/prettierx)
 * 转换HTML/XML [https://github.com/posthtml/posthtml](https://github.com/posthtml/posthtml)
 * 幻灯片 [https://github.com/webslides/webslides](https://github.com/webslides/webslides)
 * [https://github.com/gnab/remark](https://github.com/gnab/remark)
+* 正则表达式 [https://github.com/slevithan/XRegExp](https://github.com/slevithan/XRegExp)
+* 编码转换 [https://github.com/ashtuchkin/iconv-lite](https://github.com/ashtuchkin/iconv-lite)
+* HTML复选框 [https://github.com/bryanbraun/checkboxland](https://github.com/bryanbraun/checkboxland)
+* 加密 [https://github.com/travist/jsencrypt](https://github.com/travist/jsencrypt)
+* [https://github.com/dmarman/sha256algorithm](https://github.com/dmarman/sha256algorithm)
+* 数据库可视化 [https://github.com/lana-k/sqliteviz](https://github.com/lana-k/sqliteviz)
+* JSON校验 [https://github.com/ozkxr/match-json](https://github.com/ozkxr/match-json)
 
 
+- 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)
+- [https://github.com/topics/bigdecimal](https://github.com/topics/bigdecimal)
+- [https://github.com/josdejong/mathjs](https://github.com/josdejong/mathjs)
+- [https://github.com/MikeMcl](https://github.com/MikeMcl)
+- [https://github.com/BenjaminVanRyseghem/numbro](https://github.com/BenjaminVanRyseghem/numbro)
+- [https://github.com/gastonmesseri/numerable](https://github.com/gastonmesseri/numerable)
+- [https://github.com/adamwdraper/Numeral-js](https://github.com/adamwdraper/Numeral-js)
+- [https://github.com/entronad/number-display](https://github.com/entronad/number-display)
 
-**文档**
-
-* [https://github.com/MrRio/jsPDF](https://github.com/MrRio/jsPDF)
-* [https://github.com/mozilla/pdf.js](https://github.com/mozilla/pdf.js)
-* 电子表格数据工具包 [https://github.com/SheetJS](https://github.com/SheetJS)
-
-- 压缩或编码解码库 [https://github.com/photopea](https://github.com/photopea)
-- 压缩 [https://github.com/photopea](https://github.com/nodeca/pako)
-- [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
-- [https://gitlab.pagedmedia.org/tools/pagedjs](https://gitlab.pagedmedia.org/tools/pagedjs)
+* mock [https://github.com/chancejs/chancejs](https://github.com/chancejs/chancejs)
+* [https://github.com/TommyLemon/APIAuto](https://github.com/TommyLemon/APIAuto)
 
 
 
 **日期时间**
 
++ [https://github.com/topics/picker](https://github.com/topics/picker)
++ [https://github.com/topics/datepicker](https://github.com/topics/datepicker)
++ [https://github.com/topics/timepicker](https://github.com/topics/timepicker)
++ [https://github.com/topics/datetimepicker](https://github.com/topics/datetimepicker)
 + 替换Moment.js列表 [https://github.com/you-dont-need/You-Dont-Need-Momentjs](https://github.com/you-dont-need/You-Dont-Need-Momentjs)
 
 * 日期处理类库 [https://github.com/moment](https://github.com/moment)
@@ -312,24 +369,111 @@ var express = require('express');
 * [https://github.com/js-joda](https://github.com/js-joda)
 * [https://github.com/date-fns](https://github.com/date-fns)
 * [https://github.com/hustcc/timeago.js](https://github.com/hustcc/timeago.js)
+* [https://github.com/flatpickr](https://github.com/flatpickr)
+* [https://github.com/fullcalendar/fullcalendar](https://github.com/fullcalendar/fullcalendar)
 
 
 **HTTP**
 
 * [https://github.com/wendux/fly](https://github.com/wendux/fly)
 * [https://github.com/github/fetch](https://github.com/github/fetch)
+* [https://github.com/qubyte/fetch-ponyfill](https://github.com/qubyte/fetch-ponyfill)
+* [https://github.com/matthew-andrews/isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
 * [https://github.com/axios/axios](https://github.com/axios/axios)
 * [https://github.com/umijs/umi-request](https://github.com/umijs/umi-request)
 * [https://github.com/seanmonstar/reqwest](https://github.com/seanmonstar/reqwest)
+* 在html元素绑定请求 [https://github.com/bigskysoftware/intercooler-js](https://github.com/bigskysoftware/intercooler-js)
+* [https://github.com/bigskysoftware/htmx](https://github.com/bigskysoftware/htmx)
+* [https://github.com/js-cookie](https://github.com/js-cookie)
+* [https://github.com/zimv/websocket-heartbeat-js](https://github.com/zimv/websocket-heartbeat-js)
 
+
+
+- [https://github.com/wicg/file-system-access](https://github.com/wicg/file-system-access)
+    - [https://wicg.github.io/file-system-access](https://wicg.github.io/file-system-access)
+    - [https://web.dev/file-system-access](https://web.dev/file-system-access)
+- [https://github.com/GoogleChromeLabs/browser-fs-access](https://github.com/GoogleChromeLabs/browser-fs-access)
+- [https://github.com/whatwg/fs](https://github.com/whatwg/fs)
+- 文件上传 [https://github.com/fex-team/webuploader](https://github.com/fex-team/webuploader)
+- [https://github.com/imcuttle/moUploader](https://github.com/imcuttle/moUploader)
+- [https://github.com/lovefc/fcup2](https://github.com/lovefc/fcup2)
+- 保存文件 [https://github.com/eligrey/FileSaver.js](https://github.com/eligrey/FileSaver.js)
 - [https://github.com/rndme/download](https://github.com/rndme/download)
+- [https://github.com/jimmywarting/StreamSaver.js](https://github.com/jimmywarting/StreamSaver.js)
+- [https://github.com/jimmywarting/native-file-system-adapter](https://github.com/jimmywarting/native-file-system-adapter)
 
 
-**导出**
 
-* [TableExport](https://github.com/clarketm/TableExport)
-* [tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
-* [excellentexport](https://github.com/jmaister/excellentexport)
+**文档**
+
+* excel [https://github.com/dtjohnson/xlsx-populate](https://github.com/dtjohnson/xlsx-populate)
+    * [前端生成导出Excel](https://lushunjian.gitee.io/2020/08/08/qian-duan-sheng-cheng-dao-chu-excel)
+    * [https://www.npmjs.com/package/xlsx-populate#style-reference](https://www.npmjs.com/package/xlsx-populate#style-reference)
+* [https://github.com/SheetJS](https://github.com/SheetJS)
+    * [https://github.com/protobi/js-xlsx](https://github.com/protobi/js-xlsx)
+    * [https://github.com/Ctrl-Ling/XLSX-Style-Utils](https://github.com/Ctrl-Ling/XLSX-Style-Utils)
+    * [https://github.com/skyrocks/x-xlsx-style](https://github.com/skyrocks/x-xlsx-style)
+    * [https://github.com/duhaohao/xlsx-styleable](https://github.com/duhaohao/xlsx-styleable)
+* [https://github.com/d-band/better-xlsx](https://github.com/d-band/better-xlsx)
+* [https://github.com/mengshukeji/Luckysheet](https://github.com/mengshukeji/Luckysheet)
+* [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
+* [https://github.com/exceljs/exceljs](https://github.com/exceljs/exceljs)
+* [https://github.com/mengshukeji/Luckyexcel](https://github.com/mengshukeji/Luckyexcel)
+* TableExport [https://github.com/clarketm/TableExport](https://github.com/clarketm/TableExport)
+* tableExport.jquery.plugin [https://github.com/hhurz/tableExport.jquery.plugin](https://github.com/hhurz/tableExport.jquery.plugin)
+* excellentexport [https://github.com/jmaister/excellentexport](https://github.com/jmaister/excellentexport)
+
+- 压缩或编码解码库 [https://github.com/photopea](https://github.com/photopea)
+- 压缩 [https://github.com/photopea](https://github.com/nodeca/pako)
+- 读取和编辑zip [https://github.com/Stuk/jszip](https://github.com/Stuk/jszip)
+- [https://gitlab.pagedmedia.org/tools/pagedjs](https://gitlab.pagedmedia.org/tools/pagedjs)
+- API文档 [https://github.com/stoplightio](https://github.com/stoplightio)
+- [https://github.com/yeyan1996/free-swagger](https://github.com/yeyan1996/free-swagger)
+- [https://github.com/swagger-api/swagger-js](https://github.com/swagger-api/swagger-js)
+- [https://github.com/superwf/ts-gear](https://github.com/superwf/ts-gear)
+- [https://github.com/acacode/swagger-typescript-api](https://github.com/acacode/swagger-typescript-api)
+- [https://github.com/Manweill/swagger-axios-codegen](https://github.com/Manweill/swagger-axios-codegen)
+
+
+**数据表格**
+
++ [https://github.com/topics/data-table](https://github.com/topics/data-table)
++ [https://github.com/topics/grid](https://github.com/topics/grid)
++ [https://github.com/topics/table](https://github.com/topics/table)
++ [https://github.com/topics/datatable](https://github.com/topics/datatable)
+
+* [https://github.com/frappe/datatable](https://github.com/frappe/datatable)
+* [https://github.com/fiduswriter/Simple-DataTables](https://github.com/fiduswriter/Simple-DataTables)
+* [https://github.com/baukh789/GridManager](https://github.com/baukh789/GridManager)
+* [https://github.com/ag-grid/ag-grid](https://github.com/ag-grid/ag-grid)
+* [https://github.com/future-architect/cheetah-grid](https://github.com/future-architect/cheetah-grid)
+
+
+**拖动/拖拽/拖放**
+
++ [https://github.com/topics/drag-and-drop](https://github.com/topics/drag-and-drop)
++ [https://github.com/topics/drag-drop](https://github.com/topics/drag-drop)
++ [https://github.com/topics/vanilla](https://github.com/topics/vanilla)
++ [https://github.com/topics/dragging](https://github.com/topics/dragging)
+
+* 拖曳 [https://github.com/desandro/draggabilly](https://github.com/desandro/draggabilly)
+* 拖放 [https://github.com/bevacqua/dragula](https://github.com/bevacqua/dragula)
+* 拖动表格行 [https://github.com/isocra/TableDnD](https://github.com/isocra/TableDnD)
+* [https://github.com/SortableJS](https://github.com/SortableJS)
+
+
+
+**媒体/图片/图像**
+
+* 图片懒加载 [https://github.com/tuupola/lazyload](https://github.com/tuupola/lazyload)
+* Metro风兼瀑布流布局 [https://github.com/desandro/masonry](https://github.com/desandro/masonry)
+* 图片查看 [https://github.com/fengyuanchen/viewerjs](https://github.com/fengyuanchen/viewerjs)
+* [https://github.com/dimsemenov/PhotoSwipe](https://github.com/dimsemenov/PhotoSwipe)
+* 响应式导航 [https://github.com/VPenkov/okayNav](https://github.com/VPenkov/okayNav)
+* 图像缩放 [https://github.com/kingdido999/zooming](https://github.com/kingdido999/zooming)
+* 图像中提取颜色 [https://github.com/briangonzalez/rgbaster.js](https://github.com/briangonzalez/rgbaster.js)
+* SVG渲染图像占位符 [https://github.com/imsky/holder](https://github.com/imsky/holder)
+* 交互式医学图像 [https://github.com/cornerstonejs/cornerstone](https://github.com/cornerstonejs/cornerstone)
 
 
 
@@ -348,9 +492,7 @@ var express = require('express');
 * [https://github.com/jgrap](https://github.com/jgraph)
     * [https://github.com/jinzhanye/pokemon-diagram](https://github.com/jinzhanye/pokemon-diagram)
     * [mxGraph 入门实例教程](https://segmentfault.com/a/1190000018510996)
-* [https://github.com/fabricjs](https://github.com/fabricjs)
 * [https://github.com/cytoscape](https://github.com/cytoscape)
-* [https://github.com/paperjs](https://github.com/paperjs)
 * [https://github.com/d3](https://github.com/d3)
 * [https://github.com/freegroup/draw2d](https://github.com/freegroup/draw2d)
 * [https://github.com/projectstorm/react-diagrams](https://github.com/projectstorm/react-diagrams)
@@ -366,17 +508,39 @@ var express = require('express');
 * [https://github.com/jwilber/roughViz](https://github.com/jwilber/roughViz)
 * 图表库 [https://github.com/highcharts](https://github.com/highcharts)
 * [https://github.com/apache/incubator-echarts](https://github.com/apache/incubator-echarts)
+* [https://github.com/imgcook/imove](https://github.com/imgcook/imove)
+* [https://github.com/antvis/X6](https://github.com/antvis/X6)
+
+- 虚拟白板 [https://github.com/excalidraw/excalidraw](https://github.com/excalidraw/excalidraw)
+- 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
 
 
-**动画**
+
+**动画/WebGL**
+
++ [https://github.com/KhronosGroup/WebGL](https://github.com/KhronosGroup/WebGL)
 
 * [https://github.com/animate-css/animate.css](https://github.com/animate-css/animate.css)
 * [https://github.com/juliangarnier/anime](https://github.com/juliangarnier/anime)
 * 3D库 [https://github.com/mrdoob/three.js](https://github.com/mrdoob/three.js)
-* 2D渲染器 [https://github.com/pixijs/pixi.js](https://github.com/pixijs/pixi.js)
+* 3D地球和2D地图 [https://github.com/CesiumGS/cesium](https://github.com/CesiumGS/cesium)
+* 2D渲染器 [https://github.com/pixijs/pixijs](https://github.com/pixijs/pixijs)
+* [https://github.com/erincatto/box2d](https://github.com/erincatto/box2d)
+* [https://github.com/KilledByAPixel/LittleJS](https://github.com/KilledByAPixel/LittleJS)
 * 用于缩放图像 [https://github.com/francoischalifour/medium-zoom](https://github.com/francoischalifour/medium-zoom)
+* [https://github.com/pa7/heatmap.js](https://github.com/pa7/heatmap.js)
+* [https://github.com/konvajs/konva](https://github.com/konvajs/konva)
+* [https://github.com/processing/p5.js](https://github.com/processing/p5.js)
+* [https://github.com/photonstorm/phaser](https://github.com/photonstorm/phaser)
+* [https://github.com/williamngan/pts](https://github.com/williamngan/pts)
+* [https://github.com/KaliedaRik/Scrawl-canvas](https://github.com/KaliedaRik/Scrawl-canvas)
+* [https://github.com/jeremyckahn/rekapi](https://github.com/jeremyckahn/rekapi)
+* [https://github.com/danzen/zimjs](https://github.com/danzen/zimjs)
 * SVG绘图编辑器 [https://github.com/SVG-Edit](https://github.com/SVG-Edit)
+* [https://github.com/fabricjs](https://github.com/fabricjs)
+* [https://github.com/paperjs](https://github.com/paperjs)
 * 图标字体自定义 [https://github.com/uuware/icons-font-customization](https://github.com/uuware/icons-font-customization)
+* [https://github.com/07akioni/xicons](https://github.com/07akioni/xicons)
 * [https://github.com/IanLunn/Hover](https://github.com/IanLunn/Hover)
 * [https://github.com/matthieua/WOW](https://github.com/matthieua/WOW)
 * [https://github.com/jlmakes/scrollreveal](https://github.com/jlmakes/scrollreveal)
@@ -389,6 +553,14 @@ var express = require('express');
 * [https://github.com/tweenjs/tween.js](https://github.com/tweenjs/tween.js)
 * [https://github.com/d3/d3](https://github.com/d3/d3)
     * [https://github.com/xswei/d3js_doc](https://github.com/xswei/d3js_doc)
+* 动画引擎 [https://github.com/julianshapiro/velocity](https://github.com/julianshapiro/velocity)
+* [https://github.com/toji/gl-matrix](https://github.com/toji/gl-matrix)
+* [https://github.com/playcanvas/engine](https://github.com/playcanvas/engine)
+    * [https://playcanvas.com](https://playcanvas.com)
+* [https://github.com/redcamel/RedGL2](https://github.com/redcamel/RedGL2)
+* [https://github.com/kitware/vtk-js](https://github.com/kitware/vtk-js)
+* [https://github.com/scottcgi/MojoJS-Animation](https://github.com/scottcgi/MojoJS-Animation)
+* [https://github.com/drawcall/Proton](https://github.com/drawcall/Proton)
 
 
 
@@ -401,11 +573,15 @@ var express = require('express');
 * [https://github.com/sampotts/plyr](https://github.com/sampotts/plyr)
 * [https://github.com/Chimeejs/chimee](https://github.com/Chimeejs/chimee)
 * [https://github.com/bilibili/flv.js](https://github.com/bilibili/flv.js)
+* [https://github.com/xqq/mpegts.js](https://github.com/xqq/mpegts.js)
 * [https://github.com/google/shaka-player](https://github.com/google/shaka-player)
 * [https://gitee.com/niandeng/ckplayer](https://gitee.com/niandeng/ckplayer)
 * [https://github.com/Aaaaaaaty/Blog/tree/master/html5player](https://github.com/Aaaaaaaty/Blog/tree/master/html5player)
 * [https://github.com/chiruom/DanmuPlayer](https://github.com/chiruom/DanmuPlayer)
 * 字体滚动 [https://github.com/chenjianfang/scroxt](https://github.com/chenjianfang/scroxt)
+* [https://github.com/kalkih/mini-media-player](https://github.com/kalkih/mini-media-player)
+* [https://github.com/jwplayer/jwplayer](https://github.com/jwplayer/jwplayer)
+* [https://github.com/phoboslab/jsmpeg](https://github.com/phoboslab/jsmpeg)
 
 
 **反爬虫**
@@ -417,211 +593,9 @@ var express = require('express');
 
 
 
-## VueJS
-
-+ [https://github.com/topics/vue](https://github.com/topics/vue)
-
-* [https://github.com/vuejs](https://github.com/vuejs)
-    * [https://cn.vuejs.org](https://cn.vuejs.org)
-* [vue学习笔记](https://www.rumosky.wiki/docs/vue_learning_process)
-* [https://github.com/quasarframework](https://github.com/quasarframework)
-
-![](/images/vue生命周期详解.png)
-
-
-* [https://github.com/PanJiaChen/vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
-
-
-### VueJS框架
-
-* [https://madewithvuejs.com](https://madewithvuejs.com)
-* [https://github.com/vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify)
-* [https://github.com/buefy/buefy](https://github.com/buefy/buefy)
-* [https://github.com/bootstrap-vue/bootstrap-vue](https://github.com/bootstrap-vue/bootstrap-vue)
-* [https://github.com/vuematerial/vue-material](https://github.com/vuematerial/vue-material)
-* [https://github.com/uikit/uikit](https://github.com/uikit/uikit)
-* [https://github.com/sdc-alibaba/sui](https://github.com/sdc-alibaba/sui)
-* [https://github.com/FE-Driver/vue-beauty](https://github.com/FE-Driver/vue-beauty)
-* [https://github.com/chenz24/vue-blu](https://github.com/chenz24/vue-blu)
-* [https://github.com/ant-design/ant-design](https://github.com/ant-design/ant-design)
-* [https://github.com/heyui/heyui](https://github.com/heyui/heyui)
-* [https://github.com/at-ui/at-ui](https://github.com/at-ui/at-ui)
-* [https://github.com/view-design/ViewUI](https://github.com/view-design/ViewUI)
-* [https://github.com/ElemeFE/element](https://github.com/ElemeFE/element)
-
-
-**插件/组件**
-
-- [https://github.com/TerryZ/vue-plugins](https://github.com/TerryZ/vue-plugins)
-    - [https://github.com/TerryZ/v-selectpage](https://github.com/TerryZ/v-selectpage)
-    - [https://github.com/TerryZ/v-page](https://github.com/TerryZ/v-page)
-- [https://github.com/xaboy/form-create](https://github.com/xaboy/form-create)
-- [https://github.com/dev-zl/vccvalidate](https://github.com/dev-zl/vccvalidate)
-- [https://github.com/ferrinweb/vue-scroll-box](https://github.com/ferrinweb/vue-scroll-box)
-- [https://github.com/kazupon/vue-i18n](https://github.com/kazupon/vue-i18n)
-
-
-**Mobile**
-
-* [https://github.com/airyland/vux](https://github.com/airyland/vux)
-* [https://github.com/sdc-alibaba/SUI-Mobile](https://github.com/sdc-alibaba/SUI-Mobile)
-* [https://github.com/ElemeFE/mint-ui](https://github.com/ElemeFE/mint-ui)
-* [https://github.com/didi/cube-ui](https://github.com/didi/cube-ui)
-
-
-### 动态导入组件
-
-```js
-() => import(`@${_this.files.path}.vue`)
-
-//component(resolve) {require([`@${_this.files.path}.vue`], resolve)}
-resolve => require([`@${_this.files.path}.vue`], resolve)
-
-resolve => require.ensure([], () => resolve(require(`@${_this.files.path}.vue`)))
-
-const resolveRequire = (path) => {
-    return resolve => {
-        require.ensure([], (require) => {
-            resolve(require(`@${path}.vue`));        
-        });
-    }
-}
-```
-
-
-## jQuery
-
-* [https://github.com/jquery](https://github.com/jquery)
-    * [https://github.com/topics/jquery](https://github.com/topics/jquery)
-    * [https://github.com/topics/jquery-plugin](https://github.com/topics/jquery-plugin)
-    * jQuery API 中文文档 [https://jquery.cuishifeng.cn](https://jquery.cuishifeng.cn)
-
-- [css选择器和jQuery选择器](https://segmentfault.com/a/1190000010746086)
-
-```js
-// 扩展jQuery实例函数
-jQuery.fn.extend({
-	/**
-	 * 交换任意两个jQuery对象的位置
-	 * @param another
-	 */
-	swap: function(another){
-		var me = this;    
-		var cloneMe = me.clone();
-		var temp = $('<span/>');
-		another.before(temp);
-		me.replaceWith(another);
-		temp.replaceWith(cloneMe);
-		return this;
-	}
-});
-
-/* ***调用举例*** */
-var $t1 = $("#t1");
-var $t2 = $("#t2");
-$t1.swap($t2);
-
-// 扩展jQuery实例函数
-jQuery.fn.extend({
-	/**
-	 * 在同辈元素中向上或向下移动
-	 * @param direction 'up'或'down'
-	 */
-	move: function(direction){
-		var me = this;
-		var another = null;
-		if(direction == 'up'){
-			another = me.prev();
-			another.before(me);
-		}else if(direction == 'down'){
-			another = me.next();        
-			another.after(me);
-		}
-		return this;
-	}
-});
-
-/* *** 调用举例  ***/
-var $p = $('p#id_2');
-var success = $p.move('up');	//移动成功则为true，否则false
-```
-
-```js
-// 原生JS DOM里有一个内置属性outerHTML，用来获取当前节点的html代码(包含当前节点本身)
-$(".test").prop("outerHTML");
-
-// Jquery设置outerHTML
-$('.test').prop('outerHTML', '<div>');
-```
-
-
-
-**插件/组件**
-
-+ [https://github.com/topics/validation](https://github.com/topics/validation)
-+ [https://github.com/topics/validator](https://github.com/topics/validator)
-+ [https://plugins.jquery.com](https://plugins.jquery.com)
-+ 添加XHR2 responseType支持的jQuery插件 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
-+ [https://github.com/tonytomov/jqGrid](https://github.com/tonytomov/jqGrid)
-+ [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
-    + [https://github.com/jquery-validation](https://github.com/jquery-validation)
-        + [https://www.runoob.com/jquery/jquery-plugin-validate.html](https://www.runoob.com/jquery/jquery-plugin-validate.html)
-    + [https://github.com/DiegoLopesLima/Validate](https://github.com/DiegoLopesLima/Validate)
-+ [https://github.com/DataTables/DataTables](https://github.com/DataTables/DataTables)
-+ [https://github.com/malihu/malihu-custom-scrollbar-plugin](https://github.com/malihu/malihu-custom-scrollbar-plugin)
-+ [https://github.com/rochal/jQuery-slimScroll](https://github.com/rochal/jQuery-slimScroll)
-+ 提示 [https://github.com/calebjacob/tooltipster](https://github.com/calebjacob/tooltipster)
-+ [https://github.com/devbridge/jQuery-Autocomplete](https://github.com/devbridge/jQuery-Autocomplete)
-+ [https://github.com/rampatra/animatescroll.js](https://github.com/rampatra/animatescroll.js)
-+ [https://github.com/wmh/jquery-scrollbox](https://github.com/wmh/jquery-scrollbox)
-+ [https://github.com/omcg33/jquery.limarquee](https://github.com/omcg33/jquery.limarquee)
-+ 分页 [https://github.com/superRaytin/paginationjs](https://github.com/superRaytin/paginationjs)
-+ 图片查看 [https://github.com/fengyuanchen/jquery-viewer](https://github.com/fengyuanchen/jquery-viewer)
-+ 视频播放 [https://github.com/jplayer/jPlayer](https://github.com/jplayer/jPlayer)
-+ 弹幕 [https://github.com/chiruom/jquery.danmu.js](https://github.com/chiruom/jquery.danmu.js)
-+ [https://github.com/jeromeetienne/jquery-qrcode](https://github.com/jeromeetienne/jquery-qrcode)
-+ [https://github.com/jquery-i18n-properties/jquery-i18n-properties](https://github.com/jquery-i18n-properties/jquery-i18n-properties)
-+ 使用旧版IE警报 [https://github.com/nmsdvid/ie-alert](https://github.com/nmsdvid/ie-alert)
-+ 图像放大镜 [https://github.com/mrenzidev/jqzoom](https://github.com/mrenzidev/jqzoom)
-
-
-
-### 事件点击一次执行多次
-
-```js
-// 先移除再绑定，jQuery 3.0中已弃用此方法
-$('#id').unbind('click').on('click',function(){
-    consoel.log("ok");
-});
-// 先移除再绑定
-$("#id").off("click").on("click",function(){
-    consoel.log("ok");        
-});
-```
-
-
-## Bootstrap
-
-+ [https://github.com/topics/bootstrap](https://github.com/topics/bootstrap)
-+ [https://github.com/twbs/bootstrap](https://github.com/twbs/bootstrap)
-    + [https://www.bootcss.com](https://www.bootcss.com)
-
-* [https://github.com/jquery/jquery-ui](https://github.com/jquery/jquery-ui)
-* [https://github.com/itsjavi/bootstrap-colorpicker](https://github.com/itsjavi/bootstrap-colorpicker)
-* [https://github.com/kartik-v/bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput)
-* [https://github.com/snapappointments/bootstrap-select](https://github.com/snapappointments/bootstrap-select)
-* [https://github.com/wenzhixin/bootstrap-table](https://github.com/wenzhixin/bootstrap-table)
-    * [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
-* 编辑器 [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)
-* [https://github.com/eonasdan/bootstrap-datetimepicker](https://github.com/eonasdan/bootstrap-datetimepicker)
-
-
-
 
 ## 相关链接
 
-* Bootstrap中文网 [https://www.bootcss.com](https://www.bootcss.com)
-* React [https://reactjs.bootcss.com](https://reactjs.bootcss.com)
 * Next.js [https://www.nextjs.cn](https://www.nextjs.cn)
 * Docusaurus [https://www.docusaurus.cn](https://www.docusaurus.cn)
 * Blitz [https://www.blitzjs.cn](https://www.blitzjs.cn)
@@ -635,7 +609,6 @@ $("#id").off("click").on("click",function(){
 * Nuxt.js [https://www.nuxtjs.cn](https://www.nuxtjs.cn)
 * Gridsome [https://www.gridsome.cn](https://www.gridsome.cn)
 * Preact [https://www.preactjs.com.cn](https://www.preactjs.com.cn)
-* Svelte [https://www.sveltejs.cn](https://www.sveltejs.cn)
 * Sapper [https://www.sapperjs.com](https://www.sapperjs.com)
 * Webpack [https://www.webpackjs.com](https://www.webpackjs.com)
 * Rollup.js [https://www.rollupjs.com](https://www.rollupjs.com)
@@ -650,7 +623,6 @@ $("#id").off("click").on("click",function(){
 * cssnano [https://www.cssnano.cn](https://www.cssnano.cn)
 * PostCSS [https://www.postcss.com.cn](https://www.postcss.com.cn)
 * Jest [https://www.jestjs.cn](https://www.jestjs.cn)
-* WebAssembly [https://www.wasm.com.cn](https://www.wasm.com.cn)
 * Deno [https://www.denojs.cn](https://www.denojs.cn)
 
 

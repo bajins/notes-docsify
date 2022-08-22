@@ -17,6 +17,13 @@
 * [strconv包使用](https://my.oschina.net/byonds/blog/488492)
 * [runtime包](https://www.jianshu.com/p/84bac7932394)
 * [File操作](https://blog.csdn.net/TDCQZD/article/details/81835149)
+* [golang的指针类型,unsafe.Pointer类型和uintptr类型的区别](https://www.jianshu.com/p/1a49b361d2a1)
+
+
+<details>
+<summary><b>展开查看初始化顺序</b></summary>
+<img src="/images/go的man和init执行过程.png" alt>
+</details>
 
 
 **日志**
@@ -147,12 +154,17 @@ func StringBuilder(p []string) string {
 
 
 
-## 路径操作
+## IO操作
 
 > Go标准库中还有`path`和`path/filepath`函数有点重复,大部分情况下建议使用`path/filepath`
 
 > 两者区别是：`path`使用`/`作为路径分隔符，`path/filepath`判断系统使用不同的路径分隔符
 
+
+**从 Go 1.16 开始会废弃 io/ioutil 包，相关的功能会挪到 io 包或 os 包**
+
+* [https://github.com/golang/go/issues/40025](https://github.com/golang/go/issues/40025)
+* [https://github.com/golang/go/issues/42026](https://github.com/golang/go/issues/42026)
 
 
 ### path包
@@ -195,6 +207,10 @@ func StringBuilder(p []string) string {
 | Glob(pattern string) (matches []string, err error)    	| 返回所有匹配的文件                      	|
 | IsAbs(path string) (b bool)                           	| 判断路径是不是绝对路径                  	|
 | Match(pattern, name string) (matched bool, err error) 	| 匹配文件名，完全匹配则返回true          	|
+
+
+
+
 
 
 ## 异常和恢复
@@ -281,6 +297,7 @@ func test() {
 * [go语言模拟multipart/form-data提交数据](https://1024coder.com/14845548548981.html)
 * [https://github.com/xuanbo/requests](https://github.com/xuanbo/requests)
 * [从 HTTP 角度看 Go 如何实现文件上传](https://zhuanlan.zhihu.com/p/96491484)
+* [Golang net/http包 同时监听多个端口](https://blog.csdn.net/zkt286468541/article/details/81203046)
 
 
 ```go
@@ -584,26 +601,9 @@ func TestGorutine(t *testing.T) {
 
 ## Daemon
 
-+ [https://en.wikipedia.org/wiki/Daemon_(computing)](https://en.wikipedia.org/wiki/Daemon_(computing))
-
-> 在一个多任务的电脑操作系统中，Daemon（守护进程）是一种在后台执行的电脑程序。此类程序会被以进程的形式初始化
-
-> 通常，守护进程没有任何存在的父进程（即PPID=1），且在UNIX系统进程层级中直接位于init之下。
-> 守护进程程序通常通过如下方法使自己成为守护进程：对一个子进程运行fork，然后使其父进程立即终止，
-> 使得这个子进程能在init下运行。这种方法通常被称为“脱壳”。
-
-* [https://github.com/topics/daemon](https://github.com/topics/daemon)
 * [https://github.com/takama/daemon](https://github.com/takama/daemon)
-* [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
 
 
-
-- 几种实现方式
-
-1. nohup
-2. supervise
-3. Cgo deamon函数
-4. go通过syscall调用fork实现(这个和第3条原理一样)
 
 **Cgo实现**
 
@@ -658,6 +658,8 @@ func doServerStuff(conn net.Conn) {
 
 
 **支持goroutine和系统信号监听**
+
+> go通过syscall调用fork实现(这个和Cgo deamon函数原理一样)
 
 ```go
 package main

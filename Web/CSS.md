@@ -8,12 +8,17 @@
 
 ## Flag
 
+> 规定网页的布局
+
 * [https://drafts.csswg.org/css-cascade](https://drafts.csswg.org/css-cascade)
 * [https://developer.mozilla.org/zh-CN/docs/Web/CSS](https://developer.mozilla.org/zh-CN/docs/Web/CSS)
 * CSS3/CSS2/CSS 教程 [http://www.w3chtml.com/css3](http://www.w3chtml.com/css3)
 * HTML系列教程 [https://www.w3school.com.cn/h.asp](https://www.w3school.com.cn/h.asp)
 * [http://css.doyoe.com/](http://css.doyoe.com)
 * CSS/CSS3 中文参考文档手册 [http://css.cuishifeng.cn](http://css.cuishifeng.cn)
+* [https://github.com/adamschwartz/magic-of-css](https://github.com/adamschwartz/magic-of-css)
+
+
 
 - [https://github.com/sass](https://github.com/sass)
     - Sass教程 Sass中文文档: [https://www.sass.hk/docs](https://www.sass.hk/docs)
@@ -22,14 +27,97 @@
     - [https://less.bootcss.com](https://less.bootcss.com)
 
 
+**各种隐藏HTML元素的区别**
+
+1. `display:none;` 一旦显示为隐藏，则其子元素也隐藏，并且不占用任何位置，JS将获取不到子元素
+2. `visiblity:hidden` 设置为隐藏，占据页面空间，其子元素不隐藏，占用位置，不可点击
+3. `transform:scale(0);` 缩放为0，占据页面空间，占用位置，不可点击
+4. `height:0` 高度为0，不可点击
+5. `opacity:0` 透明度，取值范围（0-1），0不显示，占据页面空间，占用位置，并且可以点击
+6. `z-index:-10; position:relative;` 层级，`z-index`属性需要搭配`positon`属性一块使用，不然设置了不起作用
+7. `position:absolute; left:-5000; top:-5000;` 绝对定位方式移出可视区域，不影响页面布局，脱标
+8. `cli-path:polygon(0px 0px , 0px 0px,0px 0px,0px 0px)` 通过裁剪盒子，不脱标
+9. `position:absolute; clip:rect(0px 0px 0px 0px);` 通过裁剪绝对定位的盒子，脱标
+10. `removeChild` 用JS暂时从DOM树上摘下，但并未从后台清除，如需再次生成必须要用`appendChild`来生成
+
+
+
+**颜色**
+
+- 十六进制色 `background-color:#0000ff;`
+- RGB 颜色 `background-color:rgb(255,0,0);`
+- RGBA 颜色 `background-color:rgba(255,0,0,0.5);` 最后一个参数是介于 0.0（完全透明）与 1.0（完全不透明）的数字
+- HSL 颜色 `background-color:hsl(120,65%,75%);` 是hue（色调）、saturation（饱和度）、lightness（亮度），颜色柱面坐标表示法
+- HSLA 颜色 `background-color:hsla(120,65%,75%,0.3);`
+- 预定义/跨浏览器颜色名 `background-color:red;`
+
+* [CSS颜色代码大全](https://www.cnblogs.com/cnblogs-jcy/p/5689033.html)
+* [CSS 颜色名称](https://www.w3school.com.cn/cssref/css_colornames.asp)
+
+
+**17种标准颜色（HTML 4标准只定义了16种颜色，CSS2.1添加橙色）**
+
+| 英文名  | 中文   | 示例                            |
+|---------|--------|---------------------------------|
+| aqua    | 浅绿色 | <font color='aqua'>▇▇</font>    |
+| black   | 黑色   | <font color='black'>▇▇</font>   |
+| blue    | 蓝色   | <font color='blue'>▇▇</font>    |
+| fuchsia | 紫红色 | <font color='fuchsia'>▇▇</font> |
+| gray    | 灰色   | <font color='gray'>▇▇</font>    |
+| green   | 绿色   | <font color='green'>▇▇</font>   |
+| lime    | 石灰   | <font color='lime'>▇▇</font>    |
+| maroon  | 栗色   | <font color='maroon'>▇▇</font>  |
+| navy    | 海军   | <font color='navy'>▇▇</font>    |
+| olive   | 橄榄色 | <font color='olive'>▇▇</font>   |
+| orange  | 橙色   | <font color='orange'>▇▇</font>  |
+| purple  | 紫色   | <font color='purple'>▇▇</font>  |
+| red     | 红色   | <font color='red'>▇▇</font>     |
+| silver  | 银色   | <font color='silver'>▇▇</font>  |
+| teal    | 蓝绿色 | <font color='teal'>▇▇</font>    |
+| white   | 白色   | <font color='white'>▇▇</font>   |
+| yellow  | 黄色   | <font color='yellow'>▇▇</font>  |
+
+
+
+| 英文名    | 中文 | RGB对照 | 示例 |
+|-----------|------|---------|------|
+| blue      | 蓝   | #007bff | <font color="#007bff">▇▇</font>   |
+| cyan      | 青   | #17a2b8 | <font color="#17a2b8">▇▇</font>   |
+| dark      | 黑   | #343a40 | <font color="#343a40">▇▇</font>   |
+| gray      | 灰   | #6c757d | <font color="#6c757d">▇▇</font>   |
+| gray-dark | 灰黑 | #343a40 | <font color="#343a40">▇▇</font>   |
+| green     | 绿   | #28a745 | <font color="#28a745">▇▇</font>   |
+| indigo    | 靛蓝 | #6610f2 | <font color="#6610f2">▇▇</font>   |
+| orange    | 橙   | #fd7e14 | <font color="#fd7e14">▇▇</font>   |
+| pink      | 粉   | #e83e8c | <font color="#e83e8c">▇▇</font>   |
+| purple    | 紫   | #6f42c1 | <font color="#6f42c1">▇▇</font>   |
+| red       | 红   | #dc3545 | <font color="#dc3545">▇▇</font>   |
+| teal      | 蓝绿 | #20c997 | <font color="#20c997">▇▇</font>   |
+| white     | 白   | #fff    | <font color="#fff">▇▇</font>      |
+| yellow    | 黄   | #ffc107 | <font color="#ffc107">▇▇</font>   |
+| –         | –    | –       | –    |
+| primary   | 主要 | #007bff | <font color="#007bff">▇▇</font>   |
+| secondary | 次要 | #6c757d | <font color="#6c757d">▇▇</font>   |
+| success   | 成功 | #28a745 | <font color="#28a745">▇▇</font>   |
+| info      | 信息 | #17a2b8 | <font color="#17a2b8">▇▇</font>   |
+| warning   | 警告 | #ffc107 | <font color="#ffc107">▇▇</font>   |
+| danger    | 危险 | #dc3545 | <font color="#dc3545">▇▇</font>   |
+| light     | 浅色 | #f8f9fa | <font color="#f8f9fa">▇▇</font>   |
+
+
+
+
+
+
 ## 第三方库
 
 - [https://github.com/topics/css-framework](https://github.com/topics/css-framework)
 
 
-* [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)
+* [https://github.com/filamentgroup](https://github.com/filamentgroup)
 * [https://github.com/pure-css/pure](https://github.com/pure-css/pure)
     * [https://www.purecss.cn](https://www.purecss.cn)
+- [https://github.com/necolas/normalize.css](https://github.com/necolas/normalize.css)
 * [https://github.com/picturepan2/spectre](https://github.com/picturepan2/spectre)
 * [https://github.com/semantic-org/semantic-ui](https://github.com/semantic-org/semantic-ui)
 * [https://github.com/Dogfalo/materialize](https://github.com/Dogfalo/materialize)
@@ -37,6 +125,21 @@
 * [https://github.com/jgthms/bulma](https://github.com/jgthms/bulma)
     * [https://lqzhgood.github.io/bulma-docs-cn](https://lqzhgood.github.io/bulma-docs-cn)
 * [https://github.com/Chalarangelo/mini.css](https://github.com/Chalarangelo/mini.css)
+* [https://github.com/olton/Metro-UI-CSS](https://github.com/olton/Metro-UI-CSS)
+* [https://github.com/storybookjs/storybook](https://github.com/storybookjs/storybook)
+* [https://github.com/saadeghi/daisyui](https://github.com/saadeghi/daisyui)
+* [https://github.com/antfu/unocss](https://github.com/antfu/unocss)
+* [https://github.com/windicss/windicss](https://github.com/windicss/windicss)
+* [https://github.com/tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss)
+    * [https://www.tailwindcss.cn](https://www.tailwindcss.cn)
+* [https://github.com/FullHuman/purgecss](https://github.com/FullHuman/purgecss)
+    * [https://www.purgecss.cn](https://www.purgecss.cn)
+* [https://github.com/tw-in-js/twind](https://github.com/tw-in-js/twind)
+* [https://github.com/BlazeSoftware](https://github.com/BlazeSoftware)
+* [https://github.com/postcss/postcss](https://github.com/postcss/postcss)
+
+
+- [最受程序员欢迎的 20 个 CSS 框架](https://www.fuocu.cn/archives/css-frame)
 
 
 **字体**
@@ -438,7 +541,7 @@ div:hover{
 
 * [伪类 - CSS（层叠样式表） | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/Pseudo-classes)
 * [伪元素 - CSS（层叠样式表） | MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/pseudo-elements)
-* [伪元素组成的时间线](https://github.com/woytu/notes-vuepress/commits/master)
+* [伪元素组成的时间线](https://github.com/bajins/notes-vuepress/commits/master)
 
 
 - 分割线
@@ -479,3 +582,77 @@ div:hover{
 - [initial](https://developer.mozilla.org/zh-CN/docs/Web/CSS/initial) 属于CSS-wide关键字，属性初始值
 - [unset](https://developer.mozilla.org/zh-CN/docs/Web/CSS/unset) 擦除属性申明，如果属性是默认继承属性，等同于inherit，如果属性是非继承属性，等同于initial，unset属于CSS-wide关键字
 - [revert](https://developer.mozilla.org/zh-CN/docs/Web/CSS/revert) 重置当前样式来源（style origin）的样式
+
+
+
+
+## 输入框勾选样式
+
+```css
+input[type='checkbox'] {
+    cursor: pointer;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    font-size: 16px;
+    visibility: hidden;
+}
+input[type='checkbox']::after {
+    position: absolute;
+    top: 0;
+    background-color: #fff;
+    color: #fff;
+    border: 1px solid #b1b1b1;
+    width: 18px;
+    height: 18px;
+    display: inline-block;
+    visibility: visible;
+    padding-left: 0px;
+    text-align: center;
+    content: ' ';
+    /*border-radius: 50%;*/
+    box-sizing: border-box;
+}
+
+input[type='checkbox']:checked::after {
+    background-color: #4db7ff;
+    border: none;
+    content: '\2713';
+    font-size: 14px;
+    font-weight: bold;
+}
+```
+
+```css
+input[type='checkbox'] {
+    cursor: pointer;
+    position: relative;
+    width: 13px;
+    height: 13px;
+    font-size: 13px;
+    margin-right: 5px;
+    visibility: hidden;
+}
+input[type='checkbox']::after {
+    position: absolute;
+    top: 2px;
+    color: #fff;
+    border: 1px solid #4db7ff;
+    width: 13px;
+    height: 13px;
+    display: inline-block;
+    visibility: visible;
+    padding-left: 0px;
+    text-align: center;
+    content: ' ';
+    box-sizing: border-box;
+}
+ 
+input[type='checkbox']:checked::after {
+    color: #4db7ff;
+    border: 1px solid #4db7ff;
+    content: '\2713';
+    font-size: 12px;
+}
+```
+

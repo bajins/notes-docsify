@@ -72,62 +72,6 @@ chkconfig --list | grep mysqld
 chkconfig mysqld on
 ```
 
-## firewalld
-
-```bash
-# 查看firewalld状态，发现当前是dead状态，即防火墙未开启。
-systemctl status firewalld
-# 开启防火墙，没有任何提示即开启成功。
-systemctl start firewalld
-# 查看已开放的端口(默认不开放任何端口)
-firewall-cmd --list-ports
-# 重启防火墙
-firewall-cmd --reload
-# 停止防火墙
-systemctl stop firewalld.service
-# 禁止防火墙开机启动
-systemctl disable firewalld.service
-# 删除端口
-firewall-cmd --zone= public --remove-port=80/tcp --permanent
-
-# 开启80端口
-firewall-cmd --zone=public --add-port=80/tcp --permanent
-# 开启8080-8089的IP端
-firewall-cmd --zone=public --add-port=8080-8089/tcp --permanent
-# 开启3306端口
-firewall-cmd --zone=public --add-port=3306/tcp --permanent
-```
-
-- `--zone` 作用域
-- `--add-port=80/tcp` 添加端口，格式为：端口/通讯协议
-- `--permanent` 永久生效，没有此参数重启后失效
-
-
-**配置`firewalld-cmd`**
-
-```bash
-# 查看版本
-firewall-cmd --version
-# 查看帮助
-firewall-cmd --help
-# 显示状态
-firewall-cmd --state
-# 查看所有打开的端口
-firewall-cmd --zone=public --list-ports
-# 更新防火墙规则
-firewall-cmd --reload
-# 查看区域信息
-firewall-cmd --get-active-zones
-# 查看指定接口所属区域
-firewall-cmd --get-zone-of-interface=eth0
-# 拒绝所有包
-firewall-cmd --panic-on
-# 取消拒绝状态
-firewall-cmd --panic-off
-# 查看是否拒绝
-firewall-cmd --query-panic
-```
-
 
 
 ## 内核升级
@@ -205,6 +149,8 @@ yum remove 内核名字
 
 
 ## 一键安装BBR
+
++ [https://github.com/ylx2016/Linux-NetSpeed](https://github.com/ylx2016/Linux-NetSpeed)
 
 * [秋水逸冰](https://github.com/teddysun/across)
 
@@ -345,126 +291,6 @@ echo "Hello World" | toilet -f term -F border --gay
 toilet -f mono12 -F metal Linux
 # 多种样式
 while true; do echo "$(date '+%D %T' | toilet -f term -F border --gay)"; sleep 1; done
-```
-
-
-
-## SVN
-
-
-```bash
-# 检查已安装
-rpm -qa subversion
-# 安装
-yum -y install subversion
-# 查看已安装版本
-svnserve --version
-```
-
-**创建代码库**
-
-```bash
-# 建立SVN版本库目录
-mkdir -p /home/svn/svnrepos/test
-# 创建SVN版本库
-svnadmin create /home/svn/svnrepos/test
-```
-
-> 执行上面的命令后，自动建立`svndata`库，
-> `/home/svn/svnrepos/test`文件夹包含了`conf`、`db`、`format`、`hooks`、`locks`、`README.txt`等文件，说明一个SVN库已经建立。
-
-
-**配置代码库**
-
-```bash
-# 进入`conf`文件夹
-cd /home/svn/svnrepos/test/conf
-# 配置用户密码`passwd`
-vi passwd
-```
-
-- 在`[users]`节点下添加以下内容(账户=密码)
-
-```conf
-# 账户=密码
-woytu.com=woytu.com
-```
-
-- 配置权限控制`authz`
-
-```bash
-vi authz
-```
-
-> 目的是设置哪些用户可以访问哪些目录，向`authz`文件末尾追加以下内容：
->> 设置`[/]`代表根目录下所有的资源,`rw`为读和写，`*`代表所有用户,先按`shift+g`跳到末尾，然后添加
-
-```conf
-[/]
-woytu.com=rw
-*=r
-```
-
-- 配置服务`svnserve.conf`
-
-```bash
-vi svnserve.conf
-```
-
-> 在`[general]`节点下追加以下内容
-
-```conf
-# 匿名访问的权限，可以是read,write,none,默认为read
-anon-access=none
-# 使授权用户有写权限
-auth-access=write
-# 密码数据库的路径
-password-db=passwd
-# 访问控制文件
-authz-db=authz
-# 认证命名空间，subversion会在认证提示里显示，并且作为凭证缓存的关键字
-realm = This Is A Repository
-```
-
-> 如果需要创建多个库就需要重复做上面2、3步，并且最后一个目录名是不一样的
-
-- 建立第2个SVN版本库目录
-
-```bash
-mkdir -p /home/svn/svnrepos/test2
-```
-
-- 创建第2个SVN版本库
-
-```bash
-svnadmin create /home/svn/svnrepos/test2
-```
-
-**启动**
-
-```bash
-svnserve -d -r /home/svn/svnrepos/
-# 查看SVN进程
-ps -ef|grep svn
-# 检测SVN端口
-netstat -antlp|grep svnserve
-# 放开端口
-firewall-cmd --zone=public --add-port=3690/tcp --permanent
-firewall-cmd --reload
-```
- 
-**连接地址：`svn://host:port/仓库名`**
-
-
-**停止SVN**
-
-```bash
-# 查找svnserve进程（PID）
-ps -aux | grep svnserve
-# 结束进程
-kill -9 PID
-#或者
-killall svnserve
 ```
 
 

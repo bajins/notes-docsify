@@ -45,6 +45,30 @@
 ## 函数封装
 
 * [https://github.com/eklam/VbsJson](https://github.com/eklam/VbsJson)
+* [进度条](https://stackoverflow.com/questions/18216027/vbscript-script-progress-notification)
+* [进度条](https://stackoverflow.com/questions/50514348/how-do-i-make-a-fake-progress-bar-in-vbscript)
+* [WScript/VBScript实现ZIP文件的压缩或解压(ZipCompressor)](https://wangye.org/blog/archives/767/)
+
+
+```vb
+Set regex = New RegExp
+Set regex = CreateObject("VBScript.RegExp")
+regex.Global = True
+regex.MultiLine = True
+regex.Pattern = "^\s*\n"
+str = regex.Replace(str, "")
+```
+
+
+### 自动关闭弹窗
+
+```vb
+' TimeOut 单位为秒
+Public Sub MsgBoxTimeout(Text, Title, TimeOut)
+    Set WshShell = CreateObject("WScript.Shell")
+    WshShell.Popup Text, TimeOut, Title
+End Sub
+```
 
 
 
@@ -126,6 +150,26 @@ Public Function GetSystemBit()
     Next
 
 End Function
+```
+
+```vb
+Set objWMIService = GetObject("winmgmts://./root/cimv2")
+'通过wmi获取激活状态的网络适配器对象后，读取IPAddress、Description、MACAddress
+Set adapters = objWMIService.ExecQuery("Select * From Win32_NetworkAdapterConfiguration Where IPEnabled = True")
+Set wshell = Wscript.CreateObject("Wscript.Shell")
+
+'直接从环境变量里取计算机名、当前用户名
+result ="HOSTNAME: 【" & wshell.ExpandEnvironmentStrings("%COMPUTERNAME%") & _ 
+        "】" & vbcrlf & "USER: 【" & wshell.ExpandEnvironmentStrings("%USERNAME%") & "】"
+
+For Each adapter in adapters
+  With adapter
+    result = result & vbcrlf & vbcrlf & .Description & ":" & _ 
+            vbcrlf & "MAC:【" & .MACAddress & "】" & vbcrlf & "IP:【" &  join(.IPAddress, ", ") & "】"
+  End With
+Next
+
+msgbox result
 ```
 
 
@@ -508,33 +552,67 @@ end function
 
 ### 选择文件对话框
 
-* [VBScript - 弹出“文件选择对话框”方法大全！](https://www.cnblogs.com/bitssea/p/12684322.html)
-
 ```vb
-' GetStandardStream获取TextStream对象.参数：0输入流,1输出流,2错误流.
-hta="""about:<input type=file id=f><script>f.click();" & _
-    "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).WriteLine(f.value);" & _
-    "close();resizeTo(0,0);</script>"""
-' 打开对话框
-Set oExec = CreateObject("WScript.Shell").Exec("mshta.exe " & hta)
-' 输出选择的，文件的路径
-MsgBox oExec.StdOut.ReadLine
-
-' GetStandardStream获取TextStream对象.参数：0输入流,1输出流,2错误流.
-hta="""<input type=file id=f><script>f.click();" & _
-    "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).Write(f.value);" & _
-    "[close()];resizeTo(0,0);</script>"""
-' 打开对话框
-Set oExec = CreateObject("WScript.Shell").Exec("mshta vbscript:" & hta)
-' 输出选择的，文件的路径
-MsgBox oExec.StdOut.ReadAll
-
-
-Function BrowseForFile()
-    Dim shell : Set shell = CreateObject("Shell.Application")
-    Dim file : Set file = shell.BrowseForFolder(0, "Choose a file:", &H4000, "C:\")
-    BrowseForFile = file.self.Path
+Function SelectFile()
+    Set WshShell = WScript.CreateObject("WScript.Shell")
+    Set oExec = WshShell.Exec("powershell -WindowStyle Hidden -ExecutionPolicy Bypass " & _
+    "[void][System.Reflection.Assembly]::LoadWithPartialName('System.Windows.Forms');" & _
+    "$dialog = New-Object 'System.Windows.Forms.OpenFileDialog';" & _
+    "$dialog.Title ='请选择文件';" & _
+    "$dialog.filter ='All|*.*|PowerShell|*.ps1';" & _
+    "if ($dialog.ShowDialog() -eq 'OK') {$dialog.FileName;} Else {Out-Null}")
+    SelectFile = oExec.StdOut.ReadAll
 End Function
+
+Function SelectFile()
+    ' GetStandardStream获取TextStream对象.参数：0输入流,1输出流,2错误流.
+    ' "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).Write(f.value);" & _
+    hta="""about:<input type=file id=f><script>f.click();" & _
+        "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1).WriteLine(f.value);" & _
+        "close();resizeTo(0,0);</script>"""
+    ' 打开对话框
+    Set oExec = CreateObject("WScript.Shell").Exec("mshta.exe " & hta)
+
+    StrLine = oExec.StdOut.ReadLine
+    ' StrLine = oExec.StdOut.ReadAll
+    If StrLine <> "" And InStr(StrLine, Chr(13)) > 0 Then
+        ' SelectFile = Left(StrLine, Pos - 1)
+        SelectFile = StrLine
+    Else
+        SelectFile = ""
+    End If
+End Function
+
+' sIniDir 为初始化目录
+' sFilter 为文件后缀 示例："*.*,*.txt"
+Function GetFileDlgEx(sIniDir, sFilter, sTitle)
+    sIniDir = Replace(sIniDir, "\", "\\")
+    ' Set regex = New RegExp
+    Set regex = CreateObject("VBScript.RegExp")
+    regex.Global = True
+    regex.MultiLine = True
+    regex.Pattern = ";|\|"
+    sFilter = regex.Replace(sFilter, ",")
+    DIM sf
+    For Each i In Split(sFilter, ",")
+        sf = sf & i & "|" & i & "|"
+    Next
+    sFilter = sf
+    hta="""about:<object id=d classid=clsid:3050f4e1-98b5-11cf-bb82-00aa00bdce0b></object>" & _
+    "<script>moveTo(0,-9999);" & _
+    "eval(new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(0)" & _
+    ".Read("&Len(sIniDir)+Len(sFilter)+Len(sTitle)+41&"));" & _
+    "function window.onload(){" & _
+    "var p=/[^\0]*/;" & _
+    "new ActiveXObject('Scripting.FileSystemObject').GetStandardStream(1)" & _
+    ".Write(p.exec(d.object.openfiledlg(iniDir,null,filter,title)));" & _
+    "close();" & _
+    "}</script><hta:application showintaskbar=no />"""
+    Set oDlg = CreateObject("WScript.Shell").Exec("mshta.exe " & hta) 
+    oDlg.StdIn.Write "var iniDir='" & sIniDir & "';var filter='" & sFilter & "';var title='" & sTitle & "';" 
+    GetFileDlgEx = oDlg.StdOut.ReadAll 
+End Function
+
 
 Function BrowseForFile()
     With CreateObject("WScript.Shell")
@@ -558,11 +636,21 @@ End Function
 
 
 Function SelectFolder(default)
+    Set objShell = CreateObject("Shell.Application")
     If IsNull(default) Then
-        default = "::{20D04FE0-3AEA-1069-A2D8-08002B30309D}"
+        ' Set objFolder = objShell.Namespace(&H11) ' 获取当前计算机
+        ' default = objFolder.Self.Path
+        default = 0
     End If
-    Set Folder = CreateObject("Shell.Application").BrowseForFolder(0, "", 0, default)
-    If Folder Is Nothing Then
+    ' https://docs.microsoft.com/zh-cn/windows/win32/shell/shell-browseforfolder
+    ' 第一个参数：为对话框的窗体句柄，一般设置为0
+    ' 第二个参数：为打开窗体的说明
+    ' 第三个参数：0/1/2/3/257/4097/8193/12289/16385/20481只从列表进行选择（列表内容不一样），
+    '       529没有路径输入框，513没有路径输入框和新建文件夹按钮，&H10（17）有路径输入框，
+    '       &H4000可看到文件但选择将报错;
+    ' 第四个参数：起始路径根文件夹，0/12/15/16为桌面，1/2/3/4/5/6/7/8/9/10/11/13/14/17/18/19/20/21/22
+    Set Folder = objShell.BrowseForFolder(0, "请选择一个文件夹:", &H10 , default) 
+    If Folder Is Nothing Then 
         SelectFolder = ""
     Else
         SelectFolder = Folder.Self.Path
@@ -600,132 +688,3 @@ save.flush
 save.Close
 ```
 
-
-
-## VBA
-
-+ [Visual Basic for Applications (VBA) 语言参考](https://docs.microsoft.com/zh-cn/office/vba/api/overview/language-reference)
-+ [VBA学习笔记](https://www.zhihu.com/people/xia-xi-lan/posts)
-+ [xcel之VBA简单宏编程](https://blog.csdn.net/wordsin/article/details/80575615)
-
-- 匹配单元格左边英文及其他字符=RegexString(A1,"[^\u4e00-\u9fa5]+")
-- 匹配单元格右边中文及其他字符=RegexString(A1,"[\u4e00-\u9fa5].*")
-
-```vb
-Function RegexString(rng As Range, str As String)
-'第一个参数rng为区域保持不变， 添加第二个参数str（作为正则表达式）
-  With CreateObject("VBscript.regexp")
-    .Global = True
-    .Pattern = str '表达式,直接从用户函数的第二个参数中调用
-    If .Execute(rng).Count = 0 Then
-    RegexString = ""
-    Else
-    RegexString = .Execute(rng)(0)
-    End If
-  End With
-End Function
-```
-
-- 分割字符串并统计
-
-```vb
-'https://blog.csdn.net/wordsin/article/details/80575615
-'自定义函数用于工作表时，必须是被动式的，只是返回一个值，不能处理单元格或在工作表上修改，批注是个例外，不能调用range的方法，如：Find，Range.Replace例外
-Function ReSplit(rng As Range)
-    Dim newStr As String
-    Dim countNum As Integer
-    
-    old = Strings.Split(rng, " ")
-    For Each e In old
-        If e <> "" Then
-            'MsgBox TypeName(e)
-            'Replace(, "/", "")
-            With CreateObject("VBSCRIPT.REGEXP")
-                .Global = True
-                .IgnoreCase = True
-                .Pattern = "([a-zA-Z]+)([0-9]+)-([0-9]+)"
-                If .test(e) Then
-                    '执行正则表达式，获取子匹配列表
-                    Set da = .Execute(e)(0).SubMatches
-                    last = da(0)
-                    st = da(1)
-                    en = da(2)
-                    'Debug.Print last, st, en
-                    For i = st To en
-                        newStr = newStr & "," & last & i
-                        countNum = countNum + 1
-                    Next
-                Else
-                    newStr = newStr & "," & e
-                    countNum = countNum + 1
-                End If
-            End With
-        End If
-    Next
-    If InStr(newStr, ",") Then
-        newStr = Right(newStr, Len(newStr) - 1)
-    End If
-    Debug.Print newStr
-    Debug.Print countNum
-    
-    ReSplit = newStr
-    
-    'ActiveCell.Address '这是当前单元格地址
-    'Selection.Offset(1, 0).Select '这是向下跳1格
-    'Selection.Offset(-1, 0).Select '这是向上跳1格
-    'Selection.Offset(0, -1).Select '这是向左跳1格
-    'Selection.Offset(0, 1).Select '这是向右跳1格
-
-End Function
-
-
-Function SplitCount(rng As Range, delimiter As String)
-   SplitCount = Len(Strings.Split(rng, delimiter))
-End Function
-
-Sub SetValue(offset As Range, value)
-    offset = value
-End Sub
-
-
-Sub run()
-    Set rng = Application.InputBox(prompt:="请选择区域", Type:=8)
-    If rng.Count = 0 Then
-        MsgBox "请至少选择一个单元格！", , "提示":
-        Exit Sub
-    End If
-    'If rng.Count <> 1 Then
-        'MsgBox "只能选择一个单元格！", , "提示":
-        'Exit Sub
-    'End If
-    Debug.Print "当前选择：", rng.Address(1, 1)
-    
-    rngs = Strings.Split(rng.Address(1, 1), ":")
-    st = Strings.Split(rngs(0), "$")(1)
-    sta = Replace(rngs(0), "$", "")
-    'Debug.Print rngs(0), st, sta
-    
-    of1Content = "整理后的数据"
-    of2Content = "整理后的统计"
-    If Range(st & "1").offset(0, 1) <> of1Content Then
-        '插入空列
-        Range(sta).offset(0, 1).EntireColumn.Insert
-        Range(st & "1").offset(0, 1) = of1Content
-    End If
-    If Range(st & "1").offset(0, 2) <> of2Content Then
-        Range(sta).offset(0, 2).EntireColumn.Insert
-        Range(st & "1").offset(0, 2) = of2Content
-    End If
-    
-    For Each im In rng
-        
-        If im <> "" Then
-            'Debug.Print TypeName(im), im.Address
-            
-            str1 = ReSplit(Range(Replace(im.Address, "$", "")))
-            im.offset(0, 1) = str1
-            im.offset(0, 2) = Application.CountA(Strings.Split(str1, ","))
-        End If
-    Next
-End Sub
-```

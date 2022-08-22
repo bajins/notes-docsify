@@ -27,7 +27,9 @@
 
 **循环loop**
 
-- `for` 多次遍历代码块
+* [JS中集合对象(Array、Map、Set)及类数组对象的使用与对比](https://github.com/quanzaiyu/hexo-blog/blob/master/source/_posts/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3JavaScript%20-%20JS%E4%B8%AD%E9%9B%86%E5%90%88%E5%AF%B9%E8%B1%A1(Array%E3%80%81Map%E3%80%81Set)%E5%8F%8A%E7%B1%BB%E6%95%B0%E7%BB%84%E5%AF%B9%E8%B1%A1%E7%9A%84%E4%BD%BF%E7%94%A8%E4%B8%8E%E5%AF%B9%E6%AF%94.md)
+
+- `for/i` 多次遍历代码块
 - `forEach` 遍历对象属性，不能中断循环（使用`break`语句或使用`return`语句）
 - `for/in` 遍历对象属性，实际是为循环`enumerable`对象而设计，不推荐用`for/in`来循环一个数组
 - `for/of` 可遍历`Array`、`String`、`TypedArray`、`Map`、`Set`、`DOM collections`、`enumerable`、`generators`，弥补了`forEach`和`for/in`循环的短板
@@ -56,93 +58,6 @@
 
 
 
-## 字符串换行和拼接
-
-**字符串多行换行**
-
-- Multiline String 多行字符串
-- Template String 模板字符串
-- Text Blocks 文本块
-
-* [https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Reference/template_strings)
-
-```js
-var x = "我的\
-博客\
-https://www.bajins.com";
-console.log(x);
-```
-
-```js
-var x = "我的"+
-"博客"+
-"https://www.bajins.com";
-console.log(x);
-```
-
-```js
-var x =['我的',
-    '博客',
-    'https://www.bajins.com'
-].join('');
-console.log(x);
-```
-
-```js
-var f = function () {/*
-      我的博客：
-      https://www.bajins.com
-*/};
-
-// 定义一个实现多行字符串的函数
-Function.prototype.multiLine = function () {
-    var str = this.toString().split('\n');
-    return str.slice(1, str.length - 1 ).join('\n');
-}
-
-Function.prototype.getMultiLine = function() {
-    var lines = this.toString();
-    return lines.substring(lines.indexOf("/*") + 3, lines.lastIndexOf("*/"));  
-}
-
-console.log(f.multiLine());
-console.log(f.getMultiLine());
-```
-
-- ECMAScript6语法
-
-```js
-var x = `我的
-博客
-https://www.bajins.com`;
-console.log(x);
-```
-
-
-**字符串拼接**
-
-
-```js
-var x = "我的博客${?}";
-x=x.replace("${?}","https://www.bajins.com");
-console.log(x);
-```
-
-```js
-var b="博客";
-var x = "我的" + b + "https://www.bajins.com";
-console.log(x);
-```
-
-- ECMAScript6语法
-
-```js
-var b="博客";
-var x = `我的${b}https://www.bajins.com`;
-console.log(x);
-```
-
-
 
 
 ## 正则表达式
@@ -164,6 +79,12 @@ console.log(new RegExp("var servers = (.*)","ig").exec(str));
 console.log(str.match(new RegExp("var servers = (.*)","ig")));
 console.log(new RegExp("test(.*)","ig").exec(str));
 console.log(str.match(new RegExp("test(.*)","ig")));
+
+// 匹配多个${}
+var reg = /(\${.*?\})/g;
+var reg = /\$\{[^\}]+\}/g;
+var str = "如何匹配到 ${A0111}${A0117}  现在好像只能匹配一个。";
+str.match(reg);
 ```
 
 
@@ -178,16 +99,13 @@ console.log(str.match(new RegExp("test(.*)","ig")));
 
 
 * [flyio](https://wendux.github.io/dist/#/doc/flyio/readme)
-* [HTTP封装](https://github.com/woytu/key-gin/blob/master/static/js/utils)
+* [HTTP封装](https://github.com/bajins/key-gin/blob/master/static/js/utils)
 * [XMLHttpRequest—必知必会](https://www.jianshu.com/p/918c63045bc3)
 * [XMLHttpRequest封装源码](https://github.com/yanxiaojun617/exercise/tree/master/src/20180410ajax)
 
 + Fetch各浏览器支持情况 [https://caniuse.com/?search=fetch](https://caniuse.com/?search=fetch)
 + Fetch标准 [https://github.com/whatwg/fetch](https://github.com/whatwg/fetch)
 + [https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)
-+ [https://github.com/github/fetch](https://github.com/github/fetch)
-+ [https://github.com/matthew-andrews/isomorphic-fetch](https://github.com/matthew-andrews/isomorphic-fetch)
-+ [https://github.com/qubyte/fetch-ponyfill](https://github.com/qubyte/fetch-ponyfill)
 
 
 **http,XMLHttpRequest,Ajax的关系**
@@ -199,395 +117,12 @@ console.log(str.match(new RegExp("test(.*)","ig")));
 - fetch不是ajax的进一步封装，而是原生js，没有使用XMLHttpRequest对象，使用了ES6中的promise对象
 
 
-**下载文件的几种方式**
-
-```js
-// 此方法火狐有些版本不支持
-window.location.href = 'https://www.bajins.com/files/设置必应壁纸.bat';
-// 支持所有
-window.location = 'https://www.bajins.com/files/设置必应壁纸.bat';
-
-// iframe
-function(url){
-    try {
-        var elemIF = document.createElement("iframe");
-        elemIF.src = url;
-        elemIF.style.display = "none";
-        document.body.appendChild(elemIF);
-    } catch (e) {
-        alert("下载异常！");
-    }
-}
-// form表单
-downloadFile(url){
-    var form=$(`<form style="display:none" target="" method="get" action={url}></form>`);
-    $("body").append(form);
-    form.submit();//表单提交}
-}
-// a标签
-function(url,name){
-    var a = document.createElement("a");
-    a.style.display = 'none';
-    a.download = name + ".xls";
-    a.href = url;
-    $("body").append(a); // 修复firefox中无法触发click
-    a.click();
-    $(a).remove();
-}
-// 处理后端返回文件流
-function (formData, url, filename) {
-    return new Promise((resolve, reject) => {
-        var xhr = new XMLHttpRequest();
-        xhr.open("POST", url, true); // 也可以使用POST方式，根据接口
-        xhr.responseType = "blob"; // 返回类型blob
-        // 定义请求完成的处理函数，请求前也可以增加加载框/禁用下载按钮逻辑
-        xhr.onload = function () {
-            // 请求完成，返回200
-            if (this.status === 200) {
-                // 方式一
-                var reader = new FileReader();
-                reader.readAsDataURL(this.response); // 转换为base64
-                reader.onload = function (e) {
-                    // 转换完成，创建一个a标签用于下载
-                    var a = document.createElement("a");
-                    a.download = filename;
-                    a.href = e.target.result;
-                    $("body").append(a); // 修复firefox中无法触发click
-                    a.click();
-                    resolve(200);
-                    $(a).remove();
-                }
-                // 方式二
-                let a = document.createElement('a');
-                a.style.display = 'none';
-                // 创建下载的链接
-                a.href = URL.createObjectURL(new Blob([this.response], {type: this.getResponseHeader('Content-Type')}));
-                // 下载后文件名
-                a.download = filename;
-                // 点击下载
-                a.click();
-                // 释放掉blob对象
-                URL.revokeObjectURL(a.href);
-                resolve(200);
-                a.removeNode(true);
-            }
-        }
-        // 发送ajax请求
-        xhr.send(formData);
-    });
-}
-```
-
-
-**blob转json**
-
-
-```js
-// 如果服务器错误返回
-if (result.data.type === 'application/json') {
-    let reader = new FileReader();
-    reader.readAsText(result.data, 'utf-8');
-    reader.onload = (e) => {
-        console.log(JSON.parse(reader.result));
-        console.log(JSON.parse(e.target.result));
-    }
-    reader.onload = function (e) {
-        console.log(JSON.parse(reader.result));
-        console.log(JSON.parse(e.target.result));
-    }
-}
-```
-
-
-## 类型判断
-
-**typeof**
-
-> `[]`和`null`被`typeof`解释为`object`类型
-
-> 数字`Number`，布尔值`Boolean`，字符串`String`，函数`Function`，对象`Object`，
-> `Undefined`这一些数据类型在`typeof`下都被精准的解释，只有数组和`null`的数据类型不够精准。
-
-
-```js
-console.log(typeof 2);              // number
-console.log(typeof true);           // boolean
-console.log(typeof 'str');          // string
-console.log(typeof []);             // object
-console.log(typeof function(){});   // function
-console.log(typeof {});             // object
-console.log(typeof (new Date));     // object
-console.log(typeof undefined);      // undefined
-console.log(typeof null);           // object
-```
-
-**instanceof**
-
-> 直接的字面量值判断数据类型，只有引用数据类型`Array`、`Function`、`Object`被精准判断
->
-> 数值`Number`，布尔值`Boolean`，字符串`String`等字面值不能被`instanceof`精准判断。
-
-> 在MDN中的解释：`instanceof`运算符用来测试一个对象在其原型链中是否存在一个构造函数的`prototype`属性。
-
-```js
-console.log(2 instanceof Number);               // false
-console.log(true instanceof Boolean);           // false
-console.log('str' instanceof String);           // false
-console.log([] instanceof Array);               // true
-console.log(function(){} instanceof Function);  // true
-console.log({} instanceof Object);              // true
-console.log(new Date() instanceof Object);      // true
-console.log(undefined instanceof Undefined);    // 报错
-console.log(null instanceof Null);              // 报错
-```
-
-
-**constructor**
-
-> 如果创建一个对象，更改它的原型，这种方式也变得不可靠了。
-
-```js
-console.log((2).constructor == Number);                 // true
-console.log((true).constructor == Boolean);             // true
-console.log(('str').constructor == String);             // true
-console.log(([]).constructor == Array);                 // true
-console.log((function() {}).constructor == Function);   // true
-console.log(({}).constructor == Object);                // true
-console.log((new Date()).constructor == Date);          // true
-console.log((undefined).constructor == Undefined);      // 报错
-console.log((null).constructor == Null);                // 报错
-```
-
-
-**call**
-
-> `Object.prototype.toString.call()`即使改变对象的原型，依然会显示正确的数据类型
-
-```js
-var a = Object.prototype.toString;
-console.log(a.call(2));             // [object Number]
-console.log(a.call(true));          // [object Boolean]
-console.log(a.call('str'));         // [object String]
-console.log(a.call([]));            // [object Array]
-console.log(a.call(function(){}));  // [object Function]
-console.log(a.call({}));            // [object Object]
-console.log(a.call(new Date()));    // [object Date]
-console.log(a.call(undefined));     // [object Undefined]
-console.log(a.call(null));          // [object Null]
-```
-
-
-## errors
-
-> `ECMAScript`定义了六种类型的错误。还可以使用`throw new Error("错误信息")`抛出自定义异常。
-
-1. `ReferenceError` 找不到对象时
-2. `TypeError` 错误的使用了类型或对象的方法时
-3. `RangeError` 使用内置对象的方法时，参数超范围
-4. `SyntaxError` 语法写错了
-5. `EvalError` 错误的使用了Eval
-6. `URIError` URI错误
-
-```js
-try{
-    // 可能发生错误的代码
-}catch(err){
-    // 只有发生错误时才执行的代码
-}finally{
-    // 无论是否出错，肯定都要执行的代码
-}
-```
-
-```js
-class CustomError extends Error {
-  constructor(message) {
-    super(message);
-    this.name = this.constructor.name;
-    Error.captureStackTrace(this, this.constructor);
-  }
-}
-
-class TimeoutError extends CustomError {}
-
-module.exports = {
-  TimeoutError,
-};
-```
-
-## 定时延时
-
-```js
-// 6000毫秒后执行testFunction()函数，只执行一次。
-setTimeout(function (){
-    // 业务逻辑
-
-}, 6000);
-
-// 每隔6000毫秒执行一次testFunction()函数，执行无数次。
-var interval = setInterval(function (){
-    // 业务逻辑
-
-}, 6000);
-// 停止执行setInterval循环。
-clearInterval(interval);
-```
-
-```js
-//第一种，使用while循环
-function sleep(delay) {
-    var start = (new Date()).getTime();
-    while((new Date()).getTime() - start < delay) {
-        continue;
-    }
-}
-//或者使用for循环
-function sleep(delay) {
-    for(var t = Date.now(); Date.now() - t <= delay;);
-}
-```
-
-
-
-## 获取宽高
-
-* [https://developer.mozilla.org/zh-CN/docs/Web/API/Window/matchMedia](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/matchMedia)
-
-```js
-// 屏幕可用工作区宽度
-screen.availWidth
-// 屏幕可用工作区高度
-screen.availHeight
-
-// 屏幕分辨率的宽
-screen.width
-// 屏幕分辨率的高
-screen.height
-
-// 网页正文部分上
-window.screenTop
-// 网页正文部分左
-window.screenLeft
-
-// 设置或获取位于给定对象左边界与窗口中目前可见内容的最左端之间的距离
-window.scrollLeft
-// 设置或获取位于给定对象最顶端与窗口中目前可见内容的最顶端之间的距离
-window.scrollTop
-
-// 设置或获取位于给定对象相对于版面或由offsetParent属性指定的父坐标的计算左侧位置
-window.offsetLeft
-// 设置或获取位于给定对象相对于版面或由offsetParent属性指定的父坐标的计算顶端位置
-window.offsetTop
-
-// 浏览器窗口的内部宽高，会随窗口的显示大小改变
-window.innerWidth
-window.innerHeight
-
-// 网页可见区域宽度，不包括工具栏和滚动条，会随窗口的显示大小改变
-document.body.clientWidth
-document.documentElement.clientWidth
-// 网页可见区域高度，不包括工具栏和滚动条，会随窗口的显示大小改变
-document.body.clientHeight
-document.documentElement.clientHeight
-
-// 网页可见区域宽度，包括滚动条等边线，会随窗口的显示大小改变
-document.body.offsetWidth
-document.documentElement.offsetWidth
-// 网页可见区域高度，包括滚动条等边线，会随窗口的显示大小改变
-document.body.offsetHeight
-document.documentElement.offsetHeight
-
-// 网页正文全文宽度(不包括滚动条)，会随窗口的显示大小改变
-document.body.scrollWidth
-document.documentElement.scrollWidth
-// 网页正文全文宽度(不包括滚动条)，会随窗口的显示大小改变
-document.body.scrollHeight
-document.documentElement.scrollHeight
-```
-
-```js
-/**
- * 把水平滚动条位置和垂直滚动条位置保存在Cookie中
- */
-function setScrollToCookie() {
-    var scrollTop, scrollLeft;
-    if (typeof window.pageYOffset != 'undefined') {
-        scrollTop = window.pageYOffset;
-        scrollLeft = window.pageXOffset;
-    } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
-        scrollTop = document.documentElement.scrollTop;
-        scrollLeft = document.documentElement.scrollLeft;
-    } else if (typeof document.body != 'undefined') {
-        scrollTop = document.body.scrollTop;
-        scrollLeft = document.body.scrollLeft;
-    }
-    var date = new Date();
-    date.setHours(date.getHours() + 1); // 设置cookie的有效期
-    // 创建cookie，保存水平滚动条位置
-    document.cookie = "scrollTop=" + escape(scrollTop) + "; expires=" + date.toGMTString();
-    // 创建cookie，保存垂直滚动条位置
-    document.cookie = "scrollLeft=" + escape(scrollLeft) + "; expires=" + date.toGMTString();
-}
-
-/**
- * 获取Cookie中存储的信息
- * 
- * @param {Stirng} sName 
- */
-function getCookie(sName) {
-    var arr = document.cookie.match(/(scrollTop|scrollLeft)=([^;]+)(;|$)/);
-    if (arr != null) {
-        var aCookie = document.cookie.split("; "); // 将cookie中的数据切割成数组，方便遍历
-        for (var i = 0; i < aCookie.length; i++) { // 遍历cookie中的数据
-            var aCrumb = aCookie[i].split("="); // 将键和值分开
-            if (sName == aCrumb[0]) { // 判断是否是指定的键
-                return unescape(aCrumb[1]);
-            }
-        }
-    }
-    return null;
-}
-
-/**
- * 加载页面时自动执行获取cookie保存值的方法
- */
-window.onload = function () {
-    document.documentElement.scrollLeft = getCookie("scrollLeft");
-    document.body.scrollLeft = getCookie("scrollLeft"); // 获取水平滚动条位置
-    document.documentElement.scrollTop = getCookie("scrollTop");
-    document.body.scrollTop = getCookie("scrollTop"); // 获取垂直滚动条位置
-}
-
-window.onunload = setScrollToCookie();
-
-window.onbeforeunload = setScrollToCookie();
-```
-
-
-## 监听窗口变化
-
-* [window.onresize或者$(window).resize()触发两次](https://blog.csdn.net/soindy/article/details/53886921)
-
-```js
-window.onresize = function () {
-    var res;
-    if (res){clearTimeout(res)}
-    res = setTimeout(function(){console.log($(window).width(););},20);
-}
-$(window).resize(function () {
-    $(window).width();
-});
-$(window).on('resize', function () {
-    $(window).width();
-});
-$(window).resizeEnd({delay: 500}, function () {
-    $(window).width();
-});
-```
 
 
 ## 标签默认事件
 
 * [https://developer.mozilla.org/zh-CN/docs/Web/API/Event](https://developer.mozilla.org/zh-CN/docs/Web/API/Event)
+
 
 **阻止其他事件触发**
 
@@ -669,91 +204,13 @@ function test(event){
     }
 </script>
 ```
+ 
 
-
-## 封包闭包
-
-```js
-(function () {
-    // 全局对象
-    window.utils = {};
-}());
-```
-
-```js
-(function (w) {
-    // 全局对象
-    var utils = function () {
-
-    };
-    // 兼容AMD,CMD和原生JS
-    if (typeof define === "function" && (define.amd || define.cmd)) {
-        define(function () {
-            return new utils();
-        });
-    } else {
-        w.utils = new utils();
-    }
-})(window);
-```
-
-```js
-; (function () {
-    var utils = function () {
-        // ... 
-    }
-    // 兼容AMD,CMD和原生JS
-    if (typeof module !== 'undefined' && typeof exports === 'object' && define.cmd) {
-        module.exports = utils;
-    } else if (typeof define === 'function' && define.amd) {
-
-        define(function () { return utils; });
-
-    } else {
-        this.utils = utils;
-    }
-}).call(function () {
-    return this || (typeof window !== 'undefined' ? window : global);
-});
-```
-
-```js
-$(function (w) {
-    // 全局对象
-    window.utils = {};
-}($));
-```
-
-```js
-(function ($) {
-    // 全局对象
-    window.utils = {};
-})(jQuery);
-```
-
-```js
-$(function () {
-    // 全局对象
-    window.utils = {};
-});
-```
-
-```js
-jQuery(function ($) {
-    // 全局对象
-    window.utils = {};
-});
-```
-
-```js
-$(document).ready(function () {
-    // 全局对象
-    window.utils = {};
-})
-```
 
 
 ## Storage和Cache
+
++ [技术指南-MDN](https://developer.mozilla.org/zh-CN/docs/Web/Progressive_web_apps#%E6%8A%80%E6%9C%AF%E6%8C%87%E5%8D%97)
 
 * [使用Chrome DevTools查看和编辑本地存储](https://developers.google.com/web/tools/chrome-devtools/storage/localstorage)
 * [https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Storage_API](https://developer.mozilla.org/zh-CN/docs/Web/API/Web_Storage_API)
@@ -762,8 +219,6 @@ $(document).ready(function () {
     * [https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API/Using_IndexedDB](https://developer.mozilla.org/zh-CN/docs/Web/API/IndexedDB_API/Using_IndexedDB)
 * [HTML5 - 应用程序缓存(Application Cache)](https://blog.csdn.net/weixin_44198965/article/details/89760924)
 
-
-> storage存储的数据只能是字符串类型，其他类型的数据需做类型转换，只要当前浏览器标签页不关闭会一直存在（不管是否进行了链接跳转）
 
 ```js
 sessionStorage.setItem("k", "v");
@@ -779,6 +234,64 @@ for(var i=0, len=localStorage.length; i<len; i++){
     var value = localStorage.getItem(key);    
     console.log(key + "=" + value);
 }
+```
+
+```js
+/**
+ * 把水平滚动条位置和垂直滚动条位置保存在Cookie中
+ */
+function setScrollToCookie() {
+    var scrollTop, scrollLeft;
+    if (typeof window.pageYOffset != 'undefined') {
+        scrollTop = window.pageYOffset;
+        scrollLeft = window.pageXOffset;
+    } else if (typeof document.compatMode != 'undefined' && document.compatMode != 'BackCompat') {
+        scrollTop = document.documentElement.scrollTop;
+        scrollLeft = document.documentElement.scrollLeft;
+    } else if (typeof document.body != 'undefined') {
+        scrollTop = document.body.scrollTop;
+        scrollLeft = document.body.scrollLeft;
+    }
+    var date = new Date();
+    date.setHours(date.getHours() + 1); // 设置cookie的有效期
+    // 创建cookie，保存水平滚动条位置
+    document.cookie = "scrollTop=" + escape(scrollTop) + "; expires=" + date.toGMTString();
+    // 创建cookie，保存垂直滚动条位置
+    document.cookie = "scrollLeft=" + escape(scrollLeft) + "; expires=" + date.toGMTString();
+}
+
+/**
+ * 获取Cookie中存储的信息
+ * 
+ * @param {Stirng} sName 
+ */
+function getCookie(sName) {
+    var arr = document.cookie.match(/(scrollTop|scrollLeft)=([^;]+)(;|$)/);
+    if (arr != null) {
+        var aCookie = document.cookie.split("; "); // 将cookie中的数据切割成数组，方便遍历
+        for (var i = 0; i < aCookie.length; i++) { // 遍历cookie中的数据
+            var aCrumb = aCookie[i].split("="); // 将键和值分开
+            if (sName == aCrumb[0]) { // 判断是否是指定的键
+                return unescape(aCrumb[1]);
+            }
+        }
+    }
+    return null;
+}
+
+/**
+ * 加载页面时自动执行获取cookie保存值的方法
+ */
+window.onload = function () {
+    document.documentElement.scrollLeft = getCookie("scrollLeft");
+    document.body.scrollLeft = getCookie("scrollLeft"); // 获取水平滚动条位置
+    document.documentElement.scrollTop = getCookie("scrollTop");
+    document.body.scrollTop = getCookie("scrollTop"); // 获取垂直滚动条位置
+}
+
+window.onunload = setScrollToCookie();
+
+window.onbeforeunload = setScrollToCookie();
 ```
 
 
@@ -812,3 +325,41 @@ $("#a").removeAttr('data-name');
 console.log($("#a").data('name'));//undefined
 ```
 
+## 自动触发事件
+
+* [https://developer.mozilla.org/zh-CN/docs/Web/API/Event](https://developer.mozilla.org/zh-CN/docs/Web/API/Event)
+* [js防止重复触发事件](https://segmentfault.com/a/1190000012147456)
+
+```js
+var event = document.createEvent('Event'); // 创建
+event.initEvent('keydown', true, false); // 初始化
+event = Object.assign(event, {
+    ctrlKey: false,
+    metaKey: false,
+    altKey: false,
+    which: 13,
+    keyCode: 13, // 回车
+    key: 'Enter',
+    code: 'Enter'
+});
+var inp = document.querySelector('.input');
+inp.value = new Date().toLocaleString();
+inp.dispatchEvent(event); // 触发
+inp.detachEvent(event); // 事件删除
+
+
+var e = $.Event("keydown") || jQuery.Event("keydown"); // 创建事件
+e.keyCode = 13; // 回车
+$("input").trigger(e); // 触发事件
+```
+
+
+## 合并对象
+
+```js
+Object.assing({}, obj);
+{...{}, ...obj}
+
+// Jquery
+$.extend({}, obj)
+```

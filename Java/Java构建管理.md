@@ -8,30 +8,63 @@
 ## Flag
 
 + [https://github.com/gradle/gradle](https://github.com/gradle/gradle)
+    + [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
+    + 自定义运行时映像 [https://github.com/beryx](https://github.com/beryx)
+    + 创建支持包重定位 [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
+    + [https://github.com/Omico/Gradm](https://github.com/Omico/Gradm)
++ [https://github.com/package-url](https://github.com/package-url)
++ [https://github.com/topics/bazel](https://github.com/topics/bazel)
++ [https://github.com/bazelbuild](https://github.com/bazelbuild)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
-+ [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
++ [https://github.com/camunda](https://github.com/camunda)
++ 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
 + [https://github.com/sakerbuild/saker.java.compiler](https://github.com/sakerbuild/saker.java.compiler)
 + 打包 [https://github.com/shevek/jarjar](https://github.com/shevek/jarjar)
 + [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
-+ [https://github.com/Elzawawy/java-bytecode-generator](https://github.com/Elzawawy/java-bytecode-generator)
-+ [https://github.com/jboss-javassist/javassist](https://github.com/jboss-javassist/javassist)
 + [https://github.com/codehaus-plexus/plexus-compiler](https://github.com/codehaus-plexus/plexus-compiler)
 + [https://github.com/eclipse/eclipse.jdt.core](https://github.com/eclipse/eclipse.jdt.core)
-+ [https://github.com/topics/javacc](https://github.com/topics/javacc)
-    + [https://github.com/javacc/javacc](https://github.com/javacc/javacc)
-    + [https://github.com/javacc21/javacc21](https://github.com/javacc21/javacc21)
-    + [JavaCC官方入门指南-概述](https://www.cnblogs.com/suhaha/p/11733487.html)
++ [https://www.jetbrains.com/help/idea/java-compiler.html](https://www.jetbrains.com/help/idea/java-compiler.html)
++ 混淆工具 [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
+
+- [https://github.com/topics/classloader](https://github.com/topics/classloader)
+- [https://github.com/technomancy/leiningen](https://github.com/technomancy/leiningen)
+
+* [原来实现项目多环境打包部署是如此的简单](https://www.cnblogs.com/hafiz/p/7559976.html)
+
+
+**可执行文件打包**
+
+* [https://jar-download.com](https://jar-download.com)
+* [https://github.com/izpack/izpack](https://github.com/izpack/izpack)
+    * [https://sourceforge.net/projects/packjacket](https://sourceforge.net/projects/packjacket)
+* [https://sourceforge.net/projects/launch4j](https://sourceforge.net/projects/launch4j)
+* [https://github.com/poidasmith/winrun4j](https://github.com/poidasmith/winrun4j)
+* [https://sourceforge.net/projects/vainstall](https://sourceforge.net/projects/vainstall)
+* [https://github.com/BrunoReX/jsmooth](https://github.com/BrunoReX/jsmooth)
+* [https://sourceforge.net/projects/packlet](https://sourceforge.net/projects/packlet)
+* [https://sourceforge.net/projects/jpackit](https://sourceforge.net/projects/jpackit)
+* [https://sourceforge.net/projects/one-jar](https://sourceforge.net/projects/one-jar)
+* [https://sourceforge.net/projects/autojar](https://sourceforge.net/projects/autojar)
+* [https://sourceforge.net/projects/mjar](https://sourceforge.net/projects/mjar)
+* [把Java应用程序安装成一个Windows NT服务或Unix Daemon](https://wrapper.tanukisoftware.com/doc/english/download.jsp)
+
+- [https://exe4j.apponic.com](https://exe4j.apponic.com)
+- [JavaFx应用打包](https://blog.csdn.net/paopao_wu/article/details/107641976)
+- [如何将 JavaFX 的程序打包成 exe，更进一步制作一个windows 安装程序?](https://www.zhihu.com/question/364933451)
+
 
 
 **持续集成**
 
 - [https://github.com/jenkinsci](https://github.com/jenkinsci)
-  - [https://www.jenkins.io](https://www.jenkins.io)
+    - [https://www.jenkins.io](https://www.jenkins.io)
 - Jenkins前身 [https://github.com/hudson](https://github.com/hudson)
 - [https://www.jetbrains.com/zh-cn/teamcity](https://www.jetbrains.com/zh-cn/teamcity)
 - [https://www.atlassian.com/zh/software/bamboo](https://www.atlassian.com/zh/software/bamboo)
 - [https://github.com/technomancy/leiningen](https://github.com/technomancy/leiningen)
 - [https://github.com/ansible/ansible](https://github.com/ansible/ansible)
+- 自动化部署 [https://github.com/dreamans/syncd](https://github.com/dreamans/syncd)
+- [https://github.com/jitpack/jitpack.io](https://github.com/jitpack/jitpack.io)
 
 
 
@@ -159,7 +192,15 @@
 
 ## Maven
 
++ [https://maven.apache.org](https://maven.apache.org)
+    + [https://maven.apache.org/plugins/index.html](https://maven.apache.org/plugins/index.html)
++ [https://github.com/ibofine/mavenbook](https://github.com/ibofine/mavenbook)
+    + [https://ibofine.github.io/mavenbook](https://ibofine.github.io/mavenbook)
 + [Maven详细教程](https://segmentfault.com/a/1190000015077021)
++ [史上最全的maven的pom.xml文件详解](https://www.cnblogs.com/hafiz/p/5360195.html)
++ [Maven - 花落花开](http://www.hualuohuakai.net/tags/Maven)
++ maven手册 [https://github.com/inuter/Maven-Notebook](https://github.com/inuter/Maven-Notebook)
+
 
 * [http://mvnrepository.com](http://mvnrepository.com)
 * [https://search.maven.org](https://search.maven.org)
@@ -167,10 +208,22 @@
 * [https://public.nexus.pentaho.org](https://public.nexus.pentaho.org)
 * JFrog Bintray [https://github.com/bintray](https://github.com/bintray)
     * [https://bintray.com](https://bintray.com)
+* [https://packages.aliyun.com](https://packages.aliyun.com)
+
 
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
 + maven-assembly-plugin 支持自定义的打包结构，也可以定制依赖项等。
++ [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
++ [https://github.com/takari/maven-wrapper](https://github.com/takari/maven-wrapper)
++ [https://github.com/mojohaus/exec-maven-plugin](https://github.com/mojohaus/exec-maven-plugin)
++ [https://github.com/mathieucarbou/license-maven-plugin](https://github.com/mathieucarbou/license-maven-plugin)
++ [https://github.com/mojohaus](https://github.com/mojohaus)
+
+
+
+- [开源的一小步----开源类库传至Maven中央仓库](https://www.cnblogs.com/shook/p/14415856.html)
+- [Maven(6) Java上传本地jar包到maven中央仓库](https://blog.csdn.net/qq_38225558/article/details/94381467)
 
 
 
@@ -186,6 +239,7 @@
 
 - [https://github.com/spotify/docker-maven-plugin](https://github.com/spotify/docker-maven-plugin)
 - [https://github.com/spotify/dockerfile-maven](https://github.com/spotify/dockerfile-maven)
+- [https://github.com/khanhas/spicetify-cli](https://github.com/khanhas/spicetify-cli)
 - [https://github.com/fabric8io/docker-maven-plugin](https://github.com/fabric8io/docker-maven-plugin)
 - [https://github.com/GoogleContainerTools/jib](https://github.com/GoogleContainerTools/jib)
 - [https://github.com/lazyboyl/docker-develop-maven-plugin](https://github.com/lazyboyl/docker-develop-maven-plugin)
@@ -213,14 +267,59 @@
 + [maven远程部署war包到tomcat8服务器](https://blog.csdn.net/qq_23994787/article/details/106161124)
 + [如何利用maven插件部署项目到远程运行环境](https://blog.csdn.net/lushuifa/article/details/106163624)
 + [使用site-maven-plugin在github上搭建公有仓库](http://www.flydean.com/apache-maven-git-repository)
++ [Maven中央仓库项目上传指南](https://mikuac.com/archives/942)
 
 
 
-**插件**
+### Maven命令
 
-+ [https://maven.apache.org/plugins/index.html](https://maven.apache.org/plugins/index.html)
+> maven 命令的格式为 mvn [plugin-name]:[goal-name]
 
-* [https://github.com/mojohaus/exec-maven-plugin](https://github.com/mojohaus/exec-maven-plugin)
+- `-D` 指定参数，如 -Dmaven.test.skip=true 跳过单元测试；`
+- `-P` 指定 Profile 配置，可以用于区分环境；`
+- `-e` 显示maven运行出错的信息
+- `-o` 离线执行命令,即不去远程仓库更新包
+- `-X` 显示maven允许的debug信息
+- `-U` 强制去远程更新snapshot的插件或依赖，默认每天只更新一次
+
+* 创建maven项目: `mvn archetype:create`
+* 指定 group: ` -DgroupId=packageName`
+* 指定 artifact: `-DartifactId=projectName`
+* 创建web项目: `-DarchetypeArtifactId=maven-archetype-webapp`
+* 创建maven项目: `mvn archetype:generate`
+* 验证项目是否正确: `mvn validate`
+* maven 打包: `mvn package`
+* 只打jar包: `mvn jar:jar`
+* 生成源码jar包: `mvn source:jar`
+* 产生应用需要的任何额外的源代码: `mvn generate-sources`
+* 编译源代码: ` mvn compile`
+* 编译测试代码: `mvn test-compile`
+* 运行测试: `mvn test`
+* 运行检查: `mvn verify`
+* 清理maven项目: `mvn clean`
+* 生成eclipse项目: `mvn eclipse:eclipse`
+* 清理eclipse配置: `mvn eclipse:clean`
+* 生成idea项目: `mvn idea:idea`
+* 安装项目到本地仓库: `mvn install`
+* 发布项目到远程仓库: `mvn:deploy`
+* 在集成测试可以运行的环境中处理和发布包: `mvn integration-test`
+* 显示maven依赖树: `mvn dependency:tree`
+* 显示maven依赖列表: `mvn dependency:list`
+* 下载依赖包的源码: `mvn dependency:sources`
+* 安装本地jar到本地仓库: `mvn install:install-file -DgroupId=packageName -DartifactId=projectName -Dversion=version -Dpackaging=jar -Dfile=path`
+
+
+**web项目相关命令**
+
+- 启动tomcat: `mvn tomcat:run`
+- 启动jetty: `mvn jetty:run`
+- 运行打包部署: `mvn tomcat:deploy`
+- 撤销部署: `mvn tomcat:undeploy`
+- 启动web应用: `mvn tomcat:start`
+- 停止web应用: `mvn tomcat:stop`
+- 重新部署: `mvn tomcat:redeploy`
+- 部署展开的war文件: `mvn war:exploded tomcat:exploded`
+
 
 
 

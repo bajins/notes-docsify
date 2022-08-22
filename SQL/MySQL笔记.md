@@ -17,6 +17,25 @@
 ## 常用语句
 
 
+```sql
+-- 根据表注释查找对应的表
+SELECT TABLE_NAME 表名,TABLE_COMMENT '表注解' FROM INFORMATION_SCHEMA.TABLES
+ WHERE TABLE_SCHEMA = '数据库名' AND TABLE_COMMENT  LIKE '%注释关键词%';
+```
+
+
+```sql
+-- 插入或替换 若id=1的记录不存在，REPLACE语句将插入新记录，否则，当前id=1的记录将被删除，然后再插入新记录。
+REPLACE INTO students (id, class_id, name, gender, score) VALUES (1, 1, '小明', 'F', 99);
+-- 插入或更新 upsert
+INSERT INTO students (id, class_id, name, gender, score) VALUES (1, 1, '小明', 'F', 99) ON DUPLICATE KEY UPDATE name='小明', gender='F', score=99;
+-- 插入或忽略
+INSERT IGNORE INTO students (id, class_id, name, gender, score) VALUES (1, 1, '小明', 'F', 99);
+```
+
+
+
+
 ### 命令行
 
 > 可以用shell脚本操作mysql数据库，使用mysql的`-e`参数可以执行各种sql的(创建，删除，增，删，改、查)等各种操作。
@@ -132,7 +151,7 @@ selectnamefrom mysql.proc where db = 'your_db_name' andtype= 'PROCEDURE';
 
 show procedure status;
 
-# 查看存储过程或函数的创建代码
+-- 查看存储过程或函数的创建代码
 show create procedure proc_name;
 show create function func_name;
 ```

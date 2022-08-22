@@ -10,59 +10,52 @@
 
 + Web 开发技术-MDN [https://developer.mozilla.org/zh-CN/docs/Web](https://developer.mozilla.org/zh-CN/docs/Web)
 + Web API [https://developer.mozilla.org/zh-CN/docs/Web/API](https://developer.mozilla.org/zh-CN/docs/Web/API)
++ [https://github.com/w3c](https://github.com/w3c)
 + W3C 网页标准教程 [http://www.w3chtml.com](http://www.w3chtml.com)
++ [https://github.com/immersive-web](https://github.com/immersive-web)
++ IETF [https://tools.ietf.org](https://tools.ietf.org)
 
 
+* 代码提示 [https://github.com/webhintio](https://github.com/webhintio)
+* [https://github.com/microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
+* 开发人员设计资源 [https://github.com/bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
+* Web组件 [https://github.com/webcomponents](https://github.com/webcomponents)
+* Web开源项目 [https://github.com/bestofjs/bestofjs-webui](https://github.com/bestofjs/bestofjs-webui)
+* [https://github.com/the-benchmarker/website](https://github.com/the-benchmarker/website)
+* [https://github.com/jobbole/awesome-design-cn](https://github.com/jobbole/awesome-design-cn)
 * [https://github.com/junruchen/junruchen.github.io/wiki](https://github.com/junruchen/junruchen.github.io/wiki)
 * [https://github.com/mathjax](https://github.com/mathjax)
 * 前端知识点总结 [https://github.com/zhaiyy/Web-front-end-knowledge-summary](https://github.com/zhaiyy/Web-front-end-knowledge-summary)
 * [https://github.com/mqyqingfeng/Blog](https://github.com/mqyqingfeng/Blog)
 * [https://github.com/axuebin/articles](https://github.com/axuebin/articles)
+* [https://github.com/LiangJunrong/document-library](https://github.com/LiangJunrong/document-library)
 * 前端面试 [https://github.com/haizlin/fe-interview](https://github.com/haizlin/fe-interview)
-
-- [https://github.com/material-components](https://github.com/material-components)
-  - [https://md.maxoxo.design](https://md.maxoxo.design)
-- [https://github.com/webview](https://github.com/webview)
-
-
+* [https://edu.aliyun.com/roadmap/frontend](https://edu.aliyun.com/roadmap/frontend)
 * [前端解决第三方图片防盗链的办法 - html referrer 访问图片资源403问题](https://github.com/biaochenxuying/blog/issues/31)
 * [Serverless——前端的3.0时代](https://zhuanlan.zhihu.com/p/84054729)
 
+
++ 前端精读周刊 [https://github.com/ascoders/weekly](https://github.com/ascoders/weekly)
 + [https://jsbin.com](https://jsbin.com)
 + [f2ex.cn 各种前端资源](http://f2ex.cn)
 
 
-**TypeScript**
-
-* [https://github.com/Microsoft/TypeScript](https://github.com/Microsoft/TypeScript)
-    * [lib目录下包含了所有JavaScript官方DOM API](https://github.com/microsoft/TypeScript/tree/master/lib)
-* [深入理解 TypeScript](https://jkchao.github.io/typescript-book-chinese)
-
-
-**WebAssembly**
-
-+ [https://github.com/topics/wasm](https://github.com/topics/wasm)
-
-* [https://github.com/WebAssembly](https://github.com/WebAssembly)
-* [https://developer.mozilla.org/zh-CN/docs/WebAssembly](https://developer.mozilla.org/zh-CN/docs/WebAssembly)
-* [https://webassembly.org](https://webassembly.org)
-* [https://www.wasm.com.cn](https://www.wasm.com.cn)
-
-- Mozilla：可以用 Rust + WebAssembly 作为 JavaScript 替代
-- Google：可以用 Dart + WebAssembly 作为 JavaScript 替代
-- Microsoft：可以用 TypeScript/AssemblyScript + WebAssembly 作为 JavaScript 替代
-
-* [https://github.com/ShizukuIchi/winXP](https://github.com/ShizukuIchi/winXP)
+- 网站测试 [https://github.com/ycd/dstp](https://github.com/ycd/dstp)
+- web3.0 [https://github.com/ChainSafe/web3.js](https://github.com/ChainSafe/web3.js)
+- [https://github.com/ethereum](https://github.com/ethereum)
+- 热加载 [https://github.com/livereload](https://github.com/livereload)
 
 
 
-## 免费域名
 
-- [https://www.freenom.com](https://www.freenom.com)
-- [https://nic.eu.org](https://nic.eu.org)
 
-- 全球加速CDN [https://www.nodecache.com/product/cdn](https://www.nodecache.com/product/cdn) 新客户享500G北美、亚太通用流量包+100G中国直连流量包一个月
-- [如何正确绕开备案使用国内机器](https://www.hqsblog.cn/2019/12/15/237.html)
+<details>
+<summary style="font-size:160%;">点击查看浏览器缓存</summary>
+<a href="https://www.jianshu.com/p/fbdf565afc48">JS 浏览器缓存</a>
+
+![](/images/js浏览器缓存.png)
+</details>
+
 
 
 
@@ -70,6 +63,7 @@
 
 + [https://github.com/topics/website](https://github.com/topics/website)
 + [https://github.com/topics/express](https://github.com/topics/express)
++ [https://github.com/topics/expressjs](https://github.com/topics/expressjs)
 + [https://github.com/search?q=导航](https://github.com/search?q=%E5%AF%BC%E8%88%AA)
 + [https://github.com/topics/bookmark](https://github.com/topics/bookmark)
 + [https://github.com/topics/site-navigation](https://github.com/topics/site-navigation)
@@ -82,17 +76,23 @@
 + [https://github.com/topics/static-blog](https://github.com/topics/static-blog)
 + [不蒜子文章统计](http://busuanzi.ibruce.info)
     + [https://www.npmjs.com/search?q=keywords:busuanzi](https://www.npmjs.com/search?q=keywords:busuanzi)
-+ [https://www.algolia.com/docsearch](https://www.algolia.com/docsearch)
++ 搜索 [https://github.com/algolia/docsearch](https://github.com/algolia/docsearch)
+    + [https://www.algolia.com/docsearch](https://www.algolia.com/docsearch)
++ [https://sourcegraph.com/search](https://sourcegraph.com/search)
++ [https://github.com/ekalinin/sitemap.js](https://github.com/ekalinin/sitemap.js)
++ 网页加载进度 [https://github.com/CodeByZach/pace](https://github.com/CodeByZach/pace)
++ 天气 [https://weatherwidget.io](https://weatherwidget.io)
 
+- 静态站点生成器列表 [https://github.com/jamstack/jamstack.org](https://github.com/jamstack/jamstack.org)
+    - [https://jamstack.org/generators](https://jamstack.org/generators)
 
 * 静态编译VuePress [https://github.com/vuejs/vuepress](https://github.com/vuejs/vuepress)
-    * [https://github.com/vuepressjs/awesome-vuepress](https://github.com/vuepressjs/awesome-vuepress)
+    * [https://github.com/vuepress/vuepress-next](https://github.com/vuepress/vuepress-next)
+    * [https://github.com/vuepress/awesome-vuepress](https://github.com/vuepress/awesome-vuepress)
     * [https://github.com/search?q=vuepress-theme](https://github.com/search?q=vuepress-theme)
     * [https://github.com/topics/vuepress-theme](https://github.com/topics/vuepress-theme)
-    * [https://github.com/z3by/vuepress-tools/tree/master/packages](https://github.com/z3by/vuepress-tools/tree/master/packages)
-* 静态编译NuxtJs [https://github.com/nuxt](https://github.com/nuxt)
-* 静态编译Hexo [https://github.com/hexojs/hexo](https://github.com/hexojs/hexo)
-* 静态编译Hugo [https://github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
+    * [https://github.com/z3by/vuepress-tools](https://github.com/z3by/vuepress-tools)
+    * [https://github.com/vuejs/vitepress](https://github.com/vuejs/vitepress)
 * 静态编译Jekyll [https://github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
     * [http://jekyllcn.com](http://jekyllcn.com)
     * [https://www.jekyll.com.cn](https://www.jekyll.com.cn)
@@ -100,11 +100,49 @@
 * 静态编译Docsite [https://github.com/txd-team/docsite](https://github.com/txd-team/docsite)
 * 运行时驱动Docsify [https://github.com/docsifyjs/docsify](https://github.com/docsifyjs/docsify)
     * [https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
-* [https://github.com/docpress/docpress](https://github.com/docpress/docpress)
-* [运行时驱动Docute](https://github.com/egoist/docute)
-* [从仓库生成文档](https://github.com/readthedocs/readthedocs.org)
+* 运行时驱动 [https://github.com/egoist/docute](https://github.com/egoist/docute)
+* 从仓库生成文档 [https://github.com/readthedocs](https://github.com/readthedocs)
 * [https://github.com/getgridea/gridea](https://github.com/getgridea/gridea)
 * [https://github.com/facebook/docusaurus](https://github.com/facebook/docusaurus)
+* 简历 [https://github.com/xaoxuu/resume-docs](https://github.com/xaoxuu/resume-docs)
+* [https://github.com/AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume)
+* 百科 [https://github.com/Requarks/wiki](https://github.com/Requarks/wiki)
+* [https://github.com/phachon/mm-wiki](https://github.com/phachon/mm-wiki)
+
+
+**API接口文档管理**
+
+- [https://siguso.com](https://siguso.com)
+- [https://easydoc.net](https://easydoc.net)
+- [https://www.uedbox.com/share](https://www.uedbox.com/share)
+- [https://github.com/star7th/showdoc](https://github.com/star7th/showdoc)
+- [https://github.com/mylxsw/wizard](https://github.com/mylxsw/wizard)
+- [https://github.com/doxygen/doxygen](https://github.com/doxygen/doxygen)
+- [https://github.com/apidoc/apidoc](https://github.com/apidoc/apidoc)
+- [https://github.com/jsdoc](https://github.com/jsdoc)
+- [https://github.com/asciidoctor](https://github.com/asciidoctor)
+- [https://github.com/thx/rap2-delos](https://github.com/thx/rap2-delos)
+- [https://github.com/YMFE/yapi](https://github.com/YMFE/yapi)
+    - [https://github.com/fjc0k/YApi-X](https://github.com/fjc0k/YApi-X)
+- [https://github.com/wiztools/rest-client](https://github.com/wiztools/rest-client)
+- [https://github.com/pedronauck/docz](https://github.com/pedronauck/docz)
+- [https://github.com/EhsanTang/ApiManager](https://github.com/EhsanTang/ApiManager)
+- [https://github.com/smart-doc-group](https://github.com/smart-doc-group)
+    - [https://gitee.com/smart-doc-team](https://gitee.com/smart-doc-team)
+- Swift或Objective-C [https://github.com/realm/jazzy](https://github.com/realm/jazzy)
+- Java [https://github.com/Kapeli/javadocset](https://github.com/Kapeli/javadocset)
+
+
+
+### 免费域名
+
+- [https://www.freenom.com](https://www.freenom.com)
+- [https://nic.eu.org](https://nic.eu.org)
+    - [人人都可申请拥有EU.org免费域名](https://51.ruyo.net/17863.html)
+
+
+* [如何正确绕开备案使用国内机器](https://www.hqsblog.cn/2019/12/15/237.html)
+
 
 
 **创建自己的免费网站**
@@ -113,39 +151,167 @@
 - [https://neocities.org](https://neocities.org)
 
 
-### 静态部署
 
-+ [具有免费许可证的所有平台的Heroku替代方案](https://alternativeto.net/software/heroku/?license=free)
-    + [https://github.com/caprover](https://github.com/caprover)
-    + [https://www.heliohost.org](https://www.heliohost.org)
-    + [https://github.com/hasura](https://github.com/hasura)
-    + [https://github.com/gatsbyjs](https://github.com/gatsbyjs)
-    + [https://www.onworks.net](https://www.onworks.net)
+## 留言社区
 
-* [https://www.netlify.com](https://www.netlify.com)
-    * 示例：[https://woytu.netlify.app](https://woytu.netlify.app)
-* [https://slack.com/get-started](https://slack.com/get-started)
-* [https://docs.travis-ci.com/user/tutorial](https://docs.travis-ci.com/user/tutorial)
-* [https://github.com/zeit](https://github.com/zeit)
-    * 示例：[https://woytu.now.sh](https://woytu.now.sh)
-* [https://github.com/vercel](https://github.com/vercel)
-    * [https://vercel.com](https://vercel.com)
-* [https://github.com/heroku](https://github.com/heroku)
-    * [https://github.com/heroku/heroku-buildpack-static](https://github.com/heroku/heroku-buildpack-static)
-    * 示例：[https://woytu.herokuapp.com](https://woytu.herokuapp.com)
-* [https://www.bmob.cn](https://www.bmob.cn)
-* [https://fast.io](https://fast.io)
-    * 示例：[https://bajins.imfast.io](https://bajins.imfast.io)
-* [https://www.appveyor.com](https://www.appveyor.com)
-* [https://kubesail.com](https://kubesail.com)
-* [https://azure.microsoft.com/zh-cn/services/devops/pipelines](https://azure.microsoft.com/zh-cn/services/devops/pipelines)
-* [https://app.buddy.works](https://app.buddy.works)
-
-- 命令行：[https://github.com/sintaxi/surge](https://github.com/sintaxi/surge)
-  - [https://surge.sh](https://surge.sh)
-- 命令行：[https://github.com/firebase/firebase-tools](https://github.com/firebase/firebase-tools)
+* [注册一个新的 OAuth Application](https://github.com/settings/applications/new)
+* 问卷调查 [https://www.typeform.com](https://www.typeform.com)
+* [https://www.drift.com](https://www.drift.com)
 
 
+
+**留言评论**
+
++ [https://github.com/topics/comments](https://github.com/topics/comments)
++ [https://github.com/topics/comment-system](https://github.com/topics/comment-system)
+
+
+* [https://github.com/MiniValine](https://github.com/MiniValine)
+* [https://www.livere.com](https://www.livere.com)
+* [https://github.com/xCss/Valine](https://github.com/xCss/Valine)
+    * [https://github.com/DesertsP/Valine-Admin](https://github.com/DesertsP/Valine-Admin)
+    * [https://github.com/walinejs/waline](https://github.com/walinejs/waline)
+* [https://github.com/djyde/cusdis](https://github.com/djyde/cusdis)
+* 小部件 [https://github.com/widgetbot-io](https://github.com/widgetbot-io)
+* [https://chatra.com](https://chatra.com)
+* [https://crisp.chat](https://crisp.chat)
+* [https://disqus.com](https://disqus.com)
+* [https://github.com/gitalk](https://github.com/gitalk)
+    * [Gitalk评论插件使用教程](https://segmentfault.com/a/1190000018072952)
+* [https://github.com/meteorlxy/vssue](https://github.com/meteorlxy/vssue)
+* [https://github.com/imsun/gitment](https://github.com/imsun/gitment)
+* [https://github.com/EZForever/gitment-mod](https://github.com/EZForever/gitment-mod)
+* [https://github.com/utterance/utterances](https://github.com/utterance/utterances)
+* [https://github.com/coralproject/talk](https://github.com/coralproject/talk)
+* [https://github.com/vkuznecovas/mouthful](https://github.com/vkuznecovas/mouthful)
+* [https://github.com/cheng-kang/wildfire](https://github.com/cheng-kang/wildfire)
+* [https://github.com/Ericwyn/Ponza](https://github.com/Ericwyn/Ponza)
+* [https://github.com/aonemd/jazl](https://github.com/aonemd/jazl)
+* [https://github.com/art-deco/akashic.page](https://github.com/art-deco/akashic.page)
+* [https://github.com/aloud-comments](https://github.com/aloud-comments)
+* [https://github.com/MHuiG/ohhho](https://github.com/MHuiG/ohhho)
+* [https://github.com/imaegoo/twikoo](https://github.com/imaegoo/twikoo)
+
+
+- [第三方评论系统之我见](https://www.yunyoujun.cn/share/third-party-comment-system)
+- 垃圾过滤 [https://akismet.com/development](https://akismet.com/development)
+
+
++ [https://github.com/Buzut/jamments](https://github.com/Buzut/jamments)
++ [https://github.com/sheychen290/comtodon](https://github.com/sheychen290/comtodon)
++ [https://github.com/qwqcode/Artalk](https://github.com/qwqcode/Artalk)
++ [https://github.com/patarapolw/aloud](https://github.com/patarapolw/aloud)
++ [https://github.com/umputun/remark42](https://github.com/umputun/remark42)
++ [https://github.com/pozitron57/open-source-comments](https://github.com/pozitron57/open-source-comments)
+
+
+
+**讨论社区**
+
+* [https://github.com/withspectrum](https://github.com/withspectrum)
+* [https://github.com/discourse/discourse](https://github.com/discourse/discourse)
+* [https://gitter.im](https://gitter.im)
+* [https://github.com/ReplCustoms/ReplCustoms](https://github.com/ReplCustoms/ReplCustoms)
+
+
+
+## 匿名分享
+
+* [https://github.com/LucienShui/PasteMe](https://github.com/LucienShui/PasteMe)
+* [https://github.com/PasteUs/PasteMeGoBackend](https://github.com/PasteUs/PasteMeGoBackend)
+
+**图床**
+
+* [http://img.wang](http://img.wang)
+* 即刻图床 [http://jiketuchuang.com](http://jiketuchuang.com)
+* 图壳 [https://imgkr.com](https://imgkr.com)
+* 开源图床 [https://imgurl.org](https://imgurl.org)
+* [https://github.com/icret/easyImages2.0](https://github.com/icret/easyImages2.0)
+    * 简单图床 [https://img.545141.com](https://img.545141.com)
+* SM.MS [https://sm.ms](https://sm.ms)
+* 牛图网 [https://www.niupic.com](https://www.niupic.com)
+* 路过图床 [https://imgchr.com](https://imgchr.com)
+* [https://lookimg.com](https://lookimg.com)
+* [https://img.cy](https://img.cy)
+* [https://imgur.com](https://imgur.com)
+
+
+
+**文件分享**
+
+* [https://www.file.io](https://www.file.io)
+* [https://uplovd.com](https://uplovd.com)
+* [https://anonfiles.com](https://anonfiles.com)
+* [https://uptobox.com](https://uptobox.com)
+* [https://www.mediafire.com](https://www.mediafire.com)
+
+
+
+
+## CloudFlare
+
++ [https://github.com/topics/cloudflare](https://github.com/topics/cloudflare)
++ [https://github.com/cloudflare](https://github.com/cloudflare)
+    + 静态部署 [https://pages.cloudflare.com](https://pages.cloudflare.com)
+        + 示例 [https://bajins-github-io.pages.dev](https://bajins-github-io.pages.dev)
+    + 注意：在自定义域中和在DNS中如果配置了`@`，会导致Workers自定义域名无法访问，只配置`www`即可
+    + [https://www.cloudflare.com/zh-cn/analytics](https://www.cloudflare.com/zh-cn/analytics)
+    + [https://www.cloudflare.com/zh-cn/web-analytics](https://www.cloudflare.com/zh-cn/web-analytics)
+    + [https://www.cloudflare.com/zh-cn/ssl](https://www.cloudflare.com/zh-cn/ssl)
+    + [https://www.cloudflare.com/zh-cn/cdn](https://www.cloudflare.com/zh-cn/cdn)
+
+- [https://github.com/BlueSkyXN/CFIP](https://github.com/BlueSkyXN/CFIP)
+- [https://github.com/yuantuo666/cfip](https://github.com/yuantuo666/cfip)
+- [https://github.com/XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)
+
+
+
+### Workers
+
++ [https://workers.cloudflare.com](https://workers.cloudflare.com)
++ [https://github.com/cloudflare/wrangler](https://github.com/cloudflare/wrangler)
++ [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
++ [https://github.com/topics/cloudflare-workers](https://github.com/topics/cloudflare-workers)
+
+- DNS：`AAAA 子域名 100::`或`CNAME 子域名 项目名.子域.workers.dev`不论workers.dev子域是否关闭都可使用
+- Cloudflare CNAME接入 [https://github.com/ZE3kr/Cloudflare-CNAME-Setup](https://github.com/ZE3kr/Cloudflare-CNAME-Setup)
+- [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
+- [用Cloudflare CDN 如何自定义节点（CF自选IP）/撸CloudFlare Pro](https://www.moeelf.com/archives/10.html)
+
+
+* [https://github.com/netnr/workers](https://github.com/netnr/workers)
+* [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
+* 动态博客系统 [https://github.com/kasuganosoras/cloudflare-worker-blog](https://github.com/kasuganosoras/cloudflare-worker-blog)
+* 个人导航网站 [https://github.com/sleepwood/CF-Worker-Dir](https://github.com/sleepwood/CF-Worker-Dir)
+* 一个极简风格的短网址转换 [https://github.com/Closty/duanwangzhi](https://github.com/Closty/duanwangzhi)
+* [基于 Telegraf 框架的 Telegram Bot](https://moe.best/tutorial/cfworker-telegraf-tgbot.html)
+* [使用CloudFlare Workers搭建网站状态监控](https://www.raycoder.me/p/cloudflare-workers-website-monitoring)
+
+
+**代理**
+
++ [https://github.com/search?q=reverse-proxy+cloudflare-workers](https://github.com/search?q=reverse-proxy+cloudflare-workers)
++ [https://github.com/search?q=proxy+cloudflare-workers](https://github.com/search?q=proxy+cloudflare-workers)
++ [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
+
+- [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
+- [https://github.com/xiaoyang-liu-cs/booster.js](https://github.com/xiaoyang-liu-cs/booster.js)
+    - [https://github.com/yenpou/Workers-Proxy](https://github.com/yenpou/Workers-Proxy)
+- [https://github.com/netnr/workers](https://github.com/netnr/workers)
+- [https://github.com/ryanking13/cors](https://github.com/ryanking13/cors)
+- [https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy](https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy)
+
+[![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=)
+
+
+
+### Warp
+
++ [https://github.com/topics/warp](https://github.com/topics/warp)
+
+* [https://github.com/ViRb3/wgcf](https://github.com/ViRb3/wgcf)
+* [https://github.com/navaneethkm004/warp-plus](https://github.com/navaneethkm004/warp-plus)
+* [https://github.com/YG-tsj/Oracle-warp](https://github.com/YG-tsj/Oracle-warp)
 
 
 
@@ -162,15 +328,20 @@
     - `unpkg.com/react/` 在网址最后添加斜线，查看包内文件列表
 * [https://github.com/jsdelivr/jsdelivr](https://github.com/jsdelivr/jsdelivr)
     * [https://www.jsdelivr.com](https://www.jsdelivr.com)
+    * `gcore.jsdelivr.net`
+    * `fastly.jsdelivr.net`
+    * `originfastly.jsdelivr.net`
 * 知乎 [https://unpkg.zhimg.com](https://unpkg.zhimg.com)
 * 饿了么 [https://npm.elemecdn.com](https://npm.elemecdn.com)
 * [https://www.bootcdn.cn](https://www.bootcdn.cn)
 * [https://github.com/staticfile](https://github.com/staticfile)
     * [https://staticfile.org](https://staticfile.org)
 * [https://cdn.baomitu.com](https://cdn.baomitu.com)
+* [https://www.skypack.dev](https://www.skypack.dev)
 
 - [https://developers.google.com/speed/libraries](https://developers.google.com/speed/libraries)
 - [https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview](https://docs.microsoft.com/en-us/aspnet/ajax/cdn/overview)
+- [前端JS/CSS静态资源公共库免费CDN加速汇总](https://51.ruyo.net/12387.html)
 
 
 ```
@@ -294,7 +465,7 @@ document.getElementsByTagName("a");// 返回文档中指定标签的元素
 
 
 
-## 跨域
+## 跨域/跨源
 
 **浏览器的同源策略**
 
@@ -314,7 +485,7 @@ document.getElementsByTagName("a");// 返回文档中指定标签的元素
     - `Access-Control-Max-Age` 表明响应的有效时间。在有效时间内，浏览器无须为同一请求再次发起预检请求
     - `Access-Control-Expose-Headers` 服务器允许浏览器访问的头信息白名单
     - `Access-Control-Allow-Credentials` 指定了当浏览器的credentials设置为true时是否允许浏览器读取response的内容
-- `postMessage` 可以实现跨文本档、多窗口、跨域消息传递
+- `postMessage` 可以实现跨文本档、多窗口（iframe间通信最完美的办法）、跨域消息传递
 - `websocket` HTML5的一个持久化的协议，它实现了浏览器与服务器的全双工通信，也是跨域的一种解决方案
 - `Nginx` 反向代理（其他服务器应用也可），一般用于生产环境
 - `webpack-dev-server` 使用NodeJS服务器中间件`Express`代为获取数据，仅用于开发环境
@@ -327,59 +498,7 @@ document.getElementsByTagName("a");// 返回文档中指定标签的元素
         - [https://expressjs.com/zh-cn/guide/writing-middleware.html](https://expressjs.com/zh-cn/guide/writing-middleware.html)
 
 
+* [浏览器同源政策及其规避方法](https://www.ruanyifeng.com/blog/2016/04/same-origin-policy.html)
+* [https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage](https://developer.mozilla.org/zh-CN/docs/Web/API/Window/postMessage)
+* [https://github.com/ChrisSong1994/FrameMessage](https://github.com/ChrisSong1994/FrameMessage)
 
-## 保存直聘简历
-
-> 执行以下JS然后保存页面，打开保存到本地的页面再打印即可
-
-```js
-document.querySelector("body").style.margin="0px";
-document.querySelector(".header").style.display="none";
-document.querySelector(".template-container").style.paddingTop="14px";
-document.querySelector(".template-container").style.paddingBottom="0px";
-document.querySelector(".preview-box").style.margin="0 auto";
-document.querySelector(".preview-box").style.borderRadius="0";
-document.querySelector(".preview-box").style.boxShadow="none";
-var certificateBox = document.querySelectorAll(".certificate-box .item");
-certificateBox[0].style.display="list-item";
-certificateBox[0].style.margin="0px";
-certificateBox[1].style.display="list-item";
-certificateBox[1].style.margin="0px";
-```
-
-
-
-
-## CloudFlare Workers
-
-+ [https://subdomainfinder.c99.nl](https://subdomainfinder.c99.nl) 搜索框输入`workers.dev`点击`Start Scan`，
-再按<kbd>Ctrl</kbd> + <kbd>f</kbd> 输入`github`
-+ [用Cloudflare CDN 如何自定义节点（CF自选IP）/撸CloudFlare Pro](https://www.moeelf.com/archives/10.html)
-
-
-- [https://github.com/cloudflare/wrangler](https://github.com/cloudflare/wrangler)
-- [https://github.com/search?q=Cloudflare+Workers](https://github.com/search?q=Cloudflare+Workers)
-- [https://github.com/topics/cloudflare-workers](https://github.com/topics/cloudflare-workers)
-- [Cloudflare Workers 创建自定义域名的项目](https://blog.16lab.io/workers-custom-domain)
-- Cloudflare CNAME接入 [https://github.com/ZE3kr/Cloudflare-CNAME-Setup](https://github.com/ZE3kr/Cloudflare-CNAME-Setup)
-
-
-* [https://github.com/netnr/workers](https://github.com/netnr/workers)
-* [https://github.com/aploium/zmirror](https://github.com/aploium/zmirror)
-* 动态博客系统 [https://github.com/kasuganosoras/cloudflare-worker-blog](https://github.com/kasuganosoras/cloudflare-worker-blog)
-* 个人导航网站 [https://github.com/sleepwood/CF-Worker-Dir](https://github.com/sleepwood/CF-Worker-Dir)
-* 一个极简风格的短网址转换 [https://github.com/Closty/duanwangzhi](https://github.com/Closty/duanwangzhi)
-* [基于 Telegraf 框架的 Telegram Bot](https://moe.best/tutorial/cfworker-telegraf-tgbot.html)
-* [使用CloudFlare Workers搭建网站状态监控](https://www.raycoder.me/p/cloudflare-workers-website-monitoring)
-
-
-**代理**
-
-- [https://github.com/topics/reverse-proxy](https://github.com/topics/reverse-proxy)
-- JS 实现的在线代理 [https://github.com/EtherDream/jsproxy](https://github.com/EtherDream/jsproxy)
-- 轻量级Javascript反向代理 [https://github.com/xiaoyang-liu-cs/booster.js](https://github.com/xiaoyang-liu-cs/booster.js)
-    - [https://github.com/yenpou/Workers-Proxy](https://github.com/yenpou/Workers-Proxy)
-- github release、archive以及项目文件的加速项目 [https://github.com/hunshcn/gh-proxy](https://github.com/hunshcn/gh-proxy)
-- [https://github.com/netnr/workers](https://github.com/netnr/workers)
-- [https://github.com/ryanking13/cors](https://github.com/ryanking13/cors)
-- [https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy](https://github.com/AlejandroAkbal/Cloudflare-Worker-Cors-Proxy)

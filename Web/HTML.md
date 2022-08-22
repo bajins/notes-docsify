@@ -7,15 +7,21 @@
 
 ## Flag
 
+> 定义网页的内容
+
 + 标准规范 [https://github.com/whatwg/html](https://github.com/whatwg/html)
 + [https://github.com/whatwg/dom](https://github.com/whatwg/dom)
 + HTML全局属性 [https://www.w3.org/wiki/HTML/Attributes/_Global](https://www.w3.org/wiki/HTML/Attributes/_Global)
 + [https://developer.mozilla.org/zh-CN/docs/Web/HTML](https://developer.mozilla.org/zh-CN/docs/Web/HTML)
++ [https://github.com/thedaviddias/Front-End-Checklist](https://github.com/thedaviddias/Front-End-Checklist)
+
+- [https://github.com/bradtraversy/50projects50days](https://github.com/bradtraversy/50projects50days)
+- 响应式 [https://github.com/bedimcode](https://github.com/bedimcode)
+
+> Window对象 -> Parent对象 -> Frame对象 -> Document对象 -> Form对象
 
 
-
-
-**template**
+**template代码片段**
 
 * [https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/template](https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/template)
 * [https://www.html5rocks.com/zh/tutorials/webcomponents/template](https://www.html5rocks.com/zh/tutorials/webcomponents/template)
@@ -23,15 +29,17 @@
 * [https://caniuse.com/?search=template](https://caniuse.com/?search=template)
 * [关于template标签用法总结(含vue中的用法总结)](https://blog.csdn.net/u010510187/article/details/100356624)
 
-> 当`type=text/html`或`type="text/template"`的时候，`<script>`片断中定义一个被JS调用的代码，标签里的内容不会被执行，
-> 页面渲染的时，浏览器会默认添加`display:none;`并且不会读取script标签中的html代码，所以不会在页面上渲染显示。
+- `<script>` 和 `<template>`（推荐） 标签内的内容页面不会渲染，浏览器会默认添加`display: none;`，也不能使用选择器定位子元素
+- `<script type=text/html >` 或 `<script type="text/template" >` 定义一个被JS调用的代码，内容不会被执行
+- `<div style="display: none">` 与复用DOM结构后的id等重复：可以把DOM结构缓存到JS变量或标签属性内容，然后移除这个标签
 
-> 无法直接操作`<script>`和`<template>`标签内的内容，也不能使用选择器定位子元素，
-> 所以不建议使用`<div style="display: none">`（可能会与脚本复用后的id等重复）。
-> 当然使用`<div style="display: none">`可以把标签内容缓存到JS变量或作为标签属性内容，然后移除这个标签
 
-* [script type="text/html"](https://blog.csdn.net/qq_37796475/article/details/79342234)
 
+**select框默认选项为空白**
+
+```html
+<option selected="selected" disabled="disabled"  style='display: none' value=''></option>
+```
 
 
 ## Meta标签
@@ -137,4 +145,49 @@
 <!-- sns 社交标签 end -->
 ```
 
+
+## 页面刷新汇总
+
+- history.go(0) // 刷新当前页
+- history.go(1) // 返回上一页
+- location.reload()
+- location=location
+- location.assign(location)
+- document.execCommand('Refresh')
+- window.navigate(location)
+- location.replace(location)
+- document.URL=location.href
+
+
+**刷新页面内嵌框架**
+
+- window.parent.frames[1].location.reload();
+- window.parent.frames.bottom.location.reload();
+- window.parent.frames["bottom"].location.reload();
+- window.parent.frames.item(1).location.reload();
+- window.parent.frames.item('bottom').location.reload();
+- window.parent.bottom.location.reload();
+- window.parent['bottom'].location.reload();
+
+**页面自动刷新**
+
+```html
+<meta http-equiv="refresh" content="20">
+<!-- 其中20指每隔20秒刷新一次页面 -->
+```
+
+**页面开窗口或关闭时自动刷新**
+
+```html
+<body onload="opener.location.reload()"> 开窗时刷新 
+<body onUnload="opener.location.reload()"> 关闭时刷新 
+<script language="javascript"> 
+window.opener.document.location.reload() 
+</script>
+```
+
+**参考：**
+
+* [JS中实现页面跳转和刷新方法总结](https://juejin.cn/post/6844903925741682696)
+* [JS刷新当前页面的几种方法总结](http://www.iqianduan.net/blog/refresh-browser-method)
 

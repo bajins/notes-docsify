@@ -7,12 +7,18 @@
 
 ## Flag
 
-+ [https://github.com/denoland/deno](https://github.com/denoland/deno)
++ [https://github.com/topics/nodejs](https://github.com/topics/nodejs)
++ [https://github.com/topics/node-js](https://github.com/topics/node-js)
 + [https://github.com/nodejs](https://github.com/nodejs)
     + [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
 
+* [https://github.com/goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
 * [NodeJs小册](https://nodejs.fasionchan.com/zh_CN/latest/index.html)
 * [https://developer.ibm.com/zh/technologies/node-js](https://developer.ibm.com/zh/technologies/node-js)
+* [https://github.com/alsotang/node-lessons](https://github.com/alsotang/node-lessons)
+* [https://github.com/cnodejs](https://github.com/cnodejs)
+* [https://github.com/amplication](https://github.com/amplication)
+
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，
 > 所以真正的参数从下标`2`开始`process.argv.splice(2)`
@@ -21,35 +27,85 @@
 * 纯JavaScript实现 [https://github.com/jsdom/jsdom](https://github.com/jsdom/jsdom)
 * [https://github.com/stylus](https://github.com/stylus)
 
+
+
+**打包**
+
 - [https://github.com/webpack/webpack](https://github.com/webpack/webpack)
+    - [https://github.com/webpack-contrib](https://github.com/webpack-contrib)
     - [https://webpack.js.org](https://webpack.js.org)
     - [https://www.webpackjs.com](https://www.webpackjs.com)
+    - 深入浅出 Webpack [https://github.com/gwuhaolin/dive-into-webpack](https://github.com/gwuhaolin/dive-into-webpack)
+- [https://github.com/parcel-bundler/parcel](https://github.com/parcel-bundler/parcel)
+    - [https://www.parceljs.cn](https://www.parceljs.cn)
+- [https://github.com/snowpackjs/snowpack](https://github.com/snowpackjs/snowpack)
+- [https://github.com/rollup/rollup](https://github.com/rollup/rollup)
+    - [https://www.rollupjs.com](https://www.rollupjs.com)
 - 2009年，npm
 - 2012年，grunt
 - 2012年，bower
-- 2013年，yeoman
+- 2013年，yeoman [https://github.com/yeoman](https://github.com/yeoman)
 - 2014年，gulp
 - 2015年，fis3
 - 2017年，webpack3
 
+* [https://github.com/wuhao000/aegis-tools](https://github.com/wuhao000/aegis-tools)
+* [https://github.com/fuchengwei/deploy-cli-service](https://github.com/fuchengwei/deploy-cli-service)
+
+
+
+## 第三方库
+
++ [https://github.com/parro-it/awesome-micro-npm-packages](https://github.com/parro-it/awesome-micro-npm-packages)
++ [https://github.com/TanninOne](https://github.com/TanninOne)
+
+
+* glob [https://github.com/micromatch/extglob](https://github.com/micromatch/extglob)
+* [https://github.com/isaacs/minimatch](https://github.com/isaacs/minimatch)
+* [https://github.com/mrmlnc/fast-glob](https://github.com/mrmlnc/fast-glob)
+* [https://github.com/reworkcss](https://github.com/reworkcss)
+* [https://github.com/visionmedia](https://github.com/visionmedia)
+* CMS [https://github.com/strapi/strapi](https://github.com/strapi/strapi)
+* ORM [https://github.com/prisma/prisma](https://github.com/prisma/prisma)
+* 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
+* SQL查询 [https://github.com/knex/knex](https://github.com/knex/knex)
+* 日志 [https://github.com/trentm/node-bunyan](https://github.com/trentm/node-bunyan)
+* [https://github.com/pillarjs/send](https://github.com/pillarjs/send)
+* 断言 [https://github.com/chaijs](https://github.com/chaijs)
+* Expect交互 [https://github.com/facebook/jest](https://github.com/facebook/jest)
+* [https://github.com/sinonjs](https://github.com/sinonjs)
+* 命令行 [https://github.com/tj/commander.js](https://github.com/tj/commander.js)
+* [https://github.com/SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
+* USB [https://github.com/schakko/node-usb](https://github.com/schakko/node-usb)
+* [https://github.com/node-usb](https://github.com/node-usb)
+* 字体管理 [https://github.com/foliojs/font-manager](https://github.com/foliojs/font-manager)
+* 访问头文件 [https://github.com/charto/nbind](https://github.com/charto/nbind)
+* 正则表达式 [https://github.com/CJex/regulex](https://github.com/CJex/regulex)
+* 特性开关 [https://github.com/Unleash/unleash](https://github.com/Unleash/unleash)
+* Excel [https://github.com/optilude/xlsx-template](https://github.com/optilude/xlsx-template)
+* 分布式ID [https://github.com/cloudyan/snowflake](https://github.com/cloudyan/snowflake)
+
+
 
 ## 管理NodeJS
 
++ [https://github.com/topics/versioning](https://github.com/topics/versioning)
++ [https://github.com/topics/version-manager](https://github.com/topics/version-manager)
++ [https://github.com/topics/dependency-manager](https://github.com/topics/dependency-manager)
++ [https://github.com/topics/environment](https://github.com/topics/environment)
+
+- [https://nodejs.org/zh-cn/download/package-manager](https://nodejs.org/zh-cn/download/package-manager)
+
 * [https://github.com/tj/n](https://github.com/tj/n)
-
-**rpm**
-
-> npm与Node.js一起存在，这意味着当您下载并安装Node.js时，您会自动在计算机上安装npm
-
+    * [https://github.com/mklement0/n-install](https://github.com/mklement0/n-install)
+* [https://github.com/Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install)
+* [https://github.com/jasongin/nvs](https://github.com/jasongin/nvs)
+* [https://github.com/nodenv/nodenv](https://github.com/nodenv/nodenv)
 * [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
+* [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
+
 
 ```bash
-# CentOS安装
-# 到https://github.com/nodesource/distributions#installation-instructions-1
-# 复制更新软件源命令，并执行
-curl -sL https://rpm.nodesource.com/setup_12.x | bash -
-# 安装
-yum install -y nodejs
 # 检查Node.js和NPM版本
 node -v && npm -v
 ```
@@ -58,7 +114,9 @@ node -v && npm -v
 
 > nodeJs版本管理工具,管理nodejs版本和npm版本
 
+* [https://github.com/nvm-sh/nvm](https://github.com/nvm-sh/nvm)
 * [https://github.com/coreybutler/nvm-windows](https://github.com/coreybutler/nvm-windows)
+* [https://github.com/lukechilds/zsh-nvm](https://github.com/lukechilds/zsh-nvm)
 
 ```bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash
@@ -78,6 +136,9 @@ nvm install <最新的版本号>
 * [https://github.com/Unitech/pm2](https://github.com/Unitech/pm2)
 * [https://github.com/npm](https://github.com/npm)
 * [https://github.com/yarnpkg](https://github.com/yarnpkg)
+* [https://github.com/pnpm/pnpm](https://github.com/pnpm/pnpm)
+
+- [https://github.com/antfu/ni](https://github.com/antfu/ni)
 
 
 ### 管理yarn
@@ -198,6 +259,27 @@ npm install
 
 
 
+### 正式发布包
+
+> 不要使用其他npm源，如：taobao
+
+```bash
+# 先去https://www.npmjs.com注册个账号，然后在命令行使用
+# 根据提示输入用户名密码即可
+npm adduser
+# 发布
+npm publish
+
+# 升级补丁版本号
+npm version patch
+# 升级小版本号
+npm version minor
+# 升级大版本号
+npm version major
+```
+
+
+
 
 ## 解析
 
@@ -274,39 +356,46 @@ request({
 
 
 
-## 原生桌面应用
-
-* [https://github.com/topics/electron](https://github.com/topics/electron)
-    * [https://github.com/electron/electron](https://github.com/electron/electron)
-* [使用 node-ffi 构建 Electron 和 C++ Library 混合桌面应用](https://io.hancel.org/2018/05/02/building-an-electron-hybrid-application.html)
-* [https://github.com/topics/nwjs](https://github.com/topics/nwjs)
-    * [https://github.com/nwjs/nw.js](https://github.com/nwjs/nw.js)
-    * [https://github.com/lxp135/NW.jsCnDocs](https://github.com/lxp135/NW.jsCnDocs)
-* [https://github.com/Kagami/mpv.js](https://github.com/Kagami/mpv.js)
-* 将 Node.js 项目打包到可执行文件中 [https://github.com/vercel/pkg](https://github.com/vercel/pkg)
-
-
-
-
 ## 爬虫
 
 * [https://github.com/webdriverio](https://github.com/webdriverio)
 * [https://github.com/puppeteer](https://github.com/puppeteer)
-* [Puppeteer配置小记](https://www.itfanr.cc/2019/04/10/configuration-development-of-puppeteer)
-* [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright)
-* 一个基于webkit的JavaScript API [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
+    * [https://github.com/adieuadieu/serverless-chrome](https://github.com/adieuadieu/serverless-chrome)
+    * [https://github.com/N0taN3rd/chrome-remote-interface-extra](https://github.com/N0taN3rd/chrome-remote-interface-extra)
+    * [https://github.com/cowchimp/headless-devtools](https://github.com/cowchimp/headless-devtools)
+    * [Puppeteer配置小记](https://www.itfanr.cc/2019/04/10/configuration-development-of-puppeteer)
+    * [https://github.com/zhaoqize/puppeteer-api-zh_CN](https://github.com/zhaoqize/puppeteer-api-zh_CN)
+    * [https://github.com/ebidel/try-puppeteer](https://github.com/ebidel/try-puppeteer)
+    * [https://github.com/berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra)
+* 自动化 [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright)
+* [https://github.com/cypress-io/cypress](https://github.com/cypress-io/cypress)
+* [https://github.com/aerokube](https://github.com/aerokube)
+* [https://github.com/getgauge/taiko](https://github.com/getgauge/taiko)
+* [https://github.com/milankinen/cuic](https://github.com/milankinen/cuic)
+* 基于webkit的JavaScript API [https://github.com/ariya/phantomjs](https://github.com/ariya/phantomjs)
     * [PhantomJS -- JavaScript 标准参考教程（alpha）](https://javascript.ruanyifeng.com/tool/phantomjs.html)
+* [https://github.com/krisselden/chrome-debugging-client](https://github.com/krisselden/chrome-debugging-client)
+* [https://github.com/cyrus-and/chrome-remote-interface](https://github.com/cyrus-and/chrome-remote-interface)
+* [https://github.com/TracerBench/chrome-debugging-client](https://github.com/TracerBench/chrome-debugging-client)
+* [https://github.com/laurentj/slimerjs](https://github.com/laurentj/slimerjs)
+* [https://github.com/vitest-dev/vitest](https://github.com/vitest-dev/vitest)
+
+
+- [https://github.com/inu1255/soulsign-chrome](https://github.com/inu1255/soulsign-chrome)
+
+
 
 **[xpath和css选择器](/Python/Python爬虫.md#xpath和css选择器)**
 
 **[`chromedriver`](/Python/Python爬虫.md#chromedriver)**
 
-* [https://github.com/ebidel/try-puppeteer](https://github.com/ebidel/try-puppeteer)
-* [https://github.com/berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra)
 
-- Expect交互 [https://github.com/facebook/jest](https://github.com/facebook/jest)
-- [https://github.com/sinonjs](https://github.com/sinonjs)
-- [https://github.com/chaijs](https://github.com/chaijs)
+**脚本**
+
+* [https://github.com/Peng-YM/QuanX](https://github.com/Peng-YM/QuanX)
+* [https://github.com/dompling/Script](https://github.com/dompling/Script)
+
+
 
 
 
@@ -325,6 +414,7 @@ request({
 
 * [https://github.com/justjavac/awesome-wechat-weapp](https://github.com/justjavac/awesome-wechat-weapp)
 * [https://github.com/qiushi123/xiaochengxu_demos](https://github.com/qiushi123/xiaochengxu_demos)
+* [https://github.com/YanxinNet/uView](https://github.com/YanxinNet/uView)
 
 - 使用Golang开发的微信SDK: [https://github.com/silenceper/wechat](https://github.com/silenceper/wechat)
 

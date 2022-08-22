@@ -9,32 +9,194 @@
 ## Flag
 
 + [https://github.com/nginx](https://github.com/nginx)
-    + [http://nginx.org/en/download.html](http://nginx.org/en/download.html)
-    + [http://nginx.org/en/docs](http://nginx.org/en/docs)
+    + [https://nginx.org/en/download.html](http://nginx.org/en/download.html)
+    + [https://nginx.org/en/docs](http://nginx.org/en/docs)
 + [https://github.com/nginxinc](https://github.com/nginxinc)
-+ [https://www.nginx.com/nginx-wiki/build/dirhtml/modules](https://www.nginx.com/nginx-wiki/build/dirhtml/modules)
-    + NGINX多种扩展模块 [https://github.com/openresty](https://github.com/openresty)
 + [https://github.com/h5bp/server-configs-nginx](https://github.com/h5bp/server-configs-nginx)
++ [https://github.com/digitalocean/nginxconfig.io](https://github.com/digitalocean/nginxconfig.io)
+    + [https://www.digitalocean.com/community/tools/nginx](https://www.digitalocean.com/community/tools/nginx)
++ [https://github.com/alibaba/tengine](https://github.com/alibaba/tengine)
 
+
+* [https://github.com/hfpp2012/nginx-tutorial](https://github.com/hfpp2012/nginx-tutorial)
+* Nginx 入门指南 [https://github.com/xuexb/learn-nginx](https://github.com/xuexb/learn-nginx)
+* [标签: Nginx | 原少子杨](https://iziyang.github.io/tags/nginx)
 * [Nginx HTTP核心模块指令和内置变量中文说明](https://my.oschina.net/jsan/blog/125861)
-* [nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
-* [nginx-config-formatter](https://github.com/1connect/nginx-config-formatter)
-* [nginxconfig配置生成](https://github.com/0xB4LINT/nginxconfig.io)
 * [nginx 变量使用](https://blog.csdn.net/u014296316/article/details/80973530)
 * [Nginx 从入门到实践，万字详解](https://juejin.im/post/5ea931866fb9a043815146fb)
-* Nginx 入门指南 [https://github.com/xuexb/learn-nginx](https://github.com/xuexb/learn-nginx)
-
-+ [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
-
-**[HAProxy 入门](https://jaminzhang.github.io/lb/HAProxy-Get-Started)**
-
-1. [Nginx和HAProxy对比](https://www.zhihu.com/question/34489042/answers/updated)
-2. [HAProxy Nginx LVS 对比](http://www.lgoon.com/detail/22)
-3. [负载均衡器对比(LVS、Nginx、Haproxy)](https://vimll.com/?p=886)
-4. [各大API网关性能比较](https://segmentfault.com/a/1190000018838988)
+* [Nginx从入门到实践](https://segmentfault.com/blog/siguoya-nginx)
+* [Nginx流控](https://www.cnblogs.com/zjfjava/p/10947264.html)
+* [Nginx 高性能优化配置实战总结](https://segmentfault.com/a/1190000037788252)
+* [nginx 优化的六点方法](https://zhuanlan.zhihu.com/p/149946545)
+* [Nginx-性能优化](https://juejin.cn/post/6844904122068680711)
+* [博客使用Cloudflare和Nginx的相关配置](https://jayshao.com/cloudflare-nginx-ssl)
 
 
++ 开发工具包 [https://github.com/vision5/ngx_devel_kit](https://github.com/vision5/ngx_devel_kit)
++ [https://github.com/topics/nginx-configuration](https://github.com/topics/nginx-configuration)
++ 配置生成 [https://github.com/0xB4LINT/nginxconfig.io](https://github.com/0xB4LINT/nginxconfig.io)
++ 配置格式化 [https://github.com/vasilevich/nginxbeautifier](https://github.com/vasilevich/nginxbeautifier)
++ [https://github.com/slomkowski/nginx-config-formatter](https://github.com/1connect/nginx-config-formatter)
++ [https://github.com/nginx-proxy/nginx-proxy](https://github.com/nginx-proxy/nginx-proxy)
++ [https://github.com/evertramos/nginx-proxy-automation](https://github.com/evertramos/nginx-proxy-automation)
++ [https://github.com/onlyGuo/nginx-gui](https://github.com/onlyGuo/nginx-gui)
++ 文件服务器 [https://github.com/Naereen/Nginx-Fancyindex-Theme](https://github.com/Naereen/Nginx-Fancyindex-Theme)
++ [https://github.com/aperezdc/ngx-fancyindex](https://github.com/aperezdc/ngx-fancyindex)
++ 监控请求 [https://github.com/lebinh/ngxtop](https://github.com/lebinh/ngxtop)
++ IP漂移 [https://github.com/acassen/keepalived](https://github.com/acassen/keepalived)
+    + [https://github.com/garenchan/keepalived-doc](https://github.com/garenchan/keepalived-doc)
+    + [高可用实践——Keepalived踩坑记录](https://zhuanlan.zhihu.com/p/148136167)
+    + [Keepalived Nginx双网络(内外网)故障非同步漂移双主模式](https://b.sundayle.com/keepalived-nginx-dual-network)
+    + [通过keepalived来实现高可用服务](https://juejin.cn/post/6971589043352305678)
+    + [虚拟IP技术 ip地址漂移技术](https://www.cnblogs.com/myseries/p/11409895.html)
++ 高可用集群 [https://github.com/ClusterLabs](https://github.com/ClusterLabs)
+    + [https://github.com/corosync](https://github.com/corosync)
++ Heartbeat [http://www.linux-ha.org](http://www.linux-ha.org)
++ LVS [http://www.linuxvirtualserver.org](http://www.linuxvirtualserver.org)
+    + [Linux Virtual Server](https://www.zhihu.com/topic/19607051/newest)
+    + [LVS nat模式和DR模式简介](https://blog.51cto.com/u_11566825/2130705)
+    + [VIP和RIP不同网段的LVS和keepalived高可用](https://blog.51cto.com/bbotte/1584925)
++ DNS [https://github.com/topics/dns-server](https://github.com/topics/dns-server)
+    + [https://github.com/topics/service-discovery](https://github.com/topics/service-discovery)
+    + [https://github.com/topics/cncf](https://github.com/topics/cncf)
+    + [https://github.com/coredns/coredns](https://github.com/coredns/coredns)
+    + [https://github.com/skynetservices/skydns](https://github.com/skynetservices/skydns)
+    + [https://github.com/google/proto-quic](https://github.com/google/proto-quic)
+    + [https://github.com/google/quiche](https://github.com/google/quiche)(https://github.com/google/quiche)
+    + [https://github.com/lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
+    + [https://github.com/topics/http3](https://github.com/topics/http3)
+    + [https://github.com/topics/quic](https://github.com/topics/quic)
+
+
+
+```bash
+# 启动
+nignx -c /usr/local/nginx/conf/nginx.conf
+nginx -p `pwd`/.. -c conf/nginx.conf
+# 快速关闭，可能不保存相关信息，并迅速终止web服务
+nginx -s stop
+kill -s quit PID
+# 平稳关闭，保存相关信息，有安排的结束web服务
+nginx -s quit
+# 重新打开日志文件
+nginx -s reopen
+# 重载配置
+nginx -s reload
+# 验证配置
+nginx -t
+```
+
+
+
+
+**其他同类程序**
+
+* [https://github.com/apache/httpd](https://github.com/apache/httpd)
+* [https://github.com/lighttpd](https://github.com/lighttpd)
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
+    * [Caddy2 简明教程 - bleem](https://mritd.com/2021/01/07/lets-start-using-caddy2)
+* [https://github.com/traefik/traefik](https://github.com/traefik/traefik)
+* [https://github.com/haproxy/haproxy](https://github.com/haproxy/haproxy)
+    * HAProxy入门 [https://jaminzhang.github.io/lb/HAProxy-Get-Started](https://jaminzhang.github.io/lb/HAProxy-Get-Started)
+    1. [Nginx和HAProxy对比](https://www.zhihu.com/question/34489042/answers/updated)
+    2. [HAProxy Nginx LVS 对比](http://www.lgoon.com/detail/22)
+    3. [负载均衡器对比(LVS、Nginx、Haproxy)](https://vimll.com/?p=886)
+    4. [各大API网关性能比较](https://segmentfault.com/a/1190000018838988)
+* [https://github.com/envoyproxy/envoy](https://github.com/envoyproxy/envoy)
+    * [https://github.com/projectcontour/contour](https://github.com/projectcontour/contour)
+    * [https://github.com/datawire/ambassador](https://github.com/datawire/ambassador)
+    * [https://github.com/projectcontour/gimbal](https://github.com/projectcontour/gimbal)
+* [https://github.com/zalando/skipper](https://github.com/zalando/skipper)
+
+
+
+
+## 扩展模块插件
+
++ [https://www.nginx.com/resources/wiki/modules](https://www.nginx.com/resources/wiki/modules)
++ [https://www.nginx.com/nginx-wiki/build/dirhtml/modules](https://www.nginx.com/nginx-wiki/build/dirhtml/modules)
++ [https://github.com/search?q=nginx-module](https://github.com/search?q=nginx-module)
++ [https://github.com/topics/nginx-module](https://github.com/topics/nginx-module)
+
+
+* Lua多种扩展模块 [https://github.com/openresty](https://github.com/openresty)
+    * [https://openresty.org/cn](https://openresty.org/cn)
+    * [OpenResty 概要及原理科普](https://honeypps.com/architect/introduction-of-openresty)
+    * [openresty 的动态 - SegmentFault 思否](https://segmentfault.com/t/openresty)
+    * [https://www.nginx.com/resources/wiki/modules/lua](https://www.nginx.com/resources/wiki/modules/lua)
+    * [https://github.com/moonbingbing/openresty-best-practices](https://github.com/moonbingbing/openresty-best-practices)
+    * [https://github.com/gityf/ngx_lua_thrift](https://github.com/gityf/ngx_lua_thrift)
+    * [浅谈OpenResty中的body_filter_by_lua*](https://zhuanlan.zhihu.com/p/67904411)
+    * [ngx.re模块和lua正则匹配的区别](https://www.bilibili.com/read/cv5038242)
+        * [https://github.com/openresty/lua-nginx-module#ngxrematch](https://github.com/openresty/lua-nginx-module#ngxrematch)
+    * [Openresty+lua实现动态upstream](https://www.jianshu.com/p/5167325edb09)
+    * [NGINX 结合 lua 动态修改upstream](https://blog.csdn.net/force_eagle/article/details/51966333)
+* [https://github.com/iresty/nginx-lua-module-zh-wiki](https://github.com/iresty/nginx-lua-module-zh-wiki)
+* [https://github.com/loveshell/ngx_lua_waf](https://github.com/loveshell/ngx_lua_waf)
+* [https://github.com/ledgetech/lua-resty-http](https://github.com/ledgetech/lua-resty-http)
+* [https://github.com/3scale/cors-proxy](https://github.com/3scale/cors-proxy)
+* [https://github.com/starjun/openstar](https://github.com/starjun/openstar)
+* [https://github.com/zhouchangxun/ngx_healthcheck_module](https://github.com/zhouchangxun/ngx_healthcheck_module)
+* [https://github.com/vozlt/nginx-module-vts](https://github.com/vozlt/nginx-module-vts)
+* [https://gitee.com/tianhao26/openresty_forwarding_log](https://gitee.com/tianhao26/openresty_forwarding_log)
+* [https://github.com/cuber/ngx_http_google_filter_module](https://github.com/cuber/ngx_http_google_filter_module)
+    * [Nginx 配置谷歌镜像站](https://plusls.github.io/linux/nginx/configure-nginx-google-mirror)
+
+
+
+
+## 编译安装
+
+* [Nginx 核心模块与配置实践](https://juejin.cn/post/6868289389722763272)
+
+
+**openssl: error while loading shared libraries: libssl.so.1.1: cannot open shared object file**
+
+```bash
+# 查找一下libssl.so.1.1的位置，然后链接到/usr/lib64/libssl.so.1.1即可。
+find / -name libssl.so.1.1
+ln -s /usr/local/lib64/libssl.so.1.1  /usr/lib64/libssl.so.1.1
+ln -s /usr/local/lib64/libcrypto.so.1.1  /usr/lib64/libcrypto.so.1.1
+openssl version
+```
+
+**libssl.so.1.1: cannot open shared object file: No such file or directory**
+
+> Centos7 默认提供的 openssl 版本是 1.0.2，报错是因为openssl 库的安装位置不正确或未安装 1.1 以上版本的问题
+
+```bash
+#从官网下载，去掉文件名，直接访问链接获取最新的包链接
+# wget https://www.openssl.org/source/openssl-1.1.1k.tar.gz
+#腾讯云提供的镜像，去掉文件名，直接访问链接获取最新的包链接
+wget https://mirrors.cloud.tencent.com/openssl/source/openssl-1.1.1k.tar.gz
+tar -xvf openssl-1.1.1k.tar.gz
+cd openssl-1.1.1k
+yum -y install gcc automake autoconf libtool make
+./config shared --openssldir=/usr/local/openssl --prefix=/usr/local/openssl
+make clean && make && make install
+```
+
+- `openssl version` 如果看到版本号还是低版本
+
+```bash
+echo "/usr/local/lib64/" >> /etc/ld.so.conf
+ldconfig
+```
+
+- 还是有问题执行以下方式
+
+```bash
+# 备份
+mv /usr/bin/openssl /usr/bin/openssl.old
+mv /usr/lib/openssl /usr/lib/openssl.old
+# 创建软链接
+ln -s /usr/local/openssl/bin/openssl /usr/bin/openssl
+ln -s /usr/local/openssl/include/openssl /usr/include/openssl
+# 写配置
+echo "/usr/local/openssl/lib" >> /etc/ld.so.conf
+ldconfig -v
+```
+
 
 
 
@@ -118,11 +280,13 @@ location / {
 # 定义一个内部调用location
 location /internal/ {
     internal;
+    # https://nginx.org/en/docs/http/ngx_http_proxy_module.html
     proxy_pass http://192.168.1.110:8091;
     proxy_set_header Host $host;
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_set_header REMOTE-HOST $remote_addr;
+    # 修改响应头中的"Location"和"Refresh"字段
     # 解决https->nginx->http->tomcat重定向问题
     proxy_redirect ~^http://([^:]+)(:\d+)?(.*)$ https://$1$3;
 }
@@ -165,11 +329,13 @@ location / {
     }
 }
 location @pass {
+    # https://nginx.org/en/docs/http/ngx_http_proxy_module.html
     proxy_pass http://192.168.1.110:8091;
     proxy_set_header Host $host;
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_set_header REMOTE-HOST $remote_addr;
+    # 修改响应头中的"Location"和"Refresh"字段
     # 解决https->nginx->http->tomcat重定向问题
     proxy_redirect ~^http://([^:]+)(:\d+)?(.*)$  https://$1$3;
 }
@@ -443,6 +609,7 @@ access_log logs/access_${logdate}.log;
 
 **日志归档程序logrotate**
 
+- [https://github.com/fordmason/cronolog](https://github.com/fordmason/cronolog)
 - [https://github.com/logrotate/logrotate](https://github.com/logrotate/logrotate)
 
 ```bash

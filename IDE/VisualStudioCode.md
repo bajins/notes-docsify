@@ -8,15 +8,48 @@
 
 ## Flag
 
-+ [https://visualstudio.microsoft.com](https://visualstudio.microsoft.com)
 + [https://github.com/topics/vscode](https://github.com/topics/vscode)
+
 
 * [https://github.com/microsoft/vscode](https://github.com/microsoft/vscode)
     * [https://code.visualstudio.com/Download](https://code.visualstudio.com/Download)
+    * [https://marketplace.visualstudio.com](https://marketplace.visualstudio.com)
+* [https://github.com/microsoft/vscode-docs](https://github.com/microsoft/vscode-docs)
+    * [默认键盘快捷键](https://code.visualstudio.com/docs/getstarted/keybindings#_default-keyboard-shortcuts)
+    * [Keyboard shortcuts forWindows](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+    * [Keyboard shortcuts for macOS](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-macos.pdf)
+    * [Keyboard shortcuts for Linux](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-linux.pdf)
 * [VSCode教程](https://www.php.cn/tool/vscode)
-* [https://github.com/Microsoft/vcpkg](https://github.com/Microsoft/vcpkg)
-    * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
+* [https://github.com/gr2m/app-stats-action](https://github.com/gr2m/app-stats-action)
+* [https://github.com/coder](https://github.com/coder)
 
+
+
+
+## 语言服务器协议
+
+- [https://github.com/Microsoft/language-server-protocol](https://github.com/Microsoft/language-server-protocol)
+    - [Standalone Server (tsserver)](https://github.com/Microsoft/TypeScript/wiki/Standalone-Server-%28tsserver%29)
+    - [https://github.com/typescript-language-server](https://github.com/typescript-language-server)
+- [https://docs.microsoft.com/zh-cn/visualstudio/extensibility/language-server-protocol](https://docs.microsoft.com/zh-cn/visualstudio/extensibility/language-server-protocol)
+- [https://microsoft.github.io/language-server-protocol](https://microsoft.github.io/language-server-protocol)
+    - [https://github.com/lsif/lsif.github.io](https://github.com/lsif/lsif.github.io)
+    - [https://github.com/langserver/langserver.github.io](https://github.com/langserver/langserver.github.io)
+- [https://github.com/Microsoft/debug-adapter-protocol](https://github.com/Microsoft/debug-adapter-protocol)
+- [https://github.com/Microsoft/vscode-debugadapter-node](https://github.com/Microsoft/vscode-debugadapter-node)
+- [https://github.com/sublimelsp/LSP](https://github.com/sublimelsp/LSP)
+- [https://github.com/redhat-developer/quarkus-ls](https://github.com/redhat-developer/quarkus-ls)
+- [https://github.com/TypeFox](https://github.com/TypeFox)
+- [https://github.com/xtext](https://github.com/xtext)
+- [https://github.com/kieler](https://github.com/kieler)
+- [https://github.com/langium/langium](https://github.com/langium/langium)
+- [https://github.com/emacs-lsp](https://github.com/emacs-lsp)
+- Java [https://github.com/eclipse/eclipse.jdt.ls](https://github.com/eclipse/eclipse.jdt.ls)
+- [https://github.com/eclipse/lsp4e](https://github.com/eclipse/lsp4e)
+- [https://github.com/ycm-core/ycmd](https://github.com/ycm-core/ycmd)
+
+
+* 语法增量解析 [https://github.com/tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
 
 
 
@@ -109,6 +142,8 @@
 | Ctrl + /             | 切换行注释 Toggle line comment                       |
 | Shift + Alt + A      | 切换块注释 Toggle block comment                      |
 | Alt + Z              | 切换换行 Toggle word wrap                           |
+| CTRL + ALT + X       | 转换为大写 transform To Uppercase                    |
+| CTRL + ALT + Y       | 转换为小写 transform To Lowercase                    |
 
 
 
@@ -260,13 +295,21 @@
 
 ## VSCode插件
 
++ [https://github.com/eclipse/openvsx](https://github.com/eclipse/openvsx)
+
+
 * [https://github.com/redhat-developer](https://github.com/redhat-developer)
 * [https://github.com/vscode-icons/vscode-icons](https://github.com/vscode-icons/vscode-icons)
+* 比较 [https://github.com/moshfeu/vscode-compare-folders](https://github.com/moshfeu/vscode-compare-folders)
+* [https://github.com/Axosoft/vscode-gitlens](https://github.com/Axosoft/vscode-gitlens)
+* 协作 [https://github.com/MicrosoftDocs/live-share](https://github.com/MicrosoftDocs/live-share)
+* [https://github.com/njpanderson/push](https://github.com/njpanderson/push) 类似于jet brains的`Deployment Automatic Upload`
 
 
-**中文语言**
 
-> `Chinese (Simplified) Language Pack for Visual Studio Code`
+- [https://github.com/Serpen/VBS-VSCode](https://github.com/Serpen/VBS-VSCode)
+- [https://github.com/karb0f0s/vscode-vbscript](https://github.com/karb0f0s/vscode-vbscript)
+- [https://github.com/Luncher91/VBScript-vscode](https://github.com/Luncher91/VBScript-vscode)
 
 
 **translate-var**

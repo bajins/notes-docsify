@@ -16,6 +16,8 @@
 * [Windows 10/8/7的Rundll32命令列表](https://www.thewindowsclub.com/rundll32-shortcut-commands-windows)
 * [https://gitlab.com/jarv/cmdchallenge](https://gitlab.com/jarv/cmdchallenge)
     * [https://cmdchallenge.com](https://cmdchallenge.com)
+* 打包成exe [https://github.com/jeremyben/thebatchman](https://github.com/jeremyben/thebatchman)
+* [https://github.com/npocmaka/batch.scripts](https://github.com/npocmaka/batch.scripts)
 
 
 + [添加快捷方式](/files/添加快捷方式.bat)
@@ -44,6 +46,18 @@ msg %username% /time:60 "WARNING:a backdoor account is created"
 - Windows10当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\CachedFiles\CachedImage_1920_1080_POS4.jpg`
 - Windows7当前桌面壁纸：`%AppData%\Microsoft\Windows\Themes\TranscodedWallpaper.jpg`
 - 事件日志目录：`%SystemRoot%\System32\Winevt\Logs`
+
+
+**获取用户名**
+
+```batch
+echo %username%
+net user
+whoami
+query user
+quser
+```
+
 
 
 

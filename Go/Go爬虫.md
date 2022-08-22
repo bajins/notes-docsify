@@ -9,9 +9,12 @@
 
 **[xpath和css选择器](/Web/README.md#xpath和css选择器)**
 
-**[HeadlessBrowser](/Shell/Python爬虫.md#headlessbrowser)**
+**[HeadlessBrowser](/IDE/Chrome.md#HeadlessBrowser)**
 
-
+- [https://github.com/go-rod/rod](https://github.com/go-rod/rod)
+- [https://github.com/derekparker/delve](https://github.com/derekparker/delve)
+- [https://github.com/mafredri/cdp](https://github.com/mafredri/cdp)
+- 类BeautifulSoup [https://github.com/anaskhan96/soup](https://github.com/anaskhan96/soup)
 
 
 ## HTML解析
@@ -19,6 +22,7 @@
 * [https://github.com/antchfx](https://github.com/antchfx) htmlquery使用xpath选择器
 * [https://github.com/PuerkitoBio/goquery](https://github.com/PuerkitoBio/goquery) goquery使用css选择器
 * [https://github.com/gocolly/colly](https://github.com/gocolly/colly)
+* [https://github.com/go-predator/predator](https://github.com/go-predator/predator)
 
 
 

@@ -11,30 +11,61 @@
 
 * [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
 * 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
+* [https://github.com/arnoldthebat/chromiumos](https://github.com/arnoldthebat/chromiumos)
 
+
+- [ERR_UNSAFE_PORT浏览器安全端口问题无法访问的解决方案](https://blog.csdn.net/kjcxmx/article/details/118122483)
 
 
 
 ## 浏览器下载
 
++ [https://github.com/topics/chromium](https://github.com/topics/chromium)
++ [https://github.com/topics/chrome](https://github.com/topics/chrome)
++ [https://github.com/chromium/chromium](https://github.com/chromium/chromium)
++ [https://github.com/googlechrome](https://github.com/googlechrome)
+    + [https://github.com/GoogleChrome/web.dev](https://github.com/GoogleChrome/web.dev)
++ [https://github.com/GoogleChromeLabs](https://github.com/GoogleChromeLabs)
+
 
 * [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
-    * [Chrome下载/插件/DevTools/账号迁移](/IDE/Chrome.md)
     * [有更新组件及服务的最新官方稳定版，离线安装包 x64](https://redirector.gvt1.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi)
     * [无更新组件及服务的最新官方稳定版，离线安装包 x64](https://redirector.gvt1.com/edgedl/release2/chrome/CUtGVpXHPGLv_SbZcTshgQ_87.0.4280.88/87.0.4280.88_chrome_installer.exe)
+    * [https://github.com/lyonna/ChromeOfflineInstallerDownloadAPI](https://github.com/lyonna/ChromeOfflineInstallerDownloadAPI)
+    * [https://api.pzhacm.org/iivb/cu.json](https://api.pzhacm.org/iivb/cu.json)
+    * [http://viewver.coolpage.biz/chrome.php](http://viewver.coolpage.biz/chrome.php)
+    * [Chrome历史离线包 不带更新模块](https://www.lanzouh.com/b112274)
 * [https://www.chromedownloads.net](https://www.chromedownloads.net)
 * [https://www.iplaysoft.com/tools/chrome](https://www.iplaysoft.com/tools/chrome)
-* [https://tools.shuax.com/chrome](https://tools.shuax.com/chrome)
 * [https://www.chrome64bit.com](https://www.chrome64bit.com)
 * [https://chrome.playes.net/chrome](https://chrome.playes.net/chrome)
+* [https://api.pzhacm.org/iivb/cu.json](https://api.pzhacm.org/iivb/cu.json)
+* [https://github.com/lyonna/ChromeOfflineInstallerDownloadAPI](https://github.com/lyonna/ChromeOfflineInstallerDownloadAPI)
+    * [http://viewver.coolpage.biz/chrome.php](http://viewver.coolpage.biz/chrome.php)
 
 
-+ [https://browsehappy.com](https://browsehappy.com)
-+ [https://shuax.com](https://shuax.com)
+**其他浏览器**
 
-* [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
+- 无Google Web服务浏览器 [https://github.com/Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
+- [https://github.com/nwjs/chromium.src](https://github.com/nwjs/chromium.src)
+
+
+* [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)
+    * [https://www.microsoft.com/zh-cn/edge](https://www.microsoft.com/zh-cn/edge)
     *  [最新官方稳定版离线安装包 x64](https://go.microsoft.com/fwlink/?LinkID=2093437)
+    * [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)
+    * [https://docs.microsoft.com/zh-cn/microsoft-edge](https://docs.microsoft.com/zh-cn/microsoft-edge)
 * [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
+    * [https://sourceforge.net/projects/libportable](https://sourceforge.net/projects/libportable)
+    * [https://ftp.mozilla.org/pub/firefox/releases](https://ftp.mozilla.org/pub/firefox/releases)
+* [https://github.com/vivaldi](https://github.com/vivaldi)
+    * [https://vivaldi.com](https://vivaldi.com)
+* [https://github.com/brave](https://github.com/brave)
+    * [https://brave.com](https://brave.com)
+    * [https://github.com/brave-experiments](https://github.com/brave-experiments)
+
+
+- TOR [https://github.com/alecmuffett/real-world-onion-sites](https://github.com/alecmuffett/real-world-onion-sites)
 
 
 
@@ -50,21 +81,33 @@ chrome://flags/#enable-parallel-downloading
 
 ## DevTools
 
++ [https://github.com/topics/devtools](https://github.com/topics/devtools)
 + [https://github.com/search?q=chrome-dev-tools](https://github.com/search?q=chrome-dev-tools)
++ [https://github.com/topics/chrome-debugging-protocol](https://github.com/topics/chrome-debugging-protocol)
 
-* [https://github.com/googlechrome](https://github.com/googlechrome)
+
+* [https://github.com/v8](https://github.com/v8)
+    * [https://github.com/justjavac/v8.js.cn](https://github.com/justjavac/v8.js.cn)
+* [https://github.com/ChromeDevTools](https://github.com/ChromeDevTools)
+* [https://github.com/ChromeDevTools/awesome-chrome-devtools](https://github.com/ChromeDevTools/awesome-chrome-devtools)
+* [https://github.com/RemoteDebug](https://github.com/RemoteDebug)
+* [https://github.com/html5rocks/www.html5rocks.com](https://github.com/html5rocks/www.html5rocks.com)
 * [https://github.com/GoogleChrome/devtools-docs](https://github.com/GoogleChrome/devtools-docs)
     * [https://developer.chrome.com/devtools/index](https://developer.chrome.com/devtools/index)
     * [https://devtools.chrome.com](https://devtools.chrome.com)
+    * [https://developer.chrome.com/docs/devtools/#chrome-remote-interface](https://developer.chrome.com/docs/devtools/#chrome-remote-interface)
     * [https://developers.google.com/web/tools/chrome-devtools](https://developers.google.com/web/tools/chrome-devtools)
     * [https://github.com/leeon/chrome_devtool_book](https://github.com/leeon/chrome_devtool_book)
         * [https://leeon.gitbooks.io/devtools](https://leeon.gitbooks.io/devtools)
     * [https://github.com/dendoink/FrontendWingman](https://github.com/dendoink/FrontendWingman)
         * [https://www.frontendwingman.com/Chrome](https://www.frontendwingman.com/Chrome)
         * [https://juejin.im/book/5c526902e51d4543805ef35e](https://juejin.im/book/5c526902e51d4543805ef35e)
-* [https://github.com/ChromeDevTools](https://github.com/ChromeDevTools)
 * [https://github.com/blittle/chrome-dev-tools](https://github.com/blittle/chrome-dev-tools)
 * Chrome开发者工具中文手册 [https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools](https://github.com/CN-Chrome-DevTools/CN-Chrome-DevTools)
+* [https://github.com/ahangchen/Chromium_doc_zh](https://github.com/ahangchen/Chromium_doc_zh)
+* [Chrome工具-查看dom元素绑定的事件](https://blog.csdn.net/weixin_38080573/article/details/105200212)
+* [F12找到页面某一元素所绑定的点击事件](https://www.cnblogs.com/111testing/p/11448316.html)
+* [如何使用chrome浏览器进行js调试找出元素绑定的点击事件](https://www.cnblogs.com/itjeff/p/11692342.html)
 
 - Firefox 开发者工具 [https://developer.mozilla.org/zh-CN/docs/Tools](https://developer.mozilla.org/zh-CN/docs/Tools)
 - Firefox浏览器开发人员版 [https://www.mozilla.org/zh-CN/firefox/developer](https://www.mozilla.org/zh-CN/firefox/developer)
@@ -87,10 +130,9 @@ chrome://flags/#enable-parallel-downloading
 
 **Source中的JS无法实时修改**
 
-> 很有可能是开启了`Pretty Print`（JS编辑框左下角的`{}`）导致
+> 很有可能是开启了`Pretty Print`（JS编辑框左下角的`{}`）导致，最新版本会把美化的代码开启新的窗口
 
-- `Source` -> JS编辑框左下角的`{}`如果有则点击一下再看JS是否可编辑
-- 新版本， 点击最右侧⚙️(Settings) -> Perference -> Restore defaults and reload
+- 新版本， 点击最右侧⚙️(Settings) -> Perference -> Restore defaults and reload （重置设置）
 - 老版本， ┇ -> More tools -> Settings -> Perference -> Restore defaults and reload
 - 关闭Chrome -> `%USERPROFILE%\AppData\Local\Google\Chrome\User Data\Default\` -> 编辑 `Preferences.json` -> `prettyPrintInfobarDisabled: false`
 
@@ -99,12 +141,108 @@ chrome://flags/#enable-parallel-downloading
 
 
 
+
+
+## HeadlessBrowser
+
+> `Headless Browser`(无头的浏览器)是没有图形用户界面(GUI)的web浏览器，通常是通过编程或命令行界面来控制的
+
++ [https://github.com/topics/webdriver](https://github.com/topics/webdriver)
+
+* [https://w3c.github.io/webdriver](https://w3c.github.io/webdriver)
+* [Headless Browser](https://www.jianshu.com/p/11d519e2d0cb)
+* [https://github.com/mozilla/geckodriver](https://github.com/mozilla/geckodriver)
+* [https://github.com/topics/headless-browser](https://github.com/topics/headless-browser)
+
+
+**反爬虫**
+
+* [https://github.com/intoli/intoli-article-materials](https://github.com/intoli/intoli-article-materials)
+* [无头浏览器检测](https://intoli.com/blog/not-possible-to-block-chrome-headless/chrome-headless-test.html)
+* [隐藏Headles-Chrome不被检测出来](https://mlln.cn/2019/07/05/%E7%88%AC%E8%99%AB%E5%A6%82%E4%BD%95%E9%9A%90%E8%97%8FHeadles-Chrome%E4%B8%8D%E8%A2%AB%E6%A3%80%E6%B5%8B%E5%87%BA%E6%9D%A5)
+
+
+
+
+### chromedriver
+
+> `Selenium`操作`Chrome`浏览器需要有`ChromeDriver`驱动来协助，`ChromeDriver`与`Chrome`版本对应关系一定要正确
+
+* [http://chromedriver.storage.googleapis.com/index.html](http://chromedriver.storage.googleapis.com/index.html)
+* [http://npm.taobao.org/mirrors/chromedriver](http://npm.taobao.org/mirrors/chromedriver)
+* [https://npm.taobao.org/mirrors/chromium-browser-snapshots](https://npm.taobao.org/mirrors/chromium-browser-snapshots)
+* [headless-chrome官方文档](https://developers.google.com/web/updates/2017/04/headless-chrome)
+* [功能和ChromeOptions官方网站参考](https://sites.google.com/a/chromium.org/chromedriver/capabilities)
+
+
+- 批量杀死`chromedriver`进程
+
+```bash
+ps -efww|grep LOCAL=chromedriver|grep -v grep|cut -c 9-15|xargs kill -9
+```
+
+```batch
+:: Windows
+taskkill /f /im chromedriver.exe
+```
+
+
+**参数列表**
+
+* [https://peter.sh/experiments/chromium-command-line-switches/](https://peter.sh/experiments/chromium-command-line-switches)
+* [https://cs.chromium.org/chromium/src/content/public/common/content_switches.cc](https://cs.chromium.org/chromium/src/content/public/common/content_switches.cc)
+
+
+| 参数                                	| 说明                                                                   	|
+|-------------------------------------	|------------------------------------------------------------------------	|
+| -blink-settings=imagesEnabled=false 	| 不加载图片, 此方式只针对单个标签页                                     	|
+| -bookmark-menu                      	| 在工具 栏增加一个书签按钮                                              	|
+| -default-browser-check              	| 不检查默认浏览器                                                       	|
+| -disable-extensions                 	| 禁用扩展                                                               	|
+| -disable-gpu                        	| 关闭gpu,服务器一般没有显卡                                             	|
+| -disable-images                     	| 禁用图像，建议使用"profile.managed_default_content_settings.images":2   |
+| -disable-java                       	| 禁用java                                                               	|
+| -disable-javascript                 	| 禁用Javascript                                                         	|
+| -disable-plugins                    	| 禁止加载所有插件。可以通过about:plugins页面查看效果                    	|
+| -disable-popup-blocking             	| 禁用弹出拦截                                                           	|
+| -disable-software-rasterizer        	| 禁用浏览器应用                                                         	|
+| -disk-cache-dir="[PATH]"            	| 指定缓存Cache路径                                                      	|
+| -disk-cache-size=                   	| 指定Cache大小，单位Byte                                                	|
+| -enable-sync                        	| 启用书签同步                                                           	|
+| -enable-udd-profiles                	| 启用账户切换菜单                                                       	|
+| -first run                          	| 重置到初始状态，第一次运行                                             	|
+| -headless                           	| 不开启图像界面                                                         	|
+| -hide-scrollbars                    	| 隐藏滚动条, 应对一些特殊页面                                           	|
+| -ignore-certificate-errors          	| 忽略证书错误                                                           	|
+| -incognito                          	| 隐身模式启动                                                           	|
+| -in-process-plugins                 	| 插件不以独立的进程运行，插件的异常崩溃，可能会导致整个页面挂掉         	|
+| -lang=zh-CN                         	| 设置语言为简体中文                                                     	|
+| -media-cache-size                   	| 自定义多媒体缓存最大值（单位byte）                                     	|
+| -no-first-run                       	| 第一次不运行                                                           	|
+| -no-sandbox                         	| 不开启沙盒模式可以减少对服务器的资源消耗,但是服务器安全性降低          	|
+| -omnibox-popup-count="num"          	| 将地址栏弹出的提示菜单数量改为num个。我都改为15个了。                  	|
+| -process-per-site                   	| 每个站点使用单独进程                                                   	|
+| -process-per-tab                    	| 每个标签使用单独进程                                                   	|
+| -proxy-pac-url                      	| 指定使用PAC代理时，所需要的脚本url地址                                 	|
+| -remote-debugging-address           	| 远程调试地址 0.0.0.0 可以外网调用但是安全性低,建议使用默认值 127.0.0.1 	|
+| -remote-debugging-port              	| chrome-debug工具的端口(golang chromepd 默认端口是9222,建议不要修改)    	|
+| -single-process                     	| 浏览器只能以单进程运行，通常用于调试，定位bug                          	|
+| -start-maximized                    	| 浏览器启动后，窗口默认为最大化                                         	|
+| -user-agent=""                      	| 修改HTTP请求头部的Agent字符串，可以通过about:version页面查看修改效果   	|
+| -user-data-dir="[PATH]"             	| 指定用户文件夹User Data路径。                                          	|
+| -window-size="1600x900"             	| 窗口尺寸                                                               	|
+
+
+
+
+
 ## 插件
 
+* [https://github.com/chrome-extensions](https://github.com/chrome-extensions)
 * [https://github.com/topics/crx](https://github.com/topics/crx)
 * [https://github.com/topics/chrome-extension](https://github.com/topics/chrome-extension)
 * 冻结暂时用不到的标签页 [https://github.com/deanoemcke/thegreatsuspender](https://github.com/deanoemcke/thegreatsuspender)
-
+* 防止通过 URL 跟踪用户 [https://github.com/ClearURLs](https://github.com/ClearURLs)
 
 
 ### 插件下载
@@ -115,7 +253,8 @@ chrome://flags/#enable-parallel-downloading
 * [crx4chrome](https://www.crx4chrome.com)
 * [https://www.extfans.com](https://www.extfans.com)
 * [https://www.gugeapps.net](https://www.gugeapps.net)
- 
+* [https://getman.cn/chrome](https://getman.cn/chrome)
+
 
 
 ### GitHub相关
@@ -150,12 +289,13 @@ chrome://flags/#enable-parallel-downloading
 * [https://github.com/joue-quroi/cookie-editor](https://github.com/joue-quroi/cookie-editor)
     * [https://add0n.com/cookie-editor.html](https://add0n.com/cookie-editor.html)
 
-- [将完整的网页保存到单个HTML文件](https://github.com/gildas-lormeau/SingleFile)
+- 网页保存 [https://github.com/gildas-lormeau/SingleFile](https://github.com/gildas-lormeau/SingleFile)
 - [https://github.com/vsDizzy/SaveAsMHT](https://github.com/vsDizzy/SaveAsMHT)
 - [https://github.com/brian-girko/save-as-mhtml](https://github.com/brian-girko/save-as-mhtml)
 - [Save Page WE](https://chrome.google.com/webstore/detail/save-page-we/dhhpefjklgkmgeafimnjhojgjamoafof)
 - [https://github.com/danny0838/webscrapbook](https://github.com/danny0838/webscrapbook)
 - [https://github.com/mika-cn/maoxian-web-clipper](https://github.com/mika-cn/maoxian-web-clipper)
+- 自动化 [https://github.com/Kholid060/automa](https://github.com/Kholid060/automa)
 
 * [GOOGLE 人机验证(RECAPTCHA)无法显示解决方案(可解决大多数 CSP 问题)](https://blog.azurezeng.com/recaptcha-use-in-china)
     * [https://github.com/AzureZeng/azurezeng.github.io](https://github.com/AzureZeng/azurezeng.github.io)
@@ -180,8 +320,10 @@ chrome://flags/#enable-parallel-downloading
 * ADB [https://getadblock.com](https://getadblock.com)
 * [https://ublock.org](https://ublock.org)
 * [https://github.com/AdguardTeam](https://github.com/AdguardTeam)
+* [https://github.com/iamadamdev/bypass-paywalls-chrome](https://github.com/iamadamdev/bypass-paywalls-chrome)
+* [https://github.com/SugarCoatJS](https://github.com/SugarCoatJS)
 
-- AdGuard Android 解锁高级版 [https://www.lanzoux.com/b0f19420h](https://www.lanzoux.com/b0f19420h)
+- AdGuard Android 解锁高级版 [https://www.lanzoui.com/b0f19420h](https://www.lanzoui.com/b0f19420h)
 
 **过滤规则**
 
@@ -212,18 +354,25 @@ chrome://flags/#enable-parallel-downloading
 * [Video Downloader professional](https://chrome.google.com/webstore/detail/video-downloader-professi/bacakpdjpomjaelpkpkabmedhkoongbi)
 * [https://github.com/684102/HDS-HLS-Video-Downloader](https://github.com/684102/HDS-HLS-Video-Downloader)
 
+- 黑暗阅读器 [https://github.com/darkreader/darkreader](https://github.com/darkreader/darkreader)
+
 
 ### Other
 
 * [脚本助手：tampermonkey](https://www.tampermonkey.net)
+    * [https://greasyfork.org](https://greasyfork.org)
+    * [https://openuserjs.org](https://openuserjs.org)
+    * [https://github.com/Mottie/GitHub-userscripts](https://github.com/Mottie/GitHub-userscripts)
+    * [https://github.com/XIU2/UserScript](https://github.com/XIU2/UserScript)
 * [脚本助手：violentmonkey](https://github.com/violentmonkey/violentmonkey)
+* 解锁加密音乐 [https://github.com/unlock-music/unlock-music](https://github.com/unlock-music/unlock-music)
 * [阅读模式：reader-view](https://chrome.google.com/webstore/detail/reader-view/iibolhpkjjmoepndefdmdlmbpfhlgjpl)
 * [阅读模式：just-read](https://github.com/ZachSaucier/Just-Read)
 * [https://github.com/rNeomy/reader-view](https://github.com/rNeomy/reader-view)
 * [保存一个链接列表，以便稍后阅读：reading-list](https://github.com/alexpdraper/reading-list)
 * [二维码生成器：quick-qr-code-generator](https://chrome.google.com/webstore/detail/quick-qr-code-generator/afpbjjgbdimpioenaedcjgkaigggcdpp)
 * [二维码生成器：qr-code-generator-and-rea](https://c7sky.com/web-extension-qrcode.html)
-* [代理助手：proxy-switchyomega](https://github.com/FelisCatus/SwitchyOmega)
+* 代理助手 [https://github.com/FelisCatus/SwitchyOmega](https://github.com/FelisCatus/SwitchyOmega)
 * [清除浏览器历史记录/缓存/Cookie：super-history-cache-clean](https://chrome.google.com/webstore/detail/super-history-cache-clean/afelaengidkffdcabnhdoeojoeoonfcn)
 * [清除浏览器历史记录/缓存/Cookie：chrome-cleaner](https://chrome.google.com/webstore/detail/chrome-cleaner/lbpddeimojmbpkbfckjpnbpehgnbpnnl)
 * [https://github.com/adam-p/markdown-here](https://github.com/adam-p/markdown-here)

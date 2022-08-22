@@ -12,14 +12,21 @@
 >
 > `Shell`管理你与操作系统之间的交互：等待你输入，向操作系统解释你的输入，并且处理各种各样的操作系统的输出结果。
 
++ [https://github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
++ 命令替代品 [https://github.com/ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix)
++ [https://github.com/vastutsav/command-line-quick-reference](https://github.com/vastutsav/command-line-quick-reference)
 
-- 包管理器 [https://github.com/Homebrew](https://github.com/Homebrew)
-
-
-* [精选的优秀命令行框架](https://github.com/alebcay/awesome-shell)
 * [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
 
 - [Linux下Shell脚本字符串单引号、双引号、反引号、反斜杠的作用和区别](https://www.cnblogs.com/EasonJim/p/8018545.html)
+
+
+## 运行程序
+
+- Linux下执行一个可执行的文件，不需要命令，直接写文件路径，会自动执行
+- 执行当前目录下的文件：./文件名
+- 直接用绝对路径：/hone/文件名
+
 
 
 
@@ -82,6 +89,9 @@ ls -l | grep test | awk '{print $5}' | sed -n '2p'
 
 
 
+* [https://github.com/adrianscheff/useful-sed](https://github.com/adrianscheff/useful-sed)
+* [shell＞sed (对文件的内容进行替换）](https://blog.csdn.net/qq_42069216/article/details/104425018)
+
 
 - `awk` 文本处理命令，`print`后面是你要获取第几列
 - `sed` 行编辑器，`-n`是指定第几行。
@@ -91,8 +101,6 @@ ls -l | grep test | awk '{print $5}' | sed -n '2p'
     - `c` 替换
     - `w` 写入
     - `i` 插入
-
-
 - `cut`命令用于显示每行从开头算起num1到num2的文字
     - `-b` ：以字节为单位进行分割。这些字节位置将忽略多字节字符边界，除非也指定了`-n`标志。
     - `-c` ：以字符为单位进行分割。
@@ -132,35 +140,22 @@ ls -l | awk "/postfix|dovecot/"
 
 ## 定时任务
 
+* [https://github.com/search?q=cron](https://github.com/search?q=cron)
+    * [https://github.com/topics/crontab](https://github.com/topics/crontab)
+    * 定时任务 [https://github.com/ouqiang/gocron](https://github.com/ouqiang/gocron)
+    * [https://github.com/robfig/cron](https://github.com/robfig/cron)
+    * [https://github.com/jasonlvhit/gocron](https://github.com/jasonlvhit/gocron)
+    * [https://github.com/alseambusher/crontab-ui](https://github.com/alseambusher/crontab-ui)
+    * [https://github.com/whyour/qinglong](https://github.com/whyour/qinglong)
+
 > `crontab`命令常用于Unix和类Unix的操作系统之中，用于设置周期性被执行的指令
 
-### 编辑crontab文件
-
 ```bash
+# 编辑crontab文件
 crontab -e
 ```
 
-### 输入定时任务命令
-
-```bash
-# 每分钟输出一次当前时间
-* * * * * echo `date` >> /log.log
-# 每天凌晨1点30分执行清理内存脚本，并且输出到日志
-30 1 * * *  /bin/bash /home/rememory.sh >> /home/rememory.log 2>&1
-# 每天凌晨1点30分执行删除MySQL日志文件，并且输出到日志
-30 1 * * *  python /home/delete_file.py 文件带后缀的路径 保留的文件个数 >> /home/delete_file.log 2>&1
-# 每隔3天,1点30分执行，并且输出到日志
-30 1 */3 * * /bin/bash 文件路径 >> 输出日志文件路径 2>&1
-# 设置每20天清理一次（日志清理太频繁不方便以后按日志排错）
-0 0 */20 * * /bin/bash /home/cleanLog.sh >> /home/cleanLog.log 2>&1
-
-# 设置每小时执行一次
-0 */1 * * *  执行命令
-```
-
-> 在linux中的直接执行shell脚本可以用相对路径找到文件,但是如果通过计划任务`crontab`执行shell脚本时，却不能通过相对路径找到文件!
->
-> 可以使用pwd命令获取目录`pwd`'/文件名'
+> 在linux中执行shell脚本可以用相对路径找到文件,但是如果通过计划任务`crontab`执行shell脚本时，却不能通过相对路径找到文件!
 
 
 ## 进制转换
@@ -174,6 +169,14 @@ printf "%x\n" 值
 
 
 ## 进程与线程
+
+**查看进程启动路径**
+
+```bash
+ps -aux | grep nginx
+# 每个进程启动之后在 /proc下面有一个于pid对应的路径
+ls -l /proc/PID
+```
 
 
 **查看系统进程和线程限制**
@@ -219,6 +222,15 @@ cat /proc/sys/vm/max_map_count
 ```bash
 cat /proc/进程PID/status
 ```
+
+**批量杀掉筛选进程**
+
+- `ps -ef | grep 名称 | grep -v grep | awk '{print $2}' | xargs kill -9`
+- `ps -ef | grep 名称 | grep -v grep | cut -c 9-15 | xargs kill -9`
+
+* [Linux下批量杀掉筛选进程](https://blog.csdn.net/weiyichenlun/article/details/59108463)
+
+
 
 **查看线程树**
 
@@ -271,56 +283,6 @@ ls /proc/进程PID/task | wc -l
 ```bash
 ps -mp 进程PID -o THREAD,tid,time | sort -rn
 ```
-
-
-## 开机启动
-
-**添加命令到`/etc/rc.local`文件末尾**
-
-> 编辑`/etc/rc.local`或者`/etc/rc.d/rc.local`（前者是后者的软连接）文件，
-> 按<kbd>Shift</kbd> + <kbd>g</kbd>（就是大写的G）跳转到末尾添加运行命令
->> 执行的程序需要写绝对路径，添加到系统环境变量的除外
-
-> 为防止启动执行失败，最好执行一次`chmod +x /etc/rc.d/rc.local`进行授权
-
-**crontab**
-
-```bash
-crontab -e
-@reboot 运行程序命令
-```
-
-
-
-**脚本文件放在`/etc/profile.d/`目录下**
-
-- `chkconfig`
-
-1、创建软连接或者复制脚本到`/etc/init.d/`或者`/etc/rc.d/init.d/`（前者是后者的软连接）下
-
-> 注意脚本文件开头一定要添加以下几行代码，否侧会提示`chkconfig`不支持
-
-```bash
-#!/bin/sh
-# - 64 36 分别代表运行级别，启动优先权，关闭优先权
-# chkconfig: - 64 36
-# description: Supervisor Server
-# processname: supervisord
-```
-
-2、添加启动项
-
-```bash
-chkconfig --add 脚本名
-chkconfig 脚本名 on
-```
-
-3、检查是否设置成功
-
-```bash
-chkconfig --list | grep 脚本名
-```
-
 
 
 
@@ -384,8 +346,10 @@ find . | xargs grep -ril 'content'
 ## 列出目录
 
 ```bash
-ls -l |grep "^d" |awk '{print $9}'
-ls -F |grep "/$"
+ls -l | grep "^d" | awk '{print $9}'
+ls -F | grep "/$"
+ls | sed "s:^:`pwd`/: "
+ls -1 | awk '{print i$0}' i=`pwd`'/'
 ls -d */
 ls -ad */
 ```
@@ -397,16 +361,12 @@ ls -ad */
 
 > `find`用于查找文件
 
-> `grep`用于查找文件内容的行
->> `-r`递归查找
->>
->> `-l`列出匹配的文件名
->>
->> `-n`列出所在的行号
->>
->> `--include="*.text"`只查找后缀名是`.text`的文件
->> 
->> `--exclude="*.sql"`查找除了后缀名是`.sql`的文件
+- `grep`用于查找文件内容的行
+    - `-r`递归查找
+    - `-l`列出匹配的文件名
+    - `-n`列出所在的行号
+    -  `--include="*.text"`只查找后缀名是`.text`的文件
+    - `--exclude="*.sql"`查找除了后缀名是`.sql`的文件
 
 > `xargs`命令是给其他命令传递参数的一个过滤器，也是组合多个命令的一个工具，它擅成长将标准输入数据转换成命令行参数。
 
@@ -423,56 +383,34 @@ ls -ad */
 
 ```bash
 find -name test
-```
-
-> 查看录前目录下文件名中含有字符串的文件，`*`为通配符，可以按需要使用
-
-```bash
+# 查找并排除多个文件
+find ./ -not \( -name "*.jpg" -o -name "*.png" \)
+find ./ -not -name "*.jpg" -o -name "*.png"
+find ./ -not \( -name "*.jpg" -or -name "*.png" \)
+find ./ -not -name "*.jpg" -or -name "*.png"
+# 查看录前目录下文件名中含有字符串的文件，`*`为通配符，可以按需要使用
 find -name '*XXX*'
-```
-
-> 在当前目录下查看所有目录并排序
-
-```bash
+# 在当前目录下查看所有目录并排序
 find -type d | sort
+# 查找指定时间内的文件
+find 文件路径 -type f -newermt '起始时间' -a -not -newermt '结束时间'
+# 查找当前目录下文件内容匹配的字符串，输出：`全路径文件名:字符串所在行内容`
+find . -type f | xargs grep "XXX"
+find . | xargs grep -ri "XXX"
+# 查找当前目录下文件内容匹配的字符串，输出：`字符串所在行内容`
+find /XXX/XXX -type f -exec grep "XXX" {} \;
+# 查找当前目录下文件内容匹配的字符串，输出：`文件名`
+find . | xargs grep -ril "XXX"
 ```
 
->  在指定文件中（一个或多个）查找并出含字符串的行
-
 ```bash
+# 在指定文件中（一个或多个）查找并出含字符串的行
 grep 'XXX' text1.txt text2.txt
-```
-
-> 在以t开头的文件中查找并出含字符串的行
-
-```bash
+# 在以t开头的文件中查找并出含字符串的行
 grep 'XXX' t*
 ```
 
-> 查找指定时间内的文件
 
-```bash
-find 文件路径 -type f -newermt '起始时间' -a -not -newermt '结束时间'
-```
-
-> 查找当前目录下文件内容匹配的字符串，输出：`全路径文件名:字符串所在行内容`
-
-```bash
-find . -type f | xargs grep "XXX"
-find . | xargs grep -ri "XXX"
-```
-
-> 查找当前目录下文件内容匹配的字符串，输出：`字符串所在行内容`
-
-```bash
-find /XXX/XXX -type f -exec grep "XXX" {} \;
-```
-
-> 查找当前目录下文件内容匹配的字符串，输出：`文件名`
-
-```bash
-find . | xargs grep -ril "XXX"
-```
 
 ## 批量替换文件内容
 
@@ -506,19 +444,19 @@ grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 
 ## 删除文件
 
-**删除并排除文件**
+**删除排除的其他文件**
 
 ```bash
 find * | grep -v '\(*.jpg\|*.png)' | xargs rm
-rm -rf !(*.jpg|*.png)
+find . -maxdepth 1 ! -name 'dist' -type f -exec rm -v {} +
+#报错：`-bash: !: event not found` 需要开启通配符功能
+shopt -s extglob && rm -rf !(*.jpg|*.png) && shopt -u extglob
+# rm删除除去指定文件的剩余所有文件 (rm 反向删除）
+rm -rf `ls | grep -v "^ab.txt$"`
+rm -rf `ls | egrep -v '(config.js|dist)'`
+# 递归当前目录
+rm -f `find * -name "*" | egrep -v '(*.jpg|*.png)'`
 ```
-
-> 如果报错：`-bash: !: event not found` 需要开启通配符功能
-
-```bash
-shopt -s extglob
-```
-
 
 
 **删除指定时间前的文件**
@@ -637,4 +575,5 @@ cd ..
 ```bash
 cd .
 ```
+
 

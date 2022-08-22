@@ -7,7 +7,31 @@
 
 ## Flag
 
++ [https://github.com/topics/tomcat](https://github.com/topics/tomcat)
++ [https://github.com/apache/tomcat](https://github.com/apache/tomcat)
++ [https://github.com/wildfly/wildfly](https://github.com/wildfly/wildfly)
++ [https://github.com/undertow-io/undertow](https://github.com/undertow-io/undertow)
++ [https://github.com/eclipse/jetty.project](https://github.com/eclipse/jetty.project)
++ [https://github.com/eclipse-ee4j/grizzly](https://github.com/eclipse-ee4j/grizzly)
+
+
 * Tomcat集群Redis会话管理器 [https://github.com/ran-jit/tomcat-cluster-redis-session-manager](https://github.com/ran-jit/tomcat-cluster-redis-session-manager)
+* Tomcat监控 [https://github.com/psi-probe](https://github.com/psi-probe)
+
+
+- [归档 | 回忆飘如雪](http://gv7.me/archives)
+- [Shiro的反序列化漏洞，以及内存马技术](https://blog.csdn.net/localhost01/article/details/107340698)
+- [Java Agent 从入门到内存马](https://xz.aliyun.com/t/9450)
+- [Tomcat性能监控与调优](https://blog.51cto.com/zero01/2145077)
+- [超详细的Tomcat性能监控及调优教程](https://zhuanlan.zhihu.com/p/150135605)
+- [Gzip无法压缩48k以上的资源？](https://blog.csdn.net/qq_29534483/article/details/80744027)
+
+
+
+* [java编译器编码和JVM编码问题？](https://www.zhihu.com/question/30977092)
+* Linux中，JVM默认编码为UTF-8，在`catalina.sh`配置`JAVA_OPTS="$JAVA_OPTS -Dfile.encoding=UTF-8"`
+* Windows中，JVM默认编码为GBK，在`catalina.bat`配置`set JAVA_OPTS=%JAVA_OPTS% -Dfile.encoding=UTF-8`
+
 
 
 ## 执行器（线程池）
@@ -44,6 +68,10 @@
 > Connector是连接器，负责接收客户的请求，以及向客户端回送响应的消息。所以 Connector的优化是重要部分。
 默认情况下 Tomcat只支持200线程访问，超过这个数量的连接将被等待甚至超时放弃，所以我们需要提高这方面的处理能力。
 
+- [Tomcat 连接器Connector 的三种运行模式 Bio、Nio、Apr](https://blog.csdn.net/qq_34556414/article/details/109176069)
+
+
+
 | 参数 | 说明  |
 | ------------ | ------------ |
 |maxPostSize|参数形式处理的最大长度，默认值为2097152（2兆字节）。上传提交的时候可以用的|
@@ -66,13 +94,14 @@
 |enableLookups|设置为false时跳过DNS查找，并返回字符串情势的IP地址（从而提高性能）。默认景象下，禁用DNS查找。|
 |URIEncoding|指定使用的字符编码，来解码URI字符。如果没有指定，ISO-8859-1将被使用。|
 |executor|指向Executor元素的引用。|
+|compressableMimeType| 可以在`conf/web.xml`中的`Default MIME Type Mappings`部分找到|
 
 
 ```xml     
 <Connector executor="tomcatThreadPool"
         connectionTimeout="20000"
         port="8080"
-        protocol="org.apache.coyote.http11.Http11NioProtocol"
+        protocol="org.apache.coyote.http11.Http11Nio2Protocol"
         redirectPort="8443"
         maxHttpHeaderSize="8192"
         enableLookups="false"
@@ -82,8 +111,14 @@
         acceptorTreadCount="100"
         disableUploadTimeout="true"
         maxConnections="10000"
-        SSLEnabled="false"/>
+        SSLEnabled="false"
+        compression="on"
+        compressionMinSize="2048"
+        noCompressionUserAgents="gozilla,traviata"
+        compressableMimeType="text/html,text/xml,application/javascript,text/javascript,text/css,text/plain,text/json"
+        />
 ```
+
 
 ## 禁用AJP连接器
 
@@ -251,4 +286,15 @@ export CATALINA_2_BASE CATALINA_2_HOME TOMCAT_2_HOME
 source /etc/profile 
 # 或者
 . /etc/profile
+```
+
+
+## window运行
+
+* [在文件头部添加隐藏窗口运行](/Shell/WindowsBatch.md#隐藏窗口运行)并修改以下文件，执行不显示dos窗口
+
+```batch
+:: window下tomcat在当前窗口启动，不在一个新的窗口启动：把start改为run
+call "%EXECUTABLE%" start %CMD_LINE_ARGS%
+call "%EXECUTABLE%" run %CMD_LINE_ARGS%
 ```

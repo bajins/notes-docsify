@@ -7,23 +7,48 @@
 
 ## Flag
 
-+ [https://github.com/apachecn/git-doc-zh](https://github.com/apachecn/git-doc-zh)
-  + [https://git.apachecn.org](https://git.apachecn.org)
-+ [常用命令 · git笔记 · 看云](https://www.kancloud.cn/leviio/git/330946)
-+ [Git 常用命令及使用详解 - 喵斯基部落](https://www.moewah.com/archives/2292.html)
-+ Pro Git 中文版（第二版）: [https://progit.bootcss.com](https://progit.bootcss.com)
-+ Git速查手册: [https://www.rumosky.wiki/docs/learngit](https://www.rumosky.wiki/docs/learngit)
-+ Git的奇技淫巧: [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
-+ 猴子都能懂的GIT入门: [https://backlog.com/git-tutorial/cn/contents](https://backlog.com/git-tutorial/cn/contents)
-+ [Git与Subversion的命令对比表](https://website-proxy.backlogtool.com/git-tutorial/cn/reference/git-svn.html)
-+ [https://github.com/progit](https://github.com/progit)
-  + [http://git-scm.com/book](http://git-scm.com/book)
-+ [https://github.com/libgit2](https://github.com/libgit2)
++ [https://github.com/topics/git](https://github.com/topics/git)
++ [https://github.com/git](https://github.com/git)
+  + [https://github.com/git-for-windows](https://github.com/git-for-windows)
+  + [https://git-scm.com](https://git-scm.com)
+  + [https://gitforwindows.org](https://gitforwindows.org)
+  + [https://github.com/GitCredentialManager](https://github.com/GitCredentialManager)
+  + [https://github.com/microsoft/Git-Credential-Manager-for-Windows](https://github.com/microsoft/Git-Credential-Manager-for-Windows)
+  + [https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux](https://github.com/microsoft/Git-Credential-Manager-for-Mac-and-Linux)
+  + [https://github.com/microsoft/scalar](https://github.com/microsoft/scalar)
+  + [https://github.com/microsoft/vfsforgit](https://github.com/microsoft/vfsforgit)
+  + [https://github.com/microsoft/git](https://github.com/microsoft/git)
 
+
+
+* [https://github.com/progit](https://github.com/progit)
+  * [http://git-scm.com/book](http://git-scm.com/book)
+  * [https://github.com/progit/progit2-zh](https://github.com/progit/progit2-zh)
+  * [https://github.com/progit-cn](https://github.com/progit-cn)
+    * Pro Git 中文版（第二版） [https://progit.bootcss.com](https://progit.bootcss.com)
+    * [https://codechina_dev.gitcode.host/progit2](https://codechina_dev.gitcode.host/progit2)
+* [https://github.com/apachecn/git-doc-zh](https://github.com/apachecn/git-doc-zh)
+  * [https://git.apachecn.org](https://git.apachecn.org)
+* [常用命令 · git笔记 · 看云](https://www.kancloud.cn/leviio/git/330946)
+* [Git 常用命令及使用详解 - 喵斯基部落](https://www.moewah.com/archives/2292.html)
+* Git速查手册 [https://github.com/arslanbilal/git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet)
+    * [https://www.rumosky.wiki/docs/learngit](https://www.rumosky.wiki/docs/learngit)
+* Git的奇技淫巧: [https://github.com/521xueweihan/git-tips](https://github.com/521xueweihan/git-tips)
+* 猴子都能懂的GIT入门: [https://backlog.com/git-tutorial/cn/contents](https://backlog.com/git-tutorial/cn/contents)
+* [Git与Subversion的命令对比表](https://website-proxy.backlogtool.com/git-tutorial/cn/reference/git-svn.html)
+* [https://github.com/libgit2](https://github.com/libgit2)
+* 在线学 Git [https://codechina_dev.gitcode.host/learn-git-branching](https://codechina_dev.gitcode.host/learn-git-branching)
+* [https://github.com/pcottle/learnGitBranching](https://github.com/pcottle/learnGitBranching)
+
+
+* Git大全 [https://gitee.com/all-about-git](https://gitee.com/all-about-git)
 * [Git 团队协作中常用术语 WIP PTAL CC LGTM 等解释](https://blog.csdn.net/kunyus/article/details/93472646)
 
 - [git-pull.bat](/files/git-pull.bat)
 - [git-pull.sh](/files/git-pull.sh)
+
+
+> 脚本没有写的权限：在`git-bash.exe`文件或快捷方式上鼠标`右键` -> `属性` -> `兼容性` -> 勾选`以管理员身份运行此程序` -> `确定`
 
 
 **[Commit提交规范](/Other/编程规范.md#commit提交规范)**
@@ -64,37 +89,18 @@ git config --global credential.helper store
 - 使用命令设置
 
 ```bash
+# --global全局（会在.gitconfig文件中添加相关配置，所以可手动编辑文件），去掉或者使用--local为当前仓库（局部）
+# 使用 --unset 参数可取消设置
 # socks5代理，如果是http则把socks5替换为http，https同理
 git config --global http.proxy 'socks5://127.0.0.1:10808'
 git config --global https.proxy 'socks5://127.0.0.1:10808'
+# 只针对某个域名代理
+git config --global https."github.com".proxy "socks5://127.0.0.1:10808"
+# 最优方式，--add参数会添加多个
+git config remote.origin.proxy "socks5://127.0.0.1:10808"
+# 替换为镜像URL
+git config --global url."github.com".insteadOf "hub.fastgit.org"
 ```
-
-- 编辑配置文件设置
-
-```bash
-vi ~/.gitconfig
-```
-
-> 在文件末尾添加
-
-```ini
-[http]
-proxy = socks5://127.0.0.1:10808
-
-[https]
-proxy = socks5://127.0.0.1:10808
-```
-
-**取消代理**
-
-- 命令
-
-```bash
-git config --global --unset http.proxy
-git config --global --unset https.proxy
-```
-
-- 编辑配置文件取消代理，直接删除文件即可
 
 
 
@@ -178,6 +184,7 @@ git reset HEAD^
 
 ```bash
 # 将本地仓库文件push到远程仓库（-f代表强制 --force）
+# --allow-unrelated-histories 允许合并不相关的历史
 git push -u -f origin master
 ```
 
@@ -200,6 +207,13 @@ git fetch --all
 git reset --hard origin/<branch_name>
 # 拉取远端最新代码
 git pull
+```
+
+```bash
+# 暂时忽略对文件做的修改
+git update-index --assume-unchanged 路径
+# 重新标识对文件做的修改
+git update-index --no-assume-unchanged 路径
 ```
 
 
@@ -294,12 +308,13 @@ git log master..origin/master
 - 推送到指定分支`git push origin [branch name]`
 - 删除本地分支`git branch -d [branch name]`
 - 删除远程分支,分支名前的冒号代表删除`git push origin :[branch name]`
-
+- `for b in git branch -r | grep -v -- '->'; do git branch --track ${b##origin/} $b; done` [一次性拉取仓库的所有分支](https://gitee.com/help/articles/4284#%E6%96%B9%E6%B3%95%E4%BA%8C%E6%8E%A8%E8%8D%90%E6%AF%94%E8%BE%83%E5%A4%9A%E5%88%86%E6%94%AF%E7%9A%84%E4%BB%93%E5%BA%93)
 
 
 ## SubModule与SubTree
 
 * [Git - 子模块](https://git-scm.com/book/zh/v2/Git-%E5%B7%A5%E5%85%B7-%E5%AD%90%E6%A8%A1%E5%9D%97)
+
 
 - submodule只存在引用，代码Pull和Push都只能和 被依赖的项目关联。类似于引用
 - subtree直接克隆被依赖项目，代码Pull和Push根据需要和主项目或被依赖项目关联。类似于拷贝
@@ -320,11 +335,19 @@ git log master..origin/master
 - `git submodule update --init --recursive` 递归下载子模块的源码，并初始化
 - `git submodule foreach 'git checkout -f'` git强制更新所有submodule
 - `git pull` 把子模块看作单独的仓库，进入到子模块目录下，更新submodule，拉取后项目有需要提交的更新
-- `rm -rf 模块名` 删除子模块目录文件
+- `git clone url --recurse-submodules` 递归地将项目中所有子模块的代码拉取
+
+* [子模块有修改未提交，报错fatal: remote error: upload-pack: not our ref](https://stackoverflow.com/questions/61163082/why-does-git-submodule-update-fail-with-fatal-remote-error-upload-pack-not-o)
+
+
+**删除子模块**
+
 - `vim .gitmodules` 移除子模块的索引信息
-- `vim .git/config` 移除子模块的配置信息
+- `git submodule deinit` 删除`.git/config`中的模块信息，加上参数`--force`子模块工作区内即使有本地的修改，也会被移除
+- `rm -rf 模块文件夹` 删除子模块目录文件
 - `rm -rf .git/modules/模块名` 移除子模块的其他信息
 - `git rm --cached 模块名` 删除缓存，提示`fatal: pathspec 'xxxxx' did not match any files` 说明删除干净了
+
 
 
 
@@ -349,10 +372,13 @@ git log master..origin/master
 * [gitattributes](https://git.apachecn.org/#/docs/39)
 
 + [https://github.com/topics/gitattributes](https://github.com/topics/gitattributes)
-  + [https://github.com/gitattributes](https://github.com/gitattributes)
-  + [https://github.com/alexkaratarakis/gitattributes](https://github.com/alexkaratarakis/gitattributes)
+    + [https://github.com/gitattributes](https://github.com/gitattributes)
+    + [https://github.com/alexkaratarakis/gitattributes](https://github.com/alexkaratarakis/gitattributes)
 
 - `text`
+    - `linguist-language` 设置语言
+    - `working-tree-encoding` 设置字符集编码
+    - `eol` 设置换行符（`crlf`、`lf`）
 - `-text`
 - `text=string`
 - `text=auto` 让git自行处理左边匹配的文件使用何种换行符格式，这是默认选项。
@@ -360,7 +386,7 @@ git log master..origin/master
 - `!text` 为了覆盖其他文件中的声明，效果同上
 - `binary` 指定为二进制文件，不应该对其中的换行符进行改变。和`-text -diff`等价
 
-* [.gitattributes示例文件](https://github.com/woytu/notes-vuepress/blob/master/.gitattributes)
+* [.gitattributes示例文件](https://github.com/bajins/notes-vuepress/blob/master/.gitattributes)
 
 ```bash
 # 生成.gitattributes文件
