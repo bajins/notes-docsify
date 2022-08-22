@@ -4,11 +4,11 @@
 
   * [GoGUI](/Go/GoGUI.md)
 
-  * [GoÅÀ³æ](/Go/GoÅÀ³æ.md)
+  * [Goç¬”è®°](/Go/Goç¬”è®°.md)
 
-  * [Go±Ê¼Ç](/Go/Go±Ê¼Ç.md)
+  * [Goç¼–è¯‘æ‰“åŒ…](/Go/Goç¼–è¯‘æ‰“åŒ….md)
 
-  * [Go±àÒë´ò°ü](/Go/Go±àÒë´ò°ü.md)
+  * [Goçˆ¬è™«](/Go/Goçˆ¬è™«.md)
 
 * [IDE](/IDE/README.md)
 
@@ -16,13 +16,13 @@
 
   * [Eclipse](/IDE/Eclipse.md)
 
-  * [GitÊ¹ÓÃ](/IDE/GitÊ¹ÓÃ.md)
+  * [GitæœåŠ¡](/IDE/GitæœåŠ¡.md)
 
-  * [Git·şÎñ](/IDE/Git·şÎñ.md)
+  * [Gitä½¿ç”¨](/IDE/Gitä½¿ç”¨.md)
 
-  * [IDEAÊ¹ÓÃ](/IDE/IDEAÊ¹ÓÃ.md)
+  * [IDEAæ’ä»¶](/IDE/IDEAæ’ä»¶.md)
 
-  * [IDEA²å¼ş](/IDE/IDEA²å¼ş.md)
+  * [IDEAä½¿ç”¨](/IDE/IDEAä½¿ç”¨.md)
 
   * [Subversion](/IDE/Subversion.md)
 
@@ -36,15 +36,15 @@
 
   * [JavaGUI](/Java/JavaGUI.md)
 
-  * [Java¹¹½¨¹ÜÀí](/Java/Java¹¹½¨¹ÜÀí.md)
+  * [Javaç¬”è®°](/Java/Javaç¬”è®°.md)
 
-  * [Java×¢½â](/Java/Java×¢½â.md)
+  * [Javaæ„å»ºç®¡ç†](/Java/Javaæ„å»ºç®¡ç†.md)
 
-  * [Java±Ê¼Ç](/Java/Java±Ê¼Ç.md)
+  * [Javaæ³¨è§£](/Java/Javaæ³¨è§£.md)
 
-  * [JDK°²×°ÅäÖÃ](/Java/JDK°²×°ÅäÖÃ.md)
+  * [JDKå®‰è£…é…ç½®](/Java/JDKå®‰è£…é…ç½®.md)
 
-  * [JDK¹¤¾ß](/Java/JDK¹¤¾ß.md)
+  * [JDKå·¥å…·](/Java/JDKå·¥å…·.md)
 
   * [ORM](/Java/ORM.md)
 
@@ -62,33 +62,33 @@
 
   * [MobileNative](/Other/MobileNative.md)
 
-  * [×¨ÒµÊõÓï](/Other/×¨ÒµÊõÓï.md)
+  * [ç¼–ç¨‹è§„èŒƒ](/Other/ç¼–ç¨‹è§„èŒƒ.md)
 
-  * [ÖĞ¼ä¼ş](/Other/ÖĞ¼ä¼ş.md)
+  * [è¡¨è¾¾å¼å’Œç¼–ç ](/Other/è¡¨è¾¾å¼å’Œç¼–ç .md)
 
-  * [Êé¼®ºÍ²©¿Í](/Other/Êé¼®ºÍ²©¿Í.md)
+  * [å„ä¸ªç½‘ç«™API](/Other/å„ä¸ªç½‘ç«™API.md)
 
-  * [ÆäËû±à³ÌÓïÑÔ](/Other/ÆäËû±à³ÌÓïÑÔ.md)
+  * [æŠ€æœ¯æ¦‚å¿µ](/Other/æŠ€æœ¯æ¦‚å¿µ.md)
 
-  * [¸÷¸öÍøÕ¾API](/Other/¸÷¸öÍøÕ¾API.md)
+  * [é™æ€ç±»å‹è¯­è¨€](/Other/é™æ€ç±»å‹è¯­è¨€.md)
 
-  * [¼¼Êõ¸ÅÄî](/Other/¼¼Êõ¸ÅÄî.md)
+  * [å…¶ä»–ç¼–ç¨‹è¯­è¨€](/Other/å…¶ä»–ç¼–ç¨‹è¯­è¨€.md)
 
-  * [±à³Ì¹æ·¶](/Other/±à³Ì¹æ·¶.md)
+  * [è®¾å¤‡å¯¹æ¥](/Other/è®¾å¤‡å¯¹æ¥.md)
 
-  * [±í´ïÊ½ºÍ±àÂë](/Other/±í´ïÊ½ºÍ±àÂë.md)
+  * [ä¹¦ç±å’Œåšå®¢](/Other/ä¹¦ç±å’Œåšå®¢.md)
 
-  * [Éè±¸¶Ô½Ó](/Other/Éè±¸¶Ô½Ó.md)
+  * [ä¸­é—´ä»¶](/Other/ä¸­é—´ä»¶.md)
 
-  * [¾²Ì¬ÀàĞÍÓïÑÔ](/Other/¾²Ì¬ÀàĞÍÓïÑÔ.md)
+  * [ä¸“ä¸šæœ¯è¯­](/Other/ä¸“ä¸šæœ¯è¯­.md)
 
 * [Python](/Python/README.md)
 
   * [PythonGUI](/Python/PythonGUI.md)
 
-  * [PythonÅÀ³æ](/Python/PythonÅÀ³æ.md)
+  * [Pythonç¬”è®°](/Python/Pythonç¬”è®°.md)
 
-  * [Python±Ê¼Ç](/Python/Python±Ê¼Ç.md)
+  * [Pythonçˆ¬è™«](/Python/Pythonçˆ¬è™«.md)
 
 * [Shell](/Shell/README.md)
 
@@ -96,13 +96,13 @@
 
   * [PowerShell](/Shell/PowerShell.md)
 
-  * [PowerShellÃüÁî](/Shell/PowerShellÃüÁî.md)
+  * [PowerShellå‘½ä»¤](/Shell/PowerShellå‘½ä»¤.md)
 
   * [ShellScript](/Shell/ShellScript.md)
 
   * [ShellWindows](/Shell/ShellWindows.md)
 
-  * [ShellÃüÁî](/Shell/ShellÃüÁî.md)
+  * [Shellå‘½ä»¤](/Shell/Shellå‘½ä»¤.md)
 
   * [WindowsBatch](/Shell/WindowsBatch.md)
 
@@ -114,23 +114,23 @@
 
 * [SQL](/SQL/README.md)
 
-  * [mysql-udf°²×°](/SQL/mysql-udf°²×°.md)
-
   * [MySQL](/SQL/MySQL.md)
 
-  * [MySQLÊÂ¼ş](/SQL/MySQLÊÂ¼ş.md)
+  * [mysql-udfå®‰è£…](/SQL/mysql-udfå®‰è£….md)
 
-  * [MySQL±¸·İ»Ö¸´](/SQL/MySQL±¸·İ»Ö¸´.md)
+  * [MySQLå®‰è£…é…ç½®](/SQL/MySQLå®‰è£…é…ç½®.md)
 
-  * [MySQL´æ´¢¹ı³Ì](/SQL/MySQL´æ´¢¹ı³Ì.md)
+  * [MySQLå¤‡ä»½æ¢å¤](/SQL/MySQLå¤‡ä»½æ¢å¤.md)
 
-  * [MySQL°²×°ÅäÖÃ](/SQL/MySQL°²×°ÅäÖÃ.md)
+  * [MySQLç¬”è®°](/SQL/MySQLç¬”è®°.md)
 
-  * [MySQL±Ê¼Ç](/SQL/MySQL±Ê¼Ç.md)
+  * [MySQLå­˜å‚¨è¿‡ç¨‹](/SQL/MySQLå­˜å‚¨è¿‡ç¨‹.md)
 
-  * [¹ØÏµĞÍSQL±ê×¼](/SQL/¹ØÏµĞÍSQL±ê×¼.md)
+  * [MySQLäº‹ä»¶](/SQL/MySQLäº‹ä»¶.md)
 
-  * [ÆäËûÊı¾İ¿â](/SQL/ÆäËûÊı¾İ¿â.md)
+  * [å…³ç³»å‹SQLæ ‡å‡†](/SQL/å…³ç³»å‹SQLæ ‡å‡†.md)
+
+  * [å…¶ä»–æ•°æ®åº“](/SQL/å…¶ä»–æ•°æ®åº“.md)
 
 * [System](/System/README.md)
 
@@ -140,21 +140,21 @@
 
   * [Linux](/System/Linux.md)
 
-  * [LinuxÍøÂç·À»ğÇ½](/System/LinuxÍøÂç·À»ğÇ½.md)
+  * [Linuxé…ç½®](/System/Linuxé…ç½®.md)
 
-  * [LinuxÅäÖÃ](/System/LinuxÅäÖÃ.md)
+  * [Linuxç½‘ç»œé˜²ç«å¢™](/System/Linuxç½‘ç»œé˜²ç«å¢™.md)
 
   * [Windows](/System/Windows.md)
 
-  * [WindowsÈí¼ş](/System/WindowsÈí¼ş.md)
+  * [Windowsè½¯ä»¶](/System/Windowsè½¯ä»¶.md)
 
-  * [ÄÚÍø´©Í¸](/System/ÄÚÍø´©Í¸.md)
+  * [æŒ‚è½½ç½‘ç›˜](/System/æŒ‚è½½ç½‘ç›˜.md)
 
-  * [¹ÒÔØÍøÅÌ](/System/¹ÒÔØÍøÅÌ.md)
+  * [å†…ç½‘ç©¿é€](/System/å†…ç½‘ç©¿é€.md)
 
-  * [ÎÄ¼şÑ¹Ëõ½âÑ¹](/System/ÎÄ¼şÑ¹Ëõ½âÑ¹.md)
+  * [æ–‡ä»¶å‹ç¼©è§£å‹](/System/æ–‡ä»¶å‹ç¼©è§£å‹.md)
 
-  * [ÓÊÏä](/System/ÓÊÏä.md)
+  * [é‚®ç®±](/System/é‚®ç®±.md)
 
 * [Web](/Web/README.md)
 
@@ -164,9 +164,9 @@
 
   * [JavaScript](/Web/JavaScript.md)
 
-  * [JavaScript¿ò¼Ü](/Web/JavaScript¿ò¼Ü.md)
+  * [JavaScriptç¬”è®°](/Web/JavaScriptç¬”è®°.md)
 
-  * [JavaScript±Ê¼Ç](/Web/JavaScript±Ê¼Ç.md)
+  * [JavaScriptæ¡†æ¶](/Web/JavaScriptæ¡†æ¶.md)
 
   * [Nginx](/Web/Nginx.md)
 
