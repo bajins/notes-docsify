@@ -22,12 +22,12 @@
 <body>
     <div id="app"></div>
     <script>
-        window.$docsify = {
+        window.$docsify = { // https://docsify.js.org/#/zh-cn/configuration
             el: '#app',
             name: 'Bajins',
-            nameLink: '/notes-docsify/',
+            nameLink: '/', // 点击文档标题后跳转的链接地址
             // 基础路径
-            basePath: '/notes-docsify/',
+            basePath: '/',
             // 路由模式与基础路径配合
             //routerMode: 'history',
             repo: 'https://github.com/woytu/notes-docsify',
@@ -44,6 +44,7 @@
             //autoHeader: true,
             formatUpdated: '{YYYY}/{MM}/{DD} {HH}:{mm}:{ss}',
             search: 'auto',
+            auto2top: true, // 切换页面后是否自动跳转到页面顶部
             // 完整配置参数
             search: {
                 maxAge: 86400000, // 过期时间，单位毫秒，默认一天
