@@ -1,8 +1,6 @@
 # Bookmarks
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -44,6 +42,7 @@
 * [https://github.com/uber](https://github.com/uber)
 * [https://github.com/oracle](https://github.com/oracle)
     * [https://oss.oracle.com](https://oss.oracle.com)
+    * [https://developer.oracle.com/open-source.html](https://developer.oracle.com/open-source.html)
 * [https://github.com/square](https://github.com/square)
 * [https://github.com/aws-samples](https://github.com/aws-samples)
     * [https://github.com/awsdocs](https://github.com/awsdocs)
@@ -210,6 +209,18 @@
 * [https://flaviocopes.com](https://flaviocopes.com)
 * [https://topbook.cc](https://topbook.cc)
     * [https://www.zhihu.com/org/topbook](https://www.zhihu.com/org/topbook)
+
+
+**CSDN取消屏蔽**
+
+```js
+const c = document.getElementById("article_content");
+c.style.height="auto";
+c.style.overflow="auto";
+document.querySelector("#mainBox > main > div.hide-article-box.hide-article-pos.text-center").remove();
+// 添加至浏览器标签，解决登陆后复制
+javascript:document.body.contentEditable='true';document.designMode='on'; void 0
+```
 
 
 

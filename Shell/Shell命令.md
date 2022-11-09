@@ -1,9 +1,6 @@
 # Shell命令
 
-
 [[toc]]
-
-
 
 
 ## Flag
@@ -15,6 +12,7 @@
 + [https://github.com/awesome-lists/awesome-bash](https://github.com/awesome-lists/awesome-bash)
 + 命令替代品 [https://github.com/ibraheemdev/modern-unix](https://github.com/ibraheemdev/modern-unix)
 + [https://github.com/vastutsav/command-line-quick-reference](https://github.com/vastutsav/command-line-quick-reference)
++ [https://github.com/onetrueawk/awk](https://github.com/onetrueawk/awk)
 
 * [Linux常用命令汇总](https://blog.csdn.net/Mculover666/article/details/84558280)
 
@@ -125,7 +123,12 @@ echo "1:3:5" | cut -d : -f 3
 
 ### 过滤多个结果
 
+* [www.gnu.org/software/grep](www.gnu.org/software/grep)
+
 ```bash
+# grep -A n 可以显示匹配内容以及后面的n行内容
+# grep -B n 可以显示匹配内容以及前面的n行内容
+# grep -C n 可以显示匹配内容以及前后面的n行内容
 ls -l | grep "postfix\|dovecot"
 # 或者
 ls -l | grep -e postfix -e dovecot
@@ -442,6 +445,16 @@ grep "原字符串" * -R | awk -F: '{print $1}' | sort | uniq | xargs sed -i 's/
 grep -rl "XXX" --exclude="*.sql" ./* | wc -l
 ```
 
+**批量清空文件内容**
+
+```bash
+# %为变量名
+find logs/ -type f -name "*.log" | xargs -I % sh -c 'cat /dev/null > %'
+find logs/ -type f -name "*.log" | xargs -I % sh -c '> %'
+find logs/ -type f -name "*.log" -exec sh -c "> {}" \;
+```
+
+
 ## 删除文件
 
 **删除排除的其他文件**
@@ -480,6 +493,8 @@ find 目录 -mtime +天数 -name "*.tar.*" -exec rm -rf {} \;
 
 # 删除目录下N天前文件名为tar.gz后缀的文件或目录
 find 目录 -mtime +天数 -name "*.tar.gz" | xargs -I {} rm -rf {}
+# 删除当前目录下所有文件
+ls | xargs -I % sh -c 'rm ./%'
 ```
 
 

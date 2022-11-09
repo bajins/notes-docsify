@@ -1,8 +1,6 @@
 # Eclipse
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -10,10 +8,9 @@
 + [https://github.com/eclipse/eclipse](https://github.com/eclipse/eclipse)
    + [https://www.eclipse.org/ide](https://www.eclipse.org/ide)
    + [https://www.eclipse.org/downloads/packages](https://www.eclipse.org/downloads/packages)
-   + [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
-      + Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
 + 设置 [https://github.com/vorburger/opendaylight-eclipse-setup](https://github.com/vorburger/opendaylight-eclipse-setup)
-+ Spring Tools 4 [https://github.com/spring-projects/sts4](https://github.com/spring-projects/sts4)
++ Spring Tools[https://github.com/spring-projects/sts4](https://github.com/spring-projects/sts4)
+   + [https://spring.io/tools](https://spring.io/tools)
 
 
 * [单行注释自动靠左](https://blog.csdn.net/mp9105/article/details/93343403)
@@ -50,36 +47,7 @@
 **快捷生成调用实例set方法**
 
 1. 进入实例类，打开`Type Hierarchy`视图并在视图中选中所有set方法复制，快捷键<kbd>F4</kbd>
-2. 使用以下方法生成
-
-```java
-/**
- * 生成实例所有set调用方法并复制到剪贴板
- * 
- * @param clazz
- */
-public static void createInstanceSetter(Class<?> clazz) {
-   String name = clazz.getSimpleName();
-   String subName = name.substring(0, 1);
-   name = name.replace(subName, subName.toLowerCase());
-   StringJoiner joiner = new StringJoiner(System.lineSeparator());// 获取系统换行符
-   for (Method m : clazz.getMethods()) {
-      if (m.getName().startsWith("set")) {
-            joiner.add(name + "." + m.getName() + "();");
-      }
-   }
-   String Content = joiner.toString()；
-   // 封装文本内容
-   Transferable trans = new StringSelection(Content);
-   // 把文本内容设置到系统剪贴板
-   if (trans.isDataFlavorSupported(DataFlavor.stringFlavor)) {
-      // 获取系统剪贴板
-      Clipboard clipboard = Toolkit.getDefaultToolkit().getSystemClipboard();
-      clipboard.setContents(trans, null);
-      System.out.println(Content);
-   }
-}
-```
+2. [使用反射获取方法生成](https://github.com/bajins/java-clazz/blob/master/src/com/bajins/clazz/JavaFxLearning.java#L63)
 
 
 
@@ -104,6 +72,12 @@ public static void createInstanceSetter(Class<?> clazz) {
 **项目显示结构**
 
 - `Windows` -> `Show View` -> `Other` -> 搜索 `Package Exploer`
+- `Windows` -> `Show View` -> `Other` -> 搜索 `Tasks` 查看待办任务
+
++ `Window` -> `Preferences` -> `Java` -> `Compiler` -> `Task tags` 定义任务标签
+   + `// TODO` 表示尚未完成的待办事项。
+   + `// XXX` 表示被注释的代码虽然实现了功能，但是实现方案有待商榷，希望将来能改进。
+   + `// FIXME` 表示被注释的代码需要被修正。
 
 
 **WebStorm保存后跳过Eclipse自动同步到Tomcat**
@@ -138,7 +112,7 @@ public static void createInstanceSetter(Class<?> clazz) {
 
 ## 代码格式化
 
-* [General > Editors > Text Editors](https://help.eclipse.org/2020-12/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-texteditorprefs.htm)
+* [General > Editors > Text Editors](https://help.eclipse.org/latest/index.jsp?topic=%2Forg.eclipse.platform.doc.user%2Freference%2Fref-texteditorprefs.htm)
 
 
 **垂直标尺**
@@ -173,7 +147,7 @@ public static void createInstanceSetter(Class<?> clazz) {
 
 **JavaScript 格式化**
 
-- `Window` -> `Preferences` -> `HTML Files` -> `Client-side JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
+- `Window` -> `Preferences` -> `Web` -> `Client-side JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
    - -> `Line Wrapping` 行宽
       - `Maximum Line width` 
       - `Set line width for preview window` 设置预览窗口的线宽
@@ -200,7 +174,14 @@ public static void createInstanceSetter(Class<?> clazz) {
 ## 设置编码格式
 
 - 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8`
-- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text` -> `Default encoding`填入`UTF-8`
+- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text`
+   - -> `Default encoding`填入`UTF-8`
+   - -> 展开`Text` -> 选中`Java Properties File` -> `Default encoding`填入`UTF-8` 设置Properties编码
+   - -> 展开`Text` -> 选中`Spring Properties File` -> `Default encoding`填入`UTF-8`
+   - -> 展开`Text` -> 选中`JSP` -> `Default encoding`填入`UTF-8` 设置JSP编码
+   - -> 展开`Text` -> 展开`JSP` -> `JSP Fragment` -> `Default encoding`填入`UTF-8`
+   - -> 展开`Text` -> 展开`JSP` -> `JSP Tag Definition` -> `Default encoding`填入`UTF-8`
+   - -> 展开`Text` -> 展开`JSP` -> 展开`JSP Tag Definition` -> `XML JSP Tag Definition` -> `Default encoding`填入`UTF-8`
 - 设置Web编码 `Window` -> `Preferences` -> `Web` -> `CSS Files`、`HTML Files`、`JSP Files` -> `Encoding`选择`ISO 10646/Unicode(UTF-8)`
 - 设置项目的文档编码：选中项目右键 -> `Properties` -> `Resource` -> `Other`选择`UTF-8`
 
@@ -427,11 +408,31 @@ public static void createInstanceSetter(Class<?> clazz) {
 
 > 一般插件都有`plugins`和`features`两个文件夹，复制到eclipse安装目录即可
 
+* [Eclipse插件开发](https://blog.csdn.net/chenhangx/article/details/119863089)
+
 + `-vmargs -DproxySet=true -DproxyHost=aProxyAddress -DproxyPort=aProxyPort` 启动代理参数
 
-- SVN [https://github.com/subclipse](https://github.com/subclipse)
-    - [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html)
-    - Subversion for Java [https://svnkit.com](https://svnkit.com)
+
+- [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
+   - Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
+   - [https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0](https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0)
+- SVN [https://www.eclipse.org/subversive](https://www.eclipse.org/subversive)
+   - [https://polarion.plm.automation.siemens.com/products/svn](https://polarion.plm.automation.siemens.com/products/svn)
+- [https://github.com/subclipse](https://github.com/subclipse)
+   - [https://subclipse.github.io/snapshots](https://subclipse.github.io/snapshots)
+   - [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html)
+   - Subversion for Java [https://svnkit.com](https://svnkit.com)
+- [https://github.com/jacoco/jacoco](https://github.com/jacoco/jacoco)
+- [https://github.com/eclipse/eclemma](https://github.com/eclipse/eclemma)
+- 数据库 [https://dbeaver.io/download](https://dbeaver.io/download)
+- 折叠代码块 [https://github.com/stefaneidelloth/EclipseFolding](https://github.com/stefaneidelloth/EclipseFolding)
+   - [https://sourceforge.net/projects/coffeeby1](https://sourceforge.net/projects/coffeeby1)
+   - [user-defined-code-folding-regions-in-eclipse](https://stackoverflow.com/questions/53229638/user-defined-code-folding-regions-in-eclipse)
+   - [https://github.com/sky1983/EclipseFolding](https://github.com/sky1983/EclipseFolding)
+   > 将插件放在`eclipse\dropins`，重启eclipse，`Window` -> `Preferences` -> `Java` -> `Editor` -> `Folding`
+   > 在`Select folding to use`项选择：`Coffee Bytes Java Folding`
+- [https://github.com/GrowThinky/AnnotationSupportEclipsePlugin](https://github.com/GrowThinky/AnnotationSupportEclipsePlugin)
+- [https://github.com/qiangitchen/tlv8ide](https://github.com/qiangitchen/tlv8ide)
 
 
 **反编译Decompiler**

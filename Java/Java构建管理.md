@@ -1,8 +1,6 @@
 # Java构建管理
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -24,7 +22,11 @@
 + [https://github.com/codehaus-plexus/plexus-compiler](https://github.com/codehaus-plexus/plexus-compiler)
 + [https://github.com/eclipse/eclipse.jdt.core](https://github.com/eclipse/eclipse.jdt.core)
 + [https://www.jetbrains.com/help/idea/java-compiler.html](https://www.jetbrains.com/help/idea/java-compiler.html)
++ [https://github.com/alwans/code-diff](https://github.com/alwans/code-diff)
 + 混淆工具 [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
++ 消除NullPointerException [https://github.com/uber/NullAway](https://github.com/uber/NullAway)
++ 静态类型检查 [https://github.com/google/error-prone](https://github.com/google/error-prone)
+
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
 - [https://github.com/technomancy/leiningen](https://github.com/technomancy/leiningen)
@@ -202,6 +204,8 @@
 + maven手册 [https://github.com/inuter/Maven-Notebook](https://github.com/inuter/Maven-Notebook)
 
 
+**仓库**
+
 * [http://mvnrepository.com](http://mvnrepository.com)
 * [https://search.maven.org](https://search.maven.org)
 * [https://nexus.pentaho.org](https://nexus.pentaho.org)
@@ -211,6 +215,8 @@
 * [https://packages.aliyun.com](https://packages.aliyun.com)
 
 
+**插件**
+
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
 + maven-assembly-plugin 支持自定义的打包结构，也可以定制依赖项等。
@@ -219,6 +225,7 @@
 + [https://github.com/mojohaus/exec-maven-plugin](https://github.com/mojohaus/exec-maven-plugin)
 + [https://github.com/mathieucarbou/license-maven-plugin](https://github.com/mathieucarbou/license-maven-plugin)
 + [https://github.com/mojohaus](https://github.com/mojohaus)
++ 构建自动清理 [https://github.com/castor-software/depclean](https://github.com/castor-software/depclean)
 
 
 

@@ -1,8 +1,6 @@
 # JavaScript
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -80,6 +78,8 @@
 * [https://github.com/getify/You-Dont-Know-JS](https://github.com/getify/You-Dont-Know-JS)
 * [https://github.com/Asabeneh/JavaScript-for-Everyone](https://github.com/Asabeneh/JavaScript-for-Everyone)
 * 学习代码总结 [https://github.com/csxiaoyaojianxian/JavaScriptStudy](https://github.com/csxiaoyaojianxian/JavaScriptStudy)
+* [https://github.com/comehope/front-end-daily-challenges](https://github.com/comehope/front-end-daily-challenges)
+* [https://github.com/gothinkster/realworld](https://github.com/gothinkster/realworld)
 * 前端面试手册 [https://github.com/yangshun/front-end-interview-handbook](https://github.com/yangshun/front-end-interview-handbook)
 * [https://github.com/loverajoel/jstips](https://github.com/loverajoel/jstips)
 * [https://www.javascriptcn.com](https://www.javascriptcn.com) 1212/1024
@@ -193,6 +193,8 @@ var express = require('express');
 + [https://github.com/kangax](https://github.com/kangax)
 + [https://github.com/alyssaxuu](https://github.com/alyssaxuu)
 + [https://github.com/tomayac](https://github.com/tomayac)
++ [https://github.com/fengyuanchen](https://github.com/fengyuanchen)
++ [https://github.com/helpers](https://github.com/helpers)
 
 
 - 转换编译器 [https://github.com/babel](https://github.com/babel)
@@ -204,6 +206,7 @@ var express = require('express');
 
 
 * [https://github.com/ReactiveX/rxjs](https://github.com/ReactiveX/rxjs)
+    * [https://cn.rx.js.org](https://cn.rx.js.org)
 * [https://github.com/jashkenas/coffeescript](https://github.com/jashkenas/coffeescript)
     * [编译成 JS 的语言列表](https://github.com/jashkenas/coffeescript/wiki/List-of-languages-that-compile-to-JS)
 * [https://github.com/observablehq](https://github.com/observablehq)
@@ -244,6 +247,7 @@ var express = require('express');
 * 树视图/树网格插件 [https://github.com/mar10/fancytree](https://github.com/mar10/fancytree)
 * 交互式地图 [https://github.com/openlayers/openlayers](https://github.com/openlayers/openlayers)
     * [https://github.com/ghettovoice/ol-mapscale](https://github.com/ghettovoice/ol-mapscale)
+* [https://github.com/openstreetmap](https://github.com/openstreetmap)
 * book阅读 [https://github.com/johnfactotum/foliate](https://github.com/johnfactotum/foliate)
 * 并发 [https://github.com/rxaviers/async-pool](https://github.com/rxaviers/async-pool)
 * 控制导入行为 [https://github.com/WICG/import-maps](https://github.com/WICG/import-maps)
@@ -265,6 +269,7 @@ var express = require('express');
 
 * [https://github.com/sweetalert2/sweetalert2](https://github.com/sweetalert2/sweetalert2)
     * [https://www.sweetalert2.cn](https://www.sweetalert2.cn)
+    * [https://github.com/t4t5/sweetalert](https://github.com/t4t5/sweetalert)
 * 提示和弹出框 [https://github.com/popperjs/popper-core](https://github.com/popperjs/popper-core)
 * alert()和confirm()包装 [https://github.com/makeusabrew/bootbox](https://github.com/makeusabrew/bootbox)
 
@@ -319,8 +324,8 @@ var express = require('express');
 * [http://github.com/mootools](http://github.com/mootools)
 * [https://github.com/liriliri/licia](https://github.com/liriliri/licia)
 * [https://github.com/lodash/lodash](https://github.com/lodash/lodash)
-* [[https://github.com/jashkenas]([https://github.com/jashkenas)
-    * debounce（防抖）、throttle（节流／限频） [https://github.com/jashkenas/underscore](https://github.com/jashkenas/underscore)
+* [https://github.com/jashkenas](https://github.com/jashkenas)
+    * [https://github.com/jashkenas/underscore](https://github.com/jashkenas/underscore)
     * [https://underscorejs.net](https://underscorejs.net)
 * [https://github.com/ramda/ramda](https://github.com/ramda/ramda)
 * [https://github.com/proYang/outils](https://github.com/proYang/outils)
@@ -553,6 +558,9 @@ var express = require('express');
 * [https://github.com/tweenjs/tween.js](https://github.com/tweenjs/tween.js)
 * [https://github.com/d3/d3](https://github.com/d3/d3)
     * [https://github.com/xswei/d3js_doc](https://github.com/xswei/d3js_doc)
+    * [https://github.com/mauriciopoppe/function-plot](https://github.com/mauriciopoppe/function-plot)
+    * [https://github.com/novus/nvd3](https://github.com/novus/nvd3)
+    * [https://github.com/gwtd3/gwt-d3](https://github.com/gwtd3/gwt-d3)
 * 动画引擎 [https://github.com/julianshapiro/velocity](https://github.com/julianshapiro/velocity)
 * [https://github.com/toji/gl-matrix](https://github.com/toji/gl-matrix)
 * [https://github.com/playcanvas/engine](https://github.com/playcanvas/engine)

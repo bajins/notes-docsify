@@ -1,9 +1,6 @@
 # Go
 
-
 [[toc]]
-
-
 
 
 ## Flag
@@ -33,8 +30,6 @@
 * [https://github.com/hwholiday/file_storage](https://github.com/hwholiday/file_storage)
 * [Golang信号处理和优雅退出守护进程](https://www.jianshu.com/p/ae72ad58ecb6)
 
-
-- Gopher日报 [https://github.com/bigwhite/gopherdaily](https://github.com/bigwhite/gopherdaily)
 
 
 **[Windows下可以安装MinGW-w64、MSYS2、Cygwin](/Shell/ShellWindows.md)以调用GCC，Windows10下推荐使用WSL**
@@ -118,6 +113,9 @@
 
 
 * [Go_想变厉害的大白菜的博客-CSDN博客](https://blog.csdn.net/weixin_44211968/category_11464667.html)
+* [Go的隐秘世界：Goroutine调度机制概览](https://zhuanlan.zhihu.com/p/244054940)
+* [golang调度学习-调度流程](https://blog.csdn.net/diaosssss/article/details/93066804)
+* [系统调用，ptrace，go语言syscall](https://blog.csdn.net/weixin_49393427/article/details/115259733)
 
 
 
@@ -182,6 +180,7 @@
 * [https://github.com/shenghui0779/yiigo](https://github.com/shenghui0779/yiigo)
 * [https://github.com/giampaolo/psutil](https://github.com/giampaolo/psutil)
 * [https://github.com/shirou/gopsutil](https://github.com/shirou/gopsutil)
+* [https://github.com/liyue201/gostl](https://github.com/liyue201/gostl)
 * [https://github.com/julienschmidt/httprouter](https://github.com/julienschmidt/httprouter)
 * JSON解析器 [https://github.com/json-iterator](https://github.com/json-iterator)
 * [https://github.com/mailru/easyjson](https://github.com/mailru/easyjson)
@@ -266,6 +265,7 @@
 * 布隆过滤器 [https://github.com/bits-and-blooms](https://github.com/bits-and-blooms)
 * excel [https://github.com/360EntSecGroup-Skylar/excelize](https://github.com/360EntSecGroup-Skylar/excelize)
 * [https://github.com/qax-os/excelize](https://github.com/qax-os/excelize)
+* [https://github.com/shakinm/xlsReader](https://github.com/shakinm/xlsReader)
 * Quoted-printable [https://github.com/sloonz/go-qprintable](https://github.com/sloonz/go-qprintable)
 * GUI [https://github.com/visualfc/atk](https://github.com/visualfc/atk)
 * [https://github.com/vugu/vugu](https://github.com/vugu/vugu)
@@ -299,6 +299,7 @@
 * Markdown处理 [https://github.com/russross/blackfriday](https://github.com/russross/blackfriday)
 * markdown转roff [https://github.com/cpuguy83/go-md2man](https://github.com/cpuguy83/go-md2man)
 * 队列任务 [https://github.com/gocraft/work](https://github.com/gocraft/work)
+* [https://github.com/txn2/rxtx](https://github.com/txn2/rxtx)
 * 媒体类型 [http://github.com/gabriel-vasile/mimetype](http://github.com/gabriel-vasile/mimetype)
 * 图片转换 [https://github.com/gographics/imagick](https://github.com/gographics/imagick)
 * 地图 [https://github.com/tidwall/tile38](https://github.com/tidwall/tile38)
