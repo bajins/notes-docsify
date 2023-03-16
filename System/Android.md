@@ -6,16 +6,24 @@
 ## Flag
 
 + [https://github.com/android](https://github.com/android)
+    + [https://developers.google.cn](https://developers.google.cn)
     + [https://developer.android.com](https://developer.android.com)
     + [https://developer.android.google.cn](https://developer.android.google.cn)
+    + [https://source.android.google.cn](https://source.android.google.cn)
+    + [https://developer.android.google.cn/jetpack/compose](https://developer.android.google.cn/jetpack/compose)
+    + [https://developer.android.google.cn/jetpack/androidx/compose-roadmap](https://developer.android.google.cn/jetpack/androidx/compose-roadmap)
+    + [https://developer.android.google.cn/studio/run/win-usb](https://developer.android.google.cn/studio/run/win-usb)
+    + [全网最全最细Android Studio 安装和使用教程](https://zhuanlan.zhihu.com/p/528196912)
 + [https://github.com/aosp-mirror](https://github.com/aosp-mirror)
     + [https://github.com/AospExtended](https://github.com/AospExtended)
 + [https://github.com/aosp-riscv](https://github.com/aosp-riscv)
-+ [https://developer.android.google.cn/jetpack/compose](https://developer.android.google.cn/jetpack/compose)
-+ [https://developer.android.google.cn/jetpack/androidx/compose-roadmap](https://developer.android.google.cn/jetpack/androidx/compose-roadmap)
++ [https://github.com/inferjay/AndroidDevTools](https://github.com/inferjay/AndroidDevTools)
+    + [https://www.androiddevtools.cn](https://www.androiddevtools.cn)
 + [https://android-arsenal.com](https://android-arsenal.com)
 + [https://github.com/lineageos](https://github.com/lineageos)
 + [https://github.com/idisfkj/android-api-analysis](https://github.com/idisfkj/android-api-analysis)
++ 静态代码分析 [https://github.com/lingochamp/okcheck](https://github.com/lingochamp/okcheck)
++ [https://github.com/ChaitanyaPramod/findbugs-android](https://github.com/ChaitanyaPramod/findbugs-android)
 
 
 - IDE [https://developer.android.google.cn/studio](https://developer.android.google.cn/studio)
@@ -30,6 +38,7 @@
 - 备份提取 [https://github.com/nelenkov/android-backup-extractor](https://github.com/nelenkov/android-backup-extractor)
 
 
++ [https://github.com/xieyuliang/Note-Android](https://github.com/xieyuliang/Note-Android)
 + [https://github.com/pengxurui/AndroidFamily](https://github.com/pengxurui/AndroidFamily)
 + 面试题 [https://github.com/Blankj/AndroidOfferKiller](https://github.com/Blankj/AndroidOfferKiller)
 + [https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode](https://github.com/jeanboydev/Android-ReadTheFuckingSourceCode)
@@ -39,9 +48,8 @@
 + [Android：JNI 与 NDK到底是什么？](https://blog.csdn.net/carson_ho/article/details/73250163)
 + 进程保活 [https://github.com/peakerlu/appkeepLive](https://github.com/peakerlu/appkeepLive)
 + [「安卓果酱」存档](https://cn.apkjam.com/archives)
-
-
 + adb和fastboot [https://github.com/fast-geek/Android-Tool](https://github.com/fast-geek/Android-Tool)
++ [https://github.com/yangchong211/YCAndroidTool](https://github.com/yangchong211/YCAndroidTool)
 + 在linux下运行安卓应用xDroid [https://www.linzhuotech.com](https://www.linzhuotech.com)
 + [https://github.com/anbox/anbox](https://github.com/anbox/anbox)
     + [Linux上运行安卓应用:安装使用Anbox](https://www.cnblogs.com/syisyuan/p/12811595.html)
@@ -77,7 +85,6 @@
 
 
 * [https://github.com/Orange-shirt/OrangeJs](https://github.com/Orange-shirt/OrangeJs)
-* 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
 * [https://github.com/georgehuan1994/DingDing-Automatic-Clock-in](https://github.com/georgehuan1994/DingDing-Automatic-Clock-in)
 * 蚂蚁森林能量 [https://github.com/SuperMonster003/Ant-Forest](https://github.com/SuperMonster003/Ant-Forest)
 * [https://github.com/kwu130/Alipay](https://github.com/kwu130/Alipay)
@@ -218,11 +225,17 @@
 
 ## 第三方依赖
 
++ [https://github.com/search?q=vertica](https://github.com/search?q=vertica)
++ [https://github.com/Trinea/android-open-project](https://github.com/Trinea/android-open-project)
+
+
+* [https://github.com/Baseflow](https://github.com/Baseflow)
 * [https://github.com/getActivity](https://github.com/getActivity)
 * [https://github.com/LiushuiXiaoxia](https://github.com/LiushuiXiaoxia)
 * [https://github.com/afkT/DevUtils](https://github.com/afkT/DevUtils)
 * [https://github.com/DyncKathline](https://github.com/DyncKathline)
 * [https://github.com/wave-chtj/BaseIotUtils](https://github.com/wave-chtj/BaseIotUtils)
+* [https://github.com/l123456789jy/Lazy](https://github.com/l123456789jy/Lazy)
 * [https://github.com/lihangleo2/Imgdots](https://github.com/lihangleo2/Imgdots)
 * [https://github.com/yangchong211/YCVideoPlayer](https://github.com/yangchong211/YCVideoPlayer)
 * [https://github.com/guofudong/KotlinAndroid](https://github.com/guofudong/KotlinAndroid)
@@ -269,6 +282,8 @@
 * [https://github.com/majidgolshadi/Android-Download-Manager-Pro](https://github.com/majidgolshadi/Android-Download-Manager-Pro)
 * 蓝牙 [https://github.com/BasicAirData/BluetoothHelper](https://github.com/BasicAirData/BluetoothHelper)
 * 图像裁剪 [https://github.com/mike14u/croperino](https://github.com/mike14u/croperino)
+* 图表库 [https://github.com/PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
+* 进度 [https://github.com/lzyzsd/CircleProgress](https://github.com/lzyzsd/CircleProgress)
 
 
 
@@ -334,6 +349,7 @@
 * [https://github.com/AKPR2007/website-to-apk](https://github.com/AKPR2007/website-to-apk)
 * [https://github.com/successtar/web-to-app](https://github.com/successtar/web-to-app)
 * [https://github.com/fh-rabbi/Html-Css-Js-Web-View-Apk-Template](https://github.com/fh-rabbi/Html-Css-Js-Web-View-Apk-Template)
+* 冻结APP [https://github.com/aistra0528/Hail](https://github.com/aistra0528/Hail)
 * 一个木函 [http://www.woobx.cn](http://www.woobx.cn)
 * [https://www.coolapk.com/apk/com.One.WoodenLetter](https://www.coolapk.com/apk/com.One.WoodenLetter)
 * [https://www.coolapk.com/apk/cn.coldsong.fusionapp](https://www.coolapk.com/apk/cn.coldsong.fusionapp)
@@ -348,6 +364,9 @@
 * [https://github.com/Aefyr/SAI](https://github.com/Aefyr/SAI)
 * [https://github.com/machiav3lli/oandbackupx](https://github.com/machiav3lli/oandbackupx)
 * 幸运补丁 [https://www.luckypatchers.com](https://www.luckypatchers.com)
+* 图片处理 [https://website.facetuneapp.com](https://website.facetuneapp.com)
+* [https://www.lightricks.com](https://www.lightricks.com)
+* 磁力下载 [https://github.com/proninyaroslav/libretorrent](https://github.com/proninyaroslav/libretorrent)
 
 
 **下载Google Play Store上的应用**
@@ -392,13 +411,14 @@
 **破解软件下载**
 
 + [http://www.sharerw.com](http://www.sharerw.com)
-+ [https://htcui.com](https://htcui.com)
 + [https://fsylr.com](https://fsylr.com)
 + [https://www.vxat.com](https://www.vxat.com)
++ [https://xcxymw.com](https://xcxymw.com)
 + [https://www.lxapk.com](https://www.lxapk.com)
 + [https://www.nite07.com](https://www.nite07.com)
-+ [https://www.6yit.com](https://www.6yit.com)
 + [https://www.whg6.com](https://www.whg6.com)
+* [https://www.lan-sha.com](https://www.lan-sha.com)
++ [https://liteapks.com](https://liteapks.com)
 + [https://forum.release-apk.com/viewforum.php?f=5](https://forum.release-apk.com/viewforum.php?f=5)
     + [https://forum.release-apk.com/tag/downloader](https://forum.release-apk.com/tag/downloader)
 + [https://patch.chelpus.com](https://patch.chelpus.com)
@@ -423,7 +443,7 @@
 * [静听音乐](http://pan.lanzoui.com/b04aslz3c)
 
 
-**其他**
+### 其他
 
 + [https://github.com/topics/game](https://github.com/topics/game)
 + [https://github.com/topics/mobile-game](https://github.com/topics/mobile-game)
@@ -453,3 +473,49 @@
 * 浏览器 [https://github.com/tuyafeng/Via](https://github.com/tuyafeng/Via)
 * 阅读器 [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
 
+
+### 证件照
+
++ https://wwa.lanzoui.com/b04bz873e 提取码：9886
++ https://pan.baidu.com/s/1L21hwqtztFnuXLTcuyzH6Q 提取码：u4nw
+
+
+* 最美证件照
+* 精英证件照
+* 乐拍证件照
+* 懒人证件照
+* 证件照极拍
+* 智能证件照
+* 自助证件照
+* 免费证件照
+* 最美电子证件照
+* 证件照研究院
+* 证件照随拍
+* ID PHOTO + Retouch
+* 证照之星
+* 华图证件照拍摄（微信小程序）
+* 陕西中公证件照（微信小程序）
+* 粉笔证件照（微信小程序）
+* 智绘证件照（微信小程序）
+* 佐糖证件照（网页／微信小程序）
+* 凡科快图（网页）
+* 小呆证件照（微信小程序）
+* 证照拍（微信小程序）
+
+**怎么拍出好看的证件照？**
+
+- 选对衣服
+
+> 浅色背景，尽量选深色衣服来拍，你也不想和背景融为一体吧...如果是白底照片，选黑色的一般不会出错，显瘦又显白。深色背景，就选浅色衣服，强烈对比会让人显得更白嫩。
+>
+> 在选对色调的情况下，尽量避免穿高领，脖子长还好，脖子短简直要命，最好是穿一件儿衬衫去照相馆。
+>
+> 穿衬衫也是有些讲究的，最好是不系最上面的一颗扣子，这样能起到修长脖子的作用。
+
+- 要会“藏下巴”
+
+> 胖子就傲娇一点，别低头，双下巴会出来。如果稍微仰头也还是没办法藏住下巴，试试收紧肩胛骨，会有意想不到的收获。
+
+- 看镜头上方3cm处
+
+> 眼睛要大！那么，拍照的时候微微抬眼，看镜头上方3cm处，这样会撑起眼睛来，显得眼睛大些。

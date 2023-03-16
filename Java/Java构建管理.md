@@ -5,16 +5,18 @@
 
 ## Flag
 
++ [https://github.com/kordamp/gm](https://github.com/kordamp/gm)
 + [https://github.com/gradle/gradle](https://github.com/gradle/gradle)
     + [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
     + 自定义运行时映像 [https://github.com/beryx](https://github.com/beryx)
     + 创建支持包重定位 [https://github.com/johnrengelman/shadow](https://github.com/johnrengelman/shadow)
     + [https://github.com/Omico/Gradm](https://github.com/Omico/Gradm)
+    + [https://github.com/gdubw/gng](https://github.com/gdubw/gng)
 + [https://github.com/package-url](https://github.com/package-url)
-+ [https://github.com/topics/bazel](https://github.com/topics/bazel)
-+ [https://github.com/bazelbuild](https://github.com/bazelbuild)
 + [https://github.com/sbt/sbt](https://github.com/sbt/sbt)
 + [https://github.com/camunda](https://github.com/camunda)
++ [https://github.com/jbangdev](https://github.com/jbangdev)
++ [https://github.com/sormuras/bach](https://github.com/sormuras/bach)
 + 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
 + [https://github.com/sakerbuild/saker.java.compiler](https://github.com/sakerbuild/saker.java.compiler)
 + 打包 [https://github.com/shevek/jarjar](https://github.com/shevek/jarjar)
@@ -26,6 +28,19 @@
 + 混淆工具 [https://github.com/yWorks/yGuard](https://github.com/yWorks/yGuard)
 + 消除NullPointerException [https://github.com/uber/NullAway](https://github.com/uber/NullAway)
 + 静态类型检查 [https://github.com/google/error-prone](https://github.com/google/error-prone)
++ [https://github.com/TouK/sputnik](https://github.com/TouK/sputnik)
++ [https://github.com/soot-oss/soot](https://github.com/soot-oss/soot)
++ [https://github.com/wala](https://github.com/wala)
++ [https://github.com/plast-lab/doop-mirror](https://github.com/plast-lab/doop-mirror)
+    + [如何快速上手指针分析工具doop？](https://www.zhihu.com/question/499028330)
++ [https://github.com/souffle-lang/souffle](https://github.com/souffle-lang/souffle)
++ [https://github.com/spotbugs](https://github.com/spotbugs)
+    + [https://github.com/mebigfatguy/fb-contrib](https://github.com/mebigfatguy/fb-contrib)
++ [https://github.com/findbugsproject/findbugs](https://github.com/findbugsproject/findbugs)
+    + [https://sourceforge.net/projects/findbugs](https://sourceforge.net/projects/findbugs)
+    + [https://github.com/KengoTODA/findbugs-slf4j](https://github.com/KengoTODA/findbugs-slf4j)
++ [https://github.com/pascal-lab/Tai-e](https://github.com/pascal-lab/Tai-e)
+
 
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
@@ -60,6 +75,7 @@
 
 - [https://github.com/jenkinsci](https://github.com/jenkinsci)
     - [https://www.jenkins.io](https://www.jenkins.io)
+    - [https://github.com/cloudbees](https://github.com/cloudbees)
 - Jenkins前身 [https://github.com/hudson](https://github.com/hudson)
 - [https://www.jetbrains.com/zh-cn/teamcity](https://www.jetbrains.com/zh-cn/teamcity)
 - [https://www.atlassian.com/zh/software/bamboo](https://www.atlassian.com/zh/software/bamboo)
@@ -67,6 +83,7 @@
 - [https://github.com/ansible/ansible](https://github.com/ansible/ansible)
 - 自动化部署 [https://github.com/dreamans/syncd](https://github.com/dreamans/syncd)
 - [https://github.com/jitpack/jitpack.io](https://github.com/jitpack/jitpack.io)
+- [https://github.com/jreleaser](https://github.com/jreleaser)
 
 
 
@@ -206,8 +223,12 @@
 
 **仓库**
 
++ [https://github.com/jvm-repo-rebuild/reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central)
+
+
 * [http://mvnrepository.com](http://mvnrepository.com)
 * [https://search.maven.org](https://search.maven.org)
+* [https://www.mvncenter.com](https://www.mvncenter.com)
 * [https://nexus.pentaho.org](https://nexus.pentaho.org)
 * [https://public.nexus.pentaho.org](https://public.nexus.pentaho.org)
 * JFrog Bintray [https://github.com/bintray](https://github.com/bintray)
@@ -215,17 +236,22 @@
 * [https://packages.aliyun.com](https://packages.aliyun.com)
 
 
+
 **插件**
 
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
 + maven-assembly-plugin 支持自定义的打包结构，也可以定制依赖项等。
++ 插件大全 [https://github.com/mojohaus](https://github.com/mojohaus)
 + [https://github.com/apache/maven-wagon](https://github.com/apache/maven-wagon)
 + [https://github.com/takari/maven-wrapper](https://github.com/takari/maven-wrapper)
-+ [https://github.com/mojohaus/exec-maven-plugin](https://github.com/mojohaus/exec-maven-plugin)
 + [https://github.com/mathieucarbou/license-maven-plugin](https://github.com/mathieucarbou/license-maven-plugin)
-+ [https://github.com/mojohaus](https://github.com/mojohaus)
++ [https://github.com/pentaho/maven-parent-poms](https://github.com/pentaho/maven-parent-poms)
 + 构建自动清理 [https://github.com/castor-software/depclean](https://github.com/castor-software/depclean)
++ 模块化 [https://github.com/moditect/layrry](https://github.com/moditect/layrry)
++ 检测旧版API [https://github.com/gaul/modernizer-maven-plugin](https://github.com/gaul/modernizer-maven-plugin)
++ [https://github.com/mojohaus/build-helper-maven-plugin](https://github.com/mojohaus/build-helper-maven-plugin)
++ 排序 [https://github.com/Ekryd/sortpom](https://github.com/Ekryd/sortpom)
 
 
 
@@ -262,8 +288,6 @@
 
 **打包部署到服务器**
 
-+ [https://github.com/mojohaus](https://github.com/mojohaus)
-+ [https://github.com/mojohaus/wagon-maven-plugin](https://github.com/mojohaus/wagon-maven-plugin)
 + [https://github.com/apache/tomcat-maven-plugin](https://github.com/apache/tomcat-maven-plugin)
 + [https://mvnrepository.com/artifact/org.apache.tomcat.maven](https://mvnrepository.com/artifact/org.apache.tomcat.maven)
 + [https://github.com/codehaus-cargo](https://github.com/codehaus-cargo)

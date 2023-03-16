@@ -14,6 +14,7 @@
 
 * [https://github.com/spring-projects](https://github.com/spring-projects)
     * [https://spring.io/projects](https://spring.io/projects)
+* [https://github.com/spring-projects-experimental](https://github.com/spring-projects-experimental)
 * [https://github.com/spring-guides](https://github.com/spring-guides)
 * [https://github.com/fmarchioni/masterspringboot](https://github.com/fmarchioni/masterspringboot)
 
@@ -24,10 +25,12 @@
 - Spring源码阅读 [https://github.com/seaswalker/spring-analysis](https://github.com/seaswalker/spring-analysis)
 - Spring 实战第五版中文翻译 [https://github.com/PotoYang/spring-in-action-v5-translate](https://github.com/PotoYang/spring-in-action-v5-translate)
 - [https://github.com/dunwu/spring-tutorial](https://github.com/dunwu/spring-tutorial)
+- [https://github.com/piomin](https://github.com/piomin)
 
 
 * [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
 * [SpringCache自定义过期时间及自动刷新](https://www.cnblogs.com/top-housekeeper/p/11980973.html)
+* [Spring揭秘学习笔记](https://blog.csdn.net/qq_34626094/category_11731455.html)
 
 
 
@@ -50,6 +53,7 @@
 + [Spring WebFlux快速上手](https://blog.csdn.net/get_set/article/details/79480233)
 
 * [Spring MVC or WebFlux?](https://docs.spring.io/spring/docs/current/spring-framework-reference/web-reactive.html#webflux-framework-choice)
+* [让Spring MVC返回HTML类型的视图](https://juejin.cn/post/6844903747089334285)
 
 
 **注解生成Bean默认命名规则**
@@ -168,6 +172,9 @@ try {
 * [https://github.com/smltq/spring-boot-demo](https://github.com/smltq/spring-boot-demo)
 * [https://github.com/liuyueyi/spring-boot-demo](https://github.com/liuyueyi/spring-boot-demo)
 * [https://github.com/TianShengBingFeiNiuRen/springboot-util](https://github.com/TianShengBingFeiNiuRen/springboot-util)
+* [https://github.com/WinterChenS/springboot-learning-experience](https://github.com/WinterChenS/springboot-learning-experience)
+* 测试 [https://github.com/codecentric/chaos-monkey-spring-boot](https://github.com/codecentric/chaos-monkey-spring-boot)
+
 
 
 + [Springboot 优雅停止服务的几种方法](https://www.cnblogs.com/huangqingshi/p/11370291.html)
@@ -281,6 +288,10 @@ try {
 
 + [https://start.aliyun.com](https://start.aliyun.com)
 
+* [https://github.com/pig-mesh/excel-spring-boot-starter](https://github.com/pig-mesh/excel-spring-boot-starter)
+* [https://github.com/mouzt/mzt-biz-log](https://github.com/mouzt/mzt-biz-log)
+* [https://github.com/ballcat-projects/ballcat](https://github.com/ballcat-projects/ballcat)
+
 
 **application starters**
 
@@ -379,6 +390,8 @@ try {
 + [https://github.com/huaweicloud](https://github.com/huaweicloud)
 + [https://github.com/sofastack](https://github.com/sofastack)
 + [https://github.com/zlt2000/microservices-platform](https://github.com/zlt2000/microservices-platform)
++ [https://github.com/chillzhuang/blade-tool](https://github.com/chillzhuang/blade-tool)
++ [https://gitee.com/smallc](https://gitee.com/smallc)
 
 
 * [SpringCloud组件和概念介绍](https://zhuanlan.zhihu.com/p/72721025)
@@ -428,9 +441,12 @@ try {
 
 
 
++ [https://github.com/apolloconfig](https://github.com/apolloconfig)
 + [https://github.com/ctripcorp/apollo](https://github.com/ctripcorp/apollo)
 + API网关 [https://github.com/apache/incubator-shenyu](https://github.com/apache/incubator-shenyu)
 + [https://github.com/siaorg/sia-gateway](https://github.com/siaorg/sia-gateway)
++ [https://github.com/mitre/HTTP-Proxy-Servlet](https://github.com/mitre/HTTP-Proxy-Servlet)
++ [https://github.com/mkopylec/charon-spring-boot-starter](https://github.com/mkopylec/charon-spring-boot-starter)
 + 日志收集 [https://github.com/apache/flume](https://github.com/apache/flume)
     + [https://flume.liyifeng.org](https://flume.liyifeng.org)
 + [https://github.com/fayechenlong/plumelog](https://github.com/fayechenlong/plumelog)

@@ -1,9 +1,6 @@
 # Nginx
 
-
 [[toc]]
-
-
 
 
 ## Flag
@@ -56,16 +53,7 @@
     + [Linux Virtual Server](https://www.zhihu.com/topic/19607051/newest)
     + [LVS nat模式和DR模式简介](https://blog.51cto.com/u_11566825/2130705)
     + [VIP和RIP不同网段的LVS和keepalived高可用](https://blog.51cto.com/bbotte/1584925)
-+ DNS [https://github.com/topics/dns-server](https://github.com/topics/dns-server)
-    + [https://github.com/topics/service-discovery](https://github.com/topics/service-discovery)
-    + [https://github.com/topics/cncf](https://github.com/topics/cncf)
-    + [https://github.com/coredns/coredns](https://github.com/coredns/coredns)
-    + [https://github.com/skynetservices/skydns](https://github.com/skynetservices/skydns)
-    + [https://github.com/google/proto-quic](https://github.com/google/proto-quic)
-    + [https://github.com/google/quiche](https://github.com/google/quiche)(https://github.com/google/quiche)
-    + [https://github.com/lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
-    + [https://github.com/topics/http3](https://github.com/topics/http3)
-    + [https://github.com/topics/quic](https://github.com/topics/quic)
+
 
 
 
@@ -121,6 +109,7 @@ nginx -t
 
 * Lua多种扩展模块 [https://github.com/openresty](https://github.com/openresty)
     * [https://openresty.org/cn](https://openresty.org/cn)
+    * [https://openresty-reference.readthedocs.io](https://openresty-reference.readthedocs.io)
     * [OpenResty 概要及原理科普](https://honeypps.com/architect/introduction-of-openresty)
     * [openresty 的动态 - SegmentFault 思否](https://segmentfault.com/t/openresty)
     * [https://www.nginx.com/resources/wiki/modules/lua](https://www.nginx.com/resources/wiki/modules/lua)
@@ -141,7 +130,7 @@ nginx -t
 * [https://gitee.com/tianhao26/openresty_forwarding_log](https://gitee.com/tianhao26/openresty_forwarding_log)
 * [https://github.com/cuber/ngx_http_google_filter_module](https://github.com/cuber/ngx_http_google_filter_module)
     * [Nginx 配置谷歌镜像站](https://plusls.github.io/linux/nginx/configure-nginx-google-mirror)
-
+* 流媒体 [https://github.com/arut/nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module)
 
 
 
@@ -235,6 +224,8 @@ location [=|~|~*|^~] /uri/ {
 
 
 **示例**
+
+* [nginx的root和alias详解](https://mp.weixin.qq.com/s/eMXrIaTRpoyZdPsoF_tMCQ)
 
 ```
 # 匹配网站根，通过域名访问网站首页比较频繁，使用这个会加速处理，官网如是说。
@@ -705,7 +696,10 @@ http {
     limit_conn_zone $binary_remote_addr zone=perip:10m;
     limit_conn_zone $server_name zone=perserver:10m;
     server_tokens off;
+    # 关闭日志
     access_log off;
+    # 输出日志
+    #error_log /dev/null;
 }
 ```
 

@@ -10,20 +10,21 @@
 
 
 * [https://github.com/adolfintel/speedtest](https://github.com/adolfintel/speedtest)
-* Linux中国 翻译组 [https://github.com/LCTT](https://github.com/LCTT)
+* Linux中国翻译组 [https://github.com/LCTT](https://github.com/LCTT)
 * DPDK工程师手册 [https://github.com/0voice/dpdk_engineer_manual](https://github.com/0voice/dpdk_engineer_manual)
 
 
 - [https://www.gnome.org](https://www.gnome.org)
 - 加密覆盖文件系统 [https://github.com/rfjakob/gocryptfs](https://github.com/rfjakob/gocryptfs)
 - 天气卫星 [https://github.com/sam210723/xrit-rx](https://github.com/sam210723/xrit-rx)
+- 家庭自动化 [https://github.com/home-assistant/core](https://github.com/home-assistant/core)
 - CCProxy [http://www.ccproxy.com](http://www.ccproxy.com)
     * [局域内网的服务器利用跳板机访问互联网](https://51.ruyo.net/17717.html)
     ```
     序列号：JHEHIHCDDAHC
     注册码：15f7f78febfaee55afeafefff7cb7fdfb3
     ```
-- MAC取证 [https://github.com/jipegit/OSXAuditor](https://github.com/jipegit/OSXAuditor)
+
 
 
 * [有人说超威半导体（AMD）没有512位高级矢量扩展指令集（AVX512），属于残废，是真的吗？](https://www.zhihu.com/question/367281009)
@@ -56,6 +57,7 @@
 
 
 - [https://github.com/torvalds/linux](https://github.com/torvalds/linux)
+    - [https://github.com/Rust-for-Linux](https://github.com/Rust-for-Linux)
 - [https://github.com/rocky-linux](https://github.com/rocky-linux)
 - [https://github.com/AlmaLinux](https://github.com/AlmaLinux)
 - [https://github.com/microsoft/CBL-Mariner](https://github.com/microsoft/CBL-Mariner)
@@ -88,7 +90,8 @@
 - Solus [https://getsol.us](https://getsol.us)
 - Windows兼容操作系统 [https://github.com/reactos](https://github.com/reactos)
 - 支持Linux和安卓应用 [https://github.com/JingOS-team/JingOS](https://github.com/JingOS-team/JingOS)
-- 编译嵌入式Linux [https://github.com/buildroot/buildroot](https://github.com/buildroot/buildroot)
+- 编译嵌入式Linux [https://github.com/buildroot](https://github.com/buildroot)
+    - [https://buildroot.org](https://buildroot.org)
 - [https://github.com/littlekernel/lk](https://github.com/littlekernel/lk)
     - [Little Kernel 代码走读（一） – 易也技术](http://yiiyee.cn/blog/2019/08/28/lk1)
     - [https://github.com/dahliaOS/fimage](https://github.com/dahliaOS/fimage)
@@ -109,7 +112,10 @@
 * [https://github.com/ARMmbed](https://github.com/ARMmbed)
 * [https://github.com/thepowersgang/rust_os](https://github.com/thepowersgang/rust_os)
 * 物联网 [https://github.com/RT-Thread/rt-thread](https://github.com/RT-Thread/rt-thread)
+* [https://github.com/zephyrproject-rtos/zephyr](https://github.com/zephyrproject-rtos/zephyr)
+    * [https://github.com/Linaro](https://github.com/Linaro)
 * 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
+    * [https://github.com/guysoft](https://github.com/guysoft)
 * [https://github.com/pftf](https://github.com/pftf)
 
 
@@ -131,6 +137,27 @@
 * [https://www.enlightenment.org](https://www.enlightenment.org)
 * [https://github.com/muesli/duf](https://github.com/muesli/duf)
 * [https://github.com/ukui](https://github.com/ukui)
+* 管理 [https://github.com/puppetlabs/puppet](https://github.com/puppetlabs/puppet)
+
+
+
+**DNS**
+
++ [https://github.com/topics/dns-server](https://github.com/topics/dns-server)
++ [https://github.com/topics/service-discovery](https://github.com/topics/service-discovery)
++ [https://github.com/topics/cncf](https://github.com/topics/cncf)
++ [https://github.com/topics/http3](https://github.com/topics/http3)
++ [https://github.com/topics/quic](https://github.com/topics/quic)
+
+
+* [https://github.com/coredns/coredns](https://github.com/coredns/coredns)
+* [https://github.com/skynetservices/skydns](https://github.com/skynetservices/skydns)
+* [https://github.com/PowerDNS](https://github.com/PowerDNS)
+* [https://github.com/google/proto-quic](https://github.com/google/proto-quic)
+* [https://github.com/google/quiche](https://github.com/google/quiche)(https://github.com/google/quiche)
+* [https://github.com/lucas-clemente/quic-go](https://github.com/lucas-clemente/quic-go)
+* [https://github.com/letsencrypt/challtestsrv](https://github.com/letsencrypt/challtestsrv)
+* [https://github.com/rthalley/dnspython](https://github.com/rthalley/dnspython)
 
 
 
@@ -138,57 +165,38 @@
 
 + [https://github.com/topics/apm](https://github.com/topics/apm)
 + [https://github.com/topics/system-information](https://github.com/topics/system-information)
++ [https://github.com/monitoring-plugins](https://github.com/monitoring-plugins)
+    + 监控插件开发指南 [https://www.monitoring-plugins.org](https://www.monitoring-plugins.org)
 
 
-* 带仪表盘的实时性能监控 [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
 * [https://github.com/cppla/ServerStatus](https://github.com/cppla/ServerStatus)
 * [https://github.com/CokeMine/ServerStatus-Hotaru](https://github.com/CokeMine/ServerStatus-Hotaru)
 * [https://github.com/BotoX/ServerStatus](https://github.com/BotoX/ServerStatus)
-* [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
-* [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
+* [https://github.com/netdata/netdata](https://github.com/netdata/netdata)
 * [https://github.com/newrelic](https://github.com/newrelic)
     * [https://opensource.newrelic.com](https://opensource.newrelic.com)
-* [https://github.com/pinpoint-apm/pinpoint](https://github.com/pinpoint-apm/pinpoint)
-* [https://github.com/apache/skywalking](https://github.com/apache/skywalking)
+* [https://github.com/Reportr](https://github.com/Reportr)
+* [https://github.com/tracecompass](https://github.com/tracecompass)
+    * [https://github.com/lttng](https://github.com/lttng)
+    * [https://github.com/eclipse-cdt-cloud](https://github.com/eclipse-cdt-cloud)
+* 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)
+* [https://github.com/uptimerobot](https://github.com/uptimerobot)
 
 
+
+- 堡垒机 [https://github.com/jimmy201602/webterminal](https://github.com/jimmy201602/webterminal)
 - [https://github.com/bigbully/Dapper-translation](https://github.com/bigbully/Dapper-translation)
     - [https://bigbully.github.io/Dapper-translation](https://bigbully.github.io/Dapper-translation)
 - [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
 
 
 
+**APM**
 
-**管理面板**
-
-* [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)
-    * [https://www.bt.cn](https://www.bt.cn)
-* [https://www.xp.cn](https://www.xp.cn)
-* [https://cockpit-project.org](https://cockpit-project.org)
-* 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
-* [https://github.com/GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)
-* [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
-* [http://amh.sh](http://amh.sh)
-* [http://www.batchshell.cn](http://www.batchshell.cn)
-
-
-
-**Dashboard**
-
-* [https://github.com/keen/dashboards](https://github.com/keen/dashboards)
-* [https://github.com/Smashing/smashing](https://github.com/Smashing/smashing)
-    * [https://github.com/Shopify/dashing](https://github.com/Shopify/dashing)
+* [https://github.com/naiba/nezha](https://github.com/naiba/nezha)
+* [https://github.com/pinpoint-apm/pinpoint](https://github.com/pinpoint-apm/pinpoint)
+* [https://github.com/apache/skywalking](https://github.com/apache/skywalking)
 * [https://github.com/Hygieia/Hygieia](https://github.com/Hygieia/Hygieia)
-* [https://github.com/Reportr/dashboard](https://github.com/Reportr/dashboard)
-* [https://github.com/elastic/kibana](https://github.com/elastic/kibana)
-* [https://github.com/getredash/redash](https://github.com/getredash/redash)
-* [https://github.com/apache/superset](https://github.com/apache/superset)
-* [https://github.com/metabase/metabase](https://github.com/metabase/metabase)
-* [https://github.com/cube-js/cube.js](https://github.com/cube-js/cube.js)
-* [https://github.com/Freeboard/freeboard](https://github.com/Freeboard/freeboard)
-* [https://github.com/bokeh/bokeh](https://github.com/bokeh/bokeh)
-* [https://github.com/streamlit/streamlit](https://github.com/streamlit/streamlit)
-* [https://github.com/altair-viz/altair](https://github.com/altair-viz/altair)
 * [https://github.com/zabbix](https://github.com/zabbix)
     * [https://github.com/alexanderzobnin/grafana-zabbix](https://github.com/alexanderzobnin/grafana-zabbix)
     * [https://github.com/zhausong/zabbix-book](https://github.com/zhausong/zabbix-book)
@@ -196,6 +204,34 @@
     * [https://github.com/nagios-plugins](https://github.com/nagios-plugins)
     * [https://www.nagios.org](https://www.nagios.org)
     * [https://www.nagios.com](https://www.nagios.com)
+    * [https://github.com/HariSekhon/Nagios-Plugins](https://github.com/HariSekhon/Nagios-Plugins)
+* [https://github.com/naemon](https://github.com/naemon)
+* [https://github.com/naparuba/shinken](https://github.com/naparuba/shinken)
+* [https://github.com/Icinga](https://github.com/Icinga)
+* Checkmk [https://github.com/tribe29](https://github.com/tribe29)
+* [https://github.com/cacti](https://github.com/cacti)
+* [https://github.com/ntop/ntopng](https://github.com/ntop/ntopng)
+* [https://github.com/elastic/apm-server](https://github.com/elastic/apm-server)
+* [https://github.com/prometheus](https://github.com/prometheus)
+    * [Prometheus监控tomcat+jvm](https://www.cnblogs.com/you-men/p/13216976.html)
+    * [https://iqsing.github.io/categories/prometheus](https://iqsing.github.io/categories/prometheus)
+* [https://github.com/ccfos/nightingale](https://github.com/ccfos/nightingale)
+* [https://github.com/scouter-project/scouter](https://github.com/scouter-project/scouter)
+* 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
+* [https://github.com/GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)
+
+
+
+### 管理面板
+
+* [https://github.com/aaPanel/BaoTa](https://github.com/aaPanel/BaoTa)
+    * [https://www.bt.cn](https://www.bt.cn)
+* [https://www.xp.cn](https://www.xp.cn)
+* [https://github.com/YunoHost](https://github.com/YunoHost)
+* [https://cockpit-project.org](https://cockpit-project.org)
+* [http://amh.sh](http://amh.sh)
+* [http://www.batchshell.cn](http://www.batchshell.cn)
+* [https://github.com/hestiacp/hestiacp](https://github.com/hestiacp/hestiacp)
 
 
 

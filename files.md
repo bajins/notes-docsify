@@ -1,14 +1,18 @@
 # 文件
 
-[circle-progress-bar.html](/files/circle-progress-bar.html ':ignore')
-
-[css-animation.html](/files/css-animation.html ':ignore')
-
 [Eclipse配置mars2.zip](/files/Eclipse配置mars2.zip ':ignore')
 
 [Eclipse配置mars2以上版本.zip](/files/Eclipse配置mars2以上版本.zip ':ignore')
 
 [FiddlerCore_4-45.7z](/files/FiddlerCore_4-45.7z ':ignore')
+
+[IDEA设置.zip](/files/IDEA设置.zip ':ignore')
+
+[MediaQueriesExample.html](/files/MediaQueriesExample.html ':ignore')
+
+[circle-progress-bar.html](/files/circle-progress-bar.html ':ignore')
+
+[css-animation.html](/files/css-animation.html ':ignore')
 
 [fix-footer-page-bottom-absolute.html](/files/fix-footer-page-bottom-absolute.html ':ignore')
 
@@ -27,10 +31,6 @@
 [horizontal-arrangement-float-left.html](/files/horizontal-arrangement-float-left.html ':ignore')
 
 [horizontal-arrangement-inline-block.html](/files/horizontal-arrangement-inline-block.html ':ignore')
-
-[IDEA设置.zip](/files/IDEA设置.zip ':ignore')
-
-[MediaQueriesExample.html](/files/MediaQueriesExample.html ':ignore')
 
 [round-progress-bar.html](/files/round-progress-bar.html ':ignore')
 

@@ -3,7 +3,6 @@
 [[toc]]
 
 
-
 ## Flag
 
 * [https://github.com/dunwu/db-tutorial](https://github.com/dunwu/db-tutorial)
@@ -18,6 +17,11 @@
 * [https://www.begtut.com/sql/sql-ref-keywords.html](https://www.begtut.com/sql/sql-ref-keywords.html)
 * [https://wizardforcel.gitbooks.io/w3school-sql](https://wizardforcel.gitbooks.io/w3school-sql)
 * HiveSQL教程 [https://www.gairuo.com/p/hive-sql-tutorial](https://www.gairuo.com/p/hive-sql-tutorial)
+* 加密 [https://github.com/hashicorp/vault](https://github.com/hashicorp/vault)
+* 通用SQL解析 [https://www.sqlparser.com](https://www.sqlparser.com)
+* [https://github.com/search?p=9&q=data+to+sql](https://github.com/search?p=9&q=data+to+sql)
+* [https://github.com/search?q=generate+sql](https://github.com/search?l=Java&q=generate+sql)
+
 
 
 **备份/迁移/同步/导入导出**
@@ -31,12 +35,14 @@
 - 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
 - [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
 - 数据库迁移 [https://github.com/flyway/flyway](https://github.com/flyway/flyway)
+- [https://github.com/liquibase](https://github.com/liquibase)
 - Go编写的数据库迁移 [https://github.com/golang-migrate/migrate](https://github.com/golang-migrate/migrate)
 - PostgreSQL迁移 [https://github.com/jackc/tern](https://github.com/jackc/tern)
 - [https://github.com/DTStack/flinkx](https://github.com/DTStack/flinkx)
 - [https://gitee.com/ghi/dbsyncer](https://gitee.com/ghi/dbsyncer)
 - [https://github.com/jeessy2/backup-x](https://github.com/jeessy2/backup-x)
 - [https://github.com/jeessy2/backup-db](https://github.com/jeessy2/backup-db)
+- [https://github.com/database-mesh](https://github.com/database-mesh)
 
 
 
@@ -68,21 +74,28 @@
 + [https://github.com/cmu-db/dbdb.io](https://github.com/cmu-db/dbdb.io)
 + [https://github.com/polardb](https://github.com/polardb)
 + [https://db-engines.com/en/ranking](https://db-engines.com/en/ranking)
++ [https://github.com/wbtlb](https://github.com/wbtlb)
 
 
-* sqlite克隆 [https://github.com/cstack/db_tutorial](https://github.com/cstack/db_tutorial)
-* [http://www.h2database.com](http://www.h2database.com)
-* [http://hsqldb.org](http://hsqldb.org)
-* [https://github.com/FirebirdSQL/firebird](https://github.com/FirebirdSQL/firebird)
-* [https://github.com/citusdata/citus](https://github.com/citusdata/citus)
-* 分布式 [https://github.com/cockroachdb/cockroach](https://github.com/cockroachdb/cockroach)
+* [https://github.com/SQream](https://github.com/SQream)
+* [https://github.com/dremio](https://github.com/dremio)
+* [https://github.com/exasol](https://github.com/exasol)
+* [https://github.com/Teradata](https://github.com/Teradata)
+* [https://github.com/machbase](https://github.com/machbase)
+* [https://github.com/cloudera](https://github.com/cloudera)
+* [https://github.com/ActianCorp](https://github.com/ActianCorp)
+* [https://github.com/Xeograph](https://github.com/Xeograph)
+* [https://github.com/forcedotcom](https://github.com/forcedotcom)
+* 分布式 [https://github.com/cockroachdb](https://github.com/cockroachdb)
 * [https://github.com/apache/ignite](https://github.com/apache/ignite)
     * [http://blog.nimblex.cn/archives](http://blog.nimblex.cn/archives)
     * [https://www.ignite-service.cn/doc/java](https://www.ignite-service.cn/doc/java)
     * [https://github.com/owen-jia/ignite-yardstick](https://github.com/owen-jia/ignite-yardstick)
 * [https://github.com/rethinkdb](https://github.com/rethinkdb)
+* [https://github.com/cubrid](https://github.com/cubrid)
 * [https://github.com/pingcap/tidb](https://github.com/pingcap/tidb)
     * [https://pingcap.com](https://pingcap.com)
+* [https://github.com/tidb-incubator](https://github.com/tidb-incubator)
 * [https://github.com/tikv/tikv](https://github.com/tikv/tikv)
 * [https://github.com/yugabyte/yugabyte-db](https://github.com/yugabyte/yugabyte-db)
 * [https://github.com/prestodb/presto](https://github.com/prestodb/presto)
@@ -109,14 +122,15 @@
 * [https://github.com/flower-corp/rosedb](https://github.com/flower-corp/rosedb)
 * [https://github.com/hivedb/hive](https://github.com/hivedb/hive)
 * [https://github.com/facebook/rocksdb](https://github.com/facebook/rocksdb)
-* [https://github.com/cockroachdb/pebble](https://github.com/cockroachdb/pebble)
+    * [https://github.com/xiaomi/pegasus-rocksdb](https://github.com/xiaomi/pegasus-rocksdb)
+    * [https://github.com/apache/incubator-pegasus](https://github.com/apache/incubator-pegasus)
 * [https://github.com/pmqs/BerkeleyDB](https://github.com/pmqs/BerkeleyDB)
+* [https://github.com/apache/incubator-kvrocks](https://github.com/apache/incubator-kvrocks)
 * 面向列的数据库 [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
 * Go嵌入式(S)QL数据库 [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql)
 * [https://github.com/oceanbase/oceanbase](https://github.com/oceanbase/oceanbase)
 * [https://github.com/roseduan/rosedb](https://github.com/roseduan/rosedb)
 * 时间序列数据库 [https://github.com/OpenTSDB/opentsdb](https://github.com/OpenTSDB/opentsdb)
-* [https://github.com/timescale/timescaledb](https://github.com/timescale/timescaledb)
 * [https://github.com/apache/hbase](https://github.com/apache/hbase)
 * [https://github.com/baidu/BaikalDB](https://github.com/baidu/BaikalDB)
 * [https://gitee.com/mirrors/EdgeFS](https://gitee.com/mirrors/EdgeFS)
@@ -125,12 +139,17 @@
 * [https://github.com/infinispan/infinispan](https://github.com/infinispan/infinispan)
 * [https://github.com/griddb/griddb](https://github.com/griddb/griddb)
 * [https://github.com/RocksCloud/rocksredis](https://github.com/RocksCloud/rocksredis)
+* [https://github.com/MonetDB/MonetDB](https://github.com/MonetDB/MonetDB)
+* [https://github.com/CeresDB/ceresdb](https://github.com/CeresDB/ceresdb)
 * 物联网 [https://github.com/apache/iotdb](https://github.com/apache/iotdb)
 * 内存关系数据库 [https://github.com/VoltDB/voltdb](https://github.com/VoltDB/voltdb)
 * [https://github.com/memsql](https://github.com/memsql)
     * [https://www.singlestore.com](https://www.singlestore.com)
 * [https://github.com/cmu-db/noisepage](https://github.com/cmu-db/noisepage)
 * 不可变数据库 [https://github.com/codenotary/immudb](https://github.com/codenotary/immudb)
+* [https://github.com/stoneatom/stonedb](https://github.com/stoneatom/stonedb)
+* [https://github.com/dragonflydb](https://github.com/dragonflydb)
+* [https://github.com/surrealdb/surrealdb](https://github.com/surrealdb/surrealdb)
 
 
 
@@ -139,6 +158,8 @@
     - [https://github.com/attic-labs/noms](https://github.com/attic-labs/noms)
 - 移动数据库 [https://github.com/realm/realm-core](https://github.com/realm/realm-core)
 - 数据流 [https://github.com/mit-pdos/noria](https://github.com/mit-pdos/noria)
+- [https://github.com/risingwavelabs/risingwave](https://github.com/risingwavelabs/risingwave)
+- OLAP [https://github.com/risinglightdb/risinglight](https://github.com/risinglightdb/risinglight)
 - 矢量数据库 [https://github.com/milvus-io/milvus](https://github.com/milvus-io/milvus)
 - [https://github.com/topics/spark](https://github.com/topics/spark)
     - [https://github.com/apache/spark](https://github.com/apache/spark)
@@ -191,6 +212,7 @@
 * [https://github.com/guodongxiaren/redis-wiki](https://github.com/guodongxiaren/redis-wiki)
 * [https://github.com/yu-linfeng/redis5.x_tutorial](https://github.com/yu-linfeng/redis5.x_tutorial)
 * redis常用特性 [https://github.com/LxyTe/redis](https://github.com/LxyTe/redis)
+* [https://github.com/Ctzzhang/Ctzzhang.github.io](https://github.com/Ctzzhang/Ctzzhang.github.io)
 
 
 - 基于Redis和S3分布式POSIX文件系统 [https://github.com/juicedata/juicefs](https://github.com/juicedata/juicefs)

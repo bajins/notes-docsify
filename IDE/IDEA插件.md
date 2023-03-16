@@ -21,6 +21,7 @@
     * [https://github.com/ja-netfilter](https://github.com/ja-netfilter) 2021.3(2022.1起弃用`mymap`插件)
         * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter)
         * [https://jetbra.in/s](https://jetbra.in/s)
+        * [https://ffff.ga](https://ffff.ga)
         * [https://github.com/sinlmao/plugin-fineagent](https://github.com/sinlmao/plugin-fineagent)
 * [利用授权服务器(License Server)激活Jetbrains全家桶](https://51.ruyo.net/17780.html)
     * [https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth](https://www.shodan.io/search?query=Location%3A+https%3A%2F%2Faccount.jetbrains.com%2Ffls-auth)
@@ -63,6 +64,7 @@
 > 直接将Mybatis执行的sql脚本显示出来，无需处理，可以直接复制出来执行
 
 * [https://github.com/kookob/mybatis-log-plugin](https://github.com/kookob/mybatis-log-plugin)
+* [https://github.com/PerccyKing/batslog](https://github.com/PerccyKing/batslog)
 
 
 ## .ignore
@@ -177,6 +179,11 @@
 > 提供操作以从自定义模板生成代码
 
 * [https://plugins.jetbrains.com/plugin/13595-code-generator](https://plugins.jetbrains.com/plugin/13595-code-generator)
+
+
+## EasyCode
+
+* [https://github.com/makejavas/EasyCode](https://github.com/makejavas/EasyCode)
 
 
 ## codehelper.generator
@@ -296,23 +303,13 @@
 ## FindBugs-IDEA
 
 * [https://plugins.jetbrains.com/plugin/3847-findbugs-idea](https://plugins.jetbrains.com/plugin/3847-findbugs-idea)
+* [https://github.com/andrepdo/findbugs-idea](https://github.com/andrepdo/findbugs-idea)
+    * [https://andrepdo.github.io/findbugs-idea](https://andrepdo.github.io/findbugs-idea)
 
 > 检测代码中可能的bug及不规范的位置，检测的模式相比p3c更多，写完代码后检测下 避免低级bug，强烈建议用一下，一不小心就发现很多老代码的bug
 
 ![](https://upload-images.jianshu.io/upload_images/11962894-971a0da4b7fde363.gif)
 
-
-## p3c
-
-* [https://github.com/alibaba/p3c](https://github.com/alibaba/p3c)
-
-> 阿里巴巴出品的java代码规范插件,可以扫描整个项目 找到不规范的地方 并且大部分可以自动修复 
-
-
-
-## Alibaba Java Coding Guidelines
-
-> 阿里巴巴代码规范检查插件，当然规范可以参考《阿里巴巴Java开发手册》
 
 
 ## CheckStyle-IDEA

@@ -15,8 +15,6 @@
 
 
 * 代码提示 [https://github.com/webhintio](https://github.com/webhintio)
-* [https://github.com/microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
-* 开发人员设计资源 [https://github.com/bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
 * Web组件 [https://github.com/webcomponents](https://github.com/webcomponents)
 * Web开源项目 [https://github.com/bestofjs/bestofjs-webui](https://github.com/bestofjs/bestofjs-webui)
 * [https://github.com/the-benchmarker/website](https://github.com/the-benchmarker/website)
@@ -95,12 +93,14 @@
     * [https://www.jekyll.com.cn](https://www.jekyll.com.cn)
     * [https://github.com/mattvh/jekyllthemes](https://github.com/mattvh/jekyllthemes)
 * 静态编译Docsite [https://github.com/txd-team/docsite](https://github.com/txd-team/docsite)
+* [https://github.com/tangly1024/NotionNext](https://github.com/tangly1024/NotionNext)
 * 运行时驱动Docsify [https://github.com/docsifyjs/docsify](https://github.com/docsifyjs/docsify)
     * [https://github.com/docsifyjs/awesome-docsify](https://github.com/docsifyjs/awesome-docsify)
 * 运行时驱动 [https://github.com/egoist/docute](https://github.com/egoist/docute)
 * 从仓库生成文档 [https://github.com/readthedocs](https://github.com/readthedocs)
 * [https://github.com/getgridea/gridea](https://github.com/getgridea/gridea)
 * [https://github.com/facebook/docusaurus](https://github.com/facebook/docusaurus)
+* [https://github.com/squidfunk/mkdocs-material](https://github.com/squidfunk/mkdocs-material)
 * 简历 [https://github.com/xaoxuu/resume-docs](https://github.com/xaoxuu/resume-docs)
 * [https://github.com/AmruthPillai/Reactive-Resume](https://github.com/AmruthPillai/Reactive-Resume)
 * 百科 [https://github.com/Requarks/wiki](https://github.com/Requarks/wiki)
@@ -108,6 +108,8 @@
 
 
 **API接口文档管理**
+
++ OpenAPI规范 [https://github.com/OAI](https://github.com/OAI)
 
 - [https://siguso.com](https://siguso.com)
 - [https://easydoc.net](https://easydoc.net)
@@ -117,7 +119,12 @@
 - [https://github.com/doxygen/doxygen](https://github.com/doxygen/doxygen)
 - [https://github.com/apidoc/apidoc](https://github.com/apidoc/apidoc)
 - [https://github.com/jsdoc](https://github.com/jsdoc)
-- [https://github.com/asciidoctor](https://github.com/asciidoctor)
+- [https://asciidoc.org](https://asciidoc.org)
+    - [https://sourceforge.net/projects/asciidoc](https://sourceforge.net/projects/asciidoc)
+    - [https://gitlab.eclipse.org/eclipse-wg/asciidoc-wg](https://gitlab.eclipse.org/eclipse-wg/asciidoc-wg)
+    - [https://github.com/asciidoctor](https://github.com/asciidoctor)
+    - [https://github.com/asciidoc-py/asciidoc-py](https://github.com/asciidoc-py/asciidoc-py)
+    - [https://github.com/asciidocfx/AsciidocFX](https://github.com/asciidocfx/AsciidocFX)
 - [https://github.com/thx/rap2-delos](https://github.com/thx/rap2-delos)
 - [https://github.com/YMFE/yapi](https://github.com/YMFE/yapi)
     - [https://github.com/fjc0k/YApi-X](https://github.com/fjc0k/YApi-X)
@@ -126,9 +133,13 @@
 - [https://github.com/EhsanTang/ApiManager](https://github.com/EhsanTang/ApiManager)
 - [https://github.com/smart-doc-group](https://github.com/smart-doc-group)
     - [https://gitee.com/smart-doc-team](https://gitee.com/smart-doc-team)
+- [https://github.com/apiaryio/api-blueprint](https://github.com/apiaryio/api-blueprint)
+    - [https://github.com/Aconex/drakov](https://github.com/Aconex/drakov)
+    - [https://github.com/localmed/api-mock](https://github.com/localmed/api-mock)
+    - [https://github.com/danielgtaylor/aglio](https://github.com/danielgtaylor/aglio)
 - Swift或Objective-C [https://github.com/realm/jazzy](https://github.com/realm/jazzy)
 - Java [https://github.com/Kapeli/javadocset](https://github.com/Kapeli/javadocset)
-
+- [https://github.com/MaxxtonGroup/microdocs](https://github.com/MaxxtonGroup/microdocs)
 
 
 
@@ -211,7 +222,7 @@
 - [https://github.com/BlueSkyXN/CFIP](https://github.com/BlueSkyXN/CFIP)
 - [https://github.com/yuantuo666/cfip](https://github.com/yuantuo666/cfip)
 - [https://github.com/XIU2/CloudflareSpeedTest](https://github.com/XIU2/CloudflareSpeedTest)
-
+- [https://github.com/MortezaBashsiz/CFScanner](https://github.com/MortezaBashsiz/CFScanner)
 
 
 ### Workers

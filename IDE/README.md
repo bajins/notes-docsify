@@ -6,6 +6,7 @@
 ## Flag
 
 + [https://github.com/topics/ide](https://github.com/topics/ide)
++ [https://github.com/topics/devops](https://github.com/topics/devops)
 
 
 * [https://github.com/apache/netbeans](https://github.com/apache/netbeans)
@@ -13,11 +14,40 @@
 * [https://github.com/eclipse-theia/theia](https://github.com/eclipse-theia/theia)
     * [https://theia-ide.org](https://theia-ide.org)
 * [https://github.com/VSCodium/vscodium](https://github.com/VSCodium/vscodium)
+* 图形转代码 [https://www.paintcodeapp.com](https://www.paintcodeapp.com)
 * GoIDE [https://github.com/visualfc/liteide](https://github.com/visualfc/liteide)
 * [https://sourceforge.net/projects/liteide](https://sourceforge.net/projects/liteide)
 * [https://github.com/lapce](https://github.com/lapce)
 * [https://github.com/zed-industries](https://github.com/zed-industries)
+* [https://github.com/capistrano/sshkit](https://github.com/capistrano/sshkit)
 
+
+
+**代码跟踪分析**
+
+- [https://sonarcloud.io](https://sonarcloud.io)
+    - [https://github.com/SonarSource/sonarqube](https://github.com/SonarSource/sonarqube)
+- [https://github.com/pmd/pmd](https://github.com/pmd/pmd)
+- [https://github.com/snyk/cli](https://github.com/snyk/cli)
+- [https://semmle.com](https://semmle.com)
+    - [https://lgtm.com](https://lgtm.com)
+- [https://www.openhub.net](https://www.openhub.net)
+- [https://github.com/Checkmarx](https://github.com/Checkmarx)
+- [https://github.com/codacy](https://github.com/codacy)
+- [https://github.com/veracode](https://github.com/veracode)
+- [https://bestpractices.coreinfrastructure.org](https://bestpractices.coreinfrastructure.org)
+- Gerrit [https://github.com/GerritCodeReview/gerrit](https://github.com/GerritCodeReview/gerrit)
+    - [https://www.gerritcodereview.com](https://www.gerritcodereview.com)
+    - [https://gerrit.asterisk.org/Documentation/index.html](https://gerrit.asterisk.org/Documentation/index.html)
+- C/C++ [https://dwheeler.com/flawfinder](https://dwheeler.com/flawfinder)
+- .NET [https://github.com/security-code-scan/security-code-scan](https://github.com/security-code-scan/security-code-scan)
+- 计算代码行数 [https://github.com/AlDanial/cloc](https://github.com/AlDanial/cloc)
+- 代码覆盖率 [https://github.com/codedx/codepulse](https://github.com/codedx/codepulse)
+- [https://github.com/jacoco/jacoco](https://github.com/jacoco/jacoco)
+
+
+
+**Dev Tools/DevOps/CI/CD/Developer Experience (DX)**
 
 - 代码搜索和替换 [https://github.com/comby-tools/comby](https://github.com/comby-tools/comby)
 - [https://github.com/dsznajder/vscode-es7-javascript-react-snippets](https://github.com/dsznajder/vscode-es7-javascript-react-snippets)
@@ -28,6 +58,47 @@
     - [https://www.tabnine.com](https://www.tabnine.com)
 - [https://github.com/veler/DevToys](https://github.com/veler/DevToys)
 - [https://github.com/VUEngine](https://github.com/VUEngine)
+- [https://github.com/kiteco](https://github.com/kiteco)
+- [https://github.com/atlassian](https://github.com/atlassian)
+- 界面设计 [https://github.com/figma](https://github.com/figma)
+- [https://github.com/planetscale](https://github.com/planetscale)
+- DevOps指南 [https://github.com/Tikam02/DevOps-Guide](https://github.com/Tikam02/DevOps-Guide)
+- [https://github.com/annfelix/DEVOPS-WORLD](https://github.com/annfelix/DEVOPS-WORLD)
+
+
+
++ [技术|什么是 CI/CD？](https://linux.cn/article-9926-1.html)
+
+- CI(Continuous Integration) 持续集成概念
+- CD(Continuous Deployment) 是持续部署
+- CD(Continuous delivery) 交持续交付
+
+> CI/CD优点是，重复的工作用自动化来代替、减少时间成本、版本发布时间减短了。
+> 当开发每天会提交多次代码到主干上，会做一些重复性的动作时，就可以用持续集成环境来操作。
+
+
++ [CI services](https://github.com/semantic-release/semantic-release/blob/master/docs/usage/ci-configuration.md)
++ [https://github.com/opencpu](https://github.com/opencpu)
++ [https://github.com/circleci](https://github.com/circleci)
++ [https://github.com/codeship](https://github.com/codeship)
++ [https://github.com/gocd](https://github.com/gocd)
++ [https://github.com/travis-ci](https://github.com/travis-ci)
++ [https://github.com/wercker](https://github.com/wercker)
++ [https://github.com/codemagic-ci-cd](https://github.com/codemagic-ci-cd)
+
+
+
+
+## 版本控制
+
+* [https://www.perforce.com](https://www.perforce.com)
+* [https://www.mercurial-scm.org](https://www.mercurial-scm.org)
+* [https://www.nongnu.org/cvs](https://www.nongnu.org/cvs)
+* [https://bazaar.canonical.com](https://bazaar.canonical.com)
+* [https://github.com/bytebase/bytebase](https://github.com/bytebase/bytebase)
+* [https://nest.pijul.com/pijul/pijul](https://nest.pijul.com/pijul/pijul)
+  * [https://pijul.org](https://pijul.org)
+* [https://www.plasticscm.com](https://www.plasticscm.com)
 
 
 
@@ -56,6 +127,18 @@
 * [https://github.com/mattgodbolt/compiler-explorer](https://github.com/mattgodbolt/compiler-explorer)
 * [http://pythontutor.com](http://pythontutor.com)
 * [https://codepen.io](https://codepen.io)
+* [https://github.com/jsfiddle](https://github.com/jsfiddle)
+* [https://jsrun.net](https://jsrun.net)
+* [https://www.sololearn.com](https://www.sololearn.com)
+* [https://www.figma.com](https://www.figma.com)
+* [https://www.browserstack.com](https://www.browserstack.com)
+* [https://responsivedesignchecker.com](https://responsivedesignchecker.com)
+* [http://ami.responsivedesign.is](http://ami.responsivedesign.is)
+* [https://css-grid-layout-generator.pw](https://css-grid-layout-generator.pw)
+* [https://webcode.tools/css-generator](https://webcode.tools/css-generator)
+* [https://css3generator.com](https://css3generator.com)
+* [https://petercollingridge.appspot.com/svg-optimiser](https://petercollingridge.appspot.com/svg-optimiser)
+* [https://jakearchibald.github.io/svgomg](https://jakearchibald.github.io/svgomg)
 * [https://github.com/Mohamed99ayman/Online-Compiler](https://github.com/Mohamed99ayman/Online-Compiler)
 * [https://code.xueersi.com/ide/code/1](https://code.xueersi.com/ide/code/1)
 
@@ -68,6 +151,7 @@
 
 * [https://github.com/topics/testing](https://github.com/topics/testing)
 * [https://github.com/topics/test-automation](https://github.com/topics/test-automation)
+* [https://github.com/jumper2014/awesome-test-tool](https://github.com/jumper2014/awesome-test-tool)
 
 
 + [https://github.com/apache/jmeter](https://github.com/apache/jmeter)
@@ -89,6 +173,7 @@
     + [https://www.soapui.org](https://www.soapui.org)
     + [SoapUI 入门指南](https://blog.csdn.net/duleilewuhen/article/details/125127161)
     + [SoapUI接口测试工具最全实用教程](https://zhuanlan.zhihu.com/p/517806567)
++ [https://github.com/metersphere](https://github.com/metersphere)
 + [https://github.com/hoppscotch/hoppscotch](https://github.com/hoppscotch/hoppscotch)
     + [https://hoppscotch.io](https://hoppscotch.io)
 + [https://github.com/katalon-studio](https://github.com/katalon-studio)
@@ -96,10 +181,16 @@
 + [https://gitee.com/itestwork/itest](https://gitee.com/itestwork/itest)
 + [https://github.com/seagull1985/LuckyFrameClient](https://github.com/seagull1985/LuckyFrameClient)
 + [https://github.com/zyanycall/stressTestPlatform](https://github.com/zyanycall/stressTestPlatform)
-+ [https://www.apipost.cn](https://www.apipost.cn)
++ [https://github.com/Postcatlab/postcat](https://github.com/Postcatlab/postcat)
++ [https://github.com/Apipost-Team](https://github.com/Apipost-Team)
+    + [https://www.apipost.cn](https://www.apipost.cn)
 + [https://github.com/apifox](https://github.com/apifox)
     + [https://gitee.com/apifox](https://gitee.com/apifox)
     + [https://www.apifox.cn](https://www.apifox.cn)
++ [https://github.com/eolinker](https://github.com/eolinker)
+    + [https://www.eolink.com](https://www.eolink.com)
++ [https://github.com/feisuanyz/SoFlu-adp](https://github.com/feisuanyz/SoFlu-adp)
++ [https://github.com/httprunner](https://github.com/httprunner)
 + LoadRunner [https://www.microfocus.com/zh-cn/products#all-L](https://www.microfocus.com/zh-cn/products#all-L)
     + [https://liushilive.github.io/github_exercise_performance_testing](https://liushilive.github.io/github_exercise_performance_testing)
     + [性能测试入门——LoadRunner使用初探](https://zhuanlan.zhihu.com/p/24812449)
@@ -108,7 +199,8 @@
 
 
 - mac paw [https://github.com/luckymarmot](https://github.com/luckymarmot)
-
+- [https://github.com/f0ng/poc2jar](https://github.com/f0ng/poc2jar)
+- [https://github.com/ffffffff0x/BerylEnigma](https://github.com/ffffffff0x/BerylEnigma)
 
 
 
@@ -148,7 +240,6 @@
 * [https://www.razorsql.com](https://www.razorsql.com)
 * [https://www.aquafold.com](https://www.aquafold.com)
 * [https://github.com/TablePlus](https://github.com/TablePlus)
-* [https://github.com/trinodb/trino](https://github.com/trinodb/trino)
 * [https://github.com/ocelot-inc/ocelotgui](https://github.com/ocelot-inc/ocelotgui)
 * [https://github.com/beekeeper-studio/beekeeper-studio](https://github.com/beekeeper-studio/beekeeper-studio)
 * Python 自动提示[https://github.com/dbcli](https://github.com/dbcli)
@@ -195,20 +286,26 @@
 
 * [http://chuangzaoshi.com/designtool](http://chuangzaoshi.com/designtool)
 * [https://icons8.com/lunacy](https://icons8.com/lunacy)
-* [16 种原型设计工具及其使用场景](https://zhuanlan.zhihu.com/p/24805574)
 * [https://www.invisionapp.com](https://www.invisionapp.com)
 * [https://proto.io](https://proto.io)
+* [http://www.protopie.cn](http://www.protopie.cn)
+* [https://github.com/framer](https://github.com/framer)
 
 
 **本地客户端**
 
 * [https://www.axure.com](https://www.axure.com)
+* [https://balsamiq.com/wireframes/desktop](https://balsamiq.com/wireframes/desktop)
 * [https://www.adobe.com/products/xd.html](https://www.adobe.com/products/xd.html)
 * [https://www.justinmind.com](https://www.justinmind.com)
 * [https://www.carettasoftware.com/guidesignstudio](https://www.carettasoftware.com/guidesignstudio)
 * [https://modao.cc](https://modao.cc)
 * [https://lanhuapp.com](https://lanhuapp.com)
-* [https://www.mockplus.cn](https://www.mockplus.cn)
+* [https://www.mockplus.cn/rp-event](https://www.mockplus.cn/rp-event)
+* [https://origami.design](https://origami.design)
+    * [https://github.com/facebookarchive/origami](https://github.com/facebookarchive/origami)
+* [https://github.com/evolus/pencil](https://github.com/evolus/pencil)
+* [https://kiteapp.co](https://kiteapp.co)
 
 
 
@@ -216,14 +313,17 @@
 
 * [https://github.com/jgraph/drawio](https://github.com/jgraph/drawio)
     * [https://app.diagrams.net](https://app.diagrams.net)
+* [https://github.com/umlet/umlet](https://github.com/umlet/umlet)
 * [https://www.processon.com](https://www.processon.com)
 * [https://gitmind.cn](https://gitmind.cn)
+* [https://www.omnigroup.com/omnigraffle](https://www.omnigroup.com/omnigraffle)
 
 
 **本地客户端**
 
 * [Mind Mapper官方安装包](http://www.mindmapper.com/download-product)
-* [XMind 8官方下载](http://dl2.xmind.cn/xmind-8-update8-windows.exe)
+* [https://github.com/xmindltd](https://github.com/xmindltd)
+    * [XMind 8官方下载](http://dl2.xmind.cn/xmind-8-update8-windows.exe)
 * [MindManager 2019](https://www.naodai.org/archives/51.html)
 * [Mindjet MindManager官方安装包x64](http://dwnld.mindjet.com/stubs/Builds/MindManager2020/20_0_334/64Bit/MindManager%202020.msi)
 * [MindMaster](https://www.edrawsoft.com/mindmaster)
@@ -266,6 +366,7 @@
         * [https://inused.github.io/pages/file/tool/CharlesKeygen.html](https://inused.github.io/pages/file/tool/CharlesKeygen.html)
 * [https://github.com/youzan/zan-proxy](https://github.com/youzan/zan-proxy)
 * [https://github.com/alibaba/lightproxy](https://github.com/alibaba/lightproxy)
+* [https://github.com/ProxymanApp/Proxyman](https://github.com/ProxymanApp/Proxyman)
 * [https://www.httpwatch.com](https://www.httpwatch.com)
 * [http://www.httpdebugger.com](http://www.httpdebugger.com)
 * [https://github.com/avwo/whistle](https://github.com/avwo/whistle)
@@ -298,6 +399,7 @@
 - Java [https://github.com/eclipse/eclipse.jdt.ls](https://github.com/eclipse/eclipse.jdt.ls)
 - [https://github.com/eclipse/lsp4e](https://github.com/eclipse/lsp4e)
 - [https://github.com/ycm-core/ycmd](https://github.com/ycm-core/ycmd)
+- [https://github.com/Genuitec](https://github.com/Genuitec)
 
 
 
@@ -319,17 +421,44 @@
 * MLSQL [https://github.com/byzer-org](https://github.com/byzer-org)
     * [https://www.mlsql.tech](https://www.mlsql.tech)
     * [https://github.com/allwefantasy/mlsql-lang-vscode-plugin](https://github.com/allwefantasy/mlsql-lang-vscode-plugin)
-* 语法增量解析 [https://github.com/tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
 * AST浏览器 [https://github.com/fkling/astexplorer](https://github.com/fkling/astexplorer)
     * [https://astexplorer.net](https://astexplorer.net)
 * [https://github.com/gen-codes/astql](https://github.com/gen-codes/astql)
 * [https://github.com/codemirror](https://github.com/codemirror)
 * [https://github.com/pbkit/pbkit](https://github.com/pbkit/pbkit)
+* 语法增量解析 [https://github.com/tree-sitter/tree-sitter](https://github.com/tree-sitter/tree-sitter)
+    * [https://tree-sitter.github.io/tree-sitter](https://tree-sitter.github.io/tree-sitter)
 
 
 - [Lex与YACC详解](https://zhuanlan.zhihu.com/p/143867739)
+- [https://github.com/search?q=yacc](https://github.com/search?q=yacc)
+- [https://github.com/topics/yacc](https://github.com/topics/yacc)
+- [Pisa-Proxy SQL 解析之 Lex & Yacc](https://zhuanlan.zhihu.com/p/538735834)
 
 
+
+## 项目管理
+
++ [https://github.com/topics/bug](https://github.com/topics/bug)
++ [https://github.com/topics/project](https://github.com/topics/project)
++ [https://github.com/topics/task](https://github.com/topics/task)
++ [https://github.com/topics/project-management](https://github.com/topics/project-management)
+
+
+* 禅道 [https://github.com/easysoft/zentaopms](https://github.com/easysoft/zentaopms)
+    * [https://gitee.com/wwccss/zentaopms](https://gitee.com/wwccss/zentaopms)
+* [https://github.com/mantisbt/mantisbt](https://github.com/mantisbt/mantisbt)
+* [https://www.atlassian.com/zh/software/jira](https://www.atlassian.com/zh/software/jira)
+    * [https://github.com/integrations/jira](https://github.com/integrations/jira)
+* [https://github.com/mantisbt/mantisbt](https://github.com/mantisbt/mantisbt)
+* [https://github.com/redmine/redmine](https://github.com/redmine/redmine)
+* [https://gitee.com/itestwork/itest](https://gitee.com/itestwork/itest)
+* [https://github.com/hyahm/ITflow](https://github.com/hyahm/ITflow)
+* [https://www.tapd.cn](https://www.tapd.cn)
+* [https://github.com/devstream-io/devstream](https://github.com/devstream-io/devstream)
+    * [https://github.com/merico-dev/stream](https://github.com/merico-dev/stream)
+* [https://github.com/TestLinkOpenSourceTRMS/testlink-code](https://github.com/TestLinkOpenSourceTRMS/testlink-code)
+    * [https://sourceforge.net/projects/testlink](https://sourceforge.net/projects/testlink)
 
 
 

@@ -15,8 +15,7 @@
 
 + 隐私 [https://github.com/pluja/awesome-privacy](https://github.com/pluja/awesome-privacy)
 + [https://github.com/bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
-+ [https://github.com/tuvtran/project-based-learning](https://github.com/tuvtran/project-based-learning)
-+ IT技术知识开源图谱 [https://codechina.csdn.net/dev-roadmap](https://codechina.csdn.net/dev-roadmap)
++ IT技术知识开源图谱 [https://gitcode.net/dev-roadmap](https://gitcode.net/dev-roadmap)
 
 
 **开源组织**
@@ -28,6 +27,8 @@
     * [https://github.com/googleapis](https://github.com/googleapis)
 * [https://github.com/Netflix](https://github.com/Netflix)
 * [https://github.com/alibaba](https://github.com/alibaba)
+    * [https://tech.taobao.org/open-source](https://tech.taobao.org/open-source)
+* [https://github.com/alipay](https://github.com/alipay)
 * [https://github.com/tencent](https://github.com/tencent)
 * [https://github.com/bytedance](https://github.com/bytedance)
 * [https://github.com/huawei](https://github.com/huawei)
@@ -113,6 +114,7 @@
 * [https://github.com/eugenp](https://github.com/eugenp)
     * [https://www.baeldung.com](https://www.baeldung.com)
 * [https://github.com/lltx](https://github.com/lltx)
+* [https://github.com/Ovilia](https://github.com/Ovilia)
 * [https://github.com/halfrost](https://github.com/halfrost)
 * [https://github.com/changkun](https://github.com/changkun)
 * [https://github.com/chinanf-boy](https://github.com/chinanf-boy)
@@ -120,12 +122,6 @@
     * [Archive | waylau.com](https://waylau.com/archive)
     * [Books | waylau.com](https://waylau.com/books)
     * [https://legacy.gitbook.com/@waylau](https://legacy.gitbook.com/@waylau)
-* 视频讲座 [https://github.com/Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
-* 成为Web开发人员的路线图 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
-* [https://github.com/SmartKeyerror/Psyduck](https://github.com/SmartKeyerror/Psyduck)
-* 面试题 [https://github.com/0voice/campus_recruitmen_questions](https://github.com/0voice/campus_recruitmen_questions)
-* 反问面试官 [https://github.com/viraptor/reverse-interview](https://github.com/viraptor/reverse-interview)
-- [https://github.com/vvmdx/Sec-Interview-4-2023](https://github.com/vvmdx/Sec-Interview-4-2023)
 
 
 - [https://github.com/hoochanlon](https://github.com/hoochanlon)
@@ -148,13 +144,24 @@
 * [https://github.com/polaris1119/awesome-cheatsheets-cn](https://github.com/polaris1119/awesome-cheatsheets-cn)
 * 学习主题清单 [https://github.com/jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
 * [https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh](https://github.com/tuteng/Best-websites-a-programmer-should-visit-zh)
+* [https://github.com/yangshun/tech-interview-handbook](https://github.com/yangshun/tech-interview-handbook)
+* [https://github.com/practical-tutorials/project-based-learning](https://github.com/practical-tutorials/project-based-learning)
+* 学习开发路线图 [https://github.com/kamranahmedse/developer-roadmap](https://github.com/kamranahmedse/developer-roadmap)
+* [https://github.com/SmartKeyerror/Psyduck](https://github.com/SmartKeyerror/Psyduck)
+* [https://github.com/microsoft/Web-Dev-For-Beginners](https://github.com/microsoft/Web-Dev-For-Beginners)
+* 开发人员设计资源 [https://github.com/bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
 * 程序员技能图谱 [https://github.com/TeamStuQ/skill-map](https://github.com/TeamStuQ/skill-map)
 * [https://github.com/codecrafters-io](https://github.com/codecrafters-io)
 * [https://github.com/girliemac/a-picture-is-worth-a-1000-words](https://github.com/girliemac/a-picture-is-worth-a-1000-words)
+* [https://github.com/trigaten/Learn_Prompting](https://github.com/trigaten/Learn_Prompting)
 * Linux应用程序 [https://github.com/luong-komorebi/Awesome-Linux-Software](https://github.com/luong-komorebi/Awesome-Linux-Software)
 * 九十九个问题 [https://github.com/shekhargulati/99-problems](https://github.com/shekhargulati/99-problems)
 * [https://github.com/JosephZhu1983/java-common-mistakes](https://github.com/JosephZhu1983/java-common-mistakes)
 * [https://github.com/danistefanovic/build-your-own-x](https://github.com/danistefanovic/build-your-own-x)
+* 视频讲座 [https://github.com/Developer-Y/cs-video-courses](https://github.com/Developer-Y/cs-video-courses)
+* 面试题 [https://github.com/0voice/campus_recruitmen_questions](https://github.com/0voice/campus_recruitmen_questions)
+* 反问面试官 [https://github.com/viraptor/reverse-interview](https://github.com/viraptor/reverse-interview)
+* [https://github.com/vvmdx/Sec-Interview-4-2023](https://github.com/vvmdx/Sec-Interview-4-2023)
 * 开源替代方案 [https://opensource.com/tags/alternatives](https://opensource.com/tags/alternatives)
 
 
@@ -179,9 +186,9 @@
 * [https://velocity.silverlakesoftware.com](https://velocity.silverlakesoftware.com)
 * 代码浏览器 [https://github.com/KDAB/codebrowser](https://github.com/KDAB/codebrowser)
     * [https://blog.weghos.com](https://blog.weghos.com)
-* 在线考试系统
-    * Java实现 [https://github.com/lsgwr/spring-boot-online-exam](https://github.com/lsgwr/spring-boot-online-exam)
-    * Python实现 [https://github.com/xingxingzaixian/django-drf-online-exam](https://github.com/xingxingzaixian/django-drf-online-exam)
+* Java考试系统 [https://github.com/lsgwr/spring-boot-online-exam](https://github.com/lsgwr/spring-boot-online-exam)
+* Python考试系统 [https://github.com/xingxingzaixian/django-drf-online-exam](https://github.com/xingxingzaixian/django-drf-online-exam)
+
 
 
 ## 学习
@@ -299,6 +306,7 @@ javascript:document.body.contentEditable='true';document.designMode='on'; void 0
 * 新CG儿（视频素材模板，无水印+免费下载） [https://www.newcger.com](https://www.newcger.com)
 * Iconfont（阿里巴巴矢量图标库） [https://www.iconfont.cn](https://www.iconfont.cn)
 * 小图标下载 [https://www.easyicon.net](https://www.easyicon.net)
+* [https://github.com/Templarian/MaterialDesign](https://github.com/Templarian/MaterialDesign)
 * Flight Icon [https://www.flighticon.co](https://www.flighticon.co)
 * 第一字体转换器 [http://www.diyiziti.com](http://www.diyiziti.com)
 * doyoudosh（平面设计） [http://www.doyoudo.com](http://www.doyoudo.com)

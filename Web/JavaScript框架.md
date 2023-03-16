@@ -1,8 +1,6 @@
 # JavaScript框架
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -37,6 +35,10 @@
 * [https://github.com/solidjs/solid](https://github.com/solidjs/solid)
 * [https://github.com/preactjs/preact](https://github.com/preactjs/preact)
 * 框架环境 [https://github.com/meteor](https://github.com/meteor)
+* 仪表盘 [https://github.com/keen/dashboards](https://github.com/keen/dashboards)
+* [https://github.com/Smashing/smashing](https://github.com/Smashing/smashing)
+    * [https://github.com/Shopify/dashing](https://github.com/Shopify/dashing)
+    * [https://github.com/keen](https://github.com/keen)
 
 
 
@@ -76,7 +78,8 @@
 * [https://github.com/tannerlinsley/react-query](https://github.com/tannerlinsley/react-query)
 * [https://github.com/Shopify/hydrogen](https://github.com/Shopify/hydrogen)
 * [https://github.com/alan2207/bulletproof-react](https://github.com/alan2207/bulletproof-react)
-
+* [https://github.com/lyh0371/vv-react-table](https://github.com/lyh0371/vv-react-table)
+* [https://github.com/rsuite/rsuite-table](https://github.com/rsuite/rsuite-table)
 
 
 
@@ -89,8 +92,8 @@
 * [vue学习笔记](https://www.rumosky.wiki/docs/vue_learning_process)
 * [https://github.com/quasarframework](https://github.com/quasarframework)
 * [https://github.com/TuSimple/naive-ui](https://github.com/TuSimple/naive-ui)
+* [https://github.com/epicmaxco/vuestic-ui](https://github.com/epicmaxco/vuestic-ui)
 
-+ [https://github.com/vitejs/vite](https://github.com/vitejs/vite)
 
 ![](/images/vue生命周期详解.png)
 
@@ -100,6 +103,7 @@
 
 ### VueJS框架
 
+* [https://github.com/nuxt](https://github.com/nuxt)
 * [https://madewithvuejs.com](https://madewithvuejs.com)
 * [https://github.com/vuetifyjs/vuetify](https://github.com/vuetifyjs/vuetify)
 * [https://github.com/buefy/buefy](https://github.com/buefy/buefy)
@@ -298,6 +302,7 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 + [https://github.com/topics/validator](https://github.com/topics/validator)
 + [https://plugins.jquery.com](https://plugins.jquery.com)
 
+
 * 添加XHR2 responseType支持 [https://github.com/acigna/jquery-ajax-native](https://github.com/acigna/jquery-ajax-native)
 * [https://github.com/topics/jquery-validation](https://github.com/topics/jquery-validation)
     * [https://github.com/jquery-validation](https://github.com/jquery-validation)
@@ -321,6 +326,8 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * 使用旧版IE警报 [https://github.com/nmsdvid/ie-alert](https://github.com/nmsdvid/ie-alert)
 * 图像放大镜 [https://github.com/mrenzidev/jqzoom](https://github.com/mrenzidev/jqzoom)
 * 文件上传 [https://github.com/kartik-v/bootstrap-fileinput](https://github.com/kartik-v/bootstrap-fileinput)
+* [https://github.com/jquery-form/form](https://github.com/jquery-form/form)
+* ~~[https://github.com/FineUploader/fine-uploader](https://github.com/FineUploader/fine-uploader)~~
 * 下拉选择框 [https://github.com/snapappointments/bootstrap-select](https://github.com/snapappointments/bootstrap-select)
 	* [https://www.bootstrapselect.cn](https://www.bootstrapselect.cn)
 * [https://github.com/davidstutz/bootstrap-multiselect](https://github.com/davidstutz/bootstrap-multiselect)
@@ -341,6 +348,7 @@ $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 * UI [https://github.com/IgniteUI/ignite-ui](https://github.com/IgniteUI/ignite-ui)
 * [https://github.com/madrobby/zepto](https://github.com/madrobby/zepto)
 * [https://github.com/ded/script.js](https://github.com/ded/script.js)
+* [https://github.com/malsup/blockui](https://github.com/malsup/blockui)
 
 
 - [https://github.com/jakerella/jquery-mockjax](https://github.com/jakerella/jquery-mockjax)
@@ -374,6 +382,8 @@ $("#id").off("click").on("click",function(){
     * [JS组件系列——BootstrapTable 行内编辑解决方案：x-editable](https://www.cnblogs.com/landeanfen/p/5821192.html)
 * 编辑器 [https://github.com/vitalets/x-editable](https://github.com/vitalets/x-editable)
 
+
 - [https://github.com/vinorodrigues/bootstrap-dark](https://github.com/vinorodrigues/bootstrap-dark)
 - [https://github.com/yuantuo666/bootstrap-dark](https://github.com/yuantuo666/bootstrap-dark)
 - [https://github.com/themefisher](https://github.com/themefisher)
+- [https://github.com/keaukraine/bootstrap4-fs-modal](https://github.com/keaukraine/bootstrap4-fs-modal)

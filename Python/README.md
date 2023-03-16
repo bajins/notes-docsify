@@ -22,6 +22,7 @@
 + [https://github.com/psf](https://github.com/psf)
 + [https://github.com/Python-World](https://github.com/Python-World)
 + [https://github.com/taichi-dev/taichi](https://github.com/taichi-dev/taichi)
++ [https://github.com/kennethreitz/pep8.org](https://github.com/kennethreitz/pep8.org)
 
 
 * [GO-Node-Python的简单性能比较](https://www.izhongxia.com/posts/64310.html)
@@ -114,8 +115,6 @@ with Test() as t: # 触发__exit__
 * 日志 [https://github.com/Delgan/loguru](https://github.com/Delgan/loguru)
 * [https://github.com/jpadilla/pyjwt](https://github.com/jpadilla/pyjwt)
 * [https://github.com/Arronlong/py_scripts](https://github.com/Arronlong/py_scripts)
-* 字节码反汇编器/反编译器 [https://github.com/zrax/pycdc](https://github.com/zrax/pycdc)
-* 逆向 [https://github.com/frida/frida](https://github.com/frida/frida)
 * [https://github.com/pyexcel](https://github.com/pyexcel)
 * [https://github.com/jmcnamara/XlsxWriter](https://github.com/jmcnamara/XlsxWriter)
 * [https://foss.heptapod.net/openpyxl/openpyxl](https://foss.heptapod.net/openpyxl/openpyxl)
@@ -130,12 +129,15 @@ with Test() as t: # 触发__exit__
 * 分布式任务 [https://github.com/celery/celery](https://github.com/celery/celery)
     * [https://github.com/open-source-translation/celery-cn](https://github.com/open-source-translation/celery-cn)
     * [https://www.celerycn.io](https://www.celerycn.io)
+* [https://github.com/dask](https://github.com/dask)
 * web [https://github.com/tiangolo/fastapi](https://github.com/tiangolo/fastapi)
 * [https://github.com/pallets/flask](https://github.com/pallets/flask)
     * [https://dormousehole.readthedocs.io](https://dormousehole.readthedocs.io)
 * [https://github.com/Pylons](https://github.com/Pylons)
 * [https://github.com/bottlepy/bottle](https://github.com/bottlepy/bottle)
 * [https://github.com/frappe/frappe](https://github.com/frappe/frappe)
+* [https://github.com/zauberzeug/nicegui](https://github.com/zauberzeug/nicegui)
+* [https://github.com/pynecone-io/pynecone](https://github.com/pynecone-io/pynecone)
 * 定时任务 [https://github.com/agronholm/apscheduler](https://github.com/agronholm/apscheduler)
     * [https://apscheduler.readthedocs.io](https://apscheduler.readthedocs.io)
 * ORM [https://github.com/sqlalchemy/sqlalchemy](https://github.com/sqlalchemy/sqlalchemy)
@@ -147,6 +149,10 @@ with Test() as t: # 触发__exit__
 * [https://github.com/jtpereyda/boofuzz](https://github.com/jtpereyda/boofuzz)
 * [https://github.com/nccgroup/fuzzowski](https://github.com/nccgroup/fuzzowski)
 * 图片 [https://github.com/imageio/imageio](https://github.com/imageio/imageio)
+* SQL查询日志文件 [https://github.com/samuel/squawk](https://github.com/samuel/squawk)
+* 编码检测 [https://github.com/PyYoshi/uchardet](https://github.com/PyYoshi/uchardet)
+* 截图 [https://github.com/BoboTiG/python-mss](https://github.com/BoboTiG/python-mss)
+* 数据处理 [https://github.com/tableau](https://github.com/tableau)
 
 
 
@@ -281,8 +287,7 @@ vi /usr/libexec/urlgrabber-ext-down
 * [https://github.com/jazzband/pip-tools](https://github.com/jazzband/pip-tools)
 * [https://github.com/python-poetry/poetry](https://github.com/python-poetry/poetry)
 * [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv)
-* [https://github.com/asdf-vm/asdf](https://github.com/asdf-vm/asdf)
-    * [https://github.com/danhper/asdf-python](https://github.com/danhper/asdf-python)
+* [https://github.com/danhper/asdf-python](https://github.com/danhper/asdf-python)
 * [https://github.com/frostming/pdm](https://github.com/frostming/pdm)
 * [https://bitbucket.org/virtualenvwrapper/virtualenvwrapper](https://bitbucket.org/virtualenvwrapper/virtualenvwrapper)
 * [https://github.com/davidmarble/virtualenvwrapper-win](https://github.com/davidmarble/virtualenvwrapper-win)

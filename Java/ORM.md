@@ -8,20 +8,25 @@
 > 对象关系映射（Object Relational Mapping，简称ORM）是通过使用描述对象和数据库之间映射的元数据，
 > 将面向对象语言程序中的对象自动持久化到关系数据库中。
 
+
+* [https://sourceforge.net/projects/jpox](https://sourceforge.net/projects/jpox)
 * [Java，JDBC和MySQL对应数据类型](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-type-conversions.html)
 * [http://www.squirrelsql.org](http://www.squirrelsql.org)
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
+* JPA标准API [https://github.com/Blazebit/blaze-persistence](https://github.com/Blazebit/blaze-persistence)
 * 链式SQL框架 [https://github.com/jOOQ](https://github.com/jOOQ)
 * [https://github.com/querydsl/querydsl](https://github.com/querydsl/querydsl)
 * [https://github.com/BatooOrg/BatooJPA](https://github.com/BatooOrg/BatooJPA)
+* [https://github.com/aaberg/sql2o](https://github.com/aaberg/sql2o)
+* [https://github.com/jdbi/jdbi](https://github.com/jdbi/jdbi)
 * toplink [https://github.com/eclipse-ee4j/eclipselink](https://github.com/eclipse-ee4j/eclipselink)
 * [https://github.com/datanucleus](https://github.com/datanucleus)
-* [https://github.com/liquibase](https://github.com/liquibase)
 * [https://github.com/apache/openjpa](https://github.com/apache/openjpa)
 * [https://github.com/spring-projects/spring-data-jdbc](https://github.com/spring-projects/spring-data-jdbc)
 * [https://github.com/apache/commons-dbutils](https://github.com/apache/commons-dbutils)
 * 只读查询 [https://github.com/ejlchina/bean-searcher](https://github.com/ejlchina/bean-searcher)
 * [https://github.com/speedment](https://github.com/speedment)
+* [https://github.com/troyzhxu/bean-searcher](https://github.com/troyzhxu/bean-searcher)
 * SQL解析和验证器 [https://github.com/apache/calcite](https://github.com/apache/calcite)
 
 
@@ -37,6 +42,7 @@
 - [https://github.com/jahlborn/sqlbuilder](https://github.com/jahlborn/sqlbuilder)
 - 表结构文档生成 [https://github.com/pingfangushi/screw](https://github.com/pingfangushi/screw)
 - 数据库中间件 [https://github.com/apache/shardingsphere](https://github.com/apache/shardingsphere)
+    - [https://github.com/apache/shardingsphere-elasticjob](https://github.com/apache/shardingsphere-elasticjob)
 - 连接池 [https://github.com/brettwooldridge/HikariCP](https://github.com/brettwooldridge/HikariCP)
 - [https://github.com/alibaba/druid](https://github.com/alibaba/druid)
     - [Java工具篇之Druid SQL语法解析树](https://developer.aliyun.com/article/1000273)

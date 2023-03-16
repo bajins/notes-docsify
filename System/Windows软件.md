@@ -9,8 +9,6 @@
 
 **[浏览器下载](/IDE/Chrome.md#浏览器下载)**
 
-**[Android软件](/Other/MobileNative.md#软件)**
-
 + [Windows 10 有哪些值得推荐的必装软件？](https://www.zhihu.com/question/35088093)
 
 - [https://github.com/topics/desktop-app](https://github.com/topics/desktop-app)
@@ -43,9 +41,8 @@
 * [https://myqqjd.com](https://myqqjd.com)
 * [http://www.ypojie.com](http://www.ypojie.com)
 * [https://www.ccava.net](https://www.ccava.net)
-* [https://www.zrbk.xyz](https://www.zrbk.xyz)
-* [http://yx.bsh.me](http://yx.bsh.me)
 * [苦瓜甘甜](http://www.kuguagantian.com)
+* [https://ylface.com](https://ylface.com)
 
 
 **论坛**
@@ -63,7 +60,7 @@
     * [https://yun.naodai.org/Software](https://yun.naodai.org/Software)
     * [https://go.naodai.org/Software](https://go.naodai.org/Software)
 * Mac [https://www.macbl.com](https://www.macbl.com)
-* [http://xclient.info](http://xclient.info)
+* [https://xclient.info](https://xclient.info)
 * [https://github.com/xyjoey/fxxkmakeding](https://github.com/xyjoey/fxxkmakeding)
     * [https://www.fxxkmakeding.xyz](https://www.fxxkmakeding.xyz)
 * [https://cloud.189.cn/u/29617367](https://cloud.189.cn/u/29617367)
@@ -76,6 +73,10 @@
 ## 聊天社交
 
 > E2EE(端到端加密)：[Diffie-Hellman](https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)密钥交换算法、AES(-CBC)对称加密算法
+
++ Fediverse
++ [https://github.com/landrok/activitypub](https://github.com/landrok/activitypub)
+
 
 * [https://github.com/keybase](https://github.com/keybase)
 * [http://potato.manre.me](http://potato.manre.me)
@@ -100,9 +101,21 @@
 * [https://github.com/igniterealtime](https://github.com/igniterealtime)
 * [https://github.com/chatwoot](https://github.com/chatwoot)
 * [https://github.com/mastodon/mastodon](https://github.com/mastodon/mastodon)
+    * [https://github.com/nolanlawson/pinafore](https://github.com/nolanlawson/pinafore)
+    * [https://github.com/tuskyapp/Tusky](https://github.com/tuskyapp/Tusky)
+* [https://github.com/pixelfed/pixelfed](https://github.com/pixelfed/pixelfed)
 * [https://github.com/napthedev/fireverse](https://github.com/napthedev/fireverse)
 * [https://github.com/papercups-io/papercups](https://github.com/papercups-io/papercups)
 * [https://github.com/rumsystem/quorum](https://github.com/rumsystem/quorum)
+* [https://github.com/owncast/owncast](https://github.com/owncast/owncast)
+* [https://github.com/LemmyNet/lemmy](https://github.com/LemmyNet/lemmy)
+* [https://github.com/superseriousbusiness/gotosocial](https://github.com/superseriousbusiness/gotosocial)
+* [https://github.com/friendica/friendica](https://github.com/friendica/friendica)
+* [https://framagit.org/hubzilla/core](https://framagit.org/hubzilla/core)
+    * [https://hubzilla.org](https://hubzilla.org)
+* [https://github.com/diaspora](https://github.com/diaspora)
+* [https://github.com/misskey-dev/misskey](https://github.com/misskey-dev/misskey)
+* [https://git.pleroma.social/pleroma/pleroma](https://git.pleroma.social/pleroma/pleroma)
 
 
 - [https://github.com/topics/curses](https://github.com/topics/curses)
@@ -124,6 +137,7 @@
 * [https://telegram.org/apps#source-code](https://telegram.org/apps#source-code)
     * 跨平台库 [https://github.com/tdlib](https://github.com/tdlib)
     * Android [https://github.com/DrKLO/Telegram](https://github.com/DrKLO/Telegram)
+    * [https://github.com/Telegram-FOSS-Team/Telegram-FOSS](https://github.com/Telegram-FOSS-Team/Telegram-FOSS)
     * iOS [https://github.com/TelegramMessenger/Telegram-iOS](https://github.com/TelegramMessenger/Telegram-iOS)
     * macOS [https://github.com/overtake/TelegramSwift](https://github.com/overtake/TelegramSwift)
     * Windows [https://github.com/telegramdesktop/tdesktop](https://github.com/telegramdesktop/tdesktop)
@@ -286,6 +300,7 @@
 * [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)
 * [https://github.com/P3TERX/aria2.conf](https://github.com/P3TERX/aria2.conf)
 * [https://github.com/boypt/simple-torrent](https://github.com/boypt/simple-torrent)
+* [https://github.com/SuperNG6](https://github.com/SuperNG6)
 * [http://lightzhan.xyz/index.php/qdown](http://lightzhan.xyz/index.php/qdown)
 * GUI [https://github.com/Xmader/aria-ng-gui](https://github.com/Xmader/aria-ng-gui)
 * [https://github.com/Xmader/aria-ng-gui-android](https://github.com/Xmader/aria-ng-gui-android)
@@ -323,11 +338,15 @@
 + [https://github.com/topics/iptv](https://github.com/topics/iptv)
 + [https://github.com/topics/m3u](https://github.com/topics/m3u)
 + [https://github.com/iptv-org](https://github.com/iptv-org)
++ [https://github.com/Free-TV](https://github.com/Free-TV)
 
 
 - [https://cue-splitter.medieval.it](https://cue-splitter.medieval.it)
 - [http://www.medieval.it/cuesplitter-pc/menu-id-71.html](http://www.medieval.it/cuesplitter-pc/menu-id-71.html)
 - 编码解码器 [https://www.free-codecs.com](https://www.free-codecs.com)
+- 视频编辑 [https://github.com/mltframework/shotcut](https://github.com/mltframework/shotcut)
+- [https://github.com/mifi/lossless-cut](https://github.com/mifi/lossless-cut)
+- [https://github.com/ozmartian/vidcutter](https://github.com/ozmartian/vidcutter)
 
 
 * [foobar2000](http://blog.sina.com.cn/go2spa)
@@ -349,6 +368,10 @@
 - [https://github.com/musescore/MuseScore](https://github.com/musescore/MuseScore)
 - [https://github.com/Xmader/musescore-downloader](https://github.com/Xmader/musescore-downloader)
 - [https://github.com/qier222/YesPlayMusic](https://github.com/qier222/YesPlayMusic)
+
+
+* 电视盒子 [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)
+* [https://github.com/liu673cn/box](https://github.com/liu673cn/box)
 
 
 **Potplayer**
@@ -383,6 +406,7 @@
 * [https://github.com/ShareX](https://github.com/ShareX)
 * [https://github.com/aseprite/aseprite](https://github.com/aseprite/aseprite)
 * [https://github.com/akon47/ScreenRecorder](https://github.com/akon47/ScreenRecorder)
+* [https://github.com/wulkano/Kap](https://github.com/wulkano/Kap)
 * 班迪录屏Bandicam [https://www.bandicam.com](https://www.bandicam.com)
 * 傲软录屏ApowerREC [https://www.apowersoft.com](https://www.apowersoft.com)
 * [https://fraps.com](https://fraps.com)
@@ -392,6 +416,7 @@
 * [https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay](https://www.nvidia.com/en-us/geforce/geforce-experience/shadowplay)
 * [https://www.nvidia.cn/geforce/geforce-experience/shadowplay](https://www.nvidia.cn/geforce/geforce-experience/shadowplay)
 * EVCapture [https://www.ieway.cn/evcapture.html](https://www.ieway.cn/evcapture.html)
+* [https://lusun.com](https://lusun.com)
 * ZD Screen Recorder [http://www.zdsoft.com](http://www.zdsoft.com)
 
 
@@ -405,28 +430,42 @@
 * [https://icons8.cn/lunacy](https://icons8.cn/lunacy)
 * [https://www.xnview.com](https://www.xnview.com)
 * [https://www.getpaint.net](https://www.getpaint.net)
-* [https://www.gimp.org](https://www.gimp.org)
+* [https://gitlab.gnome.org/GNOME/gimp](https://gitlab.gnome.org/GNOME/gimp)
+    * [https://www.gimp.org](https://www.gimp.org)
 * 3D创作 [https://www.blender.org](https://www.blender.org)
 * Icon矢量图 [https://inkscape.org/zh-hans](https://inkscape.org/zh-hans)
 * [https://icofx.ro](https://icofx.ro)
 * Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
 * [https://github.com/darktable-org/darktable](https://github.com/darktable-org/darktable)
+* [https://amadine.com](https://amadine.com)
 
 
 - [https://affinity.serif.com](https://affinity.serif.com)
 - [https://eagle.cool](https://eagle.cool)
 - [https://www.hellofont.cn](https://www.hellofont.cn)
-- 必应壁纸 [https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn](https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn)
 - [https://www.wallpaperengine.io](https://www.wallpaperengine.io)
 - [https://www.rainmeter.net](https://www.rainmeter.net)
     - [https://zhutix.com/tag/rainmeter](https://zhutix.com/tag/rainmeter)
+- [https://al.chemy.org](https://al.chemy.org)
+- 模拟iPhone截图 [https://shots.so](https://shots.so)
 
 
 
-**Photoshop CC**
+**Photoshop**
 
-* [由微博大神@vposy制作Adobe全系列](https://weibo.com/vposy?is_hot=1)
+* [https://github.com/search?q=Photoshop](https://github.com/search?q=Photoshop)
+* https://weibo.com/vposy
+* TEAmo (茶末余香)
 * [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
+* [https://sysin.cn/archive](https://sysin.cn/archive)
+* https://pan.baidu.com/s/1Z4_iJNcq7koRt3vN7KxB3w?pwd=6g8x
+* 全套插件一键安装无限制版,无需填写注册码，直接点击“继续” https://cloud.189.cn/t/iqm6jiJJZBVv
+* Extensions Plus For PS CC https://lanzoui.com/iapsbaj
+* DeliciousRetouch 5 https://ldqk.lanzoux.com/ibdcm0d
+* https://inmac.org
+* https://cmacapps.com
+* https://mac-torrent-download.net
+* https://tntzii.com
 * [https://github.com/webmproject/WebPShop](https://github.com/webmproject/WebPShop)
 
 
@@ -449,9 +488,14 @@
 + [https://github.com/topics/screen-capture](https://github.com/topics/screen-capture)
 + [https://github.com/topics/screencast](https://github.com/topics/screencast)
 + [https://github.com/topics/screenshot](https://github.com/topics/screenshot)
++ [https://github.com/topics/image-editing](https://github.com/topics/image-editing)
++ [https://github.com/topics/image-processing](https://github.com/topics/image-processing)
++ [https://github.com/topics/capture](https://github.com/topics/capture)
+
 
 * [https://github.com/flameshot-org/flameshot](https://github.com/flameshot-org/flameshot)
 * [https://github.com/greenshot](https://github.com/greenshot)
+* [https://github.com/ckaiser/Lightscreen](https://github.com/ckaiser/Lightscreen)
 * Lightshot [https://app.prntscr.com](https://app.prntscr.com)
 * [https://github.com/Snipaste](https://github.com/Snipaste)
     * [https://www.snipaste.com](https://www.snipaste.com)
@@ -463,13 +507,11 @@
 
 * 官网 [https://www.faststone.org](https://www.faststone.org)
 * 官网被屏蔽，没有被屏蔽的下载地址（最新版本去掉版本号）：
-    * `http://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
+    * `https://www.faststonesoft.net/DN/FSCaptureSetup版本号.exe`
     * `https://www.faststonesoft.net/DN/FSCapture版本号.zip`
     * `https://www.faststonesoft.net/DN/FSCaptureSetup版本号.zip`
 
 > 使用说明: 先安装`FSCaptureSetup`程序，安装完成后先不要运行，把下载的汉化文件覆盖到安装目录然后再运行
-
-- 注册码
 
 ```
 用户名：1028 
@@ -525,9 +567,10 @@
 * [Advanced Installer官方](https://www.advancedinstaller.com/download.html)
 * [https://github.com/upx/upx](https://github.com/upx/upx)
     * [UPXShell汉化版](http://blog.sina.com.cn/s/blog_89a729a40102wjwo.html)
-* [https://jrsoftware.org](https://jrsoftware.org)
+* Inno Setup [https://jrsoftware.org](https://jrsoftware.org)
     * [InnoSetup中文定制版](http://blog.sina.com.cn/s/blog_89a729a40102xuy4.html)
     * [https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation](https://github.com/kira-96/Inno-Setup-Chinese-Simplified-Translation)
+    * [https://sourceforge.net/projects/istool](https://sourceforge.net/projects/istool)
 
 - [https://github.com/wixtoolset/wix3](https://github.com/wixtoolset/wix3)
     - [https://wixtoolset.org](https://wixtoolset.org)
@@ -636,6 +679,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://pcmanager.microsoft.com](https://pcmanager.microsoft.com)
 * Win10Clean [https://github.com/ElPumpo/Win10Clean](https://github.com/ElPumpo/Win10Clean)
 * Dism++ [https://github.com/Chuyu-Team](https://github.com/Chuyu-Team)
+* [http://www.tbtool.cn](http://www.tbtool.cn)
 * W10Privacy [https://www.winprivacy.de/deutsch-start/download](https://www.winprivacy.de/deutsch-start/download)
 * Windows 10 Manager [https://www.yamicsoft.com](https://www.yamicsoft.com)
     * `WMXD7-RG8FP-OYKS3-KHTN6`
@@ -779,7 +823,6 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 + [https://github.com/topics/compare-files](https://github.com/topics/compare-files)
 
 
-* 文件同步 [https://freefilesync.org](https://freefilesync.org)
 * 文件搜索 [https://www.listary.com/pro](https://www.listary.com/pro)
 * Everything [https://www.voidtools.com](https://www.voidtools.com)
     * [https://github.com/stnkl/EverythingToolbar](https://github.com/stnkl/EverythingToolbar)
@@ -837,7 +880,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 
 > cloud-based TOTP apps
 
-* [1Password](https://support.1password.com/one-time-passwords)
+* [https://github.com/1Password](https://github.com/1Password)
 * [Authy](https://authy.com/guides/github)
 * [LastPass Authenticator](https://support.logmeininc.com/lastpass/help/lastpass-authenticator-lp030014)
 * [Microsoft Authenticator](https://www.microsoft.com/zh-cn/account/authenticator)
@@ -847,6 +890,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
     * [https://www.lastpass.com](https://www.lastpass.com)
 * [https://github.com/bitwarden](https://github.com/bitwarden)
 * [https://www.passwordstore.org](https://www.passwordstore.org)
+* [https://github.com/Infisical/infisical](https://github.com/Infisical/infisical)
 
 
 
@@ -879,6 +923,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * 效率工具 [https://github.com/cuiliang/Quicker](https://github.com/cuiliang/Quicker)
 * [https://www.sordum.org](https://www.sordum.org)
 * [https://u.tools](https://u.tools)
+* [https://github.com/he55/DreamScene2](https://github.com/he55/DreamScene2)
 * 便签 [https://github.com/Blakeinstein/Bloop](https://github.com/Blakeinstein/Bloop)
 * 加强Capslock键 [https://github.com/wo52616111/capslock-plus](https://github.com/wo52616111/capslock-plus)
 * 快速查看 [https://github.com/QL-Win/QuickLook](https://github.com/QL-Win/QuickLook)
@@ -888,12 +933,16 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://getrolan.com](https://getrolan.com)
 * 黑暗模式 [https://github.com/Armin2208/Windows-Auto-Night-Mode](https://github.com/Armin2208/Windows-Auto-Night-Mode)
 * [https://github.com/jonls/redshift](https://github.com/jonls/redshift)
+* 休息提醒 [https://github.com/rcaelers/workrave](https://github.com/rcaelers/workrave)
 * 桌面 [https://www.coodesker.com](https://www.coodesker.com)
 * [EarTrumpet 为每个软件单独设置音量](https://www.microsoft.com/zh-cn/p/eartrumpet/9nblggh516xp)
+* 壁纸 [https://github.com/DaZiYuan/LiveWallpaper](https://github.com/DaZiYuan/LiveWallpaper)
+* [https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn](https://www.microsoft.com/zh-cn/bing/bing-wallpaper-msn)
 * 磁贴美化 [https://github.com/XIU2/TileTool](https://github.com/XIU2/TileTool)
 * 仿MacOS美化 [https://github.com/mydockfinder/mydockfinder](https://github.com/mydockfinder/mydockfinder)
     * [https://www.mydockfinder.com](https://www.mydockfinder.com)
 * 任务栏透明化 [https://github.com/TranslucentTB](https://github.com/TranslucentTB)
+* 任务监控 [https://github.com/gsass1/NTop](https://github.com/gsass1/NTop)
 * 获取本机WiFi密码二维码 [https://github.com/sdushantha/wifi-password](https://github.com/sdushantha/wifi-password)
 * 禁用触摸板 [https://touchfreeze.net](https://touchfreeze.net)
 * [https://github.com/VoodooI2C/VoodooI2CELAN](https://github.com/VoodooI2C/VoodooI2CELAN)
@@ -903,10 +952,7 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 * [https://github.com/theVakhovskeIsTaken/holoiso](https://github.com/theVakhovskeIsTaken/holoiso)
 * [https://github.com/Plagman/gamescope](https://github.com/Plagman/gamescope)
 * [https://github.com/open-goal/jak-project](https://github.com/open-goal/jak-project)
-
-
-- 文档转换 [https://github.com/topics/converter](https://github.com/topics/converter)
-    - [https://github.com/jgm/pandoc](https://github.com/jgm/pandoc)
+* [https://github.com/alexbatalov/fallout1-ce](https://github.com/alexbatalov/fallout1-ce)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)
@@ -917,3 +963,36 @@ THUV2-32HH7-6NMHN-PTX7Y-QQCTH（该序列号来自昔阳县政府)
 + [https://mac-torrents.io](https://mac-torrents.io)
 + [https://4howcrack.com](https://4howcrack.com)
 + [https://free4pc.org](https://free4pc.org)
+
+
+
+**微信**
+
+- [https://github.com/BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter)
+    - [https://github.com/AngelLiang/WechatExporter-html2excel](https://github.com/AngelLiang/WechatExporter-html2excel)
+- [https://github.com/wuyanaozi/wechat-backup](https://github.com/wuyanaozi/wechat-backup)
+- [https://github.com/greycodee/wechat-backup](https://github.com/greycodee/wechat-backup)
+- [https://github.com/AdminTest0/SharpWxDump](https://github.com/AdminTest0/SharpWxDump)
+    - [红队攻防之PC端微信个人信息与聊天记录取证](https://mp.weixin.qq.com/s/4DbXOS5jDjJzM2PN0Mp2JA)
+    - [电子取证之PC版微信数据库解密](https://mp.weixin.qq.com/s/kliyiZvdgXo4U71YowFlUg)
+    - `.\SharpWxDump.exe | Select-String -Pattern 'WeChatKey:' | %{$_ -Replace(".*: ", "")} | %{python .\de.py -k $_ -d .\MSG2.db}`
+- [https://github.com/Ormicron/Sharp-dumpkey](https://github.com/Ormicron/Sharp-dumpkey)
+- [https://github.com/L-HeliantHuS/GetWeChatDBPassword](https://github.com/L-HeliantHuS/GetWeChatDBPassword)
+- [https://github.com/test1213145/wechat-export](https://github.com/test1213145/wechat-export)
+- [https://github.com/TonyChen56/WeChatRobot](https://github.com/TonyChen56/WeChatRobot)
+- [https://github.com/ljc545w/ComWeChatRobot](https://github.com/ljc545w/ComWeChatRobot)
+- [https://github.com/ttttupup/wxhelper](https://github.com/ttttupup/wxhelper)
+- [https://github.com/luin/wechat-export](https://github.com/luin/wechat-export)
+- [https://github.com/Ngwind/wechat-export](https://github.com/Ngwind/wechat-export)
+    - [微信聊天记录数据解密与分析](https://juejin.cn/post/7159495394022391821)
+    - [微信聊天记录解密并导出](https://dta0502.github.io/archives/e872e04.html)
+- [https://github.com/HackerDev-Felix/WechatDecrypt](https://github.com/HackerDev-Felix/WechatDecrypt)
+- [https://github.com/saturn-opposition/wechat_analysis](https://github.com/saturn-opposition/wechat_analysis)
+- [https://github.com/allen1881996/WeChat-Data-Analysis](https://github.com/allen1881996/WeChat-Data-Analysis)
+- 清理微信僵尸粉 [https://github.com/L8426936/CleanUpWeChatZombieFans](https://github.com/L8426936/CleanUpWeChatZombieFans)
+- 自动抢红包 [https://github.com/east520/AutoGetRedEnv](https://github.com/east520/AutoGetRedEnv)
+- [https://github.com/geeeeeeeeek/WeChatLuckyMoney](https://github.com/geeeeeeeeek/WeChatLuckyMoney)
+- [https://github.com/kerwin162/WeChatNotify](https://github.com/kerwin162/WeChatNotify)
+- [https://github.com/Eric-Guo/wechat](https://github.com/Eric-Guo/wechat)
+- [https://github.com/telescope-org](https://github.com/telescope-org)
+- [https://github.com/wechaty/wechaty](https://github.com/wechaty/wechaty)

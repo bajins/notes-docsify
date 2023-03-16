@@ -1,12 +1,9 @@
 # Windows
 
-
 [[toc]]
 
 
-
 ## Flag
-
 
 * 搜索更新补丁下载 [http://www.catalog.update.microsoft.com](http://www.catalog.update.microsoft.com)
 * [小米笔记本Pro黑苹果Win10双系统](https://www.ikxin.com/465.html)
@@ -21,6 +18,7 @@
 
 > 当分区后应该设置主分区为活动分区（选中该主分区右键选择激活分区）
 
+* [关闭Windows的下载目录的自动分组功能](https://www.meowpass.com/pages/81c01d)
 * [比较 Windows 10 的不同版本](https://www.microsoft.com/zh-cn/windowsforbusiness/compare)
 * [Windows 10 版本的版本信息](https://docs.microsoft.com/zh-cn/windows/release-information)
 * [Windows 10 更新历史记录](https://support.microsoft.com/zh-cn/help/4555932)
@@ -141,7 +139,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [http://www.imsdn.cn](http://www.imsdn.cn)
 * [https://uup.rg-adguard.net](https://uup.rg-adguard.net)
 * [https://www.repaik.com/win.html](https://www.repaik.com/win.html)
-* [https://uupdump.ml](https://uupdump.ml)
+* [https://github.com/uup-dump](https://github.com/uup-dump)
+    * [https://uupdump.net](https://uupdump.net)
 * [https://msdn.sjjzm.com](https://msdn.sjjzm.com)
 
 
@@ -150,6 +149,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 + MSMG Toolkit [https://msmgtoolkit.in](https://msmgtoolkit.in)
 + NTLite [https://www.ntlite.com](https://www.ntlite.com)
++ [https://github.com/ntdevlabs/tiny11builder](https://github.com/ntdevlabs/tiny11builder)
 
 * iCura [iCura的帖子  - 远景论坛 - 微软极客社区](http://i.pcbeta.com/home.php?mod=space&uid=4631987&do=thread&view=me&from=space)
     * [OneDrive](https://tpedutw-my.sharepoint.com/:f:/g/personal/icura_tp_edu_tw/Ek5lPsUrc_ZJqSDKi7oxsdoBNjbbncnvi8p-90jI0OqUVA)
@@ -182,7 +182,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 ## MS激活
 
 
-## KMS
+### KMS
 
 * [https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys](https://docs.microsoft.com/zh-cn/windows-server/get-started/kmsclientkeys)
 * [https://github.com/search?q=数字权利](https://github.com/search?q=%E6%95%B0%E5%AD%97%E6%9D%83%E5%88%A9)
@@ -199,6 +199,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 + [https://github.com/Mr-xn/kms-server-deploy](https://github.com/Mr-xn/kms-server-deploy)
 + [Windows激活之路](https://51.ruyo.net/tag/windows%e6%bf%80%e6%b4%bb%e4%b9%8b%e8%b7%af)
 + [https://github.com/netnr/kms](https://github.com/netnr/kms)
++ [https://github.com/ikxin/kms-tools](https://github.com/ikxin/kms-tools)
 + [https://official-kmspico.com](https://official-kmspico.com)
 
 
@@ -212,12 +213,11 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://kms.loli.beer](https://kms.loli.beer)
 * [https://www.moerats.com/kms](https://www.moerats.com/kms)
 * [kmsfiles](https://www.solidfiles.com/folder/bd7165a0d4/)
-* [https://kms.cangshui.net](https://kms.cangshui.net)
 * [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
 * [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
 
 
-## KEY
+### KEY
 
 > 所谓的win10数字权利激活，是一种win10授权方法。该激活方法会记录你的电脑硬件信息，并保存到微软的服务器，
 > 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。

@@ -6,6 +6,7 @@
 ## Flag
 
 + [https://github.com/eclipse/eclipse](https://github.com/eclipse/eclipse)
+   + [https://github.com/eclipse-jdt](https://github.com/eclipse-jdt)
    + [https://www.eclipse.org/ide](https://www.eclipse.org/ide)
    + [https://www.eclipse.org/downloads/packages](https://www.eclipse.org/downloads/packages)
 + 设置 [https://github.com/vorburger/opendaylight-eclipse-setup](https://github.com/vorburger/opendaylight-eclipse-setup)
@@ -26,7 +27,7 @@
 
 
 > 创建`Dynamic Web Project`项目结构静态资源目录为：`WebContent`/`WebRoot`，idea创建的为`web`
-
+> 导入的项目没有正确自动识别：在项目上右键选择`Properties`然后检查`Project Facets`和`Project Natures`
 
 
 **查看类图及继承关系**
@@ -174,7 +175,7 @@
 ## 设置编码格式
 
 - 设置工作空间编码 `Window` -> `Preferences` -> `General` -> `Workspace` -> `Text file encoding` -> `Other`选择`UTF-8`
-- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text`
+- 设置文档编码 `Window` -> `Preferences` -> `General` -> `Content Type` -> `Text`（填入编码后一定要点击`Update`）
    - -> `Default encoding`填入`UTF-8`
    - -> 展开`Text` -> 选中`Java Properties File` -> `Default encoding`填入`UTF-8` 设置Properties编码
    - -> 展开`Text` -> 选中`Spring Properties File` -> `Default encoding`填入`UTF-8`
@@ -205,6 +206,7 @@
 - `Window` -> `Preferences` -> `Java` -> `Editor` -> `Content Assist`
     - `Auto Activation` 下的` Auto Activation triggers for java` 填入 `._abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ`
     - 解决输入`=`或`;`变量自动补全问题：勾选 `Disable insertion triggers except 'Enter'` (按<kbd>Enter</kbd>键才自动补全)
+    - 展开后选中`Advanced` 勾选所有，其中最重要的是`Java Proposals`
 - XML自动补全 `Windows` -> `preferance` -> `XML` -> `XML Files` -> `Editor` -> `Content Assist` -> `Auto Activation`下面的
 `Prompt when these characters are inserted` 填入 `<=:abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ `（注意后面有一个空格）
 
@@ -413,6 +415,8 @@
 + `-vmargs -DproxySet=true -DproxyHost=aProxyAddress -DproxyPort=aProxyPort` 启动代理参数
 
 
+- [https://marketplace.eclipse.org/metrics/successful_installs/last30days](https://marketplace.eclipse.org/metrics/successful_installs/last30days)
+- [https://github.com/de-jcup](https://github.com/de-jcup)
 - [https://github.com/eclipse/wildwebdeveloper](https://github.com/eclipse/wildwebdeveloper)
    - Mars之后版本不再集成支持JavaScript需要安装插件，参考[Tern Eclipse IDE](https://marketplace.eclipse.org/content/tern-eclipse-ide)
    - [https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0](https://marketplace.eclipse.org/content/eclipse-web-developer-tools-0)
@@ -422,8 +426,7 @@
    - [https://subclipse.github.io/snapshots](https://subclipse.github.io/snapshots)
    - [http://subversion.apache.org/packages.html](http://subversion.apache.org/packages.html)
    - Subversion for Java [https://svnkit.com](https://svnkit.com)
-- [https://github.com/jacoco/jacoco](https://github.com/jacoco/jacoco)
-- [https://github.com/eclipse/eclemma](https://github.com/eclipse/eclemma)
+- 代码覆盖率 [https://github.com/eclipse/eclemma](https://github.com/eclipse/eclemma)
 - 数据库 [https://dbeaver.io/download](https://dbeaver.io/download)
 - 折叠代码块 [https://github.com/stefaneidelloth/EclipseFolding](https://github.com/stefaneidelloth/EclipseFolding)
    - [https://sourceforge.net/projects/coffeeby1](https://sourceforge.net/projects/coffeeby1)
@@ -433,6 +436,16 @@
    > 在`Select folding to use`项选择：`Coffee Bytes Java Folding`
 - [https://github.com/GrowThinky/AnnotationSupportEclipsePlugin](https://github.com/GrowThinky/AnnotationSupportEclipsePlugin)
 - [https://github.com/qiangitchen/tlv8ide](https://github.com/qiangitchen/tlv8ide)
+- [https://github.com/gildur/SimplePropertiesEditor](https://github.com/gildur/SimplePropertiesEditor)
+- [https://github.com/FeatureIDE/FeatureIDE](https://github.com/FeatureIDE/FeatureIDE)
+- [https://github.com/nodj/AutoDeriv](https://github.com/nodj/AutoDeriv)
+- [https://www.esito.no/en/promo-g9](https://www.esito.no/en/promo-g9)
+- 文本编辑器 [https://github.com/fabioz/LiClipseText](https://github.com/fabioz/LiClipseText)
+- GUI设计 [https://github.com/eclipse/windowbuilder](https://github.com/eclipse/windowbuilder)
+- [https://community.jaspersoft.com/project/jaspersoft-studio](https://community.jaspersoft.com/project/jaspersoft-studio)
+- 开发风格 [https://www.genuitec.com/products/devstyle](https://www.genuitec.com/products/devstyle)
+
+
 
 
 **反编译Decompiler**

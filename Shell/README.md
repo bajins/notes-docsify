@@ -9,24 +9,31 @@
 
 - 命令行参考大全（Linux、macOS、CMD、PowerShell、VB Script）[https://ss64.com](https://ss64.com)
 - [https://www.robvanderwoude.com](https://www.robvanderwoude.com)
+- [https://github.com/jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
+- [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
+- [https://www.shellscript.sh](https://www.shellscript.sh)
 - GUI [什么是X11-Forwarding](https://blog.csdn.net/weixin_41668084/article/details/113361765)
-
+- 命令行基准测试工具 [https://github.com/sharkdp/hyperfine](https://github.com/sharkdp/hyperfine)
+    - [https://github.com/chinanf-boy/hyperfine-zh](https://github.com/chinanf-boy/hyperfine-zh)
 
 
 
 **命令助手**
 
 - 命令补全 [https://github.com/scop/bash-completion](https://github.com/scop/bash-completion)
-* [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
-* [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
+- [https://github.com/junegunn/fzf](https://github.com/junegunn/fzf)
+- [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
 - [https://sourceforge.net/projects/zsh](https://sourceforge.net/projects/zsh)
 - [https://github.com/ohmyzsh/ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
+- [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 - [https://github.com/zsh-users/zsh-syntax-highlighting](https://github.com/zsh-users/zsh-syntax-highlighting)
 - [https://github.com/Bash-it/bash-it](https://github.com/Bash-it/bash-it)
+- [https://github.com/orhun/halp](https://github.com/orhun/halp)
 - [https://github.com/0dayCTF/reverse-shell-generator](https://github.com/0dayCTF/reverse-shell-generator)
 - 命令执行演示 [https://github.com/maaslalani/slides](https://github.com/maaslalani/slides)
 - [https://github.com/d0c-s4vage/lookatme](https://github.com/d0c-s4vage/lookatme)
 - [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
+- [https://github.com/chubin](https://github.com/chubin)
 
 
 * [https://github.com/google/zx](https://github.com/google/zx)
@@ -171,10 +178,9 @@
 * [https://github.com/janmojzis/tinyssh](https://github.com/janmojzis/tinyssh)
 * [https://github.com/mkj/dropbear](https://github.com/mkj/dropbear)
 * [https://github.com/HaleyWang/SpringRemote](https://github.com/HaleyWang/SpringRemote)
-* OpenSSH [https://github.com/openssl](https://github.com/openssl)
-* [https://github.com/sfackler/rust-openssl](https://github.com/sfackler/rust-openssl)
 * [https://github.com/openssh](https://github.com/openssh)
     * [https://www.openssh.com](https://www.openssh.com)
+* [https://github.com/warpdotdev](https://github.com/warpdotdev)
 
 
 - [https://www.termius.com](https://www.termius.com)
@@ -186,6 +192,7 @@
 * [https://github.com/huashengdun/webssh](https://github.com/huashengdun/webssh)
 * [https://github.com/billchurch/WebSSH2](https://github.com/billchurch/WebSSH2)
 * [https://github.com/mscdex/ssh2](https://github.com/mscdex/ssh2)
+* [https://github.com/tsl0922/ttyd](https://github.com/tsl0922/ttyd)
 
 
 **Android**
@@ -212,6 +219,7 @@
     * [https://sourceforge.net/projects/nxshell](https://sourceforge.net/projects/nxshell)
 * [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
     * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
+    * [https://sourceforge.net/projects/sshwindows](https://sourceforge.net/projects/sshwindows)
 * [https://github.com/microsoft/terminal](https://github.com/microsoft/terminal)
     * [https://docs.microsoft.com/zh-cn/windows/terminal](https://docs.microsoft.com/zh-cn/windows/terminal)
 * [https://github.com/Maximus5/ConEmu](https://github.com/Maximus5/ConEmu)
@@ -223,17 +231,27 @@
 * [https://github.com/nvbn/thefuck](https://github.com/nvbn/thefuck)
 * [https://github.com/Eugeny/tabby](https://github.com/Eugeny/tabby)
 * PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
+    * [https://github.com/rhuijben/putty](https://github.com/rhuijben/putty)
+    * [https://github.com/larryli/PuTTY](https://github.com/larryli/PuTTY)
+    * [https://github.com/jimradford/superputty](https://github.com/jimradford/superputty)
+    * [https://github.com/NoMoreFood/putty-cac](https://github.com/NoMoreFood/putty-cac)
+    * [https://github.com/search?q=putty](https://github.com/search?q=putty)
+    * [https://xstarcd.github.io/wiki/windows/PuTTY.html](https://xstarcd.github.io/wiki/windows/PuTTY.html)
+    * [https://bdznh.github.io/2018/05/20/build-putty-step-by-step](https://bdznh.github.io/2018/05/20/build-putty-step-by-step)
 * [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
 * [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
 * MobaXterm [https://www.mobatek.net](https://www.mobatek.net)
 * Xshell [https://www.netsarang.com](https://www.netsarang.com)
 * SecureCRT [https://www.vandyke.com](https://www.vandyke.com)
+* [https://github.com/winscp/winscp](https://github.com/winscp/winscp)
+    * [https://sourceforge.net/projects/winscp](https://sourceforge.net/projects/winscp)
+    * [https://github.com/search?q=winscp](https://github.com/search?q=winscp)
 * Cygwin终端 [https://github.com/mintty/mintty](https://github.com/mintty/mintty)
 * WSL终端 [https://github.com/mintty/wsltty](https://github.com/mintty/wsltty)
 * MacOS [https://github.com/gnachman/iTerm2](https://github.com/gnachman/iTerm2)
     * [https://sourceforge.net/projects/iterm](https://sourceforge.net/projects/iterm)
     * 主题配色 [https://github.com/mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)
-
+* [https://github.com/gnome-terminator/terminator](https://github.com/gnome-terminator/terminator)
 
 
 

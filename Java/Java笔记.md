@@ -22,7 +22,41 @@
 - [什么是位运算](https://www.jianshu.com/p/d75b0a461380)
 - [java运算符](https://blog.csdn.net/shuaigexiaobo/article/details/88535745)
 - [数据库扩展性设计：使用二进制解决一条记录关联多个状态的问题](https://www.cnblogs.com/itfly8/p/6062757.html)
+- [Java8新特性有哪些](https://www.zhihu.com/question/24980208)
+- [fastjson这么快老外为啥还是热衷 jackson?](https://www.zhihu.com/question/44199956)
+- [JAX-WS与JAX-RS区别是什么？](https://blog.csdn.net/dogiant/article/details/54907506)
+- [接口框架 : WebService与Jersey RESTful 要点梳理](https://blog.csdn.net/zzg19950824/article/details/80300501)
+- [JAVA多线程使用场景和注意事项](https://www.jianshu.com/p/d670c6485ff9)
+- Java持久性API(Java Persistence API) [https://en.wikipedia.org/wiki/Java_Persistence_API](https://en.wikipedia.org/wiki/Java_Persistence_API)
+- [fork/join 全面剖析](https://www.cnblogs.com/linlinismine/p/9295701.html)
+- [收集业务日志，提炼有效数据](https://mp.weixin.qq.com/s/mA8ZqShP0p_t1toTzqpW3Q)
+- [通过filebeat、logstash、rsyslog采集nginx日志的几种方式](https://www.cnblogs.com/xiejava/p/12452434.html)
+- [分布式系统唯一ID生成方案汇总](https://www.cnblogs.com/haoxinyue/p/5208136.html)
+    - [理解Snowflake算法的实现原理](https://www.cnblogs.com/throwable/p/13467763.html)
+- [设计一个全局异常处理器](https://crossoverjie.top/2019/07/15/wheel/cicada7-exception-handle)
+- [理解、学习与使用 JAVA 中的 OPTIONAL](https://www.cnblogs.com/zhangboyu/p/7580262.html)
+- [理解零拷贝（Zero-copy）](https://blog.csdn.net/qq_39615545/article/details/108116820)
+- [可代替 ASM，使用 AnnotationProcessor 做代码插桩](https://www.dazhuanlan.com/2019/10/16/5da5f67797300)
+- [动态代理和Lombok学习](https://blog.csdn.net/qq_41022073/article/details/105342238)
+- [Spring AOP和Lombok是什么原理？](https://www.cnblogs.com/woetu/p/13658575.html)
+- [java.lang.Record替代Lombok](https://www.liaoxuefeng.com/wiki/1252599548343744/1331429187256353)
+- [这四种对象属性拷贝方式，你都知道吗？](https://www.cnblogs.com/vandusty/p/12757992.html)
+- [领域模型转换那些事儿](https://zhuanlan.zhihu.com/p/86282401)
+- [Reactive programming 一种技术 各自表述](https://mercyblitz.github.io/2018/07/25/Reactive-Programming-%E4%B8%80%E7%A7%8D%E6%8A%80%E6%9C%AF-%E5%90%84%E8%87%AA%E8%A1%A8%E8%BF%B0)
+- [Java正则多次匹配和多次组匹配](https://www.cnblogs.com/ElEGenT/p/13158108.html)
+- [https://www.zhihu.com/people/rednaxelafx](https://www.zhihu.com/people/rednaxelafx)
+- [Java 正则表达式详解](https://segmentfault.com/a/1190000009162306)
+- [java的native方法](https://www.zhihu.com/question/28001771)
 
+
++ JMH（Java Microbenchmark Harness）是专门用于代码微基准测试的工具套件
++ [什么是JNDI？](https://blog.csdn.net/gybshen/article/details/82717578)
++ [Web项目中Junit测试如何添加JNDI](https://www.cnblogs.com/Oliver1993/p/13630786.html)
++ [https://github.com/h-thurow/Simple-JNDI](https://github.com/h-thurow/Simple-JNDI)
+
+> JNDI是Java Naming and Directory Interface（Java命名与目录接口）其实和Spring依赖注入差不多的效果，
+> 就是我们可以将我们需要的类注册进去，然后一般我们都是使用该类的实例对象，这时候因为刚才我们已经给每个类按照JNDI的规范进行了注入，
+> 这时候我们直接通过JNDI的使用规则取出来我们想要的数据（实例对象）即可。
 
 * 有状态就是有数据存储功能。有状态对象(Stateful Bean)，就是有实例变量的对象，可以保存数据，是非线程安全的。在不同方法调用间不保留任何状态。
 * 无状态就是一次操作，不能保存数据。无状态对象(Stateless Bean)，就是没有实例变量的对象 .不能保存数据，是不变类，是线程安全的。
@@ -392,35 +426,6 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 
 
 
-## 协程
-
-> Java语言并没有对协程的原生支持，但是某些开源框架模拟出了协程的功能，`Project Loom` `AJDK-Wisp`
-
-- coroutine解决的是"协作式多任务"
-- visitor（访问者）模式解决的是"对修改关闭，对扩展开放", "它使你可以在不改变各元素的类的前提下定义作用于这些元素的新操作"
-
-
-+ [https://github.com/topics/coroutines](https://github.com/topics/coroutines)
-+ [https://github.com/topics/coroutine](https://github.com/topics/coroutine)
-+ [https://github.com/topics/async](https://github.com/topics/async)
-+ [https://github.com/topics/async-await](https://github.com/topics/async-await)
-+ [https://github.com/topics/asynchronous](https://github.com/topics/asynchronous)
-
-
-* [异步时代-java的协程路在何方](https://www.cnblogs.com/tohxyblog/p/10712798.html)
-* [次时代Java编程（一）：Java里的协程](https://blog.csdn.net/qiansg123/article/details/80123051)
-* [java协程框架quasar和kotlin中的协程](http://kailing.pub/article/index/arcid/252.html)
-* [https://github.com/kilim/kilim](https://github.com/kilim/kilim)
-    * [Kilim工作原理](http://chen-tao.github.io/2015/10/02/kilim-work-way/)
-* [https://github.com/puniverse/quasar](https://github.com/puniverse/quasar)
-    * [quasar从原理到代码应用](https://blog.csdn.net/guzhangyu12345/article/details/84666423)
-* [https://github.com/esoco/coroutines](https://github.com/esoco/coroutines)
-* [https://github.com/offbynull/coroutines](https://github.com/offbynull/coroutines)
-* [https://github.com/electronicarts/ea-async](https://github.com/electronicarts/ea-async)
-
-
-
-
 ## HTTP
 
 
@@ -439,7 +444,9 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 
 **Mime/Content-Type/Media-Type**
 
++ [https://github.com/search?q=mime](https://github.com/search?q=mime)
 + [https://github.com/topics/mime](https://github.com/topics/mime)
++ [https://github.com/mime-types](https://github.com/mime-types)
 + [https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions](https://www.solvusoft.com/en/mime-multipurpose-internet-mail-extensions)
 
 - `com.google.common.net.MediaType` guava
@@ -459,17 +466,6 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
     - `ForObject`只返回消息体
     - `exchange` 配合`HttpEntity`或`RequestEntity`使用，返回`ResponseEntity`
 - `WebClient` 是`Spring 5.0`开始提供的非阻塞响应式编程的Http工具。
-- `Apache HttpComponents` [https://github.com/apache/httpcomponents-client](https://github.com/apache/httpcomponents-client)
-- `okHttp` [https://github.com/square/okhttp](https://github.com/square/okhttp)
-- `Unirest` [https://github.com/Kong/unirest-java](https://github.com/Kong/unirest-java)
-- [https://github.com/dromara/forest](https://github.com/dromara/forest)
-- `Netty` 
-- `google-http-java-client` [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
-- `WebSocket` [https://github.com/eclipse-ee4j/websocket-api](https://github.com/eclipse-ee4j/websocket-api)
-- [https://github.com/OpenFeign](https://github.com/OpenFeign)
-- [https://github.com/square/retrofit](https://github.com/square/retrofit)
-    - [https://github.com/LianjiaTech/retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)
-- 使用Java 8,Netty和Reactive原则 [https://github.com/ratpack/ratpack](https://github.com/ratpack/ratpack)
 
 
 * [HTTP客户端连接，选择HttpClient还是OkHttp？](https://juejin.im/post/5e156c80f265da5d3c6de72a)

@@ -1,8 +1,6 @@
 # NodeJS
 
-
 [[toc]]
-
 
 
 ## Flag
@@ -11,6 +9,7 @@
 + [https://github.com/topics/node-js](https://github.com/topics/node-js)
 + [https://github.com/nodejs](https://github.com/nodejs)
     + [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
+
 
 * [https://github.com/goldbergyoni/nodebestpractices](https://github.com/goldbergyoni/nodebestpractices)
 * [NodeJs小册](https://nodejs.fasionchan.com/zh_CN/latest/index.html)
@@ -26,10 +25,13 @@
 
 * 纯JavaScript实现 [https://github.com/jsdom/jsdom](https://github.com/jsdom/jsdom)
 * [https://github.com/stylus](https://github.com/stylus)
+* [2023年最受欢迎的node.js框架](https://stackdiary.com/node-js-frameworks)
 
 
 
-**打包**
+## 构建打包
+
++ [前端构建工具进化历程](https://mp.weixin.qq.com/s/o8B8HAczZtIZM8V_HHwNqg)
 
 - [https://github.com/webpack/webpack](https://github.com/webpack/webpack)
     - [https://github.com/webpack-contrib](https://github.com/webpack-contrib)
@@ -41,6 +43,10 @@
 - [https://github.com/snowpackjs/snowpack](https://github.com/snowpackjs/snowpack)
 - [https://github.com/rollup/rollup](https://github.com/rollup/rollup)
     - [https://www.rollupjs.com](https://www.rollupjs.com)
+- [https://github.com/TurboPack](https://github.com/TurboPack)
+- [https://github.com/vitejs/vite](https://github.com/vitejs/vite)
+- [https://github.com/evanw/esbuild](https://github.com/evanw/esbuild)
+- [https://github.com/web-infra-dev](https://github.com/web-infra-dev)
 - 2009年，npm
 - 2012年，grunt
 - 2012年，bower
@@ -67,8 +73,14 @@
 * [https://github.com/visionmedia](https://github.com/visionmedia)
 * CMS [https://github.com/strapi/strapi](https://github.com/strapi/strapi)
 * ORM [https://github.com/prisma/prisma](https://github.com/prisma/prisma)
-* 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
+* [https://github.com/jugglingdb](https://github.com/jugglingdb)
+* [https://github.com/dresende/node-orm2](https://github.com/dresende/node-orm2)
+* [https://github.com/sequelize/sequelize](https://github.com/sequelize/sequelize)
+* [https://github.com/vincit/objection.js](https://github.com/vincit/objection.js)
+* [https://github.com/bookshelf/bookshelf](https://github.com/bookshelf/bookshelf)
+* [https://github.com/balderdashy/waterline](https://github.com/balderdashy/waterline)
 * SQL查询 [https://github.com/knex/knex](https://github.com/knex/knex)
+* 解析器、压缩器、压缩器和美化 [https://github.com/mishoo/UglifyJS](https://github.com/mishoo/UglifyJS)
 * 日志 [https://github.com/trentm/node-bunyan](https://github.com/trentm/node-bunyan)
 * [https://github.com/pillarjs/send](https://github.com/pillarjs/send)
 * 断言 [https://github.com/chaijs](https://github.com/chaijs)
@@ -76,6 +88,7 @@
 * [https://github.com/sinonjs](https://github.com/sinonjs)
 * 命令行 [https://github.com/tj/commander.js](https://github.com/tj/commander.js)
 * [https://github.com/SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js)
+* [https://github.com/oclif/oclif](https://github.com/oclif/oclif)
 * USB [https://github.com/schakko/node-usb](https://github.com/schakko/node-usb)
 * [https://github.com/node-usb](https://github.com/node-usb)
 * 字体管理 [https://github.com/foliojs/font-manager](https://github.com/foliojs/font-manager)
@@ -84,6 +97,9 @@
 * 特性开关 [https://github.com/Unleash/unleash](https://github.com/Unleash/unleash)
 * Excel [https://github.com/optilude/xlsx-template](https://github.com/optilude/xlsx-template)
 * 分布式ID [https://github.com/cloudyan/snowflake](https://github.com/cloudyan/snowflake)
+* REST [https://github.com/restify](https://github.com/restify)
+* [https://github.com/senchalabs/connect](https://github.com/senchalabs/connect)
+* 压缩解压文件 [https://github.com/quentinrossetti/node-7z](https://github.com/quentinrossetti/node-7z)
 
 
 
@@ -103,6 +119,8 @@
 * [https://github.com/nodenv/nodenv](https://github.com/nodenv/nodenv)
 * [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
 * [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
+* [https://github.com/asdf-vm/asdf](https://github.com/asdf-vm/asdf)
+* [https://github.com/jdxcode/rtx](https://github.com/jdxcode/rtx)
 
 
 ```bash

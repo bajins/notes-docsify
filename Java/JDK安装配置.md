@@ -13,7 +13,7 @@
 * [https://www.oracle.com/java](https://www.oracle.com/java)
     * [https://www.oracle.com/cn/java/technologies/javase-downloads.html](https://www.oracle.com/cn/java/technologies/javase-downloads.html)
     * [https://www.oracle.com/cn/java/technologies/java-ee-glance.html](https://www.oracle.com/cn/java/technologies/java-ee-glance.html)
-
+* 版本管理 [https://github.com/jingxiang/java-switch](https://github.com/jingxiang/java-switch)
 
 
 ## OpenJDK
@@ -30,6 +30,7 @@
     * [https://www.oracle.com/cn/java/technologies/downloads](https://www.oracle.com/cn/java/technologies/downloads)
 * ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
     * ~~[https://adoptopenjdk.net](https://adoptopenjdk.net)~~
+    * [https://github.com/Adopt-a-JSR](https://github.com/Adopt-a-JSR)
 * [https://github.com/adoptium](https://github.com/adoptium)
     * [https://adoptium.net](https://adoptium.net)
 * [https://github.com/corretto](https://github.com/corretto)
@@ -49,11 +50,15 @@
     * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
 * [https://github.com/alibaba/dragonwell8](https://github.com/alibaba/dragonwell8)
 * [https://github.com/Tencent/TencentKona-8](https://github.com/Tencent/TencentKona-8)
+* [https://github.com/Tencent/TencentKona-11](https://github.com/Tencent/TencentKona-11)
+* [https://github.com/Tencent/TencentKona-17](https://github.com/Tencent/TencentKona-17)
 
 
 - OpenJ9 [https://github.com/eclipse-openj9/openj9](https://github.com/eclipse-openj9/openj9)
 
 
+* [https://www.oracle.com/java/technologies/java-se-support-roadmap.html](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
+* [Oracle Java SE Support Roadmap：支持JDK 8到2030年](https://blog.csdn.net/f641385712/article/details/124732654)
 
 ![](/images/JDK版本生命周期.jpg)
 

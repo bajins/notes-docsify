@@ -1,14 +1,12 @@
 # Chrome
 
-
 [[toc]]
-
-
 
 
 ## Flag
 
-
+* [https://github.com/PSPDFKit-labs/browserslist.dev](https://github.com/PSPDFKit-labs/browserslist.dev)
+    * [https://browserslist.dev](https://browserslist.dev)
 * [Marmoset-创建漂亮的代码图片](https://chrome.google.com/webstore/detail/marmoset/npkfpddkpefnmkflhhligbkofhnafieb)
 * 嵌入式框架（CEF） [https://github.com/chromiumembedded](https://github.com/chromiumembedded)
 * [https://github.com/arnoldthebat/chromiumos](https://github.com/arnoldthebat/chromiumos)
@@ -29,11 +27,11 @@
 
 
 * [https://www.google.cn/intl/zh-CN/chrome](https://www.google.cn/intl/zh-CN/chrome)
-    * [有更新组件及服务的最新官方稳定版，离线安装包 x64](https://redirector.gvt1.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi)
-    * [无更新组件及服务的最新官方稳定版，离线安装包 x64](https://redirector.gvt1.com/edgedl/release2/chrome/CUtGVpXHPGLv_SbZcTshgQ_87.0.4280.88/87.0.4280.88_chrome_installer.exe)
-    * [https://github.com/lyonna/ChromeOfflineInstallerDownloadAPI](https://github.com/lyonna/ChromeOfflineInstallerDownloadAPI)
-    * [https://api.pzhacm.org/iivb/cu.json](https://api.pzhacm.org/iivb/cu.json)
-    * [http://viewver.coolpage.biz/chrome.php](http://viewver.coolpage.biz/chrome.php)
+    * [https://chromeenterprise.google/intl/zh_CN/browser/download](https://chromeenterprise.google/intl/zh_CN/browser/download)
+    * 有更新组件 https://redirector.gvt1.com/edgedl/chrome/install/GoogleChromeStandaloneEnterprise64.msi
+    * 有更新组件 https://dl.google.com/dl/chrome/install/googlechromestandaloneenterprise64.msi
+    * 无更新组件 https://redirector.gvt1.com/edgedl/release2/chrome/od2lllrxuumm2zm5pdlk6xdgnm_107.0.5304.122/107.0.5304.122_chrome_installer.exe
+    * 无更新组件 https://edgedl.me.gvt1.com/edgedl/release2/chrome/od2lllrxuumm2zm5pdlk6xdgnm_107.0.5304.122/107.0.5304.122_chrome_installer.exe
     * [Chrome历史离线包 不带更新模块](https://www.lanzouh.com/b112274)
 * [https://www.chromedownloads.net](https://www.chromedownloads.net)
 * [https://www.iplaysoft.com/tools/chrome](https://www.iplaysoft.com/tools/chrome)
@@ -48,6 +46,7 @@
 
 - 无Google Web服务浏览器 [https://github.com/Eloston/ungoogled-chromium](https://github.com/Eloston/ungoogled-chromium)
 - [https://github.com/nwjs/chromium.src](https://github.com/nwjs/chromium.src)
+- [https://github.com/fathyb/carbonyl](https://github.com/fathyb/carbonyl)
 
 
 * [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)
@@ -55,14 +54,17 @@
     *  [最新官方稳定版离线安装包 x64](https://go.microsoft.com/fwlink/?LinkID=2093437)
     * [https://www.microsoftedgeinsider.com](https://www.microsoftedgeinsider.com)
     * [https://docs.microsoft.com/zh-cn/microsoft-edge](https://docs.microsoft.com/zh-cn/microsoft-edge)
+    * 不显示新建标签页广告资讯和网址（微软对中国区特供）强制本地NTP，添加快捷方式运行参数：`--force-local-ntp`
 * [https://www.mozilla.org/zh-CN/firefox/all](https://www.mozilla.org/zh-CN/firefox/all)
-    * [https://sourceforge.net/projects/libportable](https://sourceforge.net/projects/libportable)
     * [https://ftp.mozilla.org/pub/firefox/releases](https://ftp.mozilla.org/pub/firefox/releases)
+    * [https://sourceforge.net/projects/libportable](https://sourceforge.net/projects/libportable)
 * [https://github.com/vivaldi](https://github.com/vivaldi)
     * [https://vivaldi.com](https://vivaldi.com)
 * [https://github.com/brave](https://github.com/brave)
     * [https://brave.com](https://brave.com)
     * [https://github.com/brave-experiments](https://github.com/brave-experiments)
+* [https://github.com/kiwibrowser](https://github.com/kiwibrowser)
+* [https://github.com/minbrowser](https://github.com/minbrowser)
 
 
 - TOR [https://github.com/alecmuffett/real-world-onion-sites](https://github.com/alecmuffett/real-world-onion-sites)
@@ -76,6 +78,32 @@
 ```
 chrome://flags/#enable-parallel-downloading
 ```
+
+**Chromium内核浏览器实验室功能特性运行参数：**
+
+* [https://peter.sh/experiments/chromium-command-line-switches](https://peter.sh/experiments/chromium-command-line-switches)
+
+```
+--user-data-dir="Data" //数据重定向存储当前目录
+--user-data-dir="..\Data" //数据重定向存储到上层目录
+--disk-cache-dir="Cache" //缓存重定向存储存当前目录
+--no-first-run //不显示首次运行向导
+--force-local-ntp //强制本地NTP
+--disable-logging //禁用记录日志
+--disable-breakpad //禁用崩溃报告
+--no-report-upload //不发送匿名数据
+--*-*-url="0.0.0.0" //强制指向无效地址
+--bwsi //开启访客模式 (无扩展无登录同步)
+--enable-ftp //允许ftp (88版本后不支持)
+--disable-notifications //禁用网页通知
+--make-default-browser //设置默认浏览器
+--enable-leak-detection //加载网页检测泄露
+--disable-component-update //禁止组件更新
+--disable-background-networking //禁用后台联网检查更新
+--enable-potentially-annoying-security-features //各种安全优化
+```
+
+
 
 
 
@@ -278,6 +306,9 @@ taskkill /f /im chromedriver.exe
 
 ### 开发助手
 
++ [https://github.com/zhaoolee/ChromeAppHeroes](https://github.com/zhaoolee/ChromeAppHeroes)
+
+
 * [swagger-bootstrap-ui](https://chrome.google.com/webstore/detail/swagger-bootstrap-ui/dhkcgihkeepociepfdeeppmdgbdooahh)
 * [快速进行HTML/CSS/JS编辑展示：web-maker](https://github.com/chinchang/web-maker)
 * [WEB前端助手：WEB前端助手(FeHelper)](https://github.com/zxlie/FeHelper)
@@ -315,6 +346,8 @@ taskkill /f /im chromedriver.exe
 * [https://github.com/lmk123/crx-selection-translate](https://github.com/lmk123/crx-selection-translate)
 * [https://github.com/magic-FE/translate-man](https://github.com/magic-FE/translate-man)
 * [https://github.com/EdgeTranslate/EdgeTranslate](https://github.com/EdgeTranslate/EdgeTranslate)
+* [https://github.com/immersive-translate/immersive-translate](https://github.com/immersive-translate/immersive-translate)
+* [https://github.com/OwO-Network/DeepLX](https://github.com/OwO-Network/DeepLX)
 
 
 

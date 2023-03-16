@@ -16,8 +16,6 @@
 + [https://github.com/GTFOBins](https://github.com/GTFOBins)
 + [https://github.com/dunwu/linux-tutorial](https://github.com/dunwu/linux-tutorial)
 + [https://github.com/jaywcjlove/linux-command](https://github.com/jaywcjlove/linux-command)
-+ [https://github.com/jlevy/the-art-of-command-line](https://github.com/jlevy/the-art-of-command-line)
-+ [https://github.com/idank/explainshell](https://github.com/idank/explainshell)
 + [https://www.linuxcool.com](https://www.linuxcool.com)
 + [https://man.linuxde.net](https://man.linuxde.net)
 + [Cron 定时任务表达式手册](https://www.gairuo.com/p/cron-expression-sheet)
@@ -35,14 +33,6 @@
 * [vi 编辑器使用向导](https://wiki.jikexueyuan.com/project/unix/the-vi-editor.html)
 * [Vim 从小白到入门](https://wsgzao.github.io/post/vim)
 * [https://vimjc.com/archives](https://vimjc.com/archives)
-
-
-- 腾讯云动手实验室 [https://cloud.tencent.com/developer/labs](https://cloud.tencent.com/developer/labs)
-- 阿里云体验实验室 [https://developer.aliyun.com/adc/labs](https://developer.aliyun.com/adc/labs)
-- 阿里云知行实验室 [https://start.aliyun.com](https://start.aliyun.com)
-- 华为云沙箱实验室 [https://lab.huaweicloud.com](https://lab.huaweicloud.com)
-
-
 * [ubuntu版本系统升级](https://blog.csdn.net/qq_40907977/article/details/106407373)
 
 
@@ -61,7 +51,6 @@
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
 * snap应用商店 [https://snapcraft.io](https://snapcraft.io)
     * [https://docs.snapcraft.io/core/install](https://docs.snapcraft.io/core/install)
-* [https://github.com/nushell/nushell](https://github.com/nushell/nushell)
 * 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
 * [https://github.com/makedeb](https://github.com/makedeb)
 * [https://mpr.hunterwittenborn.com](https://mpr.hunterwittenborn.com)
@@ -102,6 +91,14 @@
 - [https://sourceforge.net/projects/xampp](https://sourceforge.net/projects/xampp)
     - [https://www.apachefriends.org](https://www.apachefriends.org)
 - [https://sourceforge.net/projects/wampserver](https://sourceforge.net/projects/wampserver)
+- 基础软件包 [https://github.com/coreutils](https://github.com/coreutils)
+- [https://github.com/uutils/coreutils](https://github.com/uutils/coreutils)
+- [https://busybox.net](https://busybox.net)
+    - [https://github.com/meefik/busybox](https://github.com/meefik/busybox)
+    - [https://busybox.jrummyapps.com](https://busybox.jrummyapps.com)
+- [https://landley.net/toybox](https://landley.net/toybox)
+    - [https://github.com/landley/toybox](https://github.com/landley/toybox)
+
 
 * [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
@@ -120,6 +117,7 @@
 - [https://download.savannah.gnu.org](https://download.savannah.gnu.org)
 - [https://sourceforge.net/projects/pkgconfiglite](https://sourceforge.net/projects/pkgconfiglite)
 - [https://sourceforge.net/projects/lcms](https://sourceforge.net/projects/lcms)
+- [https://github.com/Xfennec/progress](https://github.com/Xfennec/progress)
 
 
 
@@ -274,8 +272,6 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 - [https://github.com/Yelp/dumb-init](https://github.com/Yelp/dumb-init)
 - [https://github.com/canonical/pebble](https://github.com/canonical/pebble)
 - [https://mmonit.com/monit](https://mmonit.com/monit)
-- [https://busybox.net](https://busybox.net)
-    - [https://github.com/meefik/busybox](https://github.com/meefik/busybox)
 - [http://smarden.org/runit](http://smarden.org/runit)
 - [http://www.fefe.de/minit](http://www.fefe.de/minit)
 - [http://upstart.ubuntu.com](http://upstart.ubuntu.com)
@@ -512,26 +508,6 @@ setsid python3 ./index.py >/dev/null 2>&1 &
 
 
 ## 传输文件
-
-+ [https://github.com/topics/synchronization](https://github.com/topics/synchronization)
-+ [https://github.com/topics/sync](https://github.com/topics/sync)
-+ [https://github.com/topics/peer-to-peer](https://github.com/topics/peer-to-peer)
-+ [https://github.com/topics/p2p](https://github.com/topics/p2p)
-
-
-* [https://github.com/syncthing/syncthing](https://github.com/syncthing/syncthing)
-    * [https://github.com/canton7/SyncTrayzor](https://github.com/canton7/SyncTrayzor)
-    * [Syncthing 开源文件同步工具](https://jiangliheng.github.io/2021/06/10/syncthing)
-* Resilio Sync [https://github.com/bt-sync](https://github.com/bt-sync)
-    * [https://www.resilio.com/platforms/desktop](https://www.resilio.com/platforms/desktop)
-* 微力同步国内 [http://www.verysync.com](http://www.verysync.com)
-* [https://github.com/schollz/croc](https://github.com/schollz/croc)
-    * 号称`croc`通过压缩和多路复用比`wormhole`，`rsync`，`scp`更快（加速`1.5`倍至`4`倍）
-* [https://github.com/magic-wormhole/magic-wormhole](https://github.com/magic-wormhole/magic-wormhole)
-* [https://github.com/simon-budig/woof](https://github.com/simon-budig/woof)
-* [https://github.com/stackp/Droopy](https://github.com/stackp/Droopy)
-* [https://github.com/Peergos/Peergos](https://github.com/Peergos/Peergos)
-* 命令行共享文件 [https://github.com/dutchcoders/transfer.sh](https://github.com/dutchcoders/transfer.sh)
 
 
 > 首先进入需要搭建web服务器的目录，然后在输入下面的命令，端口号默认`8000`
