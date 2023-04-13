@@ -20,6 +20,9 @@
 * [https://github.com/lapce](https://github.com/lapce)
 * [https://github.com/zed-industries](https://github.com/zed-industries)
 * [https://github.com/capistrano/sshkit](https://github.com/capistrano/sshkit)
+* JSON可视化 [https://github.com/AykutSarac/jsoncrack.com](https://github.com/AykutSarac/jsoncrack.com)
+* AI加持 [https://github.com/new-ai-company/ide](https://github.com/new-ai-company/ide)
+* [https://github.com/e2b-dev/e2b](https://github.com/e2b-dev/e2b)
 
 
 
@@ -317,6 +320,7 @@
 * [https://www.processon.com](https://www.processon.com)
 * [https://gitmind.cn](https://gitmind.cn)
 * [https://www.omnigroup.com/omnigraffle](https://www.omnigroup.com/omnigraffle)
+* [https://github.com/terrastruct/d2](https://github.com/terrastruct/d2)
 
 
 **本地客户端**
@@ -435,6 +439,12 @@
 - [https://github.com/topics/yacc](https://github.com/topics/yacc)
 - [Pisa-Proxy SQL 解析之 Lex & Yacc](https://zhuanlan.zhihu.com/p/538735834)
 
+
+> Lex（A Lexical Analyzer Generator）用于生成词法分析器，用于把输入分割成一个个有意义的词块（称为token）
+>
+> Yacc（Yet Another Compiler-Compiler）用于生成语法解析器，用于确定上述分隔好的token之间的关联
+>
+> Flex是由Vern Paxon实现的一个Lex，Bison则是GNU版本的YACC
 
 
 ## 项目管理

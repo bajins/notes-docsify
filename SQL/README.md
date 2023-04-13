@@ -5,6 +5,9 @@
 
 ## Flag
 
+> DBS（Data Base System，数据库系统）包括：DB（数据库）和DBMS（database management system，数据库管理系统）
+
+* [https://github.com/pingcap/awesome-database-learning](https://github.com/pingcap/awesome-database-learning)
 * [https://github.com/dunwu/db-tutorial](https://github.com/dunwu/db-tutorial)
 * [https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html](https://docs.aws.amazon.com/zh_cn/redshift/latest/dg/cm_chap_SQLCommandRef.html)
 * [https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual](https://www.alibabacloud.com/help/zh/analyticdb-for-mysql/latest/sql-manual)
@@ -19,8 +22,12 @@
 * HiveSQL教程 [https://www.gairuo.com/p/hive-sql-tutorial](https://www.gairuo.com/p/hive-sql-tutorial)
 * 加密 [https://github.com/hashicorp/vault](https://github.com/hashicorp/vault)
 * 通用SQL解析 [https://www.sqlparser.com](https://www.sqlparser.com)
+    * [https://github.com/sqlparser](https://github.com/sqlparser)
 * [https://github.com/search?p=9&q=data+to+sql](https://github.com/search?p=9&q=data+to+sql)
 * [https://github.com/search?q=generate+sql](https://github.com/search?l=Java&q=generate+sql)
+* [https://github.com/search?q=sqlparser](https://github.com/search?l=Java&q=sqlparser)
+* [https://github.com/search?q=sql+visitor](https://github.com/search?q=sql+visitor)
+* [https://github.com/topics/sql-statement](https://github.com/topics/sql-statement)
 
 
 
@@ -87,6 +94,7 @@
 * [https://github.com/Xeograph](https://github.com/Xeograph)
 * [https://github.com/forcedotcom](https://github.com/forcedotcom)
 * 分布式 [https://github.com/cockroachdb](https://github.com/cockroachdb)
+    * [https://github.com/auxten/postgresql-parser](https://github.com/auxten/postgresql-parser)
 * [https://github.com/apache/ignite](https://github.com/apache/ignite)
     * [http://blog.nimblex.cn/archives](http://blog.nimblex.cn/archives)
     * [https://www.ignite-service.cn/doc/java](https://www.ignite-service.cn/doc/java)
@@ -101,10 +109,10 @@
 * [https://github.com/prestodb/presto](https://github.com/prestodb/presto)
 * [https://github.com/apache/cassandra](https://github.com/apache/cassandra)
 * [https://github.com/apache/kudu](https://github.com/apache/kudu)
-* DynamoDB
 * [https://github.com/KvrocksLabs/kvrocks](https://github.com/KvrocksLabs/kvrocks)
 * CrateDB [https://github.com/crate/crate](https://github.com/crate/crate)
 * [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb)
+    * [https://github.com/InfluxCommunity](https://github.com/InfluxCommunity)
 * [https://github.com/VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics)
 * 使用Raft算法 [https://github.com/etcd-io/etcd](https://github.com/etcd-io/etcd)
 * [https://github.com/etcd-io/bbolt](https://github.com/etcd-io/bbolt)
@@ -126,6 +134,17 @@
     * [https://github.com/apache/incubator-pegasus](https://github.com/apache/incubator-pegasus)
 * [https://github.com/pmqs/BerkeleyDB](https://github.com/pmqs/BerkeleyDB)
 * [https://github.com/apache/incubator-kvrocks](https://github.com/apache/incubator-kvrocks)
+* [https://github.com/datenlord/Xline](https://github.com/datenlord/Xline)
+* [https://github.com/seladb/pickledb-rs](https://github.com/seladb/pickledb-rs)
+* [https://github.com/freenet/locutus](https://github.com/freenet/locutus)
+* [https://github.com/cberner/redb](https://github.com/cberner/redb)
+* [https://gitlab.com/tglman/persy](https://gitlab.com/tglman/persy)
+* [https://nest.pijul.com/pijul/sanakirja](https://nest.pijul.com/pijul/sanakirja)
+* [https://github.com/rustbase/dustdata](https://github.com/rustbase/dustdata)
+* [https://github.com/photondb/photondb](https://github.com/photondb/photondb)
+* [https://github.com/komora-io/marble](https://github.com/komora-io/marble)
+* [https://github.com/tikv/agatedb](https://github.com/tikv/agatedb)
+* [https://github.com/engula/engula](https://github.com/engula/engula)
 * 面向列的数据库 [https://github.com/ClickHouse/ClickHouse](https://github.com/ClickHouse/ClickHouse)
 * Go嵌入式(S)QL数据库 [https://gitlab.com/cznic/ql](https://gitlab.com/cznic/ql)
 * [https://github.com/oceanbase/oceanbase](https://github.com/oceanbase/oceanbase)

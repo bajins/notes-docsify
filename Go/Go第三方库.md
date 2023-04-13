@@ -9,6 +9,7 @@
 * [https://github.com/yinggaozhen/awesome-go-cn](https://github.com/yinggaozhen/awesome-go-cn)
 * web框架基准测试 [https://github.com/smallnest/go-web-framework-benchmark](https://github.com/smallnest/go-web-framework-benchmark)
 * 序列化工具基准测试 [https://github.com/smallnest/gosercomp](https://github.com/smallnest/gosercomp)
+* [https://github.com/julienschmidt/go-http-routing-benchmark](https://github.com/julienschmidt/go-http-routing-benchmark)
 * 压测工具 [https://github.com/link1st/go-stress-testing](https://github.com/link1st/go-stress-testing)
 * 监控运行 [https://github.com/thejerf/suture](https://github.com/thejerf/suture)
 * [https://github.com/PagerDuty](https://github.com/PagerDuty)
@@ -119,6 +120,7 @@
 * JWT [https://github.com/kataras/jwt](https://github.com/kataras/jwt)
 * [https://github.com/dgrijalva/jwt-go](https://github.com/dgrijalva/jwt-go)
 * [https://github.com/dexidp/dex](https://github.com/dexidp/dex)
+* [https://github.com/lestrrat-go/jwx](https://github.com/lestrrat-go/jwx)
 * 程序抖动问题定位 [https://github.com/mosn/holmes](https://github.com/mosn/holmes)
 * 内容协作 [https://github.com/pydio/cells](https://github.com/pydio/cells)
 * API开发的云平台 [https://github.com/micro](https://github.com/micro)
@@ -126,6 +128,8 @@
 * 对图像序列（例如延时拍摄）进行闪烁处理 [https://github.com/StruffelProductions/simple-deflicker](https://github.com/StruffelProductions/simple-deflicker)
 * 控制台进度条显示 [https://github.com/vardius/progress-go](https://github.com/vardius/progress-go)
 * 文件系统 [https://github.com/u-root/u-root](https://github.com/u-root/u-root)
+* 文件监听 [http://github.com/fsnotify/fsnotify](http://github.com/fsnotify/fsnotify)
+    * [https://github.com/romanoff/fsmonitor](https://github.com/romanoff/fsmonitor)
 * 计算文件的SHA256 [https://github.com/benbjohnson/hashfs](https://github.com/benbjohnson/hashfs)
 * [https://github.com/mattn/go-colorable](https://github.com/mattn/go-colorable)
 * 模板引擎 [https://github.com/valyala/quicktemplate](https://github.com/valyala/quicktemplate)
@@ -133,6 +137,7 @@
 * 编码 [https://github.com/axgle/mahonia](https://github.com/axgle/mahonia)
 * 加密 [https://github.com/FiloSottile/age](https://github.com/FiloSottile/age)
 * AES256 GCM [https://github.com/sumup-oss/vaulted](https://github.com/sumup-oss/vaulted)
+* 密码验证 [https://github.com/wagslane/go-password-validator](https://github.com/wagslane/go-password-validator)
 * Golang注解 [https://github.com/MarcGrol/golangAnnotations](https://github.com/MarcGrol/golangAnnotations)
 * [https://github.com/sbinet/go-python](https://github.com/sbinet/go-python)
 * [https://github.com/refraction-networking/utls](https://github.com/refraction-networking/utls)
@@ -146,6 +151,7 @@
 * [https://github.com/onsi/ginkgo](https://github.com/onsi/ginkgo)
 * [https://github.com/spectolabs/hoverfly](https://github.com/spectolabs/hoverfly)
 * [https://github.com/stretchr/testify](https://github.com/stretchr/testify)
+* [https://github.com/go-check/check](https://github.com/go-check/check)
 * WebSocket [https://github.com/gorilla/websocket](https://github.com/gorilla/websocket)
     * [在 Gin 项目中使用 WebSocket](https://www.cnblogs.com/chnmig/p/14463837.html)
     * [https://github.com/kone-net/go-chat](https://github.com/kone-net/go-chat)
@@ -171,6 +177,9 @@
 * [https://github.com/urfave/cli](https://github.com/urfave/cli)
 * [https://github.com/go-cmd/cmd](https://github.com/go-cmd/cmd)
 * [https://github.com/charmbracelet/bubbletea](https://github.com/charmbracelet/bubbletea)
+* [https://github.com/ogier/pflag](https://github.com/ogier/pflag)
+* CLI [https://github.com/blend/go-sdk](https://github.com/blend/go-sdk)
+* shell [https://github.com/creack/pty](https://github.com/creack/pty)
 * 生成x86程序 [https://github.com/mmcloughlin/avo](https://github.com/mmcloughlin/avo)
 * 内核模糊器 [https://github.com/google/syzkaller](https://github.com/google/syzkaller)
 * Markdown处理 [https://github.com/russross/blackfriday](https://github.com/russross/blackfriday)
@@ -206,15 +215,15 @@
 * [https://github.com/checkr/flagr](https://github.com/checkr/flagr)
 * 分布式唯一ID [https://github.com/yongxinz/id-maker](https://github.com/yongxinz/id-maker)
 * [https://github.com/bwmarrin/snowflake](https://github.com/bwmarrin/snowflake)
-* shell [https://github.com/creack/pty](https://github.com/creack/pty)
 * 单元测试 [https://github.com/maxbrunsfeld/counterfeiter](https://github.com/maxbrunsfeld/counterfeiter)
 * [https://github.com/onsi/gomega](https://github.com/onsi/gomega)
-* CLI [https://github.com/blend/go-sdk](https://github.com/blend/go-sdk)
 * 定时器 [https://github.com/antlabs/timer](https://github.com/antlabs/timer)
 * 替换DOCX中的文本 [https://github.com/nguyenthenguyen/docx](https://github.com/nguyenthenguyen/docx)
 * [https://github.com/sajari/docconv](https://github.com/sajari/docconv)
 * [https://github.com/unidoc](https://github.com/unidoc)
 * 二维码 [https://github.com/yeqown/go-qrcode](https://github.com/yeqown/go-qrcode)
+* 日志 [https://github.com/go-clog](https://github.com/go-clog)
+* 国际化 [https://github.com/go-i18n](https://github.com/go-i18n)
 
 
 
@@ -240,3 +249,7 @@
 | kit     	| https://github.com/go-kit/kit                                  	| https://gokit.io                           	|
 | Fiber    	| https://github.com/gofiber/fiber                                  | https://gofiber.io                           	|
 | revel    	| https://github.com/revel/revel                                    | https://github.com/revel/revel               	|
+
+
+* [https://github.com/go-macaron](https://github.com/go-macaron)
+* [https://github.com/flamego/flamego](https://github.com/flamego/flamego)

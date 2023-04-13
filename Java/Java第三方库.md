@@ -106,6 +106,7 @@
     - [Ehcache缓存从2.10升到3.5.0版本的简单用法和踩坑经验](https://segmentfault.com/a/1190000020791300)
 * 分布式 [https://github.com/Terracotta-OSS/offheap-store](https://github.com/Terracotta-OSS/offheap-store)
 * [https://github.com/ben-manes/caffeine](https://github.com/ben-manes/caffeine)
+    * [https://github.com/ck-jesse/l2cache](https://github.com/ck-jesse/l2cache)
 * [https://github.com/xiaolyuh/layering-cache](https://github.com/xiaolyuh/layering-cache)
 * GuavaCache使用示例 [https://github.com/songyaxu/guava-cache](https://github.com/songyaxu/guava-cache)
 * 存储和检索海量数据 [https://github.com/dCache/dcache](https://github.com/dCache/dcache)
@@ -326,9 +327,8 @@
 * 属性比对器 [https://github.com/dadiyang/equator](https://github.com/dadiyang/equator)
 * 对象比较属性和审核 [https://github.com/javers/javers](https://github.com/javers/javers)
 * ASM序列化 [https://github.com/EsotericSoftware/kryo](https://github.com/EsotericSoftware/kryo)
-* 序列化 [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
-* [https://github.com/protostuff](https://github.com/protostuff)
-    * [https://gitlab.com/dyu](https://gitlab.com/dyu)
+* 堆内存处理 [https://github.com/airlift/slice](https://github.com/airlift/slice)
+
 
 
 
@@ -379,6 +379,7 @@
 * [https://github.com/quartz-scheduler/quartz](https://github.com/quartz-scheduler/quartz)
     * [quartz-scheduler建表SQL](https://github.com/quartz-scheduler/quartz/tree/master/quartz-core/src/main/resources/org/quartz/impl/jdbcjobstore)
     * [分布式任务调度系统(Quartz动态管理集群部署)](https://blog.csdn.net/qq_42978802/article/details/106570346)
+* [https://github.com/jobrunr/jobrunr](https://github.com/jobrunr/jobrunr)
 * [https://github.com/vipshop/Saturn](https://github.com/vipshop/Saturn)
 * [https://github.com/ltsopensource/light-task-scheduler](https://github.com/ltsopensource/light-task-scheduler)
 * [https://github.com/xuxueli/xxl-job](https://github.com/xuxueli/xxl-job)
@@ -479,10 +480,13 @@
 
 
 
-> JSON-B，即Java API for JSON Binding
+> JSON-B，即Java API for JSON Binding。
 
 + [https://github.com/json-schema-org](https://github.com/json-schema-org)
-+ Jakarta JSON处理规范 [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
++ JSON-P [https://github.com/eclipse-ee4j/jsonp](https://github.com/eclipse-ee4j/jsonp)
++ Java反序列化备忘单 [https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet](https://github.com/GrrrDog/Java-Deserialization-Cheat-Sheet)
++ JSON库基准测试[https://github.com/fabienrenaud/java-json-benchmark](https://github.com/fabienrenaud/java-json-benchmark)
++ [https://github.com/eishay/jvm-serializers](https://github.com/eishay/jvm-serializers)
 
 
 * [https://github.com/cliftonlabs/json-simple](https://github.com/cliftonlabs/json-simple)
@@ -587,12 +591,8 @@
 + [https://github.com/flowable](https://github.com/flowable)
 + [https://github.com/espertechinc/esper](https://github.com/espertechinc/esper)
 + 规划引擎 [https://github.com/kiegroup](https://github.com/kiegroup)
-+ 大数据 [https://github.com/apache/hadoop](https://github.com/apache/hadoop)
-    + Spark、Flink、Hive、MapReduce、Presto、Impala
-    + [https://github.com/apache/parquet-mr](https://github.com/apache/parquet-mr)
-    + [https://github.com/apache/parquet-format](https://github.com/apache/parquet-format)
-    + [https://github.com/apache/orc](https://github.com/apache/orc)
 + 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
+    + [https://github.com/quarkiverse](https://github.com/quarkiverse)
 + [https://github.com/piranhacloud](https://github.com/piranhacloud)
 + 全堆栈框架 [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
 + [https://github.com/ClouGence/hasor](https://github.com/ClouGence/hasor)

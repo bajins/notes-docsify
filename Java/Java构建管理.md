@@ -19,8 +19,8 @@
 + [https://github.com/sormuras/bach](https://github.com/sormuras/bach)
 + 增量构建 [https://github.com/sakerbuild/saker.build](https://github.com/sakerbuild/saker.build)
 + [https://github.com/sakerbuild/saker.java.compiler](https://github.com/sakerbuild/saker.java.compiler)
++ 动态编译 [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
 + 打包 [https://github.com/shevek/jarjar](https://github.com/shevek/jarjar)
-+ [https://github.com/janino-compiler/janino](https://github.com/janino-compiler/janino)
 + [https://github.com/codehaus-plexus/plexus-compiler](https://github.com/codehaus-plexus/plexus-compiler)
 + [https://github.com/eclipse/eclipse.jdt.core](https://github.com/eclipse/eclipse.jdt.core)
 + [https://www.jetbrains.com/help/idea/java-compiler.html](https://www.jetbrains.com/help/idea/java-compiler.html)
@@ -40,11 +40,12 @@
     + [https://sourceforge.net/projects/findbugs](https://sourceforge.net/projects/findbugs)
     + [https://github.com/KengoTODA/findbugs-slf4j](https://github.com/KengoTODA/findbugs-slf4j)
 + [https://github.com/pascal-lab/Tai-e](https://github.com/pascal-lab/Tai-e)
-
++ JAR文件分析 [https://github.com/kordamp/jarviz](https://github.com/kordamp/jarviz)
 
 
 - [https://github.com/topics/classloader](https://github.com/topics/classloader)
 - [https://github.com/technomancy/leiningen](https://github.com/technomancy/leiningen)
+- [https://java-source.net](https://java-source.net)
 
 * [原来实现项目多环境打包部署是如此的简单](https://www.cnblogs.com/hafiz/p/7559976.html)
 
@@ -55,6 +56,7 @@
 * [https://github.com/izpack/izpack](https://github.com/izpack/izpack)
     * [https://sourceforge.net/projects/packjacket](https://sourceforge.net/projects/packjacket)
 * [https://sourceforge.net/projects/launch4j](https://sourceforge.net/projects/launch4j)
+    * [https://github.com/orphan-oss/launch4j-maven-plugin](https://github.com/orphan-oss/launch4j-maven-plugin)
 * [https://github.com/poidasmith/winrun4j](https://github.com/poidasmith/winrun4j)
 * [https://sourceforge.net/projects/vainstall](https://sourceforge.net/projects/vainstall)
 * [https://github.com/BrunoReX/jsmooth](https://github.com/BrunoReX/jsmooth)
