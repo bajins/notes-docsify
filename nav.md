@@ -102,6 +102,8 @@
 
   * [Python笔记](/Python/Python笔记.md)
 
+  * [Python第三方库](/Python/Python第三方库.md)
+
   * [人工智能](/Python/人工智能.md)
 
 * [SQL](/SQL/README.md)
