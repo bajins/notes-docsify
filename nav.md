@@ -1,5 +1,23 @@
 * [files](/files.md)
 
+* [DBS](/DBS/README.md)
+
+  * [MySQL](/DBS/MySQL.md)
+
+  * [MySQL事件](/DBS/MySQL事件.md)
+
+  * [MySQL备份恢复](/DBS/MySQL备份恢复.md)
+
+  * [MySQL存储过程](/DBS/MySQL存储过程.md)
+
+  * [MySQL安装配置](/DBS/MySQL安装配置.md)
+
+  * [mysql-udf安装](/DBS/mysql-udf安装.md)
+
+  * [关系型SQL标准](/DBS/关系型SQL标准.md)
+
+  * [关系型数据库](/DBS/关系型数据库.md)
+
 * [Go](/Go/README.md)
 
   * [GoGUI](/Go/GoGUI.md)
@@ -105,24 +123,6 @@
   * [Python第三方库](/Python/Python第三方库.md)
 
   * [人工智能](/Python/人工智能.md)
-
-* [SQL](/SQL/README.md)
-
-  * [MySQL](/SQL/MySQL.md)
-
-  * [MySQL事件](/SQL/MySQL事件.md)
-
-  * [MySQL备份恢复](/SQL/MySQL备份恢复.md)
-
-  * [MySQL存储过程](/SQL/MySQL存储过程.md)
-
-  * [MySQL安装配置](/SQL/MySQL安装配置.md)
-
-  * [mysql-udf安装](/SQL/mysql-udf安装.md)
-
-  * [关系型SQL标准](/SQL/关系型SQL标准.md)
-
-  * [关系型数据库](/SQL/关系型数据库.md)
 
 * [Shell](/Shell/README.md)
 

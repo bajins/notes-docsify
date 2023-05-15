@@ -74,7 +74,10 @@
 * book阅读 [https://github.com/johnfactotum/foliate](https://github.com/johnfactotum/foliate)
 * 并发 [https://github.com/rxaviers/async-pool](https://github.com/rxaviers/async-pool)
 * 控制导入行为 [https://github.com/WICG/import-maps](https://github.com/WICG/import-maps)
+* [https://github.com/humanwhocodes/module-importer](https://github.com/humanwhocodes/module-importer)
 * 进度 [https://github.com/search?q=progress](https://github.com/search?q=progress)
+* ESLint [ https://github.com/eslint]( https://github.com/eslint)
+* [https://github.com/humanwhocodes/config-array](https://github.com/humanwhocodes/config-array)
 
 
 
@@ -280,6 +283,8 @@
     * [https://github.com/Ctrl-Ling/XLSX-Style-Utils](https://github.com/Ctrl-Ling/XLSX-Style-Utils)
     * [https://github.com/skyrocks/x-xlsx-style](https://github.com/skyrocks/x-xlsx-style)
     * [https://github.com/duhaohao/xlsx-styleable](https://github.com/duhaohao/xlsx-styleable)
+    * [使用js-xlsx简单实现一个导入excel](https://juejin.cn/post/6844903902718984205)
+    * [操作excel的js工具库 - XLSX的使用方法](https://segmentfault.com/a/1190000041778721)
 * [https://github.com/d-band/better-xlsx](https://github.com/d-band/better-xlsx)
 * [https://github.com/dream-num/Luckysheet](https://github.com/dream-num/Luckysheet)
 * [https://github.com/dream-num/Luckyexcel](https://github.com/dream-num/Luckyexcel)
