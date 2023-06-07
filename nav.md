@@ -32,7 +32,7 @@
 
 * [IDE](/IDE/README.md)
 
-  * [Chrome](/IDE/Chrome.md)
+  * [Chromium](/IDE/Chromium.md)
 
   * [Eclipse](/IDE/Eclipse.md)
 
