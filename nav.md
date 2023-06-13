@@ -82,15 +82,7 @@
 
   * [Bookmarks](/Other/Bookmarks.md)
 
-  * [C](/Other/C.md)
-
-  * [CPlusPlus](/Other/CPlusPlus.md)
-
-  * [CSharp](/Other/CSharp.md)
-
   * [Markdown](/Other/Markdown.md)
-
-  * [Rust](/Other/Rust.md)
 
   * [专业术语](/Other/专业术语.md)
 
@@ -102,15 +94,23 @@
 
   * [免费服务](/Other/免费服务.md)
 
-  * [其他编程语言](/Other/其他编程语言.md)
-
   * [加密认证](/Other/加密认证.md)
 
   * [技术概念](/Other/技术概念.md)
 
-  * [编程规范](/Other/编程规范.md)
+* [PL](/PL/README.md)
 
-  * [表达式和编码](/Other/表达式和编码.md)
+  * [C](/PL/C.md)
+
+  * [CPlusPlus](/PL/CPlusPlus.md)
+
+  * [CSharp](/PL/CSharp.md)
+
+  * [Rust](/PL/Rust.md)
+
+  * [编程规范](/PL/编程规范.md)
+
+  * [表达式和编码](/PL/表达式和编码.md)
 
 * [Python](/Python/README.md)
 
