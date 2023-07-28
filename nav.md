@@ -110,6 +110,8 @@
 
   * [技术概念](/PL/技术概念.md)
 
+  * [文档处理](/PL/文档处理.md)
+
   * [硬件交互](/PL/硬件交互.md)
 
   * [编程规范](/PL/编程规范.md)
@@ -166,6 +168,8 @@
 
   * [Linux配置](/System/Linux配置.md)
 
+  * [Nginx](/System/Nginx.md)
+
   * [Windows](/System/Windows.md)
 
   * [Windows软件](/System/Windows软件.md)
@@ -191,7 +195,5 @@
   * [JavaScript笔记](/Web/JavaScript笔记.md)
 
   * [JavaScript第三方库](/Web/JavaScript第三方库.md)
-
-  * [Nginx](/Web/Nginx.md)
 
   * [NodeJS](/Web/NodeJS.md)
