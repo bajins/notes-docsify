@@ -134,8 +134,6 @@
 
 * [Shell](/Shell/README.md)
 
-  * [ExcelScript](/Shell/ExcelScript.md)
-
   * [PowerShell](/Shell/PowerShell.md)
 
   * [PowerShell命令](/Shell/PowerShell命令.md)
@@ -151,6 +149,8 @@
   * [WindowsJScript](/Shell/WindowsJScript.md)
 
   * [WindowsScript](/Shell/WindowsScript.md)
+
+  * [WindowsVBAScript](/Shell/WindowsVBAScript.md)
 
   * [WindowsVBScript](/Shell/WindowsVBScript.md)
 
