@@ -48,12 +48,14 @@
 - MAC取证 [https://github.com/jipegit/OSXAuditor](https://github.com/jipegit/OSXAuditor)
 - IOS越狱 [https://github.com/palera1n](https://github.com/palera1n)
 - [https://github.com/lwouis/alt-tab-macos](https://github.com/lwouis/alt-tab-macos)
+- [https://github.com/opa334/TrollStore](https://github.com/opa334/TrollStore)
 - 用文字找照片 [https://github.com/mazzzystar/Queryable](https://github.com/mazzzystar/Queryable)
 - MAC备份 [https://github.com/lra/mackup](https://github.com/lra/mackup)
 - 模拟定位 [https://github.com/Schlaubischlump/LocationSimulator](https://github.com/Schlaubischlump/LocationSimulator)
 - 隐藏菜单栏 [https://github.com/Mortennn/Dozer](https://github.com/Mortennn/Dozer)
 - [https://github.com/acidanthera](https://github.com/acidanthera)
 - [https://github.com/ivoronin/TomatoBar](https://github.com/ivoronin/TomatoBar)
+- 翻译 [https://github.com/tisfeng/Easydict](https://github.com/tisfeng/Easydict)
 
 
 ## IOS框架

@@ -91,6 +91,8 @@
     * [https://redhatofficial.github.io](https://redhatofficial.github.io)
 * [https://github.com/airbnb](https://github.com/airbnb)
 * [https://github.com/nytimes](https://github.com/nytimes)
+* [https://github.com/jpmorganchase](https://github.com/jpmorganchase)
+* [https://github.com/teslamotors](https://github.com/teslamotors)
 
 
 - [https://github.com/TogetherOS](https://github.com/TogetherOS)
@@ -219,6 +221,8 @@
 * 环境设置 [https://github.com/josean-dev/dev-environment-files](https://github.com/josean-dev/dev-environment-files)
 * 游戏多语言实现 [https://github.com/coding-horror/basic-computer-games](https://github.com/coding-horror/basic-computer-games)
 
+
+- [https://github.com/florinpop17/app-ideas](https://github.com/florinpop17/app-ideas)
 
 
 ## 语词法解析器
