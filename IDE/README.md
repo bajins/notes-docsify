@@ -86,6 +86,10 @@
 - 需求生成文档 [https://github.com/geekan/MetaGPT](https://github.com/geekan/MetaGPT)
 - SQL助手AI [https://github.com/chat2db/Chat2DB](https://github.com/chat2db/Chat2DB)
 - [https://github.com/defog-ai/sqlcoder](https://github.com/defog-ai/sqlcoder)
+- [https://github.com/SuperDuperDB/superduperdb](https://github.com/SuperDuperDB/superduperdb)
+- 代码搜索 [https://github.com/ast-grep/ast-grep](https://github.com/ast-grep/ast-grep)
+- 可视化前端设计 [https://github.com/webstudio-is/webstudio](https://github.com/webstudio-is/webstudio)
+- 前端远程调试 [https://github.com/HuolalaTech/page-spy-web](https://github.com/HuolalaTech/page-spy-web)
 
 
 + [技术|什么是 CI/CD？](https://linux.cn/article-9926-1.html)
@@ -430,6 +434,7 @@
     * [https://github.com/gabrielxvx/zh-fiddler](https://github.com/gabrielxvx/zh-fiddler)
     * [Fiddler抓包工具总结](https://www.cnblogs.com/yyhh/p/5140852.html)
     * [Windows抓包指南①：Proxifier+Fiddler对第三方程序强制抓包](https://www.52pojie.cn/thread-976016-1-1.html)
+* [https://github.com/zobor/bproxy](https://github.com/zobor/bproxy)
 * [https://github.com/justcoding121/Titanium-Web-Proxy](https://github.com/justcoding121/Titanium-Web-Proxy)
 * [https://github.com/BornToBeRoot/NETworkManager](https://github.com/BornToBeRoot/NETworkManager)
 * [https://github.com/microsoft/ethr](https://github.com/microsoft/ethr)
