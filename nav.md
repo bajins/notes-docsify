@@ -104,6 +104,8 @@
 
   * [交互协议](/PL/交互协议.md)
 
+  * [人工智能](/PL/人工智能.md)
+
   * [加密认证](/PL/加密认证.md)
 
   * [容器虚拟机](/PL/容器虚拟机.md)
@@ -129,8 +131,6 @@
   * [Python笔记](/Python/Python笔记.md)
 
   * [Python第三方库](/Python/Python第三方库.md)
-
-  * [人工智能](/Python/人工智能.md)
 
 * [Shell](/Shell/README.md)
 
