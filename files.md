@@ -26,13 +26,21 @@
 
 [fix-footer-window-bottom-sticky.html](/files/fix-footer-window-bottom-sticky.html ':ignore')
 
+[gradle-wrapper.properties](/files/gradle-wrapper.properties ':ignore')
+
 [horizontal-arrangement-flex.html](/files/horizontal-arrangement-flex.html ':ignore')
 
 [horizontal-arrangement-float-left.html](/files/horizontal-arrangement-float-left.html ':ignore')
 
 [horizontal-arrangement-inline-block.html](/files/horizontal-arrangement-inline-block.html ':ignore')
 
+[init.gradle](/files/init.gradle ':ignore')
+
+[init.gradle.kts](/files/init.gradle.kts ':ignore')
+
 [round-progress-bar.html](/files/round-progress-bar.html ':ignore')
+
+[settings.gradle](/files/settings.gradle ':ignore')
 
 [settings.xml](/files/settings.xml ':ignore')
 
