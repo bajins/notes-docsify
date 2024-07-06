@@ -8,6 +8,8 @@
 
 [IDEA设置.zip](/files/IDEA设置.zip ':ignore')
 
+[JDK版本生命周期.html](/files/JDK版本生命周期.html ':ignore')
+
 [MediaQueriesExample.html](/files/MediaQueriesExample.html ':ignore')
 
 [circle-progress-bar.html](/files/circle-progress-bar.html ':ignore')
