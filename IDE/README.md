@@ -183,6 +183,8 @@
     * [https://sr.ht](https://sr.ht)
 * [https://pagure.io](https://pagure.io)
 * [https://github.com/bitkeeper-scm/bitkeeper](https://github.com/bitkeeper-scm/bitkeeper)
+* [https://github.com/jj-vcs/jj](https://github.com/jj-vcs/jj)
+    * [https://steveklabnik.github.io/jujutsu-tutorial](https://steveklabnik.github.io/jujutsu-tutorial)
 
 
 

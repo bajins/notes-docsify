@@ -225,6 +225,7 @@
 * 串行Flash通用驱动 [https://github.com/armink/SFUD](https://github.com/armink/SFUD)
 * SSH [https://github.com/libssh2/libssh2](https://github.com/libssh2/libssh2)
 * 布隆过滤器 [https://github.com/upbit/bloomfilter](https://github.com/upbit/bloomfilter)
+    * [https://llimllib.github.io/bloomfilter-tutorial/zh_CN](https://llimllib.github.io/bloomfilter-tutorial/zh_CN)
 * 流媒体 [https://github.com/GStreamer/gstreamer](https://github.com/GStreamer/gstreamer)
 * SVG [https://github.com/TinyVG](https://github.com/TinyVG)
 * [https://github.com/uclouvain/openjpeg](https://github.com/uclouvain/openjpeg)
