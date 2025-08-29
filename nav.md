@@ -12,6 +12,10 @@
 
   * [MySQL安装配置](/DBS/MySQL安装配置.md)
 
+  * [Oracle](/DBS/Oracle.md)
+
+  * [PostgreSQL](/DBS/PostgreSQL.md)
+
   * [mysql-udf安装](/DBS/mysql-udf安装.md)
 
   * [关系型SQL标准](/DBS/关系型SQL标准.md)
