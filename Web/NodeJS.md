@@ -24,6 +24,10 @@
 * 基准测试 [https://github.com/RafaelGSS/nodejs-bench-operations](https://github.com/RafaelGSS/nodejs-bench-operations)
 * 实时协作 [https://github.com/partykit/partykit](https://github.com/partykit/partykit)
 * 版本支持情况 [https://github.com/williamkapke/node-compat-table](https://github.com/williamkapke/node-compat-table)
+* 统一工具 [https://github.com/0xchasercat/meow](https://github.com/0xchasercat/meow)
+    * [https://github.com/oxc-project/oxc](https://github.com/oxc-project/oxc)
+        * [https://playground.oxc.rs](https://playground.oxc.rs)
+* [https://github.com/voidzero-dev/vite-plus](https://github.com/voidzero-dev/vite-plus)
 
 
 > `node`执行脚本时获取参数`process.argv`数组，下标`0`为执行程序的绝对路径，下标`1`为脚本的绝对路径，

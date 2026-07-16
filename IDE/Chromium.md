@@ -592,6 +592,7 @@ taskkill /f /im chromedriver.exe
     * [https://git.nite07.com/nite/user-scripts](https://git.nite07.com/nite/user-scripts)
     * 小说下载 [https://github.com/404-novel-project/novel-downloader](https://github.com/404-novel-project/novel-downloader)
     * 微博 [https://greasyfork.org/zh-CN/scripts/by-site/weibo.com](https://greasyfork.org/zh-CN/scripts/by-site/weibo.com)
+    * [https://github.com/xxxily/h5player](https://github.com/xxxily/h5player)
 * 暴力猴 [https://github.com/violentmonkey/violentmonkey](https://github.com/violentmonkey/violentmonkey)
 * 脚本猫 [https://github.com/scriptscat](https://github.com/scriptscat)
 * 油猴 [https://github.com/greasemonkey/greasemonkey](https://github.com/greasemonkey/greasemonkey)

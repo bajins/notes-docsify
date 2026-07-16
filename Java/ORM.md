@@ -85,6 +85,7 @@
 ## JDBC驱动
 
 - [https://github.com/pgjdbc/pgjdbc](https://github.com/pgjdbc/pgjdbc)
+    - [https://jdbc.postgresql.org](https://jdbc.postgresql.org)
 - [https://github.com/xerial/sqlite-jdbc](https://github.com/xerial/sqlite-jdbc)
 - [https://github.com/arthurblake/log4jdbc](https://github.com/arthurblake/log4jdbc)
 - Microsoft Access [https://sourceforge.net/projects/ucanaccess](https://sourceforge.net/projects/ucanaccess)

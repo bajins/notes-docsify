@@ -87,6 +87,7 @@
 	* [https://www.reduxjs.cn](https://www.reduxjs.cn)
 * [https://github.com/onejs/one](https://github.com/onejs/one)
 * 状态管理 [https://github.com/pmndrs/valtio](https://github.com/pmndrs/valtio)
+* [https://github.com/pmndrs/zustand](https://github.com/pmndrs/zustand)
 * [https://github.com/facebookexperimental/Recoil](https://github.com/facebookexperimental/Recoil)
 	* [https://www.recoiljs.cn](https://www.recoiljs.cn)
 * [https://github.com/pulse-framework/pulse](https://github.com/pulse-framework/pulse)

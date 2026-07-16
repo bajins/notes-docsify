@@ -316,6 +316,7 @@
 + [https://w3techs.com/technologies/overview/content_delivery](https://w3techs.com/technologies/overview/content_delivery)
 
 
+* [https://github.com/tianrking/EdgeMirror](https://github.com/tianrking/EdgeMirror)
 * Cloudflare [https://github.com/cdnjs](https://github.com/cdnjs)
     * [https://cdnjs.com](https://cdnjs.com)
 * [https://github.com/mjackson/unpkg](https://github.com/mjackson/unpkg)

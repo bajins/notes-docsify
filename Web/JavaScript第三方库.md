@@ -118,7 +118,6 @@
 * ESLint [ https://github.com/eslint]( https://github.com/eslint)
     * [https://github.com/eslint-stylistic](https://github.com/eslint-stylistic)
     * [https://github.com/eslint-community](https://github.com/eslint-community)
-* [https://github.com/oxc-project/oxc](https://github.com/oxc-project/oxc)
 * [https://github.com/biomejs/biome](https://github.com/biomejs/biome)
 * [https://github.com/humanwhocodes/config-array](https://github.com/humanwhocodes/config-array)
 * 测试 [https://github.com/jestjs](https://github.com/jestjs)
@@ -148,6 +147,7 @@
 * [https://github.com/PlasmoHQ/plasmo](https://github.com/PlasmoHQ/plasmo)
 * [https://github.com/crxjs/chrome-extension-tools](https://github.com/crxjs/chrome-extension-tools)
 * CAPTCHA [https://github.com/tiagorangel1/cap](https://github.com/tiagorangel1/cap)
+* [https://github.com/mortspace/playcaptcha](https://github.com/mortspace/playcaptcha)
 * CSS Paged Media [https://github.com/pagedjs/pagedjs](https://github.com/pagedjs/pagedjs)
     * [https://docraptor.com/css-paged-media](https://docraptor.com/css-paged-media)
 * 字体加载器 [https://github.com/bramstein/fontfaceobserver](https://github.com/bramstein/fontfaceobserver)
@@ -290,6 +290,7 @@
 * 埋点 [https://github.com/M-cheng-web/web-tracing](https://github.com/M-cheng-web/web-tracing)
 * 校验 [https://github.com/yiminghe/async-validator](https://github.com/yiminghe/async-validator)
 * 提取颜色 [https://github.com/ppzreboot/k-colors.js](https://github.com/ppzreboot/k-colors.js)
+* 文件查看器 [https://github.com/flyfish-dev/file-viewer](https://github.com/flyfish-dev/file-viewer)
 
 
 - 数字精度 [https://github.com/topics/arbitrary-precision](https://github.com/topics/arbitrary-precision)
@@ -376,7 +377,9 @@
     * [https://github.com/darrachequesne/socket.io-sticky](https://github.com/darrachequesne/socket.io-sticky)
     * [https://github.com/indutny/sticky-session](https://github.com/indutny/sticky-session)
     * [https://github.com/wzrdtales/socket-io-sticky-session](https://github.com/wzrdtales/socket-io-sticky-session)
-
+* [https://github.com/stomp-js/stompjs](https://github.com/stomp-js/stompjs) STOMP即Simple (or Streaming) Text Orientated Messaging Protocol，简单(流)文本定向消息协议
+* [https://github.com/sockjs/sockjs-client](https://github.com/sockjs/sockjs-client) 基于 HTTP 的双向通信通道
+* Fetch [https://github.com/sindresorhus/ky](https://github.com/sindresorhus/ky)
 
 
 - [https://github.com/wicg/file-system-access](https://github.com/wicg/file-system-access)
@@ -492,6 +495,8 @@
     * [https://github.com/ecomfe/vue-echarts](https://github.com/ecomfe/vue-echarts)
     * [https://github.com/xieziyu/ngx-echarts](https://github.com/xieziyu/ngx-echarts)
 * [https://github.com/chartjs/Chart.js](https://github.com/chartjs/Chart.js)
+    * [https://chart.js.cn](https://chart.js.cn)
+    * [https://chart.nodejs.cn](https://chart.nodejs.cn)
 * [https://github.com/antvis/g2](https://github.com/antvis/g2)
 * [https://github.com/antvis/G2Plot](https://github.com/antvis/G2Plot)
 * [https://github.com/apexcharts/apexcharts.js](https://github.com/apexcharts/apexcharts.js)

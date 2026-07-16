@@ -291,6 +291,8 @@
 
 **插件**
 
+- [https://github.com/topics/maven-plugin](https://github.com/topics/maven-plugin)
+
 + maven-jar-plugin 默认的打包插件，用来打普通的project JAR包；
 + maven-shade-plugin 用来打可执行JAR包，也就是所谓的fat JAR包；
 + maven-assembly-plugin 支持自定义的打包结构，也可以定制依赖项等。
@@ -299,13 +301,12 @@
 + [https://github.com/takari/maven-wrapper](https://github.com/takari/maven-wrapper)
 + [https://github.com/mathieucarbou/license-maven-plugin](https://github.com/mathieucarbou/license-maven-plugin)
 + [https://github.com/pentaho/maven-parent-poms](https://github.com/pentaho/maven-parent-poms)
-+ [https://github.com/mojohaus/build-helper-maven-plugin](https://github.com/mojohaus/build-helper-maven-plugin)
-+ [https://github.com/maven-download-plugin](https://github.com/maven-download-plugin)
 + 构建自动清理 [https://github.com/castor-software/depclean](https://github.com/castor-software/depclean)
 + 模块化 [https://github.com/moditect/layrry](https://github.com/moditect/layrry)
 + [https://github.com/sormuras/modules](https://github.com/sormuras/modules)
 + 兼容模块化 [https://github.com/moditect/moditect](https://github.com/moditect/moditect)
 + 桌面应用打包 [https://github.com/wiverson/jtoolprovider-plugin](https://github.com/wiverson/jtoolprovider-plugin)
++ [https://github.com/Akman/jpackage-maven-plugin](https://github.com/Akman/jpackage-maven-plugin)
 + 检测旧版API [https://github.com/gaul/modernizer-maven-plugin](https://github.com/gaul/modernizer-maven-plugin)
 + [https://github.com/mojohaus/build-helper-maven-plugin](https://github.com/mojohaus/build-helper-maven-plugin)
 + 排序 [https://github.com/Ekryd/sortpom](https://github.com/Ekryd/sortpom)
@@ -317,6 +318,9 @@
     + [https://sourceforge.net/projects/proguard](https://sourceforge.net/projects/proguard)
 + [https://gitee.com/roseboy/classfinal](https://gitee.com/roseboy/classfinal)
 + 判断兼容性 [https://github.com/mojohaus/clirr-maven-plugin](https://github.com/mojohaus/clirr-maven-plugin)
++ 下载文件 [https://github.com/download-maven-plugin/download-maven-plugin](https://github.com/download-maven-plugin/download-maven-plugin)
++ [https://github.com/eirslett/frontend-maven-plugin](https://github.com/eirslett/frontend-maven-plugin)
++ [https://github.com/mojohaus/license-maven-plugin](https://github.com/mojohaus/license-maven-plugin)
 
 
 - [开源的一小步----开源类库传至Maven中央仓库](https://www.cnblogs.com/shook/p/14415856.html)

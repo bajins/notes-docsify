@@ -120,6 +120,7 @@
 
 ## 音视频
 
+* [https://github.com/laoma2053/awesome-zhuiju-free](https://github.com/laoma2053/awesome-zhuiju-free)
 * [https://tools.liumingye.cn](https://tools.liumingye.cn)
 * 阿木影视 [https://www.aosk.online](https://www.aosk.online)
 * 电影推荐（分类别致） [http://www.mvcat.com](http://www.mvcat.com)
@@ -165,6 +166,7 @@
 - 白噪音 [https://ambiph.one](https://ambiph.one)
 - [https://soundbox.fun](https://soundbox.fun)
 - [https://www.ppbzy.com](https://www.ppbzy.com)
+- [https://www.yamanote.fun](https://www.yamanote.fun)
 - 视频编辑 [https://pikimov.com](https://pikimov.com)
 - 儿童睡前故事 [https://beddystories.com/zh](https://beddystories.com/zh)
 - 儿歌 [https://beddysongs.com/zh](https://beddysongs.com/zh)
@@ -176,6 +178,7 @@
 
 * 码力全开（产品/设计师/独立开发者的资源库） [https://www.maliquankai.com/designnav](https://www.maliquankai.com/designnav)
 * 免费音频素材 [https://icons8.cn/music](https://icons8.cn/music)
+* [https://icons8.cn/lunacy](https://icons8.cn/lunacy)
 * 新CG儿（视频素材模板，无水印+免费下载） [https://www.newcger.com](https://www.newcger.com)
 * 开发人员设计资源 [https://github.com/bradtraversy/design-resources-for-developers](https://github.com/bradtraversy/design-resources-for-developers)
 * [https://kingdee.design](https://kingdee.design)

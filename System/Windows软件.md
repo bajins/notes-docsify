@@ -138,6 +138,7 @@
 * [https://github.com/dtube](https://github.com/dtube)
 * [https://github.com/yggdrasil-network](https://github.com/yggdrasil-network)
 * [https://github.com/zulip/zulip](https://github.com/zulip/zulip)
+* [https://github.com/simplex-chat/simplex-chat](https://github.com/simplex-chat/simplex-chat)
 * 视频通话 [https://github.com/miroslavpejic85/call-me](https://github.com/miroslavpejic85/call-me)
 
 
@@ -620,7 +621,6 @@
 * [https://www.apowersoft.com/photo-viewer](https://www.apowersoft.com/photo-viewer)
 * [https://www.fenrir-inc.com/jp/snapcrab](https://www.fenrir-inc.com/jp/snapcrab)
 * [https://www.nyam.pe.kr/dev/imagine](https://www.nyam.pe.kr/dev/imagine)
-* [http://www.photoscape.org](http://www.photoscape.org)
 * [https://cn.bandisoft.com/honeyview](https://cn.bandisoft.com/honeyview)
 * [https://www.freshdevices.com](https://www.freshdevices.com)
 * [https://www.meitu.com](https://www.meitu.com)
@@ -638,8 +638,46 @@
 * [https://github.com/AkiraBit/PicSharp](https://github.com/AkiraBit/PicSharp)
 * 上传并获取图片URL [https://github.com/Molunerfinn/PicGo](https://github.com/Molunerfinn/PicGo)
 * [https://www.polaxiong.com](https://www.polaxiong.com)
-* [https://icons8.cn/lunacy](https://icons8.cn/lunacy)
-* [https://www.getpaint.net](https://www.getpaint.net)
+* 3D创作 [https://www.blender.org](https://www.blender.org)
+* 提高分辨率 [https://github.com/Djdefrag/QualityScaler](https://github.com/Djdefrag/QualityScaler)
+* [图像校正和漂白工具 PM lite](https://www.52pojie.cn/thread-1880475-1-1.html)
+* 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
+* [https://github.com/dxcweb/watermark](https://github.com/dxcweb/watermark)
+* 模拟iPhone截图 [https://shots.so](https://shots.so)
+* [https://app.jellylade.com](https://app.jellylade.com)
+* [图片分割工具带实时预览](https://www.52pojie.cn/thread-2077339-1-1.html)
+
+
+**Icon矢量图**
+
+* [https://github.com/inkscape/inkscape](https://github.com/inkscape/inkscape)
+    * [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
+    * [https://inkscape.org/zh-hans](https://inkscape.org/zh-hans)
+    * [https://github.com/topics/inkscape](https://github.com/topics/inkscape)
+* [https://github.com/svg](https://github.com/svg)
+* [https://github.com/ImageMagick](https://github.com/ImageMagick)
+    * [https://github.com/dlemstra/magick-wasm](https://github.com/dlemstra/magick-wasm)
+* [https://icofx.ro](https://icofx.ro)
+* Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
+* [https://amadine.com](https://amadine.com)
+* [ICO 图标生成工具](https://www.52pojie.cn/thread-2036949-1-1.html)
+
+
+**Photoshop**
+
+* [https://github.com/search?q=Photoshop](https://github.com/search?q=Photoshop)
+* Adobe替代品 [https://github.com/KenneyNL/Adobe-Alternatives](https://github.com/KenneyNL/Adobe-Alternatives)
+* [https://www.affinity.studio](https://www.affinity.studio)
+* TEAmo (茶末余香)
+* [https://sysin.cn/archive](https://sysin.cn/archive)
+* https://inmac.org
+* https://cmacapps.com
+* https://mac-torrent-download.net
+* https://tntzii.com
+* [https://github.com/webmproject/WebPShop](https://github.com/webmproject/WebPShop)
+* 图片编辑 [https://github.com/PintaProject/Pinta](https://github.com/PintaProject/Pinta)
+* [http://www.photoscape.org](http://www.photoscape.org)
+* [https://paint.net](https://paint.net)
 * [https://gitlab.gnome.org/GNOME/gimp](https://gitlab.gnome.org/GNOME/gimp)
     * [https://www.gimp.org](https://www.gimp.org)
 * [https://github.com/KDE/krita](https://github.com/KDE/krita)
@@ -654,46 +692,7 @@
 * [https://github.com/RawTherapee/RawTherapee](https://github.com/RawTherapee/RawTherapee)
     * [https://rawtherapee.com/downloads](https://rawtherapee.com/downloads)
 * 2D图片编辑 [https://github.com/PixiEditor/PixiEditor](https://github.com/PixiEditor/PixiEditor)
-* 3D创作 [https://www.blender.org](https://www.blender.org)
-* Icon矢量图 [https://github.com/inkscape/inkscape](https://github.com/inkscape/inkscape)
-    * [https://gitlab.com/inkscape/inkscape](https://gitlab.com/inkscape/inkscape)
-    * [https://inkscape.org/zh-hans](https://inkscape.org/zh-hans)
-* [https://github.com/svg](https://github.com/svg)
-* [https://github.com/ImageMagick](https://github.com/ImageMagick)
-    * [https://github.com/dlemstra/magick-wasm](https://github.com/dlemstra/magick-wasm)
-* [https://icofx.ro](https://icofx.ro)
-* Axialis-IconWorkshop 官网 [https://www.axialis.com/download/#software](https://www.axialis.com/download/#software)
-* [https://amadine.com](https://amadine.com)
-* [ICO 图标生成工具](https://www.52pojie.cn/thread-2036949-1-1.html)
-* 提高分辨率 [https://github.com/Djdefrag/QualityScaler](https://github.com/Djdefrag/QualityScaler)
-* [图像校正和漂白工具 PM lite](https://www.52pojie.cn/thread-1880475-1-1.html)
-* 水印 [https://github.com/topics/watermark](https://github.com/topics/watermark)
-* [https://github.com/dxcweb/watermark](https://github.com/dxcweb/watermark)
-* 模拟iPhone截图 [https://shots.so](https://shots.so)
-* [https://app.jellylade.com](https://app.jellylade.com)
-* [图片分割工具带实时预览](https://www.52pojie.cn/thread-2077339-1-1.html)
-* 图片编辑 [https://github.com/PintaProject/Pinta](https://github.com/PintaProject/Pinta)
 
-
-**Photoshop**
-
-* [https://github.com/search?q=Photoshop](https://github.com/search?q=Photoshop)
-* Adobe替代品 [https://github.com/KenneyNL/Adobe-Alternatives](https://github.com/KenneyNL/Adobe-Alternatives)
-* [https://www.affinity.studio](https://www.affinity.studio)
-* TEAmo (茶末余香)
-* [Adobe软件单独下载方法-官方](https://sleele.com/2019/05/05/adobe/)
-* [https://sysin.cn/archive](https://sysin.cn/archive)
-* 全套插件一键安装无限制版,无需填写注册码，直接点击“继续” https://cloud.189.cn/t/iqm6jiJJZBVv
-* Extensions Plus For PS CC https://lanzoui.com/iapsbaj
-* https://inmac.org
-* https://cmacapps.com
-* https://mac-torrent-download.net
-* https://tntzii.com
-* [https://github.com/webmproject/WebPShop](https://github.com/webmproject/WebPShop)
-
-+ [Adobe Photoshop键盘快捷键](https://helpx.adobe.com/cn/photoshop/using/default-keyboard-shortcuts.html)
-+ [Photoshop快捷键大全](http://www.ip138.com/photoshop)
-+ [最详细的PS快捷键大全](http://www.360doc.com/content/19/0507/02/9060464_833889392.shtml)
 
 
 ### Gif软件
@@ -1328,6 +1327,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
     * [https://sourceforge.net/projects/smartmontools](https://sourceforge.net/projects/smartmontools)
     * [https://sourceforge.net/projects/smartsuite](https://sourceforge.net/projects/smartsuite)
     * [https://github.com/ashaduri/gsmartcontrol](https://github.com/ashaduri/gsmartcontrol)
+    * [https://sourceforge.net/projects/gsmartcontrol](https://sourceforge.net/projects/gsmartcontrol)
     * [https://github.com/edisionnano/QDiskInfo](https://github.com/edisionnano/QDiskInfo)
 * [https://github.com/Seagate/openSeaChest](https://github.com/Seagate/openSeaChest)
 * [https://github.com/microsoft/diskspd](https://github.com/microsoft/diskspd)

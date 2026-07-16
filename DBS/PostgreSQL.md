@@ -11,9 +11,12 @@
 
 
 * [https://github.com/postgres/postgres](https://github.com/postgres/postgres)
-    * [http://postgres.cn/docs/14/catalogs.html](http://postgres.cn/docs/14/catalogs.html)
-    * [连接字符串](https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING)
-    * [https://jdbc.postgresql.org](https://jdbc.postgresql.org)
+    * [https://www.postgresql.org/download](https://www.postgresql.org/download)
+        * [https://github.com/EnterpriseDB/edb-installers](https://github.com/EnterpriseDB/edb-installers)
+        * [https://www.enterprisedb.com/download-postgresql-binaries](https://www.enterprisedb.com/download-postgresql-binaries)
+    * [https://github.com/postgres-cn/pgdoc-cn](https://github.com/postgres-cn/pgdoc-cn)
+        * [http://www.postgres.cn/docs/current/index.html](http://www.postgres.cn/docs/current/index.html)
+* [https://github.com/malisper/pgrust](https://github.com/malisper/pgrust)
 * [https://github.com/postgrespro](https://github.com/postgrespro)
 * [https://github.com/pgsty/pigsty](https://github.com/pgsty/pigsty)
 * [https://github.com/citusdata](https://github.com/citusdata)
@@ -56,6 +59,40 @@
 * [postgresql常见数值,字符,日期类型常见函数总结](https://blog.csdn.net/su377486/article/details/82722391)
 * [PostgreSQL学习手册(目录)](https://www.cnblogs.com/orangeform/archive/2012/06/08/2315679.html)
 * [PostgreSQL中的OID](https://www.jianshu.com/p/ffb833bd4fb5)
+
+
+
+```powershell
+# 初始化 https://www.postgresql.org/docs/current/app-initdb.html
+E:\ide\postgresql-17.10-2\pgsql\bin\pg_ctl.exe initdb -D "E:/ide/postgresql-17.10-2/data" -o "-E UTF8  --locale=Chinese_China.936 -U postgres -W -k -c shared_buffers=512MB -c max_connections=100"
+
+# 启动
+E:\ide\postgresql-17.10-2\pgsql\bin\pg_ctl.exe start -o "-p 5432 -c listen_addresses=*" -D "E:/ide/postgresql-17.10-2/data" -l "E:/ide/postgresql-17.10-2/pg.log"
+
+# 创建用户
+E:\ide\postgresql-17.10-2\pgsql\bin\createuser.exe -U postgres -P -e -d xxx
+# 数据库
+E:\ide\postgresql-17.10-2\pgsql\bin\createdb.exe -U postgres -O xxx -e xxx
+# 创建用户和数据库
+E:\ide\postgresql-17.10-2\pgsql\bin\psql.exe -U postgres -c "CREATE USER xxx WITH PASSWORD '123456';" -c "CREATE DATABASE xxx OWNER xxx;" -c "GRANT ALL PRIVILEGES ON DATABASE xxx TO xxx;"
+
+# 备份 使用自定义格式 (-F c) 或目录格式 (-F d) https://www.postgresql.org/docs/current/app-pgdump.html
+E:\ide\postgresql-17.10-2\pgsql\bin\pg_dump.exe -h "192.168.1.172" -p 5432 -U "readonly" -d "test" -v -j 5 -F c -f backup.dump
+
+# 恢复到同名模式（Schema）下 https://www.postgresql.org/docs/current/app-pgrestore.html
+E:\ide\postgresql-17.10-2\pgsql\bin\pg_restore.exe -h "127.0.0.1" -p 5432 -U "xxx" -d "xxx" -v -j 5 --no-owner --no-privileges "E:\ide\postgresql-17.10-2\backup.dump"
+
+E:\ide\postgresql-17.10-2\pgsql\bin\psql.exe -U postgres -d xxx -c "
+-- 重命名刚刚恢复的模式（Schema）
+ALTER SCHEMA test RENAME TO xxx;
+-- 修改search_path（搜索路径），修改后要断开连接，然后重新登录才会生效
+SET search_path = xxx, public;
+-- 让 postgres 用户永久使用新路径
+ALTER USER postgres SET search_path TO xxx, public;
+-- 让数据库的所有用户默认使用新路径
+ALTER DATABASE xxx SET search_path TO xxx, public;
+"
+```
 
 
 
