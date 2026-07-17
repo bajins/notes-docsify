@@ -802,6 +802,7 @@
 * [https://github.com/PDFCraftTool/pdfcraft](https://github.com/PDFCraftTool/pdfcraft)
 * [https://github.com/alam00000/bentopdf](https://github.com/alam00000/bentopdf)
 * 文件转换 [https://github.com/C4illin/ConvertX](https://github.com/C4illin/ConvertX)
+* [https://github.com/LoredCast/filewizard](https://github.com/LoredCast/filewizard)
 * 管理GPS路径 [https://github.com/Flomp/wanderer](https://github.com/Flomp/wanderer)
 * 共享localStorage [https://github.com/FrigadeHQ/remote-storage](https://github.com/FrigadeHQ/remote-storage)
 * 汇编写的论坛 [https://asm32.info/fossil/asmbb](https://asm32.info/fossil/asmbb)

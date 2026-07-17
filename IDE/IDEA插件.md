@@ -336,7 +336,7 @@
 * [https://github.com/godfather1103/p3c](https://github.com/godfather1103/p3c)
 * [https://github.com/amitdev/PMD-Intellij](https://github.com/amitdev/PMD-Intellij)
 * [https://qaplug.com](https://qaplug.com)
-* 保存时自动执行操作 [https://github.com/dubreuia/intellij-plugin-save-actions](https://github.com/dubreuia/intellij-plugin-save-actions)
+* 保存时自动执行 [https://github.com/dubreuia/intellij-plugin-save-actions](https://github.com/dubreuia/intellij-plugin-save-actions)
 
 
 **FindBugs-IDEA**

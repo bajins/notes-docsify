@@ -95,6 +95,7 @@
 * [https://github.com/returntocorp/semgrep](https://github.com/returntocorp/semgrep)
 * [https://github.com/CoderDream/refactoring-improving-the-design-of-existing-code](https://github.com/CoderDream/refactoring-improving-the-design-of-existing-code)
 * [https://github.com/pmd/pmd](https://github.com/pmd/pmd)
+    * [https://sourceforge.net/projects/pmd](https://sourceforge.net/projects/pmd)
 * [https://github.com/snyk/cli](https://github.com/snyk/cli)
 * [https://semmle.com](https://semmle.com)
     * [https://lgtm.com](https://lgtm.com)

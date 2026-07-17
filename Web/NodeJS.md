@@ -64,6 +64,7 @@
 - [https://github.com/nrwl/nx](https://github.com/nrwl/nx)
 - [https://github.com/vitejs/vite](https://github.com/vitejs/vite)
 - [https://github.com/evanw/esbuild](https://github.com/evanw/esbuild)
+    - [https://esbuild.github.io/try](https://esbuild.github.io/try)
 - [https://github.com/web-infra-dev](https://github.com/web-infra-dev)
 - [https://github.com/bower/bower](https://github.com/bower/bower)
 - [https://github.com/gulpjs/gulp](https://github.com/gulpjs/gulp)
