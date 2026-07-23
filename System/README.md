@@ -330,6 +330,7 @@
 * [https://github.com/cleanbrowsing/dnsperftest](https://github.com/cleanbrowsing/dnsperftest)
 * [https://github.com/folbricht/routedns](https://github.com/folbricht/routedns)
 * [https://github.com/shuLhan/rescached](https://github.com/shuLhan/rescached)
+* [https://github.com/hashicorp/mdns](https://github.com/hashicorp/mdns)
 * [https://www.knot-resolver.cz](https://www.knot-resolver.cz)
 * [https://github.com/TechnitiumSoftware/DnsServer](https://github.com/TechnitiumSoftware/DnsServer)
 * [https://github.com/gene-git/dns_tools](https://github.com/gene-git/dns_tools)

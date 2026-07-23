@@ -372,7 +372,7 @@
 + [https://asm.ow2.io](https://asm.ow2.io)
 + [http://asm.ow2.org](http://asm.ow2.org)
 + [https://github.com/cglib/cglib](https://github.com/cglib/cglib)
-+ [https://www.eclipse.org/aspectj](https://www.eclipse.org/aspectj)
++ [https://github.com/eclipse-aspectj](https://github.com/eclipse-aspectj)
 
 
 * 模板引擎生成输出文本 [https://github.com/apache/freemarker](https://github.com/apache/freemarker)

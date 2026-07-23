@@ -38,6 +38,7 @@
 + [https://github.com/policeman-tools/forbidden-apis](https://github.com/policeman-tools/forbidden-apis)
 + 消除NullPointerException [https://github.com/uber/NullAway](https://github.com/uber/NullAway)
 + 静态类型检查 [https://github.com/google/error-prone](https://github.com/google/error-prone)
++ checker-qual [https://github.com/typetools/checker-framework](https://github.com/typetools/checker-framework)
 + [https://github.com/TouK/sputnik](https://github.com/TouK/sputnik)
 + [https://github.com/soot-oss/soot](https://github.com/soot-oss/soot)
     + [https://github.com/soot-oss/SootUp](https://github.com/soot-oss/SootUp)

@@ -248,7 +248,6 @@
 - [https://github.com/cpp-linter](https://github.com/cpp-linter)
 - NTLM中继工具 [https://github.com/CCob/lsarelayx](https://github.com/CCob/lsarelayx)
 - Python绑定 [https://github.com/pybind](https://github.com/pybind)
-- 自动驾驶 [https://gitlab.com/autowarefoundation/autoware.auto](https://gitlab.com/autowarefoundation/autoware.auto)
 - [https://github.com/chipsalliance](https://github.com/chipsalliance)
 - 查找和替换文本 [https://github.com/lionello/fart-it](https://github.com/lionello/fart-it)
 - 模拟天文 [https://github.com/Stellarium/stellarium](https://github.com/Stellarium/stellarium)

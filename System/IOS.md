@@ -86,6 +86,7 @@
 - 电脑管理Iphone [https://github.com/iDescriptor/iDescriptor](https://github.com/iDescriptor/iDescriptor)
 - NTFS磁盘读写 [https://github.com/hoochanlon/Free-NTFS-for-Mac](https://github.com/hoochanlon/Free-NTFS-for-Mac)
 - 独立音量控制 [https://github.com/ronitsingh10/FineTune](https://github.com/ronitsingh10/FineTune)
+- USB-C线能做什么 [https://github.com/darrylmorley/whatcable](https://github.com/darrylmorley/whatcable)
 
 
 

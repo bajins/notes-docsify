@@ -6,7 +6,7 @@
 ## Flag
 
 * [https://github.com/topics/cygwin](https://github.com/topics/cygwin)
-* [http://www.cygwin.com](http://www.cygwin.com)
+* [https://www.cygwin.com](https://www.cygwin.com)
     * [Cygwin | silaoA的博客](https://silaoa.github.io/tags/Cygwin)
 
 
@@ -160,7 +160,8 @@ vim /etc/init.wsl
 
 
 * [https://osdn.net/projects/mingw](https://osdn.net/projects/mingw)
-* [http://mingw-w64.org](http://mingw-w64.org)
+* [https://www.mingw-w64.org](https://www.mingw-w64.org)
+    * [https://github.com/mingw-w64/mingw-w64](https://github.com/mingw-w64/mingw-w64)
     * [https://github.com/mirror/mingw-w64](https://github.com/mirror/mingw-w64)
 * 包管理 [https://packages.msys2.org](https://packages.msys2.org)
 * [https://gstreamer.freedesktop.org/data/pkg/windows](https://gstreamer.freedesktop.org/data/pkg/windows)

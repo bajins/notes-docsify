@@ -328,7 +328,6 @@
 
 * [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
 * [https://github.com/nashaofu/shell360](https://github.com/nashaofu/shell360)
-* [https://github.com/termius](https://github.com/termius)
 * [https://www.juicessh.com](https://www.juicessh.com)
     * [https://github.com/Sonelli](https://github.com/Sonelli)
 * [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
@@ -365,8 +364,10 @@
 * Xshell [https://www.netsarang.com](https://www.netsarang.com)
     * [https://www.xshell.com/zh/free-for-home-school](https://www.xshell.com/zh/free-for-home-school)
 * [https://termius.com/download](https://termius.com/download)
+    * [https://github.com/termius](https://github.com/termius)
     * [https://github.com/ArcSurge/Termius-Pro-zh_CN](https://github.com/ArcSurge/Termius-Pro-zh_CN)
     * `%LOCALAPPDATA%\Programs\Termius\resources`
+* [https://github.com/wilsonglasser/oryxis](https://github.com/wilsonglasser/oryxis)
 * [https://www.emtec.com/zoc](https://www.emtec.com/zoc)
 * [https://sysprogs.com/SmarTTY](https://sysprogs.com/SmarTTY)
 * [https://www.terminal.icu](https://www.terminal.icu)

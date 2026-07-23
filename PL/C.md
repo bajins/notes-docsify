@@ -186,7 +186,6 @@
 * Markdown [https://github.com/commonmark/cmark](https://github.com/commonmark/cmark)
 * [https://github.com/MDeiml/tree-sitter-markdown](https://github.com/MDeiml/tree-sitter-markdown)
 * PDF [https://github.com/ArtifexSoftware](https://github.com/ArtifexSoftware)
-* [https://ghostscript.com](https://ghostscript.com)
 * 加密 [https://github.com/bitcoin-core/secp256k1](https://github.com/bitcoin-core/secp256k1)
 * [https://github.com/apache/apr](https://github.com/apache/apr)
 * [https://github.com/B-Con/crypto-algorithms](https://github.com/B-Con/crypto-algorithms)

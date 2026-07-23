@@ -144,6 +144,8 @@
 - 地图 [https://github.com/makbn/java_leaflet](https://github.com/makbn/java_leaflet)
 - 兼容JDK1.8 [https://github.com/Scomponents/fx.versions.bridge](https://github.com/Scomponents/fx.versions.bridge)
 - Kotlin [https://github.com/hanggrian/ktfx](https://github.com/hanggrian/ktfx)
+- 媒体播放器 [https://github.com/open-ani/mediamp](https://github.com/open-ani/mediamp)
+- [https://github.com/caprica/vlcj](https://github.com/caprica/vlcj)
 
 
 

@@ -208,6 +208,7 @@
 * [https://mirrors.ibiblio.org](https://mirrors.ibiblio.org)
 * [https://mirror.yandex.ru](https://mirror.yandex.ru)
 * [https://dotsrc.org/mirrors](https://dotsrc.org/mirrors)
+* [https://mirror.kakao.com](https://mirror.kakao.com)
 
 
 ### 教育网镜像站

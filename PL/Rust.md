@@ -380,6 +380,7 @@ check-revoke = false
 - 验证代码安全 [https://github.com/spectralops](https://github.com/spectralops)
 - GraphQL [https://github.com/grafbase](https://github.com/grafbase)
 - 测试 [https://github.com/pact-foundation](https://github.com/pact-foundation)
+- [https://github.com/LukasKalbertodt/libtest-mimic](https://github.com/LukasKalbertodt/libtest-mimic)
 - 编码 [https://github.com/hsivonen/encoding_rs](https://github.com/hsivonen/encoding_rs)
 - MIME媒体类型 [https://github.com/bojand/infer](https://github.com/bojand/infer)
 - [https://github.com/wravery/webview2-rs](https://github.com/wravery/webview2-rs)

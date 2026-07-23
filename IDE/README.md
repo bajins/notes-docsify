@@ -89,6 +89,7 @@
 
 * [https://github.com/super-linter/super-linter](https://github.com/super-linter/super-linter)
 * [https://github.com/checkstyle/checkstyle](https://github.com/checkstyle/checkstyle)
+* [https://github.com/diffplug/spotless](https://github.com/diffplug/spotless)
 * [https://github.com/walkmod](https://github.com/walkmod)
 * [https://github.com/SonarSource](https://github.com/SonarSource)
     * [https://sonarcloud.io](https://sonarcloud.io)
@@ -96,7 +97,16 @@
 * [https://github.com/CoderDream/refactoring-improving-the-design-of-existing-code](https://github.com/CoderDream/refactoring-improving-the-design-of-existing-code)
 * [https://github.com/pmd/pmd](https://github.com/pmd/pmd)
     * [https://sourceforge.net/projects/pmd](https://sourceforge.net/projects/pmd)
+    * [https://github.com/apache/maven-pmd-plugin](https://github.com/apache/maven-pmd-plugin)
+    * [https://github.com/forcedotcom/code-analyzer](https://github.com/forcedotcom/code-analyzer)
+* [https://github.com/semgrep/semgrep](https://github.com/semgrep/semgrep)
+    * [https://github.com/0xdea/semgrep-rules](https://github.com/0xdea/semgrep-rules)
+    * [https://github.com/dgryski/semgrep-go](https://github.com/dgryski/semgrep-go)
+    * [https://github.com/elttam/semgrep-rules](https://github.com/elttam/semgrep-rules)
+    * [https://github.com/mindedsecurity/semgrep-rules-android-security](https://github.com/mindedsecurity/semgrep-rules-android-security)
+* [https://github.com/opengrep/opengrep](https://github.com/opengrep/opengrep)
 * [https://github.com/snyk/cli](https://github.com/snyk/cli)
+* [https://github.com/github/codeql](https://github.com/github/codeql)
 * [https://semmle.com](https://semmle.com)
     * [https://lgtm.com](https://lgtm.com)
 * [https://www.openhub.net](https://www.openhub.net)
@@ -504,6 +514,7 @@
 * [https://sourceforge.net/projects/mogwai](https://sourceforge.net/projects/mogwai)
 * [https://editor.ponyorm.com](https://editor.ponyorm.com)
 * [https://github.com/pgmodeler/pgmodeler](https://github.com/pgmodeler/pgmodeler)
+* 建模图表 [https://github.com/likec4/likec4](https://github.com/likec4/likec4)
 
 
 
