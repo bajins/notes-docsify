@@ -74,6 +74,7 @@
 * [https://github.com/alaingalvan](https://github.com/alaingalvan)
 * [https://github.com/vectorclass](https://github.com/vectorclass)
 * [https://github.com/electronicarts](https://github.com/electronicarts)
+* [https://github.com/Kistler-Group/sdbus-cpp](https://github.com/Kistler-Group/sdbus-cpp)
 * 内存分配 [https://github.com/foonathan/memory](https://github.com/foonathan/memory)
 * 微服务 [https://github.com/TarsCloud](https://github.com/TarsCloud)
 * 包管理 [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)

@@ -172,6 +172,7 @@
 - 摄像头监控 [https://github.com/ZoneMinder/zoneminder](https://github.com/ZoneMinder/zoneminder)
 - NAS [https://github.com/truenas](https://github.com/truenas)
 - [https://github.com/zvaultio](https://github.com/zvaultio)
+- 智能手表 [https://github.com/AsteroidOS](https://github.com/AsteroidOS)
 
 
 
@@ -712,6 +713,7 @@
 * 代码图 [https://github.com/Idered/chalk.ist](https://github.com/Idered/chalk.ist)
 * [https://github.com/abi/screenshot-to-code](https://github.com/abi/screenshot-to-code)
 * [https://github.com/daveearley/screenshot.rocks](https://github.com/daveearley/screenshot.rocks)
+* [https://github.com/AaronConlon/codia](https://github.com/AaronConlon/codia)
 * 封面图 [https://github.com/zobor/photo-relay](https://github.com/zobor/photo-relay)
 * [https://github.com/struy-cn/Y-TOC](https://github.com/struy-cn/Y-TOC)
 * [https://github.com/slince-zero/IMaker](https://github.com/slince-zero/IMaker)

@@ -17,7 +17,8 @@
 * [https://zhile.io](https://zhile.io)
     * `jetbrains-agent`(v3.2.0为2020.1.4及以下版本)/`FineAgent`/`plugin-fineagent`/`BetterIntelliJ`
     * `jetbrains-eval-reset`（[IDE Eval Reset](https://gitee.com/pengzhile/ide-eval-resetter)）v2.3.5为2021.2.4(2021.2.3起需要登录)及以下版本重置试用插件
-    * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter) 2021.3(2022.1起弃用`mymap`插件)-2023.1.4可用
+    * [https://gitee.com/ja-netfilter](https://gitee.com/ja-netfilter)
+        * 默认自带拦截 2021.3(2022.1起弃用`mymap`插件)-2023.1.4可用
         * [https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power](https://intxzt.github.io/2022/07/25/ja-netfilter/ja-netfilter-plugins-power)
         * [https://jetbra.in/s](https://jetbra.in/s)
             * [https://github.com/jonssonyan/3.jetbra.in](https://github.com/jonssonyan/3.jetbra.in)
@@ -53,7 +54,6 @@
         * [https://github.com/jellymlg/jetbrains-agent](https://github.com/jellymlg/jetbrains-agent)
         * [https://github.com/NotoChen/Jetbrains-Help](https://github.com/NotoChen/Jetbrains-Help)
             * [https://gitee.com/guoyifanA/qiu-mo-jetbrains-help](https://gitee.com/guoyifanA/qiu-mo-jetbrains-help)
-            * [https://ide.mihuyo.cc](https://ide.mihuyo.cc)
         * [https://github.com/LemonZuo/license](https://github.com/LemonZuo/license)
         * [https://github.com/nannanStrawberry314/license](https://github.com/nannanStrawberry314/license)
             * [https://github.com/AnkioTomas/license](https://github.com/AnkioTomas/license)
@@ -87,8 +87,6 @@
 * [https://blog.novitechie.com](https://blog.novitechie.com)
 * [https://intxzt.github.io](https://intxzt.github.io)
 * [https://github.com/lianshufeng/Jrebel](https://github.com/lianshufeng/Jrebel)
-    * [https://jrebel.idoudou.me](https://jrebel.idoudou.me)
-    * [https://jrebel.com.cn](https://jrebel.com.cn)
 * [https://github.com/JAgentSphere/bytebuddy-agent-demo](https://github.com/JAgentSphere/bytebuddy-agent-demo)
 
 

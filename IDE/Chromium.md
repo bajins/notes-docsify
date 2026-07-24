@@ -32,6 +32,7 @@
 * [https://github.com/Tabbit-Browser](https://github.com/Tabbit-Browser)
     * [https://www.tabbit-ai.com](https://www.tabbit-ai.com)
     * [https://www.tabbitbrowser.com](https://www.tabbitbrowser.com)
+* [https://github.com/citrolabs/ego-lite](https://github.com/citrolabs/ego-lite)
 * 自动化浏览器操作 [https://github.com/Skyvern-AI/Skyvern](https://github.com/Skyvern-AI/Skyvern)
 * 无头浏览器 [https://github.com/lightpanda-io/browser](https://github.com/lightpanda-io/browser)
 * 虚拟浏览器 [https://github.com/m1k1o/neko](https://github.com/m1k1o/neko)

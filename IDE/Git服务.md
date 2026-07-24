@@ -213,6 +213,7 @@ volumes:
 * [https://github.com/Geekertao/CF-Workers-GitHub-Proxy](https://github.com/Geekertao/CF-Workers-GitHub-Proxy)
 * [https://cdn.jsdelivr.net](https://cdn.jsdelivr.net) 中国国内
     * [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
+* [https://suanli.cn/docs/platform/resource-acceleration](https://suanli.cn/docs/platform/resource-acceleration)
 
 
 - [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)

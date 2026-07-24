@@ -595,7 +595,7 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/purocean/yn](https://github.com/purocean/yn)
 * [https://github.com/c3er/mdview](https://github.com/c3er/mdview)
 * [https://github.com/flyhunterl/flymd](https://github.com/flyhunterl/flymd)
-* [https://github.com/flyhunterl/flymd]
+* [https://github.com/bruits/satteri](https://github.com/bruits/satteri)
 * MarkPad [https://github.com/Code52/DownmarkerWPF](https://github.com/Code52/DownmarkerWPF)
 * [Haroopad](http://pad.haroopress.com/user.html)
 * [https://github.com/MacDownApp/macdown](https://github.com/MacDownApp/macdown)
