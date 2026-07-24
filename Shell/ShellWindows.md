@@ -8,7 +8,9 @@
 * [https://github.com/topics/cygwin](https://github.com/topics/cygwin)
 * [https://www.cygwin.com](https://www.cygwin.com)
     * [Cygwin | silaoA的博客](https://silaoa.github.io/tags/Cygwin)
-
+* [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
+    * [https://vcpkg.io](https://vcpkg.io)
+    * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
 
 
 

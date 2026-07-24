@@ -77,8 +77,6 @@
 * [https://github.com/Kistler-Group/sdbus-cpp](https://github.com/Kistler-Group/sdbus-cpp)
 * 内存分配 [https://github.com/foonathan/memory](https://github.com/foonathan/memory)
 * 微服务 [https://github.com/TarsCloud](https://github.com/TarsCloud)
-* 包管理 [https://github.com/microsoft/vcpkg](https://github.com/microsoft/vcpkg)
-    * [适用于Windows，Linux和MacOS的C ++库管理器](https://docs.microsoft.com/zh-cn/cpp/build/vcpkg)
 * [https://github.com/ericniebler/range-v3](https://github.com/ericniebler/range-v3)
 * UI [https://github.com/ocornut/imgui](https://github.com/ocornut/imgui)
 * [https://github.com/cimgui/cimgui](https://github.com/cimgui/cimgui)

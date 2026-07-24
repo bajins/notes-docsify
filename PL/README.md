@@ -241,7 +241,6 @@
 
 * 调试器 [https://github.com/cs01/gdbgui](https://github.com/cs01/gdbgui)
 * [https://github.com/rizinorg/cutter](https://github.com/rizinorg/cutter)
-* 二维码生成 [https://github.com/nayuki/QR-Code-generator](https://github.com/nayuki/QR-Code-generator)
 * CPU仿真器框架 [https://github.com/unicorn-engine/unicorn](https://github.com/unicorn-engine/unicorn)
     * [https://github.com/hzqst/unicorn_pe](https://github.com/hzqst/unicorn_pe)
     * [https://github.com/DarthTon/Blackbone](https://github.com/DarthTon/Blackbone)
@@ -253,7 +252,6 @@
 * [https://github.com/jsha/minica](https://github.com/jsha/minica)
 * [https://github.com/selfcertificationhub/selfcertificationhub](https://github.com/selfcertificationhub/selfcertificationhub)
 * 域名本地别名 [https://github.com/peterldowns/localias](https://github.com/peterldowns/localias)
-* 软件逆向工程框架 [https://github.com/NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
 * 编码转换器 [https://github.com/gchq/CyberChef](https://github.com/gchq/CyberChef)
 * [https://github.com/mattnotmax/cyberchef-recipes](https://github.com/mattnotmax/cyberchef-recipes)
 * 近似成员过滤器 [https://github.com/FastFilter](https://github.com/FastFilter)

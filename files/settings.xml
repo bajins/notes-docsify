@@ -318,23 +318,23 @@ under the License.
                 <snapshots><enabled>false</enabled></snapshots>
             </repository>
             <!-- spring.io -->
-            <repository>
+            <!-- <repository>
                 <id>sprintio</id>
                 <url>https://repo.spring.io/libs-snapshot/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
-            </repository>
+            </repository> -->
             <!-- Google
             Google 镜像（美洲） https://maven-central.storage-download.googleapis.com/maven2/ 
             Google 镜像（欧洲） https://maven-central-eu.storage-download.googleapis.com/maven2/
             Google 镜像（亚太） https://maven-central-asia.storage-download.googleapis.com/maven2/
             -->
-            <repository>
+            <!-- <repository>
                 <id>google</id>
                 <url>https://maven.google.com/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
-            </repository>
+            </repository> -->
             <!-- https://gitverse.ru/docs/artifactory/registry-mirrors/mvn-mirror/ -->
             <repository>
                 <id>mvn-mirror</id>
@@ -409,19 +409,19 @@ under the License.
                 <snapshots><enabled>false</enabled></snapshots>
             </pluginRepository>
             <!-- spring.io -->
-            <pluginRepository>
+            <!-- <pluginRepository>
                 <id>sprintio</id>
                 <url>https://repo.spring.io/libs-snapshot/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
-            </pluginRepository>
+            </pluginRepository> -->
             <!-- Google -->
-            <pluginRepository>
+            <!-- <pluginRepository>
                 <id>google</id>
                 <url>https://maven.google.com/</url>
                 <releases><enabled>true</enabled></releases>
                 <snapshots><enabled>false</enabled></snapshots>
-            </pluginRepository>
+            </pluginRepository> -->
             <!-- https://gitverse.ru/docs/artifactory/registry-mirrors/mvn-mirror/ -->
             <pluginRepository>
                 <id>mvn-mirror</id>
