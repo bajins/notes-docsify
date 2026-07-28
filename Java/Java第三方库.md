@@ -797,6 +797,8 @@
 * [https://github.com/youseries/urule](https://github.com/youseries/urule)
 * [https://github.com/aalansehaiyang/risk-talk](https://github.com/aalansehaiyang/risk-talk)
 * [https://github.com/deonwu/ik-expression](https://github.com/deonwu/ik-expression)
+* 表达式求值器 [https://github.com/ezylang/EvalEx](https://github.com/ezylang/EvalEx)
+* [https://github.com/fasseg/exp4j](https://github.com/fasseg/exp4j)
 
 
 - 建模 [https://github.com/imixs/open-bpmn](https://github.com/imixs/open-bpmn)

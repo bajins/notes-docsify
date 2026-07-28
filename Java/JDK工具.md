@@ -158,12 +158,10 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 + [https://github.com/topics/disassembler](https://github.com/topics/disassembler)
 
 
-* [https://github.com/apache/commons-bcel](https://github.com/apache/commons-bcel)
 * [https://github.com/Konloch/bytecode-viewer](https://github.com/Konloch/bytecode-viewer)
 * [https://github.com/charles2gan/GDA-android-reversing-Tool](https://github.com/charles2gan/GDA-android-reversing-Tool)
 * [https://github.com/NationalSecurityAgency/ghidra](https://github.com/NationalSecurityAgency/ghidra)
 * JD-Core [https://github.com/java-decompiler](https://github.com/java-decompiler)
-   * [https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler](https://github.com/JetBrains/intellij-community/tree/master/plugins/java-decompiler)
    * [https://github.com/nbauma109/jd-core](https://github.com/nbauma109/jd-core)
       * [https://github.com/intoolswetrust/jd-cli](https://github.com/intoolswetrust/jd-cli)
    * [https://github.com/mfkvfhpdx/jd-gui-mfk](https://github.com/mfkvfhpdx/jd-gui-mfk)
@@ -206,6 +204,7 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * [https://www.sothink.com/product/javadecompiler](https://www.sothink.com/product/javadecompiler)
 * [https://github.com/horsicq/DIE-engine](https://github.com/horsicq/DIE-engine)
    * [https://github.com/horsicq/Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy)
+* class文件操作 [https://github.com/apache/commons-bcel](https://github.com/apache/commons-bcel)
 * [https://github.com/Col-E/Recaf](https://github.com/Col-E/Recaf)
 * `javap -verbose 文件` 查看class文件内容 [https://github.com/topics/bytecode](https://github.com/topics/bytecode)
 * 字节码查看器 [https://github.com/ingokegel/jclasslib](https://github.com/ingokegel/jclasslib)

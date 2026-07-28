@@ -85,6 +85,7 @@
 * [https://tasker.joaoapps.com](https://tasker.joaoapps.com)
 * [https://github.com/openatx/uiautomator2](https://github.com/openatx/uiautomator2)
 * [https://github.com/RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku)
+    * [https://github.com/UrkeJH/ShizukuDhizuku-list](https://github.com/UrkeJH/ShizukuDhizuku-list)
 
 
 **Auto.js**

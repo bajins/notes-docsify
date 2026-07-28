@@ -15,6 +15,16 @@
     * [https://orgmode.org](https://orgmode.org)
 * [https://github.com/geany/geany](https://github.com/geany/geany)
 * [https://www.nano-editor.org](https://www.nano-editor.org)
+    * Ctrl + O  保存（按回车确认）
+    * Ctrl + X  退出（有修改会提示保存）
+    * Ctrl + K  剪切当前行
+    * Ctrl + U  粘贴
+    * Ctrl + W  搜索（输入关键词按回车）
+    * Ctrl + G  查看帮助文档
+    * Ctrl + C  显示当前光标位置（行号/列号）
+    * Alt + U 撤销（部分版本支持）
+    * Alt + E 重做
+    * 💡 ^ = Ctrl 键，M- = Alt 键
 * [https://github.com/zyedidia/micro](https://github.com/zyedidia/micro)
 * [https://vim.org](https://vim.org)
     * [https://github.com/neoclide/coc.nvim](https://github.com/neoclide/coc.nvim)
