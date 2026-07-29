@@ -308,6 +308,9 @@
 * 游戏多语言实现 [https://github.com/coding-horror/basic-computer-games](https://github.com/coding-horror/basic-computer-games)
 * 查看二进制文件 [https://binvis.io](https://binvis.io)
 * 工具箱 [https://github.com/CorentinTh/it-tools](https://github.com/CorentinTh/it-tools)
+* 测试框架 [https://github.com/texttest/texttest](https://github.com/texttest/texttest)
+    * [https://sourceforge.net/projects/texttest](https://sourceforge.net/projects/texttest)
+* [https://github.com/approvals](https://github.com/approvals)
 
 
 

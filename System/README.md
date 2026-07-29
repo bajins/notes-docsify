@@ -158,6 +158,7 @@
 * 树莓派 [https://github.com/raspberrypi](https://github.com/raspberrypi)
     * [https://github.com/guysoft](https://github.com/guysoft)
     * [https://github.com/coolsnowwolf/lede](https://github.com/coolsnowwolf/lede)
+    * [https://github.com/thibmaek/awesome-raspberry-pi](https://github.com/thibmaek/awesome-raspberry-pi)
 * [https://github.com/pftf](https://github.com/pftf)
 
 

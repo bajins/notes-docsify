@@ -439,24 +439,26 @@
 
 * [https://github.com/apkonline/apk-downloader](https://github.com/apkonline/apk-downloader)
 * [https://github.com/rehmatworks/gplaydl](https://github.com/rehmatworks/gplaydl)
+* [https://github.com/Aefyr/SAI](https://github.com/Aefyr/SAI)
+* [https://github.com/SmartPack/PackageManager](https://github.com/SmartPack/PackageManager)
+* [https://kigelapps.com/xapkinstaller](https://kigelapps.com/xapkinstaller)
+* [https://apkcube.com](https://apkcube.com)
+    * https://apkcube.com/apk-downloader?url=
+    * [https://apps.evozi.com/apk-downloader](https://apps.evozi.com/apk-downloader)
+* [https://mi9.com](https://mi9.com)
+    * https://mi9.com/apk-downloader?package=
+* [https://www.appsapk.com/apk-downloader](https://www.appsapk.com/apk-downloader)
 * [https://apkpure.com](https://apkpure.com)
 * [https://www.apkmirror.com](https://www.apkmirror.com)
 * [https://cn.uptodown.com](https://cn.uptodown.com)
+    * [https://uptodown-apk-installer.cn.uptodown.com/android](https://uptodown-apk-installer.cn.uptodown.com/android)
 * [https://cn.aptoide.com](https://cn.aptoide.com)
 * [https://apkcombo.com](https://apkcombo.com)
 * [https://www.apkturbo.com](https://www.apkturbo.com)
-* [https://mi9.com](https://mi9.com)
 * [https://www.androidfreeware.net](https://www.androidfreeware.net)
 * [https://www.apk4fun.com](https://www.apk4fun.com)
-* [https://downloadapk.online](https://downloadapk.online)
 * [https://dlandroid.com](https://dlandroid.com)
 * [https://cn.apkshub.com](https://cn.apkshub.com)
-
-
-+ [https://apkpure.com/cn/developer/Microsoft%20Corporation](https://apkpure.com/cn/developer/Microsoft%20Corporation)
-+ [Microsoft Corporation](https://play.google.com/store/apps/dev?id=6720847872553662727)
-+ [https://m.apkpure.com/cn/developer/Google%20LLC](https://m.apkpure.com/cn/developer/Google%20LLC)
-+ [Google LLC](https://play.google.com/store/apps/dev?id=5700313618786177705)
 
 
 **破解软件下载**
@@ -600,6 +602,7 @@
 * [https://github.com/SimpleMobileTools/Simple-Gallery](https://github.com/SimpleMobileTools/Simple-Gallery)
 * 手机变成计算机的麦克风 [https://wolicheng.com/womic](https://wolicheng.com/womic)
 * 备份数据 [https://github.com/XayahSuSuSu/Android-DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup)
+* [https://github.com/NeoApplications/Neo-Backup](https://github.com/NeoApplications/Neo-Backup)
 * 投屏 [https://github.com/barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy)
 * [https://github.com/modstart-lib/linkandroid](https://github.com/modstart-lib/linkandroid)
 * 保活 [https://github.com/fgkeepalive/AndroidKeepAlive](https://github.com/fgkeepalive/AndroidKeepAlive)
@@ -662,6 +665,7 @@
 * [https://github.com/jenspfahl/EverydayTasks](https://github.com/jenspfahl/EverydayTasks)
 * 壁纸 [https://github.com/you-apps/WallYou](https://github.com/you-apps/WallYou)
 * 指南针 [https://github.com/CompassMB/MBCompass](https://github.com/CompassMB/MBCompass)
+* 去除系统应用 [https://github.com/sunilpaulmathew/De-Bloater](https://github.com/sunilpaulmathew/De-Bloater)
 
 
 

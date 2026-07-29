@@ -288,6 +288,7 @@
 * [https://github.com/francoismichel/ssh3](https://github.com/francoismichel/ssh3)
 * [https://github.com/mskyaxl/wsl-terminal](https://github.com/mskyaxl/wsl-terminal)
 * SSH密钥管理 [https://github.com/baerwang/ssh-atch](https://github.com/baerwang/ssh-atch)
+* iOS [https://github.com/blinksh/blink](https://github.com/blinksh/blink)
 
 
 
@@ -326,13 +327,21 @@
 + [https://github.com/search?q=SSH+client+for+Android](https://github.com/search?q=SSH+client+for+Android)
 
 
+* [https://github.com/GlassHaven/Haven](https://github.com/GlassHaven/Haven)
 * [https://github.com/connectbot/connectbot](https://github.com/connectbot/connectbot)
-* [https://github.com/nashaofu/shell360](https://github.com/nashaofu/shell360)
-* [https://www.juicessh.com](https://www.juicessh.com)
+    * [https://www.georgiasoftworks.com/connectbot-client-android](https://www.georgiasoftworks.com/connectbot-client-android)
+* [https://github.com/0xrushi/OpenJuiceSSH](https://github.com/0xrushi/OpenJuiceSSH)
+* [https://github.com/ebadenes/ShellDroid](https://github.com/ebadenes/ShellDroid)
+* [https://github.com/sr01/NectarSSH](https://github.com/sr01/NectarSSH)
+* [https://github.com/cfultz/smoothssh](https://github.com/cfultz/smoothssh)
+* ~~[https://www.juicessh.com](https://www.juicessh.com)~~ 最后版本`3.2.2`
     * [https://github.com/Sonelli](https://github.com/Sonelli)
+    * [https://github.com/li-yifei/JuiceSSHOfflineProFix](https://github.com/li-yifei/JuiceSSHOfflineProFix)
+* [https://github.com/deskangel/DaRemote](https://github.com/deskangel/DaRemote)
+    * [https://daremote.deskangel.com](https://daremote.deskangel.com)
+* [https://lobianco.de/lobishell-features](https://lobianco.de/lobishell-features)
 * [https://github.com/niklas-8/RemoteFiles](https://github.com/niklas-8/RemoteFiles)
 * [https://github.com/vx/connectbot](https://github.com/vx/connectbot)
-* [https://www.georgiasoftworks.com/connectbot-client-android](https://www.georgiasoftworks.com/connectbot-client-android)
 * [https://www.royalapps.com/ts/android/features](https://www.royalapps.com/ts/android/features)
 * [http://gaofeng.us](http://gaofeng.us)
 * [https://github.com/Koitharu/ToadLink](https://github.com/Koitharu/ToadLink)
@@ -345,11 +354,13 @@
     - [https://github.com/termux](https://github.com/termux)
     - [https://github.com/hanxinhao000/ZeroTermux](https://github.com/hanxinhao000/ZeroTermux)
 - [https://github.com/green-green-avk/AnotherTerm](https://github.com/green-green-avk/AnotherTerm)
+- [https://github.com/CypherpunkArmory/UserLAnd](https://github.com/CypherpunkArmory/UserLAnd)
 
 
-**GUI交互**
+**PC**
 
 * [https://github.com/TermoraDev/termora](https://github.com/TermoraDev/termora)
+* [https://github.com/nashaofu/shell360](https://github.com/nashaofu/shell360)
 * [https://github.com/kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm)
     * [https://github.com/aoyiduo/woterm](https://github.com/aoyiduo/woterm)
 * [https://gitlab.com/Remmina/Remmina](https://gitlab.com/Remmina/Remmina)
@@ -389,7 +400,7 @@
 
 
 
-### 终端复用器
+### 终端模拟
 
 + [https://github.com/topics/windows](https://github.com/topics/windows)
 + [https://github.com/topics/putty](https://github.com/topics/putty)
@@ -398,6 +409,7 @@
 
 * [https://github.com/wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
 * [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
+* [https://github.com/yorukot/superfile](https://github.com/yorukot/superfile)
 * [https://github.com/ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)
 * [https://github.com/openssh](https://github.com/openssh)
     * [https://www.openssh.com](https://www.openssh.com)

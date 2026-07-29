@@ -406,6 +406,7 @@ autorestart=true
 - `move-window -t 1` 移动当前窗口到 1 号
 - `tmux new -s 会话名 -d "命令"` 创建新会话并在后台执行命令
 - `tmux neww -n 窗口名 -d "命令"` 新建窗口名并在后台执行命令
+- `tmux detach-client` 退出
 
 
 **快捷键**
@@ -421,12 +422,44 @@ autorestart=true
 - <kbd>:new -s 会话名称</kbd> 创建并进入新的会话（不存在父子级关系）
 - <kbd>:kill-session</kbd> 删除当前会话
 - <kbd>:kill-server</kbd> 删除所有会话
-- <kbd>[</kbd>或<kbd>PgUp</kbd> 进入`copy mode`，查看`tmux`中的终端输出记录
+
+
+**查看`tmux`中的终端历史输出**
+
+- <kbd>[</kbd> 进入`copy mode`
+- <kbd>PgUp</kbd> 直接向上翻页
 
 > 用<kbd>PgUp</kbd>、<kbd>PgDn</kbd>、`光标` 浏览历史输出了，按<kbd>q</kbd>退出
 
 > `copy mode`其实比较类似于`vi`/`emacs`里面一个只读`buffer`，可以移动光标，可以搜索，用C-SPC开始选择，选择完后用
 > <kbd>M</kbd> + <kbd>w</kbd>拷贝(会自动退出`copy mode`)，<kbd>]</kbd>可以粘贴, <kbd>=</kbd>从剪贴板历史中选择。
+
+- 输出到文件：<kbd>Ctrl</kbd> + <kbd>B</kbd> 然后 <kbd>:</kbd>，输入 `capture-pane -S -1000` 再 `save-buffer ~/output.txt`
+
+
+**复制模式内的导航**
+
+进入复制模式后，你可以使用：
+- <kbd>↑</kbd> <kbd>↓</kbd> <kbd>←</kbd> <kbd>→</kbd> — 逐行/逐字符移动
+- <kbd>PageUp</kbd> / <kbd>PageDown</kbd> — 翻页
+- <kbd>Ctrl</kbd> + <kbd>u</kbd> / <kbd>Ctrl</kbd> + <kbd>d</kbd> — 半页滚动
+- <kbd>g</kbd> — 跳到历史顶部
+- <kbd>G</kbd> — 跳到历史底部
+- <kbd>/</kbd> — 搜索（按 <kbd>n</kbd> 下一个，<kbd>N</kbd> 上一个）
+
+> 如果快捷键不生效，确认你的终端没有拦截这些键（比如 iTerm2 或某些 SSH 客户端会占用 <kbd>Ctrl</kbd> + <kbd>B</kbd>）。
+
+
+**`~/.tmux.conf`配置，执行 `tmux source-file ~/.tmux.conf` 生效**
+
+```conf
+# 增加历史缓冲区大小
+set -g history-limit 10000
+# 启用 tmux 焦点事件
+set -g focus-events on
+# 用鼠标滚轮查看历史
+set -g mouse on
+```
 
 
 

@@ -52,6 +52,8 @@
     * [https://github.com/pontiussoftware/smb-nio](https://github.com/pontiussoftware/smb-nio)
 * [https://github.com/hierynomus/smbj](https://github.com/hierynomus/smbj)
 * [https://github.com/codelibs/jcifs](https://github.com/codelibs/jcifs)
+* SSH/SCP/SFTP [https://github.com/hierynomus/sshj](https://github.com/hierynomus/sshj)
+* [https://github.com/is/jsch](https://github.com/is/jsch)
 
 
 

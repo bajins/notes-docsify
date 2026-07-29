@@ -546,6 +546,7 @@ check-revoke = false
 * FlashPlayer模拟器 [https://github.com/ruffle-rs/ruffle](https://github.com/ruffle-rs/ruffle)
 * WIFI生命体征检测 [https://github.com/ruvnet/RuView](https://github.com/ruvnet/RuView)
 * 自然语言语法检测 [https://github.com/automattic/harper](https://github.com/automattic/harper)
+* 屏幕捕获 [https://github.com/nashaofu/xcap](https://github.com/nashaofu/xcap)
 
 
 
