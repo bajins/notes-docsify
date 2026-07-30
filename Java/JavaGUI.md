@@ -69,6 +69,8 @@
 - [https://github.com/piusalfred/ikonfx](https://github.com/piusalfred/ikonfx)
 - [https://github.com/openrndr/openrndr](https://github.com/openrndr/openrndr)
 - [https://github.com/weisJ/jsvg](https://github.com/weisJ/jsvg)
+- [https://github.com/css4j/echosvg](https://github.com/css4j/echosvg)
+- [https://github.com/jfree/jfreesvg](https://github.com/jfree/jfreesvg)
 - [https://github.com/hervegirod/fxsvgimage](https://github.com/hervegirod/fxsvgimage)
 - 图标包 [https://github.com/kordamp/ikonli](https://github.com/kordamp/ikonli) `[Java/JavaFX/Swing 图标]`
 - 扁平UI [https://github.com/JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf) `[Swing]`

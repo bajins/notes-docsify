@@ -486,6 +486,7 @@ request({
     * [https://github.com/ebidel/try-puppeteer](https://github.com/ebidel/try-puppeteer)
     * [https://github.com/berstend/puppeteer-extra](https://github.com/berstend/puppeteer-extra)
 * [https://github.com/microsoft/playwright](https://github.com/microsoft/playwright)
+    * [https://github.com/Skyvern-AI/Skyvern](https://github.com/Skyvern-AI/Skyvern)
 * [https://github.com/codeceptjs/CodeceptJS](https://github.com/codeceptjs/CodeceptJS)
 * [https://github.com/wix/Detox](https://github.com/wix/Detox)
 * [https://github.com/cypress-io/cypress](https://github.com/cypress-io/cypress)
