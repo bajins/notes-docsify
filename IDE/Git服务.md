@@ -217,6 +217,9 @@ volumes:
 
 
 - [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
+- [https://greasyfork.org/zh-CN/scripts/514032](https://greasyfork.org/zh-CN/scripts/514032)
+- [https://greasyfork.org/zh-CN/scripts/587965](https://greasyfork.org/zh-CN/scripts/587965)
+    - [https://github.com/Liora-Wells/UserScript](https://github.com/Liora-Wells/UserScript)
 - [https://github.com/chisaato/xt](https://github.com/chisaato/xt)
 - [https://github.com/fhefh2015/Fast-GitHub](https://github.com/fhefh2015/Fast-GitHub)
 - [https://github.com/maxiaof/github-hosts](https://github.com/maxiaof/github-hosts)

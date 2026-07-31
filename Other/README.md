@@ -606,6 +606,7 @@
 - [https://github.com/dammu/QidianAutoJs](https://github.com/dammu/QidianAutoJs)
 - [https://github.com/BowenZ217/qidian-decryptor](https://github.com/BowenZ217/qidian-decryptor)
 - [https://github.com/YsielX/qidian-crawler](https://github.com/YsielX/qidian-crawler)
+- [https://github.com/naiyQAQ/fanqie-assistant](https://github.com/naiyQAQ/fanqie-assistant)
 
 
 ### vue

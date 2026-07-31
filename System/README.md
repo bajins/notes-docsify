@@ -170,6 +170,7 @@
 - [https://github.com/mit-pdos](https://github.com/mit-pdos)
 - 华硕路由器固件 [https://github.com/RMerl/asuswrt-merlin.ng](https://github.com/RMerl/asuswrt-merlin.ng)
     - [https://sourceforge.net/projects/asuswrt-merlin](https://sourceforge.net/projects/asuswrt-merlin)
+- [https://github.com/Jaksay/Linux-Router](https://github.com/Jaksay/Linux-Router)
 - 摄像头监控 [https://github.com/ZoneMinder/zoneminder](https://github.com/ZoneMinder/zoneminder)
 - NAS [https://github.com/truenas](https://github.com/truenas)
 - [https://github.com/zvaultio](https://github.com/zvaultio)
@@ -273,6 +274,7 @@
 * [https://github.com/crocofied/PortNote](https://github.com/crocofied/PortNote)
 * GPU运行信息 [https://github.com/kagehq/gpu-kill](https://github.com/kagehq/gpu-kill)
 * 定时任务 [https://github.com/gocronx-team/gocron](https://github.com/gocronx-team/gocron)
+* 声音传输数据 [https://github.com/solst-ice/chirp](https://github.com/solst-ice/chirp)
 
 
 - 软件构建 [https://github.com/easybuilders](https://github.com/easybuilders)

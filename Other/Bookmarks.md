@@ -65,6 +65,7 @@
 * [https://medevel.com/tag/open-source](https://medevel.com/tag/open-source)
 * 用「编号 + 索引」组织资料/事项 [https://johnnydecimal.com](https://johnnydecimal.com)
 * 键盘学习 [https://jianpanzhushou.ababtools.com](https://jianpanzhushou.ababtools.com)
+* 围棋教程 [https://online-go.com/learn-to-play-go](https://online-go.com/learn-to-play-go)
 
 
 

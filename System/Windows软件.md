@@ -193,6 +193,7 @@
 * [https://github.com/kiwiirc](https://github.com/kiwiirc)
     * [https://freenode.net](https://freenode.net)
     * [https://webchat.freenode.net](https://webchat.freenode.net)
+* [https://github.com/AndySkaura/mifun-storage](https://github.com/AndySkaura/mifun-storage)
 
 
 + 搜索 [https://github.com/tgscan-dev/tgscan](https://github.com/tgscan-dev/tgscan)
@@ -218,6 +219,7 @@
 + [https://github.com/topics/filedownloader](https://github.com/topics/filedownloader)
 
 
+* [https://github.com/zerx-lab/FluxDown](https://github.com/zerx-lab/FluxDown)
 * [https://github.com/XiaoYouChR/Ghost-Downloader-3](https://github.com/XiaoYouChR/Ghost-Downloader-3)
 * [https://github.com/amir1376/ab-download-manager](https://github.com/amir1376/ab-download-manager)
 * [https://github.com/persepolisdm/persepolis](https://github.com/persepolisdm/persepolis)

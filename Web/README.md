@@ -203,6 +203,7 @@
 * [https://github.com/phachon/mm-wiki](https://github.com/phachon/mm-wiki)
 * [https://github.com/tangly1024/NotionNext](https://github.com/tangly1024/NotionNext)
 * [https://github.com/toeverything/AFFiNE](https://github.com/toeverything/AFFiNE)
+* 网页加密 [https://github.com/wangshengithub/staticshield](https://github.com/wangshengithub/staticshield)
 
 
 

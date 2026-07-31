@@ -542,6 +542,7 @@
 * [https://www.framer.com](https://www.framer.com)
 * [https://js.design](https://js.design)
 * [https://github.com/figma](https://github.com/figma)
+    * [https://github.com/awdr74100/figwright](https://github.com/awdr74100/figwright)
 * [https://dribbble.com](https://dribbble.com)
 * [https://www.uimaker.com](https://www.uimaker.com)
 * [https://www.banani.co](https://www.banani.co)

@@ -72,6 +72,7 @@
         * [https://github.com/wyx176/jrebel-license-server](https://github.com/wyx176/jrebel-license-server)
     * [https://greasyfork.org/zh-CN/scripts/by-site/linux.do](https://greasyfork.org/zh-CN/scripts/by-site/linux.do)
     * [https://github.com/anghunk/linuxdo-scripts](https://github.com/anghunk/linuxdo-scripts)
+    * [https://github.com/ywainzh/linuxdo-read-script](https://github.com/ywainzh/linuxdo-read-script)
 * [https://github.com/tikkid/JetbrainKiller](https://github.com/tikkid/JetbrainKiller/tree/92cc01f9baab488cc3d510793da7731b1f8e17a4) 最新免登录试用插件
     * [https://github.com/eltociear/JetbrainKiller](https://github.com/eltociear/JetbrainKiller)
     * [https://github.com/KoolieAid/JetbrainKiller](https://github.com/KoolieAid/JetbrainKiller)
