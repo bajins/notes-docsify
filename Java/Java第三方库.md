@@ -318,6 +318,7 @@
 - [https://github.com/zint/zint](https://github.com/zint/zint)
     - [https://sourceforge.net/projects/zint](https://sourceforge.net/projects/zint)
     - [https://github.com/woo-j/OkapiBarcode](https://github.com/woo-j/OkapiBarcode)
+- [https://github.com/vws-java/Barcode-Lib4J](https://github.com/vws-java/Barcode-Lib4J)
 - [https://sourceforge.net/projects/barcode4j](https://sourceforge.net/projects/barcode4j)
     - [https://github.com/SingingBush/barcode4j](https://github.com/SingingBush/barcode4j)
 - JBarcode [https://sourceforge.net/projects/jbcode](https://sourceforge.net/projects/jbcode)

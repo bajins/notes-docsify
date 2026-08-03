@@ -153,6 +153,7 @@
 * 字体加载器 [https://github.com/bramstein/fontfaceobserver](https://github.com/bramstein/fontfaceobserver)
 * 表单引擎 [https://github.com/surveyjs](https://github.com/surveyjs)
 * [https://github.com/formio/formio.js](https://github.com/formio/formio.js)
+* 画布设计器 [https://github.com/muaz-khan/Canvas-Designer](https://github.com/muaz-khan/Canvas-Designer)
 
 
 

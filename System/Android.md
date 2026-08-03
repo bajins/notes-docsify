@@ -342,6 +342,7 @@
 * 图像裁剪 [https://github.com/mike14u/croperino](https://github.com/mike14u/croperino)
 * [https://github.com/T8RIN/ImageToolbox](https://github.com/T8RIN/ImageToolbox)
 * 图表库 [https://github.com/PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
+* 缩放图片 [https://github.com/chrisbanes/PhotoView](https://github.com/chrisbanes/PhotoView)
 * 图像加载 [https://github.com/coil-kt/coil](https://github.com/coil-kt/coil)
 * Lottie动画 [https://github.com/orispok/OpenAnimationApp](https://github.com/orispok/OpenAnimationApp)
 * 翻页动效 [https://github.com/PureWriter/FullDraggableDrawer](https://github.com/PureWriter/FullDraggableDrawer)

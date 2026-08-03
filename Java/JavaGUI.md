@@ -72,6 +72,7 @@
 - [https://github.com/css4j/echosvg](https://github.com/css4j/echosvg)
 - [https://github.com/jfree/jfreesvg](https://github.com/jfree/jfreesvg)
 - [https://github.com/hervegirod/fxsvgimage](https://github.com/hervegirod/fxsvgimage)
+- [https://github.com/HanSolo/svgconverter](https://github.com/HanSolo/svgconverter)
 - 图标包 [https://github.com/kordamp/ikonli](https://github.com/kordamp/ikonli) `[Java/JavaFX/Swing 图标]`
 - 扁平UI [https://github.com/JFormDesigner/FlatLaf](https://github.com/JFormDesigner/FlatLaf) `[Swing]`
 - UI 控件 [https://github.com/controlsfx/controlsfx](https://github.com/controlsfx/controlsfx) `[JavaFX]`
@@ -99,17 +100,31 @@
 - 对话框 [https://github.com/AmirAli-AZ/FXDialogs](https://github.com/AmirAli-AZ/FXDialogs) `[JavaFX 对话框]`
 - [https://github.com/dustinkredmond/FXAlert](https://github.com/dustinkredmond/FXAlert) `[JavaFX 对话框/Alert]`
 - [https://github.com/Mr-Po/toasterfx](https://github.com/Mr-Po/toasterfx) `[JavaFX Toast]`
+- 表单 [https://github.com/dooapp/FXForm2](https://github.com/dooapp/FXForm2)
 - 表格 [https://github.com/techsenger/tabpanepro](https://github.com/techsenger/tabpanepro) `[JavaFX TabPane 扩展]`
 - 动画库 [https://github.com/Typhon0/AnimateFX](https://github.com/Typhon0/AnimateFX) `[JavaFX 动画]`
-- 仪表板 [https://github.com/HanSolo](https://github.com/HanSolo) `[JavaFX 仪表盘/图表/控件集合]`
+- 流程图 [https://github.com/miho/VWorkflows](https://github.com/miho/VWorkflows)
+- 仪表图表 [https://github.com/HanSolo](https://github.com/HanSolo) `[JavaFX 仪表盘/图表/控件集合]`
 - [https://github.com/fair-acc/chart-fx](https://github.com/fair-acc/chart-fx) `[JavaFX 科学图表]`
+- [https://github.com/jfree/jfreechart](https://github.com/jfree/jfreechart)
+- [https://github.com/jfree/orson-charts](https://github.com/jfree/orson-charts)
+    - [https://github.com/jfree/fxgraphics2d](https://github.com/jfree/fxgraphics2d)
+- [https://github.com/HumbleUI/skija](https://github.com/HumbleUI/skija)
 - 等离子画布 [https://github.com/bertjan/javafx-canvas-plasma](https://github.com/bertjan/javafx-canvas-plasma) `[JavaFX Canvas 演示]`
+- 画布设计器 [https://github.com/palexdev/architectfx](https://github.com/palexdev/architectfx)
+- [https://github.com/FXMisc/Flowless](https://github.com/FXMisc/Flowless)
+- [https://github.com/eckig/graph-editor](https://github.com/eckig/graph-editor)
+    - [https://github.com/tesis-dynaware/graph-editor](https://github.com/tesis-dynaware/graph-editor)
+- [https://github.com/eclipse-gef/gef](https://github.com/eclipse-gef/gef)
+- [https://github.com/alexbodogit/AnchorFX](https://github.com/alexbodogit/AnchorFX)
+- [https://github.com/graphstream/gs-ui-javafx](https://github.com/graphstream/gs-ui-javafx)
+- [https://github.com/jgrapht/jgrapht](https://github.com/jgrapht/jgrapht)
+- [https://github.com/JanKoehnlein/FXDiagram](https://github.com/JanKoehnlein/FXDiagram)
 - 进度条 [https://github.com/ctongfei/progressbar](https://github.com/ctongfei/progressbar) `[控制台进度条/非GUI]`
 - 3D [https://github.com/JogAmp](https://github.com/JogAmp) `[JOGL/OpenGL 3D 绑定]`
 - [https://github.com/kordamp/jsilhouette](https://github.com/kordamp/jsilhouette) `[JavaFX 3D]`
 - [https://github.com/saalfeldlab/paintera](https://github.com/saalfeldlab/paintera) `[JavaFX 3D 可视化/标注工具]`
 - [https://github.com/FXyz/FXyz](https://github.com/FXyz/FXyz) `[JavaFX 3D 形状/组件]`
-- [https://github.com/jfree/orson-charts](https://github.com/jfree/orson-charts) `[Java 2D 图表]`
 - 缩放 [https://github.com/miho/ScaledFX](https://github.com/miho/ScaledFX) `[JavaFX 缩放布局]`
 - [https://github.com/tom91136/GestureFX](https://github.com/tom91136/GestureFX) `[JavaFX 手势/缩放面板]`
 - 布局算法 [https://github.com/AmaronUI/amaronui-layouts](https://github.com/AmaronUI/amaronui-layouts) `[JavaFX Flexbox]`
@@ -122,6 +137,7 @@
 - [https://github.com/goxr3plus/FX-BorderlessScene](https://github.com/goxr3plus/FX-BorderlessScene)
 - 分离合并窗口 [https://github.com/Voidstack/docktailor](https://github.com/Voidstack/docktailor) `[JavaFX Docking/可拖拽窗口]`
 - 窗口标签页 [https://github.com/techsenger/tabshell](https://github.com/techsenger/tabshell) `[JavaFX]`
+- 多窗口 [https://github.com/andy-goryachev/FxDock](https://github.com/andy-goryachev/FxDock)
 - 数据框可视化 [https://github.com/PatMartin/Dex](https://github.com/PatMartin/Dex) `[Java/Groovy/JavaFX]`
 - 表单校验 [https://github.com/effad/ValidatorFX](https://github.com/effad/ValidatorFX) `[JavaFX]`
 - 日期范围 [https://github.com/HanSolo/dateranger](https://github.com/HanSolo/dateranger) `[JavaFX]`
@@ -148,6 +164,7 @@
 - Kotlin [https://github.com/hanggrian/ktfx](https://github.com/hanggrian/ktfx)
 - 媒体播放器 [https://github.com/open-ani/mediamp](https://github.com/open-ani/mediamp)
 - [https://github.com/caprica/vlcj](https://github.com/caprica/vlcj)
+- 函数式流 [https://github.com/TomasMikula/ReactFX](https://github.com/TomasMikula/ReactFX)
 
 
 

@@ -275,6 +275,8 @@
 * GPU运行信息 [https://github.com/kagehq/gpu-kill](https://github.com/kagehq/gpu-kill)
 * 定时任务 [https://github.com/gocronx-team/gocron](https://github.com/gocronx-team/gocron)
 * 声音传输数据 [https://github.com/solst-ice/chirp](https://github.com/solst-ice/chirp)
+* 构建局域广域网 [https://github.com/markqvist/Reticulum](https://github.com/markqvist/Reticulum)
+    * [https://github.com/torlando-tech/reticulum-kt](https://github.com/torlando-tech/reticulum-kt)
 
 
 - 软件构建 [https://github.com/easybuilders](https://github.com/easybuilders)
