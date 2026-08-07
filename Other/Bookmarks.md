@@ -12,6 +12,7 @@
 + [https://github.com/dginev/ar5iv](https://github.com/dginev/ar5iv)
 + [https://github.com/dosyago/DownloadNet](https://github.com/dosyago/DownloadNet)
 + URL分类 [https://github.com/CH563/gtps-url](https://github.com/CH563/gtps-url)
++ [https://github.com/muchdogesec/history4feed](https://github.com/muchdogesec/history4feed)
 + 隐私 [https://github.com/pluja/awesome-privacy](https://github.com/pluja/awesome-privacy)
 + [https://github.com/bayandin/awesome-awesomeness](https://github.com/bayandin/awesome-awesomeness)
 
@@ -66,6 +67,7 @@
 * 用「编号 + 索引」组织资料/事项 [https://johnnydecimal.com](https://johnnydecimal.com)
 * 键盘学习 [https://jianpanzhushou.ababtools.com](https://jianpanzhushou.ababtools.com)
 * 围棋教程 [https://online-go.com/learn-to-play-go](https://online-go.com/learn-to-play-go)
+* 身体器官 [https://anatomy-livid.vercel.app](https://anatomy-livid.vercel.app)
 
 
 

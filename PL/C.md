@@ -265,6 +265,7 @@
 * [https://github.com/svenstaro/rofi-calc](https://github.com/svenstaro/rofi-calc)
 * 字节计算器 [https://github.com/jarun/bcal](https://github.com/jarun/bcal)
 * [https://github.com/alt-romes/programmer-calculator](https://github.com/alt-romes/programmer-calculator)
+* 系统托盘 [https://github.com/zserge/tray](https://github.com/zserge/tray)
 
 
 

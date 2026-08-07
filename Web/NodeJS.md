@@ -9,6 +9,9 @@
 + [https://github.com/topics/node-js](https://github.com/topics/node-js)
 + [https://github.com/nodejs](https://github.com/nodejs)
     + [https://nodejs.org/zh-cn](https://nodejs.org/zh-cn)
+    + [https://node.org.cn](https://node.org.cn)
+    + [https://nodejs.cn](https://nodejs.cn)
++ [https://github.com/pkgjs](https://github.com/pkgjs)
 
 
 * [https://github.com/nodeschool](https://github.com/nodeschool)

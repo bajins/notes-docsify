@@ -130,6 +130,9 @@
 - 布局算法 [https://github.com/AmaronUI/amaronui-layouts](https://github.com/AmaronUI/amaronui-layouts) `[JavaFX Flexbox]`
 - [https://github.com/kirill-grouchnikov/radiance](https://github.com/kirill-grouchnikov/radiance) `[Swing 现代主题/组件]`
 - [https://github.com/mikaelgrev/miglayout](https://github.com/mikaelgrev/miglayout) `[Swing/SWT/JavaFX 布局管理器]`
+- 系统托盘 [https://github.com/dorkbox/SystemTray](https://github.com/dorkbox/SystemTray)
+- [https://github.com/dustinkredmond/FXTrayIcon](https://github.com/dustinkredmond/FXTrayIcon)
+- [https://github.com/xdsswar/NiceTRayIcon](https://github.com/xdsswar/NiceTRayIcon)
 - 工具栏和菜单 [https://github.com/Scomponents/menu-tree-builder](https://github.com/Scomponents/menu-tree-builder) `[JavaFX]`
 - 无系统标题栏窗口 [https://github.com/micheljung/fxstage](https://github.com/micheljung/fxstage) Win32 API
 - [https://github.com/bsommerfeld/jfx-frameless](https://github.com/bsommerfeld/jfx-frameless)
@@ -169,6 +172,9 @@
 
 
 * [https://github.com/TestFX/TestFX](https://github.com/TestFX/TestFX) `[JavaFX 测试框架]`
+* [https://github.com/renatoathaydes/Automaton](https://github.com/renatoathaydes/Automaton)
+* [https://github.com/openjdk/jemmy-v2](https://github.com/openjdk/jemmy-v2)
+* [https://github.com/Jalian-Systems/Marathon](https://github.com/Jalian-Systems/Marathon)
 * 模块化打包 [https://github.com/openjfx/javafx-maven-plugin](https://github.com/openjfx/javafx-maven-plugin)
 * [https://github.com/bsels/javafx-maven-plugin](https://github.com/bsels/javafx-maven-plugin)
 * [https://github.com/gluonhq/gluonfx-maven-plugin](https://github.com/gluonhq/gluonfx-maven-plugin)

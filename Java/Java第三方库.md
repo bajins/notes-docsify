@@ -167,6 +167,7 @@
 + [https://github.com/oblac/jodd](https://github.com/oblac/jodd)
 + [https://github.com/0opslab/opslabJutil](https://github.com/0opslab/opslabJutil)
 + [https://github.com/houbb/heaven](https://github.com/houbb/heaven)
++ [https://github.com/Scomponents/java-common-core](https://github.com/Scomponents/java-common-core)
 + [https://github.com/avaje](https://github.com/avaje)
 + [https://github.com/yupiik](https://github.com/yupiik)
 + [https://github.com/derive4j/derive4j](https://github.com/derive4j/derive4j)

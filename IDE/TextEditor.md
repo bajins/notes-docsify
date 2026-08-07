@@ -44,6 +44,7 @@
     * [https://github.com/dense-analysis/ale](https://github.com/dense-analysis/ale)
     * [https://github.com/ycm-core/YouCompleteMe](https://github.com/ycm-core/YouCompleteMe)
     * [https://github.com/fannheyward/coc-rust-analyzer](https://github.com/fannheyward/coc-rust-analyzer)
+    * [https://github.com/ojroques/nvim-osc52](https://github.com/ojroques/nvim-osc52)
 * [https://github.com/helix-editor/helix](https://github.com/helix-editor/helix)
     * [https://github.com/mawww/kakoune](https://github.com/mawww/kakoune)
 * [https://github.com/file-acomplaint/kyun](https://github.com/file-acomplaint/kyun)

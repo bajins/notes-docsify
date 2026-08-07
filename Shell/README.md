@@ -70,6 +70,7 @@
 - ack [https://github.com/ggreer/the_silver_searcher](https://github.com/ggreer/the_silver_searcher)
 - ACK [https://github.com/beyondgrep/ack3](https://github.com/beyondgrep/ack3)
 - agrep [https://github.com/laurikari/tre](https://github.com/laurikari/tre)
+- 权限 [https://github.com/proot-me/proot](https://github.com/proot-me/proot)
 - 终端图像查看 [https://github.com/stefanhaustein/TerminalImageViewer](https://github.com/stefanhaustein/TerminalImageViewer)
 - [https://github.com/pTinosq/Electro](https://github.com/pTinosq/Electro)
 - 终端窗口管理 [https://github.com/Gaurav-Gosain/tuios](https://github.com/Gaurav-Gosain/tuios)

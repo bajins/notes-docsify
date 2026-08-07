@@ -517,6 +517,7 @@
 * [https://github.com/jacobtread/oguard](https://github.com/jacobtread/oguard)
 * [https://github.com/engigu/baihu-panel](https://github.com/engigu/baihu-panel)
 * [https://github.com/OpenNMS/opennms](https://github.com/OpenNMS/opennms)
+* [https://github.com/PVRLabs/statlite](https://github.com/PVRLabs/statlite)
 * 实时崩溃报告 [https://github.com/getsentry](https://github.com/getsentry)
 * [https://github.com/highlight/highlight](https://github.com/highlight/highlight)
 * [https://github.com/uptimerobot](https://github.com/uptimerobot)
@@ -623,7 +624,8 @@
 * [https://github.com/usmannasir/cyberpanel](https://github.com/usmannasir/cyberpanel)
 * [https://github.com/webmin/webmin](https://github.com/webmin/webmin)
 * [https://github.com/outroll/vesta](https://github.com/outroll/vesta)
-* [https://www.ispconfig.org](https://www.ispconfig.org)
+* [https://sourceforge.net/projects/ispconfig](https://sourceforge.net/projects/ispconfig)
+    * [https://www.ispconfig.org](https://www.ispconfig.org)
 * [https://github.com/Termix-SSH/Termix](https://github.com/Termix-SSH/Termix)
 
 
@@ -936,6 +938,7 @@
     * [https://storymotion.video](https://storymotion.video)
 * [https://github.com/asong56/Cicada](https://github.com/asong56/Cicada)
 * [https://github.com/nine19een/CanvasCast](https://github.com/nine19een/CanvasCast)
+* [https://github.com/quickdrawjs/quickdraw](https://github.com/quickdrawjs/quickdraw)
 * 处理音频和视频 [https://github.com/xiguaxigua/ffmpeg-online](https://github.com/xiguaxigua/ffmpeg-online)
 * CAD [https://github.com/CADmium-Co/CADmium](https://github.com/CADmium-Co/CADmium)
 * [https://github.com/xiangechen/chili3d](https://github.com/xiangechen/chili3d)

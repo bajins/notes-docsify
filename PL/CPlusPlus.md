@@ -235,6 +235,7 @@
 * 编码检测 [https://github.com/BYVoid/uchardet](https://github.com/BYVoid/uchardet)
 * 代码高亮 [https://github.com/TelegramMessenger/libprisma](https://github.com/TelegramMessenger/libprisma)
 * FFI [https://github.com/trailofbits/pe-parse](https://github.com/trailofbits/pe-parse)
+* 系统托盘 [https://github.com/fcFn/traymond](https://github.com/fcFn/traymond)
 
 
 

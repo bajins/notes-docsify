@@ -178,7 +178,10 @@ sudo apt clean
 - [https://github.com/illiliti/libudev-zero](https://github.com/illiliti/libudev-zero)
 - [https://github.com/red-data-tools/YouPlot](https://github.com/red-data-tools/YouPlot)
 - 系统日志管理 [https://github.com/hat-open/hat-syslog](https://github.com/hat-open/hat-syslog)
-- 安全防护 [https://github.com/fail2ban/fail2ban](https://github.com/fail2ban/fail2ban)
+- 封禁多次登录失败IP [https://github.com/fail2ban/fail2ban](https://github.com/fail2ban/fail2ban)
+- [https://github.com/crowdsecurity/crowdsec](https://github.com/crowdsecurity/crowdsec)
+- [https://github.com/denyhosts/denyhosts](https://github.com/denyhosts/denyhosts)
+- [https://github.com/SSHGuard/sshguard](https://github.com/SSHGuard/sshguard)
 - 文件管理 [https://github.com/MHNightCat/superfile](https://github.com/MHNightCat/superfile)
 - 端口占用情况 [https://github.com/theopfr/somo](https://github.com/theopfr/somo)
 - 磁盘测试 [https://github.com/JonMagon/KDiskMark](https://github.com/JonMagon/KDiskMark)
@@ -324,6 +327,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 
 * 会话 [https://github.com/kovidgoyal/kitty](https://github.com/kovidgoyal/kitty)
+* 系统剪贴板 [https://github.com/theimpostor/osc](https://github.com/theimpostor/osc)
 
 
 
