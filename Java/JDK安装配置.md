@@ -41,6 +41,9 @@
 * [Java 25 的到来](https://blogs.oracle.com/java/post/the-arrival-of-java-25#_anchor_1)
 
 </details>
+* 版本切换 [https://github.com/felixselter/jenv-for-windows](https://github.com/felixselter/jenv-for-windows)
+* Java环境 [https://github.com/jenv/jenv](https://github.com/jenv/jenv)
+* 版本切换 [https://github.com/chroblert/jc-jenv](https://github.com/chroblert/jc-jenv)
 
 
 
@@ -94,6 +97,9 @@
 * [https://github.com/eclipse-justj](https://github.com/eclipse-justj)
     * [https://eclipse.dev/justj](https://eclipse.dev/justj)
     * [https://download.eclipse.org/justj/www/?page=download](https://download.eclipse.org/justj/www/?page=download)
+* FFI教程 [https://github.com/carldea/panama4newbies](https://github.com/carldea/panama4newbies)
+* JDK指南 [https://github.com/awsdocs/amazon-corretto-11-user-guide](https://github.com/awsdocs/amazon-corretto-11-user-guide)
+* JDK源码 [https://github.com/parttimenerd/jdk/tree/parttimenerd_asgct2](https://github.com/parttimenerd/jdk/tree/parttimenerd_asgct2)
 
 
 
@@ -226,6 +232,12 @@ JAVA_OPTS="
 -XX:+PrintHeapAtGC
 "
 ```
+* JVM实现 [https://github.com/arosyw/jvm](https://github.com/arosyw/jvm)
+* Java快照 [https://github.com/crac/docs](https://github.com/crac/docs)
+* G1收集器 [https://segmentfault.com/a/1190000042722821](https://segmentfault.com/a/1190000042722821)
+* GraalVM元数据 [https://github.com/oracle/graalvm-reachability-metadata](https://github.com/oracle/graalvm-reachability-metadata)
+* JVM实现 [https://github.com/aprz512/write-your-own-jvm](https://github.com/aprz512/write-your-own-jvm)
+* JVM规范 [https://www.iteye.com/topic/1117824](https://www.iteye.com/topic/1117824)
 
 
 
@@ -236,6 +248,7 @@ JAVA_OPTS="
 ```bash
 rpm -qa | grep java
 ```
+* SDK管理 [https://github.com/sdkman/sdkman-db-migrations](https://github.com/sdkman/sdkman-db-migrations)
 
 **卸载JDK**
 

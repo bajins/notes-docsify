@@ -51,7 +51,6 @@
 - [https://www.alfredapp.com](https://www.alfredapp.com)
 - [https://github.com/sindresorhus](https://github.com/sindresorhus)
 - 创建DMG [https://github.com/sindresorhus/create-dmg](https://github.com/sindresorhus/create-dmg)
-- IOS第三方依赖管理工具 [https://cocoapods.org](https://cocoapods.org)
 - 解锁功能 [https://github.com/VirgilClyne/iRingo](https://github.com/VirgilClyne/iRingo)
 - MAC取证 [https://github.com/jipegit/OSXAuditor](https://github.com/jipegit/OSXAuditor)
 - IOS越狱 [https://github.com/palera1n](https://github.com/palera1n)
@@ -93,10 +92,28 @@
 * [https://macked.app](https://macked.app)
 * 所有机型参数大全 [https://github.com/KyleBing/ipad](https://github.com/KyleBing/ipad)
     * [http://kylebing.cn/tools/iphone](http://kylebing.cn/tools/iphone)
+* 社交客户端 [https://github.com/damus-io/damus](https://github.com/damus-io/damus)
+* 电视直播 [https://github.com/kimentanm/aptv](https://github.com/kimentanm/aptv)
+* iOS参考 [https://github.com/ebelinski/iosref](https://github.com/ebelinski/iosref)
+* iOS侧载 [https://github.com/opa334/trollstore](https://github.com/opa334/trollstore)
+* iOS备份 [https://github.com/lakr233/bbackupp](https://github.com/lakr233/bbackupp)
+* 笔记管理 [https://github.com/glushchenko/fsnotes](https://github.com/glushchenko/fsnotes)
 
 
 ## IOS框架
 
 * [https://github.com/tbl00c/ZZFLEX](https://github.com/tbl00c/ZZFLEX)
 * [https://github.com/marcuswestin/WebViewJavascriptBridge](https://github.com/marcuswestin/WebViewJavascriptBridge)
+* 动画引擎 [https://github.com/jtrivedi/wave](https://github.com/jtrivedi/wave)
+* iOS自动化 [https://github.com/xxtouchng/xxtouchng](https://github.com/xxtouchng/xxtouchng)
+* Lottie动画 [https://github.com/airbnb/lottie-ios.git](https://github.com/airbnb/lottie-ios.git)
+* iOS组件 [https://github.com/material-components/material-components-ios](https://github.com/material-components/material-components-ios)
+* 字体加载 [https://github.com/material-foundation/material-font-disk-loader-ios](https://github.com/material-foundation/material-font-disk-loader-ios)
+* 国际化 [https://github.com/material-foundation/material-internationalization-ios](https://github.com/material-foundation/material-internationalization-ios)
+* 字体加载 [https://github.com/material-foundation/material-roboto-font-loader-ios](https://github.com/material-foundation/material-roboto-font-loader-ios)
+* 精灵动画 [https://github.com/material-foundation/material-sprited-animation-view-ios](https://github.com/material-foundation/material-sprited-animation-view-ios)
+* 文本无障碍 [https://github.com/material-foundation/material-text-accessibility-ios](https://github.com/material-foundation/material-text-accessibility-ios)
+* 动画器 [https://github.com/material-motion/motion-animator-objc](https://github.com/material-motion/motion-animator-objc)
+* 动画格式 [https://github.com/material-motion/motion-interchange-objc](https://github.com/material-motion/motion-interchange-objc)
+* 界面转场 [https://github.com/material-motion/motion-transitioning-objc](https://github.com/material-motion/motion-transitioning-objc)
 

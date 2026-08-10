@@ -19,6 +19,24 @@
 * [探秘神奇的IntersectionObserver：释放网页性能的黑科技！](https://juejin.cn/post/7247045258842996794)
 * [上传文件net::ERR_UPLOAD_FILE_CHANGED](https://stackoverflow.com/questions/61916331/re-uploading-a-file-with-ajax-after-it-was-changed-causes-neterr-upload-file-c)
 * [改变世界的 17 个方程式 - 用 JavaScript 重写](https://runjs.app/blog/equations-that-changed-the-world-rewritten-in-javascript)
+* JS原型链 [https://segmentfault.com/a/1190000042469668](https://segmentfault.com/a/1190000042469668)
+* 函数柯里化 [https://segmentfault.com/a/1190000043370734](https://segmentfault.com/a/1190000043370734)
+* 大数据渲染 [https://segmentfault.com/a/1190000043483476](https://segmentfault.com/a/1190000043483476)
+* 单例模式 [https://segmentfault.com/a/1190000043484102](https://segmentfault.com/a/1190000043484102)
+* 前端面试 [https://wangtunan.github.io/blog/interview](https://wangtunan.github.io/blog/interview)
+* this解析 [https://segmentfault.com/a/1190000042809553](https://segmentfault.com/a/1190000042809553)
+* JS性能优化 [https://mp.weixin.qq.com/s/k3O8dkzT6zpoURg_6ny2ZQ](https://mp.weixin.qq.com/s/k3O8dkzT6zpoURg_6ny2ZQ)
+* 前端监控 [https://segmentfault.com/a/1190000042194426](https://segmentfault.com/a/1190000042194426)
+* 文件系统API [https://blog.meathill.com/js/use-file-system-access-api-to-handle-local-files.html](https://blog.meathill.com/js/use-file-system-access-api-to-handle-local-files.html)
+* 消息推送 [https://segmentfault.com/a/1190000042192378](https://segmentfault.com/a/1190000042192378)
+* 前端性能 [https://xiongteng.cc/2022/06/2134762.html](https://xiongteng.cc/2022/06/2134762.html)
+* 前端工具 [https://segmentfault.com/a/1190000042204295](https://segmentfault.com/a/1190000042204295)
+* 标点配对 [https://segmentfault.com/a/1190000042251637](https://segmentfault.com/a/1190000042251637)
+* JS问题 [https://segmentfault.com/a/1190000042255934](https://segmentfault.com/a/1190000042255934)
+* 函数式编程 [https://geeknote.net/yuchiXiong/posts/2382](https://geeknote.net/yuchiXiong/posts/2382)
+* JS技巧 [https://segmentfault.com/a/1190000011557368](https://segmentfault.com/a/1190000011557368)
+* 数值精度 [https://segmentfault.com/a/1190000044098443](https://segmentfault.com/a/1190000044098443)
+* this原理 [https://www.zhihu.com/question/353757734/answer/2935071349](https://www.zhihu.com/question/353757734/answer/2935071349)
 
 
 
@@ -49,6 +67,11 @@
 
 * [JavaScript中的协程](https://kylin.dev/2020/06/13/JavaScript%E4%B8%AD%E7%9A%84%E5%8D%8F%E7%A8%8B)
 * [JS 中的协程（Coroutine）](http://zhangchen915.com/index.php/archives/719)
+* JS异步 [https://mp.weixin.qq.com/s/7c9_fvsxcZCElgUNoUtqCg](https://mp.weixin.qq.com/s/7c9_fvsxcZCElgUNoUtqCg)
+* 请求中断 [https://segmentfault.com/a/1190000042447341](https://segmentfault.com/a/1190000042447341)
+* Promise异步 [https://segmentfault.com/a/1190000044526289](https://segmentfault.com/a/1190000044526289)
+* Promise源码 [https://developer.aliyun.com/article/904989](https://developer.aliyun.com/article/904989)
+* 手写Promise [https://segmentfault.com/a/1190000042111165](https://segmentfault.com/a/1190000042111165)
 
 **ES6 co/yield方案**
 
@@ -114,6 +137,7 @@ str.match(reg);
 + Fetch各浏览器支持情况 [https://caniuse.com/?search=fetch](https://caniuse.com/?search=fetch)
 + Fetch标准 [https://github.com/whatwg/fetch](https://github.com/whatwg/fetch)
 + [https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API](https://developer.mozilla.org/zh-CN/docs/Web/API/Fetch_API)
++ HTTP知识 [https://segmentfault.com/a/1190000042326660](https://segmentfault.com/a/1190000042326660)
 
 
 **http,XMLHttpRequest,Ajax的关系**
@@ -310,6 +334,8 @@ window.onunload = setScrollToCookie();
 
 window.onbeforeunload = setScrollToCookie();
 ```
+* 跨域存储 [https://github.com/zendesk/cross-storage](https://github.com/zendesk/cross-storage)
+* 浏览器存储 [https://juejin.cn/post/7421713153568079935](https://juejin.cn/post/7421713153568079935)
 
 
 **jQuery数据缓存方案**
@@ -344,7 +370,6 @@ console.log($("#a").data('name'));//undefined
 
 ## 自动触发事件
 
-* [https://developer.mozilla.org/zh-CN/docs/Web/API/Event](https://developer.mozilla.org/zh-CN/docs/Web/API/Event)
 
 ```js
 var event = document.createEvent('Event'); // 创建

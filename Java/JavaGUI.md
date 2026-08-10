@@ -15,6 +15,7 @@
 
 * [GUI 设计和 UI 设计有什么区别？](https://www.zhihu.com/question/20366692)
 * [GUI和UI](https://www.cnblogs.com/anke-z/p/12404215.html)
+* 2D图形库 [https://github.com/humbleui/skija](https://github.com/humbleui/skija)
 
 
 
@@ -181,7 +182,6 @@
 * [https://github.com/lxwise/jfx-maven-plugin](https://github.com/lxwise/jfx-maven-plugin)
 * 非模块打包 [https://gitee.com/podigua/jfx-maven-plugin](https://gitee.com/podigua/jfx-maven-plugin)
 * 编译原生程序 [https://github.com/gluonhq/substrate](https://github.com/gluonhq/substrate)
-* [https://github.com/gluonhq/gluonfx-maven-plugin](https://github.com/gluonhq/gluonfx-maven-plugin)
 * 安装部署工具 [https://github.com/shannah/jdeploy](https://github.com/shannah/jdeploy)
     * [https://github.com/shannah/jdeploy-desktop-gui](https://github.com/shannah/jdeploy-desktop-gui)
     * 单进程 [https://github.com/shannah/jdeploy-desktop-lib](https://github.com/shannah/jdeploy-desktop-lib)
@@ -224,3 +224,4 @@
 * 计算器 [https://github.com/HouariZegai/Calculator](https://github.com/HouariZegai/Calculator)
 * [https://github.com/pH-7/Simple-Java-Calculator](https://github.com/pH-7/Simple-Java-Calculator)
 * 低代码平台 [https://github.com/convertigo/convertigo](https://github.com/convertigo/convertigo)
+* JavaFX工具 [https://gitee.com/leewyatt/FXTools](https://gitee.com/leewyatt/FXTools)

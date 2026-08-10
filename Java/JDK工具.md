@@ -16,6 +16,7 @@
 
 
 * [JVM问题笔记](https://blog.csdn.net/jwentao01/article/details/114947477)
+* Java转换 [https://github.com/eclipse/transformer](https://github.com/eclipse/transformer)
 
 
 
@@ -147,6 +148,15 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * [https://github.com/openrewrite](https://github.com/openrewrite)
 * [https://github.com/codefuse-ai/CodeFuse-Query](https://github.com/codefuse-ai/CodeFuse-Query)
 * 重构 [https://github.com/refactorfirst/RefactorFirst](https://github.com/refactorfirst/RefactorFirst)
+* 性能诊断 [https://github.com/perfma/xpocket](https://github.com/perfma/xpocket)
+* Java性能分析 [https://github.com/parttimenerd/tiny-profiler](https://github.com/parttimenerd/tiny-profiler)
+* JDK基准 [https://www.oschina.net/news/200995/java-openjdk-benchmark-mid22](https://www.oschina.net/news/200995/java-openjdk-benchmark-mid22)
+* JVM原理 [https://github.com/shaoxiongdu/jvmstudy](https://github.com/shaoxiongdu/jvmstudy)
+* JIT分析 [https://github.com/adoptopenjdk/jitwatch](https://github.com/adoptopenjdk/jitwatch)
+* Java性能分析 [https://github.com/jvm-profiling-tools/async-profiler](https://github.com/jvm-profiling-tools/async-profiler)
+* JVM内存 [https://mp.weixin.qq.com/s/qfsY7fk_-rMdXPGYb766PA](https://mp.weixin.qq.com/s/qfsY7fk_-rMdXPGYb766PA)
+* 内存溢出 [https://my.oschina.net/u/4090830/blog/10141303](https://my.oschina.net/u/4090830/blog/10141303)
+* 垃圾回收 [https://my.oschina.net/u/5783135/blog/10120461](https://my.oschina.net/u/5783135/blog/10120461)
 
 
 
@@ -171,7 +181,6 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 * Procyon [https://github.com/mstrobel/procyon](https://github.com/mstrobel/procyon)
    * [https://github.com/nbauma109/procyon](https://github.com/nbauma109/procyon)
    * Gui [https://github.com/deathmarine/Luyten](https://github.com/deathmarine/Luyten)
-* Fernflower [https://github.com/JetBrains/fernflower](https://github.com/JetBrains/fernflower)
    * [https://github.com/MinecraftForge/ForgeFlower](https://github.com/MinecraftForge/ForgeFlower)
    * [https://github.com/sunwu51/fernflower](https://github.com/sunwu51/fernflower)
    * [https://github.com/ilylty/fernflower](https://github.com/ilylty/fernflower)
@@ -220,6 +229,8 @@ java -Djavax.net.debug=all -Xdebug -Xnoagent -Djava.compiler=NONE \
 - 在线反编译器 [http://www.javadecompilers.com](http://www.javadecompilers.com)
 - 反混淆 [https://github.com/java-deobfuscator/deobfuscator](https://github.com/java-deobfuscator/deobfuscator)
    - [https://github.com/Bleh-something/deobfuscator](https://github.com/Bleh-something/deobfuscator)
+- 反编译对比 [https://github.com/decompiler-explorer/decompiler-explorer](https://github.com/decompiler-explorer/decompiler-explorer)
+- 反编译工具 [https://github.com/tp7309/ttdedroid](https://github.com/tp7309/ttdedroid)
 
 
 

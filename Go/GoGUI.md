@@ -32,6 +32,9 @@
 - [golang windows程序获取管理员权限（UAC ）](https://blog.csdn.net/hejingdong123/article/details/105070150)
 - [how-do-i-force-my-net-application-to-run-as-administrator](https://stackoverflow.com/questions/2818179/how-do-i-force-my-net-application-to-run-as-administrator)
 - [https://docs.microsoft.com/zh-cn/previous-versions/bb756929(v=msdn.10)](https://docs.microsoft.com/zh-cn/previous-versions/bb756929(v=msdn.10))
+- GUI工具包 [https://github.com/gen2brain/iup-go](https://github.com/gen2brain/iup-go)
+- 桌面框架 [https://github.com/energye/energy](https://github.com/energye/energy)
+- Go GUI [https://github.com/andlabs/ui](https://github.com/andlabs/ui)
 
 
 

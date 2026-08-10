@@ -14,7 +14,6 @@
 
 * [https://sourceforge.net/projects/jpox](https://sourceforge.net/projects/jpox)
 * [Java，JDBC和MySQL对应数据类型](https://dev.mysql.com/doc/connector-j/8.0/en/connector-j-reference-type-conversions.html)
-* [http://www.squirrelsql.org](http://www.squirrelsql.org)
 * [http://java-source.net/open-source/sql-clients](http://java-source.net/open-source/sql-clients)
 * [https://github.com/apache/cayenne](https://github.com/apache/cayenne)
 * JPA标准API [https://github.com/Blazebit/blaze-persistence](https://github.com/Blazebit/blaze-persistence)
@@ -56,6 +55,14 @@
     - [https://github.com/apache/shardingsphere-elasticjob](https://github.com/apache/shardingsphere-elasticjob)
 - 数据库动态监控 [https://github.com/p6spy/p6spy](https://github.com/p6spy/p6spy)
 - [https://github.com/jdbc-observations](https://github.com/jdbc-observations)
+- 数据映射 [https://github.com/grails/grails-data-mapping](https://github.com/grails/grails-data-mapping)
+- ORM框架 [https://github.com/cyq1162/cyqdata](https://github.com/cyq1162/cyqdata)
+- 数据对象 [https://github.com/apache/db-jdo](https://github.com/apache/db-jdo)
+- ORM框架 [https://github.com/taisandog/buffalobro](https://github.com/taisandog/buffalobro)
+- Mybatis [https://segmentfault.com/a/1190000043614922](https://segmentfault.com/a/1190000043614922)
+- ORM库 [https://github.com/sproket/persism](https://github.com/sproket/persism)
+- ORM工具 [https://github.com/hs-web/hsweb-easy-orm](https://github.com/hs-web/hsweb-easy-orm)
+- ORM工具 [https://gitee.com/xiandafu/beetlsql](https://gitee.com/xiandafu/beetlsql)
 
 
 
@@ -80,6 +87,7 @@
 * [https://github.com/liweihua274/druid-sqlparser](https://github.com/liweihua274/druid-sqlparser)
     * [https://github.com/alibaba/druid/wiki/SQL-Parser](https://github.com/alibaba/druid/wiki/SQL-Parser)
     * [Java工具篇之Druid SQL语法解析树](https://developer.aliyun.com/article/1000273)
+* SQL解析 [https://github.com/jsqlparser/jsqlparser](https://github.com/jsqlparser/jsqlparser)
 
 
 
@@ -96,6 +104,10 @@
     - [https://github.com/spannm/jackcess](https://github.com/spannm/jackcess)
 - SQL Server [https://github.com/Microsoft/mssql-jdbc](https://github.com/Microsoft/mssql-jdbc)
     - [https://learn.microsoft.com/zh-cn/sql/connect/jdbc](https://learn.microsoft.com/zh-cn/sql/connect/jdbc)
+- JDBC流读取 [https://blog.csdn.net/xieyuooo/article/details/83109971](https://blog.csdn.net/xieyuooo/article/details/83109971)
+- 批量插入 [https://blog.csdn.net/C3245073527/article/details/122071045](https://blog.csdn.net/C3245073527/article/details/122071045)
+- 批处理SQL [https://blog.csdn.net/u011389474/article/details/52815840](https://blog.csdn.net/u011389474/article/details/52815840)
+- 关闭游标 [https://blog.csdn.net/xiaole060901/article/details/108852333](https://blog.csdn.net/xiaole060901/article/details/108852333)
 
 
 **MySQL Connector/J驱动与MySQL版本差异**
@@ -211,7 +223,6 @@
 * [https://github.com/QNJR-GROUP/EasyTransaction](https://github.com/QNJR-GROUP/EasyTransaction)
 * [https://github.com/liuyangming/ByteTCC](https://github.com/liuyangming/ByteTCC)
 * [https://github.com/wchswchs/Hulk](https://github.com/wchswchs/Hulk)
-* [https://github.com/atomikos/transactions-essentials](https://github.com/atomikos/transactions-essentials)
 * [https://github.com/bitronix/btm](https://github.com/bitronix/btm)
 
 
@@ -246,6 +257,8 @@
 * [Mybatis 源码分析 (一) Mapper扫描及代理](https://cofcool.github.io/tech/2018/06/20/mybatis-sourcecode-1)
 * [一条sql查出树形结构数据](https://my.oschina.net/u/2326864/blog/1622990)
 * [Sql中对于树形结构的处理](https://blog.csdn.net/weixin_43794897/article/details/88534992)
+* Mybatis源码 [https://segmentfault.com/a/1190000042093418](https://segmentfault.com/a/1190000042093418)
+* 批量游标 [https://blog.csdn.net/cczakai/article/details/7023188](https://blog.csdn.net/cczakai/article/details/7023188)
 
 
 **trim标签**

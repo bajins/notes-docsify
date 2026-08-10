@@ -24,6 +24,19 @@
 <summary><b>展开查看初始化顺序</b></summary>
 <img src="/images/go的man和init执行过程.png" alt>
 </details>
+* Go语法树 [https://chai2010.cn/go-ast-book](https://chai2010.cn/go-ast-book)
+* Go编译器 [https://gocompiler.shizhz.me](https://gocompiler.shizhz.me)
+* Go性能剖析 [https://blog.wolfogre.com/posts/go-ppof-practice](https://blog.wolfogre.com/posts/go-ppof-practice)
+* Go结构体 [https://segmentfault.com/a/1190000043451107](https://segmentfault.com/a/1190000043451107)
+* 唯一ID服务 [https://github.com/asyncins/medis](https://github.com/asyncins/medis)
+* Go国际化 [https://zyfdegh.github.io/post/201805-translation-go-i18n](https://zyfdegh.github.io/post/201805-translation-go-i18n)
+* Go内存分配 [https://nghiant3223.github.io/2025/06/03/memory_allocation_in_go.html](https://nghiant3223.github.io/2025/06/03/memory_allocation_in_go.html)
+* Go限流 [https://segmentfault.com/a/1190000044306172](https://segmentfault.com/a/1190000044306172)
+* Go垃圾回收 [https://www.yuque.com/aceld/golang/zhzanb](https://www.yuque.com/aceld/golang/zhzanb)
+* Go高性能 [https://geektutu.com/post/high-performance-go.html](https://geektutu.com/post/high-performance-go.html)
+* Go练习 [https://github.com/RezaSi/go-interview-practice](https://github.com/RezaSi/go-interview-practice)
+* 垃圾回收 [https://draven.co/golang/docs/part3-runtime/ch07-memory/golang-garbage-collector](https://draven.co/golang/docs/part3-runtime/ch07-memory/golang-garbage-collector)
+* Go内部笔记 [https://github.com/leoyang90/golang-internal-notes](https://github.com/leoyang90/golang-internal-notes)
 
 
 **日志**
@@ -50,6 +63,7 @@ func (l *Logger) Log(level Level, format string, args ...interface{}) {
 	dbgLogger.Output(3, strings.Join(info, ".")+"\n")
 }
 ```
+* Go日志 [https://mp.weixin.qq.com/s/LToRDGPAYIsmR_WBtHo27A](https://mp.weixin.qq.com/s/LToRDGPAYIsmR_WBtHo27A)
 
 
 **判断**
@@ -221,6 +235,7 @@ func StringBuilder(p []string) string {
 
 > 在Go语言中，使用多值返回来返回错误。不要用异常代替错误，更不要用来控制流程。在极个别的情况下，
 > 才使用Go中引入的`Exception`处理：`defer`、`panic`、`recover`。
+* Go错误处理 [https://segmentfault.com/a/1190000042252269](https://segmentfault.com/a/1190000042252269)
 
 
 **panic**
@@ -401,6 +416,13 @@ func HttpClient(method, urlText, contentType string, params map[string]string) (
 	return resp, err
 }
 ```
+* HTTP库 [https://github.com/carlmjohnson/requests](https://github.com/carlmjohnson/requests)
+* Web框架 [https://github.com/adhocteam/pushup](https://github.com/adhocteam/pushup)
+* Web框架 [https://github.com/savsgio/atreugo](https://github.com/savsgio/atreugo)
+* HTTP网络 [https://github.com/openziti-test-kitchen/go-http](https://github.com/openziti-test-kitchen/go-http)
+* WebSocket [https://github.com/link1st/gowebsocket](https://github.com/link1st/gowebsocket)
+* HTTP客户端 [https://github.com/enetx/surf](https://github.com/enetx/surf)
+* HTTP服务器 [https://github.com/marpit19/netrunner](https://github.com/marpit19/netrunner)
 
 
 
@@ -412,6 +434,7 @@ func HttpClient(method, urlText, contentType string, params map[string]string) (
 > 如果timer定时器要每隔间隔的时间执行，实现ticker的效果，使用 func (t *Timer) Reset(d Duration) bool
 
 * [go timer 和 ticker 的区别](https://learnku.com/articles/23578/the-difference-between-go-timer-and-ticker)
+* Go定时器 [https://chenyahui.github.io/articles/analysis-of-golang-timer](https://chenyahui.github.io/articles/analysis-of-golang-timer)
 
 
 **固定到每天的Duration**
@@ -584,6 +607,12 @@ func TestGorutine(t *testing.T) {
     wg.Wait()
 }
 ```
+* 协程运行时 [https://github.com/stealthrocket/coroutine](https://github.com/stealthrocket/coroutine)
+* 协程泄漏检测 [https://github.com/uber-go/goleak](https://github.com/uber-go/goleak)
+* 并发库 [https://github.com/sourcegraph/conc](https://github.com/sourcegraph/conc)
+* Go并发 [https://github.com/luk4z7/go-concurrency-guide](https://github.com/luk4z7/go-concurrency-guide)
+* Go协程 [https://mp.weixin.qq.com/s/vUNLc9hzIi9EajCPOaEk_g](https://mp.weixin.qq.com/s/vUNLc9hzIi9EajCPOaEk_g)
+* Go进程管理 [https://mezhenskyi.dev/posts/go-linux-processes](https://mezhenskyi.dev/posts/go-linux-processes)
 
 
 ## ORM
@@ -597,7 +626,10 @@ func TestGorutine(t *testing.T) {
 * [https://github.com/jinzhu/gorm](https://github.com/jinzhu/gorm)
 * [https://github.com/go-xorm/xorm](https://github.com/go-xorm/xorm)
 * [https://github.com/gohouse/gorose](https://github.com/gohouse/gorose)
-* [https://github.com/go-gorp/gorp](https://github.com/go-gorp/gorp)
+* ORM框架 [https://github.com/ent/ent](https://github.com/ent/ent)
+* ORM框架 [https://github.com/dominic-wassef/ghostly](https://github.com/dominic-wassef/ghostly)
+* ORM客户端 [https://github.com/prisma/prisma-client-go](https://github.com/prisma/prisma-client-go)
+* ORM框架 [https://github.com/volatiletech/sqlboiler](https://github.com/volatiletech/sqlboiler)
 
 
 ## Daemon

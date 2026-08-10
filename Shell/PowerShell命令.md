@@ -5,7 +5,6 @@
 
 ## Flag
 
-- [https://www.yiibai.com/powershell](https://www.yiibai.com/powershell)
 - [PowerShell注册表](https://www.pstips.net/tag/%e6%b3%a8%e5%86%8c%e8%a1%a8)
 - [使用注册表条目](https://docs.microsoft.com/zh-cn/powershell/scripting/samples/working-with-registry-entries)
 - [控制台暂停](https://stackoverflow.com/questions/3963100/how-do-you-do-a-pause-with-powershell-2-0)

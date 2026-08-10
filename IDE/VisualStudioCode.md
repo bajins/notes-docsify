@@ -24,6 +24,9 @@
     * [https://vscodium.com](https://vscodium.com)
 * [https://github.com/ki-editor/ki-editor](https://github.com/ki-editor/ki-editor)
 * 元素定位源代码 [https://github.com/zh-lx/code-inspector](https://github.com/zh-lx/code-inspector)
+* 精简配置 [https://github.com/xiaolai/mcode](https://github.com/xiaolai/mcode)
+* 在线IDE [https://github.com/gitpod-io/openvscode-server](https://github.com/gitpod-io/openvscode-server)
+* VSCode开源版 [https://github.com/vscodium/vscodium](https://github.com/vscodium/vscodium)
 
 
 
@@ -301,6 +304,11 @@
 - [https://github.com/Serpen/VBS-VSCode](https://github.com/Serpen/VBS-VSCode)
 - [https://github.com/karb0f0s/vscode-vbscript](https://github.com/karb0f0s/vscode-vbscript)
 - [https://github.com/Luncher91/VBScript-vscode](https://github.com/Luncher91/VBScript-vscode)
+- 国际化插件 [https://github.com/lokalise/i18n-ally](https://github.com/lokalise/i18n-ally)
+- VSCode主题 [https://vscodethemes.com](https://vscodethemes.com)
+- 音频预览 [https://github.com/sukumo28/vscode-audio-preview](https://github.com/sukumo28/vscode-audio-preview)
+- 协作编辑 [https://github.com/kermanx/p2p-live-share](https://github.com/kermanx/p2p-live-share)
+- AI编程 [https://github.com/roovetgit/roo-cline](https://github.com/roovetgit/roo-cline)
 
 
 **translate-var**

@@ -17,6 +17,24 @@
 
 1. 列表和元组相比，可直接调用的函数更多也可以进行更改，但是元组一经定义就无法更改，所以首推列表。
 2. 在python中是没有数组类型的，如果非要使用数组，可以用`numpy`库实现对数组的定义
+* 代码单行化 [https://github.com/hhc97/flatliner-src](https://github.com/hhc97/flatliner-src)
+* Tornado学习 [https://github.com/tenqaz/tornado_learning](https://github.com/tenqaz/tornado_learning)
+* 数学可视化 [https://github.com/neozhaoliang/pywonderland](https://github.com/neozhaoliang/pywonderland)
+* Python为什么 [https://github.com/chinesehuazhou/python-whydo](https://github.com/chinesehuazhou/python-whydo)
+* 项目模板 [https://github.com/bitestreams/fastapi-template](https://github.com/bitestreams/fastapi-template)
+* Python源码 [https://flaggo.github.io/python3-source-code-analysis](https://flaggo.github.io/python3-source-code-analysis)
+* 键值存储 [https://remusao.github.io/posts/python-dbm-module.html](https://remusao.github.io/posts/python-dbm-module.html)
+* 任务队列 [https://cnblogs.com/pyedu/p/12461819.html](https://cnblogs.com/pyedu/p/12461819.html)
+* 自增运算符 [https://github.com/dankeyy/incdec.py](https://github.com/dankeyy/incdec.py)
+* CPython原理 [https://mp.weixin.qq.com/s/Nmw3TPjzQI2gFkik0rVlCg](https://mp.weixin.qq.com/s/Nmw3TPjzQI2gFkik0rVlCg)
+* Python学习 [https://github.com/huangsam/ultimate-python](https://github.com/huangsam/ultimate-python)
+* Python手册 [https://python3-cookbook.readthedocs.io/zh-cn/latest/index.html](https://python3-cookbook.readthedocs.io/zh-cn/latest/index.html)
+* 调试器 [https://github.com/parttimenerd/python-dbg](https://github.com/parttimenerd/python-dbg)
+* 脑图 [https://github.com/huangz1990/python-mindmap](https://github.com/huangz1990/python-mindmap)
+* Python工程 [https://pyloong.github.io/pythonic-project-guidelines](https://pyloong.github.io/pythonic-project-guidelines)
+* Python趣题 [https://github.com/satwikkansal/wtfpython](https://github.com/satwikkansal/wtfpython)
+* Python指南 [https://huoyingwhw.com/pythonGuide](https://huoyingwhw.com/pythonGuide)
+* 类型标注 [https://zhuanlan.zhihu.com/p/464979921](https://zhuanlan.zhihu.com/p/464979921)
 
 
 **ModuleNotFoundError: No module named 'Crypto'解决方案**
@@ -266,6 +284,7 @@ try:
 except ValueError:
     print('Async Error')
 ```
+* asyncio优化 [https://my.oschina.net/fantix/blog/5538389](https://my.oschina.net/fantix/blog/5538389)
 
 
 
@@ -275,6 +294,7 @@ except ValueError:
 
 - Peewee
 - SqlObject
+- ORM库 [https://github.com/coleifer/peewee](https://github.com/coleifer/peewee)
 
 
 **SQLite3**
@@ -304,6 +324,8 @@ pip install sqlalchemy
 3. 线程模块中Timer类`threading.Timer` 用的是`system scheduler`
 4. 第三方模块：schedule
 5. 定时框架：APScheduler、Celery
+* 任务调度框架 [https://github.com/miksus/red-engine](https://github.com/miksus/red-engine)
+* 分布式队列 [https://github.com/celery](https://github.com/celery)
 
 
 
@@ -436,6 +458,10 @@ resp1 = http.request('POST', 'http://www.httpbin.org/post', body=data, timeout=5
  
 print(resp1.data.decode())
 ```
+* WSGI服务 [https://github.com/pylons/waitress](https://github.com/pylons/waitress)
+* WSGI库 [https://github.com/pallets/werkzeug](https://github.com/pallets/werkzeug)
+* Web框架 [https://github.com/squeaky-pl/japronto](https://github.com/squeaky-pl/japronto)
+* 函数转API [https://github.com/tanmoy741127/lumi](https://github.com/tanmoy741127/lumi)
 
 
 **提交form-data表单**

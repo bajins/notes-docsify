@@ -10,7 +10,6 @@
 * [https://gitlab.com/gitlab-com/content-sites/handbook](https://gitlab.com/gitlab-com/content-sites/handbook)
 * [https://github.com/formbricks/formbricks](https://github.com/formbricks/formbricks)
 * 日程安排 [https://github.com/calcom/cal.com](https://github.com/calcom/cal.com)
-* 人体系统调优 [https://github.com/zijie0/HumanSystemOptimization](https://github.com/zijie0/HumanSystemOptimization)
 * 相机数据库 [https://github.com/leavestylecode/CameraDatabase](https://github.com/leavestylecode/CameraDatabase)
 * 信号干扰器 [https://github.com/EmenstaNougat/ESP32-BlueJammer](https://github.com/EmenstaNougat/ESP32-BlueJammer)
 * 追踪位置 [https://github.com/HunxByts/GhostTrack](https://github.com/HunxByts/GhostTrack)
@@ -30,6 +29,81 @@
 > 机器确实很高效，但有一个问题：它是刚性的，以既定的模式和线性速度运转，无法自动适应环境变化，也无法学习游戏规则。
 >
 > 你不是机器，你是人。你的特点应该是灵活应变，快速适应。你不要追求极致的努力，而是要找到最有价值的解决方案。你要专注于真正重要的因素：速度、效率或质量，不要迷恋枯燥乏味的工作。
+* 工具集 [https://github.com/fandesfyf/jamtools](https://github.com/fandesfyf/jamtools)
+* 数学动画 [https://github.com/ambrosiogabe/mathanimation](https://github.com/ambrosiogabe/mathanimation)
+* E5续订 [https://github.com/luoye663/e5](https://github.com/luoye663/e5)
+* 称谓计算 [https://github.com/mumuy/relationship](https://github.com/mumuy/relationship)
+* 文件传输 [https://github.com/contextualist/acp](https://github.com/contextualist/acp)
+* 社区系统 [https://github.com/fresns/fresns](https://github.com/fresns/fresns)
+* 比赛记录 [https://github.com/nehalist/hilde](https://github.com/nehalist/hilde)
+* 英语学习 [https://github.com/byoungd/english-level-up-tips](https://github.com/byoungd/english-level-up-tips)
+* 代码示例 [https://github.com/jimmycoding92/jimmycodingexamples](https://github.com/jimmycoding92/jimmycodingexamples)
+* 系统监控 [https://github.com/laixintao/mactop](https://github.com/laixintao/mactop)
+* 简历生成 [https://github.com/amruthpillai/reactive-resume](https://github.com/amruthpillai/reactive-resume)
+* 实时翻译 [https://github.com/sxzxs/real-time-translation-typing](https://github.com/sxzxs/real-time-translation-typing)
+* 表情图标 [https://github.com/microsoft/fluentui-emoji](https://github.com/microsoft/fluentui-emoji)
+* 笔记软件 [https://joplinapp.org](https://joplinapp.org)
+* 图像编辑器 [https://gimelstudio.github.io](https://gimelstudio.github.io)
+* 免费资源 [https://blog.upx8.com](https://blog.upx8.com)
+* GIMP年度报告 [https://www.gimp.org/news/2023/01/29/2022-annual-report](https://www.gimp.org/news/2023/01/29/2022-annual-report)
+* 画布工具 [https://utgd.net/article/9931](https://utgd.net/article/9931)
+* 在线工具箱 [https://tool.browser.qq.com](https://tool.browser.qq.com)
+* 屏幕录制 [https://recordscreen.io](https://recordscreen.io)
+* 笔记任务 [https://github.com/obsidian-tasks-group/obsidian-tasks](https://github.com/obsidian-tasks-group/obsidian-tasks)
+* 知识管理 [https://github.com/vincentdchan/cubytext](https://github.com/vincentdchan/cubytext)
+* 文字游戏 [https://github.com/doublespeakgames/adarkroom](https://github.com/doublespeakgames/adarkroom)
+* 开源指南 [https://github.com/eryajf/howtostartopensource](https://github.com/eryajf/howtostartopensource)
+* 竞赛百科 [https://github.com/oi-wiki/oi-wiki](https://github.com/oi-wiki/oi-wiki)
+* 笔记应用 [https://github.com/nuttyartist/notes](https://github.com/nuttyartist/notes)
+* 终端笔记 [https://github.com/araekiel/jot](https://github.com/araekiel/jot)
+* 乐理资料 [https://github.com/vpavlenko/study-music](https://github.com/vpavlenko/study-music)
+* 笔记软件 [https://github.com/gwgundersen/anno](https://github.com/gwgundersen/anno)
+* 笔记协作 [https://github.com/toeverything/affine](https://github.com/toeverything/affine)
+* 提问智慧 [https://github.com/tvvocold/how-to-ask-questions-the-smart-way](https://github.com/tvvocold/how-to-ask-questions-the-smart-way)
+* 时间线工具 [https://github.com/kochrt/markwhen](https://github.com/kochrt/markwhen)
+* 知识管理 [https://github.com/mdsilo/mdsilo](https://github.com/mdsilo/mdsilo)
+* RSS阅读 [https://github.com/yang991178/fluent-reader-lite](https://github.com/yang991178/fluent-reader-lite)
+* 绘图笔记 [https://github.com/mbrlabs/lorien](https://github.com/mbrlabs/lorien)
+* Git笔记 [https://github.com/batnoter/batnoter](https://github.com/batnoter/batnoter)
+* 知识管理 [https://github.com/fantasticit/think](https://github.com/fantasticit/think)
+* 写作助手 [https://github.com/onblog/bloghelper](https://github.com/onblog/bloghelper)
+* 模板生成 [https://mellarchy.github.io/xeeg](https://mellarchy.github.io/xeeg)
+* 文本搜索 [https://gitee.com/dotnetchina/TextLocator](https://gitee.com/dotnetchina/TextLocator)
+* 免费资源 [https://www.thosefree.com](https://www.thosefree.com)
+* IP数据库 [https://www.cz88.net](https://www.cz88.net)
+* 音频聊天 [https://codeberg.org/nmkj/audon](https://codeberg.org/nmkj/audon)
+* 菜品溯源 [https://gitee.com/lxjchina/traceability-report-of-dishes](https://gitee.com/lxjchina/traceability-report-of-dishes)
+* 在线录屏 [https://toolwa.com/record](https://toolwa.com/record)
+* 开发者调查 [https://survey.stackoverflow.co](https://survey.stackoverflow.co)
+* 简历例句 [https://github.com/resumejob/awesome-resume](https://github.com/resumejob/awesome-resume)
+* 浏览器工具 [https://github.com/aghyad97/browserytools](https://github.com/aghyad97/browserytools)
+* 文档分享 [https://github.com/mfts/papermark](https://github.com/mfts/papermark)
+* 工具合集 [https://github.com/yaolifeng0629/awesome-independent-tools](https://github.com/yaolifeng0629/awesome-independent-tools)
+* 笔记应用 [https://github.com/dullage/flatnotes](https://github.com/dullage/flatnotes)
+* 配色工具 [https://github.com/lcpmgh/colors](https://github.com/lcpmgh/colors)
+* 开发者工具箱 [https://github.com/star7th/jisuxiang](https://github.com/star7th/jisuxiang)
+* Wiki平台 [https://github.com/leomoon-studios/wiki-go](https://github.com/leomoon-studios/wiki-go)
+* 电子书资源 [https://github.com/jbiaojerry/ebook-treasure-chest](https://github.com/jbiaojerry/ebook-treasure-chest)
+* 健身平台 [https://github.com/Snouzy/workout-cool](https://github.com/Snouzy/workout-cool)
+* 粘贴板 [https://github.com/szabodanika/microbin](https://github.com/szabodanika/microbin)
+* 人事系统 [https://github.com/frappe/hrms](https://github.com/frappe/hrms)
+* 协作平台 [https://github.com/colanode/colanode](https://github.com/colanode/colanode)
+* 面试题 [https://github.com/0voice/Campus_recruitment_interview_questions](https://github.com/0voice/Campus_recruitment_interview_questions)
+* 菜谱 [https://github.com/Gar-b-age/CookLikeHOC](https://github.com/Gar-b-age/CookLikeHOC)
+* 笔记应用 [https://github.com/sheshbabu/zen](https://github.com/sheshbabu/zen)
+* 编程客户端 [https://github.com/slopus/happy](https://github.com/slopus/happy)
+* 个人知识库 [https://zkv549gmz8.feishu.cn/wiki/PzUsw69neimLuakaz4Wc85mwnBe](https://zkv549gmz8.feishu.cn/wiki/PzUsw69neimLuakaz4Wc85mwnBe)
+* 隐私协议 [https://chatgptnb.com/privacy-policy-generator](https://chatgptnb.com/privacy-policy-generator)
+* 表情包集 [https://github.com/zhaoolee/chinesebqb](https://github.com/zhaoolee/chinesebqb)
+* 行政区划 [https://shengshixian.com](https://shengshixian.com)
+* 网速测试 [https://www.speedtest.net/zh-Hans](https://www.speedtest.net/zh-Hans)
+* 目录树工具 [https://github.com/itchaox/annotree](https://github.com/itchaox/annotree)
+* 3D建模软件 [https://github.com/freecad/freecad](https://github.com/freecad/freecad)
+* 简历生成 [https://github.com/ppresume/community](https://github.com/ppresume/community)
+* 教材资源 [https://github.com/tapxworld/chinatextbook](https://github.com/tapxworld/chinatextbook)
+* 生产力工具 [https://github.com/revezone/revezone](https://github.com/revezone/revezone)
+* 国产工具合集 [https://github.com/ysztcn](https://github.com/ysztcn)
+* 文本扩展 [https://github.com/jobiewong/espanso-emojis](https://github.com/jobiewong/espanso-emojis)
 
 
 **赞赏/赞助/打赏**
@@ -55,6 +129,7 @@
 - [https://www.paypal.com/donate](https://www.paypal.com/donate)
 - [https://ko-fi.com](https://ko-fi.com)
 - [https://flattr.com](https://flattr.com)
+- 开源赞助 [https://thanks.dev](https://thanks.dev)
 
 
 
@@ -107,6 +182,10 @@
 * [https://github.com/daixianceng/cron_dingding](https://github.com/daixianceng/cron_dingding)
 * [https://github.com/cloverzrg/wechat-work-message-push-go](https://github.com/cloverzrg/wechat-work-message-push-go)
 * [https://github.com/xinjiayu/NoticeServices](https://github.com/xinjiayu/NoticeServices)
+* 推送服务 [https://github.com/uniqush/uniqush-push](https://github.com/uniqush/uniqush-push)
+* 消息推送 [https://github.com/gotify/server](https://github.com/gotify/server)
+* RSS推送 [https://github.com/easychen/rsspush](https://github.com/easychen/rsspush)
+* 网页监测 [https://m.bilibili.com/video/BV1WN4y1V7jk](https://m.bilibili.com/video/BV1WN4y1V7jk)
 
 
 
@@ -151,7 +230,6 @@
 * [https://github.com/deepin-community/fonts-wqy-zenhei](https://github.com/deepin-community/fonts-wqy-zenhei)
     * [https://sourceforge.net/projects/wqy](https://sourceforge.net/projects/wqy)
 * [https://github.com/subframe7536/maple-font](https://github.com/subframe7536/maple-font)
-* [https://github.com/dejavu-fonts/dejavu-fonts](https://github.com/dejavu-fonts/dejavu-fonts)
 * [https://github.com/fontello](https://github.com/fontello)
 * [https://github.com/TrionesType/zhuque](https://github.com/TrionesType/zhuque)
 * [https://github.com/Chenyu-otf/chenyuluoyan_thin](https://github.com/Chenyu-otf/chenyuluoyan_thin)
@@ -185,6 +263,49 @@
 - [https://www.fontsquirrel.com/tools/webfont-generator](https://www.fontsquirrel.com/tools/webfont-generator)
 - [https://github.com/MontageSubs](https://github.com/MontageSubs)
 - [https://github.com/opentypejs/opentype.js](https://github.com/opentypejs/opentype.js)
+- 编程字体 [https://github.com/tonsky/firacode](https://github.com/tonsky/firacode)
+- 中文字体 [https://github.com/lxgw/lxgwneozhisong](https://github.com/lxgw/lxgwneozhisong)
+- 像素字体 [https://github.com/takwolf/ark-pixel-font](https://github.com/takwolf/ark-pixel-font)
+- 开源字体 [https://github.com/lxgw/lxgwwenkai](https://github.com/lxgw/lxgwwenkai)
+- 编程字体 [https://github.com/idreesinc/monocraft](https://github.com/idreesinc/monocraft)
+- 编程字体 [https://github.com/weiweihuanghuang/fragment-mono](https://github.com/weiweihuanghuang/fragment-mono)
+- 开源字体 [https://github.com/usted/albert-sans](https://github.com/usted/albert-sans)
+- 手写字型 [https://github.com/chenyu-otf/chenyuluoyan_thin](https://github.com/chenyu-otf/chenyuluoyan_thin)
+- 开源字体 [https://github.com/lxgw/lxgwwenkaigb](https://github.com/lxgw/lxgwwenkaigb)
+- 等宽字体 [https://github.com/laishulu/sarasa-mono-sc-nerd](https://github.com/laishulu/sarasa-mono-sc-nerd)
+- 字体资源 [https://pagure.io/lohit](https://pagure.io/lohit)
+- 字体资源 [https://www.nongnu.org/freebangfont/downloads.html#mukti](https://www.nongnu.org/freebangfont/downloads.html#mukti)
+- 字体资源 [https://dejavu-fonts.github.io/Download.html](https://dejavu-fonts.github.io/Download.html)
+- 图标字体 [https://www.nerdfonts.com](https://www.nerdfonts.com)
+- 中文字体 [https://atelier-anchor.com/typefaces/smiley-sans](https://atelier-anchor.com/typefaces/smiley-sans)
+- 开源字体 [https://github.com/lxgw/lxgwwenkaitc](https://github.com/lxgw/lxgwwenkaitc)
+- 思源宋体 [https://source.typekit.com/source-han-serif/cn](https://source.typekit.com/source-han-serif/cn)
+- 免费字体 [https://tsanger.cn/category/114](https://tsanger.cn/category/114)
+- 鸿蒙字体 [https://developer.harmonyos.com/cn/docs/design/font-0000001157868583](https://developer.harmonyos.com/cn/docs/design/font-0000001157868583)
+- 免费字体 [https://alibabafont.taobao.com/wow/alibabafont/act/alifont](https://alibabafont.taobao.com/wow/alibabafont/act/alifont)
+- 钉钉字体 [https://page.dingtalk.com/wow/dingtalk/default/dingtalk/y-W5aF3_ZJwzulU0nceIl](https://page.dingtalk.com/wow/dingtalk/default/dingtalk/y-W5aF3_ZJwzulU0nceIl)
+- 字体预览 [https://font.icu](https://font.icu)
+- 字体测试 [https://github.com/martinus/programming-font-test-pattern](https://github.com/martinus/programming-font-test-pattern)
+- 编程字体 [https://github.com/braver/programmingfonts](https://github.com/braver/programmingfonts)
+- 免费字体 [https://static01.coloros.com/www/public/img/topic7/font-opposans.zip](https://static01.coloros.com/www/public/img/topic7/font-opposans.zip)
+- 字体编辑 [https://fontforge.github.io](https://fontforge.github.io)
+- 字体编辑 [https://fontforge.org](https://fontforge.org)
+- 免费字体 [https://github.com/kaBeech/serious-shanns](https://github.com/kaBeech/serious-shanns)
+- 免费字体 [https://github.com/paper-design/paper-mono](https://github.com/paper-design/paper-mono)
+- 中文字体 [https://github.com/buttaiwan/iansui](https://github.com/buttaiwan/iansui)
+- 思源宋体 [https://github.com/adobe-fonts/source-han-serif](https://github.com/adobe-fonts/source-han-serif)
+- 开源字体 [https://github.com/fontsource/fontsource](https://github.com/fontsource/fontsource)
+- 手写字体 [https://github.com/excalidraw/virgil](https://github.com/excalidraw/virgil)
+- 开源字体 [https://glyphwiki.org/hanazono](https://glyphwiki.org/hanazono)
+- 免费字体 [https://hyperos.mi.com/font/download](https://hyperos.mi.com/font/download)
+- 编程字体 [https://github.com/microsoft/cascadia-code](https://github.com/microsoft/cascadia-code)
+- 中文字体 [https://github.com/konghayao/chinese-free-web-font-storage](https://github.com/konghayao/chinese-free-web-font-storage)
+- 编程字体 [https://github.com/milky-han/mhm](https://github.com/milky-han/mhm)
+- 免费字体 [https://contentplatform-drcn.hihonorcdn.com/developerPlatform/HONOR_Sans_1.0](https://contentplatform-drcn.hihonorcdn.com/developerPlatform/HONOR_Sans_1.0)
+- 字体工具 [https://github.com/leibnizli/fontmagic](https://github.com/leibnizli/fontmagic)
+- 开源字体 [https://github/mona-sans](https://github/mona-sans)
+- 开源字体 [https://mingdawoo.com/fonts/wu_feng_ti/intro.html](https://mingdawoo.com/fonts/wu_feng_ti/intro.html)
+- 开源字体 [https://github.com/mona-sans](https://github.com/mona-sans)
 
 
 
@@ -297,6 +418,8 @@
 * 荆楚理工学院 [https://github.com/JCIOTeam](https://github.com/JCIOTeam)
     * [https://mirrors.jcut.edu.cn](https://mirrors.jcut.edu.cn)
 * 武昌首义学院 [https://mirrors.wsyu.edu.cn](https://mirrors.wsyu.edu.cn)
+* 镜像加速 [https://github.com/eryajf/thanks-mirror](https://github.com/eryajf/thanks-mirror)
+* 换源工具 [https://github.com/rubymetric/chsrc](https://github.com/rubymetric/chsrc)
 
 
 
@@ -383,16 +506,49 @@
 * [https://cs.email/zh](https://cs.email/zh)
 * [https://thundermail.com](https://thundermail.com)
 * [https://temp-mail-365.com](https://temp-mail-365.com)
+* 临时邮箱 [https://mail.tm/zh](https://mail.tm/zh)
+* 临时邮箱 [https://github.com/disposable-email-domains](https://github.com/disposable-email-domains)
 
 
 
 ## 在线图片工具
 
 * [https://collaigo.com](https://collaigo.com)
+* 绘图工具 [https://www.bmpi.dev/self/my-drawing-toolbox](https://www.bmpi.dev/self/my-drawing-toolbox)
+* 图片处理 [https://imagestool.com/zh_CN](https://imagestool.com/zh_CN)
+* 图片抠图 [https://bgsub.cn/webapp](https://bgsub.cn/webapp)
+* 照片上色 [https://palette.fm](https://palette.fm)
+* Logo生成 [https://app.brandmark.io/v3](https://app.brandmark.io/v3)
+* 设备样机 [https://deviceframes.com](https://deviceframes.com)
+* AI放大图片 [https://bigjpg.com](https://bigjpg.com)
+* AI抠图 [https://bgsub.cn](https://bgsub.cn)
+* 图标制作 [https://icon.ray.so](https://icon.ray.so)
+* 图片放大 [https://mortenjust.substack.com/p/upscalo](https://mortenjust.substack.com/p/upscalo)
+* 高程图工具 [https://tangrams.github.io/heightmapper](https://tangrams.github.io/heightmapper)
+* 证件照工具 [https://tool.browser.qq.com/id_photo.html](https://tool.browser.qq.com/id_photo.html)
+* 代码截图 [https://github.com/riccardoperra/codeimage](https://github.com/riccardoperra/codeimage)
+* SVG编辑器 [https://github.com/MewPurPur/GodSVG](https://github.com/MewPurPur/GodSVG)
+* 去水印 [https://github.com/journey-ad/gemini-watermark-remover](https://github.com/journey-ad/gemini-watermark-remover)
+* 图片压缩 [https://github.com/addyosmani/squish](https://github.com/addyosmani/squish)
+* 图片水印 [https://github.com/unilei/image-watermark-tool](https://github.com/unilei/image-watermark-tool)
+* 图片压缩 [https://github.com/lymphatus/caesium-image-compressor](https://github.com/lymphatus/caesium-image-compressor)
+* 在线抠图 [https://www.remove.bg/zh](https://www.remove.bg/zh)
+* 证件照制作 [https://xpassportphoto.com/zh-tw](https://xpassportphoto.com/zh-tw)
+* 图片矢量化 [https://vectorizer.ai](https://vectorizer.ai)
+* 图片压缩 [https://github.com/kaciras/icanalyzer](https://github.com/kaciras/icanalyzer)
+* PNG压缩 [https://github.com/kornelski/pngquant](https://github.com/kornelski/pngquant)
+* 手写模拟 [https://www.beautifulcarrot.com](https://www.beautifulcarrot.com)
+* 去除背景 [https://pixian.ai](https://pixian.ai)
+* 代码截图 [https://github.com/raycast/ray-so](https://github.com/raycast/ray-so)
+* 设计工具 [https://www.gaoding.com/koutu](https://www.gaoding.com/koutu)
+* 代码截图 [https://github.com/ldered/chalk.ist](https://github.com/ldered/chalk.ist)
+* 图片放大 [https://waifu2x.udp.jp](https://waifu2x.udp.jp)
+* Logo制作 [https://www.namecheap.com/logo-maker/app/editor](https://www.namecheap.com/logo-maker/app/editor)
 
 
 
 ## 在线接收短信
+* 短信验证 [https://sms-activate.org](https://sms-activate.org)
 
 
 **国外**
@@ -484,6 +640,8 @@
 
 
 * 国家代码，电话代码，拨号代码，电话代码，ISO国家代码: [https://countrycode.org](https://countrycode.org)
+* 身份证生成 [https://github.com/xiamuguizhi/idcard_generator-](https://github.com/xiamuguizhi/idcard_generator-)
+* 地址生成 [https://github.com/adonis142857/real-address-generator](https://github.com/adonis142857/real-address-generator)
 
 
 **生成完整用户信息**
@@ -662,7 +820,6 @@
 * [https://github.com/hexingbo/treader](https://github.com/hexingbo/treader)
 * [https://github.com/bifan-wei/HwTxtReader](https://github.com/bifan-wei/HwTxtReader)
 * [https://github.com/smuyyh/BookReader](https://github.com/smuyyh/BookReader)
-* [https://github.com/newbiechen1024/NovelReader](https://github.com/newbiechen1024/NovelReader)
 * [https://github.com/gmathi/NovelLibrary](https://github.com/gmathi/NovelLibrary)
 * [https://github.com/autobcb/qysg](https://github.com/autobcb/qysg)
 
@@ -670,5 +827,9 @@
 ### IOS
 
 * [https://github.com/is0bnd/Books](https://github.com/is0bnd/Books)
+* 古诗数据库 [https://github.com/chinese-poetry/chinese-poetry](https://github.com/chinese-poetry/chinese-poetry)
+* 小说阅读 [https://github.com/gedoor/legado](https://github.com/gedoor/legado)
+* 小说下载 [https://github.com/POf-L/Fanqie-novel-Downloader](https://github.com/POf-L/Fanqie-novel-Downloader)
+* 小说阅读 [https://github.com/Jer-Chao/legado](https://github.com/Jer-Chao/legado)
 
 

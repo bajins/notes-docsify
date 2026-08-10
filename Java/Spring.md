@@ -37,6 +37,14 @@
 * [SpringCloud和Dubbo](https://www.jianshu.com/p/9fa24196d2ad)
 * [SpringCache自定义过期时间及自动刷新](https://www.cnblogs.com/top-housekeeper/p/11980973.html)
 * [Spring揭秘学习笔记](https://blog.csdn.net/qq_34626094/category_11731455.html)
+* Spring精简 [https://github.com/derekyrc/mini-spring](https://github.com/derekyrc/mini-spring)
+* 后台系统 [https://github.com/yunaiv/ruoyi-vue-pro](https://github.com/yunaiv/ruoyi-vue-pro)
+* Java新闻 [https://www.infoq.cn/news/4t0WbqrTXaCWOpmFFpfI](https://www.infoq.cn/news/4t0WbqrTXaCWOpmFFpfI)
+* 领域框架 [https://github.com/st-tu-dresden/salespoint](https://github.com/st-tu-dresden/salespoint)
+* Spring示例 [https://github.com/odrotbohm/spring-restbucks](https://github.com/odrotbohm/spring-restbucks)
+* Spring示例 [https://github.com/hantsy/spring-puzzles](https://github.com/hantsy/spring-puzzles)
+* Java架构书 [https://github.com/fenixsoft](https://github.com/fenixsoft)
+* 跨域方案 [https://blog.csdn.net/weter_drop/article/details/112135940](https://blog.csdn.net/weter_drop/article/details/112135940)
 
 
 
@@ -142,6 +150,9 @@ try {
 }
 // foreach end
 ```
+* 事务发件箱 [https://github.com/gruelbox/transaction-outbox](https://github.com/gruelbox/transaction-outbox)
+* 事务失效 [https://segmentfault.com/a/1190000042183343](https://segmentfault.com/a/1190000042183343)
+* 异步处理方案 [https://juejin.cn/post/7266087843239084090](https://juejin.cn/post/7266087843239084090)
 
 
 
@@ -163,6 +174,7 @@ try {
 * [使用@Autowired注解警告Field injection is not recommended](https://blog.csdn.net/zhangjingao/article/details/81094529)
 
 - [Spring中获取request的几种方法，及其线程安全性分析](https://www.cnblogs.com/kismetv/p/8757260.html)
+- 依赖注入 [https://code.google.com/p/atinject](https://code.google.com/p/atinject)
 
 
 
@@ -201,6 +213,15 @@ try {
 > 旨在减少软件开发人员需做决定的数量，获得简单的好处，而又不失灵活性。
 
 > 开发人员仅需规定应用中不符合约定的部分，在没有规定配置的地方，采用默认配置，以力求最简配置为核心思想
+* 秒杀系统 [https://github.com/qiurunze123/miaosha](https://github.com/qiurunze123/miaosha)
+* Spring实战 [https://github.com/chengxy-nds/springboot-notebook](https://github.com/chengxy-nds/springboot-notebook)
+* Spring管理 [https://github.com/krud-dev/boost](https://github.com/krud-dev/boost)
+* 日志Starter [https://github.com/akkinoc/logback-access-spring-boot-starter](https://github.com/akkinoc/logback-access-spring-boot-starter)
+* 限流Starter [https://github.com/marcgiffing/bucket4j-spring-boot-starter](https://github.com/marcgiffing/bucket4j-spring-boot-starter)
+* 后台框架 [https://github.com/yangzongzhuan/ruoyi](https://github.com/yangzongzhuan/ruoyi)
+* 后台脚手架 [https://gitee.com/ballcat-projects/ballcat](https://gitee.com/ballcat-projects/ballcat)
+* 微服务框架 [https://mp.weixin.qq.com/s/z7YupEHX9ILWoZhZg5EQEQ](https://mp.weixin.qq.com/s/z7YupEHX9ILWoZhZg5EQEQ)
+* Spring注解 [https://segmentfault.com/a/1190000043116334](https://segmentfault.com/a/1190000043116334)
 
 **有哪些约定**
 
@@ -476,6 +497,9 @@ try {
 * [分布式日志框架ELK入门](https://blog.csdn.net/piantoutongyang/article/details/88811840)
 * [SpringCloud实践分享 日志收集Kafka ELK](https://juejin.im/post/5d84a83af265da03ee6a92af)
 * [【Sentinel（一）】Sentinel介绍与使用](https://blog.csdn.net/noaman_wgs/article/details/103328793)
+* 微服务商城 [https://github.com/gz-yami/mall4cloud](https://github.com/gz-yami/mall4cloud)
+* 微服务实战 [https://github.com/eacdy/spring-cloud-book](https://github.com/eacdy/spring-cloud-book)
+* 云组件库 [https://github.com/tencent/spring-cloud-tencent](https://github.com/tencent/spring-cloud-tencent)
 
 
 
@@ -559,6 +583,7 @@ public  ModelAndView toredirect(String userName){
 2. Spring AOP：只支持动态代理，通过两种方式进行实现：
     1. JDK动态代理，通过反射实现，只支持对实现接口的类进行代理
     2. CGLib动态字节码注入方式实现代理。
+* AOP切点 [https://segmentfault.com/a/1190000044053250](https://segmentfault.com/a/1190000044053250)
 
 
 ## JDK动态代理:

@@ -46,6 +46,10 @@
 - [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
 - [Java 速查手册](https://bbs.csdn.net/topics/609815996)
 - [javaEE和javaweb的区别？](https://www.zhihu.com/question/52002845)
+- Java周刊 [https://segmentfault.com/a/1190000042549802](https://segmentfault.com/a/1190000042549802)
+- Java进阶 [https://fhfirehuo.github.io/Attacking-Java-Rookie](https://fhfirehuo.github.io/Attacking-Java-Rookie)
+- 零代码API [https://github.com/apijson](https://github.com/apijson)
+- Java容器之争 [https://www.zhihu.com/question/433870930/answer/2589604675](https://www.zhihu.com/question/433870930/answer/2589604675)
 
 
 
@@ -196,6 +200,21 @@
 
 
 - [https://ddkk.com](https://ddkk.com)
+- Java教程 [https://github.com/cunyu1943/javapark](https://github.com/cunyu1943/javapark)
+- Java学习 [https://github.com/tyson0314/java-learning](https://github.com/tyson0314/java-learning)
+- Java示例 [https://github.com/bruceeckel/onjava8-examples](https://github.com/bruceeckel/onjava8-examples)
+- Java学习 [https://github.com/itwanger/tobebetterjavaer](https://github.com/itwanger/tobebetterjavaer)
+- Java进阶 [https://github.com/doocs/advanced-java](https://github.com/doocs/advanced-java)
+- 原生编译 [https://segmentfault.com/a/1190000045090468](https://segmentfault.com/a/1190000045090468)
+- Java学习 [https://github.com/zhengshuhai/javarecord](https://github.com/zhengshuhai/javarecord)
+- Java面试 [https://github.com/snailclimb/javaguide](https://github.com/snailclimb/javaguide)
+- Java学习 [https://github.com/tc-liang/studyjava](https://github.com/tc-liang/studyjava)
+- Java笔记 [https://github.com/niumoo/javanotes](https://github.com/niumoo/javanotes)
+- JMH基准测试 [https://juejin.cn/post/6844903936869007368](https://juejin.cn/post/6844903936869007368)
+- Java教程 [https://www.bilibili.com/video/BV1fh411y7R8?p=315](https://www.bilibili.com/video/BV1fh411y7R8?p=315)
+- Java社区 [https://foojay.io](https://foojay.io)
+- Java教程 [https://m.bilibili.com/video/BV1oq4y1v7dB](https://m.bilibili.com/video/BV1oq4y1v7dB)
+- Java与Spring [https://github.com/dyc87112](https://github.com/dyc87112)
 
 
 ## 示例项目
@@ -290,6 +309,8 @@
 * IM [https://gitee.com/howcode/aq-chat-server](https://gitee.com/howcode/aq-chat-server)
 * ERP [https://github.com/wimoor-erp/wimoor](https://github.com/wimoor-erp/wimoor)
 * 复刻掘金BBS [https://github.com/shandonghengyudianzi/forum-easy](https://github.com/shandonghengyudianzi/forum-easy)
+* EE示例 [https://github.com/hantsy/jakartaee9-starter-boilerplate](https://github.com/hantsy/jakartaee9-starter-boilerplate)
+* 内容管理 [https://github.com/jpressprojects/jpress](https://github.com/jpressprojects/jpress)
 
 
 

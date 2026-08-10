@@ -22,6 +22,8 @@
 * [挑战idea社区版Javaweb开发](https://www.jianshu.com/p/dc8f3508a8ba)
 * [无需破解，使用IDEA社区版开发Web项目](https://juejin.cn/post/6904998792999731207)
 * [已经足够好用的IDEA社区版](https://www.jianshu.com/p/c98c8d75f71d)
+* IDEA破解 [https://www.exception.site](https://www.exception.site)
+* IDEA教程 [https://github.com/judasn/intellij-idea-tutorial](https://github.com/judasn/intellij-idea-tutorial)
 
 
 

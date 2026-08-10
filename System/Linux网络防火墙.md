@@ -43,6 +43,24 @@
 * 广告拦截 [https://github.com/pi-hole/pi-hole](https://github.com/pi-hole/pi-hole)
 * 网络映射 [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
 * [https://github.com/boratanrikulu/gecit](https://github.com/boratanrikulu/gecit)
+* 防火墙白名单 [https://github.com/taisandog/firewallsetting](https://github.com/taisandog/firewallsetting)
+* 防火墙脚本 [https://github.com/azizkpln/kaplanfirewall](https://github.com/azizkpln/kaplanfirewall)
+* 负载均衡 [https://github.com/loxilb-io/loxilb](https://github.com/loxilb-io/loxilb)
+* 负载均衡 [https://github.com/mageekchiu/xdp4slb](https://github.com/mageekchiu/xdp4slb)
+* XDP处理 [https://github.com/sematext/oxdpus](https://github.com/sematext/oxdpus)
+* eBPF库 [https://github.com/cilium/ebpf](https://github.com/cilium/ebpf)
+* 动态DNS [https://github.com/dprandzioch/docker-ddns](https://github.com/dprandzioch/docker-ddns)
+* DNS管理 [https://github.com/qunarcorp/open_dnsdb](https://github.com/qunarcorp/open_dnsdb)
+* 广告过滤 [https://github.com/potterli20/hosts](https://github.com/potterli20/hosts)
+* 流量控制 [https://arthurchiao.art/blog/traffic-control-from-queue-to-edt-zh](https://arthurchiao.art/blog/traffic-control-from-queue-to-edt-zh)
+* BPF网络 [https://arthurchiao.art/blog/birth-of-sk-lookup-bpf-zh](https://arthurchiao.art/blog/birth-of-sk-lookup-bpf-zh)
+* BPF网络 [https://docs.cilium.io/en/latest/bpf](https://docs.cilium.io/en/latest/bpf)
+* eBPF网络 [https://mp.weixin.qq.com/s/bnvod0BMtSXWqZxV49T7pg](https://mp.weixin.qq.com/s/bnvod0BMtSXWqZxV49T7pg)
+* 网络栈调优 [https://www.cyningsun.com/04-24-2023/monitoring-and-tuning-the-linux-networking-stack-recv-cn.html](https://www.cyningsun.com/04-24-2023/monitoring-and-tuning-the-linux-networking-stack-recv-cn.html)
+* 网络收包 [https://mp.weixin.qq.com/s/6c0ZZ3ZZZ_ocIqH2iey1lw](https://mp.weixin.qq.com/s/6c0ZZ3ZZZ_ocIqH2iey1lw)
+* 防火墙可视化 [https://github.com/olivierb46/PyFRC2G](https://github.com/olivierb46/PyFRC2G)
+* 应用防火墙 [https://github.com/evilsocket/opensnitch](https://github.com/evilsocket/opensnitch)
+* DNS [https://github.com/topics/dns](https://github.com/topics/dns)
 
 
 
@@ -79,6 +97,17 @@ pstree -p {pid} | wc -l
 netstat -antp |grep "ESTABLISHED" |awk '{print $5}'|awk -F : '{print $4}'|sort |uniq -c
 
 ```
+* 子网计算 [https://github.com/sii/sipcalc](https://github.com/sii/sipcalc)
+* DNS查询 [https://github.com/jvns/dns-lookup](https://github.com/jvns/dns-lookup)
+* 网络模拟 [https://github.com/tylertreat/comcast](https://github.com/tylertreat/comcast)
+* 网络监控 [https://github.com/cjjeakle/network-monitor](https://github.com/cjjeakle/network-monitor)
+* 网络监控 [https://github.com/gyulyvgc/sniffnet](https://github.com/gyulyvgc/sniffnet)
+* IP合并工具 [https://github.com/zhanhb/cidr-merger](https://github.com/zhanhb/cidr-merger)
+* Ping工具 [https://github.com/hanshuaikang/nping](https://github.com/hanshuaikang/nping)
+* 局域网扫描 [https://github.com/aceberg/watchyourlan](https://github.com/aceberg/watchyourlan)
+* 网络抓包 [https://github.com/pythops/oryx](https://github.com/pythops/oryx)
+* 抓包工具 [https://icloudnative.io/posts/tcpdump-examples](https://icloudnative.io/posts/tcpdump-examples)
+* 网卡统计 [https://github.com/sysperf/nicstat](https://github.com/sysperf/nicstat)
 
 
 
@@ -257,6 +286,9 @@ firewall-cmd --query-panic
     - [https://w.is](https://w.is)
 - 可用性检查 [https://github.com/funilrys/PyFunceble](https://github.com/funilrys/PyFunceble)
 - [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
+- 网络诊断 [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
+- 路由跟踪 [https://github.com/libparistraceroute/libparistraceroute](https://github.com/libparistraceroute/libparistraceroute)
+- 路由跟踪 [https://github.com/insomniacslk/dublin-traceroute](https://github.com/insomniacslk/dublin-traceroute)
 
 
 **`ping`、`tcptraceroute`、`traceroute`、`mtr`**
@@ -272,8 +304,6 @@ firewall-cmd --query-panic
 * [https://github.com/vi/websocat](https://github.com/vi/websocat)
 * [https://github.com/pouriyajamshidi/tcping](https://github.com/pouriyajamshidi/tcping)
 * [https://github.com/hanshuaikang/Nping](https://github.com/hanshuaikang/Nping)
-* [https://github.com/nmap/nmap](https://github.com/nmap/nmap)
-* [https://github.com/SkyLined/LocalNetworkScanner](https://github.com/SkyLined/LocalNetworkScanner)
 * [https://github.com/aceberg/WatchYourLAN](https://github.com/aceberg/WatchYourLAN)
 
 

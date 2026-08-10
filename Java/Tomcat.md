@@ -42,6 +42,7 @@
 + [https://github.com/eclipse-ee4j/grizzly](https://github.com/eclipse-ee4j/grizzly)
 + [https://github.com/eclipse-ee4j/glassfish](https://github.com/eclipse-ee4j/glassfish)
     + [https://github.com/payara/Payara](https://github.com/payara/Payara)
++ 应用服务器 [https://github.com/openliberty](https://github.com/openliberty)
 
 
 
@@ -242,7 +243,6 @@ vi webapps/host-manager/META-INF/context.xml
 
 ## CentOS安装Tomcat
 
-* [https://tomcat.apache.org](https://tomcat.apache.org)
 
 **解压**
 

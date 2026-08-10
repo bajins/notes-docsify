@@ -66,6 +66,22 @@ nginx -s reload
 # 验证配置
 nginx -t
 ```
+* 负载均衡 [https://github.com/yyyar/gobetween](https://github.com/yyyar/gobetween)
+* 反向代理 [https://github.com/jc21/nginx-proxy-manager](https://github.com/jc21/nginx-proxy-manager)
+* 反向代理 [https://github.com/xiaoxinpro/nginx-proxy-manager-zh](https://github.com/xiaoxinpro/nginx-proxy-manager-zh)
+* 负载均衡 [https://mp.weixin.qq.com/s/F17a068m-zgb2ffN7PaCYQ](https://mp.weixin.qq.com/s/F17a068m-zgb2ffN7PaCYQ)
+* Nginx网络 [https://mp.weixin.qq.com/s/AX6Fval8RwkgzptdjlU5kg](https://mp.weixin.qq.com/s/AX6Fval8RwkgzptdjlU5kg)
+* 负载均衡 [https://www.wangan.com/wenda/11084](https://www.wangan.com/wenda/11084)
+* Nginx配置 [https://do.co/nginxconfig](https://do.co/nginxconfig)
+* Nginx头部 [https://iziyang.github.io/2020/04/08/4-nginx](https://iziyang.github.io/2020/04/08/4-nginx)
+* Nginx开发 [https://github.com/baishancloud/nginx-development-guide](https://github.com/baishancloud/nginx-development-guide)
+* 平滑升级 [https://ms2008.github.io/2019/12/28/hot-upgrade](https://ms2008.github.io/2019/12/28/hot-upgrade)
+* nginx发行版 [https://freenginx.org](https://freenginx.org)
+* Nginx源码 [https://github.com/jianfengye/nginx-1.0.14_comment](https://github.com/jianfengye/nginx-1.0.14_comment)
+* Nginx管理 [https://github.com/lucasdillmann/nginx-ignition](https://github.com/lucasdillmann/nginx-ignition)
+* SSL配置 [https://ssl-config.mozilla.org](https://ssl-config.mozilla.org)
+* Nginx管理 [https://github.com/0xjacky/nginx-ui](https://github.com/0xjacky/nginx-ui)
+* Nginx服务器 [https://github.com/nginx/nginx](https://github.com/nginx/nginx)
 
 
 
@@ -103,6 +119,9 @@ nginx -t
 * [https://github.com/cuber/ngx_http_google_filter_module](https://github.com/cuber/ngx_http_google_filter_module)
     * [Nginx 配置谷歌镜像站](https://plusls.github.io/linux/nginx/configure-nginx-google-mirror)
 * 流媒体 [https://github.com/arut/nginx-rtmp-module](https://github.com/arut/nginx-rtmp-module)
+* 负载均衡 [https://github.com/gnosek/nginx-upstream-fair](https://github.com/gnosek/nginx-upstream-fair)
+* Nginx模块 [https://github.com/api7/wasm-nginx-module](https://github.com/api7/wasm-nginx-module)
+* GeoIP模块 [https://github.com/leev/ngx_http_geoip2_module](https://github.com/leev/ngx_http_geoip2_module)
 
 
 
@@ -674,6 +693,8 @@ http {
     #error_log /dev/null;
 }
 ```
+* Nginx配置 [https://github.com/cym1102/nginxwebui](https://github.com/cym1102/nginxwebui)
+* 负载均衡 [https://blog.csdn.net/apple9005/article/details/79961391](https://blog.csdn.net/apple9005/article/details/79961391)
 
 
 ## 动静分离配置

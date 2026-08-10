@@ -12,6 +12,7 @@
 * [https://github.com/blylei/frabit](https://github.com/blylei/frabit)
 * 读取binlog [https://github.com/zendesk/maxwell](https://github.com/zendesk/maxwell)
 * [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
+* 数据库备份 [https://github.com/jamesstewy/go-mysqldump](https://github.com/jamesstewy/go-mysqldump)
 
 
 
@@ -308,6 +309,7 @@ source /home/backup.sql;
 
 
 ### 配置主服务器
+* 主从读写分离 [https://github.com/instacart/makara](https://github.com/instacart/makara)
 
 **在[mysqld]节点下按需添加**
 

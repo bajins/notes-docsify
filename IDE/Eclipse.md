@@ -585,7 +585,6 @@
 - [https://github.com/cnfree/Eclipse-Class-Decompiler](https://github.com/cnfree/Eclipse-Class-Decompiler)
 - [https://github.com/helospark/import-jar-as-project](https://github.com/helospark/import-jar-as-project)
 - [https://sourceforge.net/projects/drgarbagetools](https://sourceforge.net/projects/drgarbagetools)
-- [https://github.com/helospark/import-jar-as-project](https://github.com/helospark/import-jar-as-project)
 - 测试 [https://github.com/ot4i/perf-harness](https://github.com/ot4i/perf-harness)
 
 

@@ -127,6 +127,37 @@ SELECT * FROM unnest(ARRAY['a','b','c','d','e','f']) WITH ORDINALITY;
 SELECT * FROM jsonb_to_recordset('[{"name": "batman"}, {"name": "superman"}]'::jsonb) AS x(name TEXT);
 SELECT * FROM json_array_elements_text('["batman", "superman"]');
 ```
+* API服务 [https://github.com/postgrest/postgrest](https://github.com/postgrest/postgrest)
+* 存储引擎 [https://github.com/orioledb/orioledb](https://github.com/orioledb/orioledb)
+* PG驱动 [https://github.com/magicstack/asyncpg](https://github.com/magicstack/asyncpg)
+* 云基础设施SQL [https://github.com/iasql/iasql](https://github.com/iasql/iasql)
+* 连接池代理 [https://github.com/levkk/pgcat](https://github.com/levkk/pgcat)
+* 增量视图 [https://github.com/sraoss/pg_ivm](https://github.com/sraoss/pg_ivm)
+* 定时任务 [https://github.com/citusdata/pg_cron](https://github.com/citusdata/pg_cron)
+* 基准测试 [https://github.com/vadosware/supabase-seen-by](https://github.com/vadosware/supabase-seen-by)
+* 分区管理 [https://github.com/pgpartman/pg_partman](https://github.com/pgpartman/pg_partman)
+* 基数估计 [https://github.com/citusdata/postgresql-hll](https://github.com/citusdata/postgresql-hll)
+* 数据库管理 [https://github.com/centerofci/mathesar](https://github.com/centerofci/mathesar)
+* PG浏览器 [https://github.com/snaplet/postgres-wasm](https://github.com/snaplet/postgres-wasm)
+* 性能基准 [https://github.com/vonng/pgtpc](https://github.com/vonng/pgtpc)
+* 外部数据 [https://github.com/tds-fdw/tds_fdw](https://github.com/tds-fdw/tds_fdw)
+* 数据库 [https://github.com/ivorysql/ivorysql](https://github.com/ivorysql/ivorysql)
+* UUID生成 [https://github.com/tanglebones/pg_tuid](https://github.com/tanglebones/pg_tuid)
+* UUID生成 [https://github.com/tvondra/sequential-uuids](https://github.com/tvondra/sequential-uuids)
+* 全文搜索 [https://supabase.com/blog/postgres-full-text-search-vs-the-rest](https://supabase.com/blog/postgres-full-text-search-vs-the-rest)
+* Postgres包 [https://database.dev](https://database.dev)
+* PG监听 [https://github.com/kingluo/pg_watch_demo](https://github.com/kingluo/pg_watch_demo)
+* 浏览器数据库 [https://github.com/supabase-community/postgres-wasm](https://github.com/supabase-community/postgres-wasm)
+* PG可视化 [https://nikolays.github.io/PGSimCity](https://nikolays.github.io/PGSimCity)
+* PG分片 [https://github.com/multigres/multigres](https://github.com/multigres/multigres)
+* PG博客 [https://vonng.com/cn/blog/overview](https://vonng.com/cn/blog/overview)
+* 数据库扩展 [https://github.com/xataio/pgzx](https://github.com/xataio/pgzx)
+* WASM数据库 [https://github.com/electric-sql/pglite](https://github.com/electric-sql/pglite)
+* Postgres统计 [https://supabase.com/blog/2022/07/18/seen-by-in-postgresql](https://supabase.com/blog/2022/07/18/seen-by-in-postgresql)
+* Postgres原理 [https://postgres-internals.cn/docs](https://postgres-internals.cn/docs)
+* PostgreSQL [https://segmentfault.com/a/1190000044048598](https://segmentfault.com/a/1190000044048598)
+* PostgreSQL [https://github.com/crunchydata](https://github.com/crunchydata)
+* 时序数据库 [https://github.com/timescale](https://github.com/timescale)
 
 
 

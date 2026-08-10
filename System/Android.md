@@ -71,6 +71,24 @@
     + [https://github.com/Tomotoes/scrcpy-gui](https://github.com/Tomotoes/scrcpy-gui)
 + [https://github.com/barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy)
 + HDR和SDR转换 [https://github.com/JonaNorman/HDRSample](https://github.com/JonaNorman/HDRSample)
++ 组件化架构 [https://github.com/yangchong211/ycapptool](https://github.com/yangchong211/ycapptool)
++ 渠道打包 [https://github.com/mcxiaoke/packer-ng-plugin](https://github.com/mcxiaoke/packer-ng-plugin)
++ 安卓源码 [https://github.com/yuchuangu85/android_framework_source](https://github.com/yuchuangu85/android_framework_source)
++ 通知图标适配 [https://github.com/fankes/androidnotifyiconadapt](https://github.com/fankes/androidnotifyiconadapt)
++ Android投屏 [https://www.vysor.io](https://www.vysor.io)
++ Android面试 [https://mp.weixin.qq.com/s/oN4CTWCnEWSc2yf2BG6dew](https://mp.weixin.qq.com/s/oN4CTWCnEWSc2yf2BG6dew)
++ 防抓包 [https://segmentfault.com/a/1190000043057736](https://segmentfault.com/a/1190000043057736)
++ 安卓投屏 [https://github.com/NetrisTV/ws-scrcpy](https://github.com/NetrisTV/ws-scrcpy)
++ Android性能 [https://android-performance-optimization.github.io](https://android-performance-optimization.github.io)
++ Android引导 [https://github.com/appintro](https://github.com/appintro)
++ Android模拟器 [https://github.com/genymobile](https://github.com/genymobile)
++ Linux安卓 [https://github.com/linux-on-droid](https://github.com/linux-on-droid)
++ 图片处理 [https://github.com/t8rin/ImageToolbox](https://github.com/t8rin/ImageToolbox)
++ Android框架 [https://github.com/aosp-mirror/platform_frameworks_base](https://github.com/aosp-mirror/platform_frameworks_base)
++ 信号检测 [https://github.com/hzx0910/cellular-z](https://github.com/hzx0910/cellular-z)
++ 漫画阅读器 [https://github.com/tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi)
++ 电视盒子 [https://github.com/tv-player/tvbox](https://github.com/tv-player/tvbox)
++ Android源码 [https://huanle19891345.github.io](https://huanle19891345.github.io)
 
 
 
@@ -86,6 +104,10 @@
 * [https://github.com/openatx/uiautomator2](https://github.com/openatx/uiautomator2)
 * [https://github.com/RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku)
     * [https://github.com/UrkeJH/ShizukuDhizuku-list](https://github.com/UrkeJH/ShizukuDhizuku-list)
+* 自动编译 [https://github.com/wsine/android_builder](https://github.com/wsine/android_builder)
+* 自动点击 [https://github.com/Nain57/Smart-AutoClicker](https://github.com/Nain57/Smart-AutoClicker)
+* 跳过广告 [https://github.com/zfdang/android-touch-helper](https://github.com/zfdang/android-touch-helper)
+* 多设备控制 [https://github.com/pdone/freecontrol](https://github.com/pdone/freecontrol)
 
 
 **Auto.js**
@@ -173,6 +195,7 @@
 * 灰色按钮 [https://github.com/githubwing/DroidSword](https://github.com/githubwing/DroidSword)
 * 获取ROOT [https://github.com/tiann/KernelSU](https://github.com/tiann/KernelSU)
 * [https://www.rainyweb.cn](https://www.rainyweb.cn)
+* Xposed模块 [https://forum.xda-developers.com/f/xposed-framework-modules.2919](https://forum.xda-developers.com/f/xposed-framework-modules.2919)
 
 
 
@@ -215,6 +238,7 @@
 * [https://zh.x8sb.com](https://zh.x8sb.com)
 * [http://www.eaqiang.com](http://www.eaqiang.com)
 * 两仪 [https://www.coolapk.com/apk/io.twoyi](https://www.coolapk.com/apk/io.twoyi)
+* WSA安卓 [https://github.com/mustardchef/wsabuilds](https://github.com/mustardchef/wsabuilds)
 
 
 
@@ -260,6 +284,12 @@
 - [https://github.com/dana-at-cp/backdoor-apk](https://github.com/dana-at-cp/backdoor-apk)
 - [https://github.com/stray-coding/android_decompile_tool](https://github.com/stray-coding/android_decompile_tool)
 - [https://github.com/jmpoep/vmprotect-3.5.1](https://github.com/jmpoep/vmprotect-3.5.1)
+- APK逆向 [https://github.com/ax/apk.sh](https://github.com/ax/apk.sh)
+- 反汇编工具 [https://github.com/jesusfreke/smali](https://github.com/jesusfreke/smali)
+- 逆向工具 [https://github.com/ibotpeaches/apktool](https://github.com/ibotpeaches/apktool)
+- Android逆向 [https://bitbucket.org/iBotPeaches/apktool](https://bitbucket.org/iBotPeaches/apktool)
+- 逆向学习 [https://github.com/heyhu/androidreversestudy](https://github.com/heyhu/androidreversestudy)
+- ROM解包 [https://github.com/aikirito/uy-sct](https://github.com/aikirito/uy-sct)
 
 
 
@@ -343,7 +373,6 @@
 * [https://github.com/T8RIN/ImageToolbox](https://github.com/T8RIN/ImageToolbox)
 * 图表库 [https://github.com/PhilJay/MPAndroidChart](https://github.com/PhilJay/MPAndroidChart)
 * 缩放图片 [https://github.com/chrisbanes/PhotoView](https://github.com/chrisbanes/PhotoView)
-* 图像加载 [https://github.com/coil-kt/coil](https://github.com/coil-kt/coil)
 * Lottie动画 [https://github.com/orispok/OpenAnimationApp](https://github.com/orispok/OpenAnimationApp)
 * 翻页动效 [https://github.com/PureWriter/FullDraggableDrawer](https://github.com/PureWriter/FullDraggableDrawer)
 * 进度 [https://github.com/lzyzsd/CircleProgress](https://github.com/lzyzsd/CircleProgress)
@@ -371,6 +400,23 @@
 * [https://github.com/pengxurui/EasyPrivacy](https://github.com/pengxurui/EasyPrivacy)
 * 崩溃报告 [https://github.com/ACRA/acra](https://github.com/ACRA/acra)
 * 执行脚本 [https://github.com/zhanghai/BeeShell](https://github.com/zhanghai/BeeShell)
+* 预加载库 [https://github.com/luckybilly/preloader](https://github.com/luckybilly/preloader)
+* JSON转视图 [https://github.com/avocarrot/json2view](https://github.com/avocarrot/json2view)
+* Bootstrap样式 [https://github.com/bearded-hen/android-bootstrap](https://github.com/bearded-hen/android-bootstrap)
+* AR增强现实 [https://github.com/google-ar/arcore-android-sdk](https://github.com/google-ar/arcore-android-sdk)
+* VR虚拟现实 [https://github.com/googlevr/cardboard](https://github.com/googlevr/cardboard)
+* VR虚拟现实 [https://github.com/googlevr/gvr-android-sdk](https://github.com/googlevr/gvr-android-sdk)
+* Android组件 [https://github.com/material-components/material-components-android](https://github.com/material-components/material-components-android)
+* Android资源 [https://github.com/aritraroy/ultimateandroidreference](https://github.com/aritraroy/ultimateandroidreference)
+* 二维码 [https://github.com/bingoogolapple/bgaqrcode-android](https://github.com/bingoogolapple/bgaqrcode-android)
+* 分页指示器 [https://github.com/hackware1993/magicindicator](https://github.com/hackware1993/magicindicator)
+* GIF加载 [https://github.com/koral--/android-gif-drawable](https://github.com/koral--/android-gif-drawable)
+* AR增强现实 [https://developers.google.com/ar/develop/java/enable-arcore#dependencies](https://developers.google.com/ar/develop/java/enable-arcore#dependencies)
+* 安卓开发 [https://developers.google.com/android/guides/setup](https://developers.google.com/android/guides/setup)
+* Android库 [https://github.com/airbnb/epoxy](https://github.com/airbnb/epoxy)
+* Android ORM [https://github.com/guolindev/litepal](https://github.com/guolindev/litepal)
+* 图像滤镜 [https://github.com/cats-oss/android-gpuimage](https://github.com/cats-oss/android-gpuimage)
+* Android工具 [https://github.com/chenfei0928/util](https://github.com/chenfei0928/util)
 
 
 
@@ -382,9 +428,10 @@
 * [https://github.com/meituan/WMRouter](https://github.com/meituan/WMRouter)
 * [https://github.com/fly803/BaseProject](https://github.com/fly803/BaseProject)
 * [https://github.com/wendux/DSBridge-Android](https://github.com/wendux/DSBridge-Android)
-* [专出网络框架的square](https://github.com/square)
 
 - 测试 [https://github.com/robolectric](https://github.com/robolectric)
+- 移动UI框架 [https://segmentfault.com/a/1190000044033175](https://segmentfault.com/a/1190000044033175)
+- 谷歌服务替代 [https://github.com/microg/gmscore](https://github.com/microg/gmscore)
 
 
 
@@ -428,6 +475,42 @@
 - [https://gitlab.com/AuroraOSS/AuroraStore](https://gitlab.com/AuroraOSS/AuroraStore)
 - [https://github.com/yeriomin/YalpStore](https://github.com/yeriomin/YalpStore)
 - [https://gitlab.com/AuroraOSS/auroradroid](https://gitlab.com/AuroraOSS/auroradroid)
+- 媒体播放 [https://github.com/jellyfin/jellyfin-androidtv](https://github.com/jellyfin/jellyfin-androidtv)
+- 影音应用 [https://github.com/o0halflife0o/tvboxosc](https://github.com/o0halflife0o/tvboxosc)
+- 影音应用 [https://github.com/q215613905/tvboxos](https://github.com/q215613905/tvboxos)
+- 影音应用 [https://github.com/fongmi/tv](https://github.com/fongmi/tv)
+- 影音应用 [https://github.com/llazyl/tvbox](https://github.com/llazyl/tvbox)
+- 安卓键盘 [https://github.com/julow/unexpected-keyboard](https://github.com/julow/unexpected-keyboard)
+- 图片水印 [https://github.com/rosuh/easywatermark](https://github.com/rosuh/easywatermark)
+- Telegram客户端 [https://github.com/tgx-android/telegram-x](https://github.com/tgx-android/telegram-x)
+- 播客管理 [https://github.com/antennapod/antennapod](https://github.com/antennapod/antennapod)
+- 活动监控 [https://github.com/omico/currentactivity](https://github.com/omico/currentactivity)
+- 视频播放 [https://github.com/carguo/gsyvideoplayer](https://github.com/carguo/gsyvideoplayer)
+- Android文件管理器 [https://www.mixplorer.com](https://www.mixplorer.com)
+- 安卓备份 [https://github.com/vr-25/tarb](https://github.com/vr-25/tarb)
+- 安卓MOD [https://modyolo.com](https://modyolo.com)
+- APK下载 [https://apkdl.net](https://apkdl.net)
+- 贴纸应用 [https://github.com/fengyiqicoder/onestickerrelease](https://github.com/fengyiqicoder/onestickerrelease)
+- 自由窗口 [https://github.com/sunshine0523/mi-freeform](https://github.com/sunshine0523/mi-freeform)
+- 手机投屏 [https://github.com/barry-ran/qtscrcpy](https://github.com/barry-ran/qtscrcpy)
+- 音频转发 [https://github.com/rom1v/sndcpy](https://github.com/rom1v/sndcpy)
+- 影视应用 [https://github.com/attemptd/afusekt-release](https://github.com/attemptd/afusekt-release)
+- 影视盒子 [https://github.com/supermeguo/boxres](https://github.com/supermeguo/boxres)
+- 图片工具 [https://github.com/t8rin/imagetoolbox](https://github.com/t8rin/imagetoolbox)
+- 短信转发 [https://github.com/jinweijie/notify-me](https://github.com/jinweijie/notify-me)
+- 虚拟定位 [https://github.com/zcshou/gogogo](https://github.com/zcshou/gogogo)
+- 安卓防火墙 [https://github.com/m66b/netguard](https://github.com/m66b/netguard)
+- 端侧LLM [https://github.com/shubham0204/smolchat-android](https://github.com/shubham0204/smolchat-android)
+- 电视播放 [https://github.com/lizongying/my-tv-0](https://github.com/lizongying/my-tv-0)
+- 虚拟定位 [https://github.com/davesc63/GeoPort](https://github.com/davesc63/GeoPort)
+- 计算器 [https://github.com/Darkempire78/OpenCalc](https://github.com/Darkempire78/OpenCalc)
+- 开源APK [https://www.openapk.net](https://www.openapk.net)
+- 播客阅读 [https://github.com/skyd666/anivu](https://github.com/skyd666/anivu)
+- 2FA认证 [https://github.com/stratumauth/app](https://github.com/stratumauth/app)
+- 电视直播 [https://github.com/yaoxieyoulei/mytv-android](https://github.com/yaoxieyoulei/mytv-android)
+- 图像超分 [https://github.com/tumuyan/realsr-ncnn-android](https://github.com/tumuyan/realsr-ncnn-android)
+- 跳过开屏广告 [https://github.com/guoxicheng](https://github.com/guoxicheng)
+- 下载管理器 [https://www.apps2sd.info/idmp/changelog.html](https://www.apps2sd.info/idmp/changelog.html)
 
 
 
@@ -501,7 +584,6 @@
 + [https://github.com/topics/multiplatform](https://github.com/topics/multiplatform)
 + [https://github.com/albertomosconi/foss-apps](https://github.com/albertomosconi/foss-apps)
 + [https://github.com/FossifyOrg](https://github.com/FossifyOrg)
-    + ~~[https://github.com/SimpleMobileTools](https://github.com/SimpleMobileTools)~~
     + 相册/文件/日历/联系人/短信/音乐/笔记/时钟/录音/计算器/启动器/电话/相机/手电筒/画布/输入法
 + 杀后台 [https://github.com/urbandroid-team/dont-kill-my-app](https://github.com/urbandroid-team/dont-kill-my-app)
 
@@ -552,7 +634,6 @@
 * [https://www.quetta.net](https://www.quetta.net)
 * [https://github.com/interfect/fenix](https://github.com/interfect/fenix)
 * [https://github.com/anthonycr/Lightning-Browser](https://github.com/anthonycr/Lightning-Browser)
-* 阅读器 [https://github.com/koreader/koreader](https://github.com/koreader/koreader)
 * 启动器 [https://github.com/NeoApplications/Neo-Launcher](https://github.com/NeoApplications/Neo-Launcher)
 * [https://github.com/CodeWorksCreativeHub/EasyLauncher](https://github.com/CodeWorksCreativeHub/EasyLauncher)
 * 无限词典 [https://github.com/KnIfER/PlainDictionaryAPP](https://github.com/KnIfER/PlainDictionaryAPP)
@@ -604,7 +685,6 @@
 * 手机变成计算机的麦克风 [https://wolicheng.com/womic](https://wolicheng.com/womic)
 * 备份数据 [https://github.com/XayahSuSuSu/Android-DataBackup](https://github.com/XayahSuSuSu/Android-DataBackup)
 * [https://github.com/NeoApplications/Neo-Backup](https://github.com/NeoApplications/Neo-Backup)
-* 投屏 [https://github.com/barry-ran/QtScrcpy](https://github.com/barry-ran/QtScrcpy)
 * [https://github.com/modstart-lib/linkandroid](https://github.com/modstart-lib/linkandroid)
 * 保活 [https://github.com/fgkeepalive/AndroidKeepAlive](https://github.com/fgkeepalive/AndroidKeepAlive)
 * 翻译 [https://github.com/FunnySaltyFish/FunnyTranslation](https://github.com/FunnySaltyFish/FunnyTranslation)
@@ -631,13 +711,10 @@
 * [https://hermit.chimbori.com/features/premium](https://hermit.chimbori.com/features/premium)
 * [https://www.apicloud.com/autogeneration](https://www.apicloud.com/autogeneration)
 * [https://websitetoapk.com](https://websitetoapk.com)
-* 网页转exe [https://github.com/nativefier/nativefier](https://github.com/nativefier/nativefier)
 * see [https://caij.coding.net/public](https://caij.coding.net/public)
-* 文本编辑器 [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
 * YouTube [https://github.com/YTVanced/VancedManager](https://github.com/YTVanced/VancedManager)
 * [https://github.com/TeamNewPipe/NewPipe](https://github.com/TeamNewPipe/NewPipe)
 * 谷歌框架 [https://opengapps.org](https://opengapps.org)
-* [https://github.com/Aefyr/SAI](https://github.com/Aefyr/SAI)
 * [https://github.com/machiav3lli/oandbackupx](https://github.com/machiav3lli/oandbackupx)
 * 幸运补丁 [https://www.luckypatchers.com](https://www.luckypatchers.com)
 * 图片处理 [https://website.facetuneapp.com](https://website.facetuneapp.com)

@@ -11,7 +11,6 @@
 - 主题 [http://soft-hub.cn](http://soft-hub.cn)
 
 
-* [https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
     * [https://github.com/designinlife/jetbrains](https://github.com/designinlife/jetbrains)
 * [https://github.com/search?q=jetbrains+agent+OR+jetbra&s=updated](https://github.com/search?q=jetbrains+agent+OR+jetbra&s=updated)
 * [https://zhile.io](https://zhile.io)
@@ -93,6 +92,8 @@
 
 
 > `计算机\HKEY_CURRENT_USER\SOFTWARE\JavaSoft\Prefs`
+* IDE主题 [https://github.com/chrisrm/material-theme-jetbrains](https://github.com/chrisrm/material-theme-jetbrains)
+* IDEA插件 [https://github.com/szymonprz/idea-cheatsh-plugin](https://github.com/szymonprz/idea-cheatsh-plugin)
 
 
 
@@ -105,6 +106,8 @@
 - [https://plugins.jetbrains.com/plugin/17809-lingma--alibaba-cloud-ai-coding-assistant](https://plugins.jetbrains.com/plugin/17809-lingma--alibaba-cloud-ai-coding-assistant)
 - [https://plugins.jetbrains.com/plugin/23475-baidu-comate](https://plugins.jetbrains.com/plugin/23475-baidu-comate)
 - [https://github.com/big-mouth-cn/talkx-idea-plugin](https://github.com/big-mouth-cn/talkx-idea-plugin)
+- AI开发 [https://github.com/unit-mesh/auto-dev](https://github.com/unit-mesh/auto-dev)
+- AI编程助手 [https://github.com/intitni/copilotforxcode](https://github.com/intitni/copilotforxcode)
 
 
 
@@ -416,7 +419,6 @@
 - [https://github.com/AntonShuvaev/intellij-datagraph](https://github.com/AntonShuvaev/intellij-datagraph)
 - [https://github.com/YiiGuxing/TranslationPlugin](https://github.com/YiiGuxing/TranslationPlugin)
 - 接口文档生成 [https://github.com/liuzhihang/doc-view](https://github.com/liuzhihang/doc-view)
-- [https://github.com/starcwang/easy_javadoc](https://github.com/starcwang/easy_javadoc)
 
 **JavaDoc**
 
@@ -507,7 +509,6 @@
 
 ## UI与编辑体验增强
 
-- 反编译 [https://github.com/selfancy/codespy](https://github.com/selfancy/codespy)
 - 缩略图 [https://github.com/Nasller/CodeGlancePro](https://github.com/Nasller/CodeGlancePro)
 - 序列图 [https://github.com/Vanco/SequencePlugin](https://github.com/Vanco/SequencePlugin)
 - Compose颜色预览 [https://github.com/zTrap/compose-color-preview-plugin](https://github.com/zTrap/compose-color-preview-plugin)

@@ -69,6 +69,24 @@ test = Test() # 触发__del__
 with Test() as t: # 触发__exit__
     pass
 ```
+* 编程教程 [https://github.com/shibing624/python-tutorial](https://github.com/shibing624/python-tutorial)
+* 脚本集合 [https://github.com/metafy-social/daily-python-scripts](https://github.com/metafy-social/daily-python-scripts)
+* Python解释器 [https://github.com/blueloveth/pocketpy](https://github.com/blueloveth/pocketpy)
+* FastAPI模板 [https://github.com/s3rius/fastapi-template](https://github.com/s3rius/fastapi-template)
+* ABI审计 [https://github.com/trailofbits/abi3audit](https://github.com/trailofbits/abi3audit)
+* Python速查 [https://github.com/abdulmalikdev/pythoncheatsheet](https://github.com/abdulmalikdev/pythoncheatsheet)
+* 算法速查 [https://github.com/peterlamar/python-cp-cheatsheet](https://github.com/peterlamar/python-cp-cheatsheet)
+* Python迁移 [https://python3statement.github.io](https://python3statement.github.io)
+* Python2退役 [https://pythonclock.org](https://pythonclock.org)
+* Python历史 [https://zh.wikipedia.org/wiki/Python%E7%9A%84%E6%AD%B7%E5%8F%B2](https://zh.wikipedia.org/wiki/Python%E7%9A%84%E6%AD%B7%E5%8F%B2)
+* Python3原因 [https://snarky.ca/why-python-3-exists](https://snarky.ca/why-python-3-exists)
+* Python3迁移 [https://portingguide.readthedocs.io/en/latest/index.html](https://portingguide.readthedocs.io/en/latest/index.html)
+* Python迁移 [https://github.com/PyCQA/modernize](https://github.com/PyCQA/modernize)
+* Python兼容 [https://github.com/benjaminp/six](https://github.com/benjaminp/six)
+* Python打包 [https://github.com/TanixLu/pyfuze](https://github.com/TanixLu/pyfuze)
+* Python学习 [https://github.com/escapelife](https://github.com/escapelife)
+* Django工作流 [https://github.com/viewflow](https://github.com/viewflow)
+* 浏览器Python [https://github.com/pyscript](https://github.com/pyscript)
 
 
 
@@ -83,7 +101,9 @@ with Test() as t: # 触发__exit__
 - [https://github.com/DIGITALCRIMINAL/OnlyFans](https://github.com/DIGITALCRIMINAL/OnlyFans)
 - WiFi扫描破解 [https://github.com/TheSadError/NIVOS](https://github.com/TheSadError/NIVOS)
 - CLI工具 [https://github.com/kellyjonbrazil/jc](https://github.com/kellyjonbrazil/jc)
-- [https://github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)
+- HTTP服务器 [https://github.com/emmett-framework/granian](https://github.com/emmett-framework/granian)
+- Python缓存 [https://joblib.readthedocs.io](https://joblib.readthedocs.io)
+- 版本管理 [https://github.com/python-versioneer/python-versioneer](https://github.com/python-versioneer/python-versioneer)
 
 
 
@@ -109,11 +129,13 @@ with Test() as t: # 触发__exit__
 * [https://github.com/Immediate-Mode-UI/Nuklear](https://github.com/Immediate-Mode-UI/Nuklear)
     * [https://github.com/vurtun/nuklear](https://github.com/vurtun/nuklear)
     * [http://github.xiaoc.cn/ghaerr/microwindows](http://github.xiaoc.cn/ghaerr/microwindows)
-* [https://github.com/pybind](https://github.com/pybind)
-* [https://github.com/wlav/cppyy](https://github.com/wlav/cppyy)
 * [https://github.com/ethan-funny](https://github.com/ethan-funny)
 * [https://github.com/astral-sh/ty](https://github.com/astral-sh/ty)
 * 编译成二进制 [https://github.com/xxnuo/py2dist](https://github.com/xxnuo/py2dist)
+* Python打包 [https://github.com/indygreg/pyoxidizer](https://github.com/indygreg/pyoxidizer)
+* Python编译器 [https://github.com/exaloop/codon](https://github.com/exaloop/codon)
+* 浏览器Python [https://github.com/pyscript/pyscript](https://github.com/pyscript/pyscript)
+* Python解释器 [https://github.com/rustpython](https://github.com/rustpython)
 
 
 
@@ -319,6 +341,8 @@ pip install --requirement requirements.txt
 
 
 ### 更新依赖库
+* Python包管理 [https://github.com/cnpryer/huak](https://github.com/cnpryer/huak)
+* Python打包 [https://pypackaging-native.github.io](https://pypackaging-native.github.io)
 
 **更新pip**
 

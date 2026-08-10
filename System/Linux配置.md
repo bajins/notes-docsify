@@ -6,7 +6,6 @@
 # Flag
 
 * 换源 [https://github.com/SuperManito/LinuxMirrors](https://github.com/SuperManito/LinuxMirrors)
-* 广告拦截 [https://github.com/pi-hole/pi-hole](https://github.com/pi-hole/pi-hole)
 * [在 Linux 上安装字体：综合指南](https://linuxiac.com/how-to-install-fonts-on-linux)
 
 
@@ -89,6 +88,7 @@ yum -y groupinstall chinese-support
 ```
 
 ### 设置中文utf8编码
+* 环境配置 [https://github.com/crispyconductor/environment-crisp](https://github.com/crispyconductor/environment-crisp)
 
 **临时**
 
@@ -253,6 +253,7 @@ grep 'processor' /proc/cpuinfo | sort -u | wc -l
 
 
 ## 开机启动
+* init脚本 [https://github.com/fhd/init-script-template](https://github.com/fhd/init-script-template)
 
 **添加命令到`/etc/rc.local`文件末尾**
 

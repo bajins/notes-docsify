@@ -46,6 +46,79 @@
 * [https://vimjc.com/archives](https://vimjc.com/archives)
 * [ubuntu版本系统升级](https://blog.csdn.net/qq_40907977/article/details/106407373)
 * [Linux 用户权限](https://blog.csdn.net/qq_40887651/article/details/121533765)
+* Linux教程 [https://github.com/livialima/linuxupskillchallenge](https://github.com/livialima/linuxupskillchallenge)
+* 数据恢复 [https://github.com/pablolec/recoverpy](https://github.com/pablolec/recoverpy)
+* 路径重定向 [https://github.com/queer/boxxy](https://github.com/queer/boxxy)
+* OpenWrt [https://a-wing.top/linux/2023/05/01/start-openwrt](https://a-wing.top/linux/2023/05/01/start-openwrt)
+* 终端复用 [https://github.com/zellij-org/zellij](https://github.com/zellij-org/zellij)
+* SSD缓存 [https://github.com/stec-inc/enhanceio](https://github.com/stec-inc/enhanceio)
+* 文件系统 [https://github.com/openzfs/zfs](https://github.com/openzfs/zfs)
+* 快捷键映射 [https://github.com/rbreaves/kinto](https://github.com/rbreaves/kinto)
+* 服务器监控 [https://github.com/zdz/serverstatus-rust](https://github.com/zdz/serverstatus-rust)
+* Linux内核 [https://github.com/0xax/linux-insides](https://github.com/0xax/linux-insides)
+* 内核启动 [https://catbro666.github.io/posts/615fc0b5](https://catbro666.github.io/posts/615fc0b5)
+* 内核启动 [https://www.cnblogs.com/alantu2018/p/8991113.html](https://www.cnblogs.com/alantu2018/p/8991113.html)
+* tmux恢复 [https://github.com/tmux-plugins/tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)
+* 磁盘监控 [https://github.com/analogj/scrutiny](https://github.com/analogj/scrutiny)
+* TCP连接数 [https://mp.weixin.qq.com/s/Lkyj42NtvqEj63DoCY5btQ](https://mp.weixin.qq.com/s/Lkyj42NtvqEj63DoCY5btQ)
+* 网络收包 [https://mp.weixin.qq.com/s/GoYDsfy9m0wRoXi_NCfCmg](https://mp.weixin.qq.com/s/GoYDsfy9m0wRoXi_NCfCmg)
+* Linux命令 [https://www.xmind.net/m/K3SKii](https://www.xmind.net/m/K3SKii)
+* 本机网络 [https://mp.weixin.qq.com/s/6_OfoeD3ZpyQisY2F-4_bw](https://mp.weixin.qq.com/s/6_OfoeD3ZpyQisY2F-4_bw)
+* io_uring [https://arthurchiao.art/blog/intro-to-io-uring-zh](https://arthurchiao.art/blog/intro-to-io-uring-zh)
+* 内核链表 [https://cloud.tencent.com/developer/article/1805773](https://cloud.tencent.com/developer/article/1805773)
+* 内核模块 [https://sysprog21.github.io/lkmpg](https://sysprog21.github.io/lkmpg)
+* TCP队列 [https://developer.aliyun.com/article/804896](https://developer.aliyun.com/article/804896)
+* TCP调优 [https://cloud.tencent.com/developer/article/1645688](https://cloud.tencent.com/developer/article/1645688)
+* 内存管理 [https://cloud.tencent.com/developer/article/1646384](https://cloud.tencent.com/developer/article/1646384)
+* 内核地图 [https://makelinux.github.io/kernel/map](https://makelinux.github.io/kernel/map)
+* Linux内核 [https://0xax.gitbooks.io/linux-insides](https://0xax.gitbooks.io/linux-insides)
+* Linux内核 [https://xinqiu.gitbooks.io/linux-insides-cn](https://xinqiu.gitbooks.io/linux-insides-cn)
+* Linux内核 [https://xanmod.org](https://xanmod.org)
+* Arch安装 [https://archlinuxstudio.github.io/ArchLinuxTutorial](https://archlinuxstudio.github.io/ArchLinuxTutorial)
+* Linux构建 [https://linuxfromscratch.org](https://linuxfromscratch.org)
+* 系统调用 [https://filippo.io/linux-syscall-table](https://filippo.io/linux-syscall-table)
+* 网络栈原理 [https://arthurchiao.art/blog/linux-net-stack-zh](https://arthurchiao.art/blog/linux-net-stack-zh)
+* 监控系统 [https://github.com/dromara/hertzbeat](https://github.com/dromara/hertzbeat)
+* Linux从零 [https://bf.mengyan1223.wang/lfs/zh_CN/development](https://bf.mengyan1223.wang/lfs/zh_CN/development)
+* 动态追踪 [https://blog.arstercz.com/introduction_to_linux_dynamic_tracing](https://blog.arstercz.com/introduction_to_linux_dynamic_tracing)
+* Linux工具 [https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html](https://linuxtools-rst.readthedocs.io/zh_CN/latest/index.html)
+* Debian手册 [https://www.debian.org/doc/manuals/debian-reference/index.zh-cn.html](https://www.debian.org/doc/manuals/debian-reference/index.zh-cn.html)
+* Linux内核 [https://download.oldlinux.org/clk011c-3.0.pdf](https://download.oldlinux.org/clk011c-3.0.pdf)
+* Linux内核 [https://xinqiu.gitbooks.io/linux-insides-cn/content](https://xinqiu.gitbooks.io/linux-insides-cn/content)
+* 系统调用表 [https://syscalls.mebeim.net/?table=x86/64/x64/latest](https://syscalls.mebeim.net/?table=x86/64/x64/latest)
+* Linux命令 [https://github.com/bobbyiliev/101-linux-commands-ebook](https://github.com/bobbyiliev/101-linux-commands-ebook)
+* 系统监控 [https://github.com/osquery/osquery](https://github.com/osquery/osquery)
+* 内核笔记 [https://github.com/0voice/linux_kernel_wiki](https://github.com/0voice/linux_kernel_wiki)
+* Linux内核 [https://www.kerneltravel.net/book](https://www.kerneltravel.net/book)
+* eBPF开发 [https://mp.weixin.qq.com/s/74UkiAO8LuD_4uzroRUMdQ](https://mp.weixin.qq.com/s/74UkiAO8LuD_4uzroRUMdQ)
+* 惊群处理 [https://wenfh2020.com/2021/09/25/thundering-herd](https://wenfh2020.com/2021/09/25/thundering-herd)
+* eBPF崩溃 [https://mp.weixin.qq.com/s/-LPlETem33rbL6zKomS-mQ](https://mp.weixin.qq.com/s/-LPlETem33rbL6zKomS-mQ)
+* Hostname规范 [https://josephcz.xyz/technology/linux/never-use-2ld-as-hostname](https://josephcz.xyz/technology/linux/never-use-2ld-as-hostname)
+* systemd管理 [https://github.com/rgwood/systemctl-tui](https://github.com/rgwood/systemctl-tui)
+* eBPF学习 [https://ebpf.party](https://ebpf.party)
+* Linux内核 [https://github.com/dibingfa/flash-linux0.11-talk](https://github.com/dibingfa/flash-linux0.11-talk)
+* eBPF观测 [https://mp.weixin.qq.com/s/GNof-dxU7BDdv0OOsa_sFw](https://mp.weixin.qq.com/s/GNof-dxU7BDdv0OOsa_sFw)
+* 内存管理 [https://mp.weixin.qq.com/s/c2y36IH-4mRwhR-xvvdqGw](https://mp.weixin.qq.com/s/c2y36IH-4mRwhR-xvvdqGw)
+* Linux内核 [https://github.com/yifengyou/linux](https://github.com/yifengyou/linux)
+* Linux内存 [https://github.com/koalaman/linuxatemyram.com](https://github.com/koalaman/linuxatemyram.com)
+* Linux教程 [https://github.com/ustclug/linux101-docs](https://github.com/ustclug/linux101-docs)
+* Linux内存 [https://www.cnblogs.com/cpw6/p/11711817.html](https://www.cnblogs.com/cpw6/p/11711817.html)
+* 内核博客 [https://wangzhou.github.io](https://wangzhou.github.io)
+* 内核调度 [https://wgzhao.github.io/notes/courses/linux-cfs-scheduler](https://wgzhao.github.io/notes/courses/linux-cfs-scheduler)
+* eBPF网络 [https://github.com/xdp-project](https://github.com/xdp-project)
+* eBPF网络 [https://github.com/arthurchiao](https://github.com/arthurchiao)
+* 内核社区 [https://github.com/linuxkerneltravel](https://github.com/linuxkerneltravel)
+* eBPF工具 [https://github.com/cfc4n](https://github.com/cfc4n)
+* Surface Linux支持 [https://github.com/linux-surface](https://github.com/linux-surface)
+* Linux内核 [https://github.com/rust-for-linux/linux](https://github.com/rust-for-linux/linux)
+* systemd服务 [https://www.freedesktop.org/wiki/Software/systemd](https://www.freedesktop.org/wiki/Software/systemd)
+* Linux命令 [https://github.com/bobbyilie/101-linux-commands](https://github.com/bobbyilie/101-linux-commands)
+* 用户目录 [https://www.freedesktop.org/wiki/Software/xdg-user-dirs](https://www.freedesktop.org/wiki/Software/xdg-user-dirs)
+* eBPF内核 [https://ebpf.io/zh-cn](https://ebpf.io/zh-cn)
+* 性能剖析 [https://github.com/elastic/otelprofiling-agent](https://github.com/elastic/otelprofiling-agent)
+* 内核追踪 [https://github.com/iovisor](https://github.com/iovisor)
+* 系统升级 [https://github.com/oamg](https://github.com/oamg)
+* eBPF安全工具 [https://github.com/gojue](https://github.com/gojue)
 
 
 
@@ -113,6 +186,12 @@ sudo apt clean
 
 - mac [https://github.com/macports](https://github.com/macports)
 - [https://github.com/kidonng/sushi](https://github.com/kidonng/sushi)
+- Nix教程 [https://github.com/determinatesystems/zero-to-nix](https://github.com/determinatesystems/zero-to-nix)
+- 包管理器 [https://github.com/chriscpritchard/overseerr-overlay](https://github.com/chriscpritchard/overseerr-overlay)
+- 软件仓库 [https://github.com/openkilt/openrepo](https://github.com/openkilt/openrepo)
+- Linux商店 [https://github.com/rudraswat/modren](https://github.com/rudraswat/modren)
+- AUR仓库 [https://github.com/archlinux/aur.git](https://github.com/archlinux/aur.git)
+- Nix包 [https://www.nixhub.io](https://www.nixhub.io)
 
 
 **第三方的软件包搜索引擎：**
@@ -158,7 +237,6 @@ sudo apt clean
 
 
 * [阿里云CentOS 7系统一键净化脚本](https://www.moerats.com/archives/625)
-* [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
 * 提供状态线和提示 [https://github.com/powerline/powerline](https://github.com/powerline/powerline)
 * 替换服务器的固件 [https://github.com/linuxboot/linuxboot](https://github.com/linuxboot/linuxboot)
 
@@ -188,6 +266,12 @@ sudo apt clean
 - [https://github.com/otakuto/crazydiskinfo](https://github.com/otakuto/crazydiskinfo)
 - [https://sourceforge.net/projects/hdparm](https://sourceforge.net/projects/hdparm)
 - [https://github.com/linux-nvme/nvme-cli](https://github.com/linux-nvme/nvme-cli)
+- 无线投屏 [https://github.com/albfan/miraclecast](https://github.com/albfan/miraclecast)
+- 系统信息 [https://github.com/linusdierheimer/fastfetch](https://github.com/linusdierheimer/fastfetch)
+- 应用启动器 [https://github.com/mdgaziur/findex](https://github.com/mdgaziur/findex)
+- chroot模拟 [https://github.com/dex4er/fakechroot](https://github.com/dex4er/fakechroot)
+- BSD工具集 [https://github.com/dcantrell/bsdutils](https://github.com/dcantrell/bsdutils)
+- 配置管理 [https://github.com/ema/pets](https://github.com/ema/pets)
 
 
 
@@ -216,6 +300,15 @@ sudo apt clean
 * [https://github.com/vinceliuice/WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
 * Linux桌面壁纸 [https://github.com/pgc062020/DailyDesktopWallpaperPlus](https://github.com/pgc062020/DailyDesktopWallpaperPlus)
 * 视频编辑器 [https://openhub.net/p/pitivi](https://openhub.net/p/pitivi)
+* 锁屏工具 [https://github.com/mortie/swaylock-effects](https://github.com/mortie/swaylock-effects)
+* 桌面状态栏 [https://github.com/polybar/polybar](https://github.com/polybar/polybar)
+* 文件标注 [https://github.com/madmurphy/nautilus-annotations](https://github.com/madmurphy/nautilus-annotations)
+* 窗口管理 [https://github.com/airblader/i3](https://github.com/airblader/i3)
+* 任务管理器 [https://github.com/slyfabi/wsysmon](https://github.com/slyfabi/wsysmon)
+* 桌面合成器 [https://gitlab.freedesktop.org/wayland/weston](https://gitlab.freedesktop.org/wayland/weston)
+* Linux桌面 [https://github.com/BuddiesOfBudgie/budgie-desktop](https://github.com/BuddiesOfBudgie/budgie-desktop)
+* Linux桌面 [https://linuxhitchhiker.github.io/THGLG](https://linuxhitchhiker.github.io/THGLG)
+* 桌面环境 [https://desktop.kerahq.com](https://desktop.kerahq.com)
 
 
 
@@ -288,6 +381,8 @@ chmod a+x InstallNET.sh
 # 一键网络重装纯净CentOS 7
 bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/centos'
 ```
+* 重装系统 [https://github.com/qingee/dd](https://github.com/qingee/dd)
+* 定制Linux系统 [https://github.com/clayrisser/linux-factory](https://github.com/clayrisser/linux-factory)
 
 
 
@@ -339,6 +434,8 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
     * [http://supervisord.org](http://supervisord.org)
     * [使用 supervisor 管理进程](https://einverne.github.io/post/2017/07/use-supervisor-to-manage-process.html)
 * go实现 [https://github.com/ochinchina/supervisord](https://github.com/ochinchina/supervisord)
+* 休眠守护 [https://github.com/mrmekon/circadian](https://github.com/mrmekon/circadian)
+* 盲文终端 [https://brltty.app](https://brltty.app)
 
 
 **常见配置如下**
@@ -375,7 +472,6 @@ autorestart=true
     * [https://github.com/catppuccin/tmux](https://github.com/catppuccin/tmux)
     * [https://galaxy4.net/repo](https://galaxy4.net/repo)
     * [https://rpmfind.net/linux/rpm2html](https://rpmfind.net/linux/rpm2html)
-    * [https://pkgs.org](https://pkgs.org)
     * [https://dl.fedoraproject.org](https://dl.fedoraproject.org)
     * [https://src.fedoraproject.org/rpms/tmux](https://src.fedoraproject.org/rpms/tmux)
     * [https://vault.centos.org](https://vault.centos.org)
@@ -717,6 +813,8 @@ rsync -avP -r /home/work/sourcedir work@www.myhost.com:/home/work/
 # 排除子目录，注意：--exclude后面的路径不能为绝对路径，必须为相对路径才可以，否则匹配不上，就不会被排除掉。
 rsync -avP -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.myhost.com:/home/work/
 ```
+* 文件共享 [https://github.com/parvardegr/sharing](https://github.com/parvardegr/sharing)
+* 局域网传输 [https://github.com/landrop](https://github.com/landrop)
 
 
 
@@ -724,6 +822,43 @@ rsync -avP -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.my
 ## 性能测试
 
 * [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
+* 网络测压 [https://github.com/hewlettpackard/netperf](https://github.com/hewlettpackard/netperf)
+* CPU监控 [https://github.com/cyring/corefreq](https://github.com/cyring/corefreq)
+* 性能测试 [https://github.com/andrewrk/poop](https://github.com/andrewrk/poop)
+* eBPF追踪 [https://github.com/iovisor/bpftrace](https://github.com/iovisor/bpftrace)
+* 性能测试 [https://github.com/phoronix-test-suite/phoronix-test-suite](https://github.com/phoronix-test-suite/phoronix-test-suite)
+* 函数追踪 [https://github.com/namhyung/uftrace](https://github.com/namhyung/uftrace)
+* 网速测试 [https://github.com/openspeedtest/speed-test](https://github.com/openspeedtest/speed-test)
+* 压测工具 [https://github.com/nakabonne/ali](https://github.com/nakabonne/ali)
+* CPU监控 [https://cloud.tencent.com/developer/article/1636342](https://cloud.tencent.com/developer/article/1636342)
+* 系统探针 [https://sourceware.org/systemtap](https://sourceware.org/systemtap)
+* Linux性能 [https://jeremyxu2010.github.io/2019/12/60秒完成linux系统的性能分析译](https://jeremyxu2010.github.io/2019/12/60秒完成linux系统的性能分析译)
+* 性能分析 [https://github.com/brendangregg/perf-tools](https://github.com/brendangregg/perf-tools)
+* 资源监控 [https://github.com/aristocratos/bpytop](https://github.com/aristocratos/bpytop)
+* 服务器监控 [https://github.com/cppla/serverstatus](https://github.com/cppla/serverstatus)
+* 服务器监控 [https://github.com/stilleshan/serverstatus](https://github.com/stilleshan/serverstatus)
+* 延迟监控 [https://dseltzer.gitlab.io/sping/docs](https://dseltzer.gitlab.io/sping/docs)
+* Linux工具 [https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html](https://www.brendangregg.com/blog/2024-03-24/linux-crisis-tools.html)
+* 性能测试 [https://github.com/rrze-hpc/likwid](https://github.com/rrze-hpc/likwid)
+* CPU性能 [https://github.com/dendibakh/perf-book](https://github.com/dendibakh/perf-book)
+* GPU监控 [https://github.com/syllo/nvtop](https://github.com/syllo/nvtop)
+* 性能分析 [https://github.com/tanelpoder/0xtools](https://github.com/tanelpoder/0xtools)
+* CPU优化 [https://cloud.tencent.com/developer/article/1677341](https://cloud.tencent.com/developer/article/1677341)
+* 网络性能 [https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide](https://ntk148v.github.io/posts/linux-network-performance-ultimate-guide)
+* CPU性能分析 [https://weedge.github.io/perf-book-cn/zh](https://weedge.github.io/perf-book-cn/zh)
+* 火焰图查看 [https://github.com/laixintao/flameshow](https://github.com/laixintao/flameshow)
+* HTTP压测 [https://github.com/codesenberg/bombardier](https://github.com/codesenberg/bombardier)
+* 框架性能 [https://github.com/techempower/frameworkbenchmarks](https://github.com/techempower/frameworkbenchmarks)
+* 浏览器基准 [https://github.com/webkit/speedometer](https://github.com/webkit/speedometer)
+* 性能分析 [https://github.com/pyroscope-io/pyroscope](https://github.com/pyroscope-io/pyroscope)
+* 性能分析 [https://github.com/mapbox/flamebearer](https://github.com/mapbox/flamebearer)
+* 性能分析 [https://github.com/clinicjs/node-clinic-flame](https://github.com/clinicjs/node-clinic-flame)
+* 压测工具 [https://github.com/drogus/crows](https://github.com/drogus/crows)
+* Linux性能 [https://www.brendangregg.com/linuxperf.html](https://www.brendangregg.com/linuxperf.html)
+* Linux性能 [https://mp.weixin.qq.com/s/TJIy9fvCJPjeVwWzjkJyxw](https://mp.weixin.qq.com/s/TJIy9fvCJPjeVwWzjkJyxw)
+* Linux性能 [https://segmentfault.com/a/1190000004104493](https://segmentfault.com/a/1190000004104493)
+* 网络测速 [https://sourceforge.net/p/iperf2](https://sourceforge.net/p/iperf2)
+* 磁盘监控 [https://zhangkexuan.github.io/2021/05/18/store/tools/深入理解iostat](https://zhangkexuan.github.io/2021/05/18/store/tools/深入理解iostat)
 
 **bench.sh**
 

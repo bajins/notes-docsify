@@ -102,6 +102,8 @@
 - [https://github.com/jython/jython](https://github.com/jython/jython)
 - [https://github.com/beeware/voc](https://github.com/beeware/voc)
 - 向量搜索 [https://github.com/datastax/jvector](https://github.com/datastax/jvector)
+- 数据流 [https://github.com/cloudera/spark-dataflow](https://github.com/cloudera/spark-dataflow)
+- SOAP框架 [https://github.com/sonatype/patched-xfire](https://github.com/sonatype/patched-xfire)
 
 
 
@@ -125,6 +127,7 @@
     * [Spring框架下异步日志收集及验证是否生效](https://wangbaiyuan.cn/verify-effectiveness-of-asynchronous-log-collection-under-spring-framework.html)
 * [https://github.com/qqxx6661/logRecord](https://github.com/qqxx6661/logRecord)
 * [https://github.com/bluelinelabs/LoganSquare](https://github.com/bluelinelabs/LoganSquare)
+* Java日志 [https://mccue.dev/pages/9-25-22-better-java-logging](https://mccue.dev/pages/9-25-22-better-java-logging)
 
 
 **Cache**
@@ -147,6 +150,9 @@
 * 键值对存储 [https://github.com/OpenHFT/Chronicle-Map](https://github.com/OpenHFT/Chronicle-Map)
 * Redis云管理平台 [https://github.com/sohutv/cachecloud](https://github.com/sohutv/cachecloud)
 * 压缩位图 [https://github.com/RoaringBitmap](https://github.com/RoaringBitmap)
+* 缓存集成 [https://segmentfault.com/a/1190000042013615](https://segmentfault.com/a/1190000042013615)
+* 缓存框架 [https://github.com/alibaba/jetcache](https://github.com/alibaba/jetcache)
+* Redis操作 [https://segmentfault.com/a/1190000045231893](https://segmentfault.com/a/1190000045231893)
 
 
 
@@ -155,6 +161,7 @@
 * [https://github.com/search?l=Java&o=desc&q=delayqueue&s=updated&type=Repositories](https://github.com/search?l=Java&o=desc&q=delayqueue&s=updated&type=Repositories)
 * [https://github.com/dongzhuo0228/delayqueuetest](https://github.com/dongzhuo0228/delayqueuetest)
 * [https://github.com/qjm201000/concurrent_delayqueue](https://github.com/qjm201000/concurrent_delayqueue)
+* 高性能队列 [https://segmentfault.com/a/1190000043025966](https://segmentfault.com/a/1190000043025966)
 
 
 **工具**
@@ -355,7 +362,6 @@
 + [https://github.com/Kong/unirest-java](https://github.com/Kong/unirest-java)
 + [https://github.com/eclipse-ee4j/websocket-api](https://github.com/eclipse-ee4j/websocket-api)
 + [https://github.com/OpenFeign](https://github.com/OpenFeign)
-+ [https://github.com/eclipse-ee4j/jersey](https://github.com/eclipse-ee4j/jersey)
 + [https://github.com/AsyncHttpClient](https://github.com/AsyncHttpClient)
 + [https://github.com/square/retrofit](https://github.com/square/retrofit)
     + [https://github.com/LianjiaTech/retrofit-spring-boot-starter](https://github.com/LianjiaTech/retrofit-spring-boot-starter)
@@ -366,6 +372,18 @@
 + [https://github.com/spotify/apollo](https://github.com/spotify/apollo)
 + [https://github.com/googleapis/google-http-java-client](https://github.com/googleapis/google-http-java-client)
 + [https://github.com/oblac/jodd-http](https://github.com/oblac/jodd-http)
++ 表达式引擎 [https://github.com/alibaba/qlexpress](https://github.com/alibaba/qlexpress)
++ 性能追踪 [https://github.com/perfmark/perfmark](https://github.com/perfmark/perfmark)
++ 容错库 [https://github.com/resilience4j/resilience4j](https://github.com/resilience4j/resilience4j)
++ 即时通讯 [https://github.com/jackjiang2011/mobileimsdk](https://github.com/jackjiang2011/mobileimsdk)
++ 工具库 [https://github.com/venusdrogon/feilong-platform](https://github.com/venusdrogon/feilong-platform)
++ 日志脱敏 [https://gitlab.com/ppopescu/logmasker](https://gitlab.com/ppopescu/logmasker)
++ HTTP客户端 [https://github.com/zalando/riptide](https://github.com/zalando/riptide)
++ 代码重构 [https://github.com/openrewrite/rewrite](https://github.com/openrewrite/rewrite)
++ 聚合支付 [https://gitee.com/javen205/IJPay](https://gitee.com/javen205/IJPay)
++ 行为验证码 [https://gitee.com/tianai/tianai-captcha](https://gitee.com/tianai/tianai-captcha)
++ Java进程库 [https://github.com/jbangdev/jbang-jash](https://github.com/jbangdev/jbang-jash)
++ 协程堆栈增强 [https://github.com/anamorphosee/stacktrace-decoroutinator](https://github.com/anamorphosee/stacktrace-decoroutinator)
 
 
 
@@ -414,6 +432,8 @@
 * 属性比对器 [https://github.com/dadiyang/equator](https://github.com/dadiyang/equator)
 * 对象比较属性和审核 [https://github.com/javers/javers](https://github.com/javers/javers)
 * 堆内存处理 [https://github.com/airlift/slice](https://github.com/airlift/slice)
+* Bean映射 [https://github.com/mapstruct/mapstruct](https://github.com/mapstruct/mapstruct)
+* 泛型类型 [https://github.com/jhalterman/typetools](https://github.com/jhalterman/typetools)
 
 
 
@@ -454,7 +474,6 @@
 * 爬虫 [https://github.com/bonigarcia/webdrivermanager](https://github.com/bonigarcia/webdrivermanager)
     * [推荐一些优秀的开源Java爬虫项目](https://zhuanlan.zhihu.com/p/24844250)
 * [https://github.com/Ardesco/Selenium-Maven-Template](https://github.com/Ardesco/Selenium-Maven-Template)
-* [https://github.com/fanyong920/jvppeteer](https://github.com/fanyong920/jvppeteer)
 * [https://github.com/kklisura/chrome-devtools-java-client](https://github.com/kklisura/chrome-devtools-java-client)
 * [https://github.com/assertthat/selenium-shutterbug](https://github.com/assertthat/selenium-shutterbug)
 * [https://github.com/code4craft/webmagic](https://github.com/code4craft/webmagic)
@@ -499,6 +518,11 @@
 * [https://github.com/java-json-tools/json-schema-validator](https://github.com/java-json-tools/json-schema-validator)
 * [https://github.com/square/moshi](https://github.com/square/moshi)
 * 使用XPath语法取值 [https://github.com/json-path/JsonPath](https://github.com/json-path/JsonPath)
+* 金额序列化 [https://github.com/zalando/jackson-datatype-money](https://github.com/zalando/jackson-datatype-money)
+* 序列化 [https://github.com/protocolbuffers/protobuf/blob/master/java/lite.md](https://github.com/protocolbuffers/protobuf/blob/master/java/lite.md)
+* XML序列化 [https://github.com/highsource/jaxb2-basics](https://github.com/highsource/jaxb2-basics)
+* JSON序列化 [https://segmentfault.com/a/1190000042574739](https://segmentfault.com/a/1190000042574739)
+* 序列化 [https://github.com/ruedigermoeller/fast-serialization](https://github.com/ruedigermoeller/fast-serialization)
 
 
 
@@ -529,6 +553,7 @@
 - [https://github.com/roookeee/datus](https://github.com/roookeee/datus)
 - [https://github.com/xebia-france/selma](https://github.com/xebia-france/selma)
 - [https://github.com/jmapper-framework/jmapper-core](https://github.com/jmapper-framework/jmapper-core)
+- 对象转换 [https://github.com/chriskiehl/deoplice](https://github.com/chriskiehl/deoplice)
 
 
 
@@ -610,7 +635,6 @@
 
 + [https://github.com/topics/mock](https://github.com/topics/mock)
 + [https://github.com/topics/mock-data](https://github.com/topics/mock-data)
-+ [https://github.com/topics/testing](https://github.com/topics/testing)
 + [https://github.com/topics/unittesting](https://github.com/topics/unittesting)
 + [https://github.com/topics/fake-data](https://github.com/topics/fake-data)
 + [https://github.com/topics/dataset](https://github.com/topics/dataset)
@@ -636,7 +660,6 @@
     * [https://github.com/steadybit/testcontainers](https://github.com/steadybit/testcontainers)
 * [https://github.com/testsigmahq](https://github.com/testsigmahq)
 * [https://github.com/GraphWalker](https://github.com/GraphWalker)
-* [https://github.com/dreamhead/moco](https://github.com/dreamhead/moco)
 * [https://github.com/spockframework](https://github.com/spockframework)
 * [https://github.com/jqno/equalsverifier](https://github.com/jqno/equalsverifier)
 * [https://github.com/cbeust/testng](https://github.com/cbeust/testng)
@@ -672,6 +695,9 @@
 
 
 - [https://github.com/mryingjie/common-insert](https://github.com/mryingjie/common-insert)
+- JFR测试 [https://github.com/moditect/jfrunit](https://github.com/moditect/jfrunit)
+- Java自测 [https://java-self-testing.github.io/java-self-testing-book](https://java-self-testing.github.io/java-self-testing-book)
+- 测试框架 [https://github.com/spockframework/spock](https://github.com/spockframework/spock)
 
 
 
@@ -686,7 +712,6 @@
 + [https://github.com/topics/inversion-of-control](https://github.com/topics/inversion-of-control)
 + DI容器比较 [https://github.com/Heapy/di-comparison](https://github.com/Heapy/di-comparison)
 + [https://github.com/akardapolov/dimension-di](https://github.com/akardapolov/dimension-di)
-+ [https://github.com/google/dagger](https://github.com/google/dagger)
     + ~~[https://github.com/square/dagger](https://github.com/square/dagger)~~
 + [https://github.com/google/guice](https://github.com/google/guice)
     + [https://github.com/eclipse-sisu/sisu-project](https://github.com/eclipse-sisu/sisu-project)
@@ -716,13 +741,28 @@
 + 云原生框架 [https://github.com/quarkusio/quarkus](https://github.com/quarkusio/quarkus)
     + [https://github.com/quarkiverse](https://github.com/quarkiverse)
 + [https://github.com/piranhacloud](https://github.com/piranhacloud)
-+ 全堆栈框架 [https://github.com/micronaut-projects](https://github.com/micronaut-projects)
 + [https://github.com/ClouGence/hasor](https://github.com/ClouGence/hasor)
 + [https://github.com/minbox-projects](https://github.com/minbox-projects)
     + [https://gitee.com/minbox-projects](https://gitee.com/minbox-projects)
 + [https://github.com/microprofile](https://github.com/microprofile)
     + [https://microprofile.io](https://microprofile.io)
 + [https://github.com/OpenLiberty](https://github.com/OpenLiberty)
++ Web框架 [https://github.com/javalin/javalin](https://github.com/javalin/javalin)
++ Web框架 [https://github.com/wicketstuff/core](https://github.com/wicketstuff/core)
++ 分位数草图 [https://github.com/datadog/sketches-java](https://github.com/datadog/sketches-java)
++ Web框架 [https://github.com/vaadin/platform](https://github.com/vaadin/platform)
++ Web框架 [https://github.com/lets-blade/blade](https://github.com/lets-blade/blade)
++ 依赖校验 [https://github.com/moditect/deptective](https://github.com/moditect/deptective)
++ 微服务容错 [https://gitee.com/yu120/neural](https://gitee.com/yu120/neural)
++ JSF工具库 [https://github.com/omnifaces/omnifaces](https://github.com/omnifaces/omnifaces)
++ 热部署 [https://gitee.com/newcih/galois](https://gitee.com/newcih/galois)
++ Java微服务 [https://helidon.io/nima](https://helidon.io/nima)
++ Java框架 [https://github.com/litongjava/tio-boot](https://github.com/litongjava/tio-boot)
++ Java编译器 [https://github.com/manifold-systems](https://github.com/manifold-systems)
++ CDI注入框架 [https://github.com/weld](https://github.com/weld)
++ 依赖注入 [https://github.com/dingtingli/tinydependencylnjection](https://github.com/dingtingli/tinydependencylnjection)
++ Java原生访问 [https://github.com/java-native-access](https://github.com/java-native-access)
++ JavaWeb框架 [https://github.com/dropwizard](https://github.com/dropwizard)
 
 
 
@@ -822,6 +862,10 @@
 - [https://github.com/PL-FE/bpmn-camunda](https://github.com/PL-FE/bpmn-camunda)
 - [https://github.com/evanyangg/vue-bpmn-modeler](https://github.com/evanyangg/vue-bpmn-modeler)
 - [https://gitee.com/wang-baohai/eal-pm-web](https://gitee.com/wang-baohai/eal-pm-web)
+- 规则引擎 [https://github.com/dromara/liteflow](https://github.com/dromara/liteflow)
+- 流程编排 [https://github.com/alibaba/smartengine](https://github.com/alibaba/smartengine)
+- 流程编排 [https://gitee.com/smartboot/smart-flow](https://gitee.com/smartboot/smart-flow)
+- 业务流程 [https://github.com/cuba-platform/bpm](https://github.com/cuba-platform/bpm)
 
 
 **响应式/反应式（reactive/Reactor）/事件驱动**
@@ -904,3 +948,5 @@
 * [dubbox升级至apache-dubbo-2.7.2的兼容方案](https://blog.csdn.net/qq_29116427/article/details/100621126)
 * [springboot整合dubbo2.7.x版本](https://blog.csdn.net/ycf921244819/article/details/103474394)
 * [dubbo2.7.5整合spirngMVC入门demo（Apache）](https://blog.csdn.net/qq_45521013/article/details/103826507)
+* 响应式编程 [https://segmentfault.com/a/1190000042442228](https://segmentfault.com/a/1190000042442228)
+* 响应式编程 [https://github.com/reactivex](https://github.com/reactivex)

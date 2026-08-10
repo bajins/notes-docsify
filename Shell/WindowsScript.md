@@ -5,7 +5,6 @@
 
 ## Flag
 
-* [https://github.com/MicrosoftDocs](https://github.com/MicrosoftDocs)
 * [Scripting](https://docs.microsoft.com/zh-cn/previous-versions/ms950396(v=msdn.10))
 * [Windows脚本和Windows Script Host的属性和方法及子对象](https://docs.microsoft.com/zh-cn/previous-versions/windows/internet-explorer/ie-developer/windows-scripting/bstcxhf7(v=vs.84)#in-this-section)
 * [https://github.com/mrpapercut/wscript](https://github.com/mrpapercut/wscript)

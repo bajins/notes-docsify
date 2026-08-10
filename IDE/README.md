@@ -30,6 +30,29 @@
 * Android代码编辑器 [https://github.com/massivemadness/Squircle-CE](https://github.com/massivemadness/Squircle-CE)
 * 十六进制编辑器 [https://github.com/WerWolv/ImHex](https://github.com/WerWolv/ImHex)
 * 同步协作编辑 [https://github.com/ethersync/ethersync](https://github.com/ethersync/ethersync)
+* 深度IDE [https://github.com/linuxdeepin/deepin-unioncode](https://github.com/linuxdeepin/deepin-unioncode)
+* 清理工具 [https://github.com/strrl/easydevo-distro](https://github.com/strrl/easydevo-distro)
+* 开发环境 [https://github.com/feenkcom/gtoolkit](https://github.com/feenkcom/gtoolkit)
+* Node调试 [https://github.com/noslate-project/andb](https://github.com/noslate-project/andb)
+* C++IDE [https://github.com/embarcadero/dev-cpp](https://github.com/embarcadero/dev-cpp)
+* 代码编辑器 [https://github.com/spartanj/ecode](https://github.com/spartanj/ecode)
+* 开发者工具 [https://github.com/veler/devtoys](https://github.com/veler/devtoys)
+* gdb前端 [https://github.com/epasveer/seer](https://github.com/epasveer/seer)
+* 调试器 [https://github.com/0xricksanchez/like-dbg](https://github.com/0xricksanchez/like-dbg)
+* 代码片段管理 [https://github.com/hackjutsu/lepton](https://github.com/hackjutsu/lepton)
+* Fleet下载 [https://www.jetbrains.com.cn/fleet/download](https://www.jetbrains.com.cn/fleet/download)
+* 代码生成器 [https://www.oschina.net/project/tag/407/code-generator](https://www.oschina.net/project/tag/407/code-generator)
+* AI编程工具 [https://www.cursor.so](https://www.cursor.so)
+* iOS UI工具 [https://github.com/lihei12345/RunCue](https://github.com/lihei12345/RunCue)
+* C++调试 [https://celthi.github.io/effective-debugging-zh/translator_preface.html](https://celthi.github.io/effective-debugging-zh/translator_preface.html)
+* 代码编辑器 [https://github.com/devlive-community/codeforge](https://github.com/devlive-community/codeforge)
+* 终端编码助手 [https://github.com/LiuMengxuan04/MiniCode](https://github.com/LiuMengxuan04/MiniCode)
+* 开发者工具 [https://devtool.tech](https://devtool.tech)
+* Emacs入门 [https://pavinberg.github.io/emacs-book/zh](https://pavinberg.github.io/emacs-book/zh)
+* C++IDE [https://github.com/royqh1979/redpanda-cpp](https://github.com/royqh1979/redpanda-cpp)
+* 代码协作 [https://github.com/facebook/phabricator](https://github.com/facebook/phabricator)
+* AI编程IDE [https://codeium.com](https://codeium.com)
+* 终端编辑器 [https://github.com/helix-editor](https://github.com/helix-editor)
 
 
 
@@ -49,7 +72,6 @@
 - [https://github.com/baiy/Ctool](https://github.com/baiy/Ctool)
 - [https://github.com/homeinfra-org/infra](https://github.com/homeinfra-org/infra)
 - [Microsoft Store开发人员工具](https://www.microsoft.com/zh-cn/store/most-popular/apps/pc?category=developer%20tools)
-- WakaTime [https://github.com/muety/wakapi](https://github.com/muety/wakapi)
 
 
 
@@ -77,6 +99,43 @@
 + [https://github.com/earthly/earthly](https://github.com/earthly/earthly)
 + [https://github.com/nucleuscloud/neosync](https://github.com/nucleuscloud/neosync)
 + [https://github.com/HariSekhon/DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools)
++ 部署系统 [https://github.com/meolu/walle-web](https://github.com/meolu/walle-web)
++ 特性管理 [https://github.com/featureprobe/featureprobe](https://github.com/featureprobe/featureprobe)
++ 工作流平台 [https://github.com/windmill-labs/windmill](https://github.com/windmill-labs/windmill)
++ 发布监控 [https://github.com/release-argus/argus](https://github.com/release-argus/argus)
++ 部署系统 [https://github.com/gitploy-io/gitploy](https://github.com/gitploy-io/gitploy)
++ AI代码审查 [https://github.com/sturdy-dev/codeball-action](https://github.com/sturdy-dev/codeball-action)
++ 代码片段管理 [https://github.com/masscodeio/masscode](https://github.com/masscodeio/masscode)
++ 构建系统 [https://github.com/gauravdawra/beast](https://github.com/gauravdawra/beast)
++ 环境变量 [https://github.com/humblepenguinn/envio](https://github.com/humblepenguinn/envio)
++ CI/CD [https://github.com/concourse/concourse](https://github.com/concourse/concourse)
++ 运维学习 [https://github.com/annfelix/devops-world](https://github.com/annfelix/devops-world)
++ AI代码审查 [https://github.com/anc95/chatgpt-codereview](https://github.com/anc95/chatgpt-codereview)
++ 云开发 [https://github.com/klothoplatform/klotho](https://github.com/klothoplatform/klotho)
++ 应用部署 [https://github.com/rails/mrsk](https://github.com/rails/mrsk)
++ CI/CD [https://github.com/gaia-pipeline/gaia](https://github.com/gaia-pipeline/gaia)
++ 开发环境 [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
++ DevOps资源 [https://github.com/bregman-arie/devops-resources](https://github.com/bregman-arie/devops-resources)
++ 构建系统 [https://github.com/facebookincubator/buck2](https://github.com/facebookincubator/buck2)
++ 开发环境 [https://github.com/cachix/devenv](https://github.com/cachix/devenv)
++ 部署插件 [https://github.com/sdogruyol/capistrano-kemal](https://github.com/sdogruyol/capistrano-kemal)
++ CI工具 [https://github.com/actions-rs/toolchain](https://github.com/actions-rs/toolchain)
++ CI缓存 [https://github.com/actions/cache](https://github.com/actions/cache)
++ 持续交付 [https://github.com/spinnaker/spinnaker](https://github.com/spinnaker/spinnaker)
++ 运维平台 [https://github.com/openspug/spug](https://github.com/openspug/spug)
++ 监控系统 [https://mp.weixin.qq.com/s/TQJITSJ70FEIQ_ZVIyD3cA](https://mp.weixin.qq.com/s/TQJITSJ70FEIQ_ZVIyD3cA)
++ 开发工具箱 [https://github.com/jaywcjlove/devhub](https://github.com/jaywcjlove/devhub)
++ 开发工具 [https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools](https://about.sourcegraph.com/blog/ex-googler-guide-dev-tools)
++ 下载链接 [https://github.com/oprypin/nightly.link](https://github.com/oprypin/nightly.link)
++ DevOps部署 [https://zeabur.com](https://zeabur.com)
++ GitOps [https://blog.alswl.com/2023/09/gitops-and-version-management](https://blog.alswl.com/2023/09/gitops-and-version-management)
++ DevOps内幕 [https://github.com/labilezhu/devops-insider](https://github.com/labilezhu/devops-insider)
++ DevOps指南 [https://github.com/tikam02/devops-guide](https://github.com/tikam02/devops-guide)
++ DevOps合规 [https://github.com/kosli-dev](https://github.com/kosli-dev)
++ CI/CD平台 [https://github.com/buildkite](https://github.com/buildkite)
++ 构建工具链 [https://sr.ht/~motiejus/bazel-zig-cc](https://sr.ht/~motiejus/bazel-zig-cc)
++ 数据库CI/CD [https://gitee.com/mirrors/Bytebase](https://gitee.com/mirrors/Bytebase)
++ 依赖更新 [https://github.com/renovatebot](https://github.com/renovatebot)
 
 
 
@@ -156,6 +215,30 @@
 * [https://github.com/iovisor/ply](https://github.com/iovisor/ply)
 * [https://github.com/kindlingproject/kindling](https://github.com/kindlingproject/kindling)
 * [https://github.com/Exein-io/pulsar](https://github.com/Exein-io/pulsar)
+* 静态分析 [https://github.com/pascal-lab/tai-e](https://github.com/pascal-lab/tai-e)
+* 代码分析 [https://github.com/inherd/coca](https://github.com/inherd/coca)
+* 依赖检查工具 [https://github.com/fpgmaas/deptry](https://github.com/fpgmaas/deptry)
+* 汇编查看器 [https://github.com/loov/lensm](https://github.com/loov/lensm)
+* Ruby分析器 [https://github.com/rbspy/rbspy](https://github.com/rbspy/rbspy)
+* 程序分析 [https://github.com/szabta89/inca](https://github.com/szabta89/inca)
+* 内存追踪 [https://github.com/matt-kimball/allocscope](https://github.com/matt-kimball/allocscope)
+* 程序分析 [https://github.com/galoisinc/mate](https://github.com/galoisinc/mate)
+* 代码搜索 [https://github.com/dalance/amber](https://github.com/dalance/amber)
+* 静态检查 [https://checkerframework.org](https://checkerframework.org)
+* 静态分析 [https://errorprone.info](https://errorprone.info)
+* 静态分析 [https://findbugs.sourceforge.net](https://findbugs.sourceforge.net)
+* 静态检查 [https://www.pylint.org](https://www.pylint.org)
+* 静态分析 [https://github.com/spotbugs/spotbugs](https://github.com/spotbugs/spotbugs)
+* 代码索引 [https://kythe.io](https://kythe.io)
+* 代码影响分析 [https://www.cnblogs.com/Jcloud/p/17058628.html](https://www.cnblogs.com/Jcloud/p/17058628.html)
+* 结构差异 [https://github.com/wilfred/difftastic](https://github.com/wilfred/difftastic)
+* 静态分析 [https://jqassistant.github.io/jqassistant](https://jqassistant.github.io/jqassistant)
+* 静态分析 [https://souffle-lang.github.io](https://souffle-lang.github.io)
+* 代码搜索 [https://sourcegraph.com/search?q=context:global+code-server&patternType=standard&sm=1](https://sourcegraph.com/search?q=context:global+code-server&patternType=standard&sm=1)
+* 性能分析 [https://github.com/indragiek/uniprof](https://github.com/indragiek/uniprof)
+* 代码质量 [https://github.com/Done-0/fuck-u-code](https://github.com/Done-0/fuck-u-code)
+* 代码查重 [https://github.com/kucherenko/jscpd](https://github.com/kucherenko/jscpd)
+* 调试器教程 [https://github.com/tartanllama/minidbg](https://github.com/tartanllama/minidbg)
 
 
 
@@ -212,6 +295,16 @@
 
 - [https://github.com/WebIDEorg/WebIDE-OS](https://github.com/WebIDEorg/WebIDE-OS)
 - [https://github.com/os-js](https://github.com/os-js)
+- 在线Notebook [https://github.com/googlecolab/colabtools](https://github.com/googlecolab/colabtools)
+- 在线运行 [https://github.com/jlkiri/typerust](https://github.com/jlkiri/typerust)
+- 在线IDE [https://github.com/stackblitz/core](https://github.com/stackblitz/core)
+- 在线Vim [https://github.com/programmerhat/vim-online-editor](https://github.com/programmerhat/vim-online-editor)
+- 在线IDE [https://github.com/toblotron/praxis-ide](https://github.com/toblotron/praxis-ide)
+- 在线IDE [https://github.com/tablane/tablane](https://github.com/tablane/tablane)
+- 在线IDE管理 [https://github.com/tobycm/code-server-instance-manager-nginx](https://github.com/tobycm/code-server-instance-manager-nginx)
+- 在线VS Code [https://github.com/coder/code-server](https://github.com/coder/code-server)
+- 在线IDE [https://segmentfault.com/a/1190000044058571](https://segmentfault.com/a/1190000044058571)
+- 在线IDE [https://idx.dev](https://idx.dev)
 
 
 
@@ -245,6 +338,14 @@
 
 
 - 数学计算器 [https://www.desmos.com](https://www.desmos.com)
+- 代码笔记本 [https://github.com/livebook-dev/livebook](https://github.com/livebook-dev/livebook)
+- 在线笔记本 [https://github.com/jupyterlite/jupyterlite](https://github.com/jupyterlite/jupyterlite)
+- 在线运行代码 [https://github.com/xjq7/runcode](https://github.com/xjq7/runcode)
+- 在线编程 [https://riju.codes](https://riju.codes)
+- 在线REPL [https://github.com/netgusto/nodebook](https://github.com/netgusto/nodebook)
+- 在线编译器 [https://github.com/compiler-explorer/compiler-explorer](https://github.com/compiler-explorer/compiler-explorer)
+- 在线编译器 [https://godbolt.org](https://godbolt.org)
+- 代码对比 [https://my-search.github.io/text-compare-diff](https://my-search.github.io/text-compare-diff)
 
 
 
@@ -329,7 +430,6 @@
 + [https://github.com/yapi-pro/yapi](https://github.com/yapi-pro/yapi)
 + [https://github.com/sosoapi/sosoapi-web](https://github.com/sosoapi/sosoapi-web)
 + [https://www.apizza.net](https://www.apizza.net)
-+ [https://github.com/eolinker](https://github.com/eolinker)
     + [https://www.eolink.com](https://www.eolink.com)
     + [https://github.com/APIParkLab/APIPark](https://github.com/APIParkLab/APIPark)
     + [https://github.com/airplayx/eoLinker](https://github.com/airplayx/eoLinker)
@@ -367,9 +467,36 @@
 
 
 
-- mac paw [https://github.com/luckymarmot](https://github.com/luckymarmot)
 - [https://github.com/f0ng/poc2jar](https://github.com/f0ng/poc2jar)
 - [https://github.com/ffffffff0x/BerylEnigma](https://github.com/ffffffff0x/BerylEnigma)
+- 调试工具 [https://github.com/didi/dokit](https://github.com/didi/dokit)
+- 刷题工具 [https://github.com/j178/leetgo](https://github.com/j178/leetgo)
+- 单元测试 [https://github.com/xunit/xunit](https://github.com/xunit/xunit)
+- API测试框架 [https://github.com/httprunner/httprunner](https://github.com/httprunner/httprunner)
+- 内存检测 [https://github.com/facebookincubator/memlab](https://github.com/facebookincubator/memlab)
+- SQL测试 [https://github.com/tommylemon/sqlauto](https://github.com/tommylemon/sqlauto)
+- 猴子测试 [https://github.com/marmelab/gremlins.js](https://github.com/marmelab/gremlins.js)
+- 浏览器录制 [https://github.com/puppeteer/replay](https://github.com/puppeteer/replay)
+- Go测试 [https://github.com/smallnest/go_test_workshop](https://github.com/smallnest/go_test_workshop)
+- 测试平台 [https://github.com/seagull1985/luckyframeweb](https://github.com/seagull1985/luckyframeweb)
+- 架构测试 [https://github.com/benwilcock/test-driven-jee-modernisation](https://github.com/benwilcock/test-driven-jee-modernisation)
+- 架构测试 [https://github.com/tng/archunit](https://github.com/tng/archunit)
+- HTTP测试 [https://github.com/orange-opensource/hurl](https://github.com/orange-opensource/hurl)
+- API测试 [https://github.com/for-get/katt](https://github.com/for-get/katt)
+- GDB调试器 [https://www.sourceware.org/gdb](https://www.sourceware.org/gdb)
+- WebRTC测试 [https://github.com/httptoolkit/mockrtc](https://github.com/httptoolkit/mockrtc)
+- API测试 [https://github.com/stepci/stepci](https://github.com/stepci/stepci)
+- API客户端 [https://github.com/flawiddsouza/restfox](https://github.com/flawiddsouza/restfox)
+- 测试实践 [https://github.com/goldbergyoni/javascript-testing-best-practices](https://github.com/goldbergyoni/javascript-testing-best-practices)
+- GDB调试 [https://github.com/cyrus-and/gdb-dashboard](https://github.com/cyrus-and/gdb-dashboard)
+- API模糊测试 [https://endava.github.io/cats](https://endava.github.io/cats)
+- 性能测试 [https://www.infoq.cn/article/FUkDdA7dAjWDXouhqv0m](https://www.infoq.cn/article/FUkDdA7dAjWDXouhqv0m)
+- 性能测试 [https://www.flood.io/tools](https://www.flood.io/tools)
+- 负载测试 [https://locust.io](https://locust.io)
+- 负载测试 [https://gatling.io](https://gatling.io)
+- 接口测试 [https://github.com/tahitimoon/lunarlink](https://github.com/tahitimoon/lunarlink)
+- GUI自动化 [https://github.com/clicknium](https://github.com/clicknium)
+- TCPCopy原理 [https://zhuanlan.zhihu.com/p/719289946](https://zhuanlan.zhihu.com/p/719289946)
 
 
 **ChaosTesting混沌测试/线性测试**
@@ -379,6 +506,7 @@
 * [https://github.com/pingcap/chaos](https://github.com/pingcap/chaos)
 * [https://github.com/jepsen-io](https://github.com/jepsen-io)
 * [https://github.com/anishathalye/porcupine](https://github.com/anishathalye/porcupine)
+* 网络故障模拟 [https://github.com/shopify/toxiproxy](https://github.com/shopify/toxiproxy)
 
 
 
@@ -470,6 +598,11 @@
 
 - 构建数据库文档 [https://github.com/schemaspy/schemaspy](https://github.com/schemaspy/schemaspy)
 - 数据库转excel [https://github.com/nocodb/nocodb](https://github.com/nocodb/nocodb)
+- 数据库设计 [https://github.com/findyourmagic/dber](https://github.com/findyourmagic/dber)
+- 数据库插件 [https://github.com/vim-scripts/dbext.vim](https://github.com/vim-scripts/dbext.vim)
+- 破解试用 [https://github.com/chaofan2685/unlimited_trial_navicat_premium](https://github.com/chaofan2685/unlimited_trial_navicat_premium)
+- 数据库建模 [https://dbdiagram.io/home](https://dbdiagram.io/home)
+- 数据库建模 [https://github.com/chartdb/chartdb](https://github.com/chartdb/chartdb)
 
 
 
@@ -502,7 +635,6 @@
 + [https://github.com/topics/diagram-editor](https://github.com/topics/diagram-editor)
 
 
-* [https://www.heidisql.com](https://www.heidisql.com)
 * [https://gitee.com/robergroup/pdmaner](https://gitee.com/robergroup/pdmaner)
 * PowerDesigner [https://www.sap.com/products/powerdesigner-data-modeling-tools.html](https://www.sap.com/products/powerdesigner-data-modeling-tools.html)
 * [http://www.borland.com/together](http://www.borland.com/together)
@@ -558,6 +690,12 @@
 
 
 - 调色板 [https://github.com/eigenmiao/Rickrack](https://github.com/eigenmiao/Rickrack)
+- 绘图工具 [https://github.com/shubhamgrg04/awesome-diagramming](https://github.com/shubhamgrg04/awesome-diagramming)
+- Axure组件 [https://gitee.com/bosenger/VuxAxure](https://gitee.com/bosenger/VuxAxure)
+- UML绘图 [https://plantuml.com](https://plantuml.com)
+- 设计系统 [https://tuulih6pyq.feishu.cn/wiki/S049wckCTiOYxykwXqYcALJznqf](https://tuulih6pyq.feishu.cn/wiki/S049wckCTiOYxykwXqYcALJznqf)
+- 在线绘图 [https://okso.app/showcase/data-structures](https://okso.app/showcase/data-structures)
+- 设计系统 [https://findesign.jd.com](https://findesign.jd.com)
 
 
 **本地客户端**
@@ -610,9 +748,9 @@
     * [https://mm.edrawsoft.cn/community/1/1](https://mm.edrawsoft.cn/community/1/1)
     * [https://www.edrawmind.com/edrawmind-online.html](https://www.edrawmind.com/edrawmind-online.html)
 * TreeMind树图 [https://shutu.cn](https://shutu.cn)
-* GitMind思乎 [https://gitmind.cn](https://gitmind.cn)
 * [https://www.thebrain.com](https://www.thebrain.com)
 * [https://www.matchware.com/mind-mapping-software](https://www.matchware.com/mind-mapping-software)
+* 大纲工具 [https://github.com/onepointal/onepoint](https://github.com/onepointal/onepoint)
 
 
 **本地客户端**
@@ -693,6 +831,12 @@
 
 - [https://github.com/suxin2017/lynx-server](https://github.com/suxin2017/lynx-server)
 - [Windows抓包与网络分析工具总结](https://blog.csdn.net/a82514921/article/details/104609924)
+- HTTP抓包 [https://github.com/wanghongenpin/network_proxy_flutter](https://github.com/wanghongenpin/network_proxy_flutter)
+- 抓包样本 [https://wiki.wireshark.org/SampleCaptures](https://wiki.wireshark.org/SampleCaptures)
+- 抓包工具 [https://github.com/gojue/ecaptureQ](https://github.com/gojue/ecaptureQ)
+- 抓包工具 [https://httptoolkit.com](https://httptoolkit.com)
+- HTTP调试 [https://github.com/httptoolkit](https://github.com/httptoolkit)
+- 流量分析 [https://blog.csdn.net/weixin_44288604/article/details/123807294](https://blog.csdn.net/weixin_44288604/article/details/123807294)
 
 
 
@@ -725,6 +869,11 @@
 
 
 * [https://imbant.github.io/blog/archives](https://imbant.github.io/blog/archives)
+* LSP实现 [https://github.com/ebkalderon/tower-lsp](https://github.com/ebkalderon/tower-lsp)
+* LSP实现 [https://github.com/silvanshade/lspower](https://github.com/silvanshade/lspower)
+* CMake LSP [https://github.com/decodetalkers/neocmakelsp](https://github.com/decodetalkers/neocmakelsp)
+* CMake LSP [https://github.com/regen100/cmake-language-server](https://github.com/regen100/cmake-language-server)
+* LSP桥接 [https://github.com/manateelazycat/lsp-bridge](https://github.com/manateelazycat/lsp-bridge)
 
 
 
@@ -743,7 +892,6 @@
 * [https://www.atlassian.com/zh/software/jira](https://www.atlassian.com/zh/software/jira)
     * [https://github.com/integrations/jira](https://github.com/integrations/jira)
 * [https://github.com/redmine/redmine](https://github.com/redmine/redmine)
-* [https://gitee.com/itestwork/itest](https://gitee.com/itestwork/itest)
 * [https://github.com/hyahm/ITflow](https://github.com/hyahm/ITflow)
 * [https://www.tapd.cn](https://www.tapd.cn)
 * [https://github.com/devstream-io/devstream](https://github.com/devstream-io/devstream)

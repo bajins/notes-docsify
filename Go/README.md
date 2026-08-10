@@ -36,6 +36,9 @@
 
 
 **[Windows下可以安装MinGW-w64、MSYS2、Cygwin](/Shell/ShellWindows.md)以调用GCC，Windows10下推荐使用WSL**
+* 云原生示例 [https://github.com/learning-cloud-native-go/myapp](https://github.com/learning-cloud-native-go/myapp)
+* Go开发者 [https://github.com/benhoyt](https://github.com/benhoyt)
+* Go技术作者 [https://github.com/draveness](https://github.com/draveness)
 
 
 
@@ -118,7 +121,6 @@
 * [https://github.com/golang101/golang101](https://github.com/golang101/golang101)
 * [https://github.com/yongxinz/gopher](https://github.com/yongxinz/gopher)
 * [https://github.com/gocn](https://github.com/gocn)
-* [https://github.com/astaxie/build-web-application-with-golang](https://github.com/astaxie/build-web-application-with-golang)
 * 日报 [https://github.com/bigwhite/gopherdaily](https://github.com/bigwhite/gopherdaily)
 
 
@@ -130,6 +132,39 @@
 * [Go的隐秘世界：Goroutine调度机制概览](https://zhuanlan.zhihu.com/p/244054940)
 * [golang调度学习-调度流程](https://blog.csdn.net/diaosssss/article/details/93066804)
 * [系统调用，ptrace，go语言syscall](https://blog.csdn.net/weixin_49393427/article/details/115259733)
+* 语法速查 [https://github.com/a8m/golang-cheat-sheet](https://github.com/a8m/golang-cheat-sheet)
+* Go工具集 [https://github.com/nikolaydubina/go-recipes](https://github.com/nikolaydubina/go-recipes)
+* Go书籍 [https://github.com/aceld/golang](https://github.com/aceld/golang)
+* Go设计书 [https://github.com/eddycjy/go-design-book](https://github.com/eddycjy/go-design-book)
+* Go常见错误 [https://github.com/teivah/100-go-mistakes](https://github.com/teivah/100-go-mistakes)
+* Go语言教程 [https://github.com/coderit666/goguide](https://github.com/coderit666/goguide)
+* Go整洁架构 [https://github.com/bxcodec/go-clean-arch](https://github.com/bxcodec/go-clean-arch)
+* Go入门指南 [https://github.com/unknwon/the-way-to-go_zh_cn](https://github.com/unknwon/the-way-to-go_zh_cn)
+* Go设计书 [https://github.com/eddycjy/go-design-book/issues](https://github.com/eddycjy/go-design-book/issues)
+* Go语言圣经 [https://github.com/gopl-zh/gopl-zh.github.com](https://github.com/gopl-zh/gopl-zh.github.com)
+* Go宝典 [https://github.com/shgopher/gofamily](https://github.com/shgopher/gofamily)
+* Go知识图谱 [https://github.com/gocn/knowledge](https://github.com/gocn/knowledge)
+* Go教程 [https://studygolang.gitbook.io/learn-go-with-tests](https://studygolang.gitbook.io/learn-go-with-tests)
+* Go学习 [https://github.com/geektutu/7days-golang](https://github.com/geektutu/7days-golang)
+* Go编译器 [https://github.com/wa-lang/ugo-compiler-book](https://github.com/wa-lang/ugo-compiler-book)
+* Go示例 [https://gobyexample-cn.github.io](https://gobyexample-cn.github.io)
+* Go入门 [https://wangchujiang.com/golang-tutorial](https://wangchujiang.com/golang-tutorial)
+* Go教程 [https://www.practical-go-lessons.com](https://www.practical-go-lessons.com)
+* Go路线图 [https://github.com/alikhll/golang-developer-roadmap](https://github.com/alikhll/golang-developer-roadmap)
+* Go书籍 [https://github.com/hantmac/mastering_go_zh_cn](https://github.com/hantmac/mastering_go_zh_cn)
+* Go课程 [https://github.com/karanpratapsingh/go-course](https://github.com/karanpratapsingh/go-course)
+* Go教程 [https://github.com/plutov/packagemain](https://github.com/plutov/packagemain)
+* Go语言101 [https://gfw.go101.org/article/101.html](https://gfw.go101.org/article/101.html)
+* Go示例 [https://gobyexample-cn.github.io/hello-world](https://gobyexample-cn.github.io/hello-world)
+* Go学习 [https://github.com/golang-minibear2333/golang](https://github.com/golang-minibear2333/golang)
+* Go入门 [https://docs.microsoft.com/zh-cn/learn/paths/go-first-steps](https://docs.microsoft.com/zh-cn/learn/paths/go-first-steps)
+* Go实战 [https://mp.weixin.qq.com/s/40JjatxMjXUgWHJPMK3HAg](https://mp.weixin.qq.com/s/40JjatxMjXUgWHJPMK3HAg)
+* Go语言圣经 [https://greycode.github.io/golang-book/index.html](https://greycode.github.io/golang-book/index.html)
+* Go编码建议 [https://dablelv.github.io/go-coding-advice](https://dablelv.github.io/go-coding-advice)
+* Go源码讲解 [https://github.com/cuishuang/explain-source-code-by-chatgpt](https://github.com/cuishuang/explain-source-code-by-chatgpt)
+* Go周刊 [https://segmentfault.com/a/1190000042513773](https://segmentfault.com/a/1190000042513773)
+* Go内存管理 [https://draven.co/golang/docs/part3-runtime/ch07-memory/golang-memory-allocator](https://draven.co/golang/docs/part3-runtime/ch07-memory/golang-memory-allocator)
+* Go学习资料 [https://www.zhihu.com/people/fengy666](https://www.zhihu.com/people/fengy666)
 
 
 
@@ -177,6 +212,11 @@ go test -v -test.run 函数名
 | 测试控制           	| 通过Error/Errorf/FailNow/Fatal等来进行测试是否是失败，或者在失败的情况下的控制                	|
 | 压力测试命令       	| go test -test.bench file_test.go                                                              	|
 | 压力测试的循环体   	| 使用test.B.N                                                                                  	|
+* Go工具链 [https://github.com/primecitizens/pcz](https://github.com/primecitizens/pcz)
+* C转Go工具 [https://github.com/goplus/c2go](https://github.com/goplus/c2go)
+* Go静态检查 [https://github.com/golangci/golangci-lint](https://github.com/golangci/golangci-lint)
+* Go版本管理 [https://github.com/thinkgos/goup-rs](https://github.com/thinkgos/goup-rs)
+* Go工具 [https://github.com/haoel](https://github.com/haoel)
 
 
 **关闭GC（垃圾回收器）**

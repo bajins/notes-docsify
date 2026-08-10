@@ -12,7 +12,6 @@
 * Windows安装Android应用 [https://github.com/Paving-Base/APK-Installer](https://github.com/Paving-Base/APK-Installer)
 * DPI [https://github.com/bol-van/zapret](https://github.com/bol-van/zapret)
 * [https://github.com/ValdikSS/GoodbyeDPI](https://github.com/ValdikSS/GoodbyeDPI)
-* 应用商城 [https://github.com/opengapps/opengapps](https://github.com/opengapps/opengapps)
 * 离线下载MicrosoftStore中应用 [https://github.com/Gaoyifei1011/GetStoreApp](https://github.com/Gaoyifei1011/GetStoreApp)
 * [https://store.rg-adguard.net](https://store.rg-adguard.net)
 * 自动点击 [https://github.com/ahkscript/awesome-AutoHotkey](https://github.com/ahkscript/awesome-AutoHotkey)
@@ -57,6 +56,22 @@
 - 网络测试 [https://github.com/microsoft/ctsTraffic](https://github.com/microsoft/ctsTraffic)
 - [https://github.com/microsoft/ntttcp](https://github.com/microsoft/ntttcp)
 - [https://github.com/microsoft/latte](https://github.com/microsoft/latte)
+- 虚拟桌面 [https://github.com/dankrusi/windowsvirtualdesktophelper](https://github.com/dankrusi/windowsvirtualdesktophelper)
+- 特性开关 [https://github.com/thebookisclosed/vive](https://github.com/thebookisclosed/vive)
+- 文件系统 [https://github.com/openzfsonwindows/zfsin](https://github.com/openzfsonwindows/zfsin)
+- 功能开关 [https://github.com/thebookisclosed/vive/releases](https://github.com/thebookisclosed/vive/releases)
+- Windows下载 [https://uupdump.net/?lang=zh-cn](https://uupdump.net/?lang=zh-cn)
+- 桌面环境 [https://github.com/cairoshell/cairoshell](https://github.com/cairoshell/cairoshell)
+- 窗口管理 [https://github.com/prabirshrestha/dwm-win32](https://github.com/prabirshrestha/dwm-win32)
+- 进程监控 [https://docs.microsoft.com/zh-cn/sysinternals/downloads/procmon](https://docs.microsoft.com/zh-cn/sysinternals/downloads/procmon)
+- 进程管理 [https://docs.microsoft.com/zh-cn/sysinternals/downloads/process-explorer](https://docs.microsoft.com/zh-cn/sysinternals/downloads/process-explorer)
+- 输入法防火墙 [https://github.com/yongxin-ms/DisableSogouNetwork](https://github.com/yongxin-ms/DisableSogouNetwork)
+- 进程监视 [https://github.com/DavidXanatos/TaskExplorer](https://github.com/DavidXanatos/TaskExplorer)
+- 系统兼容 [https://github.com/shorthorn-project/one-core-api-binaries](https://github.com/shorthorn-project/one-core-api-binaries)
+- 系统调用表 [https://j00ru.vexillium.org/syscalls/nt/64](https://j00ru.vexillium.org/syscalls/nt/64)
+- Win32 API [https://github.com/7etsuo/windows-api-function-cheatsheets](https://github.com/7etsuo/windows-api-function-cheatsheets)
+- 移除WinAI [https://github.com/zoicware/RemoveWindowsAl](https://github.com/zoicware/RemoveWindowsAl)
+- Win镜像下载 [https://mpyit.com/html/uupdump](https://mpyit.com/html/uupdump)
 
 
 
@@ -160,7 +175,6 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
     * [https://github.com/conspiracyrip/DefenderControlV2](https://github.com/conspiracyrip/DefenderControlV2)
 * [https://github.com/zoicware/DefenderProTools](https://github.com/zoicware/DefenderProTools)
 * [https://github.com/liliuwei/defender-control](https://github.com/liliuwei/defender-control)
-* [https://github.com/gentilkiwi/mimikatz](https://github.com/gentilkiwi/mimikatz)
 * 安全加固 [https://github.com/HotCakeX/Harden-Windows-Security](https://github.com/HotCakeX/Harden-Windows-Security)
 * 系统调整 [https://github.com/ChrisTitusTech/winutil](https://github.com/ChrisTitusTech/winutil)
 * 卸载自带应用 [https://www.thewindowsclub.com/10appsmanager-windows-10](https://www.thewindowsclub.com/10appsmanager-windows-10)
@@ -188,6 +202,17 @@ $patterns=@("*WindowsWorkload*","*Microsoft.Windows.Ai.Copilot.Provider*");forea
 * Windows11轻松设置 [https://www.bilibili.com/opus/904672369138729017](https://www.bilibili.com/opus/904672369138729017)
 * Windows实用设置工具 [https://www.52pojie.cn/thread-1649624-1-1.html](https://www.52pojie.cn/thread-1649624-1-1.html)
 * 网盘图标删除 [https://github.com/Return-Log/Drive-Icon-Manager](https://github.com/Return-Log/Drive-Icon-Manager)
+* 进程节流 [https://github.com/imbushuo/energystar](https://github.com/imbushuo/energystar)
+* 字体替换 [https://github.com/tatsu-syo/nomeiryoui](https://github.com/tatsu-syo/nomeiryoui)
+* 系统优化 [https://WinTools.net](https://WinTools.net)
+* 标题栏特效 [https://github.com/Maplespe/DWMBlurGlass](https://github.com/Maplespe/DWMBlurGlass)
+* 应用清理 [https://github.com/builtbybel/NAppClean](https://github.com/builtbybel/NAppClean)
+* 禁用广告 [https://github.com/zetaloop/OFGB](https://github.com/zetaloop/OFGB)
+* Windows定制 [https://windhawk.net](https://windhawk.net)
+* 电池优化 [https://github.com/JasonWei512/EnergyStarX](https://github.com/JasonWei512/EnergyStarX)
+* Windows优化 [https://github.com/atlas-os/atlas](https://github.com/atlas-os/atlas)
+* 桌面美化 [https://github.com/runixe786/md3-windows](https://github.com/runixe786/md3-windows)
+* Windows优化 [https://github.com/christitustech/winutil](https://github.com/christitustech/winutil)
 
 
 
@@ -358,6 +383,10 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
         * [https://msdl.gravesoft.dev](https://msdl.gravesoft.dev)
     * [https://github.com/cmontage/mas-cn](https://github.com/cmontage/mas-cn)
 * WIM映像操作 [https://github.com/ebiggers/wimlib](https://github.com/ebiggers/wimlib)
+* 微软文件下载 [https://tb.rg-adguard.net/public.php](https://tb.rg-adguard.net/public.php)
+* 制作ISO [https://github.com/gus33000/uupmediacreator](https://github.com/gus33000/uupmediacreator)
+* 介质制作 [https://github.com/aveyo/mediacreationtool.bat](https://github.com/aveyo/mediacreationtool.bat)
+* Windows镜像下载 [https://zhuanlan.zhihu.com/p/104547677](https://zhuanlan.zhihu.com/p/104547677)
 
 
 
@@ -377,6 +406,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * win7 [https://www.newxitong.com](https://www.newxitong.com)
 * 网吧无盘 [http://www.wupanbao.com](http://www.wupanbao.com)
 * [https://www.sysmini.com](https://www.sysmini.com)
+* 精简系统 [https://www.revi.cc](https://www.revi.cc)
 
 
 
@@ -549,7 +579,6 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
     * [https://pkeytool.com/ShareKeys](https://pkeytool.com/ShareKeys)
 * [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
-* 密钥检测的小工具 [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
 * PIDKey Lite [https://msfree.su](https://msfree.su)
 * [https://webact.sjjzm.com](https://webact.sjjzm.com)
 * [SimplePidX](https://forums.mydigitallife.net/threads/multi-oem-retail-project-mrp-mk3.71555)
@@ -574,6 +603,10 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 > 使用命令有两种方式：第一种：按<kbd>Win</kbd> + <kbd>x</kbd> + <kbd>a</kbd>进入PowerShell（也可在CMD中）输入命令运行；
 > 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
+* 系统激活 [https://github.com/massgravel/microsoft-activation-scripts](https://github.com/massgravel/microsoft-activation-scripts)
+* KMS激活 [https://github.com/zbezj/heu_kms_activator](https://github.com/zbezj/heu_kms_activator)
+* KMS激活 [https://github.com/zbezj/heu_kms_activator/releases/tag/40.0.0](https://github.com/zbezj/heu_kms_activator/releases/tag/40.0.0)
+* 系统镜像下载 [https://massgrave.dev/genuine-installation-media](https://massgrave.dev/genuine-installation-media)
 
 
 **错误代码**

@@ -36,6 +36,14 @@
 | **时态数据**        | ❌         | ❌         | ❌              | ❌               | ❌                  | **核心新增** | 增强       | 增强       |
 | **JSON 支持**     | ❌         | ❌         | ❌              | ❌               | ❌                  | ❌        | **核心新增** | 增强       |
 | **图查询**         | ❌         | ❌         | ❌              | ❌               | ❌                  | ❌        | ❌        | **核心新增** |
+* SQL查询工具 [https://github.com/cube2222/octosql](https://github.com/cube2222/octosql)
+* JS SQL库 [https://github.com/alasql/alasql](https://github.com/alasql/alasql)
+* 查询语言 [https://github.com/prql/prql](https://github.com/prql/prql)
+* SQL学习 [https://sqlbolt.com](https://sqlbolt.com)
+* SQL课程 [https://github.com/datawithdanny/sql-masterclass](https://github.com/datawithdanny/sql-masterclass)
+* SQL速查 [https://www.sqltutorial.org/sql-cheat-sheet](https://www.sqltutorial.org/sql-cheat-sheet)
+* SQL解析器 [https://github.com/aftership/clickhouse-sql-parser](https://github.com/aftership/clickhouse-sql-parser)
+* SQL技巧 [https://github.com/ben-n93/sql-tips-and-tricks](https://github.com/ben-n93/sql-tips-and-tricks)
 
 
 
@@ -184,6 +192,7 @@
 5. 等值连接 表的连接条件使用 `=`
 6. 非等值连接 表的连接条件使用 `>、>=、 <、<=、!=、any` 等
 7. 自连接 自己连接自己
+* SQL学习 [https://github.com/liyupi/sql-mother](https://github.com/liyupi/sql-mother)
 
 
 **sql99语法：通过join关键字实现连接**

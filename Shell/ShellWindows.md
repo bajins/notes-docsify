@@ -35,6 +35,8 @@
 * 窗口控制 [https://github.com/ritchielawrence/cmdow](https://github.com/ritchielawrence/cmdow)
 * [日志分析工具Log Parser](https://www.microsoft.com/en-us/download/details.aspx?id=24659)
     * [日志分析-LogParser使用方法](https://blog.csdn.net/weixin_41073877/article/details/112917207)
+* 命令行工具 [https://github.com/bmatzelle/gow](https://github.com/bmatzelle/gow)
+* GNU工具 [https://gnuwin32.sourceforge.net](https://gnuwin32.sourceforge.net)
 
 
 
@@ -73,7 +75,6 @@
 * [https://github.com/LSPosed/MagiskOnWSALocal](https://github.com/LSPosed/MagiskOnWSALocal)
 
 
-- [https://docs.microsoft.com/zh-cn/virtualization](https://docs.microsoft.com/zh-cn/virtualization)
 - [https://docs.microsoft.com/zh-cn/windows-server/virtualization](https://docs.microsoft.com/zh-cn/windows-server/virtualization)
 - [https://github.com/nullpo-head/WSL-Hello-sudo](https://github.com/nullpo-head/WSL-Hello-sudo)
 
@@ -82,6 +83,9 @@
 * [https://github.com/WSA-Community/WSAGAScript](https://github.com/WSA-Community/WSAGAScript)
 * [https://github.com/opengapps/opengapps](https://github.com/opengapps/opengapps)
     * [https://sourceforge.net/projects/opengapps](https://sourceforge.net/projects/opengapps)
+* WSL根文件 [https://github.com/deepin-community/deepin-rootfs](https://github.com/deepin-community/deepin-rootfs)
+* WSL指南 [https://github.com/mikeroyal/wsl-guide](https://github.com/mikeroyal/wsl-guide)
+* WSL配置 [https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl](https://devblogs.microsoft.com/commandline/systemd-support-is-now-available-in-wsl)
 
 
 **`wsl --update`执行错误问题**

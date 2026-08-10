@@ -82,6 +82,7 @@
 
 * [Go1.16 中发布的内嵌静态资源功能](https://mp.weixin.qq.com/s/SiCTV7R2wA_I2nCQkC3GGQ)
 * [golang1.16内嵌静态资源指南](https://www.cnblogs.com/apocelipes/p/13907858.html)
+* 资源嵌入 [https://github.com/leaanthony/mewn](https://github.com/leaanthony/mewn)
 
 
 
@@ -103,6 +104,7 @@
 - `-o` 参数为指定输出程序文件名
 - `go clean -cache` 编译完成清理缓存
 - `go env -w GOFLAGS=-buildvcs=false` 不将版本控制信息（如提交哈希、提交时间）嵌入到二进制文件中
+- 构建工具 [https://github.com/zyedidia/knit](https://github.com/zyedidia/knit)
 
 
 **`-ldflags`选项**

@@ -59,6 +59,20 @@
 
 * 有状态就是有数据存储功能。有状态对象(Stateful Bean)，就是有实例变量的对象，可以保存数据，是非线程安全的。在不同方法调用间不保留任何状态。
 * 无状态就是一次操作，不能保存数据。无状态对象(Stateless Bean)，就是没有实例变量的对象 .不能保存数据，是不变类，是线程安全的。
+* 垃圾回收 [https://developer.aliyun.com/article/777750](https://developer.aliyun.com/article/777750)
+* 虚拟线程 [https://www.oschina.net/news/190175/java-virtual-threads-preview](https://www.oschina.net/news/190175/java-virtual-threads-preview)
+* 并发测试 [https://distributed-computing-musings.com/2022/11/testing-for-concurrency-on-jvm](https://distributed-computing-musings.com/2022/11/testing-for-concurrency-on-jvm)
+* Java性能 [https://richardstartin.github.io/posts/5-java-mundane-performance-tricks](https://richardstartin.github.io/posts/5-java-mundane-performance-tricks)
+* Lambda [https://segmentfault.com/a/1190000009186509](https://segmentfault.com/a/1190000009186509)
+* Java教程 [https://dunwu.github.io/javacore](https://dunwu.github.io/javacore)
+* NIO缓冲区 [https://segmentfault.com/a/1190000020228048](https://segmentfault.com/a/1190000020228048)
+* Java22特性 [https://segmentfault.com/a/1190000044742378](https://segmentfault.com/a/1190000044742378)
+* 接口幂等 [https://segmentfault.com/a/1190000042009868](https://segmentfault.com/a/1190000042009868)
+* 异步线程 [https://segmentfault.com/a/1190000042184829](https://segmentfault.com/a/1190000042184829)
+* 虚拟线程 [https://mp.weixin.qq.com/s/G1-qLXqHva193LBJ6pSbgg](https://mp.weixin.qq.com/s/G1-qLXqHva193LBJ6pSbgg)
+* 字符串拼接 [https://mp.weixin.qq.com/s/JDil0hDZD3M7Zk_13Ppj9w](https://mp.weixin.qq.com/s/JDil0hDZD3M7Zk_13Ppj9w)
+* 虚拟线程 [https://mp.weixin.qq.com/s/0h33MMzUau8Al4H9p8V9Vg](https://mp.weixin.qq.com/s/0h33MMzUau8Al4H9p8V9Vg)
+* 虚拟线程 [https://github.com/mariofusco/game-of-life-csp](https://github.com/mariofusco/game-of-life-csp)
 
 
 
@@ -378,6 +392,7 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 > 所以我们在用synchronized关键字的时候，尽量缩小代码段的范围，尽量不要在整个方法上加同步。这叫减小锁的粒度，使代码更大程度的并发。
 
 > static方法可以直接类名加方法名调用，方法中无法使用this，所以它锁的不是this，而是Class，所以static synchronized方法也相当于全局锁，相当于锁住了代码段。
+* 虚拟线程锁 [https://weibo.com/1773116334/M6KHqBgo2](https://weibo.com/1773116334/M6KHqBgo2)
 
 
 
@@ -460,6 +475,7 @@ java.sql.Date date3 = new java.sql.Date(new Date().getTime());
 ## HTTP
 
 * [在 Java 中下载的文件会出现乱码是为什么？](https://www.zhihu.com/question/596302946)
+* HTTP服务器 [https://github.com/nanohttpd/nanohttpd](https://github.com/nanohttpd/nanohttpd)
 
 
 **常量**

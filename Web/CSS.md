@@ -31,6 +31,26 @@
 * 可折叠树 [https://iamkate.com/code/tree-views](https://iamkate.com/code/tree-views)
 * [CSS In 2023](https://juejin.cn/post/7232187022399586362)
 * head标签 [https://getoutofmyhead.dev](https://getoutofmyhead.dev)
+* CSS灵感集 [https://github.com/chokcoco/css-inspiration](https://github.com/chokcoco/css-inspiration)
+* CSS样式 [https://github.com/bansal-io/pattern.css](https://github.com/bansal-io/pattern.css)
+* 样式简写 [https://github.com/kwokronny/stylus-shortcut](https://github.com/kwokronny/stylus-shortcut)
+* 文本动效 [https://segmentfault.com/a/1190000042325723](https://segmentfault.com/a/1190000042325723)
+* CSS事件 [https://segmentfault.com/a/1190000042475578](https://segmentfault.com/a/1190000042475578)
+* CSS轮播 [https://segmentfault.com/a/1190000042512102](https://segmentfault.com/a/1190000042512102)
+* CSS技巧 [https://github.com/garu2/skills-css](https://github.com/garu2/skills-css)
+* 鼠标样式 [https://segmentfault.com/a/1190000042012558](https://segmentfault.com/a/1190000042012558)
+* CSS函数 [https://mp.weixin.qq.com/s/HwJuJCVyBvF35FyReIRLqA](https://mp.weixin.qq.com/s/HwJuJCVyBvF35FyReIRLqA)
+* CSS框架 [https://windicss.org](https://windicss.org)
+* CSS复选框 [https://getcssscan.com/css-checkboxes-examples](https://getcssscan.com/css-checkboxes-examples)
+* 字体子集 [https://daveon.design/introducing-fontimize-subset-fonts-to-exactly-and-only-your-websites-used-characters.html](https://daveon.design/introducing-fontimize-subset-fonts-to-exactly-and-only-your-websites-used-characters.html)
+* CSS函数 [https://segmentfault.com/a/1190000041826742](https://segmentfault.com/a/1190000041826742)
+* CSS夜间模式 [https://segmentfault.com/a/1190000042184163](https://segmentfault.com/a/1190000042184163)
+* CSS滤镜 [https://segmentfault.com/a/1190000042217200](https://segmentfault.com/a/1190000042217200)
+* CSS条件 [https://segmentfault.com/a/1190000042221657](https://segmentfault.com/a/1190000042221657)
+* CSS渐变 [https://segmentfault.com/a/1190000044012929](https://segmentfault.com/a/1190000044012929)
+* 主题编辑器 [https://github.com/jnsahaj/tweakcn](https://github.com/jnsahaj/tweakcn)
+* 主题美化 [https://github.com/themepark-dev/theme.park](https://github.com/themepark-dev/theme.park)
+* CSS技巧艺术 [https://github.com/afif13](https://github.com/afif13)
 
 
 **各种隐藏HTML元素的区别**
@@ -61,6 +81,13 @@
 * [https://kigen.design/color](https://kigen.design/color)
 * [CSS颜色代码大全](https://www.cnblogs.com/cnblogs-jcy/p/5689033.html)
 * [CSS 颜色名称](https://www.w3school.com.cn/cssref/css_colornames.asp)
+* 调色工具 [https://github.com/eigenmiao/rickrack](https://github.com/eigenmiao/rickrack)
+* 传统色卡 [https://github.com/reorx/cht-colors](https://github.com/reorx/cht-colors)
+* 颜色工具 [https://github.com/material-foundation/material-color-utilities](https://github.com/material-foundation/material-color-utilities)
+* 颜色管理 [https://github.com/jrmuizel/qcms/tree/v4](https://github.com/jrmuizel/qcms/tree/v4)
+* 颜色对比 [https://colorandcontrast.com](https://colorandcontrast.com)
+* 无障碍配色 [https://randoma11y.com](https://randoma11y.com)
+* 传统配色 [https://github.com/nevertoday/zhongguo-traditional-colors](https://github.com/nevertoday/zhongguo-traditional-colors)
 
 
 **17种标准颜色（HTML 4标准只定义了16种颜色，CSS2.1添加橙色）**
@@ -182,6 +209,17 @@
 - [https://github.com/cssnano/cssnano](https://github.com/cssnano/cssnano)
     - [https://www.cssnano.cn](https://www.cssnano.cn)
 - [SVG 的友好介绍](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg)
+- Tailwind资源 [https://github.com/aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss)
+- CSS工具库 [https://github.com/stylify/packages](https://github.com/stylify/packages)
+- 前端框架 [https://github.com/foundation/foundation-sites](https://github.com/foundation/foundation-sites)
+- CSS前缀 [https://github.com/postcss/autoprefixer](https://github.com/postcss/autoprefixer)
+- CSS样式 [https://open-props.style](https://open-props.style)
+- CSS框架 [https://github.com/janirefsnes/w3css](https://github.com/janirefsnes/w3css)
+- CSS提示 [https://github.com/chinchang/hint.css](https://github.com/chinchang/hint.css)
+- 设计系统 [https://github.com/stackexchange/stacks](https://github.com/stackexchange/stacks)
+- CSS框架 [https://lissomware.github.io/css](https://lissomware.github.io/css)
+- Windows UI [https://github.com/virtualvivek/windows-ui](https://github.com/virtualvivek/windows-ui)
+- CSS框架 [https://thedevsbuddy.github.io/tailwind_cli/docs/introduction](https://thedevsbuddy.github.io/tailwind_cli/docs/introduction)
 
 
 
@@ -235,7 +273,6 @@
 * [https://github.com/stephenhutchings/microns](https://github.com/stephenhutchings/microns)
 * [https://github.com/opencontainers/artwork](https://github.com/opencontainers/artwork)
 * [https://github.com/PrestaShop/prestashop-icon-font](https://github.com/PrestaShop/prestashop-icon-font)
-* [https://github.com/mariuszostrowski/subway](https://github.com/mariuszostrowski/subway)
 * [https://github.com/icons8/windows-10-icons](https://github.com/icons8/windows-10-icons)
 * [https://oldsite.alessioatzeni.com/metrize-icons](https://oldsite.alessioatzeni.com/metrize-icons)
 * [https://www.zondicons.com](https://www.zondicons.com)
@@ -283,6 +320,19 @@
 * [https://github.com/xianyu110/web-tools-suite](https://github.com/xianyu110/web-tools-suite)
 * [https://github.com/orcastor/cad2x-converter](https://github.com/orcastor/cad2x-converter)
 * [https://github.com/svg-net/SVG](https://github.com/svg-net/SVG)
+* CSS图标 [https://github.com/astrit/css.gg](https://github.com/astrit/css.gg)
+* 图标库 [https://github.com/react-icons/react-icons](https://github.com/react-icons/react-icons)
+* 动态图标 [https://github.com/useanimations/react-useanimations](https://github.com/useanimations/react-useanimations)
+* 图标库 [https://iconhub.io](https://iconhub.io)
+* SVG加载 [https://github.com/n3r4zzurr0/svg-spinners](https://github.com/n3r4zzurr0/svg-spinners)
+* 图标库 [https://sargamicons.com](https://sargamicons.com)
+* SVG工具 [https://fffuel.co](https://fffuel.co)
+* 健康图标 [https://github.com/resolvetosavelives/healthicons](https://github.com/resolvetosavelives/healthicons)
+* 批量导出 [https://github.com/StefanTraistaru/batch-export](https://github.com/StefanTraistaru/batch-export)
+* 图标库 [https://icon-sets.iconify.design](https://icon-sets.iconify.design)
+* 图标库 [https://github.com/richard9394/mingcute](https://github.com/richard9394/mingcute)
+* SVG编辑器 [https://github.com/svg-edit/svgedit](https://github.com/svg-edit/svgedit)
+* 图标库 [https://www.iconninja.com](https://www.iconninja.com)
 
 
 
@@ -528,6 +578,8 @@
 /*<=768的设备*/
 }
 ```
+* 设计组件 [https://github.com/froala/design-blocks](https://github.com/froala/design-blocks)
+* 仪表盘UI [https://github.com/tabler](https://github.com/tabler)
 
 
 
@@ -647,6 +699,14 @@ div:hover{
 
 * [动画](https://www.w3school.com.cn/css3/css3_animation.asp)
 * [过渡](https://www.w3school.com.cn/css3/css3_3dtransform.asp)
+* CSS技巧 [https://github.com/chokcoco/icss](https://github.com/chokcoco/icss)
+* CSS动画 [https://github.com/cssanimation/css-animation-101](https://github.com/cssanimation/css-animation-101)
+* CSS动效库 [https://github.com/ziyi0414/handsome-css3-lib](https://github.com/ziyi0414/handsome-css3-lib)
+* 加载动画 [https://github.com/connoratherton/loaders.css](https://github.com/connoratherton/loaders.css)
+* CSS视差 [https://github.com/simeydotme/pokemon-cards-css](https://github.com/simeydotme/pokemon-cards-css)
+* UI动画 [https://github.com/emilkowalski/skills](https://github.com/emilkowalski/skills)
+* CSS过渡 [https://www.joshwcomeau.com/animation/css-transitions](https://www.joshwcomeau.com/animation/css-transitions)
+* CSS动画 [https://h-wakanda.github.io/css-animation-101-cn](https://h-wakanda.github.io/css-animation-101-cn)
 
 **属性**
 

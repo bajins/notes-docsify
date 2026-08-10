@@ -80,6 +80,29 @@
 - `git clone url --depth 1` 克隆最新一条提交记录
 - `git clone url --recursive` 递归克隆
 - `git fetch --unshallow` 完整克隆
+- Git学习 [https://github.com/pcottle/learngitbranching](https://github.com/pcottle/learngitbranching)
+- 提交信息生成 [https://github.com/romanhotsiy/commitgpt](https://github.com/romanhotsiy/commitgpt)
+- Git实现 [https://github.com/byron/gitoxide](https://github.com/byron/gitoxide)
+- Git存储 [https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store](https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store)
+- 缺陷追踪 [https://github.com/michaelmure/git-bug](https://github.com/michaelmure/git-bug)
+- 版本控制 [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
+- Git哈希 [https://github.com/not-an-aardvark/lucky-commit](https://github.com/not-an-aardvark/lucky-commit)
+- 版本控制 [https://github.com/sturdy-dev/sturdy](https://github.com/sturdy-dev/sturdy)
+- Git教程 [https://wkevin.github.io/GitChat/gitchat.html](https://wkevin.github.io/GitChat/gitchat.html)
+- Git原理 [https://www.freecodecamp.org/chinese/news/git-internals-objects-branches-create-repo](https://www.freecodecamp.org/chinese/news/git-internals-objects-branches-create-repo)
+- Git技巧 [https://colstuwjx.github.io/2020/11/git实用技巧和原理解读](https://colstuwjx.github.io/2020/11/git实用技巧和原理解读)
+- Git终端 [https://github.com/rgburke/grv](https://github.com/rgburke/grv)
+- Git速查 [https://wizardzines.com/git-cheat-sheet.pdf](https://wizardzines.com/git-cheat-sheet.pdf)
+- Git周刊 [https://segmentfault.com/a/1190000042196077](https://segmentfault.com/a/1190000042196077)
+- Git原理 [https://cloud.tencent.com/developer/article/1369947](https://cloud.tencent.com/developer/article/1369947)
+- Git提交图 [https://github.com/lusingander/serie](https://github.com/lusingander/serie)
+- Git原理实现 [https://github.com/chrisdickinson/git-rs](https://github.com/chrisdickinson/git-rs)
+- Git入门 [https://rogerdudler.github.io/git-guide/index.zh.html](https://rogerdudler.github.io/git-guide/index.zh.html)
+- Git图解 [https://github.com/marklodato/visual-git-guide](https://github.com/marklodato/visual-git-guide)
+- Git教程 [https://backlog.com/git-tutorial/cn/intro/intro1_1.html](https://backlog.com/git-tutorial/cn/intro/intro1_1.html)
+- 变更日志 [https://git-cliff.org](https://git-cliff.org)
+- 自写Git [https://github.com/thblt/write-yourself-a-git](https://github.com/thblt/write-yourself-a-git)
+- 代码审查 [https://github.com/withgraphite](https://github.com/withgraphite)
 
 
 
@@ -168,6 +191,12 @@
 - `git lfs track "*.gz"` 添加文件到`.gitattributes`追踪记录文件中
 - `git lfs ls-files` 显示当前提交后跟踪的文件列表
 - `git lfs clone` 克隆追踪的文件
+- Git助手 [https://github.com/danthelion/git-genie](https://github.com/danthelion/git-genie)
+- Git撤销 [https://github.com/bhupesh-v/ugit](https://github.com/bhupesh-v/ugit)
+- 代码审查 [https://github.com/google/git-appraise](https://github.com/google/git-appraise)
+- Git客户端 [https://ugit.qq.com/zh](https://ugit.qq.com/zh)
+- Go的Git库 [https://github.com/go-git/go-git](https://github.com/go-git/go-git)
+- 简化Git [https://gitless.com](https://gitless.com)
 
 
 
@@ -435,6 +464,8 @@ git log -p master..origin/master
 ```bash
 git log master..origin/master
 ```
+* 代码热图 [https://github.com/jmforsythe/git-heat-map](https://github.com/jmforsythe/git-heat-map)
+* Git分析 [https://github.com/bakhirev/assayo](https://github.com/bakhirev/assayo)
 
 
 ## 分支
@@ -449,6 +480,11 @@ git log master..origin/master
 - 删除本地分支`git branch -d [branch name]`
 - 删除远程分支,分支名前的冒号代表删除`git push origin :[branch name]`
 - `for b in git branch -r | grep -v -- '->'; do git branch --track ${b##origin/} $b; done` [一次性拉取仓库的所有分支](https://gitee.com/help/articles/4284#%E6%96%B9%E6%B3%95%E4%BA%8C%E6%8E%A8%E8%8D%90%E6%AF%94%E8%BE%83%E5%A4%9A%E5%88%86%E6%94%AF%E7%9A%84%E4%BB%93%E5%BA%93)
+- 分支管理 [https://github.com/virtuslab/git-machete](https://github.com/virtuslab/git-machete)
+- 堆栈PR [https://github.com/ejoffe/spr](https://github.com/ejoffe/spr)
+- 主干开发 [https://trunkbaseddevelopment.com](https://trunkbaseddevelopment.com)
+- 抽象分支 [https://www.branchbyabstraction.com](https://www.branchbyabstraction.com)
+- Git分支 [https://segmentfault.com/a/1190000044827799](https://segmentfault.com/a/1190000044827799)
 
 
 ## SubModule与SubTree
@@ -735,6 +771,7 @@ git config --global --unset http.proxy
 
 
 ### push错误
+* Git排错 [https://github.com/k88hudson/git-flight-rules](https://github.com/k88hudson/git-flight-rules)
 
 **`The following untracked working tree files would be overwritten by merge/checkout`**
 

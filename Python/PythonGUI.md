@@ -25,6 +25,13 @@
 
 - [https://github.com/zwjjiaozhu/gitchat_download](https://github.com/zwjjiaozhu/gitchat_download)
 - PDF工具箱 [https://github.com/LC044/EasyBox](https://github.com/LC044/EasyBox)
+- GUI工具包 [https://github.com/beeware/toga](https://github.com/beeware/toga)
+- GUI框架 [https://github.com/nucleic/enaml](https://github.com/nucleic/enaml)
+- 终端便签 [https://github.com/cvaniak/notesh](https://github.com/cvaniak/notesh)
+- GUI转换 [https://github.com/chriskiehl/gooey](https://github.com/chriskiehl/gooey)
+- GUI框架 [https://github.com/scriptiot/evue](https://github.com/scriptiot/evue)
+- PythonGUI [https://github.com/pysimplegui](https://github.com/pysimplegui)
+- 终端UI框架 [https://github.com/textualize](https://github.com/textualize)
 
 
 **Tkinter**
@@ -37,6 +44,7 @@
 * [https://github.com/ParthJadhav/Tkinter-Designer](https://github.com/ParthJadhav/Tkinter-Designer)
 * [https://github.com/honghaier-game/TKinterDesigner](https://github.com/honghaier-game/TKinterDesigner)
 * [https://github.com/alejandroautalan/pygubu-designer](https://github.com/alejandroautalan/pygubu-designer)
+* GUI设计 [https://github.com/nngogol/pysimpleguidesigner](https://github.com/nngogol/pysimpleguidesigner)
 
 
 **PyQt**
@@ -61,6 +69,8 @@
 
 * [pyqt5 参考代码 github 参考项目](https://blog.csdn.net/wowocpp/article/details/105759105)
 * [https://github.com/songquanpeng/gofile-launcher](https://github.com/songquanpeng/gofile-launcher)
+* PyQt教程 [https://github.com/maicss/pyqt-chinese-tutorial](https://github.com/maicss/pyqt-chinese-tutorial)
+* 本地搜索 [https://github.com/gaoyongxian666/opensearcher](https://github.com/gaoyongxian666/opensearcher)
 
 
 **PyGObject**
@@ -685,6 +695,7 @@ if __name__ == "__main__":
 
 * [https://github.com/pyinstaller](https://github.com/pyinstaller)
 * [https://hoxis.github.io/python-pyinstaller.html](https://hoxis.github.io/python-pyinstaller.html)
+* 打包误报 [https://coderslegacy.com/pyinstaller-exe-detected-as-virus-solutions](https://coderslegacy.com/pyinstaller-exe-detected-as-virus-solutions)
 
 **安装`pyinstalle`**
 

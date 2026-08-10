@@ -6,7 +6,6 @@
 ## FLAG
 
 
-+ [https://github.com/jobbole/awesome-python-cn](https://github.com/jobbole/awesome-python-cn)
 + [https://github.com/vinta/awesome-python](https://github.com/vinta/awesome-python)
 + [Python 常用的标准库以及第三方库有哪些？](https://www.zhihu.com/question/20501628/answers/updated)
 + [https://github.com/MagicStack](https://github.com/MagicStack)
@@ -133,6 +132,25 @@
 - [https://github.com/topics/ops](https://github.com/topics/ops)
 - 集成其他语言 [https://wiki.python.org/moin/IntegratingPythonWithOtherLanguages](https://wiki.python.org/moin/IntegratingPythonWithOtherLanguages)
 - 内嵌Java [https://github.com/jpype-project/jpype](https://github.com/jpype-project/jpype)
+- Web3教程 [https://github.com/gm365/web3_tutorial](https://github.com/gm365/web3_tutorial)
+- Serverless部署 [https://github.com/miserlou/zappa](https://github.com/miserlou/zappa)
+- 定时器 [https://github.com/1blademaster/timer-cli](https://github.com/1blademaster/timer-cli)
+- 数据结构库 [https://github.com/scikit-hep/awkward](https://github.com/scikit-hep/awkward)
+- 执行可视化 [https://github.com/alexmojaki/heartrate](https://github.com/alexmojaki/heartrate)
+- 分布式计算 [https://github.com/xprobe-inc/xorbits](https://github.com/xprobe-inc/xorbits)
+- 屏幕截图 [https://github.com/bobotig/python-mss](https://github.com/bobotig/python-mss)
+- 音高估计 [https://github.com/groupmm/libf0](https://github.com/groupmm/libf0)
+- 模板引擎 [https://jinja.palletsprojects.com](https://jinja.palletsprojects.com)
+- 缓存框架 [https://github.com/krukov/cashews](https://github.com/krukov/cashews)
+- 森林图 [https://github.com/lsys/forestplot](https://github.com/lsys/forestplot)
+- 事件循环 [https://github.com/magicstack/uvloop](https://github.com/magicstack/uvloop)
+- 终端UI [https://github.com/textualize/textual](https://github.com/textualize/textual)
+- 笔记执行 [https://github.com/fastai/execnb](https://github.com/fastai/execnb)
+- 待办工具 [https://github.com/kraanzu/dooit](https://github.com/kraanzu/dooit)
+- 翻译库 [https://github.com/UlionTse/translators](https://github.com/UlionTse/translators)
+- 字体工具 [https://fonttools.readthedocs.io](https://fonttools.readthedocs.io)
+- 终端特效 [https://github.com/chrisbuilds/terminaltexteffects](https://github.com/chrisbuilds/terminaltexteffects)
+- Python网络库 [https://github.com/mobiletelesystems/ambrosia](https://github.com/mobiletelesystems/ambrosia)
 
 
 
@@ -164,4 +182,5 @@
 * [https://github.com/zhengxiaowai/tcping](https://github.com/zhengxiaowai/tcping)
     * [https://github.com/rami3l/ting](https://github.com/rami3l/ting)
 * [https://github.com/alessandromaggio/pythonping](https://github.com/alessandromaggio/pythonping)
+* 网速测试 [https://github.com/sivel/speedtest-cli](https://github.com/sivel/speedtest-cli)
 

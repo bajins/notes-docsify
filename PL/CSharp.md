@@ -116,6 +116,13 @@
 
 
 - [System.Data.DbType与各类数据库的数据类型的映射关系](https://www.cnblogs.com/springsnow/p/10075463.html)
+- 本地搜索 [https://github.com/liulei901112/textlocator](https://github.com/liulei901112/textlocator)
+- DirectUI框架 [https://gitee.com/william_lzw/ExDUIR.NET](https://gitee.com/william_lzw/ExDUIR.NET)
+- C#路线图 [https://github.com/moientajik/aspnetcore-developer-roadmap](https://github.com/moientajik/aspnetcore-developer-roadmap)
+- C#泛型 [https://blog.nachtgeistw.zone/understand-class-inheritance](https://blog.nachtgeistw.zone/understand-class-inheritance)
+- XAML文档 [https://github.com/robloo/publicdocs](https://github.com/robloo/publicdocs)
+- C#开发者 [https://github.com/dustinmoris](https://github.com/dustinmoris)
+- .NET开发 [https://github.com/andrewlock](https://github.com/andrewlock)
 
 
 
@@ -201,6 +208,7 @@
 - 拦截系统时间API [https://github.com/malaohu/RunAsDate](https://github.com/malaohu/RunAsDate)
     - [https://www.nirsoft.net/utils/run_as_date.html](https://www.nirsoft.net/utils/run_as_date.html)
 - 分析器 [https://www.getcodetrack.com](https://www.getcodetrack.com)
+- 代码反编译 [https://github.com/icsharpcode/ilspy](https://github.com/icsharpcode/ilspy)
 
 
 
@@ -315,7 +323,6 @@
 * Unity3D [https://github.com/egametang/ET](https://github.com/egametang/ET)
 * 日期和时间 [https://github.com/nodatime/nodatime](https://github.com/nodatime/nodatime)
 * 代理 [https://github.com/ekonbenefits/impromptu-interface](https://github.com/ekonbenefits/impromptu-interface)
-* [https://github.com/DapperLib/Dapper](https://github.com/DapperLib/Dapper)
 * [https://github.com/postsharp](https://github.com/postsharp)
 * [https://github.com/castleproject](https://github.com/castleproject)
 * 压缩 [https://github.com/adamhathcock/sharpcompress](https://github.com/adamhathcock/sharpcompress)
@@ -324,7 +331,6 @@
 
 
 - [https://github.com/yswenli](https://github.com/yswenli)
-- [https://github.com/WilliamXu96/ABP-MicroService](https://github.com/WilliamXu96/ABP-MicroService)
 - 任意窗口放大 [https://github.com/Blinue/Magpie](https://github.com/Blinue/Magpie)
 - 中文姓名 [https://github.com/wainshine/Chinese-Names-Corpus](https://github.com/wainshine/Chinese-Names-Corpus)
 - 任务栏奔跑的猫 [https://github.com/Kyome22/RunCat_for_windows](https://github.com/Kyome22/RunCat_for_windows)
@@ -338,5 +344,25 @@
 - 虚拟桌面 [https://github.com/newlooper/VirtualSpace](https://github.com/newlooper/VirtualSpace)
 - 远程桌面会话 [https://github.com/geissbuehler/TermsrvPatcher](https://github.com/geissbuehler/TermsrvPatcher)
 - 权限检查 [https://github.com/falahati/UACHelper](https://github.com/falahati/UACHelper)
-- 整洁架构开发模板 [https://github.com/ardalis/CleanArchitecture](https://github.com/ardalis/CleanArchitecture)
+- 数据图表 [https://github.com/xcharts-team/xcharts](https://github.com/xcharts-team/xcharts)
+- 数据库访问 [https://github.com/ericsink/sqlitepcl.raw](https://github.com/ericsink/sqlitepcl.raw)
+- IoC容器 [https://github.com/autofac/autofac](https://github.com/autofac/autofac)
+- 日志框架 [https://github.com/nlog/nlog](https://github.com/nlog/nlog)
+- 验证框架 [https://github.com/fluentvalidation/fluentvalidation](https://github.com/fluentvalidation/fluentvalidation)
+- 日志控制台 [https://github.com/serilog/serilog-sinks-console](https://github.com/serilog/serilog-sinks-console)
+- 日志文件 [https://github.com/serilog/serilog-sinks-file](https://github.com/serilog/serilog-sinks-file)
+- 弹性框架 [https://github.com/app-vnext/polly](https://github.com/app-vnext/polly)
+- Mock框架 [https://github.com/moq/moq4](https://github.com/moq/moq4)
+- JSON框架 [https://github.com/jamesnk/newtonsoft.json](https://github.com/jamesnk/newtonsoft.json)
+- C#工具库 [https://github.com/ldqk/masuit.tools](https://github.com/ldqk/masuit.tools)
+- 游戏服务端 [https://github.com/dotnetgame/minecase](https://github.com/dotnetgame/minecase)
+- 脚手架 [https://github.com/fullstackhero/dotnet-webapi-boilerplate](https://github.com/fullstackhero/dotnet-webapi-boilerplate)
+- 游戏引擎 [https://github.com/stride3d/stride](https://github.com/stride3d/stride)
+- 函数式扩展 [https://github.com/louthy/language-ext](https://github.com/louthy/language-ext)
+- 函数式库 [https://github.com/vkhorikov/csharpfunctionalextensions](https://github.com/vkhorikov/csharpfunctionalextensions)
+- 对象映射 [https://github.com/riok/mapperly](https://github.com/riok/mapperly)
+- 字符串构建 [https://github.com/linkdotnet/stringbuilder](https://github.com/linkdotnet/stringbuilder)
+- 终端UI [https://github.com/gui-cs/terminal.gui](https://github.com/gui-cs/terminal.gui)
+- 工作流引擎 [https://github.com/zhenl/myelsa](https://github.com/zhenl/myelsa)
+- .NET ORM [https://github.com/dapperlib/dapperaot](https://github.com/dapperlib/dapperaot)
 

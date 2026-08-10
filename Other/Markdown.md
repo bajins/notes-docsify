@@ -68,6 +68,7 @@
 + [https://github.com/yikeke/zh-style-guide](https://github.com/yikeke/zh-style-guide)
 + 中英混排文档在线排版工具：[https://github.com/CyC2018/Text-Typesetting](https://github.com/CyC2018/Text-Typesetting)
     + [https://cyc2018.github.io/Text-Typesetting](https://cyc2018.github.io/Text-Typesetting)
++ 笔记工具 [https://github.com/hooosberg/WitNote](https://github.com/hooosberg/WitNote)
 
 
 
@@ -342,7 +343,6 @@ ___
 > 在三个反引号后面加上编程语言的名字(如果是配置则为`ini`、`conf`、`properties`)，另起一行开始写代码，最后一行再加上三个反引号。
 
 * [https://en.wikipedia.org/wiki/Configuration_file](https://en.wikipedia.org/wiki/Configuration_file)
-* [https://prismjs.com/#supported-languages](https://prismjs.com/#supported-languages)
 
 
 ```Java
@@ -408,6 +408,40 @@ string &operator+(const string& A,const string& B) //cpp
 
 
 ### 输出目录结构
+* 写作助手 [https://github.com/onblogs/bloghelper](https://github.com/onblogs/bloghelper)
+* MD浏览 [https://github.com/willmcgugan/textual-markdown](https://github.com/willmcgugan/textual-markdown)
+* 中文校对 [https://github.com/jinjiang/zhlint](https://github.com/jinjiang/zhlint)
+* Git笔记 [https://github.com/git-noter/gitnoter](https://github.com/git-noter/gitnoter)
+* 笔记平台 [https://github.com/vnotex/vnote](https://github.com/vnotex/vnote)
+* MD编辑器组件 [https://github.com/bytedance/bytemd](https://github.com/bytedance/bytemd)
+* 简历工具 [https://github.com/hua1995116/react-resume-site](https://github.com/hua1995116/react-resume-site)
+* 笔记工作区 [https://github.com/appflowy-io/appflowy](https://github.com/appflowy-io/appflowy)
+* 网页剪藏 [https://github.com/deathau/markdownload](https://github.com/deathau/markdownload)
+* 文本纠错 [https://github.com/huacnlee/autocorrect](https://github.com/huacnlee/autocorrect)
+* 协作笔记 [https://github.com/hedgedoc/hedgedoc](https://github.com/hedgedoc/hedgedoc)
+* Markdown [https://github.com/orc/discount](https://github.com/orc/discount)
+* Markdown [https://github.com/rentzsch/lich](https://github.com/rentzsch/lich)
+* 文档生成 [https://github.com/willmcgugan/faqtory](https://github.com/willmcgugan/faqtory)
+* Markdown解析 [https://github.com/ikey4u/concisemark](https://github.com/ikey4u/concisemark)
+* 终端文档 [https://github.com/thomscoder/altair](https://github.com/thomscoder/altair)
+* Markdown阅读 [https://github.com/charmbracelet/glow](https://github.com/charmbracelet/glow)
+* 笔记软件 [https://purocean.github.io/yank-note-01](https://purocean.github.io/yank-note-01)
+* 笔记工具 [https://limboy.me/posts/logseq](https://limboy.me/posts/logseq)
+* Markdown框架 [https://github.com/markdoc/markdoc](https://github.com/markdoc/markdoc)
+* Markdown编辑器 [https://mdnice.com/?platform=1](https://mdnice.com/?platform=1)
+* 排版助手 [https://github.com/miantiao-me/bm.md](https://github.com/miantiao-me/bm.md)
+* Markdown阅读 [https://github.com/easychen/markmark](https://github.com/easychen/markmark)
+* Markdown工具 [https://www.mdnice.com/user/989015353828](https://www.mdnice.com/user/989015353828)
+* 文档生成 [https://github.com/mgks/docmd](https://github.com/mgks/docmd)
+* Markdown查看 [https://github.com/xicilion/markdown-viewer-extension](https://github.com/xicilion/markdown-viewer-extension)
+* 笔记应用 [https://github.com/Beaver-Notes/Beaver-Notes](https://github.com/Beaver-Notes/Beaver-Notes)
+* HTML转MD [https://github.com/matthewwithanm/python-markdownify](https://github.com/matthewwithanm/python-markdownify)
+* 手写笔记 [https://github.com/LinwoodDev/butterfly](https://github.com/LinwoodDev/butterfly)
+* Markdown排版 [https://md.payforchat.com](https://md.payforchat.com)
+* MD编辑器 [https://github.com/markedit-app/markedit](https://github.com/markedit-app/markedit)
+* 公众号排版 [https://github.com/tianyaxiang/neurapress](https://github.com/tianyaxiang/neurapress)
+* MD编辑器 [https://github.com/versyxdigital/mkeditor](https://github.com/versyxdigital/mkeditor)
+* 协作排版 [https://github.com/TeXlyre/texlyre](https://github.com/TeXlyre/texlyre)
 
 
 **Windows**
@@ -456,7 +490,6 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/barretlee/online-markdown](https://github.com/barretlee/online-markdown)
 * [https://github.com/wangduanduan/m2w-transform](https://github.com/wangduanduan/m2w-transform)
     * [https://wdd.js.org/m2w-transform](https://wdd.js.org/m2w-transform)
-* [https://github.com/lyricat/wechat-format](https://github.com/lyricat/wechat-format)
     * [https://lab.lyric.im/wxformat](https://lab.lyric.im/wxformat)
 * [https://github.com/xiaobox/mdeditor](https://github.com/xiaobox/mdeditor)
 * [https://github.com/geekjourneyx/md2wechat-mcp-server](https://github.com/geekjourneyx/md2wechat-mcp-server)
@@ -466,7 +499,6 @@ string &operator+(const string& A,const string& B) //cpp
 
 
 - [https://github.com/ZhuPeng/mp-transform-public](https://github.com/ZhuPeng/mp-transform-public)
-- 封面生成 [https://github.com/eternityspring/article-tools](https://github.com/eternityspring/article-tools)
 
 
 
@@ -560,7 +592,6 @@ string &operator+(const string& A,const string& B) //cpp
     * [https://markitdown.netlify.app](https://markitdown.netlify.app)
 * [https://github.com/davidfowl/TodoApi](https://github.com/davidfowl/TodoApi)
 * [https://github.com/iamgio/quarkdown](https://github.com/iamgio/quarkdown)
-* [https://github.com/showdownjs/showdown](https://github.com/showdownjs/showdown)
     * [http://demo.showdownjs.com](http://demo.showdownjs.com)
     ```js
     document.querySelector("body > div.lateral-menu.ng-isolate-scope.ng-pageslide").remove();
@@ -603,7 +634,6 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/rickstrahl/MarkdownMonster](https://github.com/rickstrahl/MarkdownMonster)
 * [https://github.com/marktext/marktext](https://github.com/marktext/marktext)
     * [https://marktext.app](https://marktext.app)
-* [https://github.com/Zettlr/Zettlr](https://github.com/Zettlr/Zettlr)
 * ~~[https://github.com/brrd/abricotine](https://github.com/brrd/abricotine)~~
 * [https://github.com/notable/notable](https://github.com/notable/notable)
 * [https://github.com/nhn/tui.editor](https://github.com/nhn/tui.editor)
@@ -659,7 +689,6 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/johannesjo/super-productivity](https://github.com/johannesjo/super-productivity)
 * 草图 [https://frame0.app](https://frame0.app)
 * [https://github.com/LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly)
-* [https://github.com/flxzt/rnote](https://github.com/flxzt/rnote)
 * [https://github.com/saber-notes/saber](https://github.com/saber-notes/saber)
 * Android [https://github.com/gsantner/markor](https://github.com/gsantner/markor)
 

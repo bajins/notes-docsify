@@ -20,6 +20,16 @@
 
 
 ![](/images/sql执行顺序.png)
+* SQL审计 [https://github.com/cookiey/yearning](https://github.com/cookiey/yearning)
+* MySQL教程 [https://relph1119.github.io/mysql-learning-notes](https://relph1119.github.io/mysql-learning-notes)
+* SQL审核 [https://github.com/hhyo/archery](https://github.com/hhyo/archery)
+* MySQL客户端 [https://github.com/sequel-ace/sequel-ace](https://github.com/sequel-ace/sequel-ace)
+* MySQL引擎 [https://github.com/dolthub/go-mysql-server](https://github.com/dolthub/go-mysql-server)
+* 分布式数据库 [https://github.com/apsaradb/galaxyengine](https://github.com/apsaradb/galaxyengine)
+* 表结构迁移 [https://github.com/github/gh-ost](https://github.com/github/gh-ost)
+* MySQL分支 [https://gitee.com/GreatSQL/GreatSQL](https://gitee.com/GreatSQL/GreatSQL)
+* MySQL调优 [https://github.com/advancedmysql/the-art-of-problem-solving-in-software-engineering_how-to-make-mysql-better](https://github.com/advancedmysql/the-art-of-problem-solving-in-software-engineering_how-to-make-mysql-better)
+* 事务日志 [https://my.oschina.net/u/4893843/blog/5533822](https://my.oschina.net/u/4893843/blog/5533822)
 
 
 **MySQL优化工具**
@@ -38,6 +48,8 @@
 * 高可用复制管理工具 [https://github.com/openark/orchestrator](https://github.com/openark/orchestrator)
 * 水平切片集群扩展 [https://github.com/vitessio/vitess](https://github.com/vitessio/vitess)
 * 配置管理 [https://github.com/AhmedAredah/DBSwitcher](https://github.com/AhmedAredah/DBSwitcher)
+* MySQL优化 [https://github.com/releem/mysqlconfigurer](https://github.com/releem/mysqlconfigurer)
+* SQL优化 [https://github.com/xiaomi/soar](https://github.com/xiaomi/soar)
 
 
 
@@ -90,6 +102,7 @@
 -- 强制使用指定索引
 FORCE INDEX (索引名)
 ```
+* SQL索引 [https://use-the-index-luke.com/sql/preface](https://use-the-index-luke.com/sql/preface)
 
 **从数据结构角度**
 

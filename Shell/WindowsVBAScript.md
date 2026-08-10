@@ -12,8 +12,6 @@
 + Microsoft Office Development [https://bettersolutions.com](https://bettersolutions.com)
 + [VBA学习笔记](https://www.zhihu.com/people/xia-xi-lan/posts)
 + [xcel之VBA简单宏编程](https://blog.csdn.net/wordsin/article/details/80575615)
-+ [VBA学习笔记](https://www.zhihu.com/people/xia-xi-lan/posts)
-+ [xcel之VBA简单宏编程](https://blog.csdn.net/wordsin/article/details/80575615)
 + [https://docs.microsoft.com/zh-cn/javascript/api](https://docs.microsoft.com/zh-cn/javascript/api)
 + [https://docs.microsoft.com/zh-cn/office/dev/add-ins/excel](https://docs.microsoft.com/zh-cn/office/dev/add-ins/excel)
 

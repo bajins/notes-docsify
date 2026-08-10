@@ -9,8 +9,6 @@
 + [https://github.com/topics/webscraper](https://github.com/topics/webscraper)
 + [https://github.com/topics/web-scraper](https://github.com/topics/web-scraper)
 + [https://github.com/topics/spider](https://github.com/topics/spider)
-+ [https://github.com/topics/webscraper](https://github.com/topics/webscraper)
-+ [https://github.com/topics/web-scraper](https://github.com/topics/web-scraper)
 + [https://github.com/topics/crawler](https://github.com/topics/crawler)
 + [https://github.com/topics/webcrawler](https://github.com/topics/webcrawler)
 + [https://github.com/topics/web-crawler](https://github.com/topics/web-crawler)
@@ -52,6 +50,13 @@
 + 电话号码的高级信息收集 [https://github.com/sundowndev/PhoneInfoga](https://github.com/sundowndev/PhoneInfoga)
 + 网页抓取查看 [https://github.com/kubero-dev/ladder](https://github.com/kubero-dev/ladder)
 + [https://github.com/goodreasonai/ScrapeServ](https://github.com/goodreasonai/ScrapeServ)
++ 爬虫代理 [https://github.com/reanalytics-databoutique/advanced-scrapy-proxies](https://github.com/reanalytics-databoutique/advanced-scrapy-proxies)
++ 自动爬虫 [https://github.com/lorey/mlscraper](https://github.com/lorey/mlscraper)
++ 爬虫平台 [https://github.com/crawlab-team/crawlab](https://github.com/crawlab-team/crawlab)
++ 视频下载 [https://github.com/hfrost0/bilix](https://github.com/hfrost0/bilix)
++ 爬虫逆向 [https://github.com/lixi5338619/lxbook](https://github.com/lixi5338619/lxbook)
++ 自动抢票 [https://github.com/WECENG/ticket-purchase](https://github.com/WECENG/ticket-purchase)
++ 网页爬虫 [https://github.com/0xSojalSec/pipet](https://github.com/0xSojalSec/pipet)
 
 
 
@@ -72,6 +77,7 @@
 * 咸鱼监控 [https://github.com/dingyufei615/ai-goofish-monitor](https://github.com/dingyufei615/ai-goofish-monitor)
 * 短视频 [https://github.com/Evil0ctal/Douyin_TikTok_Download_API](https://github.com/Evil0ctal/Douyin_TikTok_Download_API)
 * 爬虫代理IP [https://github.com/jhao104/proxy_pool](https://github.com/jhao104/proxy_pool)
+* 视频自动发布 [https://github.com/dreammis/social-auto-upload](https://github.com/dreammis/social-auto-upload)
 
 
 **签到**
@@ -79,6 +85,7 @@
 * [https://github.com/Sitoi/dailycheckin](https://github.com/Sitoi/dailycheckin)
 * [https://github.com/leecobaby/shortcuts](https://github.com/leecobaby/shortcuts)
 * [https://github.com/Wenmoux/checkbox](https://github.com/Wenmoux/checkbox)
+* Steam机器人 [https://github.com/palmaluv/steamgiftbot](https://github.com/palmaluv/steamgiftbot)
 
 
 **京东**
@@ -178,7 +185,6 @@
 ## selenium
 
 + [https://github.com/topics/selenium](https://github.com/topics/selenium)
-+ [https://github.com/topics/testing](https://github.com/topics/testing)
 
 
 
@@ -275,6 +281,7 @@
 | def application_cache(self):                                           	|      	|
 | def log_types(self):                                                   	|      	|
 | def get_log(self, log_type):                                           	|      	|
+* 浏览器自动化 [https://github.com/seleniumhq/selenium/tree/trunk](https://github.com/seleniumhq/selenium/tree/trunk)
 
 
 ## 浏览器下载设置
@@ -363,6 +370,10 @@ driver.execute_script( "return document.documentElement.outerHTML" )
 * [加密的ts+m3u8合并](https://www.junmajinlong.com/others/ts_m3u8)
 * [关于m3u8格式的视频文件ts转mp4下载和key加密问题](https://www.cnblogs.com/String-Lee/p/11391893.html)
 * [将TS转换为MP4](https://gist.github.com/larvata/95df619df7109d8b74d2b965a3266354)
+* 直播源列表 [https://github.com/zhanghongguang/zhanghongguang.github.io](https://github.com/zhanghongguang/zhanghongguang.github.io)
+* 直播源列表 [https://github.com/zbefine/iptv](https://github.com/zbefine/iptv)
+* 直播源列表 [https://github.com/yuechan/live](https://github.com/yuechan/live)
+* 直播源列表 [https://github.com/yang-1989/m3u](https://github.com/yang-1989/m3u)
 
 
 

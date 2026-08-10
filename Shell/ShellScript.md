@@ -32,6 +32,27 @@
 > `EOF`只是一个分界符，当然也可以用`abcde`替换。当shell遇到`<<`时，它知道下一个词是一个分界符。在该分界符以后的内容都被当作输入，
 > 直到shell又看到该分界符(位于单独的一行)。此分界符可以是所定义的任何字符串，其实，不一定要用`EOF`，
 > 只要是“内容段”中没有出现的字符串，都可以用来替代`EOF`，完全可以换成abcde之类的字符串，只是一个起始和结束的标志罢了。
+* 保活脚本 [https://github.com/mrmineduce21/oracle_onekey_active](https://github.com/mrmineduce21/oracle_onekey_active)
+* 扩展生成器 [https://github.com/madmurphy/nextgen](https://github.com/madmurphy/nextgen)
+* 参数解析 [https://github.com/andsens/docopt.sh](https://github.com/andsens/docopt.sh)
+* 备份脚本 [https://github.com/eamonnsullivan/backup-scripts](https://github.com/eamonnsullivan/backup-scripts)
+* Makefile教程 [https://seisman.github.io/how-to-write-makefile](https://seisman.github.io/how-to-write-makefile)
+* Bash手册 [https://github.com/denysdovhan/bash-handbook](https://github.com/denysdovhan/bash-handbook)
+* Bash脚本 [https://github.com/alexanderepstein/bash-snippets](https://github.com/alexanderepstein/bash-snippets)
+* Shell教程 [https://archlinuxstudio.github.io/ShellTutorial](https://archlinuxstudio.github.io/ShellTutorial)
+* 终端shell [https://github.com/letoram/cat9](https://github.com/letoram/cat9)
+* 去除静音 [https://github.com/bambax/remsi](https://github.com/bambax/remsi)
+* Shell教程 [https://effective-shell.com](https://effective-shell.com)
+* Zsh教程 [https://zshguide.readthedocs.io/zh/latest](https://zshguide.readthedocs.io/zh/latest)
+* Bash参考 [https://mr-dai.github.io/linux_bash_reference](https://mr-dai.github.io/linux_bash_reference)
+* Shell健壮 [https://liujiacai.net/blog/2024/04/05/robust-shell-scripting](https://liujiacai.net/blog/2024/04/05/robust-shell-scripting)
+* Shell脚本 [https://mp.weixin.qq.com/s/Xr6XRSq8vzQRcrRdC8oz5w](https://mp.weixin.qq.com/s/Xr6XRSq8vzQRcrRdC8oz5w)
+* Bash脚本 [https://github.com/bobbyiliev/introduction-to-bash-scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting)
+* 汇编shell [https://github.com/dexter-xd/assembly-shell](https://github.com/dexter-xd/assembly-shell)
+* Shell编程 [https://tinylab-1.gitbook.io/shellbook](https://tinylab-1.gitbook.io/shellbook)
+* 路由器工具箱 [https://github.com/wingyue/mixbox](https://github.com/wingyue/mixbox)
+* bash技巧 [https://github.com/dylanaraps/pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible)
+* 安装脚本 [https://github.com/monlor/mbfiles](https://github.com/monlor/mbfiles)
 
 
 
@@ -84,6 +105,7 @@ echo 'password' | passwd -stdin username
 * [linux expect 自动交互脚本用法](https://man.linuxde.net/expect1)
 * [expect 脚本使用](https://einverne.github.io/post/2019/01/expect-command.html)
 * [Expect学习笔记](https://blog.csdn.net/boyishachang/article/details/8677936)
+* 管道命令 [https://mp.weixin.qq.com/s/iUk6_kzocdsr6G9PMWRgjA](https://mp.weixin.qq.com/s/iUk6_kzocdsr6G9PMWRgjA)
 
 
 **启用选项**

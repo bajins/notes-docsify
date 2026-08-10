@@ -85,6 +85,21 @@
 - [https://github.com/XmacsLabs/Xmacs](https://github.com/XmacsLabs/Xmacs)
 - [https://www.everedit.cn](https://www.everedit.cn)
 - [https://www.editplus.com](https://www.editplus.com)
+- 代码编辑器 [https://github.com/lapce/lapce](https://github.com/lapce/lapce)
+- 终端编辑器 [https://github.com/adsr/mle](https://github.com/adsr/mle)
+- Lisp编辑器 [https://github.com/lem-project/lem](https://github.com/lem-project/lem)
+- 文本编辑器 [https://github.com/pulsar-edit/pulsar](https://github.com/pulsar-edit/pulsar)
+- Vim配置 [https://github.com/theprimeagen/init.lua](https://github.com/theprimeagen/init.lua)
+- Vim指南 [https://github.com/wsdjeg/vim-galore-zh_cn](https://github.com/wsdjeg/vim-galore-zh_cn)
+- 编辑器配置 [https://github.com/ldelossa/nvim-ide](https://github.com/ldelossa/nvim-ide)
+- 代码编辑器 [https://zed.dev](https://zed.dev)
+- 配色主题 [https://github.com/domeee/mosel.nvim](https://github.com/domeee/mosel.nvim)
+- Vim速查 [https://vim.rtorr.com/lang/zh_cn](https://vim.rtorr.com/lang/zh_cn)
+- 极简编辑器 [https://github.com/PlummersSoftwareLLC/TinyRetroPad](https://github.com/PlummersSoftwareLLC/TinyRetroPad)
+- Vim速查 [https://michael.peopleofhonoronly.com/vim](https://michael.peopleofhonoronly.com/vim)
+- Vim文档 [https://yianwillis.github.io/vimcdoc](https://yianwillis.github.io/vimcdoc)
+- Vim插件 [https://github.com/jorenar](https://github.com/jorenar)
+- 文本编辑器 [https://www.ultraedit.com](https://www.ultraedit.com)
 
 
 
@@ -102,6 +117,7 @@ REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Executi
 REG DELETE "HKLM\Software\Wow6432Node\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /f
 REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Execution Options\notepad.exe" /v "Debugger" /f
 ```
+* 文本编辑器 [https://github.com/stefankueng/bowpad](https://github.com/stefankueng/bowpad)
 
 
 ## Notepad++
@@ -145,6 +161,7 @@ REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Executi
 
 
 > notepad++未保存的文件的缓存文件地址：`%AppData%\Notepad++\backup`
+* 记事本IDE [https://github.com/sciencediscoverer/npp_msvc_ide](https://github.com/sciencediscoverer/npp_msvc_ide)
 
 
 

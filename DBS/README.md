@@ -45,6 +45,28 @@
 
 
 - [什么是实体化视图？](https://aws.amazon.com/cn/what-is/materialized-view)
+- ETL工具 [https://github.com/joeybling/webkettle](https://github.com/joeybling/webkettle)
+- 云数据平台 [https://github.com/sutoiku/puffin](https://github.com/sutoiku/puffin)
+- 数据库资源 [https://github.com/huachaohuang/awesome-dbdev](https://github.com/huachaohuang/awesome-dbdev)
+- 数据库月报 [https://github.com/tangwz/db-monthly](https://github.com/tangwz/db-monthly)
+- 数据管理 [https://github.com/edurtio/datacap](https://github.com/edurtio/datacap)
+- 多维表格 [https://github.com/apitable/apitable](https://github.com/apitable/apitable)
+- SQL查询 [https://github.com/bvisness/sqljam](https://github.com/bvisness/sqljam)
+- SQL转接口 [https://github.com/freakchick/dbapi](https://github.com/freakchick/dbapi)
+- 数据库工具 [https://wisser.github.io/Jailer/data-browsing.html](https://wisser.github.io/Jailer/data-browsing.html)
+- Navicat破解 [https://www.wxy97.com/archives/10](https://www.wxy97.com/archives/10)
+- 数据库优化 [https://developer.aliyun.com/article/945903](https://developer.aliyun.com/article/945903)
+- 自建数据库 [https://cstack.github.io/db_tutorial](https://cstack.github.io/db_tutorial)
+- 数据库基准 [https://benchmark.clickhouse.com](https://benchmark.clickhouse.com)
+- 数据API [https://github.com/roapi/roapi](https://github.com/roapi/roapi)
+- 数据目录 [https://github.com/opendatadiscovery/odd-platform](https://github.com/opendatadiscovery/odd-platform)
+- 数据库治理 [https://www.sqlchat.ai](https://www.sqlchat.ai)
+- GPU数据库 [https://github.com/sirius-db/sirius](https://github.com/sirius-db/sirius)
+- 数据查询工具 [https://github.com/multiprocessio](https://github.com/multiprocessio)
+- 数据仓库 [https://github.com/teradata](https://github.com/teradata)
+- 分布式KV [https://github.com/lockval](https://github.com/lockval)
+- SQL审核平台 [https://github.com/actiontech](https://github.com/actiontech)
+- 查询优化器 [https://github.com/cmu-db/optd](https://github.com/cmu-db/optd)
 
 
 
@@ -154,10 +176,16 @@
 - [https://github.com/kurtbuilds/sql](https://github.com/kurtbuilds/sql)
 - [https://sqlbackupandftp.com/download](https://sqlbackupandftp.com/download)
 - [https://dbconvert.com/download](https://dbconvert.com/download)
-- 日志解析订阅和消费 [https://github.com/alibaba/canal](https://github.com/alibaba/canal)
 - [https://github.com/ucarGroup/DataLink](https://github.com/ucarGroup/DataLink)
 - 数据库监控 [https://github.com/debezium/debezium](https://github.com/debezium/debezium)
 - [https://github.com/percona/pmm](https://github.com/percona/pmm)
+- 数据库子集 [https://github.com/wisser/jailer](https://github.com/wisser/jailer)
+- 数据同步 [https://github.com/jumpmind/symmetric-ds](https://github.com/jumpmind/symmetric-ds)
+- 数据库部署 [https://github.com/goldmansachs/obevo](https://github.com/goldmansachs/obevo)
+- 数据对比 [https://github.com/datafold/data-diff](https://github.com/datafold/data-diff)
+- 数据对比 [https://github.com/zhugezifang/datacompare](https://github.com/zhugezifang/datacompare)
+- 数据库同步 [https://github.com/vlcn-io/cr-sqlite](https://github.com/vlcn-io/cr-sqlite)
+- 数据库迁移 [https://www.sqlines.com/mysql-to-postgresql](https://www.sqlines.com/mysql-to-postgresql)
 
 
 
@@ -170,6 +198,10 @@
 4. 层次数据库
 5. 新型数据库(NewSQL)：关系型数据库与NoSQL的结合 [The bridge between SQL and NoSQL](https://www.techtarget.com/searchdatamanagement/feature/NewSQL-databases-The-bridge-between-SQL-and-NoSQL)
 6. 分布式数据库
+* 国产数据库 [https://www.modb.pro/db/24797](https://www.modb.pro/db/24797)
+* 数据库目录 [https://dbdb.io/browse?country=CN](https://dbdb.io/browse?country=CN)
+* 数据库排名 [https://db-engines.com](https://db-engines.com)
+* 时序数据库 [https://github.com/questdb](https://github.com/questdb)
 
 
 
@@ -182,6 +214,16 @@
 - 2013: NoSQL = No, SQL!
 
 * NoSQL 是什么？ [https://www.mongodb.com/zh-cn/nosql-explained](https://www.mongodb.com/zh-cn/nosql-explained)
+* KV存储 [https://github.com/dineshgowda24/bitcask-rb](https://github.com/dineshgowda24/bitcask-rb)
+* 数据库文档 [https://github.com/awsdocs/amazon-dynamodb-developer-guide](https://github.com/awsdocs/amazon-dynamodb-developer-guide)
+* 嵌入式数据库 [https://github.com/jankotek/mapdb](https://github.com/jankotek/mapdb)
+* 内存数据库 [https://github.com/rustixir/darkbird](https://github.com/rustixir/darkbird)
+* KV数据库 [https://github.com/chenjiandongx/grogudb](https://github.com/chenjiandongx/grogudb)
+* 大数据库 [https://github.com/apache/asterixdb](https://github.com/apache/asterixdb)
+* 键值存储 [https://github.com/paypal/junodb](https://github.com/paypal/junodb)
+* 数据库 [https://github.com/isar/isar](https://github.com/isar/isar)
+* LSM数据库 [https://developer.aliyun.com/article/784800](https://developer.aliyun.com/article/784800)
+* 嵌入式数据库 [https://github.com/mbdavid/litedb](https://github.com/mbdavid/litedb)
 
 
 
@@ -302,7 +344,6 @@
 * [https://github.com/vesoft-inc/nebula](https://github.com/vesoft-inc/nebula)
 * [https://github.com/orientechnologies/orientdb](https://github.com/orientechnologies/orientdb)
   * [https://github.com/ArcadeData/arcadedb](https://github.com/ArcadeData/arcadedb)
-* [https://github.com/arangodb/arangodb](https://github.com/arangodb/arangodb)
 * [https://github.com/cayleygraph/cayley](https://github.com/cayleygraph/cayley)
 * [https://github.com/CodyKochmann/graphdb](https://github.com/CodyKochmann/graphdb)
 * [https://objectivity.com/infinitegraph](https://objectivity.com/infinitegraph)
@@ -349,41 +390,12 @@
 
 ### 内存数据库(In-Memory Database)
 
-* [https://github.com/valkey-io/valkey](https://github.com/valkey-io/valkey)
-* [https://github.com/memcached/memcached](https://github.com/memcached/memcached)
-* [https://github.com/EQ-Alpha/KeyDB](https://github.com/EQ-Alpha/KeyDB)
-* [https://github.com/Snapchat/KeyDB](https://github.com/Snapchat/KeyDB)
-* [https://github.com/dragonflydb](https://github.com/dragonflydb)
-* [https://github.com/microsoft/garnet](https://github.com/microsoft/garnet)
-* [https://github.com/VictoriaMetrics/VictoriaMetrics](https://github.com/VictoriaMetrics/VictoriaMetrics) (可混合持久化)
-* [https://github.com/influxdata/influxdb](https://github.com/influxdata/influxdb) (可混合持久化)
 * [https://www.sqlite.org/index.html](https://www.sqlite.org/index.html) (可内存模式 )
 
 
 
 ### 嵌入式数据库(Embedded Database)
 
-* [https://github.com/realm/realm-core](https://github.com/realm/realm-core) (Java/GO/Python/Rust)
-* [https://github.com/facebook/rocksdb](https://github.com/facebook/rocksdb) (C++) 
-  * [https://github.com/xiaomi/pegasus-rocksdb](https://github.com/xiaomi/pegasus-rocksdb) (C++)
-* [https://github.com/google/leveldb](https://github.com/google/leveldb) (C++) 
-* [https://github.com/erthink/libmdbx](https://github.com/erthink/libmdbx) (C) 
-* [https://github.com/cberner/redb](https://github.com/cberner/redb) (Rust)
-* [https://github.com/flower-corp/rosedb](https://github.com/flower-corp/rosedb) (Go)
-* [https://github.com/roseduan/rosedb](https://github.com/roseduan/rosedb) (Go)
-* [https://github.com/couchbase/moss](https://github.com/couchbase/moss) (Go)
-* [https://github.com/nalgeon/redka](https://github.com/nalgeon/redka) (兼容Redis API)
-* [https://codeberg.org/redict/redict](https://codeberg.org/redict/redict) (Rust)
-* [https://github.com/photondb/photondb](https://github.com/photondb/photondb) (Rust)
-* [https://github.com/tikv/agatedb](https://github.com/tikv/agatedb) (Rust)
-* [https://github.com/komora-io/marble](https://github.com/komora-io/marble) (Rust)
-* [https://gitlab.com/tglman/persy](https://gitlab.com/tglman/persy) (Rust)
-* [https://nest.pijul.com/pijul/sanakirja](https://nest.pijul.com/pijul/sanakirja) (Rust)
-* [https://github.com/rustbase/dustdata](https://github.com/rustbase/dustdata) (Rust)
-* [https://github.com/seladb/pickledb-rs](https://github.com/seladb/pickledb-rs) (Rust)
-* [https://github.com/bradfitz/gomemcache](https://github.com/bradfitz/gomemcache) (客户端库 - GO)
-* [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss) (库 - C++/Python)
-* [https://www.sqlite.org/index.html](https://www.sqlite.org/index.html) 
 
 
 
@@ -458,6 +470,47 @@
 * [https://github.com/TrinityCore/TrinityCore](https://github.com/TrinityCore/TrinityCore) (游戏服务器数据库)
 * [https://github.com/sones/sones](https://github.com/sones/sones) (图数据库)
 * [https://github.com/zopefoundation/ZODB](https://github.com/zopefoundation/ZODB) (Python对象数据库)
+* 缓存框架 [https://github.com/twitter/pelikan](https://github.com/twitter/pelikan)
+* 数据基建 [https://github.com/oldmoe/litestack](https://github.com/oldmoe/litestack)
+* 实时数据 [https://github.com/drifting-in-space/driftdb](https://github.com/drifting-in-space/driftdb)
+* XML数据库 [https://github.com/basexdb/basex](https://github.com/basexdb/basex)
+* KV存储 [https://github.com/avinassh/go-caskdb](https://github.com/avinassh/go-caskdb)
+* 时序数据库 [https://github.com/cnosdb/cnosdb](https://github.com/cnosdb/cnosdb)
+* 大数据平台 [https://github.com/ytsaurus/ytsaurus](https://github.com/ytsaurus/ytsaurus)
+* 时序数据库 [https://github.com/ceresdb/ceresdb](https://github.com/ceresdb/ceresdb)
+* 图数据库 [https://github.com/memgraph/memgraph](https://github.com/memgraph/memgraph)
+* 时序数据库 [https://github.com/citrusvanilla/tinyflux](https://github.com/citrusvanilla/tinyflux)
+* 时序数据库 [https://github.com/kevinlawler/kerf1](https://github.com/kevinlawler/kerf1)
+* 数据湖表 [https://github.com/apache/iceberg](https://github.com/apache/iceberg)
+* 键值存储 [https://github.com/timmikeladze/gist-database](https://github.com/timmikeladze/gist-database)
+* KV数据库 [https://github.com/topling/toplingdb](https://github.com/topling/toplingdb)
+* sqlite版本 [https://github.com/sudeep9/mojo](https://github.com/sudeep9/mojo)
+* 地理数据库 [https://github.com/clarisma/geodesk](https://github.com/clarisma/geodesk)
+* 关系数据库 [https://github.com/rayokota/kareldb](https://github.com/rayokota/kareldb)
+* 图数据库 [https://github.com/cozodb/cozo](https://github.com/cozodb/cozo)
+* 分布式KV [https://github.com/buraksezer/olric](https://github.com/buraksezer/olric)
+* ClickHouse [https://developer.aliyun.com/article/765184](https://developer.aliyun.com/article/765184)
+* 键值数据库 [https://github.com/arriqaaq/flashdb](https://github.com/arriqaaq/flashdb)
+* BerkeleyDB [https://pybsddb.sourceforge.net/bsddb3.html](https://pybsddb.sourceforge.net/bsddb3.html)
+* BerkeleyDB [https://docs.jcea.es/berkeleydb](https://docs.jcea.es/berkeleydb)
+* KV数据库 [https://github.com/surrealdb/echodb](https://github.com/surrealdb/echodb)
+* 数据仓库 [https://github.com/byconity/byconity](https://github.com/byconity/byconity)
+* 数据库基准 [https://github.com/pola-rs/tpch](https://github.com/pola-rs/tpch)
+* 时序数据库 [https://akumuli.org/akumuli/2017/04/29/nbplustree](https://akumuli.org/akumuli/2017/04/29/nbplustree)
+* 实时数据库 [https://github.com/instantdb/instant](https://github.com/instantdb/instant)
+* 时序数据库 [https://github.com/victoriametrics/victoriametrics](https://github.com/victoriametrics/victoriametrics)
+* ClickHouse [https://nyan.im/p/clickhouse-cloud](https://nyan.im/p/clickhouse-cloud)
+* ClickHouse [https://www.cnblogs.com/traditional/p/15218743.html](https://www.cnblogs.com/traditional/p/15218743.html)
+* 时序数据库 [https://github.com/taosdata/tdengine](https://github.com/taosdata/tdengine)
+* Java数据库 [https://github.com/lealone](https://github.com/lealone)
+* 时序数据库 [https://github.com/puzpuzpuz](https://github.com/puzpuzpuz)
+* 火鸟数据库 [https://github.com/firebirdsql](https://github.com/firebirdsql)
+* 数据查询引擎 [https://github.com/datafusion-contrib](https://github.com/datafusion-contrib)
+* 时序数据库 [https://github.com/greptimeteam](https://github.com/greptimeteam)
+* 数据存储 [https://github.com/schemafreesql](https://github.com/schemafreesql)
+* 自研数据库 [https://github.com/donnie4w](https://github.com/donnie4w)
+* 向量数据库 [https://maeiee-garden.vercel.app/000.wiki/What%20is%20a%20Vector%20Database%EF%BC%9F](https://maeiee-garden.vercel.app/000.wiki/What%20is%20a%20Vector%20Database%EF%BC%9F)
+* Go关系数据库 [https://Sahilb315/AtomixDB](https://Sahilb315/AtomixDB)
 
 
 
@@ -484,6 +537,44 @@
 * Go [https://github.com/gomodule/redigo](https://github.com/gomodule/redigo)
 * C# [https://github.com/StackExchange/StackExchange.Redis](https://github.com/StackExchange/StackExchange.Redis)
 * [https://github.com/imperugo/StackExchange.Redis.Extensions](https://github.com/imperugo/StackExchange.Redis.Extensions)
+* 缓存管理 [https://github.com/qishibo/anotherredisdesktopmanager](https://github.com/qishibo/anotherredisdesktopmanager)
+* 缓存监控 [https://github.com/hcymysql/redis_monitor](https://github.com/hcymysql/redis_monitor)
+* 集群方案 [https://github.com/codislabs/codis](https://github.com/codislabs/codis)
+* 哨兵支持 [https://github.com/fzambia/go-sentinel](https://github.com/fzambia/go-sentinel)
+* 源码注释 [https://github.com/cn-annotation-team/redis7.0-chinese-annotated](https://github.com/cn-annotation-team/redis7.0-chinese-annotated)
+* 源码注释 [https://github.com/huangz19901/redis-3.0-annotated](https://github.com/huangz19901/redis-3.0-annotated)
+* 概率数据结构 [https://github.com/redisbloom/redisbloom](https://github.com/redisbloom/redisbloom)
+* Redis兼容 [https://github.com/kvrockslabs/kvrocks](https://github.com/kvrockslabs/kvrocks)
+* Redis替代 [https://github.com/ideawu/ssdb](https://github.com/ideawu/ssdb)
+* Redis兼容 [https://github.com/bitleak/kvrocks](https://github.com/bitleak/kvrocks)
+* Redis兼容 [https://github.com/snapchat/keydb](https://github.com/snapchat/keydb)
+* Redis客户端 [https://github.com/dromara/redisfront](https://github.com/dromara/redisfront)
+* Redis原理 [https://architecturenotes.co/redis](https://architecturenotes.co/redis)
+* Redis字典 [https://segmentfault.com/a/1190000042343233](https://segmentfault.com/a/1190000042343233)
+* Redis消息队列 [https://developer.aliyun.com/article/883212](https://developer.aliyun.com/article/883212)
+* Redis跳跃表 [https://cloud.tencent.com/developer/article/1350965](https://cloud.tencent.com/developer/article/1350965)
+* Redis发布订阅 [https://segmentfault.com/a/1190000043314867](https://segmentfault.com/a/1190000043314867)
+* Redis限流 [https://developer.aliyun.com/article/1158718](https://developer.aliyun.com/article/1158718)
+* Redis分布式锁 [https://developer.aliyun.com/article/1171320](https://developer.aliyun.com/article/1171320)
+* 缓存使用 [https://lvqiushi.github.io/2021/12/03/缓存进阶使用指南](https://lvqiushi.github.io/2021/12/03/缓存进阶使用指南)
+* Redis客户端 [https://github.com/rueian/rueidis](https://github.com/rueian/rueidis)
+* 内存数据库 [https://github.com/dragonflydb/dragonfly](https://github.com/dragonflydb/dragonfly)
+* Redis淘汰 [https://mp.weixin.qq.com/s/QhWL_zhAs1CmZKCKHOHRaQ](https://mp.weixin.qq.com/s/QhWL_zhAs1CmZKCKHOHRaQ)
+* Redis协议 [https://mp.weixin.qq.com/s/W5kOLxeJCIHjnWbIHc1Pzw](https://mp.weixin.qq.com/s/W5kOLxeJCIHjnWbIHc1Pzw)
+* 搜索引擎 [https://github.com/redisearch/redisearch](https://github.com/redisearch/redisearch)
+* KV数据库 [https://github.com/openatomfoundation/pikiwidb](https://github.com/openatomfoundation/pikiwidb)
+* Redis兼容 [https://github.com/openatomfoundation/pika](https://github.com/openatomfoundation/pika)
+* Redis分支 [https://github.com/johnsully/keydb](https://github.com/johnsully/keydb)
+* Redis兼容 [https://github.com/dicedb/dice](https://github.com/dicedb/dice)
+* Redis数据库 [https://github.com/redislabs](https://github.com/redislabs)
+* Redis部署模式 [https://m.toutiao.com/article/7194411507663815172](https://m.toutiao.com/article/7194411507663815172)
+* Redis哨兵监控 [https://juejin.cn/post/7118303073868447781](https://juejin.cn/post/7118303073868447781)
+* HyperLogLog计数 [https://juejin.cn/post/6844903785744056333](https://juejin.cn/post/6844903785744056333)
+* Redis架构演化 [https://weibo.com/ttarticle/x/m/show/id/2309404796118843392788](https://weibo.com/ttarticle/x/m/show/id/2309404796118843392788)
+* 定长队列 [https://my.oschina.net/vivotech/blog/5562479](https://my.oschina.net/vivotech/blog/5562479)
+* Redis查看器 [https://gitee.com/onefineday/redisviewer](https://gitee.com/onefineday/redisviewer)
+* 分布式锁 [https://wendajiang.github.io/redis-distribute-lock](https://wendajiang.github.io/redis-distribute-lock)
+* Redis客户端 [https://github.com/RedisInsight/RedisInsight](https://github.com/RedisInsight/RedisInsight)
 
 
 **存储方式**
@@ -494,6 +585,11 @@
 - 适合用 Hash 存储的情况：
     - 在大多数情况中只需要访问少量字段
     - 自己始终知道哪些字段可用，防止使用 mget 时获取不到想要的数据
+- 存储引擎 [https://github.com/acl-dev/wiredtiger](https://github.com/acl-dev/wiredtiger)
+- LSM树 [https://newsletter.systemdesigncodex.com/p/an-intro-to-lsm-trees](https://newsletter.systemdesigncodex.com/p/an-intro-to-lsm-trees)
+- 存储引擎 [https://github.com/LeeBohyun/ZLeanStore](https://github.com/LeeBohyun/ZLeanStore)
+- LSM存储 [https://skyzh.github.io/mini-lsm/00-preface.html](https://skyzh.github.io/mini-lsm/00-preface.html)
+- 分布式存储 [https://github.com/ceph](https://github.com/ceph)
 
 
 **安装**
@@ -541,5 +637,8 @@ redis-cli -p 6379 shutdown
 * [https://github.com/erikolson186/zangodb](https://github.com/erikolson186/zangodb)
 
 - [MongoDB 高级查询](https://segmentfault.com/a/1190000018006375)
+- MongoDB兼容 [https://github.com/ferretdb/ferretdb](https://github.com/ferretdb/ferretdb)
+- MongoDB [https://mp.weixin.qq.com/s/bhXPnLotUoQYJI61eORCfA](https://mp.weixin.qq.com/s/bhXPnLotUoQYJI61eORCfA)
+- Mongo兼容 [https://github.com/documentdb/documentdb](https://github.com/documentdb/documentdb)
 
 

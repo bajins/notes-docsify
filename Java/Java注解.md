@@ -11,6 +11,7 @@
 
 * [Java 注解（Annotation）](https://www.runoob.com/w3cnote/java-annotation.html)
 * [Javadoc标签和Javadoc注释规范](https://blog.csdn.net/linton1/article/details/93733508)
+* 注解处理 [https://github.com/gunnarmorling/awesome-annotation-processing](https://github.com/gunnarmorling/awesome-annotation-processing)
 
 
 ## JDK
@@ -275,6 +276,7 @@ print('\n'.join(ans))
 | @Valid                             	| Object                                                	| 验证关联对象元素进行递归校验检查                             	|
 | @ScriptAssert                      	| CharSequence                                          	| 脚本表达式的计算结果为true                                   	|
 | @SafeHtml                          	| CharSequence                                          	| 可能包含不安全的html内容                                     	|
+* 校验规范 [https://github.com/jakartaee/validation-spec](https://github.com/jakartaee/validation-spec)
 
 
 
@@ -544,6 +546,7 @@ book.name = test
 | @ApiResponse       	| code         	| 整形                  	| 可用在@ApiResponses里                                           	|
 |                    	| message      	| 字符串                	| 错误描述                                                        	|
 |                    	|              	|                       	| @ApiResponse(code = 200, message = "Successful")                	|
+* API文档 [https://segmentfault.com/a/1190000042233968](https://segmentfault.com/a/1190000042233968)
 
 
 
