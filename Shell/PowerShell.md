@@ -243,7 +243,7 @@ Get-RandomString -length 14 -sourcedata (48..127)
 ## HTTP服务
 
 ```ps1
-start-job { 
+start-job {
     $p="d:\"
     #$p = Get-Location.path #获取当前用户的目录
     $H=New-Object Net.HttpListener
@@ -401,10 +401,10 @@ gci HKLM:\Software\Classes -ea 0| ? {$_.PSChildName -match '^\w+\.\w+$' -and (gp
 
 
 ## 一行代码实现彩色树形（递归深度=2）
-Get-ChildItem . -Recurse -Depth 2 | 
+Get-ChildItem . -Recurse -Depth 2 |
   ForEach-Object {
     $prefix = "│  " * ($_.FullName.Split('\').Count - ($PWD.Path.Split('\').Count + 1))
-    if ($_.PSIsContainer) { 
+    if ($_.PSIsContainer) {
       Write-Host "${prefix}├── $($_.Name)\" -ForegroundColor Cyan
     } else {
       Write-Host "${prefix}├── $($_.Name)" -ForegroundColor Green

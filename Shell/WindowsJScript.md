@@ -605,7 +605,7 @@ function restartExplorer() {
 ```js
 /**
  * 获取系统信息
- * 
+ *
  * @returns {{cpu_digits: *, cpu_core_number: *, system: string, os: *}}
  */
 function getSystem() {
@@ -629,7 +629,7 @@ function getSystem() {
 ```js
 /**
  * 获取当前系统位数
- * 
+ *
  * @returns {string}
  */
 function systemDigits() {
@@ -652,7 +652,7 @@ function systemDigits() {
 
 /**
  * 获取当前系统版本
- * 
+ *
  * @returns {string}
  */
 function osVersion() {
@@ -699,7 +699,7 @@ function osVersion() {
 /**
  * 解压zip
  * 查看方法属性：New-Object -ComObject "Shell.Application" | Get-Member
- * 
+ *
  * @param zipFile       zip文件全路径
  * @param unDirectory   解压目录
  */
@@ -794,16 +794,16 @@ function download7z(mode) {
  * 查看方法属性：New-Object -ComObject "ADODB.Connection" | Get-Member
  */
 function db(){
-    // 创建数据库对象   
+    // 创建数据库对象
     var objdbConn = new ActiveXObject("ADODB.Connection");
     var strdsn = "Driver={SQL Server}; Server=(local); Database=Test;UID=sa;PWD=123456";
-    // 打开数据源   
+    // 打开数据源
     objdbConn.Open(strdsn);
-    // 执行SQL的数据库查询   
+    // 执行SQL的数据库查询
     var objrs = objdbConn.Execute("Select * from test");
-    // 获取字段数目   
+    // 获取字段数目
     var fdCount = objrs.Fields.Count - 1;
-    // 显示数据库内容   
+    // 显示数据库内容
     while (!objrs.EOF) {
         // 显示每笔记录的字段
         for (i = 0; i <= fdCount; i++){
@@ -949,7 +949,7 @@ function createSchedule() {
     // 创建要执行的任务的动作：0运行脚本或程序，5触发处理程序，6发送邮件，7显示一个消息框
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/actioncollection-create
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/action#remarks
-    
+
     // 向任务添加操作 https://docs.microsoft.com/zh-cn/windows/win32/taskschd/execaction
     var action = actions.Create(0);
     action.Path = "wscript";
@@ -983,7 +983,7 @@ function createSchedule() {
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/triggercollection-create
     var triggers = taskDefinition.Triggers;
 
-    
+
     // 创建事件触发器
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/eventtrigger
     var task_trigger_event = triggers.Create(0);
@@ -1006,48 +1006,48 @@ function createSchedule() {
     action7.Title = "标题";
     // 需要配合trigger.ValueQueries
     action7.MessageBody = "这是事件ID：$(eventID)";
-    
+
     // 创建时间触发器
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/timetrigger
     var task_trigger_time = triggers.Create(1);
-    
+
     // 创建每日触发器
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/dailytrigger
     var task_trigger_daily = triggers.Create(2);
-    
+
     // 创建每周触发器
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/weeklytrigger
     var task_trigger_weekly = triggers.Create(3);
     task_trigger_weekly.DaysOfWeek = 1;
     // 任务每周运行一次。
     task_trigger_weekly.WeeksInterval = 1;
-    
+
     // 创建根据月度计划启动任务的触发器，在特定月份的特定日期开始
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/monthlytrigger
     var task_trigger_monthly = triggers.Create(4);
-    
+
     // 创建每月DOWT触发器，按月星期几时间表启动任务的触发器
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/monthlydowtrigger
     var task_trigger_monthlydow = triggers.Create(5);
-    
+
     // 创建闲置触发，在发生空闲情况时启动任务的触发器
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/idletrigger
     var task_trigger_idle = triggers.Create(6);
-    
+
     // 创建注册触发器
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/registrationtrigger
     var task_trigger_registration = triggers.Create(7);
-    
+
     // 创建启动触发器
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/boottrigger
     var task_trigger_boot = triggers.Create(8);
-    
+
     // 创建登录触发器
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/logontrigger
     var task_trigger_logon = triggers.Create(9);
     // 登录指定用户时触发，必须是有效的用户帐户
     task_trigger_logon.UserId = "SYSTEM";
-    
+
     // 用于触发控制台连接或断开连接，远程连接或断开连接或工作站锁定或解锁通知的任务。
     // https://docs.microsoft.com/zh-cn/windows/win32/taskschd/sessionstatechangetrigger
     var task_session_unlock = triggers.Create(11);

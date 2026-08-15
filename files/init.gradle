@@ -3,7 +3,7 @@ allprojects {
         repositories {
             /*maven{ url 'https://maven.aliyun.com/repository/public/'}
             maven{ url 'https://maven.aliyun.com/repository/google/'}
- 
+
             all { ArtifactRepository repo ->
                 if (repo instanceof MavenArtifactRepository) {
                     def url = repo.url.toString()
@@ -77,12 +77,12 @@ allprojects {
         maven {
             url 'https://maven.aliyun.com/repository/google/'
         }
- 
+
         all { ArtifactRepository repo ->
             if (repo instanceof MavenArtifactRepository) {
                 def url = repo.url.toString()
- 
-                if (url.startsWith('https://repo.maven.apache.org/maven2/') || url.startsWith('https://repo.maven.org/maven2') 
+
+                if (url.startsWith('https://repo.maven.apache.org/maven2/') || url.startsWith('https://repo.maven.org/maven2')
                     || url.startsWith('https://repo1.maven.org/maven2') || url.startsWith('https://jcenter.bintray.com/')
                     || url.startsWith('https://maven.google.com/') || url.startsWith('https://dl.google.com/dl/android/maven2/')) {
                     //project.logger.lifecycle "Repository ${repo.url} replaced by $REPOSITORY_URL."

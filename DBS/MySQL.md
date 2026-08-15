@@ -167,7 +167,7 @@ ALTER TABLE tablename ADD FULLTEXT(column1, column2);
 * [MySQL全文索引之布尔全文索引、查询扩展全文索引](https://blog.csdn.net/yyyxxxs/article/details/100079074)
 
 ```sql
--- 
+--
 SELECT * FROM 表名 WHERE MATCH(column1, column2) AGAINST('aa','bb','cc'...);
 -- 使用IN BOOLEAN MODE匹配不完整单词，默认IN NATURAL LANGUAGE MODE（自然语言模式）
 SELECT * FROM  表名 WHERE MATCH(字段) AGAINST('关键词' IN BOOLEAN MODE);
@@ -229,13 +229,13 @@ DBNAME="test_db_test"
 # 数据库中表的名称
 TABLENAME="test_table_test"
 
-# 查询数据库 
+# 查询数据库
 mysql -hlocalhost -P3306 -uroot -pabc123 -e "show databases;"
 
 # 创建数据库
 create_db_sql="create database IF NOT EXISTS ${DBNAME}"
 mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} -e"${create_db_sql}"
- 
+
 # 创建表
 create_table_sql="create table IF NOT EXISTS ${TABLENAME} (name varchar(20), id int(11) default 0)"
 mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} ${DBNAME} -e"${create_table_sql}"
@@ -243,16 +243,16 @@ mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} ${DBNAME} -e"${creat
 # 插入数据
 insert_sql="insert into ${TABLENAME} values('billchen',2)"
 mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} ${DBNAME} -e"${insert_sql}"
- 
+
 # 查询
 select_sql="select * from ${TABLENAME}"
 mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} ${DBNAME} -e"${select_sql}"
- 
+
 # 更新数据
 update_sql="update ${TABLENAME} set id=3"
 mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} ${DBNAME} -e"${update_sql}"
 mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} ${DBNAME} -e"${select_sql}"
- 
+
 # 删除数据
 delete_sql="delete from ${TABLENAME}"
 mysql -h${HOSTNAME}  -P${PORT}  -u${USERNAME} -p${PASSWORD} ${DBNAME} -e"${delete_sql}"
@@ -314,8 +314,8 @@ DELETE FROM test WHERE id NOT IN(SELECT MIN(id) FROM images GROUP BY name)
 - 方式二
 
 ```sql
-DELETE FROM test WHERE name 
-IN(SELECT name FROM test GROUP BY name HAVING COUNT(name)>1) 
+DELETE FROM test WHERE name
+IN(SELECT name FROM test GROUP BY name HAVING COUNT(name)>1)
 AND id NOT IN(SELECT MIN(id) FROM test GROUP BY name HAVING COUNT(name)>1)
 ```
 
@@ -372,11 +372,11 @@ SELECT
 	table_schema AS '数据库',
 	sum( table_rows ) AS '总行数',
 	sum( TRUNCATE ( data_length / 1024 / 1024, 2 ) ) AS '数据容量(MB)',
-	sum( TRUNCATE ( index_length / 1024 / 1024, 2 ) ) AS '索引容量(MB)' 
+	sum( TRUNCATE ( index_length / 1024 / 1024, 2 ) ) AS '索引容量(MB)'
 FROM
-	information_schema.TABLES 
+	information_schema.TABLES
 GROUP BY
-	table_schema 
+	table_schema
 ORDER BY
 	sum( table_rows ) DESC;
 ```
@@ -391,11 +391,11 @@ SELECT
 	table_name AS '表名',
 	table_rows AS '行数',
 	TRUNCATE ( data_length / 1024 / 1024, 2 ) AS '数据容量(MB)',
-	TRUNCATE ( index_length / 1024 / 1024, 2 ) AS '索引容量(MB)' 
+	TRUNCATE ( index_length / 1024 / 1024, 2 ) AS '索引容量(MB)'
 FROM
-	information_schema.TABLES 
+	information_schema.TABLES
 WHERE
-	table_schema = '数据库' 
+	table_schema = '数据库'
 ORDER BY
 	table_rows DESC;
 ```
@@ -410,32 +410,32 @@ SELECT
 	table_name AS '表名',
 	table_rows AS '行数',
 	TRUNCATE ( data_length / 1024 / 1024, 2 ) AS '数据容量(MB)',
-	TRUNCATE ( index_length / 1024 / 1024, 2 ) AS '索引容量(MB)' 
+	TRUNCATE ( index_length / 1024 / 1024, 2 ) AS '索引容量(MB)'
 FROM
-	information_schema.TABLES 
+	information_schema.TABLES
 WHERE
-	table_schema = '数据库' 
-	AND TABLE_NAME = '表名' 
+	table_schema = '数据库'
+	AND TABLE_NAME = '表名'
 ORDER BY
 	table_rows DESC;
 ```
 
 ## 时间函数
 
-- `now()` 
+- `now()`
 - `sysdate()` 日期时间函数跟 now() 类似，不同之处在于：now() 在执行开始时值就得到了， sysdate() 在函数执行时动态得到值。
 
 ### 获得当前日期
 
 - `curdate() `下面的两个时间函数同阶
 	- `current_date()`
-	- `current_date` 
+	- `current_date`
 
 ### 获得当前时间time函数
 
 - `curtime()`下面的两个时间函数同阶
 	- `current_time()`
-	- `current_time` 
+	- `current_time`
 
 ### 获得当前UTC日期时间函数
 
@@ -543,7 +543,7 @@ select datediff('2008-08-08 12:00:00', '2008-08-01 00:00:00'); -- 7
 
 ```sql
 set @dt = '2008-09-10 07:15:30.123456';
- 
+
 select date(@dt); -- 2008-09-10
 select time(@dt); -- 07:15:30.123456
 select year(@dt); -- 2008
@@ -561,7 +561,7 @@ select microsecond(@dt); -- 123456
 
 ```sql
 set @dt = '2008-09-10 07:15:30.123456';
- 
+
 select extract(year from @dt); -- 2008
 select extract(quarter from @dt); -- 3
 select extract(month from @dt); -- 9
@@ -788,7 +788,7 @@ systemctl restart mysqld
 ```
 
 - 使用`root`用户登录
- 
+
 ```bash
 mysql -uroot
 ```

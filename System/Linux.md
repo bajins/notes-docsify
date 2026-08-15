@@ -119,6 +119,7 @@
 * 内核追踪 [https://github.com/iovisor](https://github.com/iovisor)
 * 系统升级 [https://github.com/oamg](https://github.com/oamg)
 * eBPF安全工具 [https://github.com/gojue](https://github.com/gojue)
+* 回收站 [https://github.com/andreafrancia/trash-cli](https://github.com/andreafrancia/trash-cli)
 
 
 
@@ -334,7 +335,7 @@ yum update
 yum install -y xz openssl gawk file
 # 下载脚本
 wget --no-check-certificate 'https://raw.githubusercontent.com/MeowLove/Network-Reinstall-System-Modify/master/Network-Reinstall-System-Modify.sh'
-wget --no-check-certificate -qO Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh' 
+wget --no-check-certificate -qO Network-Reinstall-System-Modify.sh 'https://www.cxthhhhh.com/tech-tools/Network-Reinstall-System-Modify/Network-Reinstall-System-Modify.sh'
 # 给脚本授权
 chmod a+x Network-Reinstall-System-Modify.sh
 # 一键网络重装纯净：CentOS、Debian、Ubuntu
@@ -581,7 +582,7 @@ tmux new -s 会话名 -d "命令"
 ### Screen
 
 > `Screen`是一款由`GNU`计划开发的用于命令行终端切换的自由软件。用户可以通过该软件同时连接多个本地或远程的命令行会话，并在其间自由切换。
-> `GNU Screen`可以看作是窗口管理器的命令行界面版本。它提供了统一的管理多个会话的界面和相应的功能。 
+> `GNU Screen`可以看作是窗口管理器的命令行界面版本。它提供了统一的管理多个会话的界面和相应的功能。
 
 * [http://www.gnu.org/software/screen](http://www.gnu.org/software/screen)
 * [https://invisible-island.net/ncurses/announce.html](https://invisible-island.net/ncurses/announce.html)
@@ -721,7 +722,7 @@ python -m SimpleHTTPServer port
 # python3.x
 python -m http.server port
 
-# 服务开启后，地址协议类型加IP/目录下的文件： 
+# 服务开启后，地址协议类型加IP/目录下的文件：
 wget host:port/file 就可以下载了
 ```
 
@@ -744,7 +745,7 @@ scp -P 22 -p -r /home/work/sourcedir work@192.168.0.10:/home/work/
 # 使用主机名
 scp -P 22 -p -r /home/work/sourcedir work@www.myhost.com:/home/work/
 # 显示详情，加-v参数
-scp -P 22 -p -r -v /home/work/sourcedir work@www.myhost.com:/home/work/  
+scp -P 22 -p -r -v /home/work/sourcedir work@www.myhost.com:/home/work/
 
 # 将远程主机复制到本地
 scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
@@ -770,10 +771,10 @@ scp -P 22 -p root@192.168.214.187:/tmp/demo/f3.log /tmp/files/
 
 ### rsync
 
-> 【优点】功能强大，操作类似scp，支持排除目录，支持限速参数；还支持本地复制。 
->  
+> 【优点】功能强大，操作类似scp，支持排除目录，支持限速参数；还支持本地复制。
+>
 > 【缺点】会耗系统资源，占用I/O
->  
+>
 > 【用法】rsync是类unix系统下的数据镜像备份工具，从软件的命名上就可以看出来了——remote sync。
 > 它的操作方式和scp和相似，但是比scp强大很多。使用双冒号分割主机名和文件路径时，是使用rsync服务器
 

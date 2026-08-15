@@ -184,10 +184,10 @@
 **页面开窗口或关闭时自动刷新**
 
 ```html
-<body onload="opener.location.reload()"> 开窗时刷新 
-<body onUnload="opener.location.reload()"> 关闭时刷新 
-<script language="javascript"> 
-window.opener.document.location.reload() 
+<body onload="opener.location.reload()"> 开窗时刷新
+<body onUnload="opener.location.reload()"> 关闭时刷新
+<script language="javascript">
+window.opener.document.location.reload()
 </script>
 ```
 

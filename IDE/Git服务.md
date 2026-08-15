@@ -360,7 +360,7 @@ echo -e "HTTP/1.1 200 ok,glass\r\nConnection: close\r\n\r" |  nc -l 0.0.0.0 9999
 [Unit]
 Description=Autopull through webhook
 After=network.target
- 
+
 [Service]
 User=admin
 Type=simple
@@ -368,7 +368,7 @@ ExecStart=/bin/bash -xc 'echo -e "HTTP/1.1 200 ok,glass\r\nConnection: close\r\n
 Restart=always
 StartLimitInterval=1min
 StartLimitBurst=60
- 
+
 [Install]
 WantedBy=multi-user.target
 ```

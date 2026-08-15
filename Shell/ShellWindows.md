@@ -266,7 +266,7 @@ gcc -v && g++ -v
 
 - `pacman -S <packge-name>` 安装软件
     - `pacman -S mingw-w64-x86_64-make mingw-w64-x86_64-gcc`
-- `pacman -U <gz-file>` 安装本地包，其扩展名为`pkg.tar.gz`  
+- `pacman -U <gz-file>` 安装本地包，其扩展名为`pkg.tar.gz`
 - `pacman -Syu` 同步`Msys2`源，并更新
 - `pacman -Sy` 仅同步源
 - `pacman -Su` 更新系统

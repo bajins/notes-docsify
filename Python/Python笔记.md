@@ -90,7 +90,7 @@ pip install pycryptodome
 - `os.lchown(path, uid, gid)` 更改文件所有者，类似 chown，但是不追踪链接。
 - `os.link(src, dst)` 创建硬链接，名为参数 dst，指向参数 src
 - `os.listdir(path)` 返回path指定的文件夹包含的文件或文件夹的名字的列表。
-- `os.lseek(fd, pos, how)` 设置文件描述符 fd当前位置为pos, how方式修改: SEEK_SET 或者 0 设置从文件开始的计算的pos; 
+- `os.lseek(fd, pos, how)` 设置文件描述符 fd当前位置为pos, how方式修改: SEEK_SET 或者 0 设置从文件开始的计算的pos;
     - SEEK_CUR或者 1 则从当前位置计算; os.SEEK_END或者2则从文件尾部开始. 在unix，Windows中有效
 - `os.lstat(path)` 像stat(),但是没有软链接
 - `os.major(device)` 从原始的设备号中提取设备major号码 (使用stat中的st_dev或者st_rdev field)。
@@ -267,13 +267,13 @@ done.add_done_callback(thread_call_back)
 ```python
 import threading
 import asyncio
- 
+
 async def hello():
     print('Hello world! (%s)' % threading.currentThread())
     await asyncio.sleep(1)
     print('Hello again! (%s)' % threading.currentThread())
- 
- 
+
+
 try:
     loop = asyncio.get_event_loop()
     tasks = [hello() for i in range(1000*1000*1)]
@@ -354,7 +354,7 @@ gc.isenabled()
 # 执行一次垃圾回收，不管gc是否处于开启状态都能使用
 gc.collect()
 # 设置垃圾回收阈值
-gc.set_threshold(t0, t1, t2) 
+gc.set_threshold(t0, t1, t2)
 # 获得当前的垃圾回收阈值
 gc.get_threshold()
 # 获取所有被垃圾回收器监控管理的对象
@@ -445,7 +445,7 @@ filename = opener.retrieve("https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa
 ```python
 import urllib3
 import json
- 
+
 data = json.dumps({'abc': '123'})
 http = urllib3.PoolManager(num_pools=5, headers={'User-Agent': 'ABCDE'})
 # 使用代理来访问某个网站
@@ -455,7 +455,7 @@ http = urllib3.PoolManager(num_pools=5, headers={'User-Agent': 'ABCDE'})
 # 不过特别要声明的一点是 fielder 和 body 中只能存在一个
 resp1 = http.request('POST', 'http://www.httpbin.org/post', body=data, timeout=5, retries=5, fields=data)
 #resp2 = http.urlopen('POST', 'http://www.httpbin.org/post', body=data, timeout=5, retries=5)
- 
+
 print(resp1.data.decode())
 ```
 * WSGI服务 [https://github.com/pylons/waitress](https://github.com/pylons/waitress)

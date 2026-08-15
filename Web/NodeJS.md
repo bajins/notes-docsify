@@ -82,7 +82,7 @@
 - 2012年，grunt
 - 2012年，bower
 - 2013年，yeoman [https://github.com/yeoman](https://github.com/yeoman)
-- 2014年，gulp 
+- 2014年，gulp
 - 2015年，fis3
 - 2017年，webpack3
 

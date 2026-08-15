@@ -133,7 +133,7 @@ DefaultTransactionDefinition def = new DefaultTransactionDefinition(TransactionD
 // 获得事务状态
 TransactionStatus status = transactionManager.getTransaction(def);
 try {
-    
+
 } catch (Exception e) {
     if(!TransactionAspectSupport.currentTransactionStatus().isRollbackOnly()){ // 获取当前最大事务
         TransactionAspectSupport.currentTransactionStatus().setRollbackOnly(); // 标记事务回滚
@@ -598,7 +598,7 @@ cglib动态代理是利用asm开源包，对代理对象类的class文件加载�
 
 ASM是一个java字节码操纵框架，它能被用来动态生成类或者增强既有类的功能。ASM 可以直接产生二进制 class 文件，也可以在类被加载入 Java 虚拟机之前动态改变类行为
 
- 
+
 
 ## Lombok原理
 

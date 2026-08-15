@@ -190,15 +190,15 @@ python3 -V && pip3 -V
 ### 安装后yum不能正常使用
 
 - 把 `#!/usr/bin/python` 修改为 `#!/usr/bin/python2`
- 
+
 ```bash
-vi /usr/bin/yum 
+vi /usr/bin/yum
 ```
 
 - 把 `#!/usr/bin/python` 修改为 `#!/usr/bin/python2`
 
 ```bash
-vi /usr/libexec/urlgrabber-ext-down 
+vi /usr/libexec/urlgrabber-ext-down
 ```
 
 
@@ -306,7 +306,7 @@ pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple
 
 ```ini
 # Linux环境
-vi ~/.pip/pip.conf 
+vi ~/.pip/pip.conf
 # windows环境
 %APPDATA%\Romaing\pip\pip.ini
 

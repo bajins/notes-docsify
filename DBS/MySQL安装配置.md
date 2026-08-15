@@ -296,7 +296,7 @@ vi /etc/my.cnf
 
 ```conf
 [mysqld]
-# sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES 
+# sql_mode = NO_ENGINE_SUBSTITUTION,STRICT_TRANS_TABLES
 
 # 一般配置选项
 basedir = /usr/local/mysql/

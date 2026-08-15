@@ -221,9 +221,9 @@
 
 > `XMLRequest`成员参考缺点：和浏览器挂钩，大多情况下会共享`cookies`、`session`、不支持单独设置代理。
 > 优点：和浏览器挂钩，大多情况下会共享`cookies`、`session`
-  
+
 > `ServerXMLHTTP`成员参考缺点：系统没有对应`dll`的情况下程序需要外挂一个`dll`文件。优点：脱离浏览器，使用代理方便
-  
+
 > `WinHttpRequest`成员参考缺点：暂无。优点：脱离浏览器，使用代理方便，
 > `WinHttp.WinHttpRequest.5.1`是`msxml4.0`的底层对象，也就是说`XMLHTTP`、`ServerXMLHTTP`也是在它的基础上封装而来
 

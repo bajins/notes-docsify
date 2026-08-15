@@ -8,7 +8,7 @@
 
 > go语言中的函数可以有多个返回值
 
-> go语言是一种函数式编程语言，函数是go语言中的一等公民，函数的参数，返回值以及函数体内都可以存在函数 
+> go语言是一种函数式编程语言，函数是go语言中的一等公民，函数的参数，返回值以及函数体内都可以存在函数
 
 > go中的函数没有默认参数、可选参数也没有函数重载、操作符重载，但有可变参数列表，即（变量　...类型），此时类型钱的变量是一个此类型的数组
 
@@ -457,7 +457,7 @@ timer := time.NewTimer(next.Sub(now))
 
 > ticker只要定义完成，从此刻开始计时，不需要任何其他的操作，每隔固定时间都会触发。
 
-> NewTicker返回一个新的 Ticker，该 Ticker 包含一个通道字段，并会每隔时间段 d 就向该通道发送当时的时间。它会调  
+> NewTicker返回一个新的 Ticker，该 Ticker 包含一个通道字段，并会每隔时间段 d 就向该通道发送当时的时间。它会调
 > 整时间间隔或者丢弃 tick 信息以适应反应慢的接收者。如果d <= 0会触发panic。关闭该 Ticker 可以释放相关资源
 
 ```go
@@ -580,11 +580,11 @@ go func() {
 
 ```go
 func TestGorutine(t *testing.T) {
-    // 指定最大 P 为 1，从而管理协程最多的线程为 1 个    
+    // 指定最大 P 为 1，从而管理协程最多的线程为 1 个
     runtime.GOMAXPROCS(1)
     // 显式地让出CPU时间给其他goroutine
     //runtime.Gosched()
-    // 控制等待所有协程都执行完再退出程序    
+    // 控制等待所有协程都执行完再退出程序
     wg := sync.WaitGroup{}
     wg.Add(2)
     // 运行一个协程
@@ -696,7 +696,7 @@ func doServerStuff(conn net.Conn) {
 
 ```go
 package main
- 
+
 import (
     "os"
     "fmt"
@@ -712,7 +712,7 @@ func init() {
         cmd.Start()
         os.Exit(0)
     }
- 
+
     // 监听系统信号
     go func() {
         _c := make(chan os.Signal, 1)
@@ -722,9 +722,9 @@ func init() {
         os.Exit(0)
     }()
 }
- 
+
 func main()  {
- 
+
     go func(){
         fp, _ := os.OpenFile("log", os.O_WRONLY|os.O_CREATE|os.O_APPEND, 0644)
         log.SetOutput(fp)
@@ -733,10 +733,10 @@ func main()  {
             time.Sleep(time.Second * 5)
         }
     }()
- 
+
     for{
         time.Sleep(time.Second * 1000)
     }
- 
+
 }
 ```

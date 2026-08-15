@@ -82,7 +82,7 @@ rpm -i --nodeps --force rpm的地址
 
 ```bash
 # 安装EPEL源
-yum -y install epel-release 
+yum -y install epel-release
 ```
 
 ```bash
@@ -97,7 +97,7 @@ rpm -qc 软件名
 # 查询已安装文件所属软件包
 rpm -qf 文件名的绝对路径
 # 安装软件包数量
-rpm -qa | wc -l 
+rpm -qa | wc -l
 rpm -qa | grep 软件名称
 rpm -e --nodeps 列出的软件全名
 ```
@@ -187,7 +187,7 @@ yum -y --enablerepo=elrepo-kernel install kernel-ml.x86_64 kernel-ml-devel.x86_6
 - 查看可用内核
 
 ```bash
-cat /boot/grub2/grub.cfg |grep menuentry 
+cat /boot/grub2/grub.cfg |grep menuentry
 ```
 
 - 设置内核启动项

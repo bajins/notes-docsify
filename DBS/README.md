@@ -249,6 +249,8 @@
 * [https://github.com/stoneatom/stonedb](https://github.com/stoneatom/stonedb)
 * [https://github.com/snowflakedb](https://github.com/snowflakedb)
 * [https://github.com/edgedb](https://github.com/edgedb)
+* [https://github.com/rayon-rs/rayon](https://github.com/rayon-rs/rayon)
+* [https://github.com/tonbo-io/tonbo](https://github.com/tonbo-io/tonbo)
 
 
 
@@ -283,14 +285,13 @@
 * [https://github.com/valkey-io/valkey](https://github.com/valkey-io/valkey)
 * [https://github.com/memcached/memcached](https://github.com/memcached/memcached)
   * [https://github.com/bradfitz/gomemcache](https://github.com/bradfitz/gomemcache) (客户端库 - GO)
-* [https://github.com/EQ-Alpha/KeyDB](https://github.com/EQ-Alpha/KeyDB)
-* [https://github.com/Snapchat/KeyDB](https://github.com/Snapchat/KeyDB)
+* [https://github.com/Snapchat/KeyDB](https://github.com/Snapchat/KeyDB) (嵌入式 - C++)
 * [https://github.com/OpenAtomFoundation/pika](https://github.com/OpenAtomFoundation/pika)
 * [https://github.com/distributedio/titan](https://github.com/distributedio/titan)
 * [https://github.com/ledisdb](https://github.com/ledisdb)
 * [https://github.com/reborndb](https://github.com/reborndb)
 * [https://github.com/Softmotions/iowow](https://github.com/Softmotions/iowow)
-* [https://github.com/facebook/rocksdb](https://github.com/facebook/rocksdb) (嵌入式 - C++) 
+* [https://github.com/facebook/rocksdb](https://github.com/facebook/rocksdb) (嵌入式 - C++)
   * [https://github.com/xiaomi/pegasus-rocksdb](https://github.com/xiaomi/pegasus-rocksdb) (嵌入式 - C++)
   * [https://github.com/apache/incubator-pegasus](https://github.com/apache/incubator-pegasus)
 * [https://github.com/KvrocksLabs/kvrocks](https://github.com/KvrocksLabs/kvrocks)
@@ -300,9 +301,9 @@
 * [https://github.com/roseduan/rosedb](https://github.com/roseduan/rosedb) (嵌入式 - Go)
 * [https://github.com/couchbase/moss](https://github.com/couchbase/moss) (嵌入式 - Go)
 * [https://github.com/peterbourgon/diskv](https://github.com/peterbourgon/diskv) (嵌入式 - Go)
-* [https://github.com/google/leveldb](https://github.com/google/leveldb) (嵌入式 - C++) 
+* [https://github.com/google/leveldb](https://github.com/google/leveldb) (嵌入式 - C++)
 * [https://github.com/pmqs/BerkeleyDB](https://github.com/pmqs/BerkeleyDB) (嵌入式 - C)
-* [https://github.com/erthink/libmdbx](https://github.com/erthink/libmdbx) (嵌入式 - C) 
+* [https://github.com/erthink/libmdbx](https://github.com/erthink/libmdbx) (嵌入式 - C)
 * [https://github.com/cberner/redb](https://github.com/cberner/redb) (嵌入式 - Rust)
 * [https://github.com/nalgeon/redka](https://github.com/nalgeon/redka) (兼容Redis API)
 * [https://codeberg.org/redict/redict](https://codeberg.org/redict/redict) (嵌入式 - Rust)
@@ -391,12 +392,6 @@
 ### 内存数据库(In-Memory Database)
 
 * [https://www.sqlite.org/index.html](https://www.sqlite.org/index.html) (可内存模式 )
-
-
-
-### 嵌入式数据库(Embedded Database)
-
-
 
 
 ### 分布式数据库/存储系统

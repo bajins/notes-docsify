@@ -98,7 +98,7 @@ DROP FUNCTION IF EXISTS http_delete;
 ### 验证是否安装成功
 
 ```sql
-select * from mysql.func; 
+select * from mysql.func;
 ```
 
 ### Description
@@ -113,19 +113,19 @@ SELECT http_delete('<url>');
 ### 实例
 
 ```sql
-/* HTTP GET、POST方式提交关键词“xoyo”到百度移动搜索 */  
-SELECT http_get('http://m.baidu.com/s?word=xoyo&pn=0');  
-SELECT http_post('http://m.baidu.com/s','word=xoyo&pn=0');  
-  
-/* 新浪微博开放平台：获取新浪用户ID为103500的最近一条微博内容 */  
-SELECT http_get('http://api.t.sina.com.cn/statuses/user_timeline/103500.json?count=1&source=1561596835') AS data;  
-/* 新浪微博开放平台：发表一条微博 */  
-SELECT http_post('http://your_sina_uid:your_password@api.t.sina.com.cn/statuses/update.xml?source=1561596835', 'status=Thins is sina weibo test information');  
-  
-/* Tokyo Tyrant 写入、读取、删除操作 */  
-SELECT http_put('http://192.168.8.34:1978/key', 'This is value');  
-SELECT http_get('http://192.168.8.34:1978/key');  
-SELECT http_delete('http://192.168.8.34:1978/key');  
+/* HTTP GET、POST方式提交关键词“xoyo”到百度移动搜索 */
+SELECT http_get('http://m.baidu.com/s?word=xoyo&pn=0');
+SELECT http_post('http://m.baidu.com/s','word=xoyo&pn=0');
+
+/* 新浪微博开放平台：获取新浪用户ID为103500的最近一条微博内容 */
+SELECT http_get('http://api.t.sina.com.cn/statuses/user_timeline/103500.json?count=1&source=1561596835') AS data;
+/* 新浪微博开放平台：发表一条微博 */
+SELECT http_post('http://your_sina_uid:your_password@api.t.sina.com.cn/statuses/update.xml?source=1561596835', 'status=Thins is sina weibo test information');
+
+/* Tokyo Tyrant 写入、读取、删除操作 */
+SELECT http_put('http://192.168.8.34:1978/key', 'This is value');
+SELECT http_get('http://192.168.8.34:1978/key');
+SELECT http_delete('http://192.168.8.34:1978/key');
 ```
 
 ## 二、mysql-udf-json
@@ -162,7 +162,7 @@ DROP FUNCTION IF EXISTS json_values;
 ### 验证是否安装成功
 
 ```sql
-select * from mysql.func; 
+select * from mysql.func;
 ```
 
 ### 实例
@@ -182,46 +182,46 @@ select json_array(login_name,login_password) as user from t_sys_loginperson;
 ### 创建触发器
 
 ```sql
-/* INSERT插入操作的触发器 */  
+/* INSERT插入操作的触发器 */
 /*开头将结束符号定义为|*/
-DELIMITER |  
-DROP TRIGGER IF EXISTS mytable_insert;  
-CREATE TRIGGER mytable_insert  
-AFTER INSERT ON mytable  
-FOR EACH ROW BEGIN  
-    SET @tt_json = (SELECT json_object(id,addtime,title) FROM mytable WHERE id = NEW.id LIMIT 1);  
-    SET @tt_resu = (SELECT http_put(CONCAT('http://192.168.8.34:1978/', NEW.id), @tt_json));  
-/*使用|结束*/
-END |  
-/*最后使用DELIMITER ; 将结束符号还原*/
-DELIMITER ;  
-``` 
-  
-```sql
-/* UPDATE更新操作的触发器 */  
-DELIMITER |  
-DROP TRIGGER IF EXISTS mytable_update;  
-CREATE TRIGGER mytable_update  
-AFTER UPDATE ON mytable  
+DELIMITER |
+DROP TRIGGER IF EXISTS mytable_insert;
+CREATE TRIGGER mytable_insert
+AFTER INSERT ON mytable
 FOR EACH ROW BEGIN
-	/*判断表中字段新数据与旧数据变化*/
-	if new.status<>old.status then
-    SET @tt_json = (SELECT json_object(id,addtime,title) FROM mytable WHERE id = OLD.id LIMIT 1);  
-    SET @tt_resu = (SELECT http_get(CONCAT('http://192.168.8.34:1978/', OLD.id), @tt_json));  
-	/*结束判断*/
-	end if;
-END |  
-DELIMITER ;  
+    SET @tt_json = (SELECT json_object(id,addtime,title) FROM mytable WHERE id = NEW.id LIMIT 1);
+    SET @tt_resu = (SELECT http_put(CONCAT('http://192.168.8.34:1978/', NEW.id), @tt_json));
+/*使用|结束*/
+END |
+/*最后使用DELIMITER ; 将结束符号还原*/
+DELIMITER ;
 ```
 
 ```sql
-/* DELETE删除操作的触发器 */  
-DELIMITER |  
-DROP TRIGGER IF EXISTS mytable_delete;  
-CREATE TRIGGER mytable_delete  
-AFTER DELETE ON mytable  
-FOR EACH ROW BEGIN  
-    SET @tt_resu = (SELECT http_delete(CONCAT('http://192.168.8.34:1978/', OLD.id)));  
-END |  
-DELIMITER ;  
+/* UPDATE更新操作的触发器 */
+DELIMITER |
+DROP TRIGGER IF EXISTS mytable_update;
+CREATE TRIGGER mytable_update
+AFTER UPDATE ON mytable
+FOR EACH ROW BEGIN
+	/*判断表中字段新数据与旧数据变化*/
+	if new.status<>old.status then
+    SET @tt_json = (SELECT json_object(id,addtime,title) FROM mytable WHERE id = OLD.id LIMIT 1);
+    SET @tt_resu = (SELECT http_get(CONCAT('http://192.168.8.34:1978/', OLD.id), @tt_json));
+	/*结束判断*/
+	end if;
+END |
+DELIMITER ;
+```
+
+```sql
+/* DELETE删除操作的触发器 */
+DELIMITER |
+DROP TRIGGER IF EXISTS mytable_delete;
+CREATE TRIGGER mytable_delete
+AFTER DELETE ON mytable
+FOR EACH ROW BEGIN
+    SET @tt_resu = (SELECT http_delete(CONCAT('http://192.168.8.34:1978/', OLD.id)));
+END |
+DELIMITER ;
 ```

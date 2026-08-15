@@ -51,7 +51,7 @@
 
 **`cdproto`下有以下包**
 
-- `github.com/chromedp/cdproto/cdp` 
+- `github.com/chromedp/cdproto/cdp`
 
 > `cdp.TimeSinceEpoch(time.Now().Add(180 * 24 * time.Hour))`
 

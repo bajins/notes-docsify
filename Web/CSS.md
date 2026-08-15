@@ -590,17 +590,17 @@
     - `normal` 默认。空白会被浏览器忽略
     - `pre` 空白会被浏览器保留。其行为方式类似`HTML`中的`pre`标签
     - `nowrap` 文本不会换行，文本会在在同一行上继续，直到遇到`br`标签为止
-    - `pre-wrap` 保留空白符序列，但是正常地进行换行 
+    - `pre-wrap` 保留空白符序列，但是正常地进行换行
     - `pre-line` 合并空白符序列，但是保留换行符
     - `inherit` 规定应该从父元素继承`white-space`属性的值
 
 
-- `overflow-wrap: normal|break-word;` 标明是否允许浏览器在单词内进行断句，防止当一个字符串太长而找不到它的自然断句点时产生溢出现象。 
-    - `normal` 只在允许的断字点换行(浏览器保持默认处理) 
-    - `break-word` 在长单词或URL地址内部进行换行 
+- `overflow-wrap: normal|break-word;` 标明是否允许浏览器在单词内进行断句，防止当一个字符串太长而找不到它的自然断句点时产生溢出现象。
+    - `normal` 只在允许的断字点换行(浏览器保持默认处理)
+    - `break-word` 在长单词或URL地址内部进行换行
 
 
-- `word-break: normal|break-all|keep-all;` 标明怎么样进行单词内的断句。 
+- `word-break: normal|break-all|keep-all;` 标明怎么样进行单词内的断句。
     - `normal` 使用浏览器默认的换行规则
     - `break-all` 允许在单词内换行
     - `keep-all` 只能在半角空格或连字符处换行
@@ -637,7 +637,7 @@ div:hover{
 
 ## Footer固定在页面底部
 
-- `Sticky Footer` 并不是什么新的前端概念和技术，它指的就是一种网页效果： 
+- `Sticky Footer` 并不是什么新的前端概念和技术，它指的就是一种网页效果：
     - 如果页面内容不足够长时，页脚固定在浏览器窗口的底部；
     - 如果内容足够长时，页脚固定在页面的最底部。但如果网页内容不够长，置底的页脚就会保持在浏览器窗口底部。
 
@@ -741,9 +741,9 @@ div:hover{
 * [round-progress-bar](/files/round-progress-bar.html)
 
 >  首先：是定义三个动画，第一个是最外层，让他只显示一半，然后运行3s，同时右边运行3s,从0到180度。
-  
+
 > 接着：到了180度之后，释放外层的显示一半，让他自动显示其他。然后右边的停止动画并停在那里。
-  
+
 > 最后：左边的在原来的基础（跟右边一样运行3s，同样转过180度）再继续转动180度。
 
 
@@ -858,7 +858,7 @@ input[type='checkbox']::after {
     content: ' ';
     box-sizing: border-box;
 }
- 
+
 input[type='checkbox']:checked::after {
     color: #4db7ff;
     border: 1px solid #4db7ff;

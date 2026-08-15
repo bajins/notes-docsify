@@ -98,7 +98,7 @@ ALTER DATABASE xxx SET search_path TO xxx, public;
 
 ```sql
 -- 插入或更新 upsert
-INSERT INTO table_name(column_list) 
+INSERT INTO table_name(column_list)
 VALUES(value_list)
 ON CONFLICT target action;
 
@@ -278,7 +278,7 @@ from
        interval '1 hour'
      ) as d
 -- 计算时间差，实际时间不到1小时时，DATEDIFF会返回1，而DATE_PART返回0
-SELECT DATE_PART('day', '2011-12-30 08:55'::timestamp - '2011-12-30 09:05'::timestamp) * 24 + 
+SELECT DATE_PART('day', '2011-12-30 08:55'::timestamp - '2011-12-30 09:05'::timestamp) * 24 +
         DATE_PART('hour', '2011-12-30 08:55'::timestamp - '2011-12-30 09:05'::timestamp);
 -- 计算月份差
 SELECT 12*EXTRACT(YEAR from age('2023-06-01','2022-01-01'))+EXTRACT(MONTH from age('2023-06-01','2022-01-01'));
@@ -338,7 +338,7 @@ psql -h $HOST -U $ADMIN_USER -d $TARGET_DB < ${SOURCE_DB}_dump.sql
 - 默认使用相同模式恢复
 
 ```powershell
-# 使用自定义格式 (-F c) 或目录格式 (-F d) 
+# 使用自定义格式 (-F c) 或目录格式 (-F d)
 # --schema指定要过滤的模式
 # --exclude-table=table_name：完全排除指定的表（包括表结构和数据）
 # --exclude-table-data=table_name：只排除指定表的数据，但会备份表的结构
@@ -440,7 +440,7 @@ SHOW log_checkpoints;
 listen_addresses = '*'
 ```
 
-- pg_hba.conf (Host-Based Authentication) 
+- pg_hba.conf (Host-Based Authentication)
 
 ```conf
 # 在文件的末尾添加一行新客户端认证规则
@@ -464,5 +464,5 @@ host    all             all             0.0.0.0/0               scram-sha-256
 # status: 显示服务器的当前状态
 # -o: 将后面的字符串“透传”给 postgres 进程，覆盖 postgresql.conf 文件中的任何配置参数
 # -c: 设置一个配置参数
-.\pg_ctl.exe start-o "-p 5433 -c listen_addresses=* -c log_statement=all" -D "../../PostgreSQL/data" 
+.\pg_ctl.exe start-o "-p 5433 -c listen_addresses=* -c log_statement=all" -D "../../PostgreSQL/data"
 ```

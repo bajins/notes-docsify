@@ -184,7 +184,7 @@
 * 代码覆盖率 [https://github.com/codedx/codepulse](https://github.com/codedx/codepulse)
 * [https://github.com/jacoco/jacoco](https://github.com/jacoco/jacoco)
 * 代码审查 [https://github.com/phacility/phabricator](https://github.com/phacility/phabricator)
-* Fortify、Checkmarx、Coverity、Klocwork、CoBOT、CodeSonar、Polyspace 
+* Fortify、Checkmarx、Coverity、Klocwork、CoBOT、CodeSonar、Polyspace
 * [https://www.jarchitect.com](https://www.jarchitect.com)
 * [https://sourceforge.net/projects/hammurapi](https://sourceforge.net/projects/hammurapi)
 * 性能跟踪分析 [https://github.com/topics/trace](https://github.com/topics/trace)

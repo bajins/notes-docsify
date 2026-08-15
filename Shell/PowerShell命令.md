@@ -108,11 +108,11 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 - 实现`du -sh`统计文件夹大小
 
 ```ps1
-param([string]$Directory) 
+param([string]$Directory)
 get-childitem $Directory | % {
-    $f = $_ ; 
-    get-childitem -r $_.FullName | 
-      measure-object -property length -sum | 			
+    $f = $_ ;
+    get-childitem -r $_.FullName |
+      measure-object -property length -sum |
         select @{Name="Name";Expression={$f}},
         @{Name="Sum (MB)"; Expression={"{0:N1}" -f ($_.sum / 1MB)}}
 }
@@ -261,7 +261,7 @@ Function Lock-WorkStation {
         [DllImport("user32.dll", SetLastError = true)]
         public static extern bool LockWorkStation();
     "@
-    
+
     $LockWorkStation = Add-Type -memberDefinition $signature -name "Win32LockWorkStation" -namespace Win32Functions -passthru
     $LockWorkStation::LockWorkStation() | Out-Null
 }
@@ -373,15 +373,15 @@ Get-Command -Module ScheduledTasks
 ```
 
 ```powershell
-# 此例子为每5分钟一次的定时任务，通过设置$step和$add可以实现延时执行任务。 
+# 此例子为每5分钟一次的定时任务，通过设置$step和$add可以实现延时执行任务。
 function waitsec{
     $step=300 #设置间隔
     $add=0 #设置延时
     $t=(get-date)
     $step-(($t.Hour*3600+$t.Minute*60+$t.Second)%$step)+$add
 }
- 
-write-host "running...... please wait" (waitsec)"S" 
+
+write-host "running...... please wait" (waitsec)"S"
 Start-Sleep -s (waitsec)
 while(1){
     # 执行代码

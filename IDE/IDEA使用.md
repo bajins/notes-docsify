@@ -97,13 +97,13 @@
 ```
 demo                        # 顶级项目（根项目）
 │  pom.xml
-│  
+│
 ├─admin                     # 二级项目
 │  │  pom.xml
-│  │  
+│  │
 │  ├─admin-api              # 二级项目模块
 │  │  │  pom.xml
-│  │  │  
+│  │  │
 │  │  └─src
 │  │      ├─main
 │  │      │  ├─java
@@ -112,7 +112,7 @@ demo                        # 顶级项目（根项目）
 │  │          └─java
 │  └─admin-web              # 二级项目模块
 │      │  pom.xml
-│      │  
+│      │
 │      └─src
 │          ├─main
 │          │  ├─java
@@ -121,13 +121,13 @@ demo                        # 顶级项目（根项目）
 │              └─java
 └─buyer                     # 二级项目
     │  pom.xml
-    │  
+    │
     ├─shop                  # 三级项目
     │  │  pom.xml
-    │  │  
+    │  │
     │  ├─shop-api           # 三级项目模块
     │  │  │  pom.xml
-    │  │  │  
+    │  │  │
     │  │  └─src
     │  │      ├─main
     │  │      │  ├─java
@@ -136,7 +136,7 @@ demo                        # 顶级项目（根项目）
     │  │          └─java
     │  └─shop-client        # 三级项目模块
     │      │  pom.xml
-    │      │  
+    │      │
     │      └─src
     │          ├─main
     │          │  ├─java
@@ -145,10 +145,10 @@ demo                        # 顶级项目（根项目）
     │              └─java
     └─user                  # 三级项目
         │  pom.xml
-        │  
+        │
         ├─user-api          # 三级项目模块
         │  │  pom.xml
-        │  │  
+        │  │
         │  └─src
         │      ├─main
         │      │  ├─java
@@ -157,7 +157,7 @@ demo                        # 顶级项目（根项目）
         │          └─java
         └─user-client       # 三级项目模块
             │  pom.xml
-            │  
+            │
             └─src
                 ├─main
                 │  ├─java
@@ -320,8 +320,8 @@ demo                        # 顶级项目（根项目）
 
 ```java
 /**
- * 
- * @Description: 
+ *
+ * @Description:
  * @Author: ${USER}
  * @File: ${NAME}.java
  * @Version: 1.0.0
@@ -359,7 +359,7 @@ public class ${NAME} {
 
      //private static final Logger logger = LoggerFactory.getLogger(${NAME}.class);
      private Logger log = LoggerFactory.getLogger(this.getClass());
-     
+
 }
 ```
 
@@ -396,11 +396,11 @@ public class ${NAME} {
 
 ```groovy
 **
- * 
- * 
+ *
+ *
 $params$
  * @return $ruturns$
- * @Description 
+ * @Description
  * @author claer bajins.com
  * @date $date$ $time$
  */
@@ -452,7 +452,7 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 - 打开`File` -> `Settings` -> `Editor` -> `General` -> `Auto Import`
 - 勾选`Add unambiguous imports on the fly`和`Optimize imports on the fly(for current project)`两个选项
 
-> `Add unambiguous imports on the fly` 自动帮我们优化导入的包，比如自动去掉一些没有用到的包。 
+> `Add unambiguous imports on the fly` 自动帮我们优化导入的包，比如自动去掉一些没有用到的包。
 
 > `Optimize imports on the fly(for current project)` 自动帮我们导入需要用到的包。
 > 但是对于同名的包，需要手动<kbd>Alt</kbd> + <kbd>Enter</kbd>进行导入。
@@ -605,8 +605,8 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 #
-# @Description: 
-# @PreInstall: 
+# @Description:
+# @PreInstall:
 # @Author : ${USER}
 # @File : ${NAME}.py
 # @Version: 1.0.0
@@ -651,8 +651,8 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ```go
 /**
- * 
- * @Description: 
+ *
+ * @Description:
  * @Author: ${USER}
  * @File: ${NAME}.go
  * @Version: 1.0.0
@@ -677,8 +677,8 @@ groovyScript("def result=\"${_1}\"; if(result == 'void'){return '';}else{return 
 
 ```js
 /**
- * 
- * @Description: 
+ *
+ * @Description:
  * @Author: ${USER}
  * @File: ${NAME}.js
  * @Version: 1.0.0

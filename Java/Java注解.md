@@ -346,7 +346,7 @@ print('\n'.join(ans))
 - `@Aspect` 声明一个切面（类上）
 
 > 使用`@After`、`@Before`、`@Around`定义建言（advice），可直接将拦截规则（切点）作为参数。
- 
+
 - `@After` 在方法执行之后执行（方法上）
 - `@Before` 在方法执行之前执行（方法上）
 - `@Around` 在方法执行之前与之后执行（方法上）
@@ -375,10 +375,10 @@ print('\n'.join(ans))
 > `@Bean` 手动创建一个实例，并保留在IOC中，当我们引用第三方库中的类需要装配到Spring容器时，可以通过`@Bean`来实现
 
 - `@Scope` 设置Spring容器如何新建Bean实例（方法上，得有`@Bean`）,其设置类型包括：
-    - `Singleton` （单例,一个Spring容器中只有一个bean实例，默认模式）, 
-    - `Protetype` （每次调用新建一个bean）, 
-    - `Request` （web项目中，给每个http request新建一个bean）, 
-    - `Session` （web项目中，给每个http session新建一个bean）, 
+    - `Singleton` （单例,一个Spring容器中只有一个bean实例，默认模式）,
+    - `Protetype` （每次调用新建一个bean）,
+    - `Request` （web项目中，给每个http request新建一个bean）,
+    - `Session` （web项目中，给每个http session新建一个bean）,
     - `GlobalSession`（给每一个 global http session新建一个Bean实例）
 - `@StepScope` 在Spring Batch中还有涉及
 - `@PostConstruct` 由JSR-250提供，在构造函数执行完之后执行，等价于xml配置文件中bean的initMethod

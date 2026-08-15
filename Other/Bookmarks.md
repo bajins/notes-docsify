@@ -458,8 +458,10 @@
 * [https://github.com/mootdx/mootdx](https://github.com/mootdx/mootdx)
 * 投资干货合集 [https://news.futunn.com/news-topics/127](https://news.futunn.com/news-topics/127)
 
+
 - [https://github.com/jianglang740/Basic-OF-Python-Learning](https://github.com/jianglang740/Basic-OF-Python-Learning)
 - [https://github.com/louloulin/mdb](https://github.com/louloulin/mdb)
 - 记账应用 [https://github.com/mayswind/ezbookkeeping](https://github.com/mayswind/ezbookkeeping)
 - 股票应用 [https://github.com/Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock)
 - 巴菲特书信 [https://buffett-letters-eir.pages.dev](https://buffett-letters-eir.pages.dev)
+- 美股编年史 [https://historyofmarket.com](https://historyofmarket.com)

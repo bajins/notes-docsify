@@ -156,6 +156,15 @@
 - 检查网络连接 [https://github.com/karol-broda/snitch](https://github.com/karol-broda/snitch)
 - GPU监控 [https://github.com/Syllo/nvtop](https://github.com/Syllo/nvtop)
 - 查进程的命令 [https://github.com/pranshuparmar/witr](https://github.com/pranshuparmar/witr)
+- 对话框 [https://github.com/GNOME/zenity](https://github.com/GNOME/zenity)
+- [https://github.com/ncruces/zenity](https://github.com/ncruces/zenity)
+- [https://github.com/wmcbrine/PDCurses](https://github.com/wmcbrine/PDCurses)
+    - [https://sourceforge.net/projects/pdcurses](https://sourceforge.net/projects/pdcurses)
+- [https://invisible-island.net/dialog/dialog.html](https://invisible-island.net/dialog/dialog.html)
+- [https://invisible-island.net/ncurses/ncurses.html](https://invisible-island.net/ncurses/ncurses.html)
+- [https://invisible-island.net/cdk](https://invisible-island.net/cdk)
+- [https://github.com/sqweek/dialog](https://github.com/sqweek/dialog)
+    - [https://github.com/hamzabow/dialog](https://github.com/hamzabow/dialog)
 
 
 

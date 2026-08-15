@@ -221,7 +221,7 @@ rpm -ivh wandisco-git-release-7-2.noarch.rpm
 ```bash
 curl https://setup.ius.io | sh
 # 或者
-yum install -y epel-release  
+yum install -y epel-release
 rpm -ivh https://centos7.iuscommunity.org/ius-release.rpm
 # 查看git包版本
 yum list git2u
@@ -340,8 +340,8 @@ git commit --amend
 
 ```bash
 # --mixed 默认参数，不删除工作空间改动代码，撤销commit，并且撤销git add . 操作
-# --soft 不删除工作空间改动代码，撤销commit，不撤销git add . 
-# --hard 删除工作空间改动代码，撤销commit，撤销git add . 
+# --soft 不删除工作空间改动代码，撤销commit，不撤销git add .
+# --hard 删除工作空间改动代码，撤销commit，撤销git add .
 # HEAD^的代表上一个版本，同HEAD~1(或HEAD@{1})，撤销2次commit，使用HEAD~2(或HEAD@{2})，以此类推
 git reset HEAD^
 ```
@@ -684,7 +684,7 @@ git config --global http.lowSpeedTime 999999
 ```diff
 [root@foundation38 demo]# git push -u origin master
 Username for 'https://github.com': bajins
-Password for 'https://bajins@github.com': 
+Password for 'https://bajins@github.com':
 To https://github.com/bajins/test.git
  ! [rejected]        master -> master (non-fast-forward)
 error: failed to push some refs to 'https://github.com/bajins/test.git'
@@ -714,7 +714,7 @@ git push -u origin master -f
 ```bash
 git branch [name]
 # 创建完branch后, 再进行push
-git push -u origin [name] 
+git push -u origin [name]
 ```
 
 ### 远端与本地代码冲突

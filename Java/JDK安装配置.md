@@ -34,7 +34,7 @@
 <summary style="font-size:160%;">JDK 8 以来每个 Java 版本中的 JEP 数量</summary>
 
 > [JEP](http://openjdk.java.net/jeps/0)的全称就是`JDK Enhancement Proposals`，简单点讲就像是一个个对JAVA进行改进提案，
-> 这些提案会在合适的时间合适的地点被加入JDK的特定版本。 
+> 这些提案会在合适的时间合适的地点被加入JDK的特定版本。
 
 ![](/images/JDK8-25的JEP数量.png)
 
@@ -373,7 +373,7 @@ setx /m Path "%PATH%;%JAVA_HOME%\bin;%JRE_HOME%\bin;%MAVEN_HOME%\bin;%CATALINA_H
 - javax.net（SSL/TLS）
 - javax.security（JAAS）
 - javax.crypto（密码学）
-- keytool 的 JDK 工具 
+- keytool 的 JDK 工具
 
 
 **`java`、`javax`、`sun`、`org`包有什么区别**

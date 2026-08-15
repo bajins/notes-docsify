@@ -144,12 +144,12 @@ end;
 
 
 ```sql
-MERGE INTO table_name alias1   
-USING (table|view|sub_query) alias2  
-ON (join condition)   
-WHEN MATCHED THEN   
+MERGE INTO table_name alias1
+USING (table|view|sub_query) alias2
+ON (join condition)
+WHEN MATCHED THEN
     UPDATE table_name SET col1 = col_val1
-WHEN NOT MATCHED THEN   
+WHEN NOT MATCHED THEN
     INSERT (column_list) VALUES (column_values);
 ```
 

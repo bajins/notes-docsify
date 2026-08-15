@@ -105,7 +105,7 @@
 > exec没有匹配返回null，匹配有子表达式返回匹配结果数组下标0值为所有表达式结果，其他下标为子表达式的匹配
 
 ```js
-var str = `test https://www.bajins.com`; 
+var str = `test https://www.bajins.com`;
 console.log(new RegExp("var servers = (.*)","ig").exec(str));
 console.log(str.match(new RegExp("var servers = (.*)","ig")));
 console.log(new RegExp("test(.*)","ig").exec(str));
@@ -245,7 +245,7 @@ function test(event){
     }
 </script>
 ```
- 
+
 
 
 
@@ -271,8 +271,8 @@ sessionStorage.clear();
 // 跟上面的sessionStorage有一样的方法
 var value = localStorage.setItem('键',"值");
 for(var i=0, len=localStorage.length; i<len; i++){
-    var key = localStorage.key(i);    
-    var value = localStorage.getItem(key);    
+    var key = localStorage.key(i);
+    var value = localStorage.getItem(key);
     console.log(key + "=" + value);
 }
 ```
@@ -303,8 +303,8 @@ function setScrollToCookie() {
 
 /**
  * 获取Cookie中存储的信息
- * 
- * @param {Stirng} sName 
+ *
+ * @param {Stirng} sName
  */
 function getCookie(sName) {
     var arr = document.cookie.match(/(scrollTop|scrollLeft)=([^;]+)(;|$)/);

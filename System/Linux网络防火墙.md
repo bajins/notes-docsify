@@ -69,7 +69,7 @@
 ```bash
 # 查询系统中缓存的ARP表，ARP表用来维护IP地址与MAC地址的对应关系
 arp -an
-# 
+#
 ip a
 ifconfig
 # 提取主机上的IP信息
@@ -147,7 +147,7 @@ iptables-save
 # 安装iptables-persistent工具，使端口配置持久化
 sudo apt-get install iptables-persistent
 
-# 端口配置永久生效 
+# 端口配置永久生效
 sudo netfilter-persistent save
 sudo netfilter-persistent reload
 
@@ -284,6 +284,8 @@ firewall-cmd --query-panic
 - [https://ip.aolifu.org](https://ip.aolifu.org)
 - [https://ip.im](https://ip.im)
     - [https://w.is](https://w.is)
+- [https://ip.sb/api](https://ip.sb/api)
+- [https://ipapi.is](https://ipapi.is)
 - 可用性检查 [https://github.com/funilrys/PyFunceble](https://github.com/funilrys/PyFunceble)
 - [https://github.com/hatoo/oha](https://github.com/hatoo/oha)
 - 网络诊断 [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)

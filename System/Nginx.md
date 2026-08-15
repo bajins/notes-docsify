@@ -186,7 +186,7 @@ ldconfig -v
 
 ```conf
 location [=|~|~*|^~] /uri/ {
-        ····· 
+        ·····
 }
 ```
 
@@ -783,16 +783,16 @@ location ~ .*\.(htm|html|js|css|jpg|png|gif|eot|svg|ttf|woff|woff2)$|/static/ {
 	root "/index";
 	# 将此处重写的URI作为一个新的URI在当前location中继续执行，并不会将新的URI转向其他location
 	rewrite ^(.*)$ /index/$1 break;
-	
+
 	proxy_pass https://test.cos.ap-hongkong.myqcloud.com;
     #proxy_set_header Host $host;
 	proxy_set_header Host test.cos.ap-hongkong.myqcloud.com;
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_set_header REMOTE-HOST $remote_addr;
-    
+
     add_header X-Cache $upstream_cache_status;
-    
+
     #Set Nginx Cache
     add_header Cache-Control no-cache;
 }
@@ -802,9 +802,9 @@ location / {
     proxy_set_header X-Real-IP $remote_addr;
     proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
     proxy_set_header REMOTE-HOST $remote_addr;
-    
+
     add_header X-Cache $upstream_cache_status;
-    
+
     #Set Nginx Cache
     add_header Cache-Control no-cache;
     #expires 12h;

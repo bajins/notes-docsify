@@ -361,7 +361,7 @@ resolve => require.ensure([], () => resolve(require(`@${_this.files.path}.vue`))
 const resolveRequire = (path) => {
     return resolve => {
         require.ensure([], (require) => {
-            resolve(require(`@${path}.vue`));        
+            resolve(require(`@${path}.vue`));
         });
     }
 }
@@ -387,7 +387,7 @@ jQuery.fn.extend({
 	 * @param another
 	 */
 	swap: function(another){
-		var me = this;    
+		var me = this;
 		var cloneMe = me.clone();
 		var temp = $('<span/>');
 		another.before(temp);
@@ -415,7 +415,7 @@ jQuery.fn.extend({
 			another = me.prev();
 			another.before(me);
 		}else if(direction == 'down'){
-			another = me.next();        
+			another = me.next();
 			another.after(me);
 		}
 		return this;
@@ -489,7 +489,7 @@ var search = $( "ul li label" ).filter( function () {
     return $( this ).text().toLowerCase().indexOf( "text".toLowerCase() ) >= 0;
 }).first(); // .last()
 
- 
+
 $('div:contains("test"):not(:has(*)):last').css('background-color', 'red');
 ```
 
@@ -565,7 +565,7 @@ $('#id').unbind('click').on('click',function(){
 });
 // 先移除再绑定
 $("#id").off("click").on("click",function(){
-    consoel.log("ok");        
+    consoel.log("ok");
 });
 ```
 

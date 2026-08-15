@@ -107,15 +107,15 @@ Public Function GetObjectPropertieValue(obj)
         'Exit Function
         Err.Raise Err.Number
     END IF
-    
+
     Dim kv
-    
+
     For Each Propertie in obj.Properties_
        kv = kv & Propertie.name & " : " & Propertie.value & vbCrLf
     Next
-    
+
     kv = "属性数量：" & obj.Properties_.count & vbCrLf & kv
-    
+
     ' 设置返回值
     GetObjectPropertieValue = kv
 End Function
@@ -139,7 +139,7 @@ Public Function GetSystemBit()
             GetSystemBit = "i386"
             Exit For
         End IF
-        
+
         IF InStr(System.SystemType,"64") > 0 Then
             GetSystemBit = "amd64"
             Exit For
@@ -156,12 +156,12 @@ Set adapters = objWMIService.ExecQuery("Select * From Win32_NetworkAdapterConfig
 Set wshell = Wscript.CreateObject("Wscript.Shell")
 
 '直接从环境变量里取计算机名、当前用户名
-result ="HOSTNAME: 【" & wshell.ExpandEnvironmentStrings("%COMPUTERNAME%") & _ 
+result ="HOSTNAME: 【" & wshell.ExpandEnvironmentStrings("%COMPUTERNAME%") & _
         "】" & vbcrlf & "USER: 【" & wshell.ExpandEnvironmentStrings("%USERNAME%") & "】"
 
 For Each adapter in adapters
   With adapter
-    result = result & vbcrlf & vbcrlf & .Description & ":" & _ 
+    result = result & vbcrlf & vbcrlf & .Description & ":" & _
             vbcrlf & "MAC:【" & .MACAddress & "】" & vbcrlf & "IP:【" &  join(.IPAddress, ", ") & "】"
   End With
 Next
@@ -232,27 +232,27 @@ Next
 ### Ping
 
 ```vb
-Function Ping(strHostName) 
-  Dim colPingResults, objPingResult, strQuery 
+Function Ping(strHostName)
+  Dim colPingResults, objPingResult, strQuery
   ' 定义WMI查询
-  strQuery = "SELECT * FROM Win32_PingStatus WHERE Address = '" & strHostName & "'" 
+  strQuery = "SELECT * FROM Win32_PingStatus WHERE Address = '" & strHostName & "'"
   ' 运行WMI查询
   ' GetObject("winmgmts://./root/cimv2")
-  Set colPingResults = GetObject("winmgmts:root\cimv2").ExecQuery(strQuery) 
+  Set colPingResults = GetObject("winmgmts:root\cimv2").ExecQuery(strQuery)
   ' 将查询结果转换为True或False
-  For Each objPingResult In colPingResults 
-    If Not IsObject(objPingResult) Then 
-      Ping = False 
-    Else 
-      If objPingResult.StatusCode = 0 Then 
-        Ping = True 
-      Else 
-        Ping = False 
-      End If 
-      'WScript.Echo "Ping status code for " & strHostName & ": " & objPingResult.StatusCode 
-    End If 
-  Next 
-  Set colPingResults = Nothing 
+  For Each objPingResult In colPingResults
+    If Not IsObject(objPingResult) Then
+      Ping = False
+    Else
+      If objPingResult.StatusCode = 0 Then
+        Ping = True
+      Else
+        Ping = False
+      End If
+      'WScript.Echo "Ping status code for " & strHostName & ": " & objPingResult.StatusCode
+    End If
+  Next
+  Set colPingResults = Nothing
 End Function
 ```
 
@@ -262,12 +262,12 @@ End Function
 ```vb
 Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
 ' 执行事件订阅查询以接收事件。事件订阅查询定义了要监视的托管环境的更改。发生更改时，WMI基础结构会将事件描述为调用脚本。
-Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaConnect") 
-Do While True 
-    Set strLatestEvent = colMonitoredEvents.NextEvent 
+Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaConnect")
+Do While True
+    Set strLatestEvent = colMonitoredEvents.NextEvent
     Wscript.Echo "已建立网络连接："
     WScript.Echo strLatestEvent.InstanceName, Now
-    Wscript.Echo 
+    Wscript.Echo
 Loop
 ```
 
@@ -276,9 +276,9 @@ Loop
 ```vb
 Set objWMIService = GetObject("winmgmts:\\.\root\wmi")
 ' 执行事件订阅查询以接收事件。事件订阅查询定义了要监视的托管环境的更改。发生更改时，WMI基础结构会将事件描述为调用脚本。
-Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaDisconnect") 
-Do While True 
-    Set strLatestEvent = colMonitoredEvents.NextEvent 
+Set colMonitoredEvents = objWMIService.ExecNotificationQuery("Select * from MSNdis_StatusMediaDisconnect")
+Do While True
+    Set strLatestEvent = colMonitoredEvents.NextEvent
     Wscript.Echo "网络连接已丢失："
     WScript.Echo strLatestEvent.InstanceName, Now
 Loop
@@ -411,7 +411,7 @@ function ConvChinese(x)
            Unicode=Unicode & A(i)
       end if
     next
- 
+
     if len(c2to16(Unicode))=4 then
          ConvChinese=ConvChinese & chrw(int("&H" & c2to16(Unicode)))
     else
@@ -419,7 +419,7 @@ function ConvChinese(x)
     end if
   next
 end function
- 
+
 '二进制代码转换为十六进制代码
 function c2to16(x)
     i=1
@@ -436,7 +436,7 @@ function c2to10(x)
         if mid(x,len(x)-i,1)="1" then c2to10=c2to10+2^(i)
     next
 end function
- 
+
 '十六进制代码转换为二进制代码
 function c16to2(x)
     i=0
@@ -448,7 +448,7 @@ function c16to2(x)
         c16to2=c16to2 & tempstr
     next
 end function
- 
+
 '十进制代码转换为二进制代码
 function c10to2(x)
     mysign=sgn(x)
@@ -474,7 +474,7 @@ function c10to2(x)
     next
     if mysign=-1 then c10to2="-" & c10to2
 end function
- 
+
 'GB转unicode---将GB编码文字转换为unicode编码文字
 function chinese2unicode(Str)
   dim i
@@ -492,8 +492,8 @@ function chinese2unicode(Str)
      Str_unicode=Str_unicode&chr(59)
   next
    chinese2unicode=Str_unicode
-end function   
- 
+end function
+
 'URL解码
 Function URLDecode(enStr)
 dim deStr
@@ -531,7 +531,7 @@ for i=1 to len(enStr)
 next
 URLDecode=deStr
 end function
- 
+
 '判断是否为有效的十六进制代码
 function isvalidhex(str)
     dim c
@@ -605,9 +605,9 @@ Function GetFileDlgEx(sIniDir, sFilter, sTitle)
     ".Write(p.exec(d.object.openfiledlg(iniDir,null,filter,title)));" & _
     "close();" & _
     "}</script><hta:application showintaskbar=no />"""
-    Set oDlg = CreateObject("WScript.Shell").Exec("mshta.exe " & hta) 
-    oDlg.StdIn.Write "var iniDir='" & sIniDir & "';var filter='" & sFilter & "';var title='" & sTitle & "';" 
-    GetFileDlgEx = oDlg.StdOut.ReadAll 
+    Set oDlg = CreateObject("WScript.Shell").Exec("mshta.exe " & hta)
+    oDlg.StdIn.Write "var iniDir='" & sIniDir & "';var filter='" & sFilter & "';var title='" & sTitle & "';"
+    GetFileDlgEx = oDlg.StdOut.ReadAll
 End Function
 
 
@@ -646,8 +646,8 @@ Function SelectFolder(default)
     '       529没有路径输入框，513没有路径输入框和新建文件夹按钮，&H10（17）有路径输入框，
     '       &H4000可看到文件但选择将报错;
     ' 第四个参数：起始路径根文件夹，0/12/15/16为桌面，1/2/3/4/5/6/7/8/9/10/11/13/14/17/18/19/20/21/22
-    Set Folder = objShell.BrowseForFolder(0, "请选择一个文件夹:", &H10 , default) 
-    If Folder Is Nothing Then 
+    Set Folder = objShell.BrowseForFolder(0, "请选择一个文件夹:", &H10 , default)
+    If Folder Is Nothing Then
         SelectFolder = ""
     Else
         SelectFolder = Folder.Self.Path

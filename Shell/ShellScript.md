@@ -73,9 +73,9 @@
 > 实现ftp自动登录并运行ls指令的用法如下：其中admin为用户名，password为密码
 
 ```bash
-ftp -i -n 192.168.21.46 <<EOF  
+ftp -i -n 192.168.21.46 <<EOF
 user admin password
-ls  
+ls
 EOF
 ```
 
@@ -231,16 +231,16 @@ expect <<-EOF
     set timeout -1
 
     spawn git push -f ${push_url} master
-    
+
     #expect "*Username*" {send "${push_username}\r"; exp_continue}
     #expect "*Password*" {send "${push_password}\r"}
-    
+
     expect {
       \"*Username*\" {send \"${push_username}\r\"; exp_continue}
       \"*Password*\" {send \"${push_password}\r\";}
     }
     interact
-    
+
     # 问题回答完毕等待`expect`进程结束
     expect eof
 
@@ -293,11 +293,11 @@ expect -c "
 set date [ clock format [ clock seconds ] -format "%Y%m%d" ]
 set secon [  clock seconds ]
 set yestoday_secon 0
- 
+
 #set i [expr {$i + 1}]    #expect里的加减法
 set yestoday_secon [expr {$secon - 86400} ]
 set yestoday [ clock format [ expr {$yestoday_secon} ] -format "%Y%m%d" ]
- 
+
 puts "\n date = $date"
 puts "\n secon = $secon"
 puts "\n yestoday_secon = $yestoday_secon"

@@ -81,9 +81,9 @@ Class.forName("com.mysql.jdbc.Driver")
 String driver = "数据库驱动名称"；
 String url = "数据库连接地址"String user = "用来连接数据库的用户名"；
 String pwd = "用来连接数据库的密码"；
-//加载数据库驱动  
+//加载数据库驱动
 Class.forName(driver);
-//根据 url 创建数据库连接对象 Connection 
+//根据 url 创建数据库连接对象 Connection
 Connection con = DriverManager.getConnection(url,user,pwd);
 //用数据库连接对象创建 Statement 对象(或 PrepareStatement)
 Statement s = con.createStatement();
@@ -103,7 +103,7 @@ con.close();
 我们在使用 MySQL 的数据库时，需要导入一个 MySQL 的连接驱动包，打开这个驱动包，你会发现在下图的目录中有一个文件，
 `Class.forName(driver)` 它会去找到这个 com.mysql.jdbc.Driver 的类，然后用 DriverManager 加载这个类，
 然后再去使用这个类中的方法，例如 `con.PrepareStatement(sql);` 就是使用的 com.mysql.jdbc.Driver 这个类中的方法，
-同理如果你将驱动换成 Oracle，那么 DriverManager 就会得到 Oracle 的连接对象，那么 `con.PrepareStatement(sql);` 
+同理如果你将驱动换成 Oracle，那么 DriverManager 就会得到 Oracle 的连接对象，那么 `con.PrepareStatement(sql);`
 调用的就是 Oracle 对应驱动中的方法，也就是说，如果我们将数据库换成 Orale，理论上，上面的操作数据库的代码是不需要变动的，
 只需要更换驱动、url 和账号密码，这部分我们后面都是以配置文件的形式写入，所以很好的将代码和数据库解耦了。
 
@@ -219,7 +219,7 @@ private ServiceLoader(Class<S> svc, ClassLoadercl) {
     acc = (System.getSecurityManager() != null) ? AccessController.getContext() : null;
     //先清空
     providers.clear();
-    //实例化内部类 
+    //实例化内部类
     LazyIterator lookupIterator = new LazyIterator(service, loader);
 }
 ```
@@ -251,7 +251,7 @@ private classLazyIteratorimplementsIterator<S>{
     ClassLoader loader;
     Enumeration<URL> configs = null;
     Iterator<String> pending = null;
-    String nextName = null;    
+    String nextName = null;
     privatebooleanhasNextService(){
         // 第二次调用的时候，已经解析完成了，直接返回
         if (nextName != null) {
@@ -288,7 +288,7 @@ private S nextService() {
     S p = service.cast(c.newInstance());
     //放入集合，返回实例
     providers.put(cn, p);
-    return p; 
+    return p;
 }
 ```
 

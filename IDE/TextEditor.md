@@ -269,7 +269,7 @@ REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Executi
 - SublimeCodeIntel
 
 > 一个全功能的 Sublime Text 代码自动完成引擎 ，本人做过对比，但是如果和webstorm的自动寻找还是稍逊一筹，
-> 不过对于大部分人来说够用了，能很方便跳到你想要的方法,支持的语言挺多的（JavaScript, Mason, XBL, XUL, 
+> 不过对于大部分人来说够用了，能很方便跳到你想要的方法,支持的语言挺多的（JavaScript, Mason, XBL, XUL,
 > RHTML, SCSS, Python, HTML, Ruby, Python3, XML, Sass, XSLT, Django, HTML5, Perl, CSS, Twig,
 > Less, Smarty, Node.js, Tcl, TemplateToolkit, PHP.）
 

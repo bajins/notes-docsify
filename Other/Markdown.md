@@ -90,12 +90,12 @@ ___
 
 ## 标题
 
-`#` 一级标题  
-`##` 二级标题  
-`###` 三级标题  
-`####` 四级标题  
-`#####` 五级标题  
-`######` 六级标题  
+`#` 一级标题
+`##` 二级标题
+`###` 三级标题
+`####` 四级标题
+`#####` 五级标题
+`######` 六级标题
 
 
 ## 文本
@@ -140,7 +140,7 @@ ___
 > 也适合做一篇文章的tag
 
 ```
-`linux` `网络编程` `socket` `epoll` 
+`linux` `网络编程` `socket` `epoll`
 ```
 
 > 效果：`linux` `网络编程` `socket` `epoll`
@@ -226,7 +226,7 @@ ___
 
 ### 图片链接
 
-> 给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。  
+> 给图片加链接的本质是混合图片显示语法和普通的链接语法。普通的链接中[ ]内部是链接要显示的文本，而图片链接[ ]里面则是要显示的图片。
 > 直接混合两种语法当然可以，但是十分啰嗦，为此我们可以使用URL标识符的形式。
 
 [zhihu-logo]:https://static.zhihu.com/static/favicon.ico "知乎logo"
@@ -280,7 +280,7 @@ ___
 
 **一般效果**
 
-> 就是在数字后面加一个点，再加一个空格。不过看起来起来可能不够明显。    
+> 就是在数字后面加一个点，再加一个空格。不过看起来起来可能不够明显。
 
 - 面向对象的三个基本特征：
 
@@ -291,12 +291,12 @@ ___
 
 **多级有序列表**
 
-> 和无序列表一样，有序列表也有多级结构 
+> 和无序列表一样，有序列表也有多级结构
 
 1. 这是一级的有序列表，数字1还是1
    1. 这是二级的有序列表，阿拉伯数字在显示的时候变成了罗马数字
       1. 这是三级的有序列表，数字在显示的时候变成了英文字母
-	 
+
 
 ### 复选框列表
 
@@ -323,8 +323,8 @@ ___
 其中交战的两个派别无法就应该从哪一端打开一个半熟的鸡蛋达成一致。因此，争论沦为关于社会政治的争论。
 只要选择了一种规则并且始终如一的坚持，其实对于哪种字节排序的选择都是任意的。
 
-> **“端”（endian）的起源**  
-以下是Jonathan Swift在1726年关于大小端之争历史的描述：  
+> **“端”（endian）的起源**
+以下是Jonathan Swift在1726年关于大小端之争历史的描述：
 “……下面我要告诉你的是，Lilliput和Blefuscu这两大强国在过去36个月里一直在苦战。
 战争开始是由于以下的原因：我们大家都认为，吃鸡蛋前，原始的方法是打破鸡蛋较大的一端，
 可是当今的皇帝的祖父小时候吃鸡蛋，一次按古法打鸡蛋时碰巧将一个手指弄破了，因此他的父亲，
@@ -675,6 +675,12 @@ string &operator+(const string& A,const string& B) //cpp
     * [https://github.com/Vinzent03/obsidian-advanced-uri](https://github.com/Vinzent03/obsidian-advanced-uri)
     * [https://github.com/coddingtonbear/obsidian-local-rest-api](https://github.com/coddingtonbear/obsidian-local-rest-api)
     * [https://github.com/MarkusPfundstein/mcp-obsidian](https://github.com/MarkusPfundstein/mcp-obsidian)
+    * [https://github.com/petersolopov/obsidian-claude-ide](https://github.com/petersolopov/obsidian-claude-ide)
+    * [https://github.com/istefox/obsidian-mcp-connector](https://github.com/istefox/obsidian-mcp-connector)
+    * [https://github.com/cyanheads/obsidian-mcp-server](https://github.com/cyanheads/obsidian-mcp-server)
+    * [https://github.com/Vasallo94/obsidian-mcp-server](https://github.com/Vasallo94/obsidian-mcp-server)
+    * [https://github.com/swarogan/obsidian-mcp-rest](https://github.com/swarogan/obsidian-mcp-rest)
+    * [https://github.com/StevenStavrakis/obsidian-mcp](https://github.com/StevenStavrakis/obsidian-mcp)
     * [https://xuanyuan.cloud/search?q=obsidian](https://xuanyuan.cloud/search?q=obsidian)
 * [https://github.com/siyuan-note/siyuan](https://github.com/siyuan-note/siyuan)
 * [https://github.com/anyproto](https://github.com/anyproto)

@@ -109,7 +109,7 @@
 |compressableMimeType| 可以在`conf/web.xml`中的`Default MIME Type Mappings`部分找到|
 
 
-```xml     
+```xml
 <Connector executor="tomcatThreadPool"
         connectionTimeout="20000"
         port="8080"
@@ -166,7 +166,7 @@ tomcat.util.http.parser.HttpParser.requestTargetAllow=|{}
 > 在`webapps`目录中增加新的目录、`war`文件、修改`WEB-INF/web.xml`，`autoDeploy="true"`会新建或重新部署应用，该选项方便部署。
 
 ```xml
-<Context docBase="xxx" path="/xxx" reloadable="true" autoDeploy="true"/> 
+<Context docBase="xxx" path="/xxx" reloadable="true" autoDeploy="true"/>
 ```
 
 
@@ -319,9 +319,9 @@ export CATALINA_2_BASE CATALINA_2_HOME TOMCAT_2_HOME
 - 刷新环境变量
 
 > `source`命令也称为“点命令”，也就是一个点符号`.`。`source`命令通常用于重新执行刚修改的初始化文件，使之立即生效
- 
+
 ```bash
-source /etc/profile 
+source /etc/profile
 # 或者
 . /etc/profile
 ```

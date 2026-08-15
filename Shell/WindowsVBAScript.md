@@ -5,7 +5,7 @@
 
 ## Flag
 
-> Office Visual Basic for Applications (VBA) 
+> Office Visual Basic for Applications (VBA)
 
 + [https://github.com/MicrosoftDocs/VBA-Docs](https://github.com/MicrosoftDocs/VBA-Docs)
 + [Visual Basic for Applications (VBA) 语言参考](https://docs.microsoft.com/zh-cn/office/vba/api/overview/language-reference)
@@ -80,7 +80,7 @@ excel：
 Function ReSplit(rng As Range)
     Dim newStr As String
     Dim countNum As Integer
-    
+
     old = Strings.Split(rng, " ")
     For Each e In old
         If e <> "" Then
@@ -113,9 +113,9 @@ Function ReSplit(rng As Range)
     End If
     Debug.Print newStr
     Debug.Print countNum
-    
+
     ReSplit = newStr
-    
+
     'ActiveCell.Address '这是当前单元格地址
     'Selection.Offset(1, 0).Select '这是向下跳1格
     'Selection.Offset(-1, 0).Select '这是向上跳1格
@@ -145,12 +145,12 @@ Sub run()
         'Exit Sub
     'End If
     Debug.Print "当前选择：", rng.Address(1, 1)
-    
+
     rngs = Strings.Split(rng.Address(1, 1), ":")
     st = Strings.Split(rngs(0), "$")(1)
     sta = Replace(rngs(0), "$", "")
     'Debug.Print rngs(0), st, sta
-    
+
     of1Content = "整理后的数据"
     of2Content = "整理后的统计"
     If Range(st & "1").offset(0, 1) <> of1Content Then
@@ -162,12 +162,12 @@ Sub run()
         Range(sta).offset(0, 2).EntireColumn.Insert
         Range(st & "1").offset(0, 2) = of2Content
     End If
-    
+
     For Each im In rng
-        
+
         If im <> "" Then
             'Debug.Print TypeName(im), im.Address
-            
+
             str1 = ReSplit(Range(Replace(im.Address, "$", "")))
             im.offset(0, 1) = str1
             im.offset(0, 2) = Application.CountA(Strings.Split(str1, ","))

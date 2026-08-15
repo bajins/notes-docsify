@@ -51,7 +51,7 @@ binlog_row_image = full
 ```sql
 select, super/replication client, replication slave
 -- 建议授权
-GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO 
+GRANT SELECT, REPLICATION SLAVE, REPLICATION CLIENT ON *.* TO
 ```
 
 ### 查看目前的binlog文件

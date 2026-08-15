@@ -66,7 +66,7 @@
 **WebStorm保存后跳过Eclipse自动同步到Tomcat**
 
 - `File` -> `Settings` -> `Build, Execution, Deployment` -> `Deployment` （或顶部菜单 `Tools` -> `Deployment` -> `Configuration`）
-- 配置一个应用：右侧点击`+`号 -> 点击`Local or mounted floder` -> 输入自定义名称 
+- 配置一个应用：右侧点击`+`号 -> 点击`Local or mounted floder` -> 输入自定义名称
    - 右侧`Connection`页签
       - `Floder` 选择Eclipse配置的Tomcat部署的当前项目路径
    - 右侧`Mappings`页签
@@ -89,7 +89,7 @@
 
 > 默认没有 `Dynamic Web Project`
 
-- `Help` -> `Install New Software` -> `Work with` 选择 `All available Sites` -> 
+- `Help` -> `Install New Software` -> `Work with` 选择 `All available Sites` ->
 勾选 `Web,XML,Java EE and OSGi Enterprise Development` -> `Next` -> `I accept the terms of the licence agreement`
 
 
@@ -115,7 +115,7 @@
 
 + `Window` -> `Preferences` -> `General` -> `Editors` -> `Text Editors` -> `Show Print Margin`
    + `Print margin column` 行宽
-   + `Allow editors to override the margin column` 
+   + `Allow editors to override the margin column`
 
 
 **Java 格式化**
@@ -145,7 +145,7 @@
 
 - `Window` -> `Preferences` -> `Web` -> `Client-side JavaScript` -> `Code Style` -> `Formatter` -> `New` -> `Edit`
    - -> `Line Wrapping` 行宽
-      - `Maximum Line width` 
+      - `Maximum Line width`
       - `Set line width for preview window` 设置预览窗口的线宽
    - -> `Comments`
       - `Maximum line width for comments`
@@ -297,7 +297,7 @@
 ## 调整运行内存
 
 - 在eclipse的安装目录下编辑`eclipse.ini`文件
- 
+
 [JVM参数设置](/Java/Tomcat.md#四)
 
 ```conf
@@ -368,7 +368,7 @@
 /**
  * @Title ${file_name}
  * @Package ${package_name}
- * @Description 
+ * @Description
  * @author bajins.com
  * @date ${date} ${time}
  * @version V1.0
@@ -397,7 +397,7 @@
 
 ```java
 /**
- * 
+ *
  * ${tags} ${return_type}
  * @author bajins.com
  * @date ${date} ${time}

@@ -348,7 +348,7 @@ class MyFrame(wx.Frame):
         vbox=wx.BoxSizer(wx.VERTICAL)
         vbox.Add(hbox1,1,flag=wx.ALL|wx.EXPAND,border=5)
         vbox.Add(hbox2,1,flag=wx.ALL|wx.EXPAND,border=5)
-        
+
 
         #ListBox类实例 wx.LB_SINGLE只能选择单个
         self.listbox1 = wx.ListBox(panel,-1,(50,80),(200, 60),list1,wx.LB_SINGLE)
@@ -611,28 +611,28 @@ from PyQt5 import QtWidgets, QtCore
 import sys
 from PyQt5.QtCore import *
 import time
- 
- 
+
+
 # 继承QThread
 class Runthread(QtCore.QThread):
     #  通过类成员对象定义信号对象
     _signal = pyqtSignal(str)
- 
+
     def __init__(self):
         super(Runthread, self).__init__()
- 
+
     def __del__(self):
         self.wait()
- 
+
     def run(self):
         for i in range(100):
             time.sleep(0.2)
             # 注意这里与_signal = pyqtSignal(str)中的类型相同
             self._signal.emit(str(i))
- 
- 
+
+
 class Example(QtWidgets.QWidget):
- 
+
     def __init__(self):
         super().__init__()
         # 按钮初始化
@@ -642,19 +642,19 @@ class Example(QtWidgets.QWidget):
         self.button.move(120, 80)
         # 绑定多线程触发事件
         self.button.clicked.connect(self.start_login)
- 
+
         # 进度条设置
         self.pbar = QtWidgets.QProgressBar(self)
         self.pbar.setGeometry(50, 50, 210, 25)
         self.pbar.setValue(0)
- 
+
         # 窗口初始化
         self.setGeometry(300, 300, 300, 200)
         self.setWindowTitle('OmegaXYZ.com')
         self.show()
- 
+
         self.thread = None  # 初始化线程
- 
+
     def start_login(self):
         # 创建线程
         self.thread = Runthread()
@@ -662,12 +662,12 @@ class Example(QtWidgets.QWidget):
         self.thread._signal.connect(self.call_backlog)
         # 开始线程
         self.thread.start()
- 
+
     def call_backlog(self, msg):
         # 将线程的参数传入进度条
         self.pbar.setValue(int(msg))
- 
- 
+
+
 if __name__ == "__main__":
     app = QtWidgets.QApplication(sys.argv)
     myshow = Example()
@@ -838,7 +838,7 @@ datas=[('view/imges/*', '.'), ('view/static/logo.png','view/static/')],
 import os
 import sys
 import multiprocessing
- 
+
 # Module multiprocessing is organized differently in Python 3.4+
 try:
     # Python 3.4+
@@ -848,7 +848,7 @@ try:
         import multiprocessing.popen_fork as forking
 except ImportError:
     import multiprocessing.forking as forking
- 
+
 if sys.platform.startswith('win'):
     # First define a modified version of Popen.
     class _Popen(forking.Popen):
@@ -869,10 +869,10 @@ if sys.platform.startswith('win'):
                         os.unsetenv('_MEIPASS2')
                     else:
                         os.putenv('_MEIPASS2', '')
- 
+
     # Second override 'Popen' class with our modified version.
     forking.Popen = _Popen
- 
+
 ```
 
 
@@ -902,10 +902,10 @@ if sys.platform.startswith('win'):
 from distutils.core import setup
 import py2exe
 import sys
- 
+
 # 允许程序通过双击的形式执行。
 sys.argv.append('py2exe')
- 
+
 py2exe_options = {
         # 需要包含的文件，这里的"sip"是PyQt程序打包时需要添加的，如果不是PyQt程序不需要此项。
         "includes": ["sip"],
@@ -926,7 +926,7 @@ py2exe_options = {
         """
         "bundle_files": 1,
         }
- 
+
 setup(
       name = 'PyQt Demo',
       version = '1.0',
@@ -934,7 +934,7 @@ setup(
       这里使用的是windows，即没有命令行窗口出现，如果使用console则表示有命令行窗口出现。
       "myico.ico"是程序图标
       """
-      windows = [{ "script":'wordreplace.py',"icon_resources":[(1,"myico.ico")]}], 
+      windows = [{ "script":'wordreplace.py',"icon_resources":[(1,"myico.ico")]}],
       """
       把images目录中所有的jpg文件打包到dist/images子目录中。
       把public目录下的test.bat文件打包到dist/static子目录中。

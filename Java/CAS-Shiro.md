@@ -38,7 +38,7 @@ if eof then
     -- 获取所有响应数据
     local whole = table.concat(ngx.ctx.buffered)
     ngx.ctx.buffered = nil
-    
+
     -- 内容有指定IP
     if whole
         -- 判断响应Host是否为客户端访问Host
@@ -71,7 +71,7 @@ location /test {
     proxy_read_timeout 500s;
     proxy_send_timeout 500s;
     proxy_pass http://server/test;
-    
+
     proxy_set_header Host $host:$server_port;
     #proxy_set_header Host $http_host;
     #proxy_set_header Host $server_addr:$server_port;
@@ -81,7 +81,7 @@ location /test {
     # https://nginx.org/en/docs/http/ngx_http_proxy_module.html#proxy_redirect
     #proxy_redirect $scheme://$server_addr:$server_port/ /;
     #proxy_redirect $scheme://$server_addr:$server_port/ $scheme://$http_host/;
-    #proxy_redirect ~^http://172.16.0.1:81(.*) http://100.100.100.100:81$1; 
+    #proxy_redirect ~^http://172.16.0.1:81(.*) http://100.100.100.100:81$1;
     proxy_redirect ~^http://172.16.0.91:81(.*) $scheme://$http_host$1;
     #proxy_set_header REMOTE-HOST $server_addr;
     proxy_set_header X-FORWARDED-HOST $server_addr;
@@ -89,7 +89,7 @@ location /test {
     proxy_set_header Referer $http_referer;
     proxy_set_header Cookie $http_cookie;
     # response中set-cookie的domain转换
-    #proxy_cookie_domain $server_addr $host; 
+    #proxy_cookie_domain $server_addr $host;
 }
 ```
 
@@ -111,7 +111,7 @@ location /test {
 
 ```nginx
 if ($is_args = "?"){
-  
+
 }
 if ($arg_service){
     set $arg_service "http://172.16.0.91:81/test/login";
@@ -233,7 +233,7 @@ public class ImsAuthenticationFilter extends FormAuthenticationFilter {
         if (isIntranet || httpServletRequest.getRemoteHost().equals("172.16.0.91")) { // 如果是内网
             WebUtils.issueRedirect(request, response, domain + "/cas" + loginUrl);
         } else {
-            
+
         }*/
 
         // 获取servletContext容器
@@ -287,7 +287,7 @@ public class ImsAuthenticationFilter extends FormAuthenticationFilter {
     /**
      * 获取用户真实IP地址
      * <p>
-     * 当我们通过request获取客户端IP时，如果对自身服务器做了反向代理。 
+     * 当我们通过request获取客户端IP时，如果对自身服务器做了反向代理。
      * 通过request.getRemoteAddr();可能获取到的是代理服务器的IP，而无法获取到用户请求IP
      *
      * @param request

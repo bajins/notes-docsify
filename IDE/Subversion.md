@@ -16,6 +16,8 @@
         - [https://svn.code.sf.net/p/tortoisesvn/code](https://svn.code.sf.net/p/tortoisesvn/code)
         - [https://github.com/stefankueng/TortoiseSVN](https://github.com/stefankueng/TortoiseSVN)
         - [https://tortoisesvn.net/downloads.html](https://tortoisesvn.net/downloads.html)
+        - [https://tortoisesvn.subversion.org.cn](https://tortoisesvn.subversion.org.cn)
+        - [https://tortoisesvn.tw](https://tortoisesvn.tw)
         - 安装时一定要选择`command line cient tools`下的`Entire feature will be installed on local hard drive`把svn.exe等文件安装
         - 从SVN1.14.3开始自签的CA不再支持，只支持TLS1.1，如果需要支持只能安装TortoiseSVN1.14.5及以下版本
 - [https://www.collab.net/downloads/subversion](https://www.collab.net/downloads/subversion)
@@ -35,7 +37,7 @@
 
 
 
-> 按装`VisualSVN`后客户端使用报错：`执行上下文错误: 由于目标计算机积极拒绝，无法连接。`，需要在`服务`列表中找到相关服务 -> 
+> 按装`VisualSVN`后客户端使用报错：`执行上下文错误: 由于目标计算机积极拒绝，无法连接。`，需要在`服务`列表中找到相关服务 ->
 > 右键打开属性 -> 点击登录页签修改`登录身份`为`本地系统账户` -> 点击常规页签修改`启动类型`为`自启动`，再点击启动
 
 
@@ -58,6 +60,45 @@ svn log --quiet | grep "^r" | awk '{print $3}' | sort | uniq
 
 > 选中要比对的一个分支，<kbd>Shift</kbd>+右键+选中`TorsoiseSVN` -> `diff with url`，然后填入另外一个要比对的分支url即可
 
+
+
+**统计文件夹大小**
+
+> 只看一级：`--depth immediates`
+
+```powershell
+([xml](svn list --xml --recursive <仓库URL>)).lists.list.entry | Where-Object { $_.kind -eq 'file' } | Measure-Object -Sum size | Select-Object Count, Sum
+
+([xml](svn ls --xml -R "<仓库URL>")).lists.list.entry | Where-Object { $_.kind -eq 'file' } | Measure-Object -Property size -Sum | ForEach-Object { "总大小: {0:N2} MB" -f ($_.Sum / 1MB) }
+
+(([xml](svn list --xml -R <仓库URL>)).lists.list.entry | Where-Object { $_.kind -eq 'file' } | Measure-Object -Property size -Sum).Sum | Write-Host "$_ 字节"
+
+# 逐个子目录递归并汇总大小
+$url='<仓库URL>'; ((svn list --depth immediates $url) | ForEach-Object { if ($_ -match '/$') { $sub = "$url/$_".TrimEnd('/'); ([xml](svn list --xml -R $sub)).lists.list.entry | Where-Object kind -eq 'file' | Measure-Object size -Sum | % Sum } else { $f = $_ -replace '\s+$',''; ([xml](svn info --xml "$url/$f")).info.entry.size } }) | Measure-Object -Sum | % Sum | Write-Output
+```
+
+
+
+```bash
+svn list --xml -R <仓库URL> \
+  | xmllint --xpath 'sum(/lists/list/entry/size) div 1024 div 1024 div 1024' - \
+  | xargs printf '%.2f GiB\n'
+
+svn list --xml -R <仓库URL> | awk -F'[><]' '/<size>/{sum+=$3} END{printf "%.2f GiB\n", sum/1024/1024/1024}'
+
+svn list --xml -R <仓库URL> | grep -oP 'kind="file" size="\K\d+' | awk '{s+=$1} END {print s " 字节"}'
+
+svn list --xml -R <仓库URL> | xmlstarlet sel -t -v "//entry[@kind='file']/size" | awk '{s+=$1} END {print s " 字节"}'
+
+svn ls --xml -R <仓库URL> | grep -oP '(?<=<size>)[0-9]+' | awk '{sum+=$1} END {print "总大小: " sum/1024/1024 " MB"}'
+
+svn list -v -R <仓库URL> > listing.txt
+
+svn list -vR <仓库URL> | awk '$3 ~ /^[0-9]+$/ {sum+=$3; n++} END{printf "文件数=%d  总大小=%.2f MiB\n", n, sum/1024/1024}'
+
+# 逐个子目录递归并汇总大小
+url='<仓库URL>'; sum=0; while IFS= read -r line; do if [[ $line =~ /$ ]]; then size=$(svn list --xml -R "$url/$line" | grep -oP 'kind="file" size="\K\d+' | awk '{s+=$1} END{print s}'); sum=$((sum + ${size:-0})); else f="${line%%[[:space:]]}"; size=$(svn info --xml "$url/$f" | grep -oP 'size="\K\d+' | head -1); sum=$((sum + ${size:-0})); fi; done < <(svn list --depth immediates "$url"); echo "$sum"
+```
 
 
 
@@ -164,7 +205,7 @@ netstat -antlp|grep svnserve
 firewall-cmd --zone=public --add-port=3690/tcp --permanent
 firewall-cmd --reload
 ```
- 
+
 **连接地址：`svn://host:port/仓库名`**
 
 

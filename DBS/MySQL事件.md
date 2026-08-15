@@ -65,16 +65,16 @@ ON SCHEDULE
 
 -- 可以设置这个事件是执行一次还是持久执行，默认为`NOT PRESERVE`
 -- 即默认的计划任务执行完毕后自动drop该事件
-ON COMPLETION PRESERVE 
+ON COMPLETION PRESERVE
 -- 可是设置该事件创建后状态是否开启或关闭，默认为`ENABLE`
 ENABLE
 -- 可以给该事件加上注释，最大长度64个字节
 COMMENT "每隔一秒执行"
 DO
 	BEGIN
-		
+
 		SELECT * FROM USER LIMIT 10;
-		
+
 	END$$
 
 DELIMITER ;
@@ -94,16 +94,16 @@ ON SCHEDULE
 
 -- 可以设置这个事件是执行一次还是持久执行，默认为`NOT PRESERVE`
 -- 即默认的计划任务执行完毕后自动drop该事件
-ON COMPLETION PRESERVE 
+ON COMPLETION PRESERVE
 -- 可是设置该事件创建后状态是否开启或关闭，默认为`ENABLE`
 ENABLE
 -- 可以给该事件加上注释，最大长度64个字节
 COMMENT "每天凌晨1点执行"
 DO
 	BEGIN
-		
+
 		SELECT * FROM USER LIMIT 10;
-		
+
 	END$$
 
 DELIMITER ;
@@ -123,16 +123,16 @@ ON SCHEDULE
 
 -- 可以设置这个事件是执行一次还是持久执行，默认为`NOT PRESERVE`
 -- 即默认的计划任务执行完毕后自动drop该事件
-ON COMPLETION PRESERVE 
+ON COMPLETION PRESERVE
 -- 可是设置该事件创建后状态是否开启或关闭，默认为`ENABLE`
 ENABLE
 -- 可以给该事件加上注释，最大长度64个字节
 COMMENT "每隔一分钟执行"
 DO
 	BEGIN
-		
+
 		SELECT * FROM USER LIMIT 10;
-		
+
 	END$$
 
 DELIMITER ;
@@ -156,16 +156,16 @@ ON SCHEDULE
 
 -- 可以设置这个事件是执行一次还是持久执行，默认为`NOT PRESERVE`
 -- 即默认的计划任务执行完毕后自动drop该事件
-ON COMPLETION PRESERVE 
+ON COMPLETION PRESERVE
 -- 可是设置该事件创建后状态是否开启或关闭，默认为`ENABLE`
 ENABLE
 -- 可以给该事件加上注释，最大长度64个字节
 COMMENT "每隔一分钟执行，指定开始时间和结束时间"
 DO
 	BEGIN
-		
+
 		SELECT * FROM USER LIMIT 10;
-		
+
 	END$$
 
 DELIMITER ;
@@ -189,16 +189,16 @@ ON SCHEDULE
 
 -- 可以设置这个事件是执行一次还是持久执行，默认为`NOT PRESERVE`
 -- 即默认的计划任务执行完毕后自动drop该事件
-ON COMPLETION PRESERVE 
+ON COMPLETION PRESERVE
 -- 可是设置该事件创建后状态是否开启或关闭，默认为`ENABLE`
 ENABLE
 -- 可以给该事件加上注释，最大长度64个字节
 COMMENT "一小时后只执行一次"
 DO
 	BEGIN
-		
+
 		SELECT * FROM USER LIMIT 10;
-		
+
 	END$$
 
 DELIMITER ;
@@ -245,6 +245,6 @@ ALTER EVENT event_name DISABLE;
 ## 启动定时器
 
 ```sql
-ALTER EVENT event_remind_status ON    
-COMPLETION PRESERVE ENABLE; 
+ALTER EVENT event_remind_status ON
+COMPLETION PRESERVE ENABLE;
 ```

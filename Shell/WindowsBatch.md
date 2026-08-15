@@ -27,7 +27,7 @@
 - 使用cd切换目录时，如果带盘符一定要加`/d`参数，否则切换无效
 - 双引号中包含双引号最里层的要用三个`"""`转义，`&`符号要用`^`转义
   - 示例:使用`curl`配合`jq`获取必应壁纸下载地址
-  
+
 ```batch
 curl "http://cn.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1" ^
  | jq-win64.exe ".images[0].url | """https://cn.bing.com""" + .[0:index("""^&""")]" >> bing.txt
@@ -122,7 +122,7 @@ for /r %~dp0 %%a in (*.jpg,*.png) do (
 	set path = %%~pa
 	::把驱动号赋值给变量
 	set drive = %%~da
-	
+
 	::判断后缀
 	if /i "!suffix!" neq ".bmp" (
 		ren "%%~a" "%%~na.bmp"
@@ -426,7 +426,7 @@ SCHTASKS /run /TN 任务名称
 ## 判断字符串
 
 > 注意：在|两端不能有空格，如果有空格则会出现匹配不正确
-> 
+>
 > 这里有个BUG不能取反匹配，比如用`[^0-9]`匹配不是纯数字的字符，匹配到`.`会通过
 
 **判断是否为数字、字母**
@@ -547,8 +547,8 @@ if '%errorlevel%' NEQ '0' (
 ```batch
 @echo off
 :: 检查权限
-net session >nul 2>&1 
-if not "%errorLevel%" == "0" ( 
+net session >nul 2>&1
+if not "%errorLevel%" == "0" (
     echo 不具备所在目录的写入权限! >&2
     exit /b 1
 )
@@ -556,7 +556,7 @@ if not "%errorLevel%" == "0" (
 
 ```batch
 reg query HKU\S-1-5-20>nul 2>nul
-if not "%errorLevel%" == "0" ( 
+if not "%errorLevel%" == "0" (
     echo 不具备所在目录的写入权限! >&2
     exit /b 1
 )
@@ -581,7 +581,7 @@ if '%errorlevel%' NEQ '0' ( goto UACPrompt ) else ( goto GetAdmin )
 :UACPrompt
     ::if not "%~1"=="" set file= ""%~1""
     ::echo CreateObject("Shell.Application").ShellExecute "cmd.exe", "/c %~s0%file%", "", "runas", 0 > "%temp%\getadmin.vbs"
-    echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas", 0 > "%temp%\getadmin.vbs" 
+    echo CreateObject^("Shell.Application"^).ShellExecute "%~s0", "%*", "", "runas", 0 > "%temp%\getadmin.vbs"
     "%temp%\getadmin.vbs"
     exit /B
 :GetAdmin
@@ -731,12 +731,12 @@ REG ADD "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v 软件名 /d """
 
 **主要作用**
 
-1. 记录安装信息 
-2. 设置硬件 
-3. 设置软件 
-4. 定制Windows 
-5. 系统安全管理 
-6. 自动运行程序 
+1. 记录安装信息
+2. 设置硬件
+3. 设置软件
+4. 定制Windows
+5. 系统安全管理
+6. 自动运行程序
 7. 网络设置
 
 
@@ -829,7 +829,7 @@ REG ADD "HKU\.DEFAULT\Control Panel\Keyboard" /v InitialKeyboardIndicators /t RE
 - 把图片设置为壁纸
 
 ```batch
-REG ADD "HKCU\Control Panel\Desktop" /v TileWallpaper /d "0" /f 
+REG ADD "HKCU\Control Panel\Desktop" /v TileWallpaper /d "0" /f
 REG ADD "HKCU\Control Panel\Desktop" /v Wallpaper /d "图片绝对路径" /f
 REG ADD "HKCU\Control Panel\Desktop" /v WallpaperStyle /t REG_DWORD /d 2 /f
 RunDll32.exe USER32.DLL,UpdatePerUserSystemParameters
@@ -852,7 +852,7 @@ REG DELETE "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Explore
 REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 1 /t REG_DWORD /f
 
 :: 启用Windows Defender
-REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 0 /t REG_DWORD /f   
+REG ADD "HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows Defender" /v "DisableAntiSpyware" /d 0 /t REG_DWORD /f
 ```
 
 

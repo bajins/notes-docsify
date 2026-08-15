@@ -213,6 +213,8 @@ $patterns=@("*WindowsWorkload*","*Microsoft.Windows.Ai.Copilot.Provider*");forea
 * Windows优化 [https://github.com/atlas-os/atlas](https://github.com/atlas-os/atlas)
 * 桌面美化 [https://github.com/runixe786/md3-windows](https://github.com/runixe786/md3-windows)
 * Windows优化 [https://github.com/christitustech/winutil](https://github.com/christitustech/winutil)
+* 显卡驱动卸载 [https://github.com/Wagnard/display-drivers-uninstaller](https://github.com/Wagnard/display-drivers-uninstaller)
+    * [显示驱动卸载器（DDU）下载与支持](https://www.wagnardsoft.com/forums/viewforum.php?f=5)
 
 
 
@@ -283,10 +285,10 @@ Dism /online /Add-ProvisionedAppxPackage /PackagePath:"C:\Windows\SystemApps\Mic
 
 **Wifi频繁断线**
 
-> 打开`设备管理器` -> 点开`网络适配器` -> 选中网卡 -> 鼠标右键打开菜单 -> 点击`属性` -> 点击`电源管理` -> 
+> 打开`设备管理器` -> 点开`网络适配器` -> 选中网卡 -> 鼠标右键打开菜单 -> 点击`属性` -> 点击`电源管理` ->
 > 取消勾选`允许计算机关闭此设备以节约电源`
 
-> 点击`网络和共享中心` -> `更改适配器设置` -> 双击`WLAN` -> 点击`无线属性` -> 勾选`即使网络未广播其名称也连接` 
+> 点击`网络和共享中心` -> `更改适配器设置` -> 双击`WLAN` -> 点击`无线属性` -> 勾选`即使网络未广播其名称也连接`
 
 
 **MSTSC删除记录**
@@ -697,7 +699,7 @@ LTSC 2021(EnterpriseS_VB)：KCNVH-YKWX8-GJJB9-H9FDT-6F7W2
 LTSC 2019(EnterpriseS_RS5)：43TBQ-NH92J-XKTM7-KT3KK-P39PB
 LTSB 2016(EnterpriseS_RS1)：NK96Y-D9CD8-W44CQ-R8YTK-DYJWX
 LTSB 2015(EnterpriseS_TH)：FWN7H-PF93Q-4GGP8-M8RF3-MDWWW
-物联网版(IoTEnterprise)：XQQYW-NFFMW-XJPBH-K8732-CKFFD 
+物联网版(IoTEnterprise)：XQQYW-NFFMW-XJPBH-K8732-CKFFD
 物联网版2021(IoTEnterpriseS_VB)：QPM6N-7J2WJ-P88HH-P3YRH-YY74H
 物联网版2024(IoTEnterpriseS_Ge)：CGK42-GYN6Y-VD22B-BX98W-J8JXD
 ```

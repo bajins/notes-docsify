@@ -171,7 +171,7 @@
 - `SUM` 求和
 - `TO_DATE`
 - `<>` 注意：`!=`是方言
- 
+
 
 ## SQL1999
 
@@ -238,7 +238,7 @@ JOIN employees m ON e.`manager_id`=m.`employee_id`;
 
 ```sql
 SELECT e.last_name,m.last_name
-FROM employees e,employees m 
+FROM employees e,employees m
 WHERE e.`manager_id`=m.`employee_id`;
 ```
 
