@@ -54,6 +54,7 @@
 * [https://github.com/codelibs/jcifs](https://github.com/codelibs/jcifs)
 * SSH/SCP/SFTP [https://github.com/hierynomus/sshj](https://github.com/hierynomus/sshj)
 * [https://github.com/is/jsch](https://github.com/is/jsch)
+* D-Bus [https://github.com/hypfvieh/dbus-java](https://github.com/hypfvieh/dbus-java)
 
 
 

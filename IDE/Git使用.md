@@ -62,6 +62,29 @@
 * Git大全 [https://gitee.com/all-about-git](https://gitee.com/all-about-git)
 * [Git 团队协作中常用术语 WIP PTAL CC LGTM 等解释](https://blog.csdn.net/kunyus/article/details/93472646)
 * 自己动手写Git [https://github.com/hanyujie2002/wyag-zh](https://github.com/hanyujie2002/wyag-zh)
+* Git学习 [https://github.com/pcottle/learngitbranching](https://github.com/pcottle/learngitbranching)
+* 提交信息生成 [https://github.com/romanhotsiy/commitgpt](https://github.com/romanhotsiy/commitgpt)
+* Git实现 [https://github.com/byron/gitoxide](https://github.com/byron/gitoxide)
+* Git存储 [https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store](https://github.blog/*022-08-29-gits-database-internals-i-packed-object-store)
+* 缺陷追踪 [https://github.com/michaelmure/git-bug](https://github.com/michaelmure/git-bug)
+* 版本控制 [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
+* Git哈希 [https://github.com/not-an-aardvark/lucky-commit](https://github.com/not-an-aardvark/lucky-commit)
+* 版本控制 [https://github.com/sturdy-dev/sturdy](https://github.com/sturdy-dev/sturdy)
+* Git教程 [https://wkevin.github.io/GitChat/gitchat.html](https://wkevin.github.io/GitChat/gitchat.html)
+* Git原理 [https://www.freecodecamp.org/chinese/news/git-internals-objects-branches-create-repo](https://www.freecodecamp.org/chinese/*ews/git-internals-objects-branches-create-repo)
+* Git技巧 [https://colstuwjx.github.io/2020/11/git实用技巧和原理解读](https://colstuwjx.github.io/2020/11/git实用技巧和原理解读)
+* Git终端 [https://github.com/rgburke/grv](https://github.com/rgburke/grv)
+* Git速查 [https://wizardzines.com/git-cheat-sheet.pdf](https://wizardzines.com/git-cheat-sheet.pdf)
+* Git周刊 [https://segmentfault.com/a/1190000042196077](https://segmentfault.com/a/1190000042196077)
+* Git原理 [https://cloud.tencent.com/developer/article/1369947](https://cloud.tencent.com/developer/article/1369947)
+* Git提交图 [https://github.com/lusingander/serie](https://github.com/lusingander/serie)
+* Git原理实现 [https://github.com/chrisdickinson/git-rs](https://github.com/chrisdickinson/git-rs)
+* Git入门 [https://rogerdudler.github.io/git-guide/index.zh.html](https://rogerdudler.github.io/git-guide/index.zh.html)
+* Git图解 [https://github.com/marklodato/visual-git-guide](https://github.com/marklodato/visual-git-guide)
+* Git教程 [https://backlog.com/git-tutorial/cn/intro/intro1_1.html](https://backlog.com/git-tutorial/cn/intro/intro1_1.html)
+* 变更日志 [https://git-cliff.org](https://git-cliff.org)
+* 自写Git [https://github.com/thblt/write-yourself-a-git](https://github.com/thblt/write-yourself-a-git)
+* 代码审查 [https://github.com/withgraphite](https://github.com/withgraphite)
 
 
 
@@ -80,29 +103,6 @@
 - `git clone url --depth 1` 克隆最新一条提交记录
 - `git clone url --recursive` 递归克隆
 - `git fetch --unshallow` 完整克隆
-- Git学习 [https://github.com/pcottle/learngitbranching](https://github.com/pcottle/learngitbranching)
-- 提交信息生成 [https://github.com/romanhotsiy/commitgpt](https://github.com/romanhotsiy/commitgpt)
-- Git实现 [https://github.com/byron/gitoxide](https://github.com/byron/gitoxide)
-- Git存储 [https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store](https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store)
-- 缺陷追踪 [https://github.com/michaelmure/git-bug](https://github.com/michaelmure/git-bug)
-- 版本控制 [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
-- Git哈希 [https://github.com/not-an-aardvark/lucky-commit](https://github.com/not-an-aardvark/lucky-commit)
-- 版本控制 [https://github.com/sturdy-dev/sturdy](https://github.com/sturdy-dev/sturdy)
-- Git教程 [https://wkevin.github.io/GitChat/gitchat.html](https://wkevin.github.io/GitChat/gitchat.html)
-- Git原理 [https://www.freecodecamp.org/chinese/news/git-internals-objects-branches-create-repo](https://www.freecodecamp.org/chinese/news/git-internals-objects-branches-create-repo)
-- Git技巧 [https://colstuwjx.github.io/2020/11/git实用技巧和原理解读](https://colstuwjx.github.io/2020/11/git实用技巧和原理解读)
-- Git终端 [https://github.com/rgburke/grv](https://github.com/rgburke/grv)
-- Git速查 [https://wizardzines.com/git-cheat-sheet.pdf](https://wizardzines.com/git-cheat-sheet.pdf)
-- Git周刊 [https://segmentfault.com/a/1190000042196077](https://segmentfault.com/a/1190000042196077)
-- Git原理 [https://cloud.tencent.com/developer/article/1369947](https://cloud.tencent.com/developer/article/1369947)
-- Git提交图 [https://github.com/lusingander/serie](https://github.com/lusingander/serie)
-- Git原理实现 [https://github.com/chrisdickinson/git-rs](https://github.com/chrisdickinson/git-rs)
-- Git入门 [https://rogerdudler.github.io/git-guide/index.zh.html](https://rogerdudler.github.io/git-guide/index.zh.html)
-- Git图解 [https://github.com/marklodato/visual-git-guide](https://github.com/marklodato/visual-git-guide)
-- Git教程 [https://backlog.com/git-tutorial/cn/intro/intro1_1.html](https://backlog.com/git-tutorial/cn/intro/intro1_1.html)
-- 变更日志 [https://git-cliff.org](https://git-cliff.org)
-- 自写Git [https://github.com/thblt/write-yourself-a-git](https://github.com/thblt/write-yourself-a-git)
-- 代码审查 [https://github.com/withgraphite](https://github.com/withgraphite)
 
 
 
@@ -141,6 +141,7 @@
 * [https://www.gitkraken.com](https://www.gitkraken.com)
 * [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 * [https://github.com/devlint/gitwand](https://github.com/devlint/gitwand)
+* [https://github.com/altsem/gitu](https://github.com/altsem/gitu)
 * worktree的UI [https://github.com/FatDoge/wtree](https://github.com/FatDoge/wtree)
 * SmartGit 是一款优秀的图形化Git仓库管理工具
 * SmartSVN 是一款优秀的图形化SVN仓库管理工具
@@ -172,6 +173,7 @@
 * 提交记录动画化 [https://github.com/unhappychoice/gitlogue](https://github.com/unhappychoice/gitlogue)
 * [https://github.com/Lionad-Morotar/project-river](https://github.com/Lionad-Morotar/project-river)
 * 仓库信息生成静态页面 [https://github.com/antonmedv/gitmal](https://github.com/antonmedv/gitmal)
+* [https://github.com/littledivy/dgit](https://github.com/littledivy/dgit)
 
 
 

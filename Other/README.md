@@ -756,6 +756,7 @@
 * [https://github.com/Librum-Reader/Librum](https://github.com/Librum-Reader/Librum)
 * [https://github.com/201206030/novel](https://github.com/201206030/novel)
 * [https://github.com/codedogQBY/ReadAny](https://github.com/codedogQBY/ReadAny)
+* [https://github.com/auto-novel/auto-novel](https://github.com/auto-novel/auto-novel)
 * Epub [https://github.com/pacexy/flow](https://github.com/pacexy/flow)
 
 

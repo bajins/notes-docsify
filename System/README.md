@@ -794,6 +794,7 @@
 * 时间轴 [https://github.com/hughfenghen/dimcut](https://github.com/hughfenghen/dimcut)
 * 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
 * SVG预览 [https://github.com/liujuntao123/new-svg-viewer](https://github.com/liujuntao123/new-svg-viewer)
+* [https://github.com/goku-open/goku-image-to-svg-tool](https://github.com/goku-open/goku-image-to-svg-tool)
 * PPT象限编辑器 [https://github.com/KwokKwok/slide-lab](https://github.com/KwokKwok/slide-lab)
 * 文字转图片 [https://github.com/byodian/oneimg](https://github.com/byodian/oneimg)
 * AI姿势 [https://github.com/AmyangXYZ/MiKaPo](https://github.com/AmyangXYZ/MiKaPo)

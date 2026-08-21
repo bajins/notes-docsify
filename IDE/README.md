@@ -592,6 +592,7 @@
 * [https://github.com/directus/directus](https://github.com/directus/directus)
 * [https://github.com/drawdb-io/drawdb](https://github.com/drawdb-io/drawdb)
 * [https://github.com/clidey/whodb](https://github.com/clidey/whodb)
+* [https://github.com/libredb/libredb-studio](https://github.com/libredb/libredb-studio)
 * 命令行 [https://github.com/danvergara/dblab](https://github.com/danvergara/dblab)
 * [https://github.com/xo/usql](https://github.com/xo/usql)
 

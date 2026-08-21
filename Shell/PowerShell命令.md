@@ -272,10 +272,13 @@ Function Lock-WorkStation {
 
 ```powershell
 # 查看所有进程
-wmic process get caption,commandline /value
-# 查看单个进程
-wmic process where caption="svchost.exe" get caption,commandline /value
-wmic process get caption,commandline /value | findstr "svchost.exe"
+Get-Process chrome | Select-Object Id, ProcessName, CommandLine
+Get-CimInstance Win32_Process | Select-Object Name, ProcessId, CommandLine
+Get-CimInstance Win32_Process -Filter "Name = 'chrome.exe'" | Select-Object ProcessId, CommandLine
+Get-Process chrome | ForEach-Object {
+    $p = $_
+    Get-CimInstance Win32_Process -Filter "ProcessId = $($p.Id)" | Select-Object ProcessId, CommandLine
+}
 ```
 
 

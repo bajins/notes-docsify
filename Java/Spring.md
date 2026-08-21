@@ -87,6 +87,71 @@
 > 可能是内存大小不够，加参数：`-Xms1024M -Xmx2048M -XX:MetaspaceSize=512m -XX:MaxMetaspaceSize=2048m -Xss5120k`
 
 
+## 初始化机制
+
+
+**不考虑 @Order 干扰的完整执行顺序**
+
+> ApplicationListener、@EventListener 贯穿整个生命周期
+
+```
+SpringApplication.run() 启动
+  ↓
+ApplicationStartingEvent
+  ↓
+准备 Environment（加载系统属性、环境变量、application.yml）
+  ↓
+ApplicationEnvironmentPreparedEvent
+  ↓
+EnvironmentPostProcessor#postProcessEnvironment 增删改 PropertySource、解密配置、拉取配置中心
+  ↓
+创建 ApplicationContext
+  ↓
+ApplicationContextInitializer.initialize 修改环境变量、提前注册配置源
+  ↓
+ApplicationContextInitializedEvent
+  ↓
+BeanDefinition 加载
+  ↓
+ApplicationPreparedEvent
+  ↓
+BeanDefinitionRegistryPostProcessor / BeanFactoryPostProcessor 修改 BeanDefinition 或动态注册 Bean
+  ↓
+注册 BeanPostProcessor
+  ↓
+Bean 实例化 → 属性注入 → Aware 回调
+  ↓
+BeanPostProcessor#postProcessBeforeInitialization
+  ↓
+@PostConstruct  Bean内部轻量初始化：避免耗时操作拖慢启动
+  ↓
+InitializingBean#afterPropertiesSet
+  ↓
+@Bean(initMethod) 第三方类无法改源码时的初始化
+  ↓
+BeanPostProcessor#postProcessAfterInitialization 修改 Bean 实例、生成代理对象（如AOP）
+  ↓
+SmartInitializingSingleton#afterSingletonsInstantiated 依赖所有单例 Bean 就绪后执行
+  ↓
+ContextRefreshedEvent 上下文刷新完成，所有 Bean 已初始化
+  ↓
+SmartLifecycle#start()（phase ≤ 0） 基础设施组件先启动
+  ↓
+SmartLifecycle#start()（phase > 0） 管理后台线程的生命周期，可控制启动/停止
+  ↓
+ApplicationStartedEvent
+  ↓
+ApplicationRunner#run 主流程初始化任务（加载缓存、初始化数据库、读取配置）
+  ↓
+CommandLineRunner#run 需要原始命令行参数时
+  ↓
+ApplicationReadyEvent 应用完全就绪、可接收流量后再执行
+  ↓
+ApplicationFailedEvent 若启动过程中发生异常触发
+```
+
+
+
 ## 事务
 
 + [org.springframework.transaction.annotation.Propagation](https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/transaction/annotation/Propagation.html)

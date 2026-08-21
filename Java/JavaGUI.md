@@ -94,6 +94,9 @@
 - [https://github.com/mcfoggy/cssfx](https://github.com/mcfoggy/cssfx)
 - [https://github.com/micheljung/jfx-waitomo-theme](https://github.com/micheljung/jfx-waitomo-theme) `[JavaFX]`
 - [https://github.com/Eroica/javafx-fluent-theme](https://github.com/Eroica/javafx-fluent-theme) `[JavaFX]`
+- 布局算法 [https://github.com/AmaronUI/amaronui-layouts](https://github.com/AmaronUI/amaronui-layouts) `[JavaFX Flexbox]`
+- [https://github.com/kirill-grouchnikov/radiance](https://github.com/kirill-grouchnikov/radiance) `[Swing 现代主题/组件]`
+- [https://github.com/mikaelgrev/miglayout](https://github.com/mikaelgrev/miglayout) `[Swing/SWT/JavaFX 布局管理器]`
 - Bootstrap样式 [https://github.com/dicolar/jbootx](https://github.com/dicolar/jbootx) `[JavaFX]`
 - [https://github.com/edvin/tornadofx-controls](https://github.com/edvin/tornadofx-controls) `[JavaFX]`
 - [https://github.com/kordamp/bootstrapfx](https://github.com/kordamp/bootstrapfx) `[JavaFX]`
@@ -128,12 +131,10 @@
 - [https://github.com/FXyz/FXyz](https://github.com/FXyz/FXyz) `[JavaFX 3D 形状/组件]`
 - 缩放 [https://github.com/miho/ScaledFX](https://github.com/miho/ScaledFX) `[JavaFX 缩放布局]`
 - [https://github.com/tom91136/GestureFX](https://github.com/tom91136/GestureFX) `[JavaFX 手势/缩放面板]`
-- 布局算法 [https://github.com/AmaronUI/amaronui-layouts](https://github.com/AmaronUI/amaronui-layouts) `[JavaFX Flexbox]`
-- [https://github.com/kirill-grouchnikov/radiance](https://github.com/kirill-grouchnikov/radiance) `[Swing 现代主题/组件]`
-- [https://github.com/mikaelgrev/miglayout](https://github.com/mikaelgrev/miglayout) `[Swing/SWT/JavaFX 布局管理器]`
 - 系统托盘 [https://github.com/dorkbox/SystemTray](https://github.com/dorkbox/SystemTray)
 - [https://github.com/dustinkredmond/FXTrayIcon](https://github.com/dustinkredmond/FXTrayIcon)
 - [https://github.com/xdsswar/NiceTRayIcon](https://github.com/xdsswar/NiceTRayIcon)
+- [https://github.com/HanSolo/trayfx](https://github.com/HanSolo/trayfx)
 - 工具栏和菜单 [https://github.com/Scomponents/menu-tree-builder](https://github.com/Scomponents/menu-tree-builder) `[JavaFX]`
 - 无系统标题栏窗口 [https://github.com/micheljung/fxstage](https://github.com/micheljung/fxstage) Win32 API
 - [https://github.com/bsommerfeld/jfx-frameless](https://github.com/bsommerfeld/jfx-frameless)
@@ -169,6 +170,7 @@
 - 媒体播放器 [https://github.com/open-ani/mediamp](https://github.com/open-ani/mediamp)
 - [https://github.com/caprica/vlcj](https://github.com/caprica/vlcj)
 - 函数式流 [https://github.com/TomasMikula/ReactFX](https://github.com/TomasMikula/ReactFX)
+- 查看PDF [https://github.com/dlsc-software-consulting-gmbh/PDFViewFX](https://github.com/dlsc-software-consulting-gmbh/PDFViewFX)
 
 
 

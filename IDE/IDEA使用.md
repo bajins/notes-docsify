@@ -11,20 +11,24 @@
 + 简体中文专题教程 [https://github.com/judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
 + 分支 [https://github.com/consulo/consulo](https://github.com/consulo/consulo)
 + Git客户端 [https://github.com/obiscr/intellij-community](https://github.com/obiscr/intellij-community)
++ [JetBrains 2019.3系列软件汉化包](https://github.com/pingfangx/TranslatorX)
 
 
-- [教育邮箱免费申请JetBrains教育许可证](https://mp.weixin.qq.com/s/XFoOBeTaBwBAsRgadxMLfQ)
-- [JetBrains全系列软件激活教程激活码以及JetBrains系列软件汉化包](https://www.fuocu.cn/archives/jetbrains-crack)
-- [JetBrains 2019.3系列软件汉化包](https://github.com/pingfangx/TranslatorX)
-
-* [IntelliJ IDEA神器使用技巧](https://www.imooc.com/learn/924)
-* [IDEA的基本使用：让你的IDEA有飞一般的感觉](https://blog.csdn.net/fly910905/article/details/77868300)
-* [挑战idea社区版Javaweb开发](https://www.jianshu.com/p/dc8f3508a8ba)
-* [无需破解，使用IDEA社区版开发Web项目](https://juejin.cn/post/6904998792999731207)
-* [已经足够好用的IDEA社区版](https://www.jianshu.com/p/c98c8d75f71d)
-* IDEA破解 [https://www.exception.site](https://www.exception.site)
 * IDEA教程 [https://github.com/judasn/intellij-idea-tutorial](https://github.com/judasn/intellij-idea-tutorial)
+* `bin/format.bat` 代码格式化脚本
 
+
+**执行反编译命令**
+
+```bash
+# 命令执行完毕后，输出目录里会生成一个新的 JAR 包
+
+# Windows 示例（路径含空格需用双引号）
+java -cp "C:\Program Files\JetBrains\IntelliJ IDEA 2026.1\plugins\java-decompiler\lib\java-decompiler.jar" org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler -dgs=true example.jar
+
+# macOS / Linux 示例
+java -cp "/Applications/IntelliJ IDEA.app/Contents/plugins/java-decompiler/lib/java-decompiler.jar" org.jetbrains.java.decompiler.main.decompiler.ConsoleDecompiler -dgs=true example.jar ./
+```
 
 
 **查看类类图及继承关系**

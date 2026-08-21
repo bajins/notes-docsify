@@ -321,7 +321,6 @@ for /f %%i in ('tasklist ^| findstr /i "程序名"') do set reslut=%%i
 for /f "skip=3 tokens=2" %a in ('tasklist /fi "imagename eq 程序名*"') do @echo %a
 
 tasklist | findstr "java"
-wmic process where "name like '%java%'" get ProcessId,CommandLine
 ```
 
 **查看被占用端口的`pid`**
@@ -335,7 +334,6 @@ netstat -ano | findstr 80
 ```batch
 taskkill /f /pid 进程号
 taskkill /f /im 程序名
-wmic process where "ProcessId=pid" delete
 ```
 
 
@@ -400,9 +398,6 @@ SCHTASKS /run /TN 任务名称
 - `eventvwr` 打开事件查看器
     - 打开eventvwr -> Windows 日志 -> 系统 右键打开菜单 -> 将所有事件另存为(E) -> 选择保存类型为xml
 - `eventcreate` 该命令行工具使管理员能够创建一个自定义事件 ID 和消息于某指定事件日志里。
-- `wmic ntevent /?`
-    - `wmic ntevent list full` 查看所有事件日志
-- `wmic nteventlog /?`
 - `wevtutil.exe qe Application /c:3 /rd:true /f:text`
 - `(get-winevent -listlog Application).providernames` 或者 `wevtutil el` 查看所有事件名
 - `计算机\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\WINEVT\Publishers` 注册表中所有事件
