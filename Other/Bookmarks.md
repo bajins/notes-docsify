@@ -284,6 +284,8 @@
 - [https://soundbox.fun](https://soundbox.fun)
 - [https://www.ppbzy.com](https://www.ppbzy.com)
 - [https://www.yamanote.fun](https://www.yamanote.fun)
+- 3D博物馆 [https://github.com/s010s/prehistoric-animal-museum](https://github.com/s010s/prehistoric-animal-museum)
+- 观测天空 [https://github.com/gunerguner/AdAstra](https://github.com/gunerguner/AdAstra)
 - 视频编辑 [https://pikimov.com](https://pikimov.com)
 - 儿童睡前故事 [https://beddystories.com/zh](https://beddystories.com/zh)
 - 儿歌 [https://beddysongs.com/zh](https://beddysongs.com/zh)

@@ -142,6 +142,7 @@
 * [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit)
 * [https://github.com/devlint/gitwand](https://github.com/devlint/gitwand)
 * [https://github.com/altsem/gitu](https://github.com/altsem/gitu)
+* [https://github.com/adoin/git-Agent](https://github.com/adoin/git-Agent)
 * worktree的UI [https://github.com/FatDoge/wtree](https://github.com/FatDoge/wtree)
 * SmartGit 是一款优秀的图形化Git仓库管理工具
 * SmartSVN 是一款优秀的图形化SVN仓库管理工具

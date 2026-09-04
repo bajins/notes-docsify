@@ -206,16 +206,21 @@
 + [https://github.com/topics/environment](https://github.com/topics/environment)
 
 
+* [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
+    ```bash
+    curl -fsSL https://deb.nodesource.com/setup_current.x | sudo -E bash -
+    sudo apt install -y nodejs
+    ```
 * [https://github.com/tj/n](https://github.com/tj/n)
     * [https://github.com/mklement0/n-install](https://github.com/mklement0/n-install)
 * [https://github.com/Jrohy/nodejs-install](https://github.com/Jrohy/nodejs-install)
 * [https://github.com/jasongin/nvs](https://github.com/jasongin/nvs)
 * [https://github.com/nodenv/nodenv](https://github.com/nodenv/nodenv)
-* [https://github.com/nodesource/distributions](https://github.com/nodesource/distributions)
 * [https://github.com/Schniz/fnm](https://github.com/Schniz/fnm)
 * [https://github.com/jdxcode/rtx](https://github.com/jdxcode/rtx)
 * [https://github.com/volta-cli/volta](https://github.com/volta-cli/volta)
 * [https://github.com/jetify-com/devbox](https://github.com/jetify-com/devbox)
+* [https://github.com/nodists/nodist](https://github.com/nodists/nodist)
 
 
 ```bash

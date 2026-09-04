@@ -464,7 +464,7 @@
 
 
 * [https://github.com/wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
-* [https://github.com/wez/wezterm](https://github.com/wez/wezterm)
+* [https://github.com/wezterm/wezterm](https://github.com/wezterm/wezterm)
 * [https://github.com/yorukot/superfile](https://github.com/yorukot/superfile)
 * [https://github.com/ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)
 * [https://github.com/openssh](https://github.com/openssh)

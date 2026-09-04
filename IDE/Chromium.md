@@ -587,6 +587,7 @@ taskkill /f /im chromedriver.exe
 * [Video Downloader Pro](https://chrome.google.com/webstore/detail/video-downloader-pro/ccdikaeknpeokoejlpffihfmpfelakcg)
 * [Video Downloader professional](https://chrome.google.com/webstore/detail/video-downloader-professi/bacakpdjpomjaelpkpkabmedhkoongbi)
 * [https://github.com/684102/HDS-HLS-Video-Downloader](https://github.com/684102/HDS-HLS-Video-Downloader)
+* [https://github.com/aeroxy/blob-downloader](https://github.com/aeroxy/blob-downloader)
 
 - 黑暗阅读器 [https://github.com/darkreader/darkreader](https://github.com/darkreader/darkreader)
 
@@ -612,6 +613,7 @@ taskkill /f /im chromedriver.exe
 - [https://github.com/OpenUserJs/OpenUserJS.org](https://github.com/OpenUserJs/OpenUserJS.org)
 - [https://www.userscript.zone](https://www.userscript.zone)
 - [https://userscripts-mirror.org](https://userscripts-mirror.org)
+- [https://github.com/SysAdminDoc/UserScript-Finder](https://github.com/SysAdminDoc/UserScript-Finder)
 
 
 * 篡改猴 [https://github.com/Tampermonkey](https://github.com/Tampermonkey)
@@ -627,6 +629,7 @@ taskkill /f /im chromedriver.exe
     * [https://greasyfork.org/zh-CN/scripts/512984](https://greasyfork.org/zh-CN/scripts/512984) 有广告
     * [https://github.com/dongyubin/Baidu-VIP](https://github.com/dongyubin/Baidu-VIP)
     * [https://github.com/smartacephale/sleazy-fork](https://github.com/smartacephale/sleazy-fork)
+        * [https://github.com/search?q=sleazyfork](https://github.com/search?q=sleazyfork)
     * [https://git.nite07.com/nite/user-scripts](https://git.nite07.com/nite/user-scripts)
     * 小说下载 [https://github.com/404-novel-project/novel-downloader](https://github.com/404-novel-project/novel-downloader)
     * 微博 [https://greasyfork.org/zh-CN/scripts/by-site/weibo.com](https://greasyfork.org/zh-CN/scripts/by-site/weibo.com)

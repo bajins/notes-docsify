@@ -411,6 +411,7 @@
 * [https://github.com/PebbleTemplates](https://github.com/PebbleTemplates)
 * [https://gitee.com/jfinal/enjoy](https://gitee.com/jfinal/enjoy)
 * [https://gitee.com/xiandafu/beetl](https://gitee.com/xiandafu/beetl)
+* [https://github.com/antlr/stringtemplate4](https://github.com/antlr/stringtemplate4)
 * 类路径扫描器和模块扫描器 [https://github.com/classgraph](https://github.com/classgraph)
 * Java 应用程序打包 [https://github.com/fvarrui/JavaPackager](https://github.com/fvarrui/JavaPackager)
 * [https://github.com/rzwitserloot/lombok](https://github.com/rzwitserloot/lombok)

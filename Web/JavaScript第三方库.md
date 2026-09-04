@@ -102,7 +102,6 @@
 * 树视图/树网格插件 [https://github.com/mar10/fancytree](https://github.com/mar10/fancytree)
 * 交互式地图 [https://github.com/openlayers/openlayers](https://github.com/openlayers/openlayers)
     * [https://github.com/ghettovoice/ol-mapscale](https://github.com/ghettovoice/ol-mapscale)
-* [https://github.com/openstreetmap](https://github.com/openstreetmap)
 * book阅读 [https://github.com/johnfactotum/foliate](https://github.com/johnfactotum/foliate)
 * 轻量依赖注入DI框架 [https://github.com/zhang740/power-di](https://github.com/zhang740/power-di)
 * [https://github.com/microsoft/tsyringe](https://github.com/microsoft/tsyringe)

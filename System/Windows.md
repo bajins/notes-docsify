@@ -26,6 +26,7 @@
 * 联想硬件管理Vantage [https://apps.microsoft.com/detail/9wzdncrfj4mv](https://apps.microsoft.com/detail/9wzdncrfj4mv)
 * Lenovo Hotkeys [https://apps.microsoft.com/detail/9pcmmnb260tx](https://apps.microsoft.com/detail/9pcmmnb260tx)
 * 证书检测 [https://github.com/claude-boucher/CheckCA2023](https://github.com/claude-boucher/CheckCA2023)
+* Windows系统退款 [https://en.refund4freedom.org](https://en.refund4freedom.org)
 
 
 
@@ -129,8 +130,6 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 
 
 
-
-
 ## Windows优化
 
 + [Search · install_wim_tweak](https://github.com/search?o=desc&q=install_wim_tweak&s=indexed&type=Code)
@@ -142,6 +141,8 @@ powercfg /batteryreport /output "Desktop\battery-report.html"
 * [https://github.com/ZyperWave/ZyperWinOptimize](https://github.com/ZyperWave/ZyperWinOptimize)
 * [https://github.com/5cover/WinClean](https://github.com/5cover/WinClean)
 * [https://github.com/darkmatter2048/WindowsCleaner](https://github.com/darkmatter2048/WindowsCleaner)
+* [https://github.com/TacII/WimWizard](https://github.com/TacII/WimWizard)
+* https://bbs.wuyou.net/forum.php?mod=viewthread&tid=452066
 * [https://ameliorated.io](https://ameliorated.io)
     * [https://github.com/meetrevision/playbook](https://github.com/meetrevision/playbook)
     * [https://github.com/jointhearkanoid/playbook](https://github.com/jointhearkanoid/playbook)
@@ -218,6 +219,18 @@ $patterns=@("*WindowsWorkload*","*Microsoft.Windows.Ai.Copilot.Provider*");forea
 
 
 
+
+**禁用AI相关**
+
+- 启用或关闭 Windows 功能 中取消勾选Recall
+- Win+R -> services.msc -> WSAIFabricSvc（Windows AI 组件主机）、MapsBroker（Downloaded Maps Manager） -> 禁用
+- Win+R -> taskschd.msc -> Microsoft -> Windows -> WindowsAI、Maps -> 禁用
+
+
+* [https://github.com/Dszsu/WorkloadManager](https://github.com/Dszsu/WorkloadManager)
+
+
+
 **绕过 Windows 11 24H2 的兼容性检查程序**
 
 ```batch
@@ -256,18 +269,25 @@ taskkill /f /im explorer.exe & start explorer.exe
 
 **Windows睡死无法唤醒**
 
-> `控制面板` -> `所有控制面板项` -> `电源选项` -> `更改计划设置` -> `更改高级电源设置(C)` -> `硬盘` -> `在此时间后关闭硬盘` -> 全部设置为`0`
+- `控制面板` -> `电源选项`
+    - `更改计划设置` -> `更改高级电源设置(C)`
+        - `硬盘` -> `在此时间后关闭硬盘` -> 全部设置为`0`
+        - `睡眠` -> `允许使用唤醒定时器` -> 启用 `使用电池`和`接通电源`
+    - `选择电源按钮的功能` → `更改当前不可用的设置` → 取消勾选「`启用快速启动`」 → 保存
+- `计算机管理(本地)` / `右键点击【开始】菜单` / `Win + X` -> `设备管理器`
+    - `系统设备` -> `Intel(R) Management Engine Interface #1` -> `右键属性` -> `电源管理` -> 取消勾选`允许计算机关闭此设备以节约电源(A)`
+    - 网络适配器 -> `Intel(R) Wi-Fi xxx` / `Realtek RTL8852`
+    - 通用串行总线控制器 -> `USB Root Hub`（USB 根集线器） / `Generic USB Hub`
+    - 人体学输入设备 -> `I2C HID 设备`（通常是触摸板的底层驱动）
+    - 蓝牙 -> `英特尔(R) 无线 Bluetooth(R)` / `Realtek Bluetooth Adapter`
+    - 存储控制器 -> `标准 NVM Express 控制器`
 
-> 控制面板 → 电源选项 → 选择电源按钮的功能 → 更改当前不可用的设置 → 取消勾选「启用快速启动」 → 保存
+> 重启GPU：Windows 徽标键 + Ctrl + Shift + B
 
-> `计算机管理(本地)` -> `设备管理器` -> `驱动上右键属性` -> `电源管理` -> `允许计算机关闭此设备以节约电源(A)` -> 取消勾选
-
-> Windows徽标键 + P
-
-> Windows 徽标键 + Ctrl + Shift + B
-
-* [解决 Windows 计算机无法从挂起或休眠模式唤醒或恢复而不得不重新开机的问题步骤](https://www.dell.com/support/kbdoc/zh-cn/000129781/%E8%A7%A3%E5%86%B3-windows-%E8%AE%A1%E7%AE%97%E6%9C%BA-%E6%97%A0%E6%B3%95-%E4%BB%8E-%E6%8C%82%E8%B5%B7-%E6%88%96-%E4%BC%91-%E7%9C%A0-%E6%A8%A1-%E5%BC%8F-%E5%94%A4%E9%86%92-%E6%88%96-%E6%81%A2%E5%A4%8D-%E8%80%8C-%E4%B8%8D%E5%BE%97%E4%B8%8D-%E9%87%8D%E6%96%B0-%E5%BC%80%E6%9C%BA-%E7%9A%84-%E9%97%AE%E9%A2%98-%E6%AD%A5%E9%AA%A4)
+* [解决 Windows 计算机无法从挂起或休眠模式唤醒或恢复而不得不重新开机的问题步骤](https://www.dell.com/support/kbdoc/zh-cn/000129781/解决-windows-计算机无法从挂起或休眠模式唤醒或恢复而不得不重新开机的问题步骤)
 * [win11睡眠后无法唤醒](https://answers.microsoft.com/zh-hans/windows/forum/all/win11%E7%9D%A1%E7%9C%A0%E5%90%8E%E6%97%A0%E6%B3%95/d0e0aa3d-ba91-4284-9eb4-16c7aab6f920)
+* [计算机在睡眠模式或休眠模式下无法唤醒](https://support.lenovo.com/md/it/documentation/SG10684/My_computer_gets_stuck_in_sleep_or_hibernate_mode?language=zh-cn)
+
 
 ```powershell
 # Win11小组件「Windows Web 体验包」全称 Windows Web Experience Pack
@@ -384,6 +404,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
     * [https://github.com/gravesoft/msdl](https://github.com/gravesoft/msdl)
         * [https://msdl.gravesoft.dev](https://msdl.gravesoft.dev)
     * [https://github.com/cmontage/mas-cn](https://github.com/cmontage/mas-cn)
+    * [https://github.com/Amamiyashi0n/MAS-GUI-win](https://github.com/Amamiyashi0n/MAS-GUI-win)
+* 系统镜像下载 [https://massgrave.dev/genuine-installation-media](https://massgrave.dev/genuine-installation-media)
 * WIM映像操作 [https://github.com/ebiggers/wimlib](https://github.com/ebiggers/wimlib)
 * 微软文件下载 [https://tb.rg-adguard.net/public.php](https://tb.rg-adguard.net/public.php)
 * 制作ISO [https://github.com/gus33000/uupmediacreator](https://github.com/gus33000/uupmediacreator)
@@ -605,10 +627,6 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 > 使用命令有两种方式：第一种：按<kbd>Win</kbd> + <kbd>x</kbd> + <kbd>a</kbd>进入PowerShell（也可在CMD中）输入命令运行；
 > 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
-* 系统激活 [https://github.com/massgravel/microsoft-activation-scripts](https://github.com/massgravel/microsoft-activation-scripts)
-* KMS激活 [https://github.com/zbezj/heu_kms_activator](https://github.com/zbezj/heu_kms_activator)
-* KMS激活 [https://github.com/zbezj/heu_kms_activator/releases/tag/40.0.0](https://github.com/zbezj/heu_kms_activator/releases/tag/40.0.0)
-* 系统镜像下载 [https://massgrave.dev/genuine-installation-media](https://massgrave.dev/genuine-installation-media)
 
 
 **错误代码**

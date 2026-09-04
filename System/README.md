@@ -131,6 +131,8 @@
 - [https://github.com/linuxdeepin](https://github.com/linuxdeepin)
     - [https://github.com/martyr-deepin](https://github.com/martyr-deepin)
 - [https://github.com/void-linux](https://github.com/void-linux)
+- [https://github.com/basecamp/omarchy](https://github.com/basecamp/omarchy)
+    - [Omarchy：AI 友好开箱即用的神级 Linux 操作系统教程](https://xiangyangqiaomu.feishu.cn/docx/ZH7td7nKVoC5Y0x3UAAcEG3TnPd)
 - 手机 [https://postmarketos.org](https://postmarketos.org)
     - [https://sxmo.org](https://sxmo.org)
     - [https://phosh.mobi](https://phosh.mobi)
@@ -464,6 +466,7 @@
 * [https://github.com/grumpylabs/freenginx](https://github.com/grumpylabs/freenginx)
 * [https://github.com/freenginx-mirror](https://github.com/freenginx-mirror)
 * [https://github.com/apache/httpd](https://github.com/apache/httpd)
+    * [https://sourceforge.net/projects/apache-tools](https://sourceforge.net/projects/apache-tools)
 * [https://github.com/apache/trafficserver](https://github.com/apache/trafficserver)
 * [https://github.com/lighttpd](https://github.com/lighttpd)
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
@@ -573,6 +576,7 @@
 * [https://github.com/msgbyte/tianji](https://github.com/msgbyte/tianji)
 * [https://github.com/bboysoulcn/telemonitor](https://github.com/bboysoulcn/telemonitor)
 * [https://github.com/TheCoolQATeam/online-inspection-tracker](https://github.com/TheCoolQATeam/online-inspection-tracker)
+* [https://github.com/nafey/minimalytics](https://github.com/nafey/minimalytics)
 
 
 - [Linux工程师必备的88个监控工具](https://learn-linux.readthedocs.io/zh_CN/latest/maintenance/monitor/tools/80-linux-monitoring-tools.html)
@@ -791,6 +795,7 @@
 * [https://github.com/GimelStudio](https://github.com/GimelStudio)
 * [https://github.com/ms300/ColorLake](https://github.com/ms300/ColorLake)
 * [https://github.com/civilblur/mazanoke](https://github.com/civilblur/mazanoke)
+* [https://github.com/amiaoapp/PicLite](https://github.com/amiaoapp/PicLite)
 * 时间轴 [https://github.com/hughfenghen/dimcut](https://github.com/hughfenghen/dimcut)
 * 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
 * SVG预览 [https://github.com/liujuntao123/new-svg-viewer](https://github.com/liujuntao123/new-svg-viewer)

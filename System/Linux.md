@@ -175,7 +175,36 @@ sudo apt clean
 * [https://github.com/snapcore/snapd](https://github.com/snapcore/snapd)
     * snap应用商店 [https://snapcraft.io](https://snapcraft.io)
     * [https://docs.snapcraft.io/core/install](https://docs.snapcraft.io/core/install)
-    * [https://github.com/popey/unsnap](https://github.com/popey/unsnap)
+    * [https://github.com/popey/unsnap/issues/10](https://github.com/popey/unsnap/issues/10)
+    * [https://github.com/justinclift/snapd-empty](https://github.com/justinclift/snapd-empty)
+    * [https://margrop.github.io/post/ubuntu-2604-remove-snap-cleanly](https://margrop.github.io/post/ubuntu-2604-remove-snap-cleanly)
+    * [https://yangzy723.github.io/posts/2026/07/12/Ubuntu-禁用-Snap.html](https://yangzy723.github.io/posts/2026/07/12/Ubuntu-禁用-Snap.html)
+```bash
+# 禁用开机自启服务
+sudo systemctl stop snapd
+sudo systemctl disable snapd.service
+sudo systemctl disable snapd.socket
+sudo systemctl disable snapd.seeded.service
+# 查询已安装的Snap软件
+snap list
+# 先删除应用层软件（如Firefox），再删除基础依赖（如core24），否则会触发依赖错误。
+for s in snap-store chromium firefox thunderbird cups gnome-46-2404 gtk-common-themes mesa-2404 core22 core24 bare snapd; do sudo snap remove --purge $s; done
+# 解除 snap core 的挂载
+for m in /snap/core/*; do sudo umount $m done
+# 卸载Snap本体
+sudo apt autoremove –purge snapd
+sudo apt remove --autoremove snapd
+# 清理残留目录(不一定存在)
+rm -rf ~/snap; sudo rm -rf /snap /var/snap /var/lib/snapd /var/cache/snapd
+# 创建APT配置文件阻止Snap自动安装
+sudo tee /etc/apt/preferences.d/nosnap.pref >/dev/null <<'EOF'
+Package: snapd
+Pin: release a=*
+Pin-Priority: -10
+EOF
+
+printf 'Package: snapd\nPin: release a=*\nPin-Priority: -10\n' | sudo tee /etc/apt/preferences.d/nosnap.pref
+```
 * [https://github.com/spack/spack](https://github.com/spack/spack)
 * 各个版本控件支持库 [https://pkgs.org](https://pkgs.org)
 * [https://github.com/makedeb](https://github.com/makedeb)
@@ -395,7 +424,7 @@ bash InstallNET.sh -c 7.6.1810 -v 64 -a --mirror 'http://mirror.centos.org/cento
 
 > 通常，守护进程没有任何存在的父进程（即PPID=1），且在UNIX系统进程层级中直接位于init之下。
 > 守护进程程序通常通过如下方法使自己成为守护进程：对一个子进程运行fork，然后使其父进程立即终止，
-> 使得这个子进程能在init下运行。这种方法通常被称为“脱壳”。
+> 使得这个子进程能在init下运行。这种方法通常被称为"脱壳"。
 
 
 + [https://github.com/topics/init](https://github.com/topics/init)
