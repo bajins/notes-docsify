@@ -24,7 +24,6 @@
 * [https://isocpp.org](https://isocpp.org)
 * [https://www.reddit.com/r/cpp](https://www.reddit.com/r/cpp)
 * 基础知识 [https://github.com/huihut/interview](https://github.com/huihut/interview)
-* [https://github.com/isocpp/CppCoreGuidelines](https://github.com/isocpp/CppCoreGuidelines)
 * [https://github.com/changkun/modern-cpp-tutorial](https://github.com/changkun/modern-cpp-tutorial)
 * [https://github.com/Alinshans/MyTinySTL](https://github.com/Alinshans/MyTinySTL)
 * [https://github.com/Changhe160/cplusplus2020-2021-2](https://github.com/Changhe160/cplusplus2020-2021-2)

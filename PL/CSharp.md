@@ -76,7 +76,10 @@
     * TaskScheduler [https://github.com/mattrobineau/planif](https://github.com/mattrobineau/planif)
     * [https://github.com/retep998/winapi-rs](https://github.com/retep998/winapi-rs)
     * [https://github.com/rodrigocfd/winsafe](https://github.com/rodrigocfd/winsafe)
-    * [https://github.com/mxre/winres](https://github.com/mxre/winres)
+    * ~~[https://github.com/mxre/winres](https://github.com/mxre/winres)~~
+        * [https://github.com/tauri-apps/winres](https://github.com/tauri-apps/winres)
+        * [https://github.com/BenjaminRi/winresource](https://github.com/BenjaminRi/winresource)
+    * [https://github.com/nabijaczleweli/rust-embed-resource](https://github.com/nabijaczleweli/rust-embed-resource)
     * [https://github.com/Araxeus/tiny-native-scheduler](https://github.com/Araxeus/tiny-native-scheduler)
     * [https://github.com/microsoft/cswinrt](https://github.com/microsoft/cswinrt)
     * [https://github.com/pywinrt/pywinrt](https://github.com/pywinrt/pywinrt)

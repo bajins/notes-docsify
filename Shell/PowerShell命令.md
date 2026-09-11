@@ -16,6 +16,8 @@
 > `ASCII` 为无BOM`UTF-8`编码
 
 ```powershell
+# 输出UTF-8
+[Console]::OutputEncoding=[Text.Encoding]::UTF8
 # 列出所有的环境变量
 Get-ChildItem env:
 gci env: | Format-Table -Property Name, Value
@@ -53,6 +55,13 @@ out-host
 # 查看属性
 Get-Member -MemberType *property
 Select-Object -ExpandProperty Property
+
+# 权限检查（注册 RunLevel=Highest 任务需要管理员权限）
+([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole]::Administrator)
+# 删除任务计划
+Unregister-ScheduledTask -TaskName "xxx" -Confirm:$false
+# 启用任务计划程序历史记录日志
+wevtutil sl Microsoft-Windows-TaskScheduler/Operational /e:true | Out-Null
 ```
 
 - 查看版本

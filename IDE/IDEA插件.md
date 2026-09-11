@@ -11,7 +11,7 @@
 - 主题 [http://soft-hub.cn](http://soft-hub.cn)
 
 
-    * [https://github.com/designinlife/jetbrains](https://github.com/designinlife/jetbrains)
+* [https://github.com/designinlife/jetbrains](https://github.com/designinlife/jetbrains)
 * [https://github.com/search?q=jetbrains+agent+OR+jetbra&s=updated](https://github.com/search?q=jetbrains+agent+OR+jetbra&s=updated)
 * [https://zhile.io](https://zhile.io)
     * `jetbrains-agent`(v3.2.0为2020.1.4及以下版本)/`FineAgent`/`plugin-fineagent`/`BetterIntelliJ`
@@ -49,7 +49,10 @@
             * [https://junlong.plus/ztool/jetbra](https://junlong.plus/ztool/jetbra)
         * guduzhe [https://googlewellblog.wordpress.com](https://googlewellblog.wordpress.com)
             * [https://521868.xyz](https://521868.xyz)
+            * [https://fls.521868.xyz](https://fls.521868.xyz)
         * [http://jb.ide.to](http://jb.ide.to)
+        * [https://github.com/JengVend02/Jetbrains-Help](https://github.com/JengVend02/Jetbrains-Help)
+            * [https://jetbrains.zoyopo.com](https://jetbrains.zoyopo.com)
         * [https://github.com/jellymlg/jetbrains-agent](https://github.com/jellymlg/jetbrains-agent)
         * [https://github.com/NotoChen/Jetbrains-Help](https://github.com/NotoChen/Jetbrains-Help)
             * [https://gitee.com/guoyifanA/qiu-mo-jetbrains-help](https://gitee.com/guoyifanA/qiu-mo-jetbrains-help)

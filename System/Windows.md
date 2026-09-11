@@ -223,11 +223,19 @@ $patterns=@("*WindowsWorkload*","*Microsoft.Windows.Ai.Copilot.Provider*");forea
 **禁用AI相关**
 
 - 启用或关闭 Windows 功能 中取消勾选Recall
-- Win+R -> services.msc -> WSAIFabricSvc（Windows AI 组件主机）、MapsBroker（Downloaded Maps Manager） -> 禁用
+- Win+R -> services.msc -> 禁用以下
+    - WSAIFabricSvc（Windows AI 组件主机）
+    - MapsBroker（Downloaded Maps Manager）
+    - AiPerfSvc（AI Performance Service）
+    - WSearch（Windows Search）
+    - whesvc（Windows 健康状况和优化体验）
+    - DiagTrack（Connected User Experiences and Telemetry）
+    - SysMain（原Superfetch）
 - Win+R -> taskschd.msc -> Microsoft -> Windows -> WindowsAI、Maps -> 禁用
 
 
 * [https://github.com/Dszsu/WorkloadManager](https://github.com/Dszsu/WorkloadManager)
+* [https://github.com/awesome-windows11/windows11](https://github.com/awesome-windows11/windows11)
 
 
 
@@ -461,6 +469,7 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * PECMD [https://bbs.wuyou.net/?436204](https://bbs.wuyou.net/?436204)
     * [https://pecmd.net/doc/cn.txt](https://pecmd.net/doc/cn.txt)
 * 启动引导管理 [https://github.com/chenall/grub4dos](https://github.com/chenall/grub4dos)
+* [https://github.com/Jacksaur/Gorgeous-GRUB](https://github.com/Jacksaur/Gorgeous-GRUB)
 * [https://github.com/CSMWrap/CSMWrap](https://github.com/CSMWrap/CSMWrap)
 * 优启时代 [https://www.uqiba.com](https://www.uqiba.com)
 * 优启通EasyU [https://www.itsk.com/forum/10?sort=2](https://www.itsk.com/forum/10?sort=2)

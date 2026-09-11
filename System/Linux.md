@@ -10,6 +10,7 @@
 + [https://github.com/tldr-pages/tldr](https://github.com/tldr-pages/tldr)
 + [http://www.linuxbaike.com](http://www.linuxbaike.com)
 + [https://github.com/huataihuang/cloud-atlas](https://github.com/huataihuang/cloud-atlas)
++ [https://github.com/ahegazy0/linux-basics-for-hackers-notes](https://github.com/ahegazy0/linux-basics-for-hackers-notes)
 + [Linux网络编程](https://network.fasionchan.com/zh_CN/latest/index.html)
 + [OSX操作指南](https://osx-guide.readthedocs.io/zh_CN/latest)
 + [https://github.com/guodongxiaren/LinuxTool](https://github.com/guodongxiaren/LinuxTool)

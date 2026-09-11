@@ -226,15 +226,19 @@ export RUSTUP_UPDATE_ROOT=https://mirrors.aliyun.com/rustup/rustup
 # 设置系统级环境变量
 [Environment]::SetEnvironmentvariable("RUSTUP_DIST_SERVER", "https://mirrors.aliyun.com/rustup", "Machine")
 [Environment]::SetEnvironmentvariable("RUSTUP_UPDATE_ROOT", "https://mirrors.aliyun.com/rustup/rustup", "Machine")
+
 Set-ItemProperty -Path "Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"\
  -Name "RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup"
 Set-ItemProperty -Path "Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"\
  -Name "RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup"
+
 # 设置用户级环境变量
 New-Item -Path "Env:\RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup" -Force
 New-Item -Path "Env:\RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup" -Force
+
 New-Item -Path "Env:\" -Name "RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup" -Force
 New-Item -Path "Env:\" -Name "RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup" -Force
+
 Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup"
 Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup"
 ```
@@ -250,7 +254,7 @@ Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_U
 # %USERPROFILE%\.cargo\config.toml
 [source.crates-io]
 # 源码地址
-registry = "https://github.com/rust-lang/crates.io-index"
+#registry = "https://github.com/rust-lang/crates.io-index"
 # 指定镜像
 #replace-with = 'sjtu'
 #replace-with = 'ustc'
@@ -575,7 +579,6 @@ check-revoke = false
 - RPC [https://github.com/kwsc98/krpc-rust](https://github.com/kwsc98/krpc-rust)
 - 模板 [https://github.com/cobalt-org/liquid-rust](https://github.com/cobalt-org/liquid-rust)
 - [https://github.com/cargo-generate/cargo-generate](https://github.com/cargo-generate/cargo-generate)
-- 构建脚本 [https://github.com/nabijaczleweli/rust-embed-resource](https://github.com/nabijaczleweli/rust-embed-resource)
 - 模式匹配 [https://github.com/yorickpeterse/pattern-matching-in-rust](https://github.com/yorickpeterse/pattern-matching-in-rust)
 - 文件路径 [https://github.com/dirs-dev/dirs-rs](https://github.com/dirs-dev/dirs-rs)
 - 处理错误 [https://github.com/dtolnay/anyhow](https://github.com/dtolnay/anyhow)
@@ -650,6 +653,8 @@ check-revoke = false
 * HTML库 [https://github.com/yoshuawuyts/html](https://github.com/yoshuawuyts/html)
 * 虚拟文件系统 [https://github.com/vivekpanyam/lunchbox](https://github.com/vivekpanyam/lunchbox)
 * 矢量渲染 [https://github.com/google/forma](https://github.com/google/forma)
+* 图像转换 [https://github.com/Gunzinger/imgc-rs](https://github.com/Gunzinger/imgc-rs)
+    * [https://github.com/tduyng/imgc-rs](https://github.com/tduyng/imgc-rs)
 * 音高检测 [https://github.com/alesgenova/pitch-detection](https://github.com/alesgenova/pitch-detection)
 * 日志库 [https://github.com/tokio-rs/tracing](https://github.com/tokio-rs/tracing)
 * 乐理库 [https://github.com/ozankasikci/rust-music-theory](https://github.com/ozankasikci/rust-music-theory)
@@ -700,6 +705,8 @@ check-revoke = false
 * Rust基准 [https://github.com/bheisler/criterion.rs](https://github.com/bheisler/criterion.rs)
 * 并发哈希表 [https://github.com/ibraheemdev/papaya](https://github.com/ibraheemdev/papaya)
 * 字符串加密 [https://github.com/life4/encenc](https://github.com/life4/encenc)
+* 自动更新 [https://github.com/SierraSoftworks/update-rs](https://github.com/SierraSoftworks/update-rs)
+* 倒计时 [https://github.com/madLinux7/dstimer](https://github.com/madLinux7/dstimer)
 
 
 

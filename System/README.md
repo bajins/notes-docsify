@@ -344,6 +344,7 @@
 + [https://github.com/topics/http3](https://github.com/topics/http3)
 + [https://github.com/topics/quic](https://github.com/topics/quic)
 + [https://wiki.archlinux.org/title/Domain_name_resolution#DNS_servers](https://wiki.archlinux.org/title/Domain_name_resolution#DNS_servers)
++ DNSSEC是如何工作的 [https://howdnssec.works](https://howdnssec.works)
 
 
 * [https://thekelleys.org.uk/dnsmasq/doc.html](https://thekelleys.org.uk/dnsmasq/doc.html)
@@ -470,6 +471,7 @@
 * [https://github.com/apache/trafficserver](https://github.com/apache/trafficserver)
 * [https://github.com/lighttpd](https://github.com/lighttpd)
 * [https://github.com/caddyserver/caddy](https://github.com/caddyserver/caddy)
+    * [https://github.com/fabriziosalmi/caddy-waf](https://github.com/fabriziosalmi/caddy-waf)
     * [Caddy2 简明教程 - bleem](https://mritd.com/2021/01/07/lets-start-using-caddy2)
 * [https://github.com/vicanso/pingap](https://github.com/vicanso/pingap)
 * [https://github.com/traefik/traefik](https://github.com/traefik/traefik)

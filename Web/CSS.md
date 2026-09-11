@@ -172,6 +172,9 @@
     * [https://github.com/mdbootstrap/Tailwind-Elements](https://github.com/mdbootstrap/Tailwind-Elements)
     * [https://github.com/sonofmagic/weapp-tailwindcss](https://github.com/sonofmagic/weapp-tailwindcss)
     * [https://github.com/Simon-He95/transformToTailwindcss](https://github.com/Simon-He95/transformToTailwindcss)
+    * [https://thedevsbuddy.github.io/tailwind_cli/docs/introduction](https://thedevsbuddy.github.io/tailwind_cli/docs/introduction)
+    * [https://github.com/aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss)
+    * [https://github.com/themeselection/flyonui](https://github.com/themeselection/flyonui)
 * [https://github.com/sailboatui/sailboatui](https://github.com/sailboatui/sailboatui)
 * [https://github.com/dufu1991/stdf](https://github.com/dufu1991/stdf)
 * [https://github.com/FullHuman/purgecss](https://github.com/FullHuman/purgecss)
@@ -209,7 +212,6 @@
 - [https://github.com/cssnano/cssnano](https://github.com/cssnano/cssnano)
     - [https://www.cssnano.cn](https://www.cssnano.cn)
 - [SVG 的友好介绍](https://www.joshwcomeau.com/svg/friendly-introduction-to-svg)
-- Tailwind资源 [https://github.com/aniftyco/awesome-tailwindcss](https://github.com/aniftyco/awesome-tailwindcss)
 - CSS工具库 [https://github.com/stylify/packages](https://github.com/stylify/packages)
 - 前端框架 [https://github.com/foundation/foundation-sites](https://github.com/foundation/foundation-sites)
 - CSS前缀 [https://github.com/postcss/autoprefixer](https://github.com/postcss/autoprefixer)
@@ -219,7 +221,6 @@
 - 设计系统 [https://github.com/stackexchange/stacks](https://github.com/stackexchange/stacks)
 - CSS框架 [https://lissomware.github.io/css](https://lissomware.github.io/css)
 - Windows UI [https://github.com/virtualvivek/windows-ui](https://github.com/virtualvivek/windows-ui)
-- CSS框架 [https://thedevsbuddy.github.io/tailwind_cli/docs/introduction](https://thedevsbuddy.github.io/tailwind_cli/docs/introduction)
 
 
 
@@ -251,7 +252,6 @@
 * [https://github.com/vorillaz/devicons](https://github.com/vorillaz/devicons)
 * [https://github.com/devicons/devicon](https://github.com/devicons/devicon)
 * [https://github.com/fontello/elusive.font](https://github.com/fontello/elusive.font)
-* [https://github.com/tailwindlabs/heroicons](https://github.com/tailwindlabs/heroicons)
 * [https://github.com/feathericons/feather](https://github.com/feathericons/feather)
 * [https://github.com/geakstr/entypo-icons](https://github.com/geakstr/entypo-icons)
 * [https://github.com/primer/octicons](https://github.com/primer/octicons)

@@ -573,6 +573,7 @@ string &operator+(const string& A,const string& B) //cpp
     pvd.style.paddingBottom="50px";
     ```
 * [https://github.com/Rabithua/Rote](https://github.com/Rabithua/Rote)
+* [https://github.com/thiagokokada/gh-gfm-preview](https://github.com/thiagokokada/gh-gfm-preview)
 
 
 
@@ -583,6 +584,7 @@ string &operator+(const string& A,const string& B) //cpp
 
 
 * [https://github.com/vnotex/vnote](https://github.com/vnotex/vnote)
+    * [https://gitee.com/vnotex/vnote](https://gitee.com/vnotex/vnote)
 * ~~[https://github.com/typora](https://github.com/typora)~~
     * [https://www.typora.io/releases/all](https://www.typora.io/releases/all)
         * [https://typoraio.cn/releases/all](https://typoraio.cn/releases/all)

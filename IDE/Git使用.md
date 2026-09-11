@@ -65,13 +65,13 @@
 * Git学习 [https://github.com/pcottle/learngitbranching](https://github.com/pcottle/learngitbranching)
 * 提交信息生成 [https://github.com/romanhotsiy/commitgpt](https://github.com/romanhotsiy/commitgpt)
 * Git实现 [https://github.com/byron/gitoxide](https://github.com/byron/gitoxide)
-* Git存储 [https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store](https://github.blog/*022-08-29-gits-database-internals-i-packed-object-store)
+* Git存储 [https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store](https://github.blog/2022-08-29-gits-database-internals-i-packed-object-store)
 * 缺陷追踪 [https://github.com/michaelmure/git-bug](https://github.com/michaelmure/git-bug)
 * 版本控制 [https://github.com/martinvonz/jj](https://github.com/martinvonz/jj)
 * Git哈希 [https://github.com/not-an-aardvark/lucky-commit](https://github.com/not-an-aardvark/lucky-commit)
 * 版本控制 [https://github.com/sturdy-dev/sturdy](https://github.com/sturdy-dev/sturdy)
 * Git教程 [https://wkevin.github.io/GitChat/gitchat.html](https://wkevin.github.io/GitChat/gitchat.html)
-* Git原理 [https://www.freecodecamp.org/chinese/news/git-internals-objects-branches-create-repo](https://www.freecodecamp.org/chinese/*ews/git-internals-objects-branches-create-repo)
+* Git原理 [https://www.freecodecamp.org/chinese/news/git-internals-objects-branches-create-repo](https://www.freecodecamp.org/chinese/news/git-internals-objects-branches-create-repo)
 * Git技巧 [https://colstuwjx.github.io/2020/11/git实用技巧和原理解读](https://colstuwjx.github.io/2020/11/git实用技巧和原理解读)
 * Git终端 [https://github.com/rgburke/grv](https://github.com/rgburke/grv)
 * Git速查 [https://wizardzines.com/git-cheat-sheet.pdf](https://wizardzines.com/git-cheat-sheet.pdf)
@@ -143,6 +143,7 @@
 * [https://github.com/devlint/gitwand](https://github.com/devlint/gitwand)
 * [https://github.com/altsem/gitu](https://github.com/altsem/gitu)
 * [https://github.com/adoin/git-Agent](https://github.com/adoin/git-Agent)
+* [https://github.com/skvdhshuk-blip/slio-git](https://github.com/skvdhshuk-blip/slio-git)
 * worktree的UI [https://github.com/FatDoge/wtree](https://github.com/FatDoge/wtree)
 * SmartGit 是一款优秀的图形化Git仓库管理工具
 * SmartSVN 是一款优秀的图形化SVN仓库管理工具

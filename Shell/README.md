@@ -341,9 +341,12 @@
 * SSH客户端 [https://51.ruyo.net/test/MobaXterm-Pro-License.html](https://51.ruyo.net/test/MobaXterm-Pro-License.html)
 * SSH教程 [https://github.com/wangdoc/ssh-tutorial](https://github.com/wangdoc/ssh-tutorial)
 * SSH管理 [https://github.com/Gu1llaum-3/sshm](https://github.com/Gu1llaum-3/sshm)
+* [https://github.com/zsuroy/ctty](https://github.com/zsuroy/ctty)
 * Moba激活 [https://github.com/flygon2018/mobaxterm-keygen](https://github.com/flygon2018/mobaxterm-keygen)
 * [https://github.com/mrash/fwknop](https://github.com/mrash/fwknop)
     * [根据客户端口令动态打开22端口](https://www.michelebologna.net/2026/ssh-port-22-fwknop-single-packet-authorization)
+* 阻挡SSH攻击 [https://github.com/shizunge/endlessh-go](https://github.com/shizunge/endlessh-go)
+* 检查脚本行为 [https://github.com/vet-run/vet](https://github.com/vet-run/vet)
 
 
 **文件传输**
@@ -494,6 +497,7 @@
     * [https://github.com/search?q=putty](https://github.com/search?q=putty)
     * [https://xstarcd.github.io/wiki/windows/PuTTY.html](https://xstarcd.github.io/wiki/windows/PuTTY.html)
     * [https://bdznh.github.io/2018/05/20/build-putty-step-by-step](https://bdznh.github.io/2018/05/20/build-putty-step-by-step)
+    * [https://www.wrock.org/putty](https://www.wrock.org/putty)
 * [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
 * [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
 * 间歇连接 [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
