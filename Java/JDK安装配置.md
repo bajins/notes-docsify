@@ -63,13 +63,13 @@
     * [https://jdk.java.net/archive](https://jdk.java.net/archive)
     * ~~[https://github.com/ojdkbuild/ojdkbuild](https://github.com/ojdkbuild/ojdkbuild)~~
     * [https://github.com/oracle-actions/setup-java](https://github.com/oracle-actions/setup-java)
-* ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
-    * ~~[https://adoptopenjdk.net](https://adoptopenjdk.net)~~
-    * [https://github.com/Adopt-a-JSR](https://github.com/Adopt-a-JSR)
 * [https://github.com/adoptium](https://github.com/adoptium)
     * [https://adoptium.net](https://adoptium.net)
+    * ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
+        * ~~[https://adoptopenjdk.net](https://adoptopenjdk.net)~~
+        * [https://github.com/Adopt-a-JSR](https://github.com/Adopt-a-JSR)
 * [https://github.com/zulu-openjdk](https://github.com/zulu-openjdk)
-    * [https://www.azul.com/downloads/zulu](https://cn.azul.com/downloads/zulu)
+    * [https://www.azul.com/downloads/zulu](https://www.azul.com/downloads/zulu)
     * [https://cdn.azul.com/zulu/bin](https://cdn.azul.com/zulu/bin)
 * Liberica [https://github.com/bell-sw](https://github.com/bell-sw)
     * [https://bell-sw.com/pages/downloads](https://bell-sw.com/pages/downloads)
@@ -78,8 +78,6 @@
 * [https://github.com/SAP/SapMachine](https://github.com/SAP/SapMachine)
     * [https://sap.github.io/SapMachine](https://sap.github.io/SapMachine)
 * [https://developer.ibm.com/languages/java/semeru-runtimes/downloads](https://developer.ibm.com/languages/java/semeru-runtimes/downloads)
-    * [https://developer.ibm.com/languages/java](https://developer.ibm.com/languages/java)
-    * [https://developer.ibm.com/javasdk](https://developer.ibm.com/javasdk)
 * [https://developers.redhat.com/products/openjdk](https://developers.redhat.com/products/openjdk)
 * [https://www.openlogic.com/openjdk-downloads](https://www.openlogic.com/openjdk-downloads)
     * [https://github.com/openlogic](https://github.com/openlogic)
@@ -88,18 +86,15 @@
     * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
 * [https://github.com/dragonwell-project](https://github.com/dragonwell-project)
     * [https://dragonwell-jdk.io](https://dragonwell-jdk.io)
-* [https://github.com/beehive-lab/TornadoVM](https://github.com/beehive-lab/TornadoVM)
+* [https://github.com/orgs/Tencent/repositories?q=TencentKona](https://github.com/orgs/Tencent/repositories?q=TencentKona)
+* 运行在显卡上 [https://github.com/beehive-lab/TornadoVM](https://github.com/beehive-lab/TornadoVM)
 * OpenJ9 [https://github.com/eclipse-openj9](https://github.com/eclipse-openj9)
     * [https://github.com/eclipse/omr](https://github.com/eclipse/omr)
 * [https://github.com/TravaOpenJDK](https://github.com/TravaOpenJDK)
-* [https://github.com/Tencent/TencentKona-17](https://github.com/Tencent/TencentKona-17)
 * [https://gitee.com/openeuler/bishengjdk-17](https://gitee.com/openeuler/bishengjdk-17)
 * [https://github.com/eclipse-justj](https://github.com/eclipse-justj)
     * [https://eclipse.dev/justj](https://eclipse.dev/justj)
     * [https://download.eclipse.org/justj/www/?page=download](https://download.eclipse.org/justj/www/?page=download)
-* FFI教程 [https://github.com/carldea/panama4newbies](https://github.com/carldea/panama4newbies)
-* JDK指南 [https://github.com/awsdocs/amazon-corretto-11-user-guide](https://github.com/awsdocs/amazon-corretto-11-user-guide)
-* JDK源码 [https://github.com/parttimenerd/jdk/tree/parttimenerd_asgct2](https://github.com/parttimenerd/jdk/tree/parttimenerd_asgct2)
 
 
 

@@ -156,12 +156,16 @@
 * EdXposed [https://github.com/ElderDrivers](https://github.com/ElderDrivers)
 * Riru [https://github.com/RikkaApps](https://github.com/RikkaApps)
 * 梦境框架 [https://github.com/canyie/Dreamland](https://github.com/canyie/Dreamland)
-* [https://github.com/LSPosed](https://github.com/LSPosed)
+* ~~[https://github.com/LSPosed](https://github.com/LSPosed)~~
     * [https://github.com/Xposed-Modules-Repo](https://github.com/Xposed-Modules-Repo)
     * [https://github.com/ThePieMonster/HideMockLocation](https://github.com/ThePieMonster/HideMockLocation)
     * [https://www.ghxi.com/lsposed.html](https://www.ghxi.com/lsposed.html)
     * 起点阅读 [https://github.com/xihan123/QDReadHook](https://github.com/xihan123/QDReadHook)
     * [https://github.com/BookShared/BookShared](https://github.com/BookShared/BookShared)
+    * ~~[https://github.com/HSSkyBoy/NPatch](https://github.com/HSSkyBoy/NPatch)~~
+        * [https://github.com/7723mod/NPatch](https://github.com/7723mod/NPatch)
+        * [https://github.com/JingMatrix/Vector](https://github.com/JingMatrix/Vector)
+    * [https://github.com/HighCapable/YukiHookAPI](https://github.com/HighCapable/YukiHookAPI)
 * BugHook（应用转生）
 * Xpatch
 * SPatch（天鉴）
@@ -532,6 +536,7 @@
 + [https://www.fenxm.com](https://www.fenxm.com)
 + [https://cxapk.com](https://cxapk.com)
 + [https://ruanjianku.cloud](https://ruanjianku.cloud)
++ [https://www.stw6.com](https://www.stw6.com)
 
 
 **音乐下载**

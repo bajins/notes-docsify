@@ -798,6 +798,7 @@
 * [https://github.com/ms300/ColorLake](https://github.com/ms300/ColorLake)
 * [https://github.com/civilblur/mazanoke](https://github.com/civilblur/mazanoke)
 * [https://github.com/amiaoapp/PicLite](https://github.com/amiaoapp/PicLite)
+* [https://github.com/xdadda/mini-photo-editor](https://github.com/xdadda/mini-photo-editor)
 * 时间轴 [https://github.com/hughfenghen/dimcut](https://github.com/hughfenghen/dimcut)
 * 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
 * SVG预览 [https://github.com/liujuntao123/new-svg-viewer](https://github.com/liujuntao123/new-svg-viewer)
@@ -968,6 +969,7 @@
 * 远程桌面 [https://github.com/cea-sec/sanzu](https://github.com/cea-sec/sanzu)
 * 墨水屏VNC [https://github.com/everydayanchovies/eink-vnc](https://github.com/everydayanchovies/eink-vnc)
 * 远程协助手机 [https://zhuanlan.zhihu.com/p/397892677](https://zhuanlan.zhihu.com/p/397892677)
+* ERP/CRM/HRM/ATS/PM [https://github.com/ever-co/ever-gauzy](https://github.com/ever-co/ever-gauzy)
 
 
 

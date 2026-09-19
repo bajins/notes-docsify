@@ -227,6 +227,17 @@ volumes:
 * [https://cdn.jsdelivr.net](https://cdn.jsdelivr.net) 中国国内
     * [https://cdn.jsdelivr.net/gh](https://cdn.jsdelivr.net/gh)
 * [https://suanli.cn/docs/platform/resource-acceleration](https://suanli.cn/docs/platform/resource-acceleration)
+* [https://github.com/TBeduCN/FastCode](https://github.com/TBeduCN/FastCode)
+    * [https://www.tbedu.top](https://www.tbedu.top)
+    * [https://github.tbap.top](https://github.tbap.top)
+    * [https://github.nswrz.cn](https://github.nswrz.cn)
+* [https://github.com/hubporg](https://github.com/hubporg)
+    * [https://gitee.com/geekertao/CF-Workers-GitHub-Proxy](https://gitee.com/geekertao/CF-Workers-GitHub-Proxy)
+    * [https://github.akams.cn](https://github.akams.cn)
+    * [https://github.dpik.top](https://github.dpik.top)
+    * [https://gh.geekertao.top](https://gh.geekertao.top)
+    * [https://gh-proxy.geekertao.top](https://gh-proxy.geekertao.top)
+    * [https://ghproxy.felicity.land](https://ghproxy.felicity.land)
 
 
 - [https://greasyfork.org/zh-CN/scripts/412245](https://greasyfork.org/zh-CN/scripts/412245)
@@ -241,6 +252,7 @@ volumes:
 - [https://releasealert.dev](https://releasealert.dev)
 - [https://github.com/jvxiao/speed-github](https://github.com/jvxiao/speed-github)
 - [https://github.com/xixu-me/xget](https://github.com/xixu-me/xget)
+- [https://cnb.cool](https://cnb.cool)
 
 
 

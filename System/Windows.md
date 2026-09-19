@@ -73,20 +73,26 @@
 - Win32 API [https://github.com/7etsuo/windows-api-function-cheatsheets](https://github.com/7etsuo/windows-api-function-cheatsheets)
 - 移除WinAI [https://github.com/zoicware/RemoveWindowsAl](https://github.com/zoicware/RemoveWindowsAl)
 - Win镜像下载 [https://mpyit.com/html/uupdump](https://mpyit.com/html/uupdump)
+- 动画头像 [https://github.com/helloyanis/windows-account-picture-changer](https://github.com/helloyanis/windows-account-picture-changer)
 
 
 
 **Windows11新系统跳过强制联网激活和注册微软账户**
 
-Shift + F10
+> Shift + F10、Ctrl + Shift + F3 需手动处理OOBE的弹窗问题
 
 ```batch
-OOBE\BYPASSNRO
-::底层执行的是注册表操作
+:: 底层执行的是注册表操作
 ::reg add HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\OOBE /v BypassNRO /t REG_DWORD /d 1 /f
-::重启电脑后，在联网界面，下面就会出现一个“我没有Internet连接”的选项
-::如果以上操作失败，尝试执行以下命令：
+:: 重启电脑后，在联网界面，下面就会出现一个“我没有Internet连接”的选项
+OOBE\BYPASSNRO
+:: 如果以上操作失败，尝试执行以下命令
 start ms-cxh:localonly
+:: 开启内置administrator
+net user administrator /active:yes & net user defaultuser0 /active:no & oobe\msoobe & shutdown -r
+:: 弹出本地用户管理界面，创建本地账户和密码后即可登录
+netplwiz
+:: 在准备就绪阶段调出taskmgr任务管理器，结束 Winlogon 进程，再修改注册表，这种OOBE都不会弹出
 ```
 
 * [应答文件 (unattend.xml)无人值守安装](https://learn.microsoft.com/zh-cn/windows-hardware/manufacture/desktop/update-windows-settings-and-scripts-create-your-own-answer-file-sxs)
@@ -607,28 +613,21 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 > 无需什么激活密钥。这次激活了，下次重装，联网后就能自动激活，只要你不换电脑主板和cpu，就是永久激活了。
 
 
-* [https://jihuo.ma/tool](https://jihuo.ma/tool)
 * [http://www.aihao.cc](http://www.aihao.cc)
 * [https://github.com/FHWWC/KeyCheck](https://github.com/FHWWC/KeyCheck)
     * [https://pkeytool.com/ShareKeys](https://pkeytool.com/ShareKeys)
 * [https://jike.info/category/16/账号密钥](https://jike.info/category/16/%E8%B4%A6%E5%8F%B7%E5%AF%86%E9%92%A5)
 * PIDKey Lite [https://msfree.su](https://msfree.su)
-* [https://webact.sjjzm.com](https://webact.sjjzm.com)
+* [https://cnman.github.io](https://cnman.github.io)
+* [https://github.com/lbjlaq/KeyTools](https://github.com/lbjlaq/KeyTools)
+* [https://github.com/virtwinyt/virtwinyt.github.io](https://github.com/virtwinyt/virtwinyt.github.io)
+* [https://github.com/UMSKT/UMSKT](https://github.com/UMSKT/UMSKT)
+* [https://github.com/zhilun2021/PidKeyTool](https://github.com/zhilun2021/PidKeyTool)
 * [SimplePidX](https://forums.mydigitallife.net/threads/multi-oem-retail-project-mrp-mk3.71555)
 * [https://github.com/Superfly-Inc/ShowKeyPlus](https://github.com/Superfly-Inc/ShowKeyPlus)
-* https://khoatoantin.com/cidms（账号：trogiup24h 密码：PHO）
-* [https://www.nirsoft.net/utils/product_cd_key_viewer.html](https://www.nirsoft.net/utils/product_cd_key_viewer.html)
-* [拨打免费电话激活Windows、Office](https://mp.weixin.qq.com/s/eiIutreWTe5AHPXjkOUwMQ)
-* [https://getconfirmationid.com](https://getconfirmationid.com)
-    * [网页激活](https://mp.weixin.qq.com/s/kn86Wisr2DGfyAlKJUFOwQ)
+* 恢复丢失密钥 [https://www.nirsoft.net/utils/product_cd_key_viewer.html](https://www.nirsoft.net/utils/product_cd_key_viewer.html)
 * XP密钥生成 [https://github.com/Neo-Desktop/WindowsXPKg](https://github.com/Neo-Desktop/WindowsXPKg)
 * 手动数字许可证激活 [https://mp.weixin.qq.com/s/3JdEcYl6vYzZSvbfS_ERbg](https://mp.weixin.qq.com/s/3JdEcYl6vYzZSvbfS_ERbg)
-
-
-- https://wwi.lanzoup.com/b00rwulef
-- https://pan.baidu.com/s/1Guihp6QEI3_7zS8_gwkHmw?pwd=heu8
-- https://pan.baidu.com/s/1G6y_JIf7D06QN_OPBHZIcA?pwd=heu8
-- https://pan.baidu.com/s/1p1FYwJnOpmbBvgjkOrj6UA?pwd=heu8
 
 
 > 在PowerShell（也可在CMD）中输入命令运行`slmgr.vbs /dti`，按<kbd>Ctrl</kbd> + <kbd>C</kbd>复制，
@@ -636,6 +635,14 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 
 > 使用命令有两种方式：第一种：按<kbd>Win</kbd> + <kbd>x</kbd> + <kbd>a</kbd>进入PowerShell（也可在CMD中）输入命令运行；
 > 第二种：按<kbd>Win</kbd> + <kbd>r</kbd>输入命令运行，如`slmgr.vbs /dti`，此方式必须有`.vbs`后缀，（推荐使用第一种方式）
+
+* [拨打免费电话激活Windows、Office](https://mp.weixin.qq.com/s/eiIutreWTe5AHPXjkOUwMQ)
+* [https://jihuo.ma/tool](https://jihuo.ma/tool)
+* [https://webact.sjjzm.com](https://webact.sjjzm.com)
+* [https://khoatoantin.com/cidms](https://khoatoantin.com/cidms)（账号：trogiup24h 密码：PHO）
+* [https://getconfirmationid.com](https://getconfirmationid.com)
+    * [网页激活](https://mp.weixin.qq.com/s/kn86Wisr2DGfyAlKJUFOwQ)
+
 
 
 **错误代码**

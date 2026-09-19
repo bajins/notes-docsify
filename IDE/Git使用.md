@@ -373,13 +373,22 @@ git push -u -f origin master
 - 执行重置
 
 ```bash
+# 查看当前分支名
+git branch --show-current
 # 从远程下载最新的，而不尝试合并或rebase任何东西
 git fetch --all
 # reset将主分支重置为本地commit的最新版本
 # --hard选项更改工作树中的所有文件以匹配origin/<branch_name>中的文件
 git reset --hard origin/<branch_name>
-# 拉取远端最新代码
-git pull
+# 拉取远端最新代码，用远程覆盖当前分支（放弃本地所有提交）
+git pull --force
+# 删除未跟踪的文件和目录（可选，彻底清理）
+git clean -fd
+# 连 .gitignore 忽略的文件也要删除
+git clean -fdx
+# 放弃文件的本地修改 git 2.23 (2019)之前
+git checkout -- .
+git restore .
 ```
 
 ```bash
