@@ -451,6 +451,8 @@
 * [https://github.com/winscp/winscp](https://github.com/winscp/winscp)
     * [https://sourceforge.net/projects/winscp](https://sourceforge.net/projects/winscp)
     * [https://github.com/search?q=winscp](https://github.com/search?q=winscp)
+* [https://github.com/shellassistant](https://github.com/shellassistant)
+    * [https://shellassistant.com](https://shellassistant.com)
 * MacOS [https://github.com/gnachman/iTerm2](https://github.com/gnachman/iTerm2)
     * [https://sourceforge.net/projects/iterm](https://sourceforge.net/projects/iterm)
     * 主题配色 [https://github.com/mbadolato/iTerm2-Color-Schemes](https://github.com/mbadolato/iTerm2-Color-Schemes)

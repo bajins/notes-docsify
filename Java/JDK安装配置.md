@@ -24,6 +24,9 @@
         * [https://harmoniccode.blogspot.com](https://harmoniccode.blogspot.com)
 * [https://github.com/HanSolo/javafinder](https://github.com/HanSolo/javafinder)
 * [https://github.com/HanSolo/JDK-Updater](https://github.com/HanSolo/JDK-Updater)
+* 版本切换 [https://github.com/felixselter/jenv-for-windows](https://github.com/felixselter/jenv-for-windows)
+* 版本切换 [https://github.com/chroblert/jc-jenv](https://github.com/chroblert/jc-jenv)
+* Java环境 [https://github.com/jenv/jenv](https://github.com/jenv/jenv)
 
 
 
@@ -41,9 +44,6 @@
 * [Java 25 的到来](https://blogs.oracle.com/java/post/the-arrival-of-java-25#_anchor_1)
 
 </details>
-* 版本切换 [https://github.com/felixselter/jenv-for-windows](https://github.com/felixselter/jenv-for-windows)
-* Java环境 [https://github.com/jenv/jenv](https://github.com/jenv/jenv)
-* 版本切换 [https://github.com/chroblert/jc-jenv](https://github.com/chroblert/jc-jenv)
 
 
 
@@ -67,7 +67,7 @@
     * [https://adoptium.net](https://adoptium.net)
     * ~~[https://github.com/AdoptOpenJDK](https://github.com/AdoptOpenJDK)~~
         * ~~[https://adoptopenjdk.net](https://adoptopenjdk.net)~~
-        * [https://github.com/Adopt-a-JSR](https://github.com/Adopt-a-JSR)
+        * ~~[https://github.com/Adopt-a-JSR](https://github.com/Adopt-a-JSR)~~
 * [https://github.com/zulu-openjdk](https://github.com/zulu-openjdk)
     * [https://www.azul.com/downloads/zulu](https://www.azul.com/downloads/zulu)
     * [https://cdn.azul.com/zulu/bin](https://cdn.azul.com/zulu/bin)
@@ -75,18 +75,21 @@
     * [https://bell-sw.com/pages/downloads](https://bell-sw.com/pages/downloads)
 * [https://github.com/corretto](https://github.com/corretto)
     * [https://aws.amazon.com/cn/corretto](https://aws.amazon.com/cn/corretto)
+    * [https://docs.aws.amazon.com/corretto](https://docs.aws.amazon.com/corretto)
 * [https://github.com/SAP/SapMachine](https://github.com/SAP/SapMachine)
     * [https://sap.github.io/SapMachine](https://sap.github.io/SapMachine)
-* [https://developer.ibm.com/languages/java/semeru-runtimes/downloads](https://developer.ibm.com/languages/java/semeru-runtimes/downloads)
-* [https://developers.redhat.com/products/openjdk](https://developers.redhat.com/products/openjdk)
+* [https://github.com/ibmruntimes](https://github.com/ibmruntimes)
+    * [https://developer.ibm.com/languages/java/semeru-runtimes/downloads](https://developer.ibm.com/languages/java/semeru-runtimes/downloads)
 * [https://www.openlogic.com/openjdk-downloads](https://www.openlogic.com/openjdk-downloads)
     * [https://github.com/openlogic](https://github.com/openlogic)
 * [https://github.com/microsoft/openjdk](https://github.com/microsoft/openjdk)
     * [https://www.microsoft.com/openjdk](https://www.microsoft.com/openjdk)
     * [https://docs.microsoft.com/zh-cn/java](https://docs.microsoft.com/zh-cn/java)
+* [https://github.com/orgs/Tencent/repositories?q=TencentKona](https://github.com/orgs/Tencent/repositories?q=TencentKona)
 * [https://github.com/dragonwell-project](https://github.com/dragonwell-project)
     * [https://dragonwell-jdk.io](https://dragonwell-jdk.io)
-* [https://github.com/orgs/Tencent/repositories?q=TencentKona](https://github.com/orgs/Tencent/repositories?q=TencentKona)
+* [https://github.com/rh-openjdk](https://github.com/rh-openjdk)
+    * [https://developers.redhat.com/products/openjdk](https://developers.redhat.com/products/openjdk)
 * 运行在显卡上 [https://github.com/beehive-lab/TornadoVM](https://github.com/beehive-lab/TornadoVM)
 * OpenJ9 [https://github.com/eclipse-openj9](https://github.com/eclipse-openj9)
     * [https://github.com/eclipse/omr](https://github.com/eclipse/omr)

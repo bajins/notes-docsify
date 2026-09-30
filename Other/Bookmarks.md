@@ -468,5 +468,7 @@
 - [https://github.com/louloulin/mdb](https://github.com/louloulin/mdb)
 - 记账应用 [https://github.com/mayswind/ezbookkeeping](https://github.com/mayswind/ezbookkeeping)
 - 股票应用 [https://github.com/Open-Dev-Society/OpenStock](https://github.com/Open-Dev-Society/OpenStock)
+- AI盯盘助手 [https://github.com/TNT-Likely/PanWatch](https://github.com/TNT-Likely/PanWatch)
+- [https://github.com/hugo2046/QuantsPlaybook](https://github.com/hugo2046/QuantsPlaybook)
 - 巴菲特书信 [https://buffett-letters-eir.pages.dev](https://buffett-letters-eir.pages.dev)
 - 美股编年史 [https://historyofmarket.com](https://historyofmarket.com)

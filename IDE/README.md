@@ -22,6 +22,7 @@
 * [https://github.com/zed-industries](https://github.com/zed-industries)
 * [https://github.com/face-hh/griddycode](https://github.com/face-hh/griddycode)
 * [https://github.com/capistrano/sshkit](https://github.com/capistrano/sshkit)
+* [https://github.com/1lck/Lithe-IDEA](https://github.com/1lck/Lithe-IDEA)
 * IDE的仪表盘 [https://github.com/wakatime](https://github.com/wakatime)
 * 图形转代码 [https://www.paintcodeapp.com](https://www.paintcodeapp.com)
 * GoIDE [https://github.com/visualfc/liteide](https://github.com/visualfc/liteide)
@@ -100,10 +101,12 @@
 + [https://github.com/nucleuscloud/neosync](https://github.com/nucleuscloud/neosync)
 + [https://github.com/HariSekhon/DevOps-Bash-tools](https://github.com/HariSekhon/DevOps-Bash-tools)
 + 部署系统 [https://github.com/meolu/walle-web](https://github.com/meolu/walle-web)
++ [https://github.com/oblien/openship](https://github.com/oblien/openship)
++ 应用部署 [https://github.com/rails/mrsk](https://github.com/rails/mrsk)
++ 部署系统 [https://github.com/gitploy-io/gitploy](https://github.com/gitploy-io/gitploy)
 + 特性管理 [https://github.com/featureprobe/featureprobe](https://github.com/featureprobe/featureprobe)
 + 工作流平台 [https://github.com/windmill-labs/windmill](https://github.com/windmill-labs/windmill)
 + 发布监控 [https://github.com/release-argus/argus](https://github.com/release-argus/argus)
-+ 部署系统 [https://github.com/gitploy-io/gitploy](https://github.com/gitploy-io/gitploy)
 + AI代码审查 [https://github.com/sturdy-dev/codeball-action](https://github.com/sturdy-dev/codeball-action)
 + 代码片段管理 [https://github.com/masscodeio/masscode](https://github.com/masscodeio/masscode)
 + 构建系统 [https://github.com/gauravdawra/beast](https://github.com/gauravdawra/beast)
@@ -112,7 +115,6 @@
 + 运维学习 [https://github.com/annfelix/devops-world](https://github.com/annfelix/devops-world)
 + AI代码审查 [https://github.com/anc95/chatgpt-codereview](https://github.com/anc95/chatgpt-codereview)
 + 云开发 [https://github.com/klothoplatform/klotho](https://github.com/klothoplatform/klotho)
-+ 应用部署 [https://github.com/rails/mrsk](https://github.com/rails/mrsk)
 + CI/CD [https://github.com/gaia-pipeline/gaia](https://github.com/gaia-pipeline/gaia)
 + 开发环境 [https://github.com/jetpack-io/devbox](https://github.com/jetpack-io/devbox)
 + DevOps资源 [https://github.com/bregman-arie/devops-resources](https://github.com/bregman-arie/devops-resources)
@@ -378,6 +380,7 @@
     + BitNami WAMP Stack
     + WampServer
     + XAMPP
++ [https://github.com/rakyll/hey](https://github.com/rakyll/hey)
 + [https://github.com/mcdcorp/opentest](https://github.com/mcdcorp/opentest)
 + [https://github.com/zebrunner/carina](https://github.com/zebrunner/carina)
 + [https://github.com/grafana/k6](https://github.com/grafana/k6)

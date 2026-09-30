@@ -88,6 +88,7 @@
 - 独立音量控制 [https://github.com/ronitsingh10/FineTune](https://github.com/ronitsingh10/FineTune)
 - USB-C线能做什么 [https://github.com/darrylmorley/whatcable](https://github.com/darrylmorley/whatcable)
 - 启动器 [https://github.com/abue-ammar/tinycast](https://github.com/abue-ammar/tinycast)
+- 扩展桌面 [https://github.com/peetzweg/opendisplay](https://github.com/peetzweg/opendisplay)
 
 
 

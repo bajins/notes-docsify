@@ -371,7 +371,7 @@
 
 
 
-### 向量数据库(Vector Database)
+### 矢量向量数据库(Vector Database)
 
 * [https://github.com/facebookresearch/faiss](https://github.com/facebookresearch/faiss) (嵌入式/库 - C++/Python)
 * [https://github.com/chroma-core/chroma](https://github.com/chroma-core/chroma)
@@ -381,6 +381,7 @@
 * [https://github.com/vespa-engine/vespa](https://github.com/vespa-engine/vespa)
 * [https://github.com/vdaas/vald](https://github.com/vdaas/vald)
 * [https://github.com/pgvector/pgvector](https://github.com/pgvector/pgvector) (PostgreSQL扩展)
+* [https://github.com/VectifyAI/PageIndex](https://github.com/VectifyAI/PageIndex)
 * [https://github.com/towhee-io](https://github.com/towhee-io)
 * [https://github.com/pinecone-io](https://github.com/pinecone-io)
 * [https://github.com/ruvnet/ruvector](https://github.com/ruvnet/ruvector)

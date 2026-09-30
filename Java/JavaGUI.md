@@ -101,6 +101,9 @@
 - [https://github.com/edvin/tornadofx-controls](https://github.com/edvin/tornadofx-controls) `[JavaFX]`
 - [https://github.com/kordamp/bootstrapfx](https://github.com/kordamp/bootstrapfx) `[JavaFX]`
     - [https://github.com/aalmiray](https://github.com/aalmiray)
+- [https://github.com/dukke/FXSkins](https://github.com/dukke/FXSkins)
+- [https://github.com/dukke/FXRibbon](https://github.com/dukke/FXRibbon)
+- [https://github.com/dukke/Transit](https://github.com/dukke/Transit)
 - 对话框 [https://github.com/AmirAli-AZ/FXDialogs](https://github.com/AmirAli-AZ/FXDialogs) `[JavaFX 对话框]`
 - [https://github.com/dustinkredmond/FXAlert](https://github.com/dustinkredmond/FXAlert) `[JavaFX 对话框/Alert]`
 - [https://github.com/Mr-Po/toasterfx](https://github.com/Mr-Po/toasterfx) `[JavaFX Toast]`

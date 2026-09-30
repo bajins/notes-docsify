@@ -73,6 +73,8 @@
 * [https://github.com/microsoft/WSL/issues/4210#issuecomment-648570493](https://github.com/microsoft/WSL/issues/4210#issuecomment-648570493)
 * [https://github.com/MustardChef/WSABuilds](https://github.com/MustardChef/WSABuilds)
 * [https://github.com/LSPosed/MagiskOnWSALocal](https://github.com/LSPosed/MagiskOnWSALocal)
+* [https://github.com/octasoft-ltd/wsl-ui](https://github.com/octasoft-ltd/wsl-ui)
+* [https://github.com/FalconNL93/WslToolbox](https://github.com/FalconNL93/WslToolbox)
 
 
 - [https://docs.microsoft.com/zh-cn/windows-server/virtualization](https://docs.microsoft.com/zh-cn/windows-server/virtualization)

@@ -624,6 +624,7 @@ string &operator+(const string& A,const string& B) //cpp
 * [https://github.com/flxzt/rnote](https://github.com/flxzt/rnote)
 * [https://github.com/pbek/QOwnNotes](https://github.com/pbek/QOwnNotes)
 * [https://github.com/usememos/memos](https://github.com/usememos/memos)
+* [https://github.com/bainianlaoyao/stream_note](https://github.com/bainianlaoyao/stream_note)
 * [https://github.com/standardnotes](https://github.com/standardnotes)
 * [https://github.com/anyproto](https://github.com/anyproto)
 * [https://github.com/yesmore/inke](https://github.com/yesmore/inke)
