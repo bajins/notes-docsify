@@ -61,7 +61,17 @@
 * 防火墙可视化 [https://github.com/olivierb46/PyFRC2G](https://github.com/olivierb46/PyFRC2G)
 * 应用防火墙 [https://github.com/evilsocket/opensnitch](https://github.com/evilsocket/opensnitch)
 * DNS [https://github.com/topics/dns](https://github.com/topics/dns)
-
+* 子网计算 [https://github.com/sii/sipcalc](https://github.com/sii/sipcalc)
+* DNS查询 [https://github.com/jvns/dns-lookup](https://github.com/jvns/dns-lookup)
+* 网络模拟 [https://github.com/tylertreat/comcast](https://github.com/tylertreat/comcast)
+* 网络监控 [https://github.com/cjjeakle/network-monitor](https://github.com/cjjeakle/network-monitor)
+* 网络监控 [https://github.com/gyulyvgc/sniffnet](https://github.com/gyulyvgc/sniffnet)
+* IP合并工具 [https://github.com/zhanhb/cidr-merger](https://github.com/zhanhb/cidr-merger)
+* Ping工具 [https://github.com/hanshuaikang/nping](https://github.com/hanshuaikang/nping)
+* 局域网扫描 [https://github.com/aceberg/watchyourlan](https://github.com/aceberg/watchyourlan)
+* 网络抓包 [https://github.com/pythops/oryx](https://github.com/pythops/oryx)
+* 抓包工具 [https://icloudnative.io/posts/tcpdump-examples](https://icloudnative.io/posts/tcpdump-examples)
+* 网卡统计 [https://github.com/sysperf/nicstat](https://github.com/sysperf/nicstat)
 
 
 ## 查看网络
@@ -97,17 +107,6 @@ pstree -p {pid} | wc -l
 netstat -antp |grep "ESTABLISHED" |awk '{print $5}'|awk -F : '{print $4}'|sort |uniq -c
 
 ```
-* 子网计算 [https://github.com/sii/sipcalc](https://github.com/sii/sipcalc)
-* DNS查询 [https://github.com/jvns/dns-lookup](https://github.com/jvns/dns-lookup)
-* 网络模拟 [https://github.com/tylertreat/comcast](https://github.com/tylertreat/comcast)
-* 网络监控 [https://github.com/cjjeakle/network-monitor](https://github.com/cjjeakle/network-monitor)
-* 网络监控 [https://github.com/gyulyvgc/sniffnet](https://github.com/gyulyvgc/sniffnet)
-* IP合并工具 [https://github.com/zhanhb/cidr-merger](https://github.com/zhanhb/cidr-merger)
-* Ping工具 [https://github.com/hanshuaikang/nping](https://github.com/hanshuaikang/nping)
-* 局域网扫描 [https://github.com/aceberg/watchyourlan](https://github.com/aceberg/watchyourlan)
-* 网络抓包 [https://github.com/pythops/oryx](https://github.com/pythops/oryx)
-* 抓包工具 [https://icloudnative.io/posts/tcpdump-examples](https://icloudnative.io/posts/tcpdump-examples)
-* 网卡统计 [https://github.com/sysperf/nicstat](https://github.com/sysperf/nicstat)
 
 
 
@@ -291,6 +290,7 @@ firewall-cmd --query-panic
 - 网络诊断 [https://github.com/traviscross/mtr](https://github.com/traviscross/mtr)
 - 路由跟踪 [https://github.com/libparistraceroute/libparistraceroute](https://github.com/libparistraceroute/libparistraceroute)
 - 路由跟踪 [https://github.com/insomniacslk/dublin-traceroute](https://github.com/insomniacslk/dublin-traceroute)
+- [https://github.com/aixisstudio/Snitch](https://github.com/aixisstudio/Snitch)
 
 
 **`ping`、`tcptraceroute`、`traceroute`、`mtr`**

@@ -461,6 +461,7 @@
 * 财经资讯 [https://github.com/sgrsun3/FinNewsCollectionBot](https://github.com/sgrsun3/FinNewsCollectionBot)
 * 股票 [https://github.com/Rockyzsu/stock](https://github.com/Rockyzsu/stock)
 * [https://github.com/mootdx/mootdx](https://github.com/mootdx/mootdx)
+* [https://github.com/sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X)
 * 投资干货合集 [https://news.futunn.com/news-topics/127](https://news.futunn.com/news-topics/127)
 
 

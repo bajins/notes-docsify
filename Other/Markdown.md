@@ -585,6 +585,9 @@ string &operator+(const string& A,const string& B) //cpp
 
 * [https://github.com/vnotex/vnote](https://github.com/vnotex/vnote)
     * [https://gitee.com/vnotex/vnote](https://gitee.com/vnotex/vnote)
+    ```powershell
+    $e=(New-Object -ComObject WScript.Shell).CreateShortcut("$env:APPDATA\Microsoft\Windows\Start Menu\Programs\vnote.lnk").TargetPath; if(Test-Path $e){$c=[Microsoft.Win32.Registry]::CurrentUser; $c.CreateSubKey("Software\Classes\VNote.Markdown\shell\open\command").SetValue("",'"'+$e+'" "%1"'); $c.CreateSubKey("Software\Classes\VNote.Markdown\DefaultIcon").SetValue("",'"'+$e+'",0'); foreach($x in "md","mkd","rmd","markdown"){$c.CreateSubKey("Software\Classes\.$x").SetValue("","VNote.Markdown")}; try{Add-Type -MemberDefinition '[DllImport("shell32.dll")]public static extern void SHChangeNotify(int w,uint f,System.IntPtr a,System.IntPtr b);' -Name SN -Namespace W; [W.SN]::SHChangeNotify(0x08000000,0,[IntPtr]::Zero,[IntPtr]::Zero)}catch{}; "VNote 关联已更新 -> $e"}else{"vnote.lnk 指向的路径不存在: $e（请先把快捷方式指向新版本）"}
+    ```
 * ~~[https://github.com/typora](https://github.com/typora)~~
     * [https://www.typora.io/releases/all](https://www.typora.io/releases/all)
         * [https://typoraio.cn/releases/all](https://typoraio.cn/releases/all)

@@ -89,6 +89,9 @@
 - USB-C线能做什么 [https://github.com/darrylmorley/whatcable](https://github.com/darrylmorley/whatcable)
 - 启动器 [https://github.com/abue-ammar/tinycast](https://github.com/abue-ammar/tinycast)
 - 扩展桌面 [https://github.com/peetzweg/opendisplay](https://github.com/peetzweg/opendisplay)
+- 系统监控 [https://github.com/byrencheema/airstats](https://github.com/byrencheema/airstats)
+- 压缩与解压 [https://github.com/gentpan/LiteZip](https://github.com/gentpan/LiteZip)
+- 壁纸 [https://github.com/WallpaperMachine/WallpaperMachine](https://github.com/WallpaperMachine/WallpaperMachine)
 
 
 

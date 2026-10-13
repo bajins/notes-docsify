@@ -134,6 +134,13 @@ REG DELETE "HKLM\Software\Microsoft\Windows NT\CurrentVersion\Image File Executi
 * 比较 [https://github.com/pnedev/compare-plugin](https://github.com/pnedev/compare-plugin)
 * JSON [https://github.com/kapilratnani/JSON-Viewer](https://github.com/kapilratnani/JSON-Viewer)
 * [https://github.com/molsonkiko/JsonToolsNppPlugin](https://github.com/molsonkiko/JsonToolsNppPlugin)
+* markdown [https://github.com/mohzy83/NppMarkdownPanel](https://github.com/mohzy83/NppMarkdownPanel)
+* [https://github.com/ezyuzin/NppAnotherMarkdown](https://github.com/ezyuzin/NppAnotherMarkdown)
+* [https://github.com/bigfnj/MarkdownViewerPlusPlus](https://github.com/bigfnj/MarkdownViewerPlusPlus)
+* [https://github.com/guihai24/MarkdownViewerPlusPlus](https://github.com/guihai24/MarkdownViewerPlusPlus)
+* [https://github.com/krotname/NppMarkdownTableEditor](https://github.com/krotname/NppMarkdownTableEditor)
+
+
 
 - 查看快捷键：`设置` –> `管理快捷键` -> `Scintilla命令`
     - `SCI_SELECTIONDUPLICATE` 复制当前行

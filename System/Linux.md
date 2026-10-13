@@ -853,6 +853,7 @@ rsync -avP -r -v --exclude sourcedir/notinclude /home/work/sourcedir work@www.my
 ## 性能测试
 
 * [https://github.com/masonr/yet-another-bench-script](https://github.com/masonr/yet-another-bench-script)
+* [https://github.com/CleanIP/sh.cd](https://github.com/CleanIP/sh.cd)
 * 网络测压 [https://github.com/hewlettpackard/netperf](https://github.com/hewlettpackard/netperf)
 * CPU监控 [https://github.com/cyring/corefreq](https://github.com/cyring/corefreq)
 * 性能测试 [https://github.com/andrewrk/poop](https://github.com/andrewrk/poop)

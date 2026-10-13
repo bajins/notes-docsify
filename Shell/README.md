@@ -349,6 +349,11 @@
 * 检查脚本行为 [https://github.com/vet-run/vet](https://github.com/vet-run/vet)
 
 
+```bash
+# SSH 端口转发
+ssh -L 3458:localhost:3458 root@你的服务器IP
+```
+
 **文件传输**
 
 - [https://github.com/topics/sftp](https://github.com/topics/sftp)
@@ -470,6 +475,7 @@
 
 * [https://github.com/wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
 * [https://github.com/wezterm/wezterm](https://github.com/wezterm/wezterm)
+* [https://github.com/lyuangg/tui-dashboard](https://github.com/lyuangg/tui-dashboard)
 * [https://github.com/yorukot/superfile](https://github.com/yorukot/superfile)
 * [https://github.com/ghostty-org/ghostty](https://github.com/ghostty-org/ghostty)
 * [https://github.com/openssh](https://github.com/openssh)
@@ -491,6 +497,7 @@
 * [https://github.com/Eugeny/tabby](https://github.com/Eugeny/tabby)
 * [https://github.com/vercel/hyper](https://github.com/vercel/hyper)
 * [https://github.com/warpdotdev/Warp](https://github.com/warpdotdev/Warp)
+* [https://github.com/Kuddev/pebrel](https://github.com/Kuddev/pebrel)
 * PuTTY [https://www.chiark.greenend.org.uk/~sgtatham/putty](https://www.chiark.greenend.org.uk/~sgtatham/putty)
     * [https://github.com/rhuijben/putty](https://github.com/rhuijben/putty)
     * [https://github.com/larryli/PuTTY](https://github.com/larryli/PuTTY)

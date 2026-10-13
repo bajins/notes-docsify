@@ -207,6 +207,8 @@
     * [https://github.com/kinow/gtest-tap-listener](https://github.com/kinow/gtest-tap-listener)
     * [https://github.com/google/gtest-parallel](https://github.com/google/gtest-parallel)
 * [https://github.com/doctest/doctest](https://github.com/doctest/doctest)
+* [https://github.com/banditcpp/bandit](https://github.com/banditcpp/bandit)
+* 调试 [https://github.com/EpicGames/raddebugger](https://github.com/EpicGames/raddebugger)
 * 压缩 [https://github.com/lemire/SIMDCompressionAndIntersection](https://github.com/lemire/SIMDCompressionAndIntersection)
 * [https://github.com/lemire/FastPFor](https://github.com/lemire/FastPFor)
 * [https://github.com/mapbox/gzip-hpp](https://github.com/mapbox/gzip-hpp)
@@ -278,7 +280,6 @@
 
 
 - 管理安装和更新Windows应用 [https://github.com/Squirrel/Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows)
-- 单元测试 [https://github.com/banditcpp/bandit](https://github.com/banditcpp/bandit)
 - HTML转换为PDF [https://github.com/wkhtmltopdf](https://github.com/wkhtmltopdf)
 - 分析器 [https://github.com/bombomby/optick](https://github.com/bombomby/optick)
 - [https://github.com/cpp-linter](https://github.com/cpp-linter)
