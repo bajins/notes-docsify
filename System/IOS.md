@@ -69,6 +69,8 @@
 - 录屏 [https://github.com/lihaoyun6/QuickRecorder](https://github.com/lihaoyun6/QuickRecorder)
 - [https://github.com/jsattler/BetterCapture](https://github.com/jsattler/BetterCapture)
 - [https://github.com/ronaldo-avalos/Maya](https://github.com/ronaldo-avalos/Maya)
+- [https://github.com/icloudza/caplo](https://github.com/icloudza/caplo)
+- 画板 [https://github.com/joshlin2201/itspaint](https://github.com/joshlin2201/itspaint)
 - 视频转GIF [https://github.com/sindresorhus/Gifski](https://github.com/sindresorhus/Gifski)
 - 窗口管理 [https://github.com/MrKai77/Loop](https://github.com/MrKai77/Loop)
 - [https://github.com/nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace)

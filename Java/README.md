@@ -41,7 +41,6 @@
 
 
 
-- [Michael Redlich-Java近期新闻](https://www.infoq.cn/profile/416A67CDBAA4DC)
 - [Java版本比较](https://mp.weixin.qq.com/s/NEfqPXrcq6O1p7RLf9LWCw)
 - [Java 9-16 新增语法元素一览](https://segmentfault.com/a/1190000039714550)
 - [Java 速查手册](https://bbs.csdn.net/topics/609815996)
@@ -207,7 +206,6 @@
 * Java进阶 [https://github.com/doocs/advanced-java](https://github.com/doocs/advanced-java)
 * 原生编译 [https://segmentfault.com/a/1190000045090468](https://segmentfault.com/a/1190000045090468)
 * Java学习 [https://github.com/zhengshuhai/javarecord](https://github.com/zhengshuhai/javarecord)
-* Java面试 [https://github.com/snailclimb/javaguide](https://github.com/snailclimb/javaguide)
 * Java学习 [https://github.com/tc-liang/studyjava](https://github.com/tc-liang/studyjava)
 * Java笔记 [https://github.com/niumoo/javanotes](https://github.com/niumoo/javanotes)
 * JMH基准测试 [https://juejin.cn/post/6844903936869007368](https://juejin.cn/post/6844903936869007368)

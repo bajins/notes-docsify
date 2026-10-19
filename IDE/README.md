@@ -868,6 +868,7 @@
     - [https://github.com/eclipse/lsp4e](https://github.com/eclipse/lsp4e)
 - [https://github.com/ycm-core/ycmd](https://github.com/ycm-core/ycmd)
 - [https://github.com/Genuitec](https://github.com/Genuitec)
+- [https://github.com/ag-libs/lathe](https://github.com/ag-libs/lathe)
 - PostgreSQL [https://github.com/supabase-community/postgres-language-server](https://github.com/supabase-community/postgres-language-server)
 
 

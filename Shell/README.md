@@ -385,6 +385,7 @@ ssh -L 3458:localhost:3458 root@你的服务器IP
 * 实时协作 [https://github.com/ekzhang/sshx](https://github.com/ekzhang/sshx)
 * awk服务器 [https://github.com/crossbowerbt/awk-webserver](https://github.com/crossbowerbt/awk-webserver)
 * 终端Web化 [https://github.com/yudai/gotty](https://github.com/yudai/gotty)
+* [https://github.com/aozorae/EdgeSSH](https://github.com/aozorae/EdgeSSH)
 
 
 **Android**

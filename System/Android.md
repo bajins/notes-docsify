@@ -109,6 +109,7 @@
 * 自动点击 [https://github.com/Nain57/Smart-AutoClicker](https://github.com/Nain57/Smart-AutoClicker)
 * 跳过广告 [https://github.com/zfdang/android-touch-helper](https://github.com/zfdang/android-touch-helper)
 * 多设备控制 [https://github.com/pdone/freecontrol](https://github.com/pdone/freecontrol)
+* 电脑自动操作手机 [https://github.com/KnifeLemon/Droidline](https://github.com/KnifeLemon/Droidline)
 
 
 **Auto.js**

@@ -112,10 +112,21 @@
 - 动画库 [https://github.com/Typhon0/AnimateFX](https://github.com/Typhon0/AnimateFX) `[JavaFX 动画]`
 - 流程图 [https://github.com/miho/VWorkflows](https://github.com/miho/VWorkflows)
 - 仪表图表 [https://github.com/HanSolo](https://github.com/HanSolo) `[JavaFX 仪表盘/图表/控件集合]`
-- [https://github.com/fair-acc/chart-fx](https://github.com/fair-acc/chart-fx) `[JavaFX 科学图表]`
 - [https://github.com/jfree/jfreechart](https://github.com/jfree/jfreechart)
-- [https://github.com/jfree/orson-charts](https://github.com/jfree/orson-charts)
     - [https://github.com/jfree/fxgraphics2d](https://github.com/jfree/fxgraphics2d)
+    - [https://github.com/jfree/jfreechart-fx](https://github.com/jfree/jfreechart-fx)
+    - [https://github.com/jfree/jfreechart-swt](https://github.com/jfree/jfreechart-swt)
+    - [https://github.com/jfree/jfree-starter](https://github.com/jfree/jfree-starter)
+    - [https://github.com/jfree/jfree-fxdemos](https://github.com/jfree/jfree-fxdemos)
+    - [https://github.com/jfree/jfree-demos](https://github.com/jfree/jfree-demos)
+    - [https://github.com/jfree/orson-charts](https://github.com/jfree/orson-charts)
+    - [https://github.com/jfree/orson-charts-fx](https://github.com/jfree/orson-charts-fx)
+    - [https://github.com/jfree/skikographics2d](https://github.com/jfree/skikographics2d)
+    - [https://github.com/jfree/skijagraphics2d](https://github.com/jfree/skijagraphics2d)
+    - [https://github.com/jfree/swtgraphics2d](https://github.com/jfree/swtgraphics2d)
+    - [https://github.com/jfree/jfreepdf](https://github.com/jfree/jfreepdf)
+    - [https://github.com/jfree/orsonpdf](https://github.com/jfree/orsonpdf)
+- [https://github.com/fair-acc/chart-fx](https://github.com/fair-acc/chart-fx) `[JavaFX 科学图表]`
 - [https://github.com/HumbleUI/skija](https://github.com/HumbleUI/skija)
 - 等离子画布 [https://github.com/bertjan/javafx-canvas-plasma](https://github.com/bertjan/javafx-canvas-plasma) `[JavaFX Canvas 演示]`
 - 画布设计器 [https://github.com/palexdev/architectfx](https://github.com/palexdev/architectfx)

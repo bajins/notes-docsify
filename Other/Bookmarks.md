@@ -54,6 +54,7 @@
 * 文泉考试 [https://www.wqkaoshi.com](https://www.wqkaoshi.com)
 * 高考真题 [https://github.com/deekur/gaokaomath](https://github.com/deekur/gaokaomath)
 * [https://t.urongda.com](https://t.urongda.com)
+* 字的一生 [https://github.com/ivan666jjj/yigezi](https://github.com/ivan666jjj/yigezi)
 * 线性代数 [https://linear.axler.net](https://linear.axler.net)
 * 通过实践学习 [https://scrimba.com](https://scrimba.com)
 * [https://www.geeksforgeeks.org](https://www.geeksforgeeks.org)
@@ -462,6 +463,7 @@
 * 股票 [https://github.com/Rockyzsu/stock](https://github.com/Rockyzsu/stock)
 * [https://github.com/mootdx/mootdx](https://github.com/mootdx/mootdx)
 * [https://github.com/sngyai/Sequoia-X](https://github.com/sngyai/Sequoia-X)
+* [https://github.com/rootSunc/CNEquity](https://github.com/rootSunc/CNEquity)
 * 投资干货合集 [https://news.futunn.com/news-topics/127](https://news.futunn.com/news-topics/127)
 
 

@@ -27,6 +27,7 @@
 * 版本切换 [https://github.com/felixselter/jenv-for-windows](https://github.com/felixselter/jenv-for-windows)
 * 版本切换 [https://github.com/chroblert/jc-jenv](https://github.com/chroblert/jc-jenv)
 * Java环境 [https://github.com/jenv/jenv](https://github.com/jenv/jenv)
+* 终端开发环境 [https://github.com/Netflix/ja](https://github.com/Netflix/ja)
 
 
 
@@ -113,6 +114,7 @@
 - SubstrateVM [https://github.com/oracle/graal](https://github.com/oracle/graal)
     - [https://github.com/oracle/graal-dev-kit](https://github.com/oracle/graal-dev-kit)
     - [https://github.com/westinyang/java-graalvm-start](https://github.com/westinyang/java-graalvm-start)
+    - [https://github.com/yupiik/fusion](https://github.com/yupiik/fusion)
 - [https://github.com/spring-projects-experimental/spring-native](https://github.com/spring-projects-experimental/spring-native)
 - [https://docs.spring.io/spring-native/docs/current/reference/htmlsingle](https://docs.spring.io/spring-native/docs/current/reference/htmlsingle)
 - [https://openval.eu/jdk](https://openval.eu/jdk)

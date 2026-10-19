@@ -600,6 +600,8 @@ check-revoke = false
 - 浏览器自动化 [https://github.com/rknoche6/fast-browser-use](https://github.com/rknoche6/fast-browser-use)
 - 实时状态同步算法 [https://github.com/loro-dev/loro](https://github.com/loro-dev/loro)
 - Windows Remote [https://github.com/Devolutions/IronRDP](https://github.com/Devolutions/IronRDP)
+- 图表 [https://github.com/vicanso/charts-rs](https://github.com/vicanso/charts-rs)
+- 同步原语 [https://github.com/amanieu/parking_lot](https://github.com/amanieu/parking_lot)
 
 
 
