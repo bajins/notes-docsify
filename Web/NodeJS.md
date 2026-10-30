@@ -47,6 +47,7 @@
 * Node框架 [https://github.com/nestjs](https://github.com/nestjs)
 * 前端开发 [https://github.com/barretlee](https://github.com/barretlee)
 * NodeJS框架 [https://github.com/eggjs](https://github.com/eggjs)
+* HTML转视频 [https://github.com/wx4766/html-to-video](https://github.com/wx4766/html-to-video)
 
 
 

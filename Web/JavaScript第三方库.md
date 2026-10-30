@@ -124,6 +124,7 @@
 * [https://github.com/pactumjs/pactum](https://github.com/pactumjs/pactum)
 * [https://github.com/tianchangNorth/pocket-mocker](https://github.com/tianchangNorth/pocket-mocker)
 * [https://github.com/tester-army/e2e](https://github.com/tester-army/e2e)
+* [https://github.com/pact-foundation/pact-js](https://github.com/pact-foundation/pact-js)
 * 状态管理 [https://github.com/statelyai/xstate](https://github.com/statelyai/xstate)
 * iFrame宽高自适应 [https://github.com/davidjbradshaw/iframe-resizer](https://github.com/davidjbradshaw/iframe-resizer)
 * 运行C/C++代码 [https://github.com/luoxuhai/clang.js](https://github.com/luoxuhai/clang.js)

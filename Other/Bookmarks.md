@@ -166,6 +166,7 @@
 * 个人学习 [https://github.com/pengfeiw](https://github.com/pengfeiw)
 * 身体器官 [https://anatomy-livid.vercel.app](https://anatomy-livid.vercel.app)
 * 网络设备拓扑图 [https://gpcb.net/net/](https://gpcb.net/net/)
+* 追忆似水年华 [https://github.com/QriDoki/in-search-of-lost-time-translation-project](https://github.com/QriDoki/in-search-of-lost-time-translation-project)
 
 
 

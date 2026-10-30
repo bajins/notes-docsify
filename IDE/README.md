@@ -54,6 +54,7 @@
 * 代码协作 [https://github.com/facebook/phabricator](https://github.com/facebook/phabricator)
 * AI编程IDE [https://codeium.com](https://codeium.com)
 * 终端编辑器 [https://github.com/helix-editor](https://github.com/helix-editor)
+* 代码配色 [https://github.com/Konata9/inkstone](https://github.com/Konata9/inkstone)
 
 
 

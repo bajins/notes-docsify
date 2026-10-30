@@ -51,6 +51,7 @@
     * Vim速查 [https://vim.rtorr.com/lang/zh_cn](https://vim.rtorr.com/lang/zh_cn)
     * [https://michael.peopleofhonoronly.com/vim](https://michael.peopleofhonoronly.com/vim)
     * Vim文档 [https://yianwillis.github.io/vimcdoc](https://yianwillis.github.io/vimcdoc)
+    * [https://github.com/iggredible/Learn-Vim](https://github.com/iggredible/Learn-Vim)
     * Vim插件 [https://github.com/jorenar](https://github.com/jorenar)
     * 配色主题 [https://github.com/domeee/mosel.nvim](https://github.com/domeee/mosel.nvim)
 * [https://github.com/helix-editor/helix](https://github.com/helix-editor/helix)

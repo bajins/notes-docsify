@@ -424,7 +424,11 @@ ssh -L 3458:localhost:3458 root@你的服务器IP
 
 **PC**
 
+* [https://github.com/nyakang/nyaterm](https://github.com/nyakang/nyaterm)
 * [https://github.com/TermoraDev/termora](https://github.com/TermoraDev/termora)
+* [https://github.com/wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
+* [https://github.com/binaricat/Netcatty](https://github.com/binaricat/Netcatty)
+* [https://www.termark.app](https://www.termark.app)
 * [https://github.com/nashaofu/shell360](https://github.com/nashaofu/shell360)
 * [https://github.com/kingToolbox/WindTerm](https://github.com/kingToolbox/WindTerm)
     * [https://github.com/aoyiduo/woterm](https://github.com/aoyiduo/woterm)
@@ -467,14 +471,13 @@ ssh -L 3458:localhost:3458 root@你的服务器IP
 
 
 
-### 终端模拟
+### 终端和TUI
 
 + [https://github.com/topics/windows](https://github.com/topics/windows)
 + [https://github.com/topics/putty](https://github.com/topics/putty)
 + [https://github.com/topics/kitty](https://github.com/topics/kitty)
 
 
-* [https://github.com/wavetermdev/waveterm](https://github.com/wavetermdev/waveterm)
 * [https://github.com/wezterm/wezterm](https://github.com/wezterm/wezterm)
 * [https://github.com/lyuangg/tui-dashboard](https://github.com/lyuangg/tui-dashboard)
 * [https://github.com/yorukot/superfile](https://github.com/yorukot/superfile)
@@ -483,9 +486,6 @@ ssh -L 3458:localhost:3458 root@你的服务器IP
     * [https://www.openssh.com](https://www.openssh.com)
     * [https://github.com/openssh-rust/openssh](https://github.com/openssh-rust/openssh)
     * [https://slproweb.com/products/Win32OpenSSL.html](https://slproweb.com/products/Win32OpenSSL.html)
-* [https://github.com/nyakang/nyaterm](https://github.com/nyakang/nyaterm)
-* [https://github.com/binaricat/Netcatty](https://github.com/binaricat/Netcatty)
-* [https://www.termark.app](https://www.termark.app)
 * [https://github.com/PowerShell/openssh-portable](https://github.com/PowerShell/openssh-portable)
     * [https://github.com/PowerShell/Win32-OpenSSH/wiki](https://github.com/PowerShell/Win32-OpenSSH/wiki)
     * [https://sourceforge.net/projects/sshwindows](https://sourceforge.net/projects/sshwindows)
@@ -508,7 +508,7 @@ ssh -L 3458:localhost:3458 root@你的服务器IP
     * [https://xstarcd.github.io/wiki/windows/PuTTY.html](https://xstarcd.github.io/wiki/windows/PuTTY.html)
     * [https://bdznh.github.io/2018/05/20/build-putty-step-by-step](https://bdznh.github.io/2018/05/20/build-putty-step-by-step)
     * [https://www.wrock.org/putty](https://www.wrock.org/putty)
-* [https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)
+* ~~[https://github.com/portapps/kitty-portable](https://github.com/portapps/kitty-portable)~~
 * [https://github.com/cyd01/KiTTY](https://github.com/cyd01/KiTTY)
 * 间歇连接 [https://github.com/mobile-shell/mosh](https://github.com/mobile-shell/mosh)
 * [https://github.com/trzsz/tsshd](https://github.com/trzsz/tsshd)

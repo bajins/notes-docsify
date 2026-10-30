@@ -54,6 +54,7 @@
 * 显示器管理 [https://github.com/waydabber/betterdisplay](https://github.com/waydabber/betterdisplay)
 * 显示器控制 [https://github.com/MonitorControl](https://github.com/MonitorControl)
 * NAS影视工具 [https://github.com/jxxghp/nas-tools](https://github.com/jxxghp/nas-tools)
+* 唤醒局域网设备 [https://github.com/Trugamr/wol](https://github.com/Trugamr/wol)
 
 
 
@@ -447,6 +448,7 @@
     * [https://anchor.dev/relay](https://anchor.dev/relay)
 * [https://github.com/usual2970/certimate](https://github.com/usual2970/certimate)
 * [https://github.com/allinssl/allinssl](https://github.com/allinssl/allinssl)
+* [https://github.com/glincker/sslx](https://github.com/glincker/sslx)
 * 自动获取证书信息 [https://github.com/eryajf/cloud_dns_exporter](https://github.com/eryajf/cloud_dns_exporter)
 * localhost证书 [https://github.com/anchordotdev/cli](https://github.com/anchordotdev/cli)
 

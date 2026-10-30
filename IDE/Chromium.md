@@ -34,6 +34,8 @@
     * [https://www.tabbitbrowser.com](https://www.tabbitbrowser.com)
 * [https://github.com/citrolabs/ego-lite](https://github.com/citrolabs/ego-lite)
 * 无头浏览器 [https://github.com/lightpanda-io/browser](https://github.com/lightpanda-io/browser)
+* [https://github.com/daijro/camoufox](https://github.com/daijro/camoufox)
+* [https://github.com/jo-inc/camofox-browser](https://github.com/jo-inc/camofox-browser)
 * 虚拟浏览器 [https://github.com/m1k1o/neko](https://github.com/m1k1o/neko)
 
 

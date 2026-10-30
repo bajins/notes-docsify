@@ -43,6 +43,9 @@
 - adb logcat日志 [https://github.com/nieheyong/logcat-in-devtools](https://github.com/nieheyong/logcat-in-devtools)
 - adb桌面 [https://github.com/liriliri/aya](https://github.com/liriliri/aya)
 - [https://github.com/sky22333/skyadb](https://github.com/sky22333/skyadb)
+- 甲壳虫ADB助手 [https://github.com/didjdk/adbhelper](https://github.com/didjdk/adbhelper)
+- adb和fastboot [https://github.com/fast-geek/Android-Tool](https://github.com/fast-geek/Android-Tool)
+- [https://github.com/yangchong211/YCAndroidTool](https://github.com/yangchong211/YCAndroidTool)
 
 
 + Java各版本支持情况 [https://github.com/JakeWharton/agp-java-support](https://github.com/JakeWharton/agp-java-support)
@@ -61,8 +64,6 @@
 + [https://github.com/LoseNine/AndroidSystem](https://github.com/LoseNine/AndroidSystem)
 + 进程保活 [https://github.com/peakerlu/appkeepLive](https://github.com/peakerlu/appkeepLive)
 + [「安卓果酱」存档](https://cn.apkjam.com/archives)
-+ adb和fastboot [https://github.com/fast-geek/Android-Tool](https://github.com/fast-geek/Android-Tool)
-+ [https://github.com/yangchong211/YCAndroidTool](https://github.com/yangchong211/YCAndroidTool)
 + 在linux下运行安卓应用xDroid [https://www.linzhuotech.com](https://www.linzhuotech.com)
 + [https://github.com/anbox/anbox](https://github.com/anbox/anbox)
     + [Linux上运行安卓应用:安装使用Anbox](https://www.cnblogs.com/syisyuan/p/12811595.html)
@@ -88,7 +89,6 @@
 + Android框架 [https://github.com/aosp-mirror/platform_frameworks_base](https://github.com/aosp-mirror/platform_frameworks_base)
 + 信号检测 [https://github.com/hzx0910/cellular-z](https://github.com/hzx0910/cellular-z)
 + 漫画阅读器 [https://github.com/tachiyomiorg/tachiyomi](https://github.com/tachiyomiorg/tachiyomi)
-+ 电视盒子 [https://github.com/tv-player/tvbox](https://github.com/tv-player/tvbox)
 + Android源码 [https://huanle19891345.github.io](https://huanle19891345.github.io)
 
 
@@ -751,49 +751,61 @@
 * 图像超分 [https://github.com/tumuyan/realsr-ncnn-android](https://github.com/tumuyan/realsr-ncnn-android)
 * 跳过开屏广告 [https://github.com/guoxicheng](https://github.com/guoxicheng)
 * 下载管理器 [https://www.apps2sd.info/idmp/changelog.html](https://www.apps2sd.info/idmp/changelog.html)
+* 三方酷安 [https://github.com/TG-Twilight/c001apk](https://github.com/TG-Twilight/c001apk)
 
 
-### 证件照
 
-+ https://pan.baidu.com/s/1L21hwqtztFnuXLTcuyzH6Q 提取码：u4nw
+### 电视盒子
+
++ [https://github.com/topics/tv](https://github.com/topics/tv)
++ [https://github.com/topics/live](https://github.com/topics/live)
++ [https://github.com/topics/playlist](https://github.com/topics/playlist)
++ [https://github.com/topics/iptv](https://github.com/topics/iptv)
++ [https://github.com/topics/m3u](https://github.com/topics/m3u)
++ [https://github.com/iptv-org](https://github.com/iptv-org)
++ [https://github.com/fanmingming/live](https://github.com/fanmingming/live)
++ [https://github.com/YueChan/Live](https://github.com/YueChan/Live)
++ [https://github.com/Free-TV](https://github.com/Free-TV)
++ [https://github.com/Cyril0563/lanjing_live](https://github.com/Cyril0563/lanjing_live)
++ [https://github.com/imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)
++ [https://github.com/gaotianliuyun/gao](https://github.com/gaotianliuyun/gao)
++ [https://github.com/xianyuyimu/TVBOX-](https://github.com/xianyuyimu/TVBOX-)
++ [https://github.com/tv-player/tvbox](https://github.com/tv-player/tvbox)
++ [https://github.com/qwerttvv/Beijing-IPTV](https://github.com/qwerttvv/Beijing-IPTV)
++ [https://github.com/cyao2q/files](https://github.com/cyao2q/files)
++ [https://github.com/Ftindy/IPTV-URL](https://github.com/Ftindy/IPTV-URL)
++ [https://jihulab.com/moyuer/momoyu](https://jihulab.com/moyuer/momoyu)
++ [https://github.com/shidahuilang/shuyuan](https://github.com/shidahuilang/shuyuan)
++ [https://github.com/HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources)
++ [https://github.com/EvilCult/iptv-m3u-maker](https://github.com/EvilCult/iptv-m3u-maker)
++ [https://github.com/joevess/IPTV](https://github.com/joevess/IPTV)
++ [https://github.com/Meroser/IPTV](https://github.com/Meroser/IPTV)
++ [https://github.com/tansuotv/IPTVindex](https://github.com/tansuotv/IPTVindex)
++ [https://github.com/wcb1969/iptv](https://github.com/wcb1969/iptv)
++ [https://github.com/22705/IPTV-2](https://github.com/22705/IPTV-2)
++ [https://github.com/biancangming/wtv](https://github.com/biancangming/wtv)
++ [https://github.com/Guovin/iptv-api](https://github.com/Guovin/iptv-api)
 
 
-* 最美证件照
-* 精英证件照
-* 乐拍证件照
-* 懒人证件照
-* 证件照极拍
-* 智能证件照
-* 自助证件照
-* 免费证件照
-* 最美电子证件照
-* 证件照研究院
-* 证件照随拍
-* ID PHOTO + Retouch
-* 证照之星
-* 华图证件照拍摄（微信小程序）
-* 陕西中公证件照（微信小程序）
-* 粉笔证件照（微信小程序）
-* 智绘证件照（微信小程序）
-* 佐糖证件照（网页／微信小程序）
-* 凡科快图（网页）
-* 小呆证件照（微信小程序）
-* 证照拍（微信小程序）
+* 桌面 [https://github.com/pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv)
+* [https://github.com/simbasjungles/free-my-tv](https://github.com/simbasjungles/free-my-tv)
+* [https://github.com/zhimin-dev/iptv-checker](https://github.com/zhimin-dev/iptv-checker)
+* [https://github.com/lizongying/my-tv](https://github.com/lizongying/my-tv)
+* [https://github.com/Eanya-Tonic/CCTV_Viewer](https://github.com/Eanya-Tonic/CCTV_Viewer)
+* [https://github.com/llazyl/TVBox](https://github.com/llazyl/TVBox)
+* [https://github.com/q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS)
+* [https://github.com/EdenwareApps/Megacubo](https://github.com/EdenwareApps/Megacubo)
+    * [https://sourceforge.net/projects/megacubo-br](https://sourceforge.net/projects/megacubo-br)
+* [https://github.com/FongMi/TV](https://github.com/FongMi/TV)
+* [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)
+* [https://github.com/liu673cn/box](https://github.com/liu673cn/box)
+    * [https://github.com/CatVodTVOfficial/TVBoxOSC](https://github.com/CatVodTVOfficial/TVBoxOSC)
+* [https://github.com/tianya7981/jiekou](https://github.com/tianya7981/jiekou)
+* [https://bitbucket.org/xduo/duoapi](https://bitbucket.org/xduo/duoapi)
+* [https://notabug.org/qizhen15800/My9394](https://notabug.org/qizhen15800/My9394)
+* [https://github.com/nilaoda/N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE)
 
-**怎么拍出好看的证件照？**
 
-- 选对衣服
-
-> 浅色背景，尽量选深色衣服来拍，你也不想和背景融为一体吧...如果是白底照片，选黑色的一般不会出错，显瘦又显白。深色背景，就选浅色衣服，强烈对比会让人显得更白嫩。
->
-> 在选对色调的情况下，尽量避免穿高领，脖子长还好，脖子短简直要命，最好是穿一件儿衬衫去照相馆。
->
-> 穿衬衫也是有些讲究的，最好是不系最上面的一颗扣子，这样能起到修长脖子的作用。
-
-- 要会“藏下巴”
-
-> 胖子就傲娇一点，别低头，双下巴会出来。如果稍微仰头也还是没办法藏住下巴，试试收紧肩胛骨，会有意想不到的收获。
-
-- 看镜头上方3cm处
-
-> 眼睛要大！那么，拍照的时候微微抬眼，看镜头上方3cm处，这样会撑起眼睛来，显得眼睛大些。
+- [https://xn--sss604efuw.top](https://xn--sss604efuw.top)
+- [https://www.lige.fit/tvbox](https://www.lige.fit/tvbox)
+- [非正版影视/直播(网站/应用)收集](https://www.nite07.com/moviewebsiteapp)

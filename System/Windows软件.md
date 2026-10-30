@@ -587,58 +587,6 @@
 * [https://jm.wmzhe.com](https://jm.wmzhe.com)
 
 
-**电视盒子/TVBOX**
-
-+ [https://github.com/topics/tv](https://github.com/topics/tv)
-+ [https://github.com/topics/live](https://github.com/topics/live)
-+ [https://github.com/topics/playlist](https://github.com/topics/playlist)
-+ [https://github.com/topics/iptv](https://github.com/topics/iptv)
-+ [https://github.com/topics/m3u](https://github.com/topics/m3u)
-+ [https://github.com/iptv-org](https://github.com/iptv-org)
-+ [https://github.com/fanmingming/live](https://github.com/fanmingming/live)
-+ [https://github.com/YueChan/Live](https://github.com/YueChan/Live)
-+ [https://github.com/Free-TV](https://github.com/Free-TV)
-+ [https://github.com/Cyril0563/lanjing_live](https://github.com/Cyril0563/lanjing_live)
-+ [https://github.com/imDazui/Tvlist-awesome-m3u-m3u8](https://github.com/imDazui/Tvlist-awesome-m3u-m3u8)
-+ [https://github.com/gaotianliuyun/gao](https://github.com/gaotianliuyun/gao)
-+ [https://github.com/xianyuyimu/TVBOX-](https://github.com/xianyuyimu/TVBOX-)
-+ [https://github.com/qwerttvv/Beijing-IPTV](https://github.com/qwerttvv/Beijing-IPTV)
-+ [https://github.com/cyao2q/files](https://github.com/cyao2q/files)
-+ [https://github.com/Ftindy/IPTV-URL](https://github.com/Ftindy/IPTV-URL)
-+ [https://jihulab.com/moyuer/momoyu](https://jihulab.com/moyuer/momoyu)
-+ [https://github.com/shidahuilang/shuyuan](https://github.com/shidahuilang/shuyuan)
-+ [https://github.com/HerbertHe/iptv-sources](https://github.com/HerbertHe/iptv-sources)
-+ [https://github.com/EvilCult/iptv-m3u-maker](https://github.com/EvilCult/iptv-m3u-maker)
-+ [https://github.com/joevess/IPTV](https://github.com/joevess/IPTV)
-+ [https://github.com/Meroser/IPTV](https://github.com/Meroser/IPTV)
-+ [https://github.com/tansuotv/IPTVindex](https://github.com/tansuotv/IPTVindex)
-+ [https://github.com/wcb1969/iptv](https://github.com/wcb1969/iptv)
-+ [https://github.com/22705/IPTV-2](https://github.com/22705/IPTV-2)
-+ [https://github.com/biancangming/wtv](https://github.com/biancangming/wtv)
-+ [https://github.com/Guovin/iptv-api](https://github.com/Guovin/iptv-api)
-
-
-
-* [https://github.com/zhimin-dev/iptv-checker](https://github.com/zhimin-dev/iptv-checker)
-* [https://github.com/lizongying/my-tv](https://github.com/lizongying/my-tv)
-* [https://github.com/Eanya-Tonic/CCTV_Viewer](https://github.com/Eanya-Tonic/CCTV_Viewer)
-* [https://github.com/llazyl/TVBox](https://github.com/llazyl/TVBox)
-* [https://github.com/q215613905/TVBoxOS](https://github.com/q215613905/TVBoxOS)
-* [https://github.com/EdenwareApps/Megacubo](https://github.com/EdenwareApps/Megacubo)
-    * [https://sourceforge.net/projects/megacubo-br](https://sourceforge.net/projects/megacubo-br)
-* [https://github.com/FongMi/TV](https://github.com/FongMi/TV)
-* [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)
-* [https://github.com/liu673cn/box](https://github.com/liu673cn/box)
-    * [https://github.com/CatVodTVOfficial/TVBoxOSC](https://github.com/CatVodTVOfficial/TVBoxOSC)
-* [https://github.com/tianya7981/jiekou](https://github.com/tianya7981/jiekou)
-* [https://bitbucket.org/xduo/duoapi](https://bitbucket.org/xduo/duoapi)
-* [https://notabug.org/qizhen15800/My9394](https://notabug.org/qizhen15800/My9394)
-* [https://github.com/nilaoda/N_m3u8DL-RE](https://github.com/nilaoda/N_m3u8DL-RE)
-
-- [https://xn--sss604efuw.top](https://xn--sss604efuw.top)
-- [https://www.lige.fit/tvbox](https://www.lige.fit/tvbox)
-- [非正版影视/直播(网站/应用)收集](https://www.nite07.com/moviewebsiteapp)
-
 
 
 ### 录屏
@@ -1152,6 +1100,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * [https://www.raylink.live](https://www.raylink.live)
 * [https://parsec.app](https://parsec.app)
 * [https://uuyc.163.com/download](https://uuyc.163.com/download)
+* [https://github.com/99percentpeople/weblink](https://github.com/99percentpeople/weblink)
 * 向日葵 [https://sunlogin.oray.com/download](https://sunlogin.oray.com/download)
 * 投屏 [https://github.com/pavlobu/deskreen](https://github.com/pavlobu/deskreen)
 * [https://github.com/topics/second-screen](https://github.com/topics/second-screen)
@@ -1646,6 +1595,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * 时钟 [https://github.com/vladelaina/Catime](https://github.com/vladelaina/Catime)
 * 课表信息 [https://github.com/ClassIsland/ClassIsland](https://github.com/ClassIsland/ClassIsland)
 * 防偷操作 [https://github.com/OldSuns/SnapLock](https://github.com/OldSuns/SnapLock)
+* 控制米家 [https://github.com/jryang1997/MenuBarMijia](https://github.com/jryang1997/MenuBarMijia)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)

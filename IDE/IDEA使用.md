@@ -10,7 +10,7 @@
      + [https://www.jetbrains.com/idea/download/other.html](https://www.jetbrains.com/idea/download/other.html)
 + 简体中文专题教程 [https://github.com/judasn/IntelliJ-IDEA-Tutorial](https://github.com/judasn/IntelliJ-IDEA-Tutorial)
 + 分支 [https://github.com/consulo/consulo](https://github.com/consulo/consulo)
-+ Git客户端 [https://github.com/obiscr/intellij-community](https://github.com/obiscr/intellij-community)
++ [https://github.com/l0ng-ai/openidea](https://github.com/l0ng-ai/openidea)
 + [JetBrains 2019.3系列软件汉化包](https://github.com/pingfangx/TranslatorX)
 
 

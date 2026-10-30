@@ -253,8 +253,9 @@ volumes:
 - [https://github.com/jvxiao/speed-github](https://github.com/jvxiao/speed-github)
 - [https://github.com/xixu-me/xget](https://github.com/xixu-me/xget)
 - [https://cnb.cool](https://cnb.cool)
-
-
+- [https://minhaskamal.github.io/DownGit](https://minhaskamal.github.io/DownGit)
+- [https://kinolien.github.io/gitzip](https://kinolien.github.io/gitzip)
+- [https://download-directory.github.io](https://download-directory.github.io)
 
 
 
