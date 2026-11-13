@@ -414,6 +414,7 @@
 * [https://xiph.org/vorbis](https://xiph.org/vorbis)
 * 视频转码 [https://github.com/HandBrake/HandBrake](https://github.com/HandBrake/HandBrake)
     * [https://github.com/danieldelaney/Magicbrake](https://github.com/danieldelaney/Magicbrake)
+* 视频压缩 [https://github.com/YKLovePython/halfsize](https://github.com/YKLovePython/halfsize)
 * 数码相机访问 [https://github.com/gphoto](https://github.com/gphoto)
     * [https://sourceforge.net/projects/gphoto](https://sourceforge.net/projects/gphoto)
     * [https://dechifro.org/dcraw](https://dechifro.org/dcraw)

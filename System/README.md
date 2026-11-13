@@ -771,6 +771,7 @@
 * [https://github.com/HoshinoSuzumi/chronoframe](https://github.com/HoshinoSuzumi/chronoframe)
 * [https://github.com/Afilmory/Afilmory](https://github.com/Afilmory/Afilmory)
 * 私人音乐服务 [https://github.com/chenqimiao/qm-music](https://github.com/chenqimiao/qm-music)
+* [https://github.com/aaronsuns/melarka](https://github.com/aaronsuns/melarka)
 * 音频编辑 [https://github.com/RylanBot/melody-workshop](https://github.com/RylanBot/melody-workshop)
 * 视频编辑 [https://github.com/OpenCut-app/OpenCut](https://github.com/OpenCut-app/OpenCut)
 * [https://github.com/robinroy03/videoeditor](https://github.com/robinroy03/videoeditor)

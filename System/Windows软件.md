@@ -301,7 +301,6 @@
 * 下载器 [https://github.com/filecxx/filecentipede](https://github.com/filecxx/filecentipede)
 * 下载链接转换 [https://github.com/helloworldpxy/thunder-https](https://github.com/helloworldpxy/thunder-https)
 * BT下载 [https://dev.deluge-torrent.org](https://dev.deluge-torrent.org)
-* 高速下载 [https://github.com/gopeedlab/gopeed](https://github.com/gopeedlab/gopeed)
 * 古籍下载 [https://github.com/deweizhu/bookget](https://github.com/deweizhu/bookget)
 * 下载加速 [https://github.com/aochagavia/toy-download-accelerator](https://github.com/aochagavia/toy-download-accelerator)
 * 下载管理器 [https://filecxx.com](https://filecxx.com)
@@ -689,6 +688,7 @@
 * 图片编辑器 [https://github.com/CyberTimon/RapidRAW](https://github.com/CyberTimon/RapidRAW)
 * 图片查看器 [https://github.com/jark006/jarkviewer](https://github.com/jark006/jarkviewer)
 * 图片查看器 [https://github.com/voidtools/voidImageViewer](https://github.com/voidtools/voidImageViewer)
+* 格式转换 [https://github.com/KnifeLemon/Filee](https://github.com/KnifeLemon/Filee)
 
 
 **Icon矢量图**
@@ -924,6 +924,7 @@
 + PPT演示 [https://github.com/Cimbali/pympress](https://github.com/Cimbali/pympress)
 + [https://github.com/pdfpc/pdfpc](https://github.com/pdfpc/pdfpc)
 + [https://github.com/Master-Hash/pdfpc-ts](https://github.com/Master-Hash/pdfpc-ts)
++ [https://github.com/wallechfox/offline-pdf-tools](https://github.com/wallechfox/offline-pdf-tools)
 
 
 
