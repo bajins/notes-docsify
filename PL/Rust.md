@@ -18,6 +18,7 @@
     + [https://github.com/anowell/are-we-learning-yet](https://github.com/anowell/are-we-learning-yet)
     + [https://github.com/areweguiyet/areweguiyet](https://github.com/areweguiyet/areweguiyet)
     + [https://github.com/rust-gamedev/arewegameyet](https://github.com/rust-gamedev/arewegameyet)
+    + [https://github.com/rust-lang/arewewebyet](https://github.com/rust-lang/arewewebyet)
     + [https://github.com/rust9x/rust](https://github.com/rust9x/rust)
 + [https://github.com/rust-lang-cn](https://github.com/rust-lang-cn)
 + [https://github.com/rust-lang-nursery](https://github.com/rust-lang-nursery)
@@ -66,29 +67,6 @@
 * [Rust Cargo使用指南 | 第十四篇 | 发布配置 Profile](https://zhuanlan.zhihu.com/p/476524365)
 * [三年后，我们退出了 Rust 游戏开发](https://loglog.games/blog/leaving-rust-gamedev)
 * [所有文章 | 从不说安全词](https://jt26wzz.com/posts)
-
-
-- IDE [https://github.com/intellij-rust](https://github.com/intellij-rust)
-- [https://github.com/vadimcn/codelldb](https://github.com/vadimcn/codelldb)
-- [Rust 如何实现单例模式？](https://www.zhihu.com/question/391694703)
-- [异步 HTTP](https://blog.yoshuawuyts.com/async-http)
-- 桌面程序参考 [https://github.com/jwenjian/coverfun](https://github.com/jwenjian/coverfun)
-- 后台管理 [https://github.com/chelunfu/qiluo_admin](https://github.com/chelunfu/qiluo_admin)
-
-
-| 特性         | `unwrap` | `?`      | `match` |
-| ---------- | -------- | -------- | ------- |
-| **失败时行为**  | 程序 panic | 向上返回错误   | 由代码决定    |
-| **函数签名要求** | 无        | 必须返回兼容类型 | 无       |
-
-
-| 变量类型          | 函数返回                | 能否直接 `?` | 需要             |
-| -------------- | ------------------- | -------- | -------------- |
-| `Result<T, E>` | `Result<T, E>`      | ✅        | 直接 `?`         |
-| `Option<T>`    | `Result<T, E>`      | ❌        | `.ok_or(...)?` |
-| `HRESULT`      | `Result<(), Error>` | ❌        | `.ok()?`       |
-| `Option<T>`    | `Option<T>`         | ✅        | 直接 `?`         |
-| `Result<T, E>` | `Option<T>`         | ❌        | `.ok()?`       |
 * 变更日志 [https://github.com/glebpom/rust-changelogs](https://github.com/glebpom/rust-changelogs)
 * Rust unsafe教程 [https://github.com/google/learn_unsafe_rust](https://github.com/google/learn_unsafe_rust)
 * 操作系统教程 [https://github.com/rcore-os/rcore-tutorial-v3](https://github.com/rcore-os/rcore-tutorial-v3)
@@ -176,6 +154,29 @@
 * Rust安全 [https:///litchipi.github.io/infosec/2023/01/24/git-code-audit-viewed-as-rust-programmer.html](https:///litchipi.github.io/infosec/2023/01/24/git-code-audit-viewed-as-rust-programmer.html)
 * NES模拟器 [https://bugzmanov.github.io/nes_ebook/zaixianwan.app](https://bugzmanov.github.io/nes_ebook/zaixianwan.app)
 * Rust生态调研 [https://zhuanlan.zhihu.com/p/458046979](https://zhuanlan.zhihu.com/p/458046979)
+
+
+- IDE [https://github.com/intellij-rust](https://github.com/intellij-rust)
+- [https://github.com/vadimcn/codelldb](https://github.com/vadimcn/codelldb)
+- [Rust 如何实现单例模式？](https://www.zhihu.com/question/391694703)
+- [异步 HTTP](https://blog.yoshuawuyts.com/async-http)
+- 桌面程序参考 [https://github.com/jwenjian/coverfun](https://github.com/jwenjian/coverfun)
+- 后台管理 [https://github.com/chelunfu/qiluo_admin](https://github.com/chelunfu/qiluo_admin)
+
+
+| 特性         | `unwrap` | `?`      | `match` |
+| ---------- | -------- | -------- | ------- |
+| **失败时行为**  | 程序 panic | 向上返回错误   | 由代码决定    |
+| **函数签名要求** | 无        | 必须返回兼容类型 | 无       |
+
+
+| 变量类型          | 函数返回                | 能否直接 `?` | 需要             |
+| -------------- | ------------------- | -------- | -------------- |
+| `Result<T, E>` | `Result<T, E>`      | ✅        | 直接 `?`         |
+| `Option<T>`    | `Result<T, E>`      | ❌        | `.ok_or(...)?` |
+| `HRESULT`      | `Result<(), Error>` | ❌        | `.ok()?`       |
+| `Option<T>`    | `Option<T>`         | ✅        | 直接 `?`         |
+| `Result<T, E>` | `Option<T>`         | ❌        | `.ok()?`       |
 
 
 
@@ -338,15 +339,20 @@ check-revoke = false
 - [https://github.com/briansmith/webpki](https://github.com/briansmith/webpki)
 - [https://github.com/briansmith/ring](https://github.com/briansmith/ring)
 - 国际化i18n [https://github.com/unicode-org/icu4x](https://github.com/unicode-org/icu4x)
+- [https://github.com/projectfluent/fluent-rs](https://github.com/projectfluent/fluent-rs)
 - [https://github.com/atroche/rust-headless-chrome](https://github.com/atroche/rust-headless-chrome)
 - [https://github.com/svenstaro/miniserve](https://github.com/svenstaro/miniserve)
 - [https://github.com/local-group](https://github.com/local-group)
 - [https://github.com/staktrace/quoted-printable](https://github.com/staktrace/quoted-printable)
 - UI [https://github.com/rust-windowing](https://github.com/rust-windowing)
+- [https://github.com/rust-windowing/winit](https://github.com/rust-windowing/winit)
+- [https://github.com/kas-gui/kas](https://github.com/kas-gui/kas)
 - [https://github.com/imgui-rs](https://github.com/imgui-rs)
 - [https://github.com/gabdube/native-windows-gui](https://github.com/gabdube/native-windows-gui)
 - [https://github.com/EmbarkStudios/rust-gpu](https://github.com/EmbarkStudios/rust-gpu)
 - [https://github.com/vizia/vizia](https://github.com/vizia/vizia)
+- [https://github.com/paxdotdev/pax](https://github.com/paxdotdev/pax)
+- [https://github.com/linebender/xilem](https://github.com/linebender/xilem)
 - 文件系统 [https://github.com/zboxfs/zbox](https://github.com/zboxfs/zbox)
 - [https://github.com/camino-rs/camino](https://github.com/camino-rs/camino)
 - 游戏引擎 [https://github.com/PistonDevelopers/piston](https://github.com/PistonDevelopers/piston)
@@ -673,7 +679,6 @@ check-revoke = false
 * 位压缩库 [https://github.com/quickwit-oss/bitpacking](https://github.com/quickwit-oss/bitpacking)
 * Rust前端框架 [https://github.com/gbj/leptos](https://github.com/gbj/leptos)
 * 无锁队列 [https://github.com/glowcoil/llq](https://github.com/glowcoil/llq)
-* GUI框架 [https://github.com/kas-gui/kas](https://github.com/kas-gui/kas)
 * SIMD加速 [https://github.com/nugine/simd](https://github.com/nugine/simd)
 * CMake集成 [https://github.com/corrosion-rs/corrosion](https://github.com/corrosion-rs/corrosion)
 * C++互操作 [https://github.com/mystor/rust-cpp](https://github.com/mystor/rust-cpp)

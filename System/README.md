@@ -685,6 +685,7 @@
     * [https://iqsing.github.io/categories/prometheus](https://iqsing.github.io/categories/prometheus)
 * [https://github.com/OpenObservability/OpenMetrics](https://github.com/OpenObservability/OpenMetrics)
 * [https://github.com/ccfos/nightingale](https://github.com/ccfos/nightingale)
+    * [https://github.com/flashcatcloud/categraf](https://github.com/flashcatcloud/categraf)
 * [https://github.com/scouter-project/scouter](https://github.com/scouter-project/scouter)
 * 可视化套件 [https://github.com/grafana/grafana](https://github.com/grafana/grafana)
 * [https://github.com/GitSquared/edex-ui](https://github.com/GitSquared/edex-ui)
@@ -803,6 +804,7 @@
 * [https://github.com/civilblur/mazanoke](https://github.com/civilblur/mazanoke)
 * [https://github.com/amiaoapp/PicLite](https://github.com/amiaoapp/PicLite)
 * [https://github.com/xdadda/mini-photo-editor](https://github.com/xdadda/mini-photo-editor)
+* [https://github.com/Abraham721/photoshot](https://github.com/Abraham721/photoshot)
 * 平面设计 [https://github.com/shaongitbd/doory](https://github.com/shaongitbd/doory)
 * 时间轴 [https://github.com/hughfenghen/dimcut](https://github.com/hughfenghen/dimcut)
 * 头像生成 [https://github.com/multiavatar/Multiavatar](https://github.com/multiavatar/Multiavatar)
@@ -1046,6 +1048,7 @@
 * 比较编程语言 [https://github.com/erweixin/langshift.dev](https://github.com/erweixin/langshift.dev)
 * 屏幕共享 [https://github.com/screego/server](https://github.com/screego/server)
 * 项目管理 [https://github.com/Leantime/leantime](https://github.com/Leantime/leantime)
+* 查看付费墙内容 [https://github.com/wasi-master/13ft](https://github.com/wasi-master/13ft)
 
 
 

@@ -106,6 +106,7 @@
 * iOS侧载 [https://github.com/opa334/trollstore](https://github.com/opa334/trollstore)
 * iOS备份 [https://github.com/lakr233/bbackupp](https://github.com/lakr233/bbackupp)
 * 笔记管理 [https://github.com/glushchenko/fsnotes](https://github.com/glushchenko/fsnotes)
+* 提交应用商店审核技能 [https://github.com/mjmirza/app-store-compliance](https://github.com/mjmirza/app-store-compliance)
 
 
 ## IOS框架

@@ -45,10 +45,14 @@
     * [https://github.com/microsoft/winget-pkgs](https://github.com/microsoft/winget-pkgs)
     * [https://docs.microsoft.com/zh-cn/windows/package-manager/winget](https://docs.microsoft.com/zh-cn/windows/package-manager/winget)
     * [https://github.com/marticliment/WingetUI](https://github.com/marticliment/WingetUI)
+    * [https://unicom.mirrors.ustc.edu.cn/help/winget-source.html](https://unicom.mirrors.ustc.edu.cn/help/winget-source.html)
+    * [https://wwweinuo.github.io/blog/2026/winget-guide](https://wwweinuo.github.io/blog/2026/winget-guide)
+    * https://www.fournoas.com/posts/duplicate-installed-packages-after-winget-update
     ```powershell
     winget upgrade --all
     winget source update --clear-cache
     winget cache purge
+    winget pin add --blocking "TortoiseSVN.TortoiseSVN"
     ```
 * [https://github.com/oneget/oneget](https://github.com/oneget/oneget)
     * [https://www.nuget.org](https://www.nuget.org)

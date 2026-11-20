@@ -580,6 +580,10 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
 * [https://github.com/search?q=数字权利](https://github.com/search?q=%E6%95%B0%E5%AD%97%E6%9D%83%E5%88%A9)
 
 
++ ~~[https://github.com/SystemRage/py-kms](https://github.com/SystemRage/py-kms)~~
+    + [https://github.com/Py-KMS-Organization/py-kms](https://github.com/Py-KMS-Organization/py-kms)
+    + [https://github.com/edgd1er/py-kms](https://github.com/edgd1er/py-kms)
+    + [https://github.com/alvolalex/ms_office_gvlk](https://github.com/alvolalex/ms_office_gvlk)
 + [https://github.com/abbodi1406/KMS_VL_ALL_AIO](https://github.com/abbodi1406/KMS_VL_ALL_AIO)
 + [https://github.com/Wind4/vlmcsd](https://github.com/Wind4/vlmcsd)
     + [https://github.com/Dwarven/vlmcsd](https://github.com/Dwarven/vlmcsd)
@@ -605,6 +609,8 @@ REG DELETE "HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\MyComputer\N
     * [https://github.com/Tsuk1ko](https://github.com/Tsuk1ko)
 * [https://www.ghpym.com/kms.html](https://www.ghpym.com/kms.html)
 * [https://github.com/EDragon007/EDragonKMS](https://github.com/EDragon007/EDragonKMS)
+* [https://www.kms.pub](https://www.kms.pub)
+    * [https://github.com/nmgliangwei/kms-page](https://github.com/nmgliangwei/kms-page)
 
 
 
