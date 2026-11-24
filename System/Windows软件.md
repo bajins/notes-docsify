@@ -1600,7 +1600,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
 * 时钟 [https://github.com/vladelaina/Catime](https://github.com/vladelaina/Catime)
 * 课表信息 [https://github.com/ClassIsland/ClassIsland](https://github.com/ClassIsland/ClassIsland)
 * 防偷操作 [https://github.com/OldSuns/SnapLock](https://github.com/OldSuns/SnapLock)
-* 控制米家 [https://github.com/jryang1997/MenuBarMijia](https://github.com/jryang1997/MenuBarMijia)
+* 控制米家 [https://github.com/jryang2026-code/MenuBarHome](https://github.com/jryang2026-code/MenuBarHome)
 
 
 + [http://www.downloadsoftware.ir](http://www.downloadsoftware.ir)
