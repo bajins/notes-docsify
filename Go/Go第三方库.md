@@ -125,6 +125,7 @@
 * [https://github.com/eventials/go-tus](https://github.com/eventials/go-tus)
 * [https://github.com/uptrace/bun](https://github.com/uptrace/bun)
 * 缓存 [https://github.com/patrickmn/go-cache](https://github.com/patrickmn/go-cache)
+* [https://github.com/maypok86/otter](https://github.com/maypok86/otter)
 * [https://github.com/bluele/gcache](https://github.com/bluele/gcache)
 * [https://github.com/golang/groupcache](https://github.com/golang/groupcache)
 * [https://github.com/muesli/cache2go](https://github.com/muesli/cache2go)

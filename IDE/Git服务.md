@@ -24,6 +24,7 @@
 
 * [https://github.com/scm-manager/scm-manager](https://github.com/scm-manager/scm-manager)
 * [https://github.com/projectkudu/kudu](https://github.com/projectkudu/kudu)
+* [https://github.com/pierrecomputer/pierre](https://github.com/pierrecomputer/pierre)
 * 提取错误上传内容 [https://github.com/liamg/gitjacker](https://github.com/liamg/gitjacker)
 * Git托管 [https://github.com/nathants/git-remote-aws](https://github.com/nathants/git-remote-aws)
 * Git托管 [https://github.com/sitaramc/gitolite](https://github.com/sitaramc/gitolite)

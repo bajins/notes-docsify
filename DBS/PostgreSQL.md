@@ -149,7 +149,7 @@ SELECT * FROM json_array_elements_text('["batman", "superman"]');
 * PG监听 [https://github.com/kingluo/pg_watch_demo](https://github.com/kingluo/pg_watch_demo)
 * 浏览器数据库 [https://github.com/supabase-community/postgres-wasm](https://github.com/supabase-community/postgres-wasm)
 * PG可视化 [https://nikolays.github.io/PGSimCity](https://nikolays.github.io/PGSimCity)
-* PG分片 [https://github.com/multigres/multigres](https://github.com/multigres/multigres)
+* 水平切片集群扩展 [https://github.com/multigres/multigres](https://github.com/multigres/multigres)
 * PG博客 [https://vonng.com/cn/blog/overview](https://vonng.com/cn/blog/overview)
 * 数据库扩展 [https://github.com/xataio/pgzx](https://github.com/xataio/pgzx)
 * WASM数据库 [https://github.com/electric-sql/pglite](https://github.com/electric-sql/pglite)

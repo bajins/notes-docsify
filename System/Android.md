@@ -750,6 +750,7 @@
 * 电视直播 [https://github.com/yaoxieyoulei/mytv-android](https://github.com/yaoxieyoulei/mytv-android)
 * 图像超分 [https://github.com/tumuyan/realsr-ncnn-android](https://github.com/tumuyan/realsr-ncnn-android)
 * 跳过开屏广告 [https://github.com/guoxicheng](https://github.com/guoxicheng)
+* [https://github.com/rddmwmddr/android-ad-cleaner](https://github.com/rddmwmddr/android-ad-cleaner)
 * 下载管理器 [https://www.apps2sd.info/idmp/changelog.html](https://www.apps2sd.info/idmp/changelog.html)
 * 三方酷安 [https://github.com/TG-Twilight/c001apk](https://github.com/TG-Twilight/c001apk)
 

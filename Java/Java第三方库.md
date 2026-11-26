@@ -27,6 +27,7 @@
 * [https://github.com/justauth](https://github.com/justauth)
 * jwt [https://github.com/jwtk/jjwt](https://github.com/jwtk/jjwt)
 * [https://github.com/auth0/java-jwt](https://github.com/auth0/java-jwt)
+* [https://github.com/FusionAuth/fusionauth-jwt](https://github.com/FusionAuth/fusionauth-jwt)
 * [https://sourceforge.net/projects/jsch](https://sourceforge.net/projects/jsch)
     * [https://github.com/mwiede/jsch](https://github.com/mwiede/jsch)
     * [https://github.com/sbabcoc/Remote-Session](https://github.com/sbabcoc/Remote-Session)
@@ -74,6 +75,7 @@
 - [https://github.com/drewnoakes/metadata-extractor](https://github.com/drewnoakes/metadata-extractor)
 - [https://github.com/guozheng/jvast](https://github.com/guozheng/jvast)
 - 多媒体检索 [https://github.com/vitrivr](https://github.com/vitrivr)
+- 提取和查询 [https://sourceforge.net/projects/aperture](https://sourceforge.net/projects/aperture)
 - 地理空间数据 [https://github.com/geotools/geotools](https://github.com/geotools/geotools)
     - [https://sourceforge.net/projects/geotools](https://sourceforge.net/projects/geotools)
     - [https://www.osgeo.org/projects](https://www.osgeo.org/projects)
@@ -185,6 +187,7 @@
     + [https://gitee.com/chinabugotech/hutool](https://gitee.com/chinabugotech/hutool)
     + [https://github.com/dromara](https://github.com/dromara)
 + [https://github.com/duanluan/zutil](https://github.com/duanluan/zutil)
++ [https://github.com/latte-java](https://github.com/latte-java)
 + [https://github.com/eclipse-collections/eclipse-collections](https://github.com/eclipse-collections/eclipse-collections)
 + [spring framework util](https://github.com/spring-projects/spring-framework/tree/master/spring-core/src/main/java/org/springframework/util)
     + [https://github.com/knife-blade/nicetool](https://github.com/knife-blade/nicetool)
@@ -926,8 +929,6 @@
 
 
 - [Reactive programming 一种技术 各自表述](https://mercyblitz.github.io/2018/07/25/Reactive-Programming-%E4%B8%80%E7%A7%8D%E6%8A%80%E6%9C%AF-%E5%90%84%E8%87%AA%E8%A1%A8%E8%BF%B0)
-- [Java 异步编程：从 Future 到 Loom](https://blog.csdn.net/hellozhxy/article/details/119239776)
-- [超越传统线程：探索Java Loom协程(纤程/虚拟线程)的无限潜力](https://blog.csdn.net/citywu123/article/details/132141035)
 
 
 

@@ -80,6 +80,7 @@
 * 键盘学习 [https://jianpanzhushou.ababtools.com](https://jianpanzhushou.ababtools.com)
 * 围棋教程 [https://online-go.com/learn-to-play-go](https://online-go.com/learn-to-play-go)
 * 海外求职 [https://github.com/eliaszon/programmers-overseas-job-interview-handbook](https://github.com/eliaszon/programmers-overseas-job-interview-handbook)
+* [https://github.com/career-ops-hq/career-ops](https://github.com/career-ops-hq/career-ops)
 * CS自学 [https://github.com/pkuflyingpig/cs-self-learning](https://github.com/pkuflyingpig/cs-self-learning)
 * 编程速查表 [https://github.com/skywind3000/awesome-cheatsheets](https://github.com/skywind3000/awesome-cheatsheets)
 * 安卓资源 [https://github.com/getactivity/androidindex](https://github.com/getactivity/androidindex)

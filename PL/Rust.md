@@ -205,10 +205,12 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 
 + [https://github.com/cloudwego](https://github.com/cloudwego)
     + [https://rsproxy.cn](https://rsproxy.cn)
-+ [https://developer.aliyun.com/mirror/rustup](https://developer.aliyun.com/mirror/rustup)
-+ [https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git](https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git)
-+ [https://mirrors.sjtug.sjtu.edu.cn/docs/crates.io](https://mirrors.sjtug.sjtu.edu.cn/docs/crates.io)
++ [https://mirrors.cernet.edu.cn/list/rust|crate](https://mirrors.cernet.edu.cn/list/rust|crate)
+    + [https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git](https://mirrors.tuna.tsinghua.edu.cn/help/crates.io-index.git)
+    + [https://mirrors.sjtug.sjtu.edu.cn/docs/crates.io](https://mirrors.sjtug.sjtu.edu.cn/docs/crates.io)
 + [https://github.com/chanchancl/How-to-build-a-develop-environment-for-rust](https://github.com/chanchancl/How-to-build-a-develop-environment-for-rust)
++ [https://developer.aliyun.com/mirror/rustup](https://developer.aliyun.com/mirror/rustup)
+
 
 
 ### Rustup镜像
@@ -217,35 +219,39 @@ cargo rustc --release -- -Clink-args="-Wl,--subsystem,windows"
 
 ```bash
 # 设置系统级环境变量
-export RUSTUP_DIST_SERVER=https://mirrors.aliyun.com/rustup
-export RUSTUP_UPDATE_ROOT=https://mirrors.aliyun.com/rustup/rustup
+export RUSTUP_DIST_SERVER=https://rsproxy.cn
+export RUSTUP_UPDATE_ROOT=https://rsproxy.cn/rustup
 ```
 
 - Windows
 
 ```powershell
 # 设置系统级环境变量
-[Environment]::SetEnvironmentvariable("RUSTUP_DIST_SERVER", "https://mirrors.aliyun.com/rustup", "Machine")
-[Environment]::SetEnvironmentvariable("RUSTUP_UPDATE_ROOT", "https://mirrors.aliyun.com/rustup/rustup", "Machine")
+[Environment]::SetEnvironmentvariable("RUSTUP_DIST_SERVER", "https://rsproxy.cn", "Machine")
+[Environment]::SetEnvironmentvariable("RUSTUP_UPDATE_ROOT", "https://rsproxy.cn/rustup", "Machine")
 
 Set-ItemProperty -Path "Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"\
- -Name "RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup"
+ -Name "RUSTUP_DIST_SERVER" -Value "https://rsproxy.cn"
 Set-ItemProperty -Path "Registry::HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment"\
- -Name "RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup"
+ -Name "RUSTUP_UPDATE_ROOT" -Value "https://rsproxy.cn/rustup"
 
 # 设置用户级环境变量
-New-Item -Path "Env:\RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup" -Force
-New-Item -Path "Env:\RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup" -Force
+New-Item -Path "Env:\RUSTUP_DIST_SERVER" -Value "https://rsproxy.cn" -Force
+New-Item -Path "Env:\RUSTUP_UPDATE_ROOT" -Value "https://rsproxy.cn/rustup" -Force
 
-New-Item -Path "Env:\" -Name "RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup" -Force
-New-Item -Path "Env:\" -Name "RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup" -Force
+New-Item -Path "Env:\" -Name "RUSTUP_DIST_SERVER" -Value "https://rsproxy.cn" -Force
+New-Item -Path "Env:\" -Name "RUSTUP_UPDATE_ROOT" -Value "https://rsproxy.cn/rustup" -Force
 
-Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_DIST_SERVER" -Value "https://mirrors.aliyun.com/rustup"
-Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_UPDATE_ROOT" -Value "https://mirrors.aliyun.com/rustup/rustup"
+Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_DIST_SERVER" -Value "https://rsproxy.cn"
+Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_UPDATE_ROOT" -Value "https://rsproxy.cn/rustup"
 ```
 
 
 ### crates.io镜像
+
++ [https://github.com/mvdschee/panamax](https://github.com/mvdschee/panamax)
++ [https://github.com/wtklbm/crm](https://github.com/wtklbm/crm)
++ [https://github.com/hirevo/alexandrie](https://github.com/hirevo/alexandrie)
 
 
 - Cargo配置
@@ -259,9 +265,9 @@ Set-ItemProperty -Path "Registry::HKEY_CURRENT_USER\Environment" -Name "RUSTUP_U
 # 指定镜像
 #replace-with = 'sjtu'
 #replace-with = 'ustc'
-replace-with = 'rsproxy-sparse'
+replace-with = 'rsproxy'
 # 字节跳动
-[source.rsproxy-sparse]
+[source.rsproxy]
 registry = "sparse+https://rsproxy.cn/index/"
 # 清华大学
 [source.tuna]
@@ -274,9 +280,21 @@ index = "sparse+https://mirrors.tuna.tsinghua.edu.cn/crates.io-index/"
 registry = "sparse+https://mirrors.ustc.edu.cn/crates.io-index/"
 [registries.ustc]
 index = "sparse+https://mirrors.ustc.edu.cn/crates.io-index/"
+# 北京外国语大学
+[source.bfsu]
+registry = "sparse+https://mirrors.bfsu.edu.cn/crates.io-index/"
+dl = "https://crates.io/api/v1/crates"
 # 上海交通大学
 [source.sjtu]
 registry = "sparse+https://mirrors.sjtug.sjtu.edu.cn/crates.io-index"
+# 浙江大学
+[source.zju]
+registry = "sparse+https://mirrors.zju.edu.cn/crates.io-index/"
+dl = "https://crates.io/api/v1/crates"
+# CERNET聚合镜像
+[source.cernet]
+registry = "sparse+https://mirrors.cernet.edu.cn/crates.io-index/"
+dl = "https://crates.io/api/v1/crates"
 # 阿里云
 [source.aliyun]
 registry = "sparse+https://mirrors.aliyun.com/crates.io-index/"
@@ -285,7 +303,6 @@ git-fetch-with-cli=true
 [http]
 check-revoke = false
 ```
-* Crate仓库 [https://github.com/hirevo/alexandrie](https://github.com/hirevo/alexandrie)
 
 
 
@@ -308,7 +325,7 @@ check-revoke = false
 + [https://github.com/erickt](https://github.com/erickt)
 + 时间 [https://github.com/time-rs](https://github.com/time-rs)
 + [https://github.com/chronotope/chrono](https://github.com/chronotope/chrono)
-+ WEB [https://github.com/nickel-org](https://github.com/nickel-org)
++ Web [https://github.com/nickel-org](https://github.com/nickel-org)
 + [https://github.com/marshallpierce](https://github.com/marshallpierce)
 + [https://github.com/leptos-rs/leptos](https://github.com/leptos-rs/leptos)
 + 渲染 [https://github.com/gfx-rs](https://github.com/gfx-rs)
@@ -691,6 +708,7 @@ check-revoke = false
 * 字符串分割 [https://github.com/unicode-rs/unicode-segmentation](https://github.com/unicode-rs/unicode-segmentation)
 * 类型生成 [https://github.com/1password/typeshare](https://github.com/1password/typeshare)
 * 3D图形库 [https://github.com/three-rs/three](https://github.com/three-rs/three)
+* 2D [https://github.com/linebender/vello](https://github.com/linebender/vello)
 * SIMD库 [https://github.com/adamniederer/faster](https://github.com/adamniederer/faster)
 * 异步运行时 [https://github.com/tokio-rs/tokio](https://github.com/tokio-rs/tokio)
 * 并发通道 [https://github.com/fereidani/kanal](https://github.com/fereidani/kanal)

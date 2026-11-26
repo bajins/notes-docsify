@@ -62,6 +62,7 @@
 * 垃圾回收 [https://developer.aliyun.com/article/777750](https://developer.aliyun.com/article/777750)
 * 虚拟线程 [https://www.oschina.net/news/190175/java-virtual-threads-preview](https://www.oschina.net/news/190175/java-virtual-threads-preview)
 * 并发测试 [https://distributed-computing-musings.com/2022/11/testing-for-concurrency-on-jvm](https://distributed-computing-musings.com/2022/11/testing-for-concurrency-on-jvm)
+* [https://github.com/sandeepmb/jdk-virtual-threads-benchmark](https://github.com/sandeepmb/jdk-virtual-threads-benchmark)
 * Java性能 [https://richardstartin.github.io/posts/5-java-mundane-performance-tricks](https://richardstartin.github.io/posts/5-java-mundane-performance-tricks)
 * Lambda [https://segmentfault.com/a/1190000009186509](https://segmentfault.com/a/1190000009186509)
 * Java教程 [https://dunwu.github.io/javacore](https://dunwu.github.io/javacore)
@@ -73,7 +74,8 @@
 * 字符串拼接 [https://mp.weixin.qq.com/s/JDil0hDZD3M7Zk_13Ppj9w](https://mp.weixin.qq.com/s/JDil0hDZD3M7Zk_13Ppj9w)
 * 虚拟线程 [https://mp.weixin.qq.com/s/0h33MMzUau8Al4H9p8V9Vg](https://mp.weixin.qq.com/s/0h33MMzUau8Al4H9p8V9Vg)
 * 虚拟线程 [https://github.com/mariofusco/game-of-life-csp](https://github.com/mariofusco/game-of-life-csp)
-
+* [Java 异步编程：从 Future 到 Loom](https://blog.csdn.net/hellozhxy/article/details/119239776)
+* [超越传统线程：探索Java Loom协程(纤程/虚拟线程)的无限潜力](https://blog.csdn.net/citywu123/article/details/132141035)
 
 
 **Windows隐藏窗口后台运行jar包（推荐vbs可设置JVM参数）**

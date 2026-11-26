@@ -130,7 +130,11 @@ with Test() as t: # 触发__exit__
     * [https://github.com/vurtun/nuklear](https://github.com/vurtun/nuklear)
     * [http://github.xiaoc.cn/ghaerr/microwindows](http://github.xiaoc.cn/ghaerr/microwindows)
 * [https://github.com/ethan-funny](https://github.com/ethan-funny)
+* 静态检查 [https://github.com/zubanls/zuban](https://github.com/zubanls/zuban)
+* [https://github.com/RobertCraigie/pyright-python](https://github.com/RobertCraigie/pyright-python)
+* [https://github.com/pyrefly-org/pyrefly](https://github.com/pyrefly-org/pyrefly)
 * [https://github.com/astral-sh/ty](https://github.com/astral-sh/ty)
+* [https://github.com/google/pytype](https://github.com/google/pytype)
 * 编译成二进制 [https://github.com/xxnuo/py2dist](https://github.com/xxnuo/py2dist)
 * Python打包 [https://github.com/indygreg/pyoxidizer](https://github.com/indygreg/pyoxidizer)
 * Python编译器 [https://github.com/exaloop/codon](https://github.com/exaloop/codon)
@@ -202,14 +206,22 @@ vi /usr/libexec/urlgrabber-ext-down
 ```
 
 
-## pip
+## 包管理器
+
+> pip 是通用的 Python 包安装器，既能安装库，也能安装 CLI 应用。pipx 则是专用工具，只安装 CLI 应用，不安装供代码导入的库。
+
 
 * [https://github.com/pypa](https://github.com/pypa)
     * [https://pypi.org](https://pypi.org)
     * [https://www.cnpython.com/pypi](https://www.cnpython.com/pypi)
-* [https://packaging.python.org/tutorials/installing-packages](https://packaging.python.org/tutorials/installing-packages)
-* [Python包管理工作流](https://frostming.com/2018/09-14/python-packaging-flow)
-* 包和项目管理器 [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv)
+    * [https://packaging.python.org/tutorials/installing-packages](https://packaging.python.org/tutorials/installing-packages)
+    * [Python包管理工作流](https://frostming.com/2018/09-14/python-packaging-flow)
+* [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv)
+* 安装CLI应用 [https://github.com/pypa/pipx](https://github.com/pypa/pipx)
+    * [pipx 与 11 种工具的区别](https://pipx.pypa.io/stable/explanation/comparisons.html)
+* [https://github.com/PyAr/fades](https://github.com/PyAr/fades)
+* [https://github.com/jaraco/pip-run](https://github.com/jaraco/pip-run)
+* ~~[https://github.com/mitsuhiko/pipsi](https://github.com/mitsuhiko/pipsi)~~
 * 依赖保持最新 [https://github.com/jazzband/pip-tools](https://github.com/jazzband/pip-tools)
 
 
@@ -253,13 +265,14 @@ conda deactivate # 退出当前环境
 
 
 * [https://github.com/pyenv/pyenv](https://github.com/pyenv/pyenv)
-* [https://github.com/pdm-project/pdm](https://github.com/pdm-project/pdm)
 * [https://github.com/python-poetry/poetry](https://github.com/python-poetry/poetry)
+* [https://github.com/pdm-project/pdm](https://github.com/pdm-project/pdm)
+* [https://github.com/pypa/hatch](https://github.com/pypa/hatch)
 * [https://github.com/pypa/pipenv](https://github.com/pypa/pipenv)
 * [https://github.com/pypa/virtualenv](https://github.com/pypa/virtualenv)
     * [https://github.com/python-virtualenvwrapper/virtualenvwrapper](https://github.com/python-virtualenvwrapper/virtualenvwrapper)
     * [https://github.com/davidmarble/virtualenvwrapper-win](https://github.com/davidmarble/virtualenvwrapper-win)
-* [https://github.com/pypa/pipx](https://github.com/pypa/pipx)
+* [https://github.com/cynic-net/pactivate](https://github.com/cynic-net/pactivate)
 * Anaconda [https://github.com/ContinuumIO](https://github.com/ContinuumIO)
     * [https://github.com/Anaconda-Platform](https://github.com/Anaconda-Platform)
 * Miniconda [https://github.com/conda/conda](https://github.com/conda/conda)
@@ -293,7 +306,7 @@ conda deactivate # 退出当前环境
 
 ```batch
 # 使用pip参数`-i 网址`，如果不是`https`协议网址需要加--trusted-host参数
-pip install -i http://pypi.douban.com/simple --trusted-host pypi.douban.com requests
+pip install -i https://pypi.tuna.tsinghua.edu.cn/simple --trusted-host pypi.douban.com requests
 ```
 
 - 使用命令全局配置

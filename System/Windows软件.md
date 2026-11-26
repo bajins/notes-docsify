@@ -1352,6 +1352,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
     * [https://github.com/OneKeePass/desktop](https://github.com/OneKeePass/desktop)
 * [https://github.com/bitwarden](https://github.com/bitwarden)
     * [https://github.com/dani-garcia/vaultwarden](https://github.com/dani-garcia/vaultwarden)
+* [https://github.com/openbao/openbao](https://github.com/openbao/openbao)
 * [https://github.com/twofas](https://github.com/twofas)
     * [https://2fas.com](https://2fas.com)
 * [https://www.zoho.com/vault](https://www.zoho.com/vault)

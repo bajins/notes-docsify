@@ -160,6 +160,8 @@
 * [https://github.com/Skydio/revup](https://github.com/Skydio/revup)
 * [https://github.com/git-town/git-town](https://github.com/git-town/git-town)
 * 根据日志生成Changelog [https://github.com/topics/release](https://github.com/topics/release)
+* [https://github.com/changesets/changesets](https://github.com/changesets/changesets)
+* [https://github.com/dmno-dev/bumpy](https://github.com/dmno-dev/bumpy)
 * [https://github.com/orhun/git-cliff](https://github.com/orhun/git-cliff)
 * [https://github.com/conventional-changelog](https://github.com/conventional-changelog)
 * [https://github.com/release-it/release-it](https://github.com/release-it/release-it)
@@ -176,6 +178,7 @@
 * [https://github.com/Lionad-Morotar/project-river](https://github.com/Lionad-Morotar/project-river)
 * 仓库信息生成静态页面 [https://github.com/antonmedv/gitmal](https://github.com/antonmedv/gitmal)
 * [https://github.com/littledivy/dgit](https://github.com/littledivy/dgit)
+* 远程同步到远程 [https://github.com/entireio/git-sync](https://github.com/entireio/git-sync)
 
 
 
