@@ -786,6 +786,8 @@
 + [https://github.com/22705/IPTV-2](https://github.com/22705/IPTV-2)
 + [https://github.com/biancangming/wtv](https://github.com/biancangming/wtv)
 + [https://github.com/Guovin/iptv-api](https://github.com/Guovin/iptv-api)
++ [https://github.com/vamoschuck/tv](https://github.com/vamoschuck/tv)
++ [https://github.com/whpsky/iptv](https://github.com/whpsky/iptv)
 
 
 * 桌面 [https://github.com/pengchujin/aerial-tv](https://github.com/pengchujin/aerial-tv)
@@ -798,6 +800,7 @@
 * [https://github.com/EdenwareApps/Megacubo](https://github.com/EdenwareApps/Megacubo)
     * [https://sourceforge.net/projects/megacubo-br](https://sourceforge.net/projects/megacubo-br)
 * [https://github.com/FongMi/TV](https://github.com/FongMi/TV)
+* [https://github.com/4gray/iptvnator](https://github.com/4gray/iptvnator)
 * [https://github.com/NAStool/nas-tools](https://github.com/NAStool/nas-tools)
 * [https://github.com/liu673cn/box](https://github.com/liu673cn/box)
     * [https://github.com/CatVodTVOfficial/TVBoxOSC](https://github.com/CatVodTVOfficial/TVBoxOSC)

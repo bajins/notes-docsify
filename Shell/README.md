@@ -108,6 +108,7 @@
 - [https://github.com/jhspetersson/fselect](https://github.com/jhspetersson/fselect)
 - [https://github.com/ajeetdsouza/zoxide](https://github.com/ajeetdsouza/zoxide)
 - [https://github.com/antonmedv/walk](https://github.com/antonmedv/walk)
+- [https://github.com/foursmith/vl](https://github.com/foursmith/vl)
 - 去重工具 [https://github.com/zer0yu/anew](https://github.com/zer0yu/anew)
 - 磁盘分析 [https://github.com/konosubakonoakua/ncdu-zig](https://github.com/konosubakonoakua/ncdu-zig)
 - 现代ls命令 [https://github.com/eza-community/eza](https://github.com/eza-community/eza)

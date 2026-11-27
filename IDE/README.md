@@ -525,6 +525,7 @@
 + [https://github.com/mgramin/awesome-db-tools](https://github.com/mgramin/awesome-db-tools)
 
 
+* [https://github.com/sao-coding/locus](https://github.com/sao-coding/locus)
 * [https://github.com/slashbaseide/slashbase](https://github.com/slashbaseide/slashbase)
 * [https://github.com/dbeaver/dbeaver](https://github.com/dbeaver/dbeaver)
     * [https://dbeaver.io](https://dbeaver.io)

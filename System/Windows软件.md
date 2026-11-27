@@ -553,7 +553,6 @@
 - FFmpeg命令 [https://amiaopensource.github.io/ffmprovisr](https://amiaopensource.github.io/ffmprovisr)
 - 录屏工具 [https://www.cockos.com/licecap](https://www.cockos.com/licecap)
 - 弹幕追番 [https://github.com/open-ani/ani](https://github.com/open-ani/ani)
-- IPTV播放 [https://github.com/4gray/iptvnator](https://github.com/4gray/iptvnator)
 - 网易云播放 [https://github.com/qier222/yesplaymusic](https://github.com/qier222/yesplaymusic)
 - 音乐播放器 [https://github.com/losses/rune](https://github.com/losses/rune)
 - 音乐API服务 [https://github.com/lxmusics/lx-music-api-server-python](https://github.com/lxmusics/lx-music-api-server-python)
@@ -561,8 +560,12 @@
 - KODI配置 [https://zhuanlan.zhihu.com/p/469759517](https://zhuanlan.zhihu.com/p/469759517)
 - 媒体管理工具 [https://zhuanlan.zhihu.com/p/436060257](https://zhuanlan.zhihu.com/p/436060257)
 - PLEX影音配置 [https://zhuanlan.zhihu.com/p/609435128](https://zhuanlan.zhihu.com/p/609435128)
-- IP电视源 [https://github.com/vamoschuck/tv](https://github.com/vamoschuck/tv)
-- IP电视源 [https://github.com/whpsky/iptv](https://github.com/whpsky/iptv)
+- [https://github.com/Minireel/HGhub](https://github.com/Minireel/HGhub)
+    - [https://github.com/Kepler16f/HGhub](https://github.com/Kepler16f/HGhub)
+    - [https://github.com/zxsos/HGhubX](https://github.com/zxsos/HGhubX)
+- [https://github.com/MoonTechLab/LunaTV](https://github.com/MoonTechLab/LunaTV)
+    - [https://github.com/mtvpls/MoonTVPlus](https://github.com/mtvpls/MoonTVPlus)
+    - [https://github.com/samqin123/MoonTV](https://github.com/samqin123/MoonTV)
 
 
 **Potplayer**
@@ -1155,6 +1158,7 @@ GL9QG-DNC62-6LCMG-DRQTL-QR9HD
     * [https://github.com/MaskerPRC/everything-ai-chat](https://github.com/MaskerPRC/everything-ai-chat)
 * AnyTXT Searcher [https://anytxt.net](https://anytxt.net)
 * [https://www.listary.com](https://www.listary.com)
+* [https://github.com/R-Hatim/scry](https://github.com/R-Hatim/scry)
 * [https://github.com/Flow-Launcher/Flow.Launcher](https://github.com/Flow-Launcher/Flow.Launcher)
 * [https://github.com/Wox-launcher/Wox](https://github.com/Wox-launcher/Wox)
 * [https://www.wisecleaner.com/wise-jetsearch.html](https://www.wisecleaner.com/wise-jetsearch.html)

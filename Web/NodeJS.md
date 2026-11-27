@@ -197,6 +197,7 @@
 * FreeType绑定 [https://github.com/ericfreese/node-freetype2](https://github.com/ericfreese/node-freetype2)
 
 
+- 网页录屏CLI [https://github.com/gnawbit/tabretake](https://github.com/gnawbit/tabretake)
 
 
 ## 版本管理
